@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<osm generator="osmapis" version="0.6">
+	<node changeset="16646318" id="2354947938" lat="63.6513624" lon="10.275641" timestamp="2013-06-21T16:39:46Z" uid="1556391" user="relet" version="2" />
+	<node changeset="16646318" id="2354947939" lat="63.651394" lon="10.2758838" timestamp="2013-06-21T16:39:46Z" uid="1556391" user="relet" version="2" />
+	<node changeset="16646318" id="2354947940" lat="63.651274" lon="10.2756994" timestamp="2013-06-21T16:39:46Z" uid="1556391" user="relet" version="2" />
+	<node changeset="58620907" id="2354929583" lat="63.713328" lon="10.604897" timestamp="2018-05-02T17:04:05Z" uid="3497659" user="NKA" version="2">
+		<tag k="name" v="Åsen" />
+		<tag k="place" v="farm" />
+		<tag k="source" v="Kartverket" />
+		<tag k="ssr:stedsnr" v="255482" />
+	</node>
+	<node changeset="16646318" id="2354948251" lat="63.6513056" lon="10.2759422" timestamp="2013-06-21T16:39:45Z" uid="1556391" user="relet" version="1" />
+	<node changeset="16646222" id="2354943034" lat="63.789273" lon="10.6223812" timestamp="2013-06-21T16:32:00Z" uid="1556391" user="relet" version="2" />
+	<node changeset="16646222" id="2354943035" lat="63.790543" lon="10.63252" timestamp="2013-06-21T16:32:00Z" uid="1556391" user="relet" version="2" />
+	<way changeset="58620907" id="226739835" timestamp="2018-05-02T17:09:23Z" uid="3497659" user="NKA" version="2">
+		<tag k="name" v="Seterdalen" />
+		<tag k="natural" v="valley" />
+		<tag k="source" v="Kartverket" />
+		<tag k="ssr:stedsnr" v="471442" />
+		<nd ref="2354943034" />
+		<nd ref="2354943035" />
+	</way>
+	<way changeset="58620907" id="226740517" timestamp="2018-05-02T17:09:23Z" uid="3497659" user="NKA" version="4">
+		<tag k="building" v="house" />
+		<tag k="name" v="Haugen" />
+		<tag k="source" v="Kartverket" />
+		<tag k="ssr:stedsnr" v="959300" />
+		<nd ref="2354947938" />
+		<nd ref="2354947939" />
+		<nd ref="2354948251" />
+		<nd ref="2354947940" />
+		<nd ref="2354947938" />
+	</way>
+</osm>
