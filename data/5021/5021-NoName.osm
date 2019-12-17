@@ -1,52 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <osm generator="osmapis" version="0.6">
-	<node id="-853022" lat="62.475708334" lon="9.55224721946">
-		<tag k="loc_name" v="Stølgardan" />
-		<tag k="place" v="hamlet" />
-		<tag k="ssr:date" v="2018-01-09" />
-		<tag k="ssr:gruppe" v="bebyggelsesområder" />
-		<tag k="ssr:hovedgruppe" v="bebyggelse" />
-		<tag k="ssr:stedsnr" v="814419" />
-		<tag k="ssr:type" v="grend" />
-	</node>
-	<node id="-854395" lat="62.5899495643" lon="9.66956423342">
-		<tag k="fixme" v="consider place=hamlet" />
-		<tag k="loc_name" v="Pikhaugen" />
-		<tag k="place" v="farm" />
-		<tag k="ssr:date" v="2018-01-09" />
-		<tag k="ssr:gruppe" v="gardsbebyggelse" />
-		<tag k="ssr:hovedgruppe" v="bebyggelse" />
-		<tag k="ssr:stedsnr" v="972470" />
-		<tag k="ssr:type" v="gard" />
-	</node>
-	<node id="-854682" lat="62.5194333297" lon="9.87494166559">
-		<tag k="amenity" v="cafe" />
-		<tag k="old_name" v="Orkelsjøhytta" />
-		<tag k="ssr:date" v="2018-01-09" />
-		<tag k="ssr:gruppe" v="næring" />
-		<tag k="ssr:hovedgruppe" v="bebyggelse" />
-		<tag k="ssr:stedsnr" v="282203" />
-		<tag k="ssr:type" v="serveringssted" />
-	</node>
-	<node id="-854096" lat="62.6118611102" lon="9.73790833845">
-		<tag k="amenity" v="school" />
-		<tag k="old_name" v="Stølen skole" />
-		<tag k="ssr:date" v="2018-01-09" />
-		<tag k="ssr:gruppe" v="institusjoner" />
-		<tag k="ssr:hovedgruppe" v="bebyggelse" />
-		<tag k="ssr:stedsnr" v="271769" />
-		<tag k="ssr:type" v="skole" />
-	</node>
-	<node id="-854538" lat="62.6164055584" lon="9.56323888349">
-		<tag k="amenity" v="sports_centre" />
-		<tag k="old_name" v="Berghallen forsamlingshus" />
-		<tag k="ssr:date" v="2018-01-09" />
-		<tag k="ssr:gruppe" v="fritidsanlegg" />
-		<tag k="ssr:hovedgruppe" v="bebyggelse" />
-		<tag k="ssr:stedsnr" v="149843" />
-		<tag k="ssr:type" v="idrettshall" />
-	</node>
-	<node id="-853735" lat="62.6055611101" lon="9.81575833938">
+	<node id="-848510" lat="62.6055611101" lon="9.81575833938">
 		<tag k="fixme" v="consider highway=path" />
 		<tag k="highway" v="track" />
 		<tag k="old_name" v="Kviknvangvegen" />
@@ -56,7 +10,25 @@
 		<tag k="ssr:stedsnr" v="893455" />
 		<tag k="ssr:type" v="traktorveg" />
 	</node>
-	<node id="-853731" lat="62.4891444418" lon="9.34597499279">
+	<node id="-849660" lat="62.6043250041" lon="9.64546388792">
+		<tag k="amenity" v="school" />
+		<tag k="old_name" v="Fjellvang skole;Fjellvang" />
+		<tag k="ssr:date" v="2018-01-09" />
+		<tag k="ssr:gruppe" v="institusjoner" />
+		<tag k="ssr:hovedgruppe" v="bebyggelse" />
+		<tag k="ssr:stedsnr" v="756559" />
+		<tag k="ssr:type" v="skole" />
+	</node>
+	<node id="-847802" lat="62.475708334" lon="9.55224721946">
+		<tag k="loc_name" v="Stølgardan" />
+		<tag k="place" v="hamlet" />
+		<tag k="ssr:date" v="2018-01-09" />
+		<tag k="ssr:gruppe" v="bebyggelsesområder" />
+		<tag k="ssr:hovedgruppe" v="bebyggelse" />
+		<tag k="ssr:stedsnr" v="814419" />
+		<tag k="ssr:type" v="grend" />
+	</node>
+	<node id="-848506" lat="62.4891444418" lon="9.34597499279">
 		<tag k="loc_name" v="Snøfjellstjønnin" />
 		<tag k="natural" v="water" />
 		<tag k="ssr:date" v="2018-01-09" />
@@ -65,13 +37,41 @@
 		<tag k="ssr:stedsnr" v="517373" />
 		<tag k="ssr:type" v="tjern" />
 	</node>
-	<node id="-854890" lat="62.6043250041" lon="9.64546388792">
+	<node id="-849310" lat="62.6164055584" lon="9.56323888349">
+		<tag k="amenity" v="sports_centre" />
+		<tag k="old_name" v="Berghallen forsamlingshus" />
+		<tag k="ssr:date" v="2018-01-09" />
+		<tag k="ssr:gruppe" v="fritidsanlegg" />
+		<tag k="ssr:hovedgruppe" v="bebyggelse" />
+		<tag k="ssr:stedsnr" v="149843" />
+		<tag k="ssr:type" v="idrettshall" />
+	</node>
+	<node id="-847570" lat="62.4363917967" lon="9.44841634178">
+		<tag k="loc_name" v="Langglupbekken" />
+		<tag k="ssr:date" v="2019-11-27" />
+		<tag k="ssr:gruppe" v="rennendeVann" />
+		<tag k="ssr:hovedgruppe" v="ferskvann" />
+		<tag k="ssr:stedsnr" v="1073564" />
+		<tag k="ssr:type" v="bekk" />
+		<tag k="waterway" v="stream" />
+	</node>
+	<node id="-849169" lat="62.5899495643" lon="9.66956423342">
+		<tag k="fixme" v="consider place=hamlet" />
+		<tag k="loc_name" v="Pikhaugen" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2018-01-09" />
+		<tag k="ssr:gruppe" v="gardsbebyggelse" />
+		<tag k="ssr:hovedgruppe" v="bebyggelse" />
+		<tag k="ssr:stedsnr" v="972470" />
+		<tag k="ssr:type" v="gard" />
+	</node>
+	<node id="-848870" lat="62.6118611102" lon="9.73790833845">
 		<tag k="amenity" v="school" />
-		<tag k="old_name" v="Fjellvang skole;Fjellvang" />
+		<tag k="old_name" v="Stølen skole" />
 		<tag k="ssr:date" v="2018-01-09" />
 		<tag k="ssr:gruppe" v="institusjoner" />
 		<tag k="ssr:hovedgruppe" v="bebyggelse" />
-		<tag k="ssr:stedsnr" v="756559" />
+		<tag k="ssr:stedsnr" v="271769" />
 		<tag k="ssr:type" v="skole" />
 	</node>
 </osm>

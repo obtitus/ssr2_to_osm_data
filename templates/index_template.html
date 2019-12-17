@@ -1,0 +1,142 @@
+
+<!DOCTYPE html>
+<html>
+
+  <head>
+
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"> </script>
+      <script> <!-- https://stackoverflow.com/a/8796609 -->
+	$(document).ready(function(){
+	console.log( "ready!" );
+	$("#filters :checkbox").click(function() {
+	    //$("tr").hide();
+	    $("tr[type='data']").hide();
+	    $("#filters :checkbox:checked").each(function() {
+		$("." + $(this).val()).show();
+	    });
+	});
+	})
+    </script>
+
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="description" content="DESCRIPTION">
+
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+
+    <title>SSR2 to OSM</title>
+
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type="text/javascript">
+google.load('visualization', '1.1', {packages: ['corechart', 'controls']});
+google.setOnLoadCallback(drawChart);
+
+function getControl_wrapper(id) {
+    var control = new google.visualization.ControlWrapper({
+        'controlType': 'ChartRangeFilter',
+        'containerId': id,
+        'options': {
+	    'filterColumnIndex': 0, // Filter by the date axis.
+	    'ui': {
+		'chartType': 'LineChart',
+		'chartOptions': {
+		    'chartArea': {'left': "8%", 'width': "85%"},
+		    'hAxis': {'baselineColor': 'none'}
+		},
+		'minRangeSize': 86400000 // 1 day in milliseconds = 24 * 60 * 60 * 1000 = 86,400,000
+	    }
+        },
+    });
+    return control;
+}
+
+function drawChart() {
+{{chart}}
+}
+    </script>
+  </head>
+
+  <body>
+
+    {{header}}
+    
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+	<div id="dashboard_progress_total">
+	  <div id="chart_id_history" style='height: 400px;'></div>
+	  <div id="control_id_history" style='height: 50px;'></div>
+	</div>
+	
+        <h1>
+	  <a id="ssr2_to_osm" class="anchor" href="#ssr2_to_osm" aria-hidden="true"><span class="octicon octicon-link"></span></a>{{ heading }}</h1>
+	<p>
+	  {{info}}
+	</p>
+	<p>Data last fetched from SSR on: {{last_update}}</p>
+
+	{{errors}}
+
+	<div class="filters">
+	<p>Filter by fylke:</p>
+	<table id="filters" class="filters">
+	  <tr>
+	  {%- for fylke_name, fylke_nr in fylker %}
+	  <td class="filters">
+            <input type="checkbox" value="{{fylke_nr}}" id="filter-{{fylke_nr}}"/>
+            <label for="filter-{{fylke_nr}}">{{fylke_name}}</label>
+	  </td>
+	  {%- endfor %}
+	  <tr>
+	</table>
+	</div>
+	
+      <table> <!--  class="layout display responsive-table" -->
+	<thead>
+          <tr>
+            <th>Fylke</th>
+            <th>Kommune</th>
+            <th>Dataset for import</th>
+	    <th>Excerpts for import</th>
+	    <th>Excluded from import</th>
+	    <!-- <th>Raw data from Kartverket</th> -->
+          </tr>
+	</thead>
+	<tbody>
+	  {%- for row in table %}
+	  <tr type="data" class="{{ row[0] }}">
+	    {%- for item in row[1:] %}
+	    {%- if item is string %}
+	    <td>{{ item }}</td>
+	    {%- else %}
+	    <td><table class="nested-table">
+		{%- for nested_item in item %}
+		<tr><td class="nested-table"> {{ nested_item }} </td></tr>
+		{%- endfor %}
+	    </td></table>      
+	    {%- endif %}
+	    {%- endfor %}
+	  </tr>
+	  {%- endfor %}
+	</tbody>
+      </table>
+
+      </section>
+    </div>
+
+    {{footer}}
+    
+          <!--     <script type="text/javascript"> -->
+          <!--   var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www."); -->
+          <!--   document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E")); -->
+          <!-- </script> -->
+          <!-- <script type="text/javascript"> -->
+          <!--   try { -->
+          <!--     var pageTracker = _gat._getTracker("UA-2401814-5"); -->
+          <!--   pageTracker._trackPageview(); -->
+          <!--   } catch(err) {} -->
+          <!-- </script> -->
+
+
+  </body>
+</html>

@@ -12,7 +12,7 @@
 	<node changeset="22708058" id="2896551952" lat="59.5212953" lon="11.2530501" timestamp="2014-06-03T06:25:54Z" uid="1872183" user="sturlak" version="1" />
 	<node changeset="22708058" id="2896551953" lat="59.5216045" lon="11.2529873" timestamp="2014-06-03T06:25:54Z" uid="1872183" user="sturlak" version="1" />
 	<node changeset="22708058" id="2896551954" lat="59.5217697" lon="11.2526718" timestamp="2014-06-03T06:25:54Z" uid="1872183" user="sturlak" version="1" />
-	<node changeset="22708058" id="2896551955" lat="59.5217915" lon="11.2523768" timestamp="2014-06-03T06:25:54Z" uid="1872183" user="sturlak" version="1" />
+	<node changeset="75456569" id="2896551955" lat="59.5217903" lon="11.2524212" timestamp="2019-10-09T11:29:48Z" uid="9517747" user="Fridus" version="2" />
 	<node changeset="22708058" id="2896551956" lat="59.5210901" lon="11.2521356" timestamp="2014-06-03T06:25:54Z" uid="1872183" user="sturlak" version="1" />
 	<node changeset="22708058" id="2896551957" lat="59.5211905" lon="11.2512885" timestamp="2014-06-03T06:25:54Z" uid="1872183" user="sturlak" version="1" />
 	<node changeset="22708058" id="2896551958" lat="59.5217295" lon="11.2513304" timestamp="2014-06-03T06:25:54Z" uid="1872183" user="sturlak" version="1" />
@@ -1077,8 +1077,9 @@
 		<tag k="place" v="farm" />
 		<tag k="ssr:stedsnr" v="206392" />
 	</node>
-	<node changeset="66902690" id="6257803792" lat="59.5730917" lon="11.2872611" timestamp="2019-02-04T12:59:06Z" uid="633013" user="Honning" version="1">
+	<node changeset="76125659" id="6257803792" lat="59.5730917" lon="11.2872611" timestamp="2019-10-23T22:00:43Z" uid="10262048" user="mtbboy1993" version="2">
 		<tag k="amenity" v="hospital" />
+		<tag k="healthcare" v="hospital" />
 		<tag k="name" v="Edwin Ruuds hospital" />
 		<tag k="ssr:stedsnr" v="206405" />
 	</node>
@@ -2669,6 +2670,7 @@
 	<node changeset="37221949" id="4007194062" lat="59.5798084" lon="11.2664268" timestamp="2016-02-15T11:08:49Z" uid="1872183" user="sturlak" version="1" />
 	<node changeset="22688422" id="2894981709" lat="59.5201183" lon="11.2447923" timestamp="2014-06-02T08:01:37Z" uid="1872183" user="sturlak" version="1" />
 	<node changeset="37221949" id="4007196114" lat="59.5828909" lon="11.2502477" timestamp="2016-02-15T11:08:57Z" uid="1872183" user="sturlak" version="1" />
+	<node changeset="77196534" id="6985460467" lat="59.5861234" lon="11.2687885" timestamp="2019-11-17T18:37:40Z" uid="10262048" user="mtbboy1993" version="1" />
 	<node changeset="37168693" id="4002616794" lat="59.5816745" lon="11.3321043" timestamp="2016-02-12T14:00:28Z" uid="1872183" user="sturlak" version="1" />
 	<node changeset="37221949" id="4007195019" lat="59.5812052" lon="11.2533153" timestamp="2016-02-15T11:08:53Z" uid="1872183" user="sturlak" version="1" />
 	<node changeset="37221949" id="4007196125" lat="59.5830128" lon="11.2498549" timestamp="2016-02-15T11:08:57Z" uid="1872183" user="sturlak" version="1" />
@@ -2969,12 +2971,13 @@
 		<nd ref="2682147963" />
 		<nd ref="2682147948" />
 	</way>
-	<way changeset="66902690" id="263821204" timestamp="2019-02-04T12:59:23Z" uid="633013" user="Honning" version="3">
+	<way changeset="77196534" id="263821204" timestamp="2019-11-17T18:37:40Z" uid="10262048" user="mtbboy1993" version="4">
 		<tag k="landuse" v="farmyard" />
 		<tag k="name" v="Morstang" />
 		<tag k="place" v="farm" />
 		<tag k="ssr:stedsnr" v="246578" />
 		<nd ref="2694708242" />
+		<nd ref="6985460467" />
 		<nd ref="2694708243" />
 		<nd ref="2694708244" />
 		<nd ref="4005311456" />
@@ -3192,7 +3195,8 @@
 		<nd ref="2845923202" />
 		<nd ref="2845919793" />
 	</way>
-	<way changeset="66902690" id="668245432" timestamp="2019-02-04T12:59:22Z" uid="633013" user="Honning" version="1">
+	<way changeset="75938220" id="668245432" timestamp="2019-10-19T19:37:41Z" uid="443181" user="Marius Geitle" version="2">
+		<tag k="FIXME" v="Merge" />
 		<tag k="landuse" v="farmyard" />
 		<tag k="name" v="Langbråten" />
 		<tag k="place" v="farm" />
@@ -3209,7 +3213,8 @@
 		<nd ref="6257801653" />
 		<nd ref="6257801662" />
 	</way>
-	<way changeset="66902690" id="668245433" timestamp="2019-02-04T12:59:22Z" uid="633013" user="Honning" version="1">
+	<way changeset="75937987" id="668245433" timestamp="2019-10-19T19:25:28Z" uid="443181" user="Marius Geitle" version="2">
+		<tag k="FIXME" v="Merge" />
 		<tag k="landuse" v="farmyard" />
 		<tag k="name" v="Langbråten" />
 		<tag k="place" v="farm" />
@@ -3225,7 +3230,8 @@
 		<nd ref="6257801663" />
 		<nd ref="6257801671" />
 	</way>
-	<way changeset="66902690" id="668245434" timestamp="2019-02-04T12:59:22Z" uid="633013" user="Honning" version="1">
+	<way changeset="75938220" id="668245434" timestamp="2019-10-19T19:37:41Z" uid="443181" user="Marius Geitle" version="2">
+		<tag k="FIXME" v="Merge" />
 		<tag k="landuse" v="farmyard" />
 		<tag k="name" v="Dingtorp" />
 		<tag k="place" v="farm" />
@@ -3244,7 +3250,8 @@
 		<nd ref="6257801672" />
 		<nd ref="6257801683" />
 	</way>
-	<way changeset="66902690" id="668245435" timestamp="2019-02-04T12:59:22Z" uid="633013" user="Honning" version="1">
+	<way changeset="75937987" id="668245435" timestamp="2019-10-19T19:25:28Z" uid="443181" user="Marius Geitle" version="2">
+		<tag k="FIXME" v="Merge" />
 		<tag k="alt_name" v="Dintorp" />
 		<tag k="landuse" v="farmyard" />
 		<tag k="name" v="Dingtorp" />
@@ -3632,7 +3639,8 @@
 		<nd ref="2845456768" />
 		<nd ref="2845456765" />
 	</way>
-	<way changeset="66902690" id="668245438" timestamp="2019-02-04T12:59:22Z" uid="633013" user="Honning" version="1">
+	<way changeset="75938504" id="668245438" timestamp="2019-10-19T19:54:43Z" uid="443181" user="Marius Geitle" version="2">
+		<tag k="FIXME" v="Merge" />
 		<tag k="landuse" v="farmyard" />
 		<tag k="name" v="Filtvet" />
 		<tag k="place" v="farm" />

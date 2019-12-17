@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <osm generator="osmapis" version="0.6">
+	<node changeset="77398111" id="6997418005" lat="58.3693958" lon="8.578198" timestamp="2019-11-21T21:20:17Z" uid="103253" user="gormur" version="1" />
 	<node changeset="57982147" id="4257045703" lat="58.3856227" lon="8.5937467" timestamp="2018-04-10T18:41:12Z" uid="3497659" user="NKA" version="2">
 		<tag k="name" v="Kvernåsen" />
 		<tag k="natural" v="hill" />
@@ -763,7 +764,8 @@
 		<tag k="ssr:stedsnr" v="48415" />
 		<tag k="ssr:type" v="hei" />
 	</node>
-	<node changeset="57982147" id="4257044764" lat="58.3454928" lon="8.5859661" timestamp="2018-04-10T18:40:56Z" uid="3497659" user="NKA" version="2">
+	<node changeset="73955533" id="4257044764" lat="58.3454928" lon="8.5859661" timestamp="2019-08-31T18:46:17Z" uid="9274793" user="Adrian Hoffsten" version="3">
+		<tag k="ele" v="63" />
 		<tag k="name" v="Fløyheia" />
 		<tag k="natural" v="hill" />
 		<tag k="place" v="locality" />
@@ -1951,14 +1953,7 @@
 		<tag k="ssr:stedsnr" v="636321" />
 		<tag k="ssr:type" v="nesISjø" />
 	</node>
-	<node changeset="57982147" id="4258490891" lat="58.3688051" lon="8.5727012" timestamp="2018-04-10T18:41:55Z" uid="3497659" user="NKA" version="2">
-		<tag k="name" v="Deidalen" />
-		<tag k="natural" v="valley" />
-		<tag k="place" v="locality" />
-		<tag k="source" v="Kartverket SSR" />
-		<tag k="ssr:stedsnr" v="455278" />
-		<tag k="ssr:type" v="dal" />
-	</node>
+	<node changeset="77398111" id="4258490891" lat="58.3685603" lon="8.5699439" timestamp="2019-11-21T21:20:17Z" uid="103253" user="gormur" version="3" />
 	<node changeset="57982147" id="4258490892" lat="58.4727246" lon="8.450246" timestamp="2018-04-10T18:41:56Z" uid="3497659" user="NKA" version="2">
 		<tag k="name" v="Djupedal" />
 		<tag k="natural" v="valley" />
@@ -2345,7 +2340,8 @@
 		<tag k="ssr:stedsnr" v="898916" />
 		<tag k="ssr:type" v="stup" />
 	</node>
-	<node changeset="57982147" id="3958522429" lat="58.3437446" lon="8.5996132" timestamp="2018-04-10T18:40:16Z" uid="3497659" user="NKA" version="4">
+	<node changeset="74226484" id="3958522429" lat="58.3437446" lon="8.5996132" timestamp="2019-09-08T13:14:52Z" uid="103253" user="gormur" version="5">
+		<tag k="direction" v="S" />
 		<tag k="ele" v="58" />
 		<tag k="name" v="Binabben" />
 		<tag k="source" v="Kartverket SSR" />
@@ -3435,13 +3431,6 @@
 		<tag k="source" v="Kartverket SSR" />
 		<tag k="ssr:stedsnr" v="515123" />
 		<tag k="ssr:type" v="nesISjø" />
-	</node>
-	<node changeset="57982147" id="4258491086" lat="58.3247531" lon="8.5520825" timestamp="2018-04-10T18:42:19Z" uid="3497659" user="NKA" version="2">
-		<tag k="name" v="Rørkjerr" />
-		<tag k="place" v="locality" />
-		<tag k="source" v="Kartverket SSR" />
-		<tag k="ssr:stedsnr" v="636346" />
-		<tag k="ssr:type" v="jorde" />
 	</node>
 	<node changeset="57982147" id="4257046989" lat="58.3514213" lon="8.3445385" timestamp="2018-04-10T18:41:23Z" uid="3497659" user="NKA" version="2">
 		<tag k="name" v="Pråmåsen" />
@@ -7802,5 +7791,14 @@
 		<nd ref="5774477482" />
 		<nd ref="4256148620" />
 		<nd ref="5774477490" />
+	</way>
+	<way changeset="77398111" id="747919266" timestamp="2019-11-21T21:20:17Z" uid="103253" user="gormur" version="1">
+		<tag k="name" v="Deidalen" />
+		<tag k="natural" v="valley" />
+		<tag k="source" v="Kartverket SSR" />
+		<tag k="ssr:stedsnr" v="455278" />
+		<tag k="ssr:type" v="dal" />
+		<nd ref="4258490891" />
+		<nd ref="6997418005" />
 	</way>
 </osm>

@@ -109,7 +109,7 @@
 		<tag k="place" v="farm" />
 		<tag k="ssr:stedsnr" v="204597" />
 	</node>
-	<node changeset="66796129" id="6248947805" lat="59.6048167" lon="11.0997806" timestamp="2019-01-31T09:52:31Z" uid="633013" user="Honning" version="1">
+	<node changeset="74370367" id="6248947805" lat="59.6047505" lon="11.0998644" timestamp="2019-09-11T19:58:55Z" uid="5198133" user="Wulfmorn" version="2">
 		<tag k="name" v="Torget" />
 		<tag k="place" v="farm" />
 		<tag k="ssr:stedsnr" v="204640" />
@@ -291,11 +291,6 @@
 		<tag k="name" v="Vestre Rud" />
 		<tag k="place" v="farm" />
 		<tag k="ssr:stedsnr" v="429149" />
-	</node>
-	<node changeset="66796129" id="6248947840" lat="59.5853639" lon="11.0870555" timestamp="2019-01-31T09:52:33Z" uid="633013" user="Honning" version="1">
-		<tag k="name" v="Haltorp" />
-		<tag k="place" v="farm" />
-		<tag k="ssr:stedsnr" v="429166" />
 	</node>
 	<node changeset="66796129" id="6248947841" lat="59.5557917" lon="11.117025" timestamp="2019-01-31T09:52:33Z" uid="633013" user="Honning" version="1">
 		<tag k="name" v="Vrangen" />
@@ -687,6 +682,15 @@
 	<node changeset="20908244" id="2701150825" lat="59.6189924" lon="11.1202834" timestamp="2014-03-04T11:35:53Z" uid="1872183" user="sturlak" version="1" />
 	<node changeset="20908244" id="2701150826" lat="59.6190304" lon="11.1197577" timestamp="2014-03-04T11:35:53Z" uid="1872183" user="sturlak" version="1" />
 	<node changeset="20908244" id="2701150827" lat="59.6191117" lon="11.119629" timestamp="2014-03-04T11:35:53Z" uid="1872183" user="sturlak" version="1" />
+	<node changeset="77831265" id="3119889163" lat="59.585364" lon="11.087055" timestamp="2019-12-02T15:22:52Z" uid="10262048" user="mtbboy1993" version="3">
+		<tag k="addr:city" v="Spydeberg" />
+		<tag k="addr:housenumber" v="94" />
+		<tag k="addr:postcode" v="1821" />
+		<tag k="addr:street" v="Giltvedtveien" />
+		<tag k="name" v="Haltorp" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:stedsnr" v="429166" />
+	</node>
 	<node changeset="20886451" id="2699773061" lat="59.6089133" lon="11.0990877" timestamp="2014-03-03T11:42:04Z" uid="1872183" user="sturlak" version="1" />
 	<node changeset="20886451" id="2699773063" lat="59.6090816" lon="11.0998602" timestamp="2014-03-03T11:42:04Z" uid="1872183" user="sturlak" version="1" />
 	<node changeset="20886451" id="2699773064" lat="59.6086419" lon="11.1005039" timestamp="2014-03-03T11:42:04Z" uid="1872183" user="sturlak" version="1" />
@@ -750,9 +754,8 @@
 		<tag k="place" v="farm" />
 		<tag k="ssr:stedsnr" v="670346" />
 	</node>
-	<node changeset="66796129" id="6248947287" lat="59.6204557" lon="11.0642027" timestamp="2019-01-31T09:52:18Z" uid="633013" user="Honning" version="1">
+	<node changeset="77663274" id="6248947287" lat="59.6204557" lon="11.0642027" timestamp="2019-11-28T06:29:49Z" uid="10262048" user="mtbboy1993" version="2">
 		<tag k="alt_name" v="Løvstad vestre;Vestre Løvstad" />
-		<tag k="name" v="Vestre Løvestad" />
 		<tag k="place" v="farm" />
 		<tag k="ssr:stedsnr" v="670366" />
 	</node>
@@ -1812,6 +1815,9 @@
 		<tag k="place" v="farm" />
 		<tag k="ssr:stedsnr" v="143691" />
 	</node>
+	<node changeset="77167248" id="6982885336" lat="59.6083408" lon="11.0997372" timestamp="2019-11-16T15:14:46Z" uid="10262048" user="mtbboy1993" version="1" />
+	<node changeset="77167248" id="6982885361" lat="59.608401" lon="11.099498" timestamp="2019-11-16T15:14:46Z" uid="10262048" user="mtbboy1993" version="1" />
+	<node changeset="77167248" id="6982885362" lat="59.6084801" lon="11.0994346" timestamp="2019-11-16T15:14:46Z" uid="10262048" user="mtbboy1993" version="1" />
 	<way changeset="66796129" id="264286729" timestamp="2019-01-31T09:52:37Z" uid="633013" user="Honning" version="3">
 		<tag k="landuse" v="farmyard" />
 		<tag k="name" v="Østli" />
@@ -1824,7 +1830,7 @@
 		<nd ref="2699773198" />
 		<nd ref="2699773194" />
 	</way>
-	<way changeset="66796129" id="264286714" timestamp="2019-01-31T09:52:37Z" uid="633013" user="Honning" version="3">
+	<way changeset="77167248" id="264286714" timestamp="2019-11-16T15:14:46Z" uid="10262048" user="mtbboy1993" version="4">
 		<tag k="landuse" v="farmyard" />
 		<tag k="name" v="Haga" />
 		<tag k="place" v="farm" />
@@ -1832,7 +1838,10 @@
 		<nd ref="2699773061" />
 		<nd ref="2699773063" />
 		<nd ref="2699773064" />
+		<nd ref="6982885336" />
 		<nd ref="2699773066" />
+		<nd ref="6982885361" />
+		<nd ref="6982885362" />
 		<nd ref="2699773061" />
 	</way>
 	<way changeset="66796129" id="264435766" timestamp="2019-01-31T09:52:37Z" uid="633013" user="Honning" version="3">
