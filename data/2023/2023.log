@@ -1,4 +1,3 @@
-utility_to_osm.gentle_requests - INFO - requested http://wfs.geonorge.no/skwms1/wfs.stedsnavn50?VERSION=2.0.0&SERVICE=WFS&srsName=EPSG:25832&REQUEST=GetFeature&TYPENAME=Sted&resultType=results&Filter=%3CFilter%3E%20%3CPropertyIsEqualTo%3E%20%3CValueReference%20xmlns:app=%22http://skjema.geonorge.no/SOSI/produktspesifikasjon/Stedsnavn/5.0%22%3Eapp:kommune/app:Kommune/app:kommunenummer%3C/ValueReference%3E%20%3CLiteral%3E2023%3C/Literal%3E%20%3C/PropertyIsEqualTo%3E%20%3C/Filter%3E" --header "Content-Type:text/xml" ssr2_to_osm_data/data/2023/2023-ssr.xml, got <Response [200]>
 utility_to_osm - ERROR - ssr:stedsnr = 269377: No name found
 utility_to_osm - ERROR - ssr:stedsnr = 269461: No name found
 utility_to_osm - WARNING - ssr:stedsnr = 269461 has multiple (3) positions, using the first one!
@@ -2524,12 +2523,6 @@ utility_to_osm - WARNING - ssr:stedsnr = 946742: No priority spelling found for 
 utility_to_osm - WARNING - ssr:stedsnr = 946742 has multiple (2) positions, using the first one!
 utility_to_osm - ERROR - ssr:stedsnr = 976106: No name found
 utility_to_osm - ERROR - ssr:stedsnr = 976106: Adding multiple names to name tag, this is not OK! name = "Nord-Noreg;Nord-Norge"
-utility_to_osm.ssr2.ssr2_tags - INFO - ssr:type = fyrlykt found in conversion table, but without tags
-utility_to_osm.ssr2.ssr2_tags - INFO - ssr:type = fyrlykt found in conversion table, but without tags
-utility_to_osm.ssr2.ssr2_tags - INFO - ssr:type = fyrlykt found in conversion table, but without tags
-utility_to_osm.ssr2.ssr2_tags - INFO - ssr:type = fyrlykt found in conversion table, but without tags
-utility_to_osm.ssr2.ssr2_tags - INFO - ssr:type = lysbøye found in conversion table, but without tags
-utility_to_osm.ssr2.ssr2_tags - INFO - ssr:type = fyrlykt found in conversion table, but without tags
 utility_to_osm.ssr2.ssr2_tags - INFO - ssr:type = annenAdministrativInndeling found in conversion table, but without tags
 utility_to_osm.ssr2.ssr2_tags - INFO - ssr:type = lanterne found in conversion table, but without tags
 utility_to_osm.ssr2.ssr2_tags - INFO - ssr:type = kommune found in conversion table, but without tags
@@ -2538,4 +2531,10 @@ utility_to_osm.ssr2.ssr2_tags - INFO - ssr:type = fyrlykt found in conversion ta
 utility_to_osm.ssr2.ssr2_tags - INFO - ssr:type = fyrlykt found in conversion table, but without tags
 utility_to_osm.ssr2.ssr2_tags - INFO - ssr:type = fyrlykt found in conversion table, but without tags
 utility_to_osm.ssr2.ssr2_tags - INFO - ssr:type = fyrlykt found in conversion table, but without tags
-utility_to_osm - INFO - Done: Kommune = 2023, Duration: 0:01:03.754707
+utility_to_osm.ssr2.ssr2_tags - INFO - ssr:type = fyrlykt found in conversion table, but without tags
+utility_to_osm.ssr2.ssr2_tags - INFO - ssr:type = fyrlykt found in conversion table, but without tags
+utility_to_osm.ssr2.ssr2_tags - INFO - ssr:type = fyrlykt found in conversion table, but without tags
+utility_to_osm.ssr2.ssr2_tags - INFO - ssr:type = fyrlykt found in conversion table, but without tags
+utility_to_osm.ssr2.ssr2_tags - INFO - ssr:type = lysbøye found in conversion table, but without tags
+utility_to_osm.ssr2.ssr2_tags - INFO - ssr:type = fyrlykt found in conversion table, but without tags
+utility_to_osm - INFO - Done: Kommune = 2023, Duration: 0:00:25.791097

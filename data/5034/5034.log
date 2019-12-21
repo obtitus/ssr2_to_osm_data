@@ -1,4 +1,3 @@
-utility_to_osm.gentle_requests - INFO - requested http://wfs.geonorge.no/skwms1/wfs.stedsnavn50?VERSION=2.0.0&SERVICE=WFS&srsName=EPSG:25832&REQUEST=GetFeature&TYPENAME=Sted&resultType=results&Filter=%3CFilter%3E%20%3CPropertyIsEqualTo%3E%20%3CValueReference%20xmlns:app=%22http://skjema.geonorge.no/SOSI/produktspesifikasjon/Stedsnavn/5.0%22%3Eapp:kommune/app:Kommune/app:kommunenummer%3C/ValueReference%3E%20%3CLiteral%3E5034%3C/Literal%3E%20%3C/PropertyIsEqualTo%3E%20%3C/Filter%3E" --header "Content-Type:text/xml" ssr2_to_osm_data/data/5034/5034-ssr.xml, got <Response [200]>
 utility_to_osm - WARNING - ssr:stedsnr = 143746: No priority spelling found for lang = no, using alt_name to get "[('no', u'Ressidalen')]"
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Rangletjørna"
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Rangletjørna"
@@ -4059,11 +4058,11 @@ utility_to_osm - ERROR - ssr:stedsnr = 983743: No name found
 utility_to_osm - WARNING - ssr:stedsnr = 987432: No priority spelling found for lang = no, using alt_name to get "[('no', u'Mer\xe5kertr\xf8a')]"
 utility_to_osm - WARNING - ssr:stedsnr = 1031653: No priority spelling found for lang = no, using alt_name to get "[('no', u'\xc5sveien')]"
 utility_to_osm - ERROR - ssr:stedsnr = 1031653. No positions found, skipping
-utility_to_osm.ssr2.ssr2_tags - INFO - ssr:type = vegstrekning found in conversion table, but without tags
 utility_to_osm.ssr2.ssr2_tags - INFO - ssr:type = fylke found in conversion table, but without tags
 utility_to_osm.ssr2.ssr2_tags - INFO - ssr:type = adressetilleggsnavn found in conversion table, but without tags
 utility_to_osm.ssr2.ssr2_tags - INFO - ssr:type = vegstrekning found in conversion table, but without tags
 utility_to_osm.ssr2.ssr2_tags - INFO - ssr:type = adressenavn found in conversion table, but without tags
 utility_to_osm.ssr2.ssr2_tags - INFO - ssr:type = kommune found in conversion table, but without tags
 utility_to_osm.ssr2.ssr2_tags - INFO - ssr:type = adressetilleggsnavn found in conversion table, but without tags
-utility_to_osm - INFO - Done: Kommune = 5034, Duration: 0:01:48.075642
+utility_to_osm.ssr2.ssr2_tags - INFO - ssr:type = vegstrekning found in conversion table, but without tags
+utility_to_osm - INFO - Done: Kommune = 5034, Duration: 0:00:41.592469

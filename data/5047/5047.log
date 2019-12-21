@@ -1,4 +1,3 @@
-utility_to_osm.gentle_requests - INFO - requested http://wfs.geonorge.no/skwms1/wfs.stedsnavn50?VERSION=2.0.0&SERVICE=WFS&srsName=EPSG:25832&REQUEST=GetFeature&TYPENAME=Sted&resultType=results&Filter=%3CFilter%3E%20%3CPropertyIsEqualTo%3E%20%3CValueReference%20xmlns:app=%22http://skjema.geonorge.no/SOSI/produktspesifikasjon/Stedsnavn/5.0%22%3Eapp:kommune/app:Kommune/app:kommunenummer%3C/ValueReference%3E%20%3CLiteral%3E5047%3C/Literal%3E%20%3C/PropertyIsEqualTo%3E%20%3C/Filter%3E" --header "Content-Type:text/xml" ssr2_to_osm_data/data/5047/5047-ssr.xml, got <Response [200]>
 utility_to_osm - ERROR - ssr:stedsnr = 109403: No name found
 utility_to_osm - ERROR - ssr:stedsnr = 378824: No name found
 utility_to_osm - WARNING - ssr:stedsnr = 22085: No priority spelling found for lang = no, using alt_name to get "[('no', u'Leikhaugen')]"
@@ -3493,4 +3492,4 @@ utility_to_osm.ssr2.ssr2_tags - INFO - ssr:type = adressenavn found in conversio
 utility_to_osm.ssr2.ssr2_tags - INFO - ssr:type = adressenavn found in conversion table, but without tags
 utility_to_osm.ssr2.ssr2_tags - INFO - ssr:type = fylke found in conversion table, but without tags
 utility_to_osm.ssr2.ssr2_tags - INFO - ssr:type = kommune found in conversion table, but without tags
-utility_to_osm - INFO - Done: Kommune = 5047, Duration: 0:01:31.694052
+utility_to_osm - INFO - Done: Kommune = 5047, Duration: 0:00:36.316179

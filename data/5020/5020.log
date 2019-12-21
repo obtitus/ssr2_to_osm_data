@@ -1,4 +1,3 @@
-utility_to_osm.gentle_requests - INFO - requested http://wfs.geonorge.no/skwms1/wfs.stedsnavn50?VERSION=2.0.0&SERVICE=WFS&srsName=EPSG:25832&REQUEST=GetFeature&TYPENAME=Sted&resultType=results&Filter=%3CFilter%3E%20%3CPropertyIsEqualTo%3E%20%3CValueReference%20xmlns:app=%22http://skjema.geonorge.no/SOSI/produktspesifikasjon/Stedsnavn/5.0%22%3Eapp:kommune/app:Kommune/app:kommunenummer%3C/ValueReference%3E%20%3CLiteral%3E5020%3C/Literal%3E%20%3C/PropertyIsEqualTo%3E%20%3C/Filter%3E" --header "Content-Type:text/xml" ssr2_to_osm_data/data/5020/5020-ssr.xml, got <Response [200]>
 utility_to_osm - ERROR - ssr:stedsnr = 519313: No name found
 utility_to_osm - ERROR - ssr:stedsnr = 276564: No name found
 utility_to_osm - ERROR - ssr:stedsnr = 94682: No name found
@@ -3308,4 +3307,4 @@ utility_to_osm.ssr2.ssr2_tags - INFO - ssr:type = annenAdministrativInndeling fo
 utility_to_osm.ssr2.ssr2_tags - INFO - ssr:type = kommune found in conversion table, but without tags
 utility_to_osm.ssr2.ssr2_tags - INFO - ssr:type = fyrlykt found in conversion table, but without tags
 utility_to_osm.ssr2.ssr2_tags - INFO - ssr:type = fyrlykt found in conversion table, but without tags
-utility_to_osm - INFO - Done: Kommune = 5020, Duration: 0:01:37.350147
+utility_to_osm - INFO - Done: Kommune = 5020, Duration: 0:00:35.615993
