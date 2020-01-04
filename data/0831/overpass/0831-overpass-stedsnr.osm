@@ -4497,12 +4497,7 @@
 		<tag k="ssr:stedsnr" v="427364" />
 		<tag k="ssr:type" v="bruk" />
 	</node>
-	<node changeset="58964861" id="5618357666" lat="59.2048604" lon="7.7591226" timestamp="2018-05-14T20:49:04Z" uid="3842253" user="NKA_import" version="1">
-		<tag k="building" v="cabin" />
-		<tag k="name" v="Torsdalen" />
-		<tag k="ssr:stedsnr" v="427384" />
-		<tag k="ssr:type" v="turisthytte" />
-	</node>
+	<node changeset="78694916" id="5618357666" lat="59.2048998" lon="7.7591412" timestamp="2019-12-20T18:18:57Z" uid="7589857" user="Marius Geitle_import" version="2" />
 	<node changeset="58964861" id="5618357667" lat="59.0080528" lon="8.033275" timestamp="2018-05-14T20:49:04Z" uid="3842253" user="NKA_import" version="1">
 		<tag k="name" v="Vik" />
 		<tag k="place" v="farm" />
@@ -5761,6 +5756,13 @@
 		<tag k="ssr:stedsnr" v="877495" />
 		<tag k="ssr:type" v="bruk" />
 	</node>
+	<node changeset="78694916" id="7072712589" lat="59.20487" lon="7.7591872" timestamp="2019-12-20T18:18:57Z" uid="7589857" user="Marius Geitle_import" version="1" />
+	<node changeset="78694916" id="7072712590" lat="59.2049072" lon="7.7591594" timestamp="2019-12-20T18:18:57Z" uid="7589857" user="Marius Geitle_import" version="1" />
+	<node changeset="78694916" id="7072712591" lat="59.2048774" lon="7.7592055" timestamp="2019-12-20T18:18:57Z" uid="7589857" user="Marius Geitle_import" version="1" />
+	<node changeset="78694916" id="7072712592" lat="59.2047999" lon="7.7591428" timestamp="2019-12-20T18:18:57Z" uid="7589857" user="Marius Geitle_import" version="1" />
+	<node changeset="78694916" id="7072712593" lat="59.2048666" lon="7.7590394" timestamp="2019-12-20T18:18:57Z" uid="7589857" user="Marius Geitle_import" version="1" />
+	<node changeset="78694916" id="7072712594" lat="59.2049048" lon="7.7591334" timestamp="2019-12-20T18:18:57Z" uid="7589857" user="Marius Geitle_import" version="1" />
+	<node changeset="78694916" id="7072712595" lat="59.204838" lon="7.7592367" timestamp="2019-12-20T18:18:57Z" uid="7589857" user="Marius Geitle_import" version="1" />
 	<node changeset="58964861" id="5618360700" lat="59.2997889" lon="7.9109694" timestamp="2018-05-14T20:50:04Z" uid="3842253" user="NKA_import" version="1">
 		<tag k="name" v="Skåli uppigard" />
 		<tag k="place" v="farm" />
@@ -6150,5 +6152,20 @@
 		<nd ref="5826865918" />
 		<nd ref="5618360736" />
 		<nd ref="5826865920" />
+	</way>
+	<way changeset="78694916" id="757370223" timestamp="2019-12-20T18:18:57Z" uid="7589857" user="Marius Geitle_import" version="1">
+		<tag k="building" v="cabin" />
+		<tag k="name" v="Torsdalen" />
+		<tag k="ssr:stedsnr" v="427384" />
+		<tag k="ssr:type" v="turisthytte" />
+		<nd ref="7072712589" />
+		<nd ref="7072712595" />
+		<nd ref="7072712592" />
+		<nd ref="7072712593" />
+		<nd ref="7072712594" />
+		<nd ref="5618357666" />
+		<nd ref="7072712590" />
+		<nd ref="7072712591" />
+		<nd ref="7072712589" />
 	</way>
 </osm>
