@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <osm generator="osmapis" version="0.6">
-	<node id="-410643" lat="59.0017095189" lon="5.89653241285">
+	<node id="-24720" lat="59.0017095189" lon="5.89653241285">
 		<tag k="fixme" v="consider seamark:type=rock or natural=shoal" />
 		<tag k="loc_name" v="Larsholmflua" />
 		<tag k="place" v="islet" />
@@ -10,7 +10,7 @@
 		<tag k="ssr:stedsnr" v="973631" />
 		<tag k="ssr:type" v="skjærISjø" />
 	</node>
-	<node id="-410642" lat="59.0015087747" lon="5.88745456963">
+	<node id="-24719" lat="59.0015087747" lon="5.88745456963">
 		<tag k="fixme" v="consider seamark:type=rock or natural=shoal" />
 		<tag k="loc_name" v="Kobbholmflua" />
 		<tag k="place" v="islet" />
@@ -20,7 +20,45 @@
 		<tag k="ssr:stedsnr" v="973630" />
 		<tag k="ssr:type" v="skjærISjø" />
 	</node>
-	<node id="-410441" lat="59.0184666622" lon="6.17552221707">
+	<node id="-24746" lat="59.0667785153" lon="6.04381593056">
+		<tag k="loc_name" v="Holane" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2019-12-19" />
+		<tag k="ssr:gruppe" v="gardsbebyggelse" />
+		<tag k="ssr:hovedgruppe" v="bebyggelse" />
+		<tag k="ssr:stedsnr" v="1074446" />
+		<tag k="ssr:type" v="eiendom" />
+	</node>
+	<node id="-24745" lat="59.0622721071" lon="6.07818583376">
+		<tag k="loc_name" v="Bjørheimsheia" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2019-12-19" />
+		<tag k="ssr:gruppe" v="høyder" />
+		<tag k="ssr:hovedgruppe" v="terreng" />
+		<tag k="ssr:stedsnr" v="1074436" />
+		<tag k="ssr:type" v="hei" />
+	</node>
+	<node id="-24744" lat="59.0702525909" lon="6.04230286961">
+		<tag k="bridge" v="yes" />
+		<tag k="layer" v="1" />
+		<tag k="loc_name" v="Bleiåbrua" />
+		<tag k="ssr:date" v="2019-12-19" />
+		<tag k="ssr:gruppe" v="samferdselsanlegg" />
+		<tag k="ssr:hovedgruppe" v="infrastruktur" />
+		<tag k="ssr:stedsnr" v="1074433" />
+		<tag k="ssr:type" v="bru" />
+	</node>
+	<node id="-24743" lat="59.0686954463" lon="6.02936381242">
+		<tag k="loc_name" v="Lyngnes" />
+		<tag k="natural" v="cape" />
+		<tag k="ssr:date" v="2019-12-19" />
+		<tag k="ssr:gruppe" v="ferskvannskontur" />
+		<tag k="ssr:hovedgruppe" v="ferskvann" />
+		<tag k="ssr:stedsnr" v="1074425" />
+		<tag k="ssr:type" v="nes" />
+	</node>
+	<node id="-24582" lat="59.0184666622" lon="6.17552221707">
 		<tag k="fixme" v="consider natural=peak for the most distinct mountains in the district" />
 		<tag k="loc_name" v="Ørnaknuten" />
 		<tag k="natural" v="hill" />
@@ -30,5 +68,23 @@
 		<tag k="ssr:hovedgruppe" v="terreng" />
 		<tag k="ssr:stedsnr" v="782998" />
 		<tag k="ssr:type" v="fjell" />
+	</node>
+	<node id="-24741" lat="59.0748881846" lon="6.04749362838">
+		<tag k="loc_name" v="Svartatjørna" />
+		<tag k="natural" v="water" />
+		<tag k="ssr:date" v="2019-12-19" />
+		<tag k="ssr:gruppe" v="stilleståendeVann" />
+		<tag k="ssr:hovedgruppe" v="ferskvann" />
+		<tag k="ssr:stedsnr" v="1074420" />
+		<tag k="ssr:type" v="tjern" />
+	</node>
+	<node id="-24742" lat="59.0700675298" lon="6.03707740388">
+		<tag k="loc_name" v="Sponavika" />
+		<tag k="natural" v="bay" />
+		<tag k="ssr:date" v="2019-12-19" />
+		<tag k="ssr:gruppe" v="ferskvannskontur" />
+		<tag k="ssr:hovedgruppe" v="ferskvann" />
+		<tag k="ssr:stedsnr" v="1074424" />
+		<tag k="ssr:type" v="vik" />
 	</node>
 </osm>
