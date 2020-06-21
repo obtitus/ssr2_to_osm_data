@@ -35,6 +35,9 @@
 	</node>
 	<node changeset="30822884" id="3499952486" lat="58.5102837" lon="8.6472844" timestamp="2015-05-05T20:44:37Z" uid="372492" user="Jarl Arntzen" version="1" />
 	<node changeset="27148831" id="3213766772" lat="58.5058662" lon="8.6353605" timestamp="2014-12-01T09:14:48Z" uid="633013" user="Honning" version="1" />
+	<node changeset="86780503" id="7629611372" lat="58.6465075" lon="8.1927709" timestamp="2020-06-17T15:02:28Z" uid="5198133" user="Wulfmorn" version="1" />
+	<node changeset="86780503" id="7629611373" lat="58.646437" lon="8.1926442" timestamp="2020-06-17T15:02:28Z" uid="5198133" user="Wulfmorn" version="1" />
+	<node changeset="86780503" id="7629611374" lat="58.6464714" lon="8.192845" timestamp="2020-06-17T15:02:28Z" uid="5198133" user="Wulfmorn" version="1" />
 	<node changeset="25117414" id="1112262809" lat="58.4999453" lon="8.6515035" timestamp="2014-08-30T12:59:21Z" uid="715936" user="Gazer75" version="2" />
 	<node changeset="57982147" id="4462185839" lat="58.5715249" lon="8.4805484" timestamp="2018-04-10T18:46:54Z" uid="3497659" user="NKA" version="2">
 		<tag k="name" v="Hinnebu" />
@@ -467,7 +470,7 @@
 		<tag k="ssr:type" v="bruk" />
 	</node>
 	<node changeset="21653001" id="2786361913" lat="58.4993522" lon="8.6222084" timestamp="2014-04-12T20:13:51Z" uid="123364" user="Tronikon" version="1" />
-	<node changeset="24412831" id="2185338634" lat="58.5042132" lon="8.622452" timestamp="2014-07-28T23:58:43Z" uid="372492" user="Jarl Arntzen" version="4" />
+	<node changeset="86371962" id="2185338634" lat="58.5041417" lon="8.6223085" timestamp="2020-06-08T21:06:27Z" uid="103253" user="gormur" version="5" />
 	<node changeset="30822884" id="3499952705" lat="58.5104666" lon="8.6410326" timestamp="2015-05-05T20:44:37Z" uid="372492" user="Jarl Arntzen" version="1" />
 	<node changeset="57982147" id="4462186251" lat="58.5238755" lon="8.6000797" timestamp="2018-04-10T18:47:17Z" uid="3497659" user="NKA" version="2">
 		<tag k="name" v="Tveitdalen" />
@@ -1023,13 +1026,7 @@
 		<tag k="ssr:stedsnr" v="364661" />
 		<tag k="ssr:type" v="bruk" />
 	</node>
-	<node changeset="57982147" id="4462185657" lat="58.6464564" lon="8.1927329" timestamp="2018-04-10T18:46:46Z" uid="3497659" user="NKA" version="2">
-		<tag k="building" v="cabin" />
-		<tag k="name" v="Bratteland" />
-		<tag k="place" v="isolated_dwelling" />
-		<tag k="ssr:stedsnr" v="233007" />
-		<tag k="ssr:type" v="fritidsbolig" />
-	</node>
+	<node changeset="86780503" id="4462185657" lat="58.646401" lon="8.1927183" timestamp="2020-06-17T15:02:28Z" uid="5198133" user="Wulfmorn" version="3" />
 	<node changeset="57982147" id="4462185658" lat="58.5450491" lon="8.5348336" timestamp="2018-04-10T18:46:46Z" uid="3497659" user="NKA" version="2">
 		<tag k="name" v="Brattelandseidet" />
 		<tag k="place" v="farm" />
@@ -3031,6 +3028,18 @@
 		<nd ref="2985338269" />
 		<nd ref="2985338268" />
 		<nd ref="1842010576" />
+	</way>
+	<way changeset="86780503" id="816900903" timestamp="2020-06-17T15:02:28Z" uid="5198133" user="Wulfmorn" version="1">
+		<tag k="building" v="cabin" />
+		<tag k="name" v="Bratteland" />
+		<tag k="place" v="isolated_dwelling" />
+		<tag k="ssr:stedsnr" v="233007" />
+		<tag k="ssr:type" v="fritidsbolig" />
+		<nd ref="7629611374" />
+		<nd ref="4462185657" />
+		<nd ref="7629611373" />
+		<nd ref="7629611372" />
+		<nd ref="7629611374" />
 	</way>
 	<way changeset="57983805" id="208199989" timestamp="2018-04-10T19:47:52Z" uid="3497659" user="NKA" version="8">
 		<tag k="landuse" v="residential" />

@@ -1,31 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <osm generator="osmapis" version="0.6">
-	<node id="-10827" lat="62.3819305539" lon="7.16146945326">
-		<tag k="name" v="Nakkevegen" />
-		<tag k="ssr:date" v="2019-12-27" />
-		<tag k="ssr:gruppe" v="veg" />
-		<tag k="ssr:hovedgruppe" v="infrastruktur" />
-		<tag k="ssr:stedsnr" v="460127" />
-		<tag k="ssr:type" v="vegstrekning" />
-	</node>
-	<node id="-12820" lat="62.2989613854" lon="7.26173845713">
-		<tag k="name" v="Fjord kommune" />
-		<tag k="ssr:date" v="2019-12-27" />
-		<tag k="ssr:gruppe" v="administrativeIndelinger" />
-		<tag k="ssr:hovedgruppe" v="offentligAdministrasjon" />
-		<tag k="ssr:stedsnr" v="1073401" />
-		<tag k="ssr:type" v="kommune" />
-	</node>
-	<node id="-11019" lat="62.374320451" lon="6.93413419499">
-		<tag k="name" v="Stordalsholmen" />
-		<tag k="old_name" v="Storholmen" />
-		<tag k="ssr:date" v="2019-12-27" />
-		<tag k="ssr:gruppe" v="navigasjon" />
-		<tag k="ssr:hovedgruppe" v="infrastruktur" />
-		<tag k="ssr:stedsnr" v="435718" />
-		<tag k="ssr:type" v="fyrlykt" />
-	</node>
-	<node id="-11898" lat="62.7345361111" lon="7.15065554732">
+	<node id="-100320" lat="62.7345361111" lon="7.15065554732">
 		<tag k="alt_name" v="Møre og Romsdal" />
 		<tag k="name" v="Møre og Romsdal fylke" />
 		<tag k="ssr:date" v="2019-12-27" />
@@ -34,12 +9,51 @@
 		<tag k="ssr:stedsnr" v="145583" />
 		<tag k="ssr:type" v="fylke" />
 	</node>
-	<node id="-11249" lat="62.290980557" lon="7.31088888183">
+	<node id="-101243" lat="69.6388889725" lon="30.5666644427">
+		<tag k="fixme" v="multiple name tags, choose one and add the other to alt_name" />
+		<tag k="loc_name:se" v="Norgga gonagasriika" />
+		<tag k="loc_name:sma" v="Nöörjen gånkarïjhke" />
+		<tag k="loc_name:smj" v="Vuona gånågisrijkka" />
+		<tag k="name" v="Noreg;Norge" />
+		<tag k="name:en" v="Norway" />
+		<tag k="name:no" v="Noreg;Norge" />
+		<tag k="ssr:date" v="2020-06-04" />
+		<tag k="ssr:gruppe" v="administrativeIndelinger" />
+		<tag k="ssr:hovedgruppe" v="offentligAdministrasjon" />
+		<tag k="ssr:stedsnr" v="26330" />
+		<tag k="ssr:type" v="nasjon" />
+	</node>
+	<node id="-101241" lat="62.2989613854" lon="7.26173845713">
+		<tag k="name" v="Fjord kommune" />
+		<tag k="ssr:date" v="2019-12-27" />
+		<tag k="ssr:gruppe" v="administrativeIndelinger" />
+		<tag k="ssr:hovedgruppe" v="offentligAdministrasjon" />
+		<tag k="ssr:stedsnr" v="1073401" />
+		<tag k="ssr:type" v="kommune" />
+	</node>
+	<node id="-99671" lat="62.290980557" lon="7.31088888183">
 		<tag k="name" v="Haugsbukt" />
 		<tag k="ssr:date" v="2019-12-27" />
 		<tag k="ssr:gruppe" v="navigasjon" />
 		<tag k="ssr:hovedgruppe" v="infrastruktur" />
 		<tag k="ssr:stedsnr" v="638203" />
+		<tag k="ssr:type" v="fyrlykt" />
+	</node>
+	<node id="-99249" lat="62.3819305539" lon="7.16146945326">
+		<tag k="name" v="Nakkevegen" />
+		<tag k="ssr:date" v="2019-12-27" />
+		<tag k="ssr:gruppe" v="veg" />
+		<tag k="ssr:hovedgruppe" v="infrastruktur" />
+		<tag k="ssr:stedsnr" v="460127" />
+		<tag k="ssr:type" v="vegstrekning" />
+	</node>
+	<node id="-99441" lat="62.374320451" lon="6.93413419499">
+		<tag k="name" v="Stordalsholmen" />
+		<tag k="old_name" v="Storholmen" />
+		<tag k="ssr:date" v="2019-12-27" />
+		<tag k="ssr:gruppe" v="navigasjon" />
+		<tag k="ssr:hovedgruppe" v="infrastruktur" />
+		<tag k="ssr:stedsnr" v="435718" />
 		<tag k="ssr:type" v="fyrlykt" />
 	</node>
 </osm>
