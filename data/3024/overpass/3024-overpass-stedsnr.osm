@@ -274,9 +274,10 @@
 		<tag k="place" v="quarter" />
 		<tag k="ssr:stedsnr" v="325235" />
 	</node>
-	<node changeset="70122828" id="6465581112" lat="59.9382889" lon="10.617775" timestamp="2019-05-10T19:49:43Z" uid="633013" user="Honning" version="1">
+	<node changeset="89366713" id="6465581112" lat="59.9382889" lon="10.617775" timestamp="2020-08-13T16:23:23Z" uid="128123" user="lars" version="2">
 		<tag k="leisure" v="pitch" />
 		<tag k="name" v="Øvrevoll galoppbane" />
+		<tag k="sport" v="equestrian" />
 		<tag k="ssr:stedsnr" v="325905" />
 	</node>
 	<node changeset="70122828" id="6465581113" lat="59.9033583" lon="10.4927639" timestamp="2019-05-10T19:49:43Z" uid="633013" user="Honning" version="1">
@@ -320,11 +321,7 @@
 		<tag k="place" v="farm" />
 		<tag k="ssr:stedsnr" v="368055" />
 	</node>
-	<node changeset="70122828" id="6465581122" lat="59.9632" lon="10.5744972" timestamp="2019-05-10T19:49:43Z" uid="633013" user="Honning" version="1">
-		<tag k="leisure" v="pitch" />
-		<tag k="name" v="Løvenskioldbanen" />
-		<tag k="ssr:stedsnr" v="368078" />
-	</node>
+	<node changeset="13064819" id="1909510210" lat="59.9338043" lon="10.5446474" timestamp="2012-09-11T05:20:52Z" uid="11992" user="vibrog" version="1" />
 	<node changeset="70122828" id="6465581123" lat="59.887825" lon="10.5636361" timestamp="2019-05-10T19:49:43Z" uid="633013" user="Honning" version="1">
 		<tag k="alt_name" v="Det Norske Veritas" />
 		<tag k="building" v="industrial" />
@@ -1137,7 +1134,8 @@
 		<tag k="place" v="farm" />
 		<tag k="ssr:stedsnr" v="732979" />
 	</node>
-	<node changeset="70122828" id="2387634512" lat="59.890075" lon="10.3930139" timestamp="2019-05-10T19:49:55Z" uid="633013" user="Honning" version="9">
+	<node changeset="86032222" id="2387634512" lat="59.8901184" lon="10.3923314" timestamp="2020-06-01T06:53:18Z" uid="11992" user="vibrog" version="11">
+		<tag k="diameter" v="16000" />
 		<tag k="historic" v="charcoal_pile" />
 		<tag k="name" v="Persbonn" />
 		<tag k="place" v="isolated_dwelling" />
@@ -1187,7 +1185,6 @@
 	<node changeset="6597039" id="1029749125" lat="59.9605984" lon="10.5440412" timestamp="2010-12-09T17:04:47Z" uid="11992" user="vibrog" version="1" />
 	<node changeset="15946930" id="2289178689" lat="59.9563289" lon="10.5497587" timestamp="2013-05-02T14:15:25Z" uid="11992" user="vibrog" version="1" />
 	<node changeset="6669656" id="1039468937" lat="59.9592487" lon="10.6008266" timestamp="2010-12-15T17:34:49Z" uid="11992" user="vibrog" version="1" />
-	<node changeset="13064819" id="1909510210" lat="59.9338043" lon="10.5446474" timestamp="2012-09-11T05:20:52Z" uid="11992" user="vibrog" version="1" />
 	<node changeset="15946930" id="2289178699" lat="59.9564303" lon="10.550595" timestamp="2013-05-02T14:15:25Z" uid="11992" user="vibrog" version="1" />
 	<node changeset="15946930" id="2289178691" lat="59.9563465" lon="10.5503881" timestamp="2013-05-02T14:15:25Z" uid="11992" user="vibrog" version="1" />
 	<node changeset="13064819" id="1909510212" lat="59.9338704" lon="10.5450697" timestamp="2012-09-11T05:20:52Z" uid="11992" user="vibrog" version="1" />
@@ -1300,11 +1297,6 @@
 		<tag k="ssr:stedsnr" v="567017" />
 	</node>
 	<node changeset="13064819" id="1909510234" lat="59.9350112" lon="10.5470579" timestamp="2012-09-11T05:20:53Z" uid="11992" user="vibrog" version="1" />
-	<node changeset="70122828" id="6465581010" lat="59.9341694" lon="10.4761139" timestamp="2019-05-10T19:49:37Z" uid="633013" user="Honning" version="1">
-		<tag k="amenity" v="nursing_home" />
-		<tag k="name" v="Sjømennenes helseheim" />
-		<tag k="ssr:stedsnr" v="750062" />
-	</node>
 	<node changeset="6603601" id="1029748827" lat="59.9489355" lon="10.5558084" timestamp="2010-12-10T10:12:32Z" uid="11992" user="vibrog" version="2" />
 	<node changeset="70122828" id="306833961" lat="59.9169" lon="10.5342722" timestamp="2019-05-10T19:49:53Z" uid="633013" user="Honning" version="3">
 		<tag k="name" v="Dæli" />
@@ -1348,6 +1340,11 @@
 	<node changeset="6597039" id="1029749356" lat="59.9495473" lon="10.5550351" timestamp="2010-12-09T17:04:51Z" uid="11992" user="vibrog" version="1" />
 	<node changeset="16514981" id="2340954557" lat="59.9569505" lon="10.6177933" timestamp="2013-06-11T19:30:37Z" uid="11992" user="vibrog" version="1" />
 	<node changeset="6730951" id="1055515253" lat="59.9554943" lon="10.5092441" timestamp="2010-12-21T22:40:01Z" uid="11992" user="vibrog" version="1" />
+	<node changeset="70122828" id="6465581013" lat="59.9800194" lon="10.4539417" timestamp="2019-05-10T19:49:37Z" uid="633013" user="Honning" version="1">
+		<tag k="name" v="Nordli" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:stedsnr" v="750072" />
+	</node>
 	<node changeset="58520958" id="5585767035" lat="59.9174816" lon="10.5777374" timestamp="2018-04-29T08:22:58Z" uid="4999695" user="Da9l" version="1" />
 	<node changeset="6669656" id="1039469183" lat="59.958918" lon="10.6014001" timestamp="2010-12-15T17:35:04Z" uid="11992" user="vibrog" version="1" />
 	<node changeset="16382020" id="2328412800" lat="59.9744337" lon="10.6073011" timestamp="2013-06-01T19:20:07Z" uid="11992" user="vibrog" version="1" />
@@ -1403,6 +1400,11 @@
 		<tag k="ssr:stedsnr" v="83877" />
 	</node>
 	<node changeset="70122828" id="343454393" lat="59.894989" lon="10.4603502" timestamp="2019-05-10T19:49:53Z" uid="633013" user="Honning" version="5" />
+	<node changeset="70122828" id="6465580705" lat="59.9284639" lon="10.4638972" timestamp="2019-05-10T19:49:31Z" uid="633013" user="Honning" version="1">
+		<tag k="name" v="Brekke" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:stedsnr" v="489930" />
+	</node>
 	<node changeset="6587957" id="567284418" lat="59.9349864" lon="10.5560948" timestamp="2010-12-08T18:34:12Z" uid="11992" user="vibrog" version="2" />
 	<node changeset="6587957" id="567284420" lat="59.9345053" lon="10.5566604" timestamp="2010-12-08T18:34:18Z" uid="11992" user="vibrog" version="2" />
 	<node changeset="13064819" id="1909510236" lat="59.9350994" lon="10.5460234" timestamp="2012-09-11T05:20:53Z" uid="11992" user="vibrog" version="1" />
@@ -1417,6 +1419,12 @@
 		<tag k="ssr:stedsnr" v="854932" />
 	</node>
 	<node changeset="13571124" id="1975538387" lat="59.8934001" lon="10.458412" timestamp="2012-10-20T18:29:17Z" uid="11992" user="vibrog" version="1" />
+	<node changeset="70122828" id="6465581016" lat="59.9534056" lon="10.5016361" timestamp="2019-05-10T19:49:37Z" uid="633013" user="Honning" version="1">
+		<tag k="alt_name" v="Skollerud mellom" />
+		<tag k="name" v="Mellom-Skollerud" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:stedsnr" v="750082" />
+	</node>
 	<node changeset="13571124" id="1975538392" lat="59.893459" lon="10.4582639" timestamp="2012-10-20T18:29:17Z" uid="11992" user="vibrog" version="1" />
 	<node changeset="15946930" id="2289178710" lat="59.9566595" lon="10.5493449" timestamp="2013-05-02T14:15:25Z" uid="11992" user="vibrog" version="1" />
 	<node changeset="70122828" id="2988094182" lat="59.971675" lon="10.3885" timestamp="2019-05-10T19:49:55Z" uid="633013" user="Honning" version="4">
@@ -1428,6 +1436,7 @@
 		<tag k="ssr:stedsnr" v="610030" />
 	</node>
 	<node changeset="6669656" id="1039469294" lat="59.9589294" lon="10.6033287" timestamp="2010-12-15T17:35:12Z" uid="11992" user="vibrog" version="1" />
+	<node changeset="16222052" id="2314267432" lat="59.9623576" lon="10.5788047" timestamp="2013-05-21T10:23:36Z" uid="11992" user="vibrog" version="1" />
 	<node changeset="26535158" id="1029749499" lat="59.9601219" lon="10.5484751" timestamp="2014-11-03T20:45:30Z" uid="11992" user="vibrog" version="2" />
 	<node changeset="70122828" id="343462661" lat="59.902025" lon="10.4599278" timestamp="2019-05-10T19:49:53Z" uid="633013" user="Honning" version="3">
 		<tag k="name" v="Butterud" />
@@ -1442,6 +1451,7 @@
 		<tag k="place" v="farm" />
 		<tag k="ssr:stedsnr" v="429997" />
 	</node>
+	<node changeset="16222052" id="2314267425" lat="59.9622945" lon="10.5789064" timestamp="2013-05-21T10:23:36Z" uid="11992" user="vibrog" version="1" />
 	<node changeset="6597039" id="1029749544" lat="59.9490192" lon="10.5547481" timestamp="2010-12-09T17:04:56Z" uid="11992" user="vibrog" version="1" />
 	<node changeset="6730951" id="1055515462" lat="59.9559353" lon="10.5093284" timestamp="2010-12-21T22:40:09Z" uid="11992" user="vibrog" version="1" />
 	<node changeset="70122828" id="2337831751" lat="59.9525083" lon="10.6027972" timestamp="2019-05-10T19:49:55Z" uid="633013" user="Honning" version="2">
@@ -1635,7 +1645,13 @@
 		<tag k="name" v="Bekkestuabanen" />
 		<tag k="ssr:stedsnr" v="628967" />
 	</node>
+	<node changeset="3457588" id="599719152" lat="59.9632464" lon="10.5729799" timestamp="2009-12-26T19:24:42Z" uid="11992" user="vibrog" version="1" />
+	<node changeset="16222429" id="599719153" lat="59.9630211" lon="10.572889" timestamp="2013-05-21T10:56:00Z" uid="11992" user="vibrog" version="3" />
+	<node changeset="16222618" id="599719155" lat="59.9615622" lon="10.5779943" timestamp="2013-05-21T11:12:15Z" uid="11992" user="vibrog" version="5" />
+	<node changeset="16222052" id="599719156" lat="59.9626577" lon="10.5791651" timestamp="2013-05-21T10:23:43Z" uid="11992" user="vibrog" version="3" />
+	<node changeset="16222429" id="599719157" lat="59.9632064" lon="10.577666" timestamp="2013-05-21T10:56:00Z" uid="11992" user="vibrog" version="2" />
 	<node changeset="6730951" id="1055514675" lat="59.948777" lon="10.4827133" timestamp="2010-12-21T22:39:44Z" uid="11992" user="vibrog" version="1" />
+	<node changeset="3457588" id="599719173" lat="59.9640798" lon="10.5745107" timestamp="2009-12-26T19:24:43Z" uid="11992" user="vibrog" version="1" />
 	<node changeset="70122828" id="919627018" lat="59.9287056" lon="10.5490684" timestamp="2019-05-10T19:49:55Z" uid="633013" user="Honning" version="2">
 		<tag k="name" v="Skotta" />
 		<tag k="place" v="hamlet" />
@@ -1685,6 +1701,7 @@
 		<tag k="place" v="farm" />
 		<tag k="ssr:stedsnr" v="65960;162487" />
 	</node>
+	<node changeset="13819738" id="2006200550" lat="59.9342342" lon="10.4762656" timestamp="2012-11-10T12:02:55Z" uid="552544" user="Tovang" version="1" />
 	<node changeset="71464114" id="31264129" lat="59.8907259" lon="10.5277434" timestamp="2019-06-21T00:14:08Z" uid="6739589" user="Af420" version="11">
 		<tag k="name" v="Sandvika" />
 		<tag k="name:ps" v="ساندويکا" />
@@ -1745,6 +1762,7 @@
 	<node changeset="49714732" id="4928358651" lat="59.9367759" lon="10.4633619" timestamp="2017-06-21T09:08:35Z" uid="5735621" user="Ralf_Jeppsson" version="1" />
 	<node changeset="49714732" id="4928358652" lat="59.9366752" lon="10.463362" timestamp="2017-06-21T09:08:35Z" uid="5735621" user="Ralf_Jeppsson" version="1" />
 	<node changeset="49714732" id="4928358653" lat="59.9365558" lon="10.4637385" timestamp="2017-06-21T09:08:35Z" uid="5735621" user="Ralf_Jeppsson" version="1" />
+	<node changeset="49714732" id="4928358670" lat="59.9272145" lon="10.4572236" timestamp="2017-06-21T09:08:35Z" uid="5735621" user="Ralf_Jeppsson" version="1" />
 	<node changeset="49714732" id="4928358688" lat="59.9250834" lon="10.4657461" timestamp="2017-06-21T09:08:36Z" uid="5735621" user="Ralf_Jeppsson" version="1" />
 	<node changeset="70122828" id="4471698938" lat="59.8876056" lon="10.4404" timestamp="2019-05-10T19:49:57Z" uid="633013" user="Honning" version="2">
 		<tag k="name" v="Sagbakken" />
@@ -1757,9 +1775,11 @@
 		<tag k="place" v="farm" />
 		<tag k="ssr:stedsnr" v="793975" />
 	</node>
+	<node changeset="13819738" id="2006199893" lat="59.9340719" lon="10.4767807" timestamp="2012-11-10T12:02:11Z" uid="552544" user="Tovang" version="1" />
 	<node changeset="49714732" id="4928358656" lat="59.9367232" lon="10.4641435" timestamp="2017-06-21T09:08:35Z" uid="5735621" user="Ralf_Jeppsson" version="1" />
 	<node changeset="49714732" id="4928358657" lat="59.9368301" lon="10.4636623" timestamp="2017-06-21T09:08:35Z" uid="5735621" user="Ralf_Jeppsson" version="1" />
 	<node changeset="49714732" id="4928358658" lat="59.9274907" lon="10.4596798" timestamp="2017-06-21T09:08:35Z" uid="5735621" user="Ralf_Jeppsson" version="1" />
+	<node changeset="49714732" id="4928358671" lat="59.9271742" lon="10.4558336" timestamp="2017-06-21T09:08:35Z" uid="5735621" user="Ralf_Jeppsson" version="1" />
 	<node changeset="70122828" id="981638062" lat="59.9592611" lon="10.4083278" timestamp="2019-05-10T19:49:55Z" uid="633013" user="Honning" version="4">
 		<tag k="alt_name" v="Kjaglia søndre;Svendseplassen" />
 		<tag k="name" v="Søndre Kjaglia" />
@@ -1797,13 +1817,18 @@
 	<node changeset="49714732" id="4928358667" lat="59.9263618" lon="10.4571143" timestamp="2017-06-21T09:08:35Z" uid="5735621" user="Ralf_Jeppsson" version="1" />
 	<node changeset="49714732" id="4928358668" lat="59.9265552" lon="10.4565798" timestamp="2017-06-21T09:08:35Z" uid="5735621" user="Ralf_Jeppsson" version="1" />
 	<node changeset="49714732" id="4928358669" lat="59.9265915" lon="10.4565208" timestamp="2017-06-21T09:08:35Z" uid="5735621" user="Ralf_Jeppsson" version="1" />
-	<node changeset="49714732" id="4928358670" lat="59.9272145" lon="10.4572236" timestamp="2017-06-21T09:08:35Z" uid="5735621" user="Ralf_Jeppsson" version="1" />
-	<node changeset="70122828" id="6465580705" lat="59.9284639" lon="10.4638972" timestamp="2019-05-10T19:49:31Z" uid="633013" user="Honning" version="1">
-		<tag k="name" v="Brekke" />
-		<tag k="place" v="farm" />
-		<tag k="ssr:stedsnr" v="489930" />
-	</node>
-	<node changeset="49714732" id="4928358671" lat="59.9271742" lon="10.4558336" timestamp="2017-06-21T09:08:35Z" uid="5735621" user="Ralf_Jeppsson" version="1" />
+	<node changeset="13819738" id="2006199889" lat="59.9340061" lon="10.4759492" timestamp="2012-11-10T12:02:11Z" uid="552544" user="Tovang" version="1" />
+	<node changeset="13819738" id="2006199890" lat="59.9341042" lon="10.4767833" timestamp="2012-11-10T12:02:11Z" uid="552544" user="Tovang" version="1" />
+	<node changeset="13819738" id="2006199891" lat="59.934041" lon="10.4762979" timestamp="2012-11-10T12:02:11Z" uid="552544" user="Tovang" version="1" />
+	<node changeset="13819738" id="2006199892" lat="59.9339846" lon="10.4761611" timestamp="2012-11-10T12:02:11Z" uid="552544" user="Tovang" version="1" />
+	<node changeset="13819738" id="2006200361" lat="59.9341966" lon="10.4760182" timestamp="2012-11-10T12:02:35Z" uid="552544" user="Tovang" version="1" />
+	<node changeset="13819738" id="2006199894" lat="59.9340544" lon="10.4761825" timestamp="2012-11-10T12:02:11Z" uid="552544" user="Tovang" version="1" />
+	<node changeset="13819738" id="2006199895" lat="59.9341519" lon="10.4762388" timestamp="2012-11-10T12:02:55Z" uid="552544" user="Tovang" version="2" />
+	<node changeset="13819738" id="2006199896" lat="59.9340182" lon="10.4762898" timestamp="2012-11-10T12:02:11Z" uid="552544" user="Tovang" version="1" />
+	<node changeset="13819738" id="2006199897" lat="59.9339303" lon="10.4773119" timestamp="2012-11-10T12:02:11Z" uid="552544" user="Tovang" version="1" />
+	<node changeset="13819738" id="2006199898" lat="59.9342829" lon="10.4762764" timestamp="2012-11-10T12:02:11Z" uid="552544" user="Tovang" version="1" />
+	<node changeset="13819738" id="2006199899" lat="59.9343003" lon="10.4760511" timestamp="2012-11-10T12:02:11Z" uid="552544" user="Tovang" version="1" />
+	<node changeset="13819738" id="2006199900" lat="59.9340216" lon="10.4773387" timestamp="2012-11-10T12:02:11Z" uid="552544" user="Tovang" version="1" />
 	<node changeset="70122828" id="6465580986" lat="59.9017917" lon="10.5118944" timestamp="2019-05-10T19:49:36Z" uid="633013" user="Honning" version="1">
 		<tag k="name" v="Helgerud barnebolig" />
 		<tag k="old_name" v="Helgerud barnehjem" />
@@ -1816,7 +1841,7 @@
 	<node changeset="16752347" id="1029785194" lat="59.9350844" lon="10.5586807" timestamp="2013-06-29T14:01:42Z" uid="11992" user="vibrog" version="2" />
 	<node changeset="16514981" id="2340954499" lat="59.95314" lon="10.5776847" timestamp="2013-06-11T19:30:36Z" uid="11992" user="vibrog" version="1" />
 	<node changeset="49714732" id="4928358674" lat="59.9272783" lon="10.4567993" timestamp="2017-06-21T09:08:35Z" uid="5735621" user="Ralf_Jeppsson" version="1" />
-	<node changeset="49714732" id="4928358675" lat="59.927342" lon="10.4559074" timestamp="2017-06-21T09:08:35Z" uid="5735621" user="Ralf_Jeppsson" version="1" />
+	<node changeset="13819738" id="2006200362" lat="59.9341263" lon="10.4759945" timestamp="2012-11-10T12:02:35Z" uid="552544" user="Tovang" version="1" />
 	<node changeset="70122828" id="1978461814" lat="59.9027028" lon="10.4841" timestamp="2019-05-10T19:49:55Z" uid="633013" user="Honning" version="2">
 		<tag k="name" v="Kirkerud" />
 		<tag k="old_name" v="Kjerkerud" />
@@ -1835,6 +1860,7 @@
 	<node changeset="49714732" id="4928358677" lat="59.9266718" lon="10.4658039" timestamp="2017-06-21T09:08:35Z" uid="5735621" user="Ralf_Jeppsson" version="1" />
 	<node changeset="26535158" id="1029785218" lat="59.9603962" lon="10.5481912" timestamp="2014-11-03T20:45:30Z" uid="11992" user="vibrog" version="2" />
 	<node changeset="49714732" id="4928358678" lat="59.9263384" lon="10.4647471" timestamp="2017-06-21T09:08:35Z" uid="5735621" user="Ralf_Jeppsson" version="1" />
+	<node changeset="49714732" id="4928358675" lat="59.927342" lon="10.4559074" timestamp="2017-06-21T09:08:35Z" uid="5735621" user="Ralf_Jeppsson" version="1" />
 	<node changeset="49714732" id="4928358679" lat="59.9264258" lon="10.4655491" timestamp="2017-06-21T09:08:35Z" uid="5735621" user="Ralf_Jeppsson" version="1" />
 	<node changeset="49714732" id="4928358680" lat="59.9266916" lon="10.4647332" timestamp="2017-06-21T09:08:35Z" uid="5735621" user="Ralf_Jeppsson" version="1" />
 	<node changeset="13064819" id="1909510206" lat="59.9336796" lon="10.5460727" timestamp="2012-09-11T05:20:52Z" uid="11992" user="vibrog" version="1" />
@@ -2297,7 +2323,7 @@
 		<tag k="ssr:stedsnr" v="793987" />
 	</node>
 	<node changeset="13103320" id="1913669952" lat="59.8927826" lon="10.4559183" timestamp="2012-09-14T06:01:22Z" uid="11992" user="vibrog" version="1" />
-	<node changeset="70122828" id="2982911879" lat="59.904275" lon="10.4127528" timestamp="2019-05-10T19:49:55Z" uid="633013" user="Honning" version="4">
+	<node changeset="85987069" id="2982911879" lat="59.9042642" lon="10.412608" timestamp="2020-05-30T16:41:44Z" uid="11992" user="vibrog" version="5">
 		<tag k="historic" v="shieling" />
 		<tag k="historic:operator" v="Stovi;Kveise;Skui;Butterud" />
 		<tag k="name" v="Stovivollen" />
@@ -2446,22 +2472,13 @@
 		<tag k="place" v="farm" />
 		<tag k="ssr:stedsnr" v="750066" />
 	</node>
-	<node changeset="70122828" id="6465581013" lat="59.9800194" lon="10.4539417" timestamp="2019-05-10T19:49:37Z" uid="633013" user="Honning" version="1">
-		<tag k="name" v="Nordli" />
-		<tag k="place" v="farm" />
-		<tag k="ssr:stedsnr" v="750072" />
-	</node>
+	<node changeset="16222618" id="2314313685" lat="59.9624707" lon="10.5742946" timestamp="2013-05-21T11:12:15Z" uid="11992" user="vibrog" version="2" />
 	<node changeset="70122828" id="6465581015" lat="59.9056472" lon="10.634925" timestamp="2019-05-10T19:49:37Z" uid="633013" user="Honning" version="1">
 		<tag k="name" v="Polhøgda" />
 		<tag k="place" v="isolated_dwelling" />
 		<tag k="ssr:stedsnr" v="750078" />
 	</node>
-	<node changeset="70122828" id="6465581016" lat="59.9534056" lon="10.5016361" timestamp="2019-05-10T19:49:37Z" uid="633013" user="Honning" version="1">
-		<tag k="alt_name" v="Skollerud mellom" />
-		<tag k="name" v="Mellom-Skollerud" />
-		<tag k="place" v="farm" />
-		<tag k="ssr:stedsnr" v="750082" />
-	</node>
+	<node changeset="16222429" id="2314313688" lat="59.9626354" lon="10.5737224" timestamp="2013-05-21T10:55:57Z" uid="11992" user="vibrog" version="1" />
 	<node changeset="70122828" id="6465581017" lat="59.93255" lon="10.4298222" timestamp="2019-05-10T19:49:37Z" uid="633013" user="Honning" version="1">
 		<tag k="alt_name" v="Jammerdal søndre" />
 		<tag k="name" v="Søndre Jammerdal" />
@@ -2857,6 +2874,29 @@
 		<nd ref="1055515462" />
 		<nd ref="1055515253" />
 	</way>
+	<way changeset="88724202" id="190020788" timestamp="2020-07-30T09:45:35Z" uid="504620" user="JakubS" version="6">
+		<tag k="amenity" v="nursing_home" />
+		<tag k="building" v="yes" />
+		<tag k="name" v="Unicare Fram" />
+		<tag k="old_name" v="Sjømennenes helseheim" />
+		<tag k="ssr:stedsnr" v="750062" />
+		<nd ref="2006199899" />
+		<nd ref="2006200361" />
+		<nd ref="2006200362" />
+		<nd ref="2006199889" />
+		<nd ref="2006199892" />
+		<nd ref="2006199894" />
+		<nd ref="2006199891" />
+		<nd ref="2006199896" />
+		<nd ref="2006199897" />
+		<nd ref="2006199900" />
+		<nd ref="2006199893" />
+		<nd ref="2006199890" />
+		<nd ref="2006199895" />
+		<nd ref="2006200550" />
+		<nd ref="2006199898" />
+		<nd ref="2006199899" />
+	</way>
 	<way changeset="70122828" id="90929845" timestamp="2019-05-10T19:49:58Z" uid="633013" user="Honning" version="2">
 		<tag k="landuse" v="residential" />
 		<tag k="name" v="Eine" />
@@ -3041,6 +3081,25 @@
 		<nd ref="1909510212" />
 		<nd ref="1909510210" />
 		<nd ref="1909510216" />
+	</way>
+	<way changeset="88525087" id="47006679" timestamp="2020-07-26T15:52:33Z" uid="444351" user="dkart" version="7">
+		<tag k="leisure" v="pitch" />
+		<tag k="military" v="danger_area" />
+		<tag k="name" v="Løvenskioldbanen" />
+		<tag k="shooting" v="range" />
+		<tag k="sport" v="shooting" />
+		<tag k="ssr:stedsnr" v="368078" />
+		<nd ref="599719155" />
+		<nd ref="2314313685" />
+		<nd ref="2314313688" />
+		<nd ref="599719153" />
+		<nd ref="599719152" />
+		<nd ref="599719173" />
+		<nd ref="599719157" />
+		<nd ref="599719156" />
+		<nd ref="2314267432" />
+		<nd ref="2314267425" />
+		<nd ref="599719155" />
 	</way>
 	<way changeset="70122828" id="44710107" timestamp="2019-05-10T19:49:57Z" uid="633013" user="Honning" version="6">
 		<tag k="landuse" v="residential" />

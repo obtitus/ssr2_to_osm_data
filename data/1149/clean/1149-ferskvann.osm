@@ -1,71 +1,491 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <osm generator="osmapis" version="0.6">
-	<node id="-4603" lat="59.3060500016" lon="5.3509361144">
+	<node id="-4608" lat="59.2491277798" lon="5.31337222989">
+		<tag k="name" v="Melstokkåstemmen" />
+		<tag k="natural" v="water" />
+		<tag k="ssr:stedsnr" v="909564" />
+	</node>
+	<node id="-4092" lat="59.2492611077" lon="5.24512222223">
+		<tag k="name" v="Strigvatn" />
+		<tag k="natural" v="water" />
+		<tag k="ssr:stedsnr" v="363688" />
+	</node>
+	<node id="-5627" lat="59.3120826395" lon="5.23542720616">
+		<tag k="alt_name" v="Torestemmen" />
+		<tag k="name" v="Tørresstemmen" />
+		<tag k="natural" v="water" />
+		<tag k="ssr:stedsnr" v="605344" />
+	</node>
+	<node id="-4436" lat="59.1966222214" lon="5.28439443585">
+		<tag k="name" v="Kuneset" />
+		<tag k="natural" v="cape" />
+		<tag k="ssr:stedsnr" v="727697" />
+	</node>
+	<node id="-4086" lat="59.3539111084" lon="5.23345277353">
+		<tag k="name" v="Nordre Visnesvatnet" />
+		<tag k="natural" v="water" />
+		<tag k="ssr:stedsnr" v="363703" />
+	</node>
+	<node id="-4084" lat="59.3081333358" lon="5.2373444491">
+		<tag k="name" v="Aureibekken" />
+		<tag k="ssr:stedsnr" v="363283" />
+		<tag k="waterway" v="stream" />
+	</node>
+	<node id="-3923" lat="59.3348500012" lon="5.26422499275">
+		<tag k="name" v="Fiskåvatnet" />
+		<tag k="natural" v="water" />
+		<tag k="ssr:stedsnr" v="244563" />
+		<tag k="water" v="lake" />
+	</node>
+	<node id="-4071" lat="59.3160138932" lon="5.4426444376">
+		<tag k="alt_name" v="Vadvatnet, nordre;Vadvatnet;nordra Vavatnet" />
+		<tag k="name" v="Nordre Vadvatnet" />
+		<tag k="natural" v="water" />
+		<tag k="ssr:stedsnr" v="488956" />
+		<tag k="water" v="lake" />
+	</node>
+	<node id="-5603" lat="59.4002636069" lon="5.3475224842">
+		<tag k="name" v="Paddetjørn" />
+		<tag k="natural" v="water" />
+		<tag k="ssr:stedsnr" v="572994" />
+	</node>
+	<node id="-4603" lat="59.3217583344" lon="5.26471667061">
+		<tag k="name" v="Grasvatnet" />
+		<tag k="natural" v="water" />
+		<tag k="ssr:stedsnr" v="909318" />
+	</node>
+	<node id="-4063" lat="59.3797222253" lon="5.32749165917">
+		<tag k="alt_name" v="Spannevatnet" />
+		<tag k="name" v="Spannavatnet" />
+		<tag k="natural" v="water" />
+		<tag k="ssr:stedsnr" v="487640" />
+	</node>
+	<node id="-4569" lat="59.331580555" lon="5.23483056339">
+		<tag k="name" v="Grodvatnet" />
+		<tag k="natural" v="water" />
+		<tag k="ssr:stedsnr" v="730565" />
+		<tag k="water" v="lake" />
+	</node>
+	<node id="-5079" lat="59.2949904227" lon="5.27675672511">
+		<tag k="alt_name" v="Fotvatnet, store;Store Fotvatnet;Fotvatn" />
+		<tag k="name" v="Stora Fotvatnet" />
+		<tag k="natural" v="water" />
+		<tag k="ssr:stedsnr" v="123956" />
+		<tag k="water" v="lake" />
+	</node>
+	<node id="-5075" lat="59.2654131447" lon="5.19884621783">
+		<tag k="fixme" v="multiple name tags, choose one and add the other to alt_name" />
+		<tag k="name" v="Tjøsvollvatnet;Tveitvatnet" />
+		<tag k="natural" v="water" />
+		<tag k="ssr:stedsnr" v="123912" />
+		<tag k="water" v="lake" />
+	</node>
+	<node id="-5074" lat="59.2618888916" lon="5.2206916623">
+		<tag k="alt_name" v="Killingtjørn" />
+		<tag k="name" v="Killingtjørna" />
+		<tag k="natural" v="water" />
+		<tag k="ssr:stedsnr" v="123911" />
+	</node>
+	<node id="-4559" lat="59.2329361124" lon="5.18006111806">
+		<tag k="name" v="Stavasanden" />
+		<tag k="natural" v="beach" />
+		<tag k="ssr:stedsnr" v="729021" />
+	</node>
+	<node id="-5069" lat="59.3827027761" lon="5.35071944029">
+		<tag k="name" v="Aksnesvatnet" />
+		<tag k="natural" v="water" />
+		<tag k="ssr:stedsnr" v="123643" />
+		<tag k="water" v="lake" />
+	</node>
+	<node id="-5065" lat="59.3614777803" lon="5.34038888816">
+		<tag k="name" v="Vormedalsvatnet" />
+		<tag k="natural" v="water" />
+		<tag k="ssr:stedsnr" v="123592" />
+		<tag k="water" v="lake" />
+	</node>
+	<node id="-5061" lat="59.344444447" lon="5.33944444598">
+		<tag k="name" v="Tuastadvatnet" />
+		<tag k="natural" v="water" />
+		<tag k="ssr:stedsnr" v="123567" />
+		<tag k="water" v="lake" />
+	</node>
+	<node id="-5571" lat="59.2647371615" lon="5.24305093788">
+		<tag k="alt_name" v="Aureivatn" />
+		<tag k="name" v="Aureivatnet" />
+		<tag k="natural" v="water" />
+		<tag k="ssr:stedsnr" v="548898" />
+		<tag k="water" v="lake" />
+	</node>
+	<node id="-5056" lat="59.2235027807" lon="5.29166110459">
+		<tag k="alt_name" v="Mjåvatnet, litla;Litla Mjåvatn" />
+		<tag k="name" v="Litla Mjåvatnet" />
+		<tag k="natural" v="water" />
+		<tag k="ssr:stedsnr" v="123119" />
+		<tag k="water" v="lake" />
+	</node>
+	<node id="-4540" lat="59.3172916694" lon="5.2283111132">
+		<tag k="name" v="Knultadåven" />
+		<tag k="natural" v="water" />
+		<tag k="ssr:stedsnr" v="727307" />
+	</node>
+	<node id="-4426" lat="59.2072833329" lon="5.28842499761">
+		<tag k="name" v="Stiklebotn" />
+		<tag k="natural" v="bay" />
+		<tag k="ssr:stedsnr" v="727648" />
+	</node>
+	<node id="-4023" lat="59.1941333346" lon="5.28601667429">
+		<tag k="name" v="Tøkjetongen" />
+		<tag k="natural" v="cape" />
+		<tag k="ssr:stedsnr" v="484677" />
+	</node>
+	<node id="-5046" lat="59.2331455122" lon="5.30095883321">
+		<tag k="alt_name" v="Reiarsvatn" />
+		<tag k="name" v="Reiarsvatnet" />
+		<tag k="natural" v="water" />
+		<tag k="ssr:stedsnr" v="122020" />
+		<tag k="water" v="lake" />
+	</node>
+	<node id="-4018" lat="59.2425722187" lon="5.29528888091">
+		<tag k="name" v="Liaretjødn" />
+		<tag k="natural" v="water" />
+		<tag k="ssr:stedsnr" v="484647" />
+	</node>
+	<node id="-5552" lat="59.1847861143" lon="5.29230555244">
+		<tag k="name" v="Kvernabekken" />
+		<tag k="ssr:stedsnr" v="547088" />
+		<tag k="waterway" v="stream" />
+	</node>
+	<node id="-4525" lat="59.1759500001" lon="5.24534443625">
+		<tag k="alt_name" v="Rotatjørn" />
+		<tag k="name" v="Rotatjørna" />
+		<tag k="natural" v="water" />
+		<tag k="ssr:stedsnr" v="669430" />
+	</node>
+	<node id="-5035" lat="59.2719555542" lon="5.21993055643">
+		<tag k="name" v="Stemmen" />
+		<tag k="natural" v="water" />
+		<tag k="ssr:stedsnr" v="120746" />
+	</node>
+	<node id="-5030" lat="59.2718027776" lon="5.31156944545">
+		<tag k="name" v="Stemmen" />
+		<tag k="natural" v="water" />
+		<tag k="ssr:stedsnr" v="120663" />
+	</node>
+	<node id="-5029" lat="59.2748055562" lon="5.29805277315">
+		<tag k="name" v="Liartjødn" />
+		<tag k="natural" v="water" />
+		<tag k="ssr:stedsnr" v="120662" />
+	</node>
+	<node id="-4516" lat="59.2163088611" lon="5.21044746244">
+		<tag k="name" v="Talastemmen" />
+		<tag k="natural" v="water" />
+		<tag k="ssr:stedsnr" v="666317" />
+	</node>
+	<node id="-5027" lat="59.2094333349" lon="5.30743888293">
+		<tag k="name" v="Omundtjørna" />
+		<tag k="natural" v="water" />
+		<tag k="ssr:stedsnr" v="120632" />
+	</node>
+	<node id="-5536" lat="59.3460361109" lon="5.23502777333">
+		<tag k="name" v="Rovikneset" />
+		<tag k="natural" v="cape" />
+		<tag k="ssr:stedsnr" v="545696" />
+	</node>
+	<node id="-5529" lat="59.1966138902" lon="5.18428332802">
+		<tag k="name" v="Hålandsand" />
+		<tag k="natural" v="beach" />
+		<tag k="ssr:stedsnr" v="545563" />
+	</node>
+	<node id="-5527" lat="59.2809638915" lon="5.34729166644">
+		<tag k="name" v="Grydviksvatnet" />
+		<tag k="natural" v="water" />
+		<tag k="ssr:stedsnr" v="545544" />
+		<tag k="water" v="lake" />
+	</node>
+	<node id="-4163" lat="59.1986999959" lon="5.22302499487">
+		<tag k="name" v="Butjørn" />
+		<tag k="natural" v="water" />
+		<tag k="ssr:stedsnr" v="426113" />
+	</node>
+	<node id="-4333" lat="59.2414527773" lon="5.28284721766">
+		<tag k="name" v="Revadalsvatn" />
+		<tag k="natural" v="water" />
+		<tag k="ssr:stedsnr" v="545626" />
+	</node>
+	<node id="-5516" lat="59.3039666686" lon="5.24661110806">
+		<tag k="name" v="Tyritjørn" />
+		<tag k="natural" v="water" />
+		<tag k="ssr:stedsnr" v="545249" />
+	</node>
+	<node id="-5513" lat="59.2227499974" lon="5.23206388938">
+		<tag k="name" v="Trekjødnane" />
+		<tag k="natural" v="water" />
+		<tag k="ssr:stedsnr" v="545227" />
+	</node>
+	<node id="-3976" lat="59.22551667" lon="5.29645554708">
+		<tag k="name" v="Mjåvatn" />
+		<tag k="natural" v="water" />
+		<tag k="ssr:stedsnr" v="302655" />
+		<tag k="water" v="lake" />
+	</node>
+	<node id="-4486" lat="59.3377240729" lon="5.2140731895">
+		<tag k="name" v="Torestemmen" />
+		<tag k="natural" v="water" />
+		<tag k="ssr:stedsnr" v="731970" />
+	</node>
+	<node id="-3973" lat="59.1994500019" lon="5.19730278336">
+		<tag k="name" v="Løkjene" />
+		<tag k="ssr:stedsnr" v="302564" />
+		<tag k="waterway" v="stream" />
+	</node>
+	<node id="-3815" lat="59.1838666675" lon="5.27464166306">
+		<tag k="alt_name" v="Hilleslandvatnet;Hilleslandvatn" />
+		<tag k="name" v="Hilleslandsvatnet" />
+		<tag k="natural" v="water" />
+		<tag k="ssr:stedsnr" v="244101" />
+		<tag k="water" v="lake" />
+	</node>
+	<node id="-4470" lat="59.3586833366" lon="5.35815832675">
+		<tag k="name" v="Rabbavatnet" />
+		<tag k="natural" v="water" />
+		<tag k="ssr:stedsnr" v="730532" />
+	</node>
+	<node id="-5491" lat="59.3015992594" lon="5.35002488226">
+		<tag k="alt_name" v="Helgalandsvatnet, nedre" />
+		<tag k="name" v="Nedre Helgalandsvatnet" />
+		<tag k="natural" v="water" />
+		<tag k="ssr:stedsnr" v="427962" />
+		<tag k="water" v="lake" />
+	</node>
+	<node id="-4465" lat="59.2061194464" lon="5.23985555626">
+		<tag k="name" v="Mattisbekken" />
+		<tag k="ssr:stedsnr" v="730112" />
+		<tag k="waterway" v="stream" />
+	</node>
+	<node id="-4463" lat="59.2135888856" lon="5.24534721784">
+		<tag k="alt_name" v="Sandvatn" />
+		<tag k="name" v="Sandvatnet" />
+		<tag k="natural" v="water" />
+		<tag k="ssr:stedsnr" v="730012" />
+		<tag k="water" v="lake" />
+	</node>
+	<node id="-5486" lat="59.2729195187" lon="5.25940850372">
+		<tag k="alt_name" v="Brekkevatnet, nordre" />
+		<tag k="name" v="Nordre Brekkevatnet" />
+		<tag k="natural" v="water" />
+		<tag k="ssr:stedsnr" v="427898" />
+		<tag k="water" v="lake" />
+	</node>
+	<node id="-5485" lat="59.2500507631" lon="5.29471829968">
+		<tag k="alt_name" v="Melstokkåvatn" />
+		<tag k="name" v="Melstokkevatnet" />
+		<tag k="natural" v="water" />
+		<tag k="ssr:stedsnr" v="427862" />
+		<tag k="water" v="lake" />
+	</node>
+	<node id="-5482" lat="59.203017296" lon="5.24651908557">
+		<tag k="alt_name" v="Holmavatnet, in;Indre Holmavatn" />
+		<tag k="name" v="Indra Holmavatnet" />
+		<tag k="natural" v="water" />
+		<tag k="ssr:stedsnr" v="427129" />
+		<tag k="water" v="lake" />
+	</node>
+	<node id="-4457" lat="59.192069447" lon="5.1972277848">
+		<tag k="name" v="Nystemmen" />
+		<tag k="ssr:stedsnr" v="729090" />
+		<tag k="waterway" v="stream" />
+	</node>
+	<node id="-5478" lat="59.3423249975" lon="5.2211805492">
+		<tag k="name" v="Isgardvatnet" />
+		<tag k="natural" v="water" />
+		<tag k="ssr:stedsnr" v="426495" />
+	</node>
+	<node id="-5475" lat="59.1811398911" lon="5.24973734512">
+		<tag k="alt_name" v="Røyningsvatn" />
+		<tag k="name" v="Røyningsvatnet" />
+		<tag k="natural" v="water" />
+		<tag k="ssr:stedsnr" v="426072" />
+		<tag k="water" v="lake" />
+	</node>
+	<node id="-4438" lat="59.2495305547" lon="5.25134166575">
+		<tag k="name" v="Vadet" />
+		<tag k="natural" v="cape" />
+		<tag k="ssr:stedsnr" v="727730" />
+	</node>
+	<node id="-4437" lat="59.2558166647" lon="5.24557778377">
+		<tag k="name" v="Svartatjørna" />
+		<tag k="natural" v="water" />
+		<tag k="ssr:stedsnr" v="727728" />
+		<tag k="water" v="lake" />
+	</node>
+	<node id="-5972" lat="59.1667833316" lon="5.30250000571">
+		<tag k="name" v="Niple" />
+		<tag k="ssr:stedsnr" v="970480" />
+		<tag k="waterway" v="stream" />
+	</node>
+	<node id="-4435" lat="59.2716333317" lon="5.27135277979">
+		<tag k="name" v="Ytreeidsløken" />
+		<tag k="natural" v="water" />
+		<tag k="ssr:stedsnr" v="727688" />
+		<tag k="water" v="lake" />
+	</node>
+	<node id="-4434" lat="59.2826500043" lon="5.27652500325">
+		<tag k="name" v="Øygardstjødna" />
+		<tag k="natural" v="water" />
+		<tag k="ssr:stedsnr" v="727681" />
+	</node>
+	<node id="-4433" lat="59.2326194438" lon="5.30371944536">
+		<tag k="name" v="Vaulen" />
+		<tag k="place" v="islet" />
+		<tag k="ssr:stedsnr" v="727674" />
+	</node>
+	<node id="-3920" lat="59.2114055512" lon="5.29963611152">
+		<tag k="alt_name" v="Holmavatn" />
+		<tag k="name" v="Holmavatnet" />
+		<tag k="natural" v="water" />
+		<tag k="ssr:stedsnr" v="244107" />
+		<tag k="water" v="lake" />
+	</node>
+	<node id="-5967" lat="59.3515222219" lon="5.34556666001">
+		<tag k="name" v="Litlavatnet" />
+		<tag k="natural" v="water" />
+		<tag k="ssr:stedsnr" v="970455" />
+		<tag k="water" v="lake" />
+	</node>
+	<node id="-4942" lat="59.1952715549" lon="5.24311916496">
+		<tag k="alt_name" v="Mjåvatn" />
+		<tag k="name" v="Mjåvatnet" />
+		<tag k="natural" v="water" />
+		<tag k="ssr:stedsnr" v="62084" />
+		<tag k="water" v="lake" />
+	</node>
+	<node id="-5964" lat="59.3239611103" lon="5.21158333848">
+		<tag k="name" v="Hølen" />
+		<tag k="natural" v="water" />
+		<tag k="ssr:stedsnr" v="970435" />
+	</node>
+	<node id="-5962" lat="59.3249944409" lon="5.21521388207">
+		<tag k="name" v="Litlatjønn" />
+		<tag k="natural" v="water" />
+		<tag k="ssr:stedsnr" v="970430" />
+	</node>
+	<node id="-5959" lat="59.2900055542" lon="5.26653055013">
+		<tag k="name" v="Slettevann" />
+		<tag k="natural" v="water" />
+		<tag k="ssr:stedsnr" v="970267" />
+		<tag k="water" v="lake" />
+	</node>
+	<node id="-5446" lat="59.3186530533" lon="5.23144995283">
+		<tag k="name" v="Storestemmen" />
+		<tag k="natural" v="water" />
+		<tag k="ssr:stedsnr" v="424287" />
+	</node>
+	<node id="-4420" lat="59.2737570029" lon="5.23643802043">
+		<tag k="name" v="Haringstadstemmen" />
+		<tag k="natural" v="water" />
+		<tag k="ssr:stedsnr" v="727775" />
+	</node>
+	<node id="-3905" lat="59.3197583318" lon="5.22747500338">
+		<tag k="name" v="Litlestemmen" />
+		<tag k="natural" v="water" />
+		<tag k="ssr:stedsnr" v="242278" />
+	</node>
+	<node id="-5951" lat="59.2193472243" lon="5.29503889228">
+		<tag k="name" v="Stikletjørna" />
+		<tag k="natural" v="bay" />
+		<tag k="ssr:stedsnr" v="970202" />
+	</node>
+	<node id="-4412" lat="59.2183888858" lon="5.21813055027">
+		<tag k="name" v="Tverrbekkløkene" />
+		<tag k="ssr:stedsnr" v="727249" />
+		<tag k="waterway" v="stream" />
+	</node>
+	<node id="-5947" lat="59.2918759453" lon="5.35602352772">
+		<tag k="name" v="Tjolandsvatnet" />
+		<tag k="natural" v="water" />
+		<tag k="ssr:stedsnr" v="970139" />
+		<tag k="water" v="lake" />
+	</node>
+	<node id="-5945" lat="59.2884944407" lon="5.34599166483">
+		<tag k="name" v="Litlavatnet" />
+		<tag k="natural" v="water" />
+		<tag k="ssr:stedsnr" v="970136" />
+	</node>
+	<node id="-6025" lat="59.8279125227" lon="9.70560369472">
+		<tag k="name" v="Grølla" />
+		<tag k="natural" v="water" />
+		<tag k="ssr:stedsnr" v="489738" />
+		<tag k="water" v="lake" />
+	</node>
+	<node id="-5940" lat="59.2616111117" lon="5.29274444521">
+		<tag k="name" v="Lomatjødn" />
+		<tag k="natural" v="water" />
+		<tag k="ssr:stedsnr" v="970002" />
+	</node>
+	<node id="-4395" lat="59.3060500016" lon="5.3509361144">
 		<tag k="alt_name" v="Helgalandsvatnet, øvre" />
 		<tag k="name" v="Øvre Helgalandsvatnet" />
 		<tag k="natural" v="water" />
 		<tag k="ssr:stedsnr" v="609974" />
 		<tag k="water" v="lake" />
 	</node>
-	<node id="-3978" lat="59.2519888894" lon="5.18846110966">
-		<tag k="name" v="Åkrasanden" />
-		<tag k="natural" v="beach" />
-		<tag k="ssr:stedsnr" v="241699" />
-	</node>
-	<node id="-4599" lat="59.3248858151" lon="5.25139293476">
+	<node id="-4391" lat="59.3248858151" lon="5.25139293476">
 		<tag k="alt_name" v="Rotatjønn" />
 		<tag k="name" v="Rotatjørna" />
 		<tag k="natural" v="water" />
 		<tag k="ssr:stedsnr" v="608996" />
 	</node>
-	<node id="-5103" lat="59.3003777814" lon="5.35135832914">
+	<node id="-3914" lat="59.3552944489" lon="5.35090000003">
+		<tag k="name" v="Solbergsvatnet" />
+		<tag k="natural" v="water" />
+		<tag k="ssr:stedsnr" v="242775" />
+	</node>
+	<node id="-4895" lat="59.3003777814" lon="5.35135832914">
 		<tag k="name" v="Fosenvatnet" />
 		<tag k="natural" v="water" />
 		<tag k="ssr:stedsnr" v="59936" />
 		<tag k="water" v="lake" />
 	</node>
-	<node id="-5610" lat="59.3248598381" lon="5.2314366394">
+	<node id="-5401" lat="59.3248598381" lon="5.2314366394">
 		<tag k="alt_name" v="Kvalavågtjørna;Kvalavågstjønna" />
 		<tag k="name" v="Kvalavågstjørna" />
 		<tag k="natural" v="water" />
 		<tag k="ssr:stedsnr" v="366997" />
 	</node>
-	<node id="-4519" lat="59.254959408" lon="5.27840546876">
-		<tag k="alt_name" v="Oskereidvatn" />
-		<tag k="name" v="Oskreivatnet" />
-		<tag k="natural" v="water" />
-		<tag k="ssr:stedsnr" v="487903" />
-		<tag k="water" v="lake" />
-	</node>
-	<node id="-5608" lat="59.3110444466" lon="5.3630083291">
+	<node id="-5399" lat="59.3110444466" lon="5.3630083291">
 		<tag k="name" v="Lysvatnet" />
 		<tag k="natural" v="water" />
 		<tag k="ssr:stedsnr" v="366943" />
 	</node>
-	<node id="-5607" lat="59.2918194403" lon="5.26813610902">
+	<node id="-5398" lat="59.2918194403" lon="5.26813610902">
 		<tag k="name" v="Slettvatnet" />
 		<tag k="natural" v="water" />
 		<tag k="ssr:stedsnr" v="366928" />
 		<tag k="water" v="lake" />
 	</node>
-	<node id="-5605" lat="59.2795771643" lon="5.21851472048">
+	<node id="-4373" lat="59.2235472205" lon="5.27469721741">
+		<tag k="name" v="Udnetjørn" />
+		<tag k="natural" v="water" />
+		<tag k="ssr:stedsnr" v="605644" />
+	</node>
+	<node id="-5396" lat="59.2795771643" lon="5.21851472048">
 		<tag k="name" v="Nordvatnet" />
 		<tag k="natural" v="water" />
 		<tag k="ssr:stedsnr" v="366913" />
 	</node>
-	<node id="-6113" lat="59.2971666642" lon="5.28301666883">
+	<node id="-5904" lat="59.2971666642" lon="5.28301666883">
 		<tag k="alt_name" v="Fotvatnet, midtre" />
 		<tag k="name" v="Midtre Fotvatnet" />
 		<tag k="natural" v="water" />
 		<tag k="ssr:stedsnr" v="852939" />
 		<tag k="water" v="lake" />
 	</node>
-	<node id="-5596" lat="59.3356944482" lon="5.33709444369">
+	<node id="-5387" lat="59.3356944482" lon="5.33709444369">
 		<tag k="name" v="Litlavatnet" />
 		<tag k="natural" v="water" />
 		<tag k="ssr:stedsnr" v="366543" />
 	</node>
-	<node id="-5594" lat="59.2198449606" lon="5.27564574532">
+	<node id="-5385" lat="59.2198449606" lon="5.27564574532">
 		<tag k="alt_name" v="Stiklevatn" />
 		<tag k="name" v="Stiklevatnet" />
 		<tag k="natural" v="water" />
@@ -73,911 +493,499 @@
 		<tag k="ssr:stedsnr" v="366102" />
 		<tag k="water" v="lake" />
 	</node>
-	<node id="-5593" lat="59.2151334131" lon="5.30463404386">
+	<node id="-5384" lat="59.2151334131" lon="5.30463404386">
 		<tag k="alt_name" v="Tømmerviksvatn" />
 		<tag k="name" v="Tømmervikvatnet" />
 		<tag k="natural" v="water" />
 		<tag k="ssr:stedsnr" v="366100" />
 		<tag k="water" v="lake" />
 	</node>
-	<node id="-5589" lat="59.3820059411" lon="5.27128173601">
+	<node id="-5380" lat="59.3820059411" lon="5.27128173601">
 		<tag k="alt_name" v="Gunnarshaugvatn" />
 		<tag k="name" v="Gunnarshaugvatnet" />
 		<tag k="natural" v="water" />
 		<tag k="ssr:stedsnr" v="365576" />
 		<tag k="water" v="lake" />
 	</node>
-	<node id="-5579" lat="59.1716194476" lon="5.24764165851">
+	<node id="-5370" lat="59.1716194476" lon="5.24764165851">
 		<tag k="alt_name" v="Ilsvatn" />
 		<tag k="name" v="Ilsvatnet" />
 		<tag k="natural" v="water" />
 		<tag k="ssr:stedsnr" v="365426" />
 		<tag k="water" v="lake" />
 	</node>
-	<node id="-6087" lat="59.3068861119" lon="5.3511000069">
+	<node id="-5878" lat="59.3068861119" lon="5.3511000069">
 		<tag k="name" v="Helgelandsvatnet" />
 		<tag k="natural" v="water" />
 		<tag k="ssr:stedsnr" v="849950" />
 		<tag k="water" v="lake" />
 	</node>
-	<node id="-4547" lat="59.1989500019" lon="5.29120555059">
+	<node id="-4339" lat="59.1989500019" lon="5.29120555059">
 		<tag k="alt_name" v="Paddetjørn" />
 		<tag k="name" v="Paddetjørna" />
 		<tag k="natural" v="water" />
 		<tag k="ssr:stedsnr" v="547120" />
 	</node>
-	<node id="-6082" lat="59.2709944405" lon="5.2522277798">
+	<node id="-5873" lat="59.2709944405" lon="5.2522277798">
 		<tag k="name" v="Rotatjødn" />
 		<tag k="natural" v="water" />
 		<tag k="ssr:stedsnr" v="849786" />
 	</node>
-	<node id="-5056" lat="59.2269361067" lon="5.28878055399">
+	<node id="-4848" lat="59.2269361067" lon="5.28878055399">
 		<tag k="alt_name" v="Himra Mjåvatn" />
 		<tag k="name" v="Heimra Mjåvatnet" />
 		<tag k="natural" v="water" />
 		<tag k="ssr:stedsnr" v="1010" />
 	</node>
-	<node id="-5055" lat="59.2224861155" lon="5.232511116">
+	<node id="-4847" lat="59.2224861155" lon="5.232511116">
 		<tag k="name" v="Tretjørnane" />
 		<tag k="natural" v="water" />
 		<tag k="ssr:stedsnr" v="1007" />
+		<tag k="water" v="lake" />
 	</node>
-	<node id="-5566" lat="59.2171833335" lon="5.26935833667">
+	<node id="-5357" lat="59.2171833335" lon="5.26935833667">
 		<tag k="name" v="Stiklestemmen" />
 		<tag k="natural" v="bay" />
 		<tag k="ssr:stedsnr" v="363581" />
 	</node>
-	<node id="-4541" lat="59.2414527773" lon="5.28284721766">
-		<tag k="name" v="Revadalsvatn" />
-		<tag k="natural" v="water" />
-		<tag k="ssr:stedsnr" v="545626" />
-	</node>
-	<node id="-6072" lat="59.1902527806" lon="5.27164999132">
+	<node id="-5863" lat="59.1902527806" lon="5.27164999132">
 		<tag k="name" v="Tjertnes" />
 		<tag k="natural" v="cape" />
 		<tag k="ssr:stedsnr" v="849692" />
 	</node>
-	<node id="-6071" lat="59.2478308209" lon="5.30928360817">
+	<node id="-5862" lat="59.2478308209" lon="5.30928360817">
 		<tag k="name" v="Melstokkåsternen" />
 		<tag k="natural" v="water" />
 		<tag k="ssr:stedsnr" v="849684" />
 	</node>
-	<node id="-6070" lat="59.2261638923" lon="5.30559443789">
+	<node id="-5861" lat="59.2261638923" lon="5.30559443789">
 		<tag k="name" v="Stemmen" />
 		<tag k="natural" v="water" />
 		<tag k="ssr:stedsnr" v="849676" />
 	</node>
-	<node id="-5557" lat="59.1572018448" lon="5.25650086182">
+	<node id="-5348" lat="59.1572018448" lon="5.25650086182">
 		<tag k="name" v="Almannamyr" />
 		<tag k="natural" v="water" />
 		<tag k="ssr:stedsnr" v="363493" />
 	</node>
-	<node id="-6062" lat="59.3281305572" lon="5.2362916655">
+	<node id="-5853" lat="59.3281305572" lon="5.2362916655">
 		<tag k="alt_name" v="Litle Rotetjønn" />
 		<tag k="name" v="Litla Rotatjørna" />
 		<tag k="natural" v="water" />
 		<tag k="ssr:stedsnr" v="849490" />
 	</node>
-	<node id="-5543" lat="59.220472226" lon="5.24969167438">
-		<tag k="name" v="Dåva" />
-		<tag k="natural" v="water" />
-		<tag k="ssr:stedsnr" v="363220" />
-		<tag k="water" v="lake" />
-	</node>
-	<node id="-4516" lat="59.2046357879" lon="5.22544552855">
-		<tag k="name" v="Nøkksvatnet" />
-		<tag k="natural" v="water" />
-		<tag k="ssr:stedsnr" v="487114" />
-		<tag k="water" v="lake" />
-	</node>
-	<node id="-5025" lat="59.1734472264" lon="5.28784166587">
-		<tag k="name" v="Kløvsteinstjørna" />
-		<tag k="natural" v="water" />
-		<tag k="ssr:stedsnr" v="970607" />
-	</node>
-	<node id="-6046" lat="59.2103083349" lon="5.22466945094">
-		<tag k="name" v="Holmavatsløkjene" />
-		<tag k="place" v="locality" />
-		<tag k="ssr:stedsnr" v="849233" />
-	</node>
-	<node id="-4509" lat="59.3465166677" lon="5.23731667007">
-		<tag k="name" v="Røvik" />
-		<tag k="natural" v="bay" />
-		<tag k="ssr:stedsnr" v="484708" />
-	</node>
-	<node id="-5016" lat="59.2037277796" lon="5.24671111556">
-		<tag k="name" v="Holmavasneset" />
-		<tag k="natural" v="cape" />
-		<tag k="ssr:stedsnr" v="970203" />
-	</node>
-	<node id="-6036" lat="59.1625638847" lon="5.21472776998">
-		<tag k="name" v="Stuttånå" />
-		<tag k="ssr:stedsnr" v="849032" />
-		<tag k="waterway" v="stream" />
-	</node>
-	<node id="-3985" lat="59.2927833317" lon="5.26812222268">
-		<tag k="name" v="Janastemmen" />
-		<tag k="natural" v="water" />
-		<tag k="ssr:stedsnr" v="242041" />
-	</node>
-	<node id="-5007" lat="59.2500194418" lon="5.19486110866">
-		<tag k="name" v="Medhaugsanden" />
-		<tag k="natural" v="beach" />
-		<tag k="ssr:stedsnr" v="969712" />
-	</node>
-	<node id="-4493" lat="59.3007722236" lon="5.23963333001">
-		<tag k="name" v="Storestemmen" />
-		<tag k="natural" v="water" />
-		<tag k="ssr:stedsnr" v="484261" />
-		<tag k="water" v="lake" />
-	</node>
-	<node id="-4490" lat="59.2077138879" lon="5.2473777793">
-		<tag k="name" v="Skukketjødna" />
-		<tag k="natural" v="water" />
-		<tag k="ssr:stedsnr" v="484218" />
-	</node>
-	<node id="-3977" lat="59.3040055566" lon="5.35880556349">
-		<tag k="name" v="Steinsvatnet" />
-		<tag k="natural" v="water" />
-		<tag k="ssr:stedsnr" v="63950" />
-		<tag k="water" v="lake" />
-	</node>
-	<node id="-6019" lat="59.3750250022" lon="5.35926111546">
-		<tag k="name" v="Aksneselva" />
-		<tag k="ssr:stedsnr" v="816089" />
-		<tag k="waterway" v="river" />
-	</node>
-	<node id="-3969" lat="59.2159555593" lon="5.25134443824">
-		<tag k="name" v="Revsåna" />
-		<tag k="ssr:stedsnr" v="62015" />
-		<tag k="waterway" v="stream" />
-	</node>
-	<node id="-3968" lat="59.2294694446" lon="5.28310278597">
-		<tag k="alt_name" v="Mjåvatnet, vestra;Vestra Mjåvatn" />
-		<tag k="name" v="Vestra Mjåvatnet" />
-		<tag k="natural" v="water" />
-		<tag k="ssr:stedsnr" v="62009" />
-	</node>
-	<node id="-4671" lat="59.2135888856" lon="5.24534721784">
-		<tag k="alt_name" v="Sandvatn" />
-		<tag k="name" v="Sandvatnet" />
-		<tag k="natural" v="water" />
-		<tag k="ssr:stedsnr" v="730012" />
-		<tag k="water" v="lake" />
-	</node>
-	<node id="-4983" lat="59.1996916644" lon="5.23115277238">
-		<tag k="name" v="Ulvedalsbrunå" />
-		<tag k="natural" v="bay" />
-		<tag k="ssr:stedsnr" v="909620" />
-	</node>
-	<node id="-5493" lat="59.261022275" lon="5.25492007384">
-		<tag k="name" v="Tistreivatnet" />
-		<tag k="natural" v="water" />
-		<tag k="ssr:stedsnr" v="306901" />
-		<tag k="water" v="lake" />
-	</node>
-	<node id="-5488" lat="59.2984248629" lon="5.25869881003">
-		<tag k="alt_name" v="Rossevatn" />
-		<tag k="name" v="Rossavatnet" />
-		<tag k="natural" v="water" />
-		<tag k="ssr:stedsnr" v="305956" />
-	</node>
-	<node id="-4752" lat="59.2914388911" lon="5.25974722882">
-		<tag k="name" v="Tomåsstemmen" />
-		<tag k="natural" v="water" />
-		<tag k="ssr:stedsnr" v="727156" />
-		<tag k="water" v="lake" />
-	</node>
-	<node id="-4457" lat="59.1644527783" lon="5.25847777364">
-		<tag k="alt_name" v="Litlavatn" />
-		<tag k="name" v="Litlavatnet" />
-		<tag k="natural" v="water" />
-		<tag k="ssr:stedsnr" v="669440" />
-	</node>
-	<node id="-5992" lat="59.320386107" lon="5.26495000013">
-		<tag k="name" v="Grasvatnet" />
-		<tag k="natural" v="water" />
-		<tag k="ssr:stedsnr" v="791983" />
-	</node>
-	<node id="-4924" lat="59.3940194413" lon="5.34184444436">
-		<tag k="name" v="Vassbrekkevatnet" />
-		<tag k="natural" v="water" />
-		<tag k="ssr:stedsnr" v="790610" />
-	</node>
-	<node id="-5985" lat="59.2816277798" lon="5.40045832923">
-		<tag k="alt_name" v="Stemvatn" />
-		<tag k="name" v="Stemvatnet" />
-		<tag k="natural" v="water" />
-		<tag k="ssr:stedsnr" v="791912" />
-		<tag k="water" v="lake" />
-	</node>
-	<node id="-5984" lat="59.2642584586" lon="5.26226155126">
-		<tag k="alt_name" v="Brekkevatnet, søre" />
-		<tag k="name" v="Søre Brekkevatnet" />
-		<tag k="natural" v="water" />
-		<tag k="ssr:stedsnr" v="791898" />
-		<tag k="water" v="lake" />
-	</node>
-	<node id="-5471" lat="59.1843361118" lon="5.23261666181">
-		<tag k="alt_name" v="Rotavatn" />
-		<tag k="name" v="Rotavatnet" />
-		<tag k="natural" v="water" />
-		<tag k="ssr:stedsnr" v="305059" />
-	</node>
-	<node id="-5982" lat="59.3285194438" lon="5.26277500062">
-		<tag k="name" v="Kolstøåna" />
-		<tag k="ssr:stedsnr" v="790996" />
-		<tag k="waterway" v="stream" />
-	</node>
-	<node id="-4581" lat="59.2235472205" lon="5.27469721741">
-		<tag k="name" v="Udnetjørn" />
-		<tag k="natural" v="water" />
-		<tag k="ssr:stedsnr" v="605644" />
-	</node>
-	<node id="-5979" lat="59.3453861076" lon="5.23345833283">
+	<node id="-5770" lat="59.3453861076" lon="5.23345833283">
 		<tag k="name" v="Visnesvatnet" />
 		<tag k="natural" v="water" />
 		<tag k="ssr:stedsnr" v="790537" />
 		<tag k="water" v="lake" />
 	</node>
-	<node id="-5976" lat="59.2028222217" lon="5.30598056237">
-		<tag k="name" v="Stemmen" />
+	<node id="-4311" lat="59.254959408" lon="5.27840546876">
+		<tag k="alt_name" v="Oskereidvatn" />
+		<tag k="name" v="Oskreivatnet" />
 		<tag k="natural" v="water" />
-		<tag k="ssr:stedsnr" v="790087" />
-	</node>
-	<node id="-5972" lat="59.1615916631" lon="5.21348055641">
-		<tag k="name" v="Litlavatnet" />
-		<tag k="natural" v="water" />
-		<tag k="ssr:stedsnr" v="790438" />
-	</node>
-	<node id="-5457" lat="59.3421930047" lon="5.20831363107">
-		<tag k="name" v="Stogdalsvatnet" />
-		<tag k="natural" v="water" />
-		<tag k="ssr:stedsnr" v="302736" />
+		<tag k="ssr:stedsnr" v="487903" />
 		<tag k="water" v="lake" />
 	</node>
-	<node id="-5948" lat="59.2367999983" lon="5.25758333651">
-		<tag k="name" v="Ystersjøen" />
+	<node id="-5334" lat="59.220472226" lon="5.24969167438">
+		<tag k="name" v="Dåva" />
 		<tag k="natural" v="water" />
-		<tag k="ssr:stedsnr" v="787888" />
-	</node>
-	<node id="-5947" lat="59.3100277754" lon="5.30723333636">
-		<tag k="name" v="Skinnvågen" />
-		<tag k="natural" v="water" />
-		<tag k="ssr:stedsnr" v="788037" />
-	</node>
-	<node id="-4409" lat="59.1692666651" lon="5.28372499697">
-		<tag k="name" v="Heggheimsstemmmen" />
-		<tag k="natural" v="water" />
-		<tag k="ssr:stedsnr" v="666390" />
-	</node>
-	<node id="-4916" lat="59.2207111075" lon="5.22130832937">
-		<tag k="name" v="Tverrbekken" />
-		<tag k="ssr:stedsnr" v="790008" />
-		<tag k="waterway" v="stream" />
-	</node>
-	<node id="-4914" lat="59.3449722192" lon="5.34208333108">
-		<tag k="name" v="Tuastadvatnet" />
-		<tag k="natural" v="water" />
-		<tag k="ssr:stedsnr" v="788789" />
+		<tag k="ssr:stedsnr" v="363220" />
 		<tag k="water" v="lake" />
 	</node>
-	<node id="-5933" lat="59.3715083335" lon="5.28477777081">
-		<tag k="name" v="Bøvatn" />
+	<node id="-4308" lat="59.2046357879" lon="5.22544552855">
+		<tag k="name" v="Nøkksvatnet" />
 		<tag k="natural" v="water" />
-		<tag k="ssr:stedsnr" v="755899" />
+		<tag k="ssr:stedsnr" v="487114" />
 		<tag k="water" v="lake" />
 	</node>
-	<node id="-4742" lat="59.3618527739" lon="5.25462499532">
-		<tag k="name" v="Skiftesbekken" />
-		<tag k="ssr:stedsnr" v="694812" />
-		<tag k="waterway" v="stream" />
-	</node>
-	<node id="-5409" lat="59.3160638925" lon="5.24005000811">
-		<tag k="name" v="Gåsavatnet" />
+	<node id="-4817" lat="59.1734472264" lon="5.28784166587">
+		<tag k="name" v="Kløvsteinstjørna" />
 		<tag k="natural" v="water" />
-		<tag k="ssr:stedsnr" v="184967" />
-		<tag k="water" v="lake" />
+		<tag k="ssr:stedsnr" v="970607" />
 	</node>
-	<node id="-3931" lat="59.2720704877" lon="5.22699570399">
-		<tag k="name" v="Heiavatnet" />
-		<tag k="natural" v="water" />
-		<tag k="ssr:stedsnr" v="2911" />
-		<tag k="water" v="lake" />
+	<node id="-4301" lat="59.3465166677" lon="5.23731667007">
+		<tag k="name" v="Røvik" />
+		<tag k="natural" v="bay" />
+		<tag k="ssr:stedsnr" v="484708" />
 	</node>
-	<node id="-5917" lat="59.33938208" lon="5.22471174949">
-		<tag k="name" v="Johannesvatnet" />
-		<tag k="natural" v="water" />
-		<tag k="ssr:stedsnr" v="754660" />
-	</node>
-	<node id="-4373" lat="59.2297638875" lon="5.26884445205">
-		<tag k="name" v="Vaulen" />
-		<tag k="natural" v="water" />
-		<tag k="ssr:stedsnr" v="426009" />
-	</node>
-	<node id="-4371" lat="59.1986999959" lon="5.22302499487">
-		<tag k="name" v="Butjørn" />
-		<tag k="natural" v="water" />
-		<tag k="ssr:stedsnr" v="426113" />
-	</node>
-	<node id="-4370" lat="59.1977194464" lon="5.26270556213">
-		<tag k="alt_name" v="Homravatn" />
-		<tag k="name" v="Hamravatnet" />
-		<tag k="natural" v="water" />
-		<tag k="ssr:stedsnr" v="426110" />
-	</node>
-	<node id="-5393" lat="59.3674583313" lon="5.32247499522">
-		<tag k="name" v="Moksheimsvatnet" />
-		<tag k="natural" v="water" />
-		<tag k="ssr:stedsnr" v="184553" />
-		<tag k="water" v="lake" />
-	</node>
-	<node id="-4366" lat="59.2704111108" lon="5.28355277683">
-		<tag k="name" v="Storestemmen" />
-		<tag k="natural" v="water" />
-		<tag k="ssr:stedsnr" v="424645" />
-	</node>
-	<node id="-5386" lat="59.207095128" lon="5.23421162716">
-		<tag k="alt_name" v="Holmavatnet, yt;Store Holmevatn" />
-		<tag k="name" v="Ytra Holmavatnet" />
-		<tag k="natural" v="water" />
-		<tag k="ssr:stedsnr" v="184119" />
-		<tag k="water" v="lake" />
-	</node>
-	<node id="-5385" lat="59.2204416658" lon="5.30596944364">
-		<tag k="alt_name" v="Varatjørn" />
-		<tag k="name" v="Vardatjørna" />
-		<tag k="natural" v="water" />
-		<tag k="ssr:stedsnr" v="184092" />
-	</node>
-	<node id="-5376" lat="59.2501000017" lon="5.25489444213">
-		<tag k="name" v="Strigvatnet" />
-		<tag k="natural" v="water" />
-		<tag k="ssr:stedsnr" v="183034" />
-	</node>
-	<node id="-5374" lat="59.2358416696" lon="5.27170555925">
-		<tag k="alt_name" v="Buadalsvatnet, øvre;Øvre Budalsvatn" />
-		<tag k="name" v="Øvre Buadalsvatnet" />
-		<tag k="natural" v="water" />
-		<tag k="ssr:stedsnr" v="183011" />
-		<tag k="water" v="lake" />
-	</node>
-	<node id="-5373" lat="59.163729866" lon="5.21816095424">
-		<tag k="alt_name" v="Grødheimsvatn" />
-		<tag k="name" v="Grøtheimsvatnet" />
-		<tag k="natural" v="water" />
-		<tag k="ssr:stedsnr" v="183385" />
-	</node>
-	<node id="-5371" lat="59.1733027741" lon="5.23870000098">
-		<tag k="name" v="Risdalstemmen" />
-		<tag k="natural" v="water" />
-		<tag k="ssr:stedsnr" v="183370" />
-	</node>
-	<node id="-4854" lat="59.200038889" lon="5.29629444432">
-		<tag k="alt_name" v="Kjigavatn" />
-		<tag k="name" v="Kigjavatnet" />
-		<tag k="natural" v="water" />
-		<tag k="ssr:stedsnr" v="911107" />
-		<tag k="water" v="lake" />
-	</node>
-	<node id="-4853" lat="59.1952333304" lon="5.28633611892">
-		<tag k="name" v="Dalsvatnet" />
-		<tag k="natural" v="water" />
-		<tag k="ssr:stedsnr" v="911093" />
-		<tag k="water" v="lake" />
-	</node>
-	<node id="-5876" lat="59.2714583301" lon="5.3563305636">
-		<tag k="name" v="Krokanesvatnet" />
-		<tag k="natural" v="water" />
-		<tag k="ssr:stedsnr" v="609902" />
-		<tag k="water" v="lake" />
-	</node>
-	<node id="-4847" lat="59.2164972218" lon="5.21020278605">
-		<tag k="name" v="Martaåna" />
-		<tag k="ssr:stedsnr" v="911016" />
-		<tag k="waterway" v="stream" />
-	</node>
-	<node id="-4846" lat="59.2243499991" lon="5.30526667408">
-		<tag k="alt_name" v="Røyningsvatn" />
-		<tag k="name" v="Røyningsvatnet" />
-		<tag k="natural" v="water" />
-		<tag k="ssr:stedsnr" v="911001" />
-		<tag k="water" v="lake" />
-	</node>
-	<node id="-4844" lat="59.2540661891" lon="5.25291268227">
-		<tag k="name" v="Vaulen" />
-		<tag k="natural" v="water" />
-		<tag k="ssr:stedsnr" v="910730" />
-		<tag k="water" v="lake" />
-	</node>
-	<node id="-5866" lat="59.1717111149" lon="5.22134721991">
-		<tag k="name" v="Liastemmen" />
-		<tag k="natural" v="water" />
-		<tag k="ssr:stedsnr" v="608417" />
-	</node>
-	<node id="-4840" lat="59.2309694437" lon="5.22787500663">
-		<tag k="name" v="Røyrmyrå" />
-		<tag k="ssr:stedsnr" v="909891" />
-		<tag k="waterway" v="stream" />
-	</node>
-	<node id="-5860" lat="59.2417063827" lon="5.26718432803">
-		<tag k="alt_name" v="Buadalsvatnet, nedre;Nedre Buadalsvatn" />
-		<tag k="name" v="Nedre Buadalsvatnet" />
-		<tag k="natural" v="water" />
-		<tag k="ssr:stedsnr" v="607048" />
-		<tag k="water" v="lake" />
-	</node>
-	<node id="-4646" lat="59.2495305547" lon="5.25134166575">
-		<tag k="name" v="Vadet" />
-		<tag k="natural" v="cape" />
-		<tag k="ssr:stedsnr" v="727730" />
-	</node>
-	<node id="-5854" lat="59.2670223961" lon="5.26149380767">
-		<tag k="name" v="Brekkevatnet" />
-		<tag k="natural" v="water" />
-		<tag k="ssr:stedsnr" v="605741" />
-		<tag k="water" v="lake" />
-	</node>
-	<node id="-4829" lat="59.1799416702" lon="5.28480833595">
-		<tag k="name" v="Lyngtjørna" />
-		<tag k="natural" v="water" />
-		<tag k="ssr:stedsnr" v="909715" />
-	</node>
-	<node id="-4826" lat="59.3474166673" lon="5.23517499221">
-		<tag k="name" v="Vatnholmen" />
-		<tag k="place" v="islet" />
-		<tag k="ssr:stedsnr" v="909711" />
-	</node>
-	<node id="-4131" lat="59.3348500012" lon="5.26422499275">
-		<tag k="name" v="Fiskåvatnet" />
-		<tag k="natural" v="water" />
-		<tag k="ssr:stedsnr" v="244563" />
-		<tag k="water" v="lake" />
-	</node>
-	<node id="-4816" lat="59.2491277798" lon="5.31337222989">
-		<tag k="name" v="Melstokkåstemmen" />
-		<tag k="natural" v="water" />
-		<tag k="ssr:stedsnr" v="909564" />
-	</node>
-	<node id="-5836" lat="59.3120826395" lon="5.23542720616">
-		<tag k="alt_name" v="Torestemmen" />
-		<tag k="name" v="Tørresstemmen" />
-		<tag k="natural" v="water" />
-		<tag k="ssr:stedsnr" v="605344" />
-	</node>
-	<node id="-5323" lat="59.3182277769" lon="5.34457221647">
-		<tag k="name" v="Leirvågsvatnet" />
-		<tag k="natural" v="water" />
-		<tag k="ssr:stedsnr" v="181206" />
-		<tag k="water" v="lake" />
-	</node>
-	<node id="-4300" lat="59.2492611077" lon="5.24512222223">
-		<tag k="name" v="Strigvatn" />
-		<tag k="natural" v="water" />
-		<tag k="ssr:stedsnr" v="363688" />
-	</node>
-	<node id="-4294" lat="59.3539111084" lon="5.23345277353">
-		<tag k="name" v="Nordre Visnesvatnet" />
-		<tag k="natural" v="water" />
-		<tag k="ssr:stedsnr" v="363703" />
-	</node>
-	<node id="-6177" lat="59.3515222219" lon="5.34556666001">
-		<tag k="name" v="Litlavatnet" />
-		<tag k="natural" v="water" />
-		<tag k="ssr:stedsnr" v="970455" />
-		<tag k="water" v="lake" />
-	</node>
-	<node id="-4292" lat="59.3081333358" lon="5.2373444491">
-		<tag k="name" v="Aureibekken" />
-		<tag k="ssr:stedsnr" v="363283" />
-		<tag k="waterway" v="stream" />
-	</node>
-	<node id="-4811" lat="59.3217583344" lon="5.26471667061">
-		<tag k="name" v="Grasvatnet" />
-		<tag k="natural" v="water" />
-		<tag k="ssr:stedsnr" v="909318" />
-	</node>
-	<node id="-4279" lat="59.3160138932" lon="5.4426444376">
-		<tag k="alt_name" v="Vadvatnet, nordre;Vadvatnet;nordra Vavatnet" />
-		<tag k="name" v="Nordre Vadvatnet" />
-		<tag k="natural" v="water" />
-		<tag k="ssr:stedsnr" v="488956" />
-		<tag k="water" v="lake" />
-	</node>
-	<node id="-5812" lat="59.4002636069" lon="5.3475224842">
-		<tag k="name" v="Paddetjørn" />
-		<tag k="natural" v="water" />
-		<tag k="ssr:stedsnr" v="572994" />
-	</node>
-	<node id="-5150" lat="59.1952715549" lon="5.24311916496">
-		<tag k="alt_name" v="Mjåvatn" />
-		<tag k="name" v="Mjåvatnet" />
-		<tag k="natural" v="water" />
-		<tag k="ssr:stedsnr" v="62084" />
-		<tag k="water" v="lake" />
-	</node>
-	<node id="-4271" lat="59.3797222253" lon="5.32749165917">
-		<tag k="alt_name" v="Spannevatnet" />
-		<tag k="name" v="Spannavatnet" />
-		<tag k="natural" v="water" />
-		<tag k="ssr:stedsnr" v="487640" />
-	</node>
-	<node id="-4777" lat="59.331580555" lon="5.23483056339">
-		<tag k="name" v="Grodvatnet" />
-		<tag k="natural" v="water" />
-		<tag k="ssr:stedsnr" v="730565" />
-		<tag k="water" v="lake" />
-	</node>
-	<node id="-5287" lat="59.2949904227" lon="5.27675672511">
-		<tag k="alt_name" v="Fotvatnet, store;Store Fotvatnet;Fotvatn" />
-		<tag k="name" v="Stora Fotvatnet" />
-		<tag k="natural" v="water" />
-		<tag k="ssr:stedsnr" v="123956" />
-		<tag k="water" v="lake" />
-	</node>
-	<node id="-5283" lat="59.2654131447" lon="5.19884621783">
-		<tag k="fixme" v="multiple name tags, choose one and add the other to alt_name" />
-		<tag k="name" v="Tjøsvollvatnet;Tveitvatnet" />
-		<tag k="natural" v="water" />
-		<tag k="ssr:stedsnr" v="123912" />
-		<tag k="water" v="lake" />
-	</node>
-	<node id="-5282" lat="59.2618888916" lon="5.2206916623">
-		<tag k="alt_name" v="Killingtjørn" />
-		<tag k="name" v="Killingtjørna" />
-		<tag k="natural" v="water" />
-		<tag k="ssr:stedsnr" v="123911" />
-	</node>
-	<node id="-4767" lat="59.2329361124" lon="5.18006111806">
-		<tag k="name" v="Stavasanden" />
-		<tag k="natural" v="beach" />
-		<tag k="ssr:stedsnr" v="729021" />
-	</node>
-	<node id="-5277" lat="59.3827027761" lon="5.35071944029">
-		<tag k="name" v="Aksnesvatnet" />
-		<tag k="natural" v="water" />
-		<tag k="ssr:stedsnr" v="123643" />
-		<tag k="water" v="lake" />
-	</node>
-	<node id="-4122" lat="59.3552944489" lon="5.35090000003">
-		<tag k="name" v="Solbergsvatnet" />
-		<tag k="natural" v="water" />
-		<tag k="ssr:stedsnr" v="242775" />
-	</node>
-	<node id="-5273" lat="59.3614777803" lon="5.34038888816">
-		<tag k="name" v="Vormedalsvatnet" />
-		<tag k="natural" v="water" />
-		<tag k="ssr:stedsnr" v="123592" />
-		<tag k="water" v="lake" />
-	</node>
-	<node id="-5269" lat="59.344444447" lon="5.33944444598">
-		<tag k="name" v="Tuastadvatnet" />
-		<tag k="natural" v="water" />
-		<tag k="ssr:stedsnr" v="123567" />
-		<tag k="water" v="lake" />
-	</node>
-	<node id="-5780" lat="59.2647371615" lon="5.24305093788">
-		<tag k="alt_name" v="Aureivatn" />
-		<tag k="name" v="Aureivatnet" />
-		<tag k="natural" v="water" />
-		<tag k="ssr:stedsnr" v="548898" />
-		<tag k="water" v="lake" />
-	</node>
-	<node id="-5264" lat="59.2235027807" lon="5.29166110459">
-		<tag k="alt_name" v="Mjåvatnet, litla;Litla Mjåvatn" />
-		<tag k="name" v="Litla Mjåvatnet" />
-		<tag k="natural" v="water" />
-		<tag k="ssr:stedsnr" v="123119" />
-		<tag k="water" v="lake" />
-	</node>
-	<node id="-4748" lat="59.3172916694" lon="5.2283111132">
-		<tag k="name" v="Knultadåven" />
-		<tag k="natural" v="water" />
-		<tag k="ssr:stedsnr" v="727307" />
-	</node>
-	<node id="-4369" lat="59.29920556" lon="5.34454167309">
-		<tag k="name" v="Sæbjørnsvatn" />
-		<tag k="natural" v="water" />
-		<tag k="ssr:stedsnr" v="424926" />
-		<tag k="water" v="lake" />
-	</node>
-	<node id="-4231" lat="59.1941333346" lon="5.28601667429">
-		<tag k="name" v="Tøkjetongen" />
-		<tag k="natural" v="cape" />
-		<tag k="ssr:stedsnr" v="484677" />
-	</node>
-	<node id="-5254" lat="59.2331455122" lon="5.30095883321">
-		<tag k="alt_name" v="Reiarsvatn" />
-		<tag k="name" v="Reiarsvatnet" />
-		<tag k="natural" v="water" />
-		<tag k="ssr:stedsnr" v="122020" />
-		<tag k="water" v="lake" />
-	</node>
-	<node id="-5142" lat="59.1892805555" lon="5.28855833584">
+	<node id="-4934" lat="59.1892805555" lon="5.28855833584">
 		<tag k="name" v="Kvednabekken" />
 		<tag k="ssr:stedsnr" v="60654" />
 		<tag k="waterway" v="stream" />
 	</node>
-	<node id="-4226" lat="59.2425722187" lon="5.29528888091">
-		<tag k="name" v="Liaretjødn" />
-		<tag k="natural" v="water" />
-		<tag k="ssr:stedsnr" v="484647" />
+	<node id="-4808" lat="59.2037277796" lon="5.24671111556">
+		<tag k="name" v="Holmavasneset" />
+		<tag k="natural" v="cape" />
+		<tag k="ssr:stedsnr" v="970203" />
 	</node>
-	<node id="-5761" lat="59.1847861143" lon="5.29230555244">
-		<tag k="name" v="Kvernabekken" />
-		<tag k="ssr:stedsnr" v="547088" />
+	<node id="-5827" lat="59.1625638847" lon="5.21472776998">
+		<tag k="name" v="Stuttånå" />
+		<tag k="ssr:stedsnr" v="849032" />
 		<tag k="waterway" v="stream" />
 	</node>
-	<node id="-4733" lat="59.1759500001" lon="5.24534443625">
-		<tag k="alt_name" v="Rotatjørn" />
-		<tag k="name" v="Rotatjørna" />
+	<node id="-3777" lat="59.2927833317" lon="5.26812222268">
+		<tag k="name" v="Janastemmen" />
 		<tag k="natural" v="water" />
-		<tag k="ssr:stedsnr" v="669430" />
+		<tag k="ssr:stedsnr" v="242041" />
 	</node>
-	<node id="-5243" lat="59.2719555542" lon="5.21993055643">
-		<tag k="name" v="Stemmen" />
-		<tag k="natural" v="water" />
-		<tag k="ssr:stedsnr" v="120746" />
-	</node>
-	<node id="-4113" lat="59.3197583318" lon="5.22747500338">
-		<tag k="name" v="Litlestemmen" />
-		<tag k="natural" v="water" />
-		<tag k="ssr:stedsnr" v="242278" />
-	</node>
-	<node id="-5238" lat="59.2718027776" lon="5.31156944545">
-		<tag k="name" v="Stemmen" />
-		<tag k="natural" v="water" />
-		<tag k="ssr:stedsnr" v="120663" />
-	</node>
-	<node id="-5237" lat="59.2748055562" lon="5.29805277315">
-		<tag k="name" v="Liartjødn" />
-		<tag k="natural" v="water" />
-		<tag k="ssr:stedsnr" v="120662" />
-	</node>
-	<node id="-4724" lat="59.2163088611" lon="5.21044746244">
-		<tag k="name" v="Talastemmen" />
-		<tag k="natural" v="water" />
-		<tag k="ssr:stedsnr" v="666317" />
-	</node>
-	<node id="-5235" lat="59.2094333349" lon="5.30743888293">
-		<tag k="name" v="Omundtjørna" />
-		<tag k="natural" v="water" />
-		<tag k="ssr:stedsnr" v="120632" />
-	</node>
-	<node id="-5745" lat="59.3460361109" lon="5.23502777333">
-		<tag k="name" v="Rovikneset" />
-		<tag k="natural" v="cape" />
-		<tag k="ssr:stedsnr" v="545696" />
-	</node>
-	<node id="-5738" lat="59.1966138902" lon="5.18428332802">
-		<tag k="name" v="Hålandsand" />
+	<node id="-4799" lat="59.2500194418" lon="5.19486110866">
+		<tag k="name" v="Medhaugsanden" />
 		<tag k="natural" v="beach" />
-		<tag k="ssr:stedsnr" v="545563" />
+		<tag k="ssr:stedsnr" v="969712" />
 	</node>
-	<node id="-4455" lat="59.2041833375" lon="5.2180527853">
+	<node id="-4285" lat="59.3007722236" lon="5.23963333001">
+		<tag k="name" v="Storestemmen" />
+		<tag k="natural" v="water" />
+		<tag k="ssr:stedsnr" v="484261" />
+		<tag k="water" v="lake" />
+	</node>
+	<node id="-4282" lat="59.2077138879" lon="5.2473777793">
+		<tag k="name" v="Skukketjødna" />
+		<tag k="natural" v="water" />
+		<tag k="ssr:stedsnr" v="484218" />
+	</node>
+	<node id="-3769" lat="59.3040055566" lon="5.35880556349">
+		<tag k="name" v="Steinsvatnet" />
+		<tag k="natural" v="water" />
+		<tag k="ssr:stedsnr" v="63950" />
+		<tag k="water" v="lake" />
+	</node>
+	<node id="-5837" lat="59.2103083349" lon="5.22466945094">
+		<tag k="name" v="Holmavatsløkjene" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="849233" />
+	</node>
+	<node id="-5810" lat="59.3750250022" lon="5.35926111546">
+		<tag k="name" v="Aksneselva" />
+		<tag k="ssr:stedsnr" v="816089" />
+		<tag k="waterway" v="river" />
+	</node>
+	<node id="-3761" lat="59.2159555593" lon="5.25134443824">
+		<tag k="name" v="Revsåna" />
+		<tag k="ssr:stedsnr" v="62015" />
+		<tag k="waterway" v="stream" />
+	</node>
+	<node id="-3760" lat="59.2294694446" lon="5.28310278597">
+		<tag k="alt_name" v="Mjåvatnet, vestra;Vestra Mjåvatn" />
+		<tag k="name" v="Vestra Mjåvatnet" />
+		<tag k="natural" v="water" />
+		<tag k="ssr:stedsnr" v="62009" />
+	</node>
+	<node id="-4775" lat="59.1996916644" lon="5.23115277238">
+		<tag k="name" v="Ulvedalsbrunå" />
+		<tag k="natural" v="bay" />
+		<tag k="ssr:stedsnr" v="909620" />
+	</node>
+	<node id="-5284" lat="59.261022275" lon="5.25492007384">
+		<tag k="name" v="Tistreivatnet" />
+		<tag k="natural" v="water" />
+		<tag k="ssr:stedsnr" v="306901" />
+		<tag k="water" v="lake" />
+	</node>
+	<node id="-5279" lat="59.2984248629" lon="5.25869881003">
+		<tag k="alt_name" v="Rossevatn" />
+		<tag k="name" v="Rossavatnet" />
+		<tag k="natural" v="water" />
+		<tag k="ssr:stedsnr" v="305956" />
+	</node>
+	<node id="-4249" lat="59.1644527783" lon="5.25847777364">
+		<tag k="alt_name" v="Litlavatn" />
+		<tag k="name" v="Litlavatnet" />
+		<tag k="natural" v="water" />
+		<tag k="ssr:stedsnr" v="669440" />
+	</node>
+	<node id="-4247" lat="59.2041833375" lon="5.2180527853">
 		<tag k="name" v="Litlavatnet" />
 		<tag k="natural" v="water" />
 		<tag k="ssr:stedsnr" v="669114" />
 		<tag k="water" v="lake" />
 	</node>
-	<node id="-5736" lat="59.2809638915" lon="5.34729166644">
-		<tag k="name" v="Grydviksvatnet" />
-		<tag k="natural" v="water" />
-		<tag k="ssr:stedsnr" v="545544" />
-		<tag k="water" v="lake" />
-	</node>
-	<node id="-4881" lat="59.3003833337" lon="5.2431166747">
-		<tag k="name" v="Storestemmen" />
-		<tag k="natural" v="water" />
-		<tag k="ssr:stedsnr" v="912948" />
-	</node>
-	<node id="-5725" lat="59.3039666686" lon="5.24661110806">
-		<tag k="name" v="Tyritjørn" />
-		<tag k="natural" v="water" />
-		<tag k="ssr:stedsnr" v="545249" />
-	</node>
-	<node id="-5722" lat="59.2227499974" lon="5.23206388938">
-		<tag k="name" v="Trekjødnane" />
-		<tag k="natural" v="water" />
-		<tag k="ssr:stedsnr" v="545227" />
-	</node>
-	<node id="-4184" lat="59.22551667" lon="5.29645554708">
-		<tag k="name" v="Mjåvatn" />
-		<tag k="natural" v="water" />
-		<tag k="ssr:stedsnr" v="302655" />
-		<tag k="water" v="lake" />
-	</node>
-	<node id="-4694" lat="59.3377240729" lon="5.2140731895">
-		<tag k="name" v="Torestemmen" />
-		<tag k="natural" v="water" />
-		<tag k="ssr:stedsnr" v="731970" />
-	</node>
-	<node id="-4181" lat="59.1994500019" lon="5.19730278336">
-		<tag k="name" v="Løkjene" />
-		<tag k="ssr:stedsnr" v="302564" />
-		<tag k="waterway" v="stream" />
-	</node>
-	<node id="-4023" lat="59.1838666675" lon="5.27464166306">
-		<tag k="alt_name" v="Hilleslandvatnet;Hilleslandvatn" />
-		<tag k="name" v="Hilleslandsvatnet" />
-		<tag k="natural" v="water" />
-		<tag k="ssr:stedsnr" v="244101" />
-		<tag k="water" v="lake" />
-	</node>
-	<node id="-4620" lat="59.2183888858" lon="5.21813055027">
-		<tag k="name" v="Tverrbekkløkene" />
-		<tag k="ssr:stedsnr" v="727249" />
-		<tag k="waterway" v="stream" />
-	</node>
-	<node id="-4678" lat="59.3586833366" lon="5.35815832675">
-		<tag k="name" v="Rabbavatnet" />
-		<tag k="natural" v="water" />
-		<tag k="ssr:stedsnr" v="730532" />
-	</node>
-	<node id="-4449" lat="59.2448072081" lon="5.28222984032">
+	<node id="-4241" lat="59.2448072081" lon="5.28222984032">
 		<tag k="alt_name" v="Ørnareirstjødn" />
 		<tag k="name" v="Ørnareirsvatnet" />
 		<tag k="natural" v="water" />
 		<tag k="ssr:stedsnr" v="668043" />
 		<tag k="water" v="lake" />
 	</node>
-	<node id="-5700" lat="59.3015992594" lon="5.35002488226">
-		<tag k="alt_name" v="Helgalandsvatnet, nedre" />
-		<tag k="name" v="Nedre Helgalandsvatnet" />
+	<node id="-5776" lat="59.2816277798" lon="5.40045832923">
+		<tag k="alt_name" v="Stemvatn" />
+		<tag k="name" v="Stemvatnet" />
 		<tag k="natural" v="water" />
-		<tag k="ssr:stedsnr" v="427962" />
+		<tag k="ssr:stedsnr" v="791912" />
 		<tag k="water" v="lake" />
 	</node>
-	<node id="-4673" lat="59.2061194464" lon="5.23985555626">
-		<tag k="name" v="Mattisbekken" />
-		<tag k="ssr:stedsnr" v="730112" />
+	<node id="-5775" lat="59.2642584586" lon="5.26226155126">
+		<tag k="alt_name" v="Brekkevatnet, søre" />
+		<tag k="name" v="Søre Brekkevatnet" />
+		<tag k="natural" v="water" />
+		<tag k="ssr:stedsnr" v="791898" />
+		<tag k="water" v="lake" />
+	</node>
+	<node id="-5262" lat="59.1843361118" lon="5.23261666181">
+		<tag k="alt_name" v="Rotavatn" />
+		<tag k="name" v="Rotavatnet" />
+		<tag k="natural" v="water" />
+		<tag k="ssr:stedsnr" v="305059" />
+	</node>
+	<node id="-5773" lat="59.3285194438" lon="5.26277500062">
+		<tag k="name" v="Kolstøåna" />
+		<tag k="ssr:stedsnr" v="790996" />
 		<tag k="waterway" v="stream" />
 	</node>
-	<node id="-5695" lat="59.2729195187" lon="5.25940850372">
-		<tag k="alt_name" v="Brekkevatnet, nordre" />
-		<tag k="name" v="Nordre Brekkevatnet" />
+	<node id="-3723" lat="59.2720704877" lon="5.22699570399">
+		<tag k="name" v="Heiavatnet" />
 		<tag k="natural" v="water" />
-		<tag k="ssr:stedsnr" v="427898" />
+		<tag k="ssr:stedsnr" v="2911" />
 		<tag k="water" v="lake" />
 	</node>
-	<node id="-5694" lat="59.2500507631" lon="5.29471829968">
-		<tag k="alt_name" v="Melstokkåvatn" />
-		<tag k="name" v="Melstokkevatnet" />
-		<tag k="natural" v="water" />
-		<tag k="ssr:stedsnr" v="427862" />
-		<tag k="water" v="lake" />
-	</node>
-	<node id="-5691" lat="59.203017296" lon="5.24651908557">
-		<tag k="alt_name" v="Holmavatnet, in;Indre Holmavatn" />
-		<tag k="name" v="Indra Holmavatnet" />
-		<tag k="natural" v="water" />
-		<tag k="ssr:stedsnr" v="427129" />
-		<tag k="water" v="lake" />
-	</node>
-	<node id="-4665" lat="59.192069447" lon="5.1972277848">
-		<tag k="name" v="Nystemmen" />
-		<tag k="ssr:stedsnr" v="729090" />
-		<tag k="waterway" v="stream" />
-	</node>
-	<node id="-5687" lat="59.3423249975" lon="5.2211805492">
-		<tag k="name" v="Isgardvatnet" />
-		<tag k="natural" v="water" />
-		<tag k="ssr:stedsnr" v="426495" />
-	</node>
-	<node id="-5897" lat="59.3604465822" lon="5.34474985253">
-		<tag k="name" v="Longavatnet" />
-		<tag k="natural" v="water" />
-		<tag k="ssr:stedsnr" v="633085" />
-		<tag k="water" v="lake" />
-	</node>
-	<node id="-5684" lat="59.1811398911" lon="5.24973734512">
-		<tag k="alt_name" v="Røyningsvatn" />
-		<tag k="name" v="Røyningsvatnet" />
-		<tag k="natural" v="water" />
-		<tag k="ssr:stedsnr" v="426072" />
-		<tag k="water" v="lake" />
-	</node>
-	<node id="-6182" lat="59.1667833316" lon="5.30250000571">
-		<tag k="name" v="Niple" />
-		<tag k="ssr:stedsnr" v="970480" />
-		<tag k="waterway" v="stream" />
-	</node>
-	<node id="-4645" lat="59.2558166647" lon="5.24557778377">
-		<tag k="name" v="Svartatjørna" />
-		<tag k="natural" v="water" />
-		<tag k="ssr:stedsnr" v="727728" />
-		<tag k="water" v="lake" />
-	</node>
-	<node id="-4644" lat="59.1966222214" lon="5.28439443585">
-		<tag k="name" v="Kuneset" />
-		<tag k="natural" v="cape" />
-		<tag k="ssr:stedsnr" v="727697" />
-	</node>
-	<node id="-4643" lat="59.2716333317" lon="5.27135277979">
-		<tag k="name" v="Ytreeidsløken" />
-		<tag k="natural" v="water" />
-		<tag k="ssr:stedsnr" v="727688" />
-		<tag k="water" v="lake" />
-	</node>
-	<node id="-4642" lat="59.2826500043" lon="5.27652500325">
-		<tag k="name" v="Øygardstjødna" />
-		<tag k="natural" v="water" />
-		<tag k="ssr:stedsnr" v="727681" />
-	</node>
-	<node id="-5467" lat="59.1979834416" lon="5.22953220142">
+	<node id="-5258" lat="59.1979834416" lon="5.22953220142">
 		<tag k="alt_name" v="Reidarsløkjene" />
 		<tag k="name" v="Reidarsløkjane" />
 		<tag k="natural" v="water" />
 		<tag k="ssr:stedsnr" v="304094" />
 	</node>
-	<node id="-4128" lat="59.2114055512" lon="5.29963611152">
-		<tag k="alt_name" v="Holmavatn" />
-		<tag k="name" v="Holmavatnet" />
+	<node id="-5767" lat="59.2028222217" lon="5.30598056237">
+		<tag k="name" v="Stemmen" />
 		<tag k="natural" v="water" />
-		<tag k="ssr:stedsnr" v="244107" />
+		<tag k="ssr:stedsnr" v="790087" />
+	</node>
+	<node id="-5763" lat="59.1615916631" lon="5.21348055641">
+		<tag k="name" v="Litlavatnet" />
+		<tag k="natural" v="water" />
+		<tag k="ssr:stedsnr" v="790438" />
+	</node>
+	<node id="-5248" lat="59.3421930047" lon="5.20831363107">
+		<tag k="name" v="Stogdalsvatnet" />
+		<tag k="natural" v="water" />
+		<tag k="ssr:stedsnr" v="302736" />
 		<tag k="water" v="lake" />
 	</node>
-	<node id="-6174" lat="59.3239611103" lon="5.21158333848">
-		<tag k="name" v="Hølen" />
+	<node id="-4544" lat="59.2914388911" lon="5.25974722882">
+		<tag k="name" v="Tomåsstemmen" />
 		<tag k="natural" v="water" />
-		<tag k="ssr:stedsnr" v="970435" />
-	</node>
-	<node id="-6172" lat="59.3249944409" lon="5.21521388207">
-		<tag k="name" v="Litlatjønn" />
-		<tag k="natural" v="water" />
-		<tag k="ssr:stedsnr" v="970430" />
-	</node>
-	<node id="-4634" lat="59.2072833329" lon="5.28842499761">
-		<tag k="name" v="Stiklebotn" />
-		<tag k="natural" v="bay" />
-		<tag k="ssr:stedsnr" v="727648" />
-	</node>
-	<node id="-6169" lat="59.2900055542" lon="5.26653055013">
-		<tag k="name" v="Slettevann" />
-		<tag k="natural" v="water" />
-		<tag k="ssr:stedsnr" v="970267" />
+		<tag k="ssr:stedsnr" v="727156" />
 		<tag k="water" v="lake" />
 	</node>
-	<node id="-5655" lat="59.3186530533" lon="5.23144995283">
-		<tag k="name" v="Storestemmen" />
+	<node id="-4716" lat="59.3940194413" lon="5.34184444436">
+		<tag k="name" v="Vassbrekkevatnet" />
 		<tag k="natural" v="water" />
-		<tag k="ssr:stedsnr" v="424287" />
+		<tag k="ssr:stedsnr" v="790610" />
 	</node>
-	<node id="-4641" lat="59.2326194438" lon="5.30371944536">
-		<tag k="name" v="Vaulen" />
-		<tag k="place" v="islet" />
-		<tag k="ssr:stedsnr" v="727674" />
-	</node>
-	<node id="-4628" lat="59.2737570029" lon="5.23643802043">
-		<tag k="name" v="Haringstadstemmen" />
+	<node id="-5739" lat="59.2367999983" lon="5.25758333651">
+		<tag k="name" v="Ystersjøen" />
 		<tag k="natural" v="water" />
-		<tag k="ssr:stedsnr" v="727775" />
+		<tag k="ssr:stedsnr" v="787888" />
 	</node>
-	<node id="-4263" lat="59.3739999958" lon="5.33120555254">
+	<node id="-5738" lat="59.3100277754" lon="5.30723333636">
+		<tag k="name" v="Skinnvågen" />
+		<tag k="natural" v="water" />
+		<tag k="ssr:stedsnr" v="788037" />
+	</node>
+	<node id="-4201" lat="59.1692666651" lon="5.28372499697">
+		<tag k="name" v="Heggheimsstemmmen" />
+		<tag k="natural" v="water" />
+		<tag k="ssr:stedsnr" v="666390" />
+	</node>
+	<node id="-4708" lat="59.2207111075" lon="5.22130832937">
+		<tag k="name" v="Tverrbekken" />
+		<tag k="ssr:stedsnr" v="790008" />
+		<tag k="waterway" v="stream" />
+	</node>
+	<node id="-4706" lat="59.3449722192" lon="5.34208333108">
+		<tag k="name" v="Tuastadvatnet" />
+		<tag k="natural" v="water" />
+		<tag k="ssr:stedsnr" v="788789" />
+		<tag k="water" v="lake" />
+	</node>
+	<node id="-5783" lat="59.320386107" lon="5.26495000013">
+		<tag k="name" v="Grasvatnet" />
+		<tag k="natural" v="water" />
+		<tag k="ssr:stedsnr" v="791983" />
+	</node>
+	<node id="-5724" lat="59.3715083335" lon="5.28477777081">
+		<tag k="name" v="Bøvatn" />
+		<tag k="natural" v="water" />
+		<tag k="ssr:stedsnr" v="755899" />
+		<tag k="water" v="lake" />
+	</node>
+	<node id="-3770" lat="59.2519888894" lon="5.18846110966">
+		<tag k="name" v="Åkrasanden" />
+		<tag k="natural" v="beach" />
+		<tag k="ssr:stedsnr" v="241699" />
+	</node>
+	<node id="-4055" lat="59.3739999958" lon="5.33120555254">
 		<tag k="alt_name" v="Helgelandsvatnet" />
 		<tag k="name" v="Helgalandsvatnet" />
 		<tag k="natural" v="water" />
 		<tag k="ssr:stedsnr" v="487589" />
 	</node>
-	<node id="-6161" lat="59.2193472243" lon="5.29503889228">
-		<tag k="name" v="Stikletjørna" />
-		<tag k="natural" v="bay" />
-		<tag k="ssr:stedsnr" v="970202" />
-	</node>
-	<node id="-6156" lat="59.2918759453" lon="5.35602352772">
-		<tag k="name" v="Tjolandsvatnet" />
+	<node id="-5200" lat="59.3160638925" lon="5.24005000811">
+		<tag k="name" v="Gåsavatnet" />
 		<tag k="natural" v="water" />
-		<tag k="ssr:stedsnr" v="970139" />
+		<tag k="ssr:stedsnr" v="184967" />
 		<tag k="water" v="lake" />
 	</node>
-	<node id="-6154" lat="59.2884944407" lon="5.34599166483">
-		<tag k="name" v="Litlavatnet" />
+	<node id="-4621" lat="59.1799416702" lon="5.28480833595">
+		<tag k="name" v="Lyngtjørna" />
 		<tag k="natural" v="water" />
-		<tag k="ssr:stedsnr" v="970136" />
+		<tag k="ssr:stedsnr" v="909715" />
 	</node>
-	<node id="-6149" lat="59.2616111117" lon="5.29274444521">
-		<tag k="name" v="Lomatjødn" />
+	<node id="-5708" lat="59.33938208" lon="5.22471174949">
+		<tag k="name" v="Johannesvatnet" />
 		<tag k="natural" v="water" />
-		<tag k="ssr:stedsnr" v="970002" />
+		<tag k="ssr:stedsnr" v="754660" />
+	</node>
+	<node id="-4165" lat="59.2297638875" lon="5.26884445205">
+		<tag k="name" v="Vaulen" />
+		<tag k="natural" v="water" />
+		<tag k="ssr:stedsnr" v="426009" />
+	</node>
+	<node id="-4534" lat="59.3618527739" lon="5.25462499532">
+		<tag k="name" v="Skiftesbekken" />
+		<tag k="ssr:stedsnr" v="694812" />
+		<tag k="waterway" v="stream" />
+	</node>
+	<node id="-4162" lat="59.1977194464" lon="5.26270556213">
+		<tag k="alt_name" v="Homravatn" />
+		<tag k="name" v="Hamravatnet" />
+		<tag k="natural" v="water" />
+		<tag k="ssr:stedsnr" v="426110" />
+	</node>
+	<node id="-4161" lat="59.29920556" lon="5.34454167309">
+		<tag k="name" v="Sæbjørnsvatn" />
+		<tag k="natural" v="water" />
+		<tag k="ssr:stedsnr" v="424926" />
+		<tag k="water" v="lake" />
+	</node>
+	<node id="-5184" lat="59.3674583313" lon="5.32247499522">
+		<tag k="name" v="Moksheimsvatnet" />
+		<tag k="natural" v="water" />
+		<tag k="ssr:stedsnr" v="184553" />
+		<tag k="water" v="lake" />
+	</node>
+	<node id="-4158" lat="59.2704111108" lon="5.28355277683">
+		<tag k="name" v="Storestemmen" />
+		<tag k="natural" v="water" />
+		<tag k="ssr:stedsnr" v="424645" />
+	</node>
+	<node id="-5177" lat="59.207095128" lon="5.23421162716">
+		<tag k="alt_name" v="Holmavatnet, yt;Store Holmevatn" />
+		<tag k="name" v="Ytra Holmavatnet" />
+		<tag k="natural" v="water" />
+		<tag k="ssr:stedsnr" v="184119" />
+		<tag k="water" v="lake" />
+	</node>
+	<node id="-5176" lat="59.2204416658" lon="5.30596944364">
+		<tag k="alt_name" v="Varatjørn" />
+		<tag k="name" v="Vardatjørna" />
+		<tag k="natural" v="water" />
+		<tag k="ssr:stedsnr" v="184092" />
+	</node>
+	<node id="-5688" lat="59.3604465822" lon="5.34474985253">
+		<tag k="name" v="Longavatnet" />
+		<tag k="natural" v="water" />
+		<tag k="ssr:stedsnr" v="633085" />
+		<tag k="water" v="lake" />
+	</node>
+	<node id="-5167" lat="59.2501000017" lon="5.25489444213">
+		<tag k="name" v="Strigvatnet" />
+		<tag k="natural" v="water" />
+		<tag k="ssr:stedsnr" v="183034" />
+	</node>
+	<node id="-5165" lat="59.2358416696" lon="5.27170555925">
+		<tag k="alt_name" v="Buadalsvatnet, øvre;Øvre Budalsvatn" />
+		<tag k="name" v="Øvre Buadalsvatnet" />
+		<tag k="natural" v="water" />
+		<tag k="ssr:stedsnr" v="183011" />
+		<tag k="water" v="lake" />
+	</node>
+	<node id="-5164" lat="59.163729866" lon="5.21816095424">
+		<tag k="alt_name" v="Grødheimsvatn" />
+		<tag k="name" v="Grøtheimsvatnet" />
+		<tag k="natural" v="water" />
+		<tag k="ssr:stedsnr" v="183385" />
+	</node>
+	<node id="-4673" lat="59.3003833337" lon="5.2431166747">
+		<tag k="name" v="Storestemmen" />
+		<tag k="natural" v="water" />
+		<tag k="ssr:stedsnr" v="912948" />
+	</node>
+	<node id="-5162" lat="59.1733027741" lon="5.23870000098">
+		<tag k="name" v="Risdalstemmen" />
+		<tag k="natural" v="water" />
+		<tag k="ssr:stedsnr" v="183370" />
+	</node>
+	<node id="-4646" lat="59.200038889" lon="5.29629444432">
+		<tag k="alt_name" v="Kjigavatn" />
+		<tag k="loc_name" v="Kidjavatnet" />
+		<tag k="name" v="Kigjavatnet" />
+		<tag k="natural" v="water" />
+		<tag k="ssr:stedsnr" v="911107" />
+		<tag k="water" v="lake" />
+	</node>
+	<node id="-4645" lat="59.1952333304" lon="5.28633611892">
+		<tag k="name" v="Dalsvatnet" />
+		<tag k="natural" v="water" />
+		<tag k="ssr:stedsnr" v="911093" />
+		<tag k="water" v="lake" />
+	</node>
+	<node id="-5667" lat="59.2714583301" lon="5.3563305636">
+		<tag k="name" v="Krokanesvatnet" />
+		<tag k="natural" v="water" />
+		<tag k="ssr:stedsnr" v="609902" />
+		<tag k="water" v="lake" />
+	</node>
+	<node id="-4639" lat="59.2164972218" lon="5.21020278605">
+		<tag k="name" v="Martaåna" />
+		<tag k="ssr:stedsnr" v="911016" />
+		<tag k="waterway" v="stream" />
+	</node>
+	<node id="-4638" lat="59.2243499991" lon="5.30526667408">
+		<tag k="alt_name" v="Røyningsvatn" />
+		<tag k="name" v="Røyningsvatnet" />
+		<tag k="natural" v="water" />
+		<tag k="ssr:stedsnr" v="911001" />
+		<tag k="water" v="lake" />
+	</node>
+	<node id="-4636" lat="59.2540661891" lon="5.25291268227">
+		<tag k="name" v="Vaulen" />
+		<tag k="natural" v="water" />
+		<tag k="ssr:stedsnr" v="910730" />
+		<tag k="water" v="lake" />
+	</node>
+	<node id="-5657" lat="59.1717111149" lon="5.22134721991">
+		<tag k="name" v="Liastemmen" />
+		<tag k="natural" v="water" />
+		<tag k="ssr:stedsnr" v="608417" />
+	</node>
+	<node id="-4632" lat="59.2309694437" lon="5.22787500663">
+		<tag k="name" v="Røyrmyrå" />
+		<tag k="ssr:stedsnr" v="909891" />
+		<tag k="waterway" v="stream" />
+	</node>
+	<node id="-5651" lat="59.2417063827" lon="5.26718432803">
+		<tag k="alt_name" v="Buadalsvatnet, nedre;Nedre Buadalsvatn" />
+		<tag k="name" v="Nedre Buadalsvatnet" />
+		<tag k="natural" v="water" />
+		<tag k="ssr:stedsnr" v="607048" />
+		<tag k="water" v="lake" />
+	</node>
+	<node id="-5645" lat="59.2670223961" lon="5.26149380767">
+		<tag k="name" v="Brekkevatnet" />
+		<tag k="natural" v="water" />
+		<tag k="ssr:stedsnr" v="605741" />
+		<tag k="water" v="lake" />
+	</node>
+	<node id="-4618" lat="59.3474166673" lon="5.23517499221">
+		<tag k="name" v="Vatnholmen" />
+		<tag k="place" v="islet" />
+		<tag k="ssr:stedsnr" v="909711" />
+	</node>
+	<node id="-5115" lat="59.3182277769" lon="5.34457221647">
+		<tag k="name" v="Leirvågsvatnet" />
+		<tag k="natural" v="water" />
+		<tag k="ssr:stedsnr" v="181206" />
+		<tag k="water" v="lake" />
 	</node>
 </osm>
