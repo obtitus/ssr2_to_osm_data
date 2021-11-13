@@ -1,37 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<osm generator="osmapis" version="0.6">
-	<node id="-40992" lat="60.8433367305" lon="10.3862343632">
-		<tag k="fixme" v="consider boundary=protected_area and relevant protect_class if not nature reserve" />
-		<tag k="leisure" v="nature_reserve" />
-		<tag k="name" v="Øytjernet naturreservat" />
-		<tag k="ssr:stedsnr" v="982684" />
-	</node>
-	<node id="-39559" lat="60.7701944441" lon="10.2960888878">
-		<tag k="fixme" v="specify shooting=range, clay_pigeon etc" />
-		<tag k="leisure" v="pitch" />
-		<tag k="name" v="Fluberg Skytebane" />
-		<tag k="sport" v="shooting" />
-		<tag k="ssr:stedsnr" v="601826" />
-	</node>
-	<node id="-39516" lat="60.6129888918" lon="10.4988972181">
-		<tag k="historic" v="boundary_stone" />
-		<tag k="man_made" v="cairn" />
-		<tag k="name" v="Skjellfurua" />
-		<tag k="place" v="locality" />
-		<tag k="ssr:stedsnr" v="708298" />
-	</node>
-	<node id="-39555" lat="60.57743333" lon="10.3410916736">
+<osm version="0.6" generator="osmapis">
+	<node lat="60.57743332995367" lon="10.341091673637948" id="-17951">
 		<tag k="fixme" v="specify shooting=range, clay_pigeon etc" />
 		<tag k="leisure" v="pitch" />
 		<tag k="name" v="Enger skytebane" />
 		<tag k="sport" v="shooting" />
 		<tag k="ssr:stedsnr" v="601411" />
 	</node>
-	<node id="-39162" lat="60.6325083364" lon="10.3940861083">
+	<node lat="60.770194444137125" lon="10.296088887778435" id="-17955">
 		<tag k="fixme" v="specify shooting=range, clay_pigeon etc" />
 		<tag k="leisure" v="pitch" />
-		<tag k="name" v="Kongen skytebane" />
+		<tag k="name" v="Fluberg Skytebane" />
 		<tag k="sport" v="shooting" />
-		<tag k="ssr:stedsnr" v="299311" />
+		<tag k="ssr:stedsnr" v="601826" />
+	</node>
+	<node lat="60.61298889181905" lon="10.498897218081373" id="-18003">
+		<tag k="historic" v="boundary_stone" />
+		<tag k="man_made" v="cairn" />
+		<tag k="name" v="Skjellfurua" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="708298" />
+	</node>
+	<node lat="60.84333673045085" lon="10.386234363228162" id="-18360">
+		<tag k="fixme" v="consider boundary=protected_area and relevant protect_class if not nature reserve" />
+		<tag k="leisure" v="nature_reserve" />
+		<tag k="name" v="Øytjernet naturreservat" />
+		<tag k="ssr:stedsnr" v="982684" />
 	</node>
 </osm>

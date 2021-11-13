@@ -1,19 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<osm generator="osmapis" version="0.6">
-	<node id="-14269" lat="67.2804027759" lon="14.3763888983">
-		<tag k="alt_name:no" v="Nordland" />
-		<tag k="loc_name:se" v="Nordlánda fylka" />
-		<tag k="loc_name:sma" v="Nordlaanten fylhke" />
-		<tag k="loc_name:smj" v="Nordlánda fylkka" />
-		<tag k="name" v="Nordland fylke" />
-		<tag k="name:no" v="Nordland fylke" />
-		<tag k="ssr:date" v="2020-04-15" />
-		<tag k="ssr:gruppe" v="administrativeIndelinger" />
-		<tag k="ssr:hovedgruppe" v="offentligAdministrasjon" />
-		<tag k="ssr:stedsnr" v="511766" />
-		<tag k="ssr:type" v="fylke" />
+<osm version="0.6" generator="osmapis">
+	<node lat="66.16523261641892" lon="12.950537682087857" id="-9433">
+		<tag k="name" v="Feøya" />
+		<tag k="ssr:date" v="2021-06-08" />
+		<tag k="ssr:gruppe" v="navigasjon" />
+		<tag k="ssr:hovedgruppe" v="infrastruktur" />
+		<tag k="ssr:stedsnr" v="136205" />
+		<tag k="ssr:type" v="fyrlykt" />
 	</node>
-	<node id="-14170" lat="66.2268906896" lon="12.9050548606">
+	<node lat="66.22689068956122" lon="12.90505486062951" id="-9525">
 		<tag k="fixme" v="multiple name tags, choose one and add the other to alt_name" />
 		<tag k="name" v="Handnesholmen;Mefjordholmen" />
 		<tag k="ssr:date" v="2020-09-15" />
@@ -22,7 +17,7 @@
 		<tag k="ssr:stedsnr" v="258826" />
 		<tag k="ssr:type" v="fyrlykt" />
 	</node>
-	<node id="-14418" lat="66.1979555575" lon="13.0222916738">
+	<node lat="66.19795555747018" lon="13.0222916737945" id="-9730">
 		<tag k="name" v="Nesna kommune" />
 		<tag k="ssr:date" v="2016-05-11" />
 		<tag k="ssr:gruppe" v="administrativeIndelinger" />
@@ -30,23 +25,36 @@
 		<tag k="ssr:stedsnr" v="693965" />
 		<tag k="ssr:type" v="kommune" />
 	</node>
-	<node id="-15053" lat="66.2203714727" lon="13.0150866052">
-		<tag k="name" v="Sauragrunnen" />
-		<tag k="ssr:date" v="2020-09-15" />
+	<node lat="66.25476666235782" lon="12.962000004047345" id="-10074">
+		<tag k="name" v="Valen" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:gruppe" v="sjøbunn" />
+		<tag k="ssr:hovedgruppe" v="sjø" />
+		<tag k="ssr:stedsnr" v="167081" />
+		<tag k="ssr:type" v="bankeISjø" />
+	</node>
+	<node lat="66.3153722238478" lon="12.796797220391612" id="-10263">
+		<tag k="name" v="Lommøyodden" />
+		<tag k="ssr:date" v="2016-05-10" />
 		<tag k="ssr:gruppe" v="navigasjon" />
 		<tag k="ssr:hovedgruppe" v="infrastruktur" />
-		<tag k="ssr:stedsnr" v="622849" />
+		<tag k="ssr:stedsnr" v="440560" />
 		<tag k="ssr:type" v="fyrlykt" />
 	</node>
-	<node id="-14057" lat="66.1652326164" lon="12.9505376821">
-		<tag k="name" v="Feøya" />
-		<tag k="ssr:date" v="2020-09-15" />
-		<tag k="ssr:gruppe" v="navigasjon" />
-		<tag k="ssr:hovedgruppe" v="infrastruktur" />
-		<tag k="ssr:stedsnr" v="136205" />
-		<tag k="ssr:type" v="fyrlykt" />
+	<node lat="67.2804027758844" lon="14.376388898255625" id="-10293">
+		<tag k="alt_name:no" v="Nordland" />
+		<tag k="loc_name:se" v="Nordlándda fylka" />
+		<tag k="loc_name:sma" v="Nordlaanten fylhke" />
+		<tag k="name" v="Nordland fylke - Nordlánda fylkka" />
+		<tag k="name:no" v="Nordland fylke" />
+		<tag k="name:smj" v="Nordlánda fylkka" />
+		<tag k="ssr:date" v="2021-02-03" />
+		<tag k="ssr:gruppe" v="administrativeIndelinger" />
+		<tag k="ssr:hovedgruppe" v="offentligAdministrasjon" />
+		<tag k="ssr:stedsnr" v="511766" />
+		<tag k="ssr:type" v="fylke" />
 	</node>
-	<node id="-14983" lat="66.2131225174" lon="12.79784735">
+	<node lat="66.21312251735617" lon="12.797847349984108" id="-10350">
 		<tag k="name" v="Alsøyvågen" />
 		<tag k="ssr:date" v="2020-09-15" />
 		<tag k="ssr:gruppe" v="navigasjon" />
@@ -54,12 +62,12 @@
 		<tag k="ssr:stedsnr" v="561852" />
 		<tag k="ssr:type" v="fyrlykt" />
 	</node>
-	<node id="-14117" lat="66.3153722238" lon="12.7967972204">
-		<tag k="name" v="Lommøyodden" />
-		<tag k="ssr:date" v="2016-05-10" />
+	<node lat="66.22037147267336" lon="13.01508660516724" id="-10406">
+		<tag k="name" v="Sauragrunnen" />
+		<tag k="ssr:date" v="2020-09-15" />
 		<tag k="ssr:gruppe" v="navigasjon" />
 		<tag k="ssr:hovedgruppe" v="infrastruktur" />
-		<tag k="ssr:stedsnr" v="440560" />
+		<tag k="ssr:stedsnr" v="622849" />
 		<tag k="ssr:type" v="fyrlykt" />
 	</node>
 </osm>

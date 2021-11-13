@@ -1,6 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<osm generator="osmapis" version="0.6">
-	<node id="-2182" lat="58.7647749994" lon="5.85499999345">
+<osm version="0.6" generator="osmapis">
+	<node lat="58.9647333357896" lon="5.731188892301877" id="-590">
+		<tag k="alt_name" v="Rogaland" />
+		<tag k="name" v="Rogaland fylke" />
+		<tag k="ssr:date" v="2021-02-03" />
+		<tag k="ssr:gruppe" v="administrativeIndelinger" />
+		<tag k="ssr:hovedgruppe" v="offentligAdministrasjon" />
+		<tag k="ssr:stedsnr" v="511115" />
+		<tag k="ssr:type" v="fylke" />
+	</node>
+	<node lat="58.688916667548824" lon="5.5804277860667035" id="-1861">
+		<tag k="name" v="Jæren" />
+		<tag k="ssr:date" v="2021-03-23" />
+		<tag k="ssr:gruppe" v="terrengområder" />
+		<tag k="ssr:hovedgruppe" v="terreng" />
+		<tag k="ssr:stedsnr" v="606791" />
+		<tag k="ssr:type" v="landskapsområde" />
+	</node>
+	<node lat="58.76477499943704" lon="5.854999993454498" id="-1899">
 		<tag k="alt_name" v="Gjesdal" />
 		<tag k="name" v="Gjesdal kommune" />
 		<tag k="ssr:date" v="2017-04-04" />
@@ -9,7 +26,15 @@
 		<tag k="ssr:stedsnr" v="630765" />
 		<tag k="ssr:type" v="kommune" />
 	</node>
-	<node id="-3715" lat="58.774256791" lon="5.87340434901">
+	<node lat="58.834499936867566" lon="6.180423361835286" id="-2250">
+		<tag k="name" v="Dirdalsvegen" />
+		<tag k="ssr:date" v="2020-11-06" />
+		<tag k="ssr:gruppe" v="veg" />
+		<tag k="ssr:hovedgruppe" v="infrastruktur" />
+		<tag k="ssr:stedsnr" v="1026432" />
+		<tag k="ssr:type" v="adressenavn" />
+	</node>
+	<node lat="58.77425679099767" lon="5.8734043490086005" id="-2256">
 		<tag k="name" v="Ringtrostveien" />
 		<tag k="ssr:date" v="2020-03-10" />
 		<tag k="ssr:gruppe" v="veg" />
@@ -17,20 +42,20 @@
 		<tag k="ssr:stedsnr" v="1075913" />
 		<tag k="ssr:type" v="adressenavn" />
 	</node>
-	<node id="-3714" lat="58.7763770813" lon="5.87300596796">
-		<tag k="name" v="Måltrostveien" />
-		<tag k="ssr:date" v="2020-03-10" />
-		<tag k="ssr:gruppe" v="veg" />
-		<tag k="ssr:hovedgruppe" v="infrastruktur" />
-		<tag k="ssr:stedsnr" v="1075912" />
-		<tag k="ssr:type" v="adressenavn" />
-	</node>
-	<node id="-3713" lat="58.7753370901" lon="5.87348023462">
+	<node lat="58.775337090106326" lon="5.873480234622927" id="-2257">
 		<tag k="name" v="Svarttrostveien" />
 		<tag k="ssr:date" v="2020-03-10" />
 		<tag k="ssr:gruppe" v="veg" />
 		<tag k="ssr:hovedgruppe" v="infrastruktur" />
 		<tag k="ssr:stedsnr" v="1075911" />
+		<tag k="ssr:type" v="adressenavn" />
+	</node>
+	<node lat="58.7763770813248" lon="5.873005967958765" id="-2258">
+		<tag k="name" v="Måltrostveien" />
+		<tag k="ssr:date" v="2020-03-10" />
+		<tag k="ssr:gruppe" v="veg" />
+		<tag k="ssr:hovedgruppe" v="infrastruktur" />
+		<tag k="ssr:stedsnr" v="1075912" />
 		<tag k="ssr:type" v="adressenavn" />
 	</node>
 </osm>

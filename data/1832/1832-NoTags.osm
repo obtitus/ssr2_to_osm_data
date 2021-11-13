@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<osm generator="osmapis" version="0.6">
-	<node id="-16000" lat="66.0771083305" lon="13.8134916654">
+<osm version="0.6" generator="osmapis">
+	<node lat="66.07710833048989" lon="13.813491665447376" id="-7795">
 		<tag k="name" v="Hemnes kommune" />
 		<tag k="ssr:date" v="2016-05-10" />
 		<tag k="ssr:gruppe" v="administrativeIndelinger" />
@@ -8,7 +8,7 @@
 		<tag k="ssr:stedsnr" v="572460" />
 		<tag k="ssr:type" v="kommune" />
 	</node>
-	<node id="-18105" lat="66.2285866336" lon="13.6407752389">
+	<node lat="66.22858663363547" lon="13.640775238875165" id="-8379">
 		<tag k="name" v="Marenvegen" />
 		<tag k="ssr:date" v="2019-05-30" />
 		<tag k="ssr:gruppe" v="veg" />
@@ -16,7 +16,20 @@
 		<tag k="ssr:stedsnr" v="1000492" />
 		<tag k="ssr:type" v="adressenavn" />
 	</node>
-	<node id="-17661" lat="66.2418806322" lon="13.5231861812">
+	<node lat="67.2804027758844" lon="14.376388898255625" id="-9189">
+		<tag k="alt_name:no" v="Nordland" />
+		<tag k="loc_name:se" v="Nordlándda fylka" />
+		<tag k="loc_name:sma" v="Nordlaanten fylhke" />
+		<tag k="name" v="Nordland fylke - Nordlánda fylkka" />
+		<tag k="name:no" v="Nordland fylke" />
+		<tag k="name:smj" v="Nordlánda fylkka" />
+		<tag k="ssr:date" v="2021-02-03" />
+		<tag k="ssr:gruppe" v="administrativeIndelinger" />
+		<tag k="ssr:hovedgruppe" v="offentligAdministrasjon" />
+		<tag k="ssr:stedsnr" v="511766" />
+		<tag k="ssr:type" v="fylke" />
+	</node>
+	<node lat="66.24188063222108" lon="13.523186181242405" id="-9535">
 		<tag k="name" v="Sandnes" />
 		<tag k="ssr:date" v="2020-09-15" />
 		<tag k="ssr:gruppe" v="navigasjon" />
@@ -24,103 +37,15 @@
 		<tag k="ssr:stedsnr" v="743122" />
 		<tag k="ssr:type" v="fyrlykt" />
 	</node>
-	<node id="-18139" lat="66.0722512374" lon="13.812742928">
-		<tag k="name" v="Tømmerbakkmoen" />
-		<tag k="ssr:date" v="2019-12-13" />
-		<tag k="ssr:gruppe" v="veg" />
+	<node lat="66.24563560793227" lon="13.699140901656296" id="-9627">
+		<tag k="name" v="Ranskjæret Indre" />
+		<tag k="ssr:date" v="2020-09-01" />
+		<tag k="ssr:gruppe" v="navigasjon" />
 		<tag k="ssr:hovedgruppe" v="infrastruktur" />
-		<tag k="ssr:stedsnr" v="1074289" />
-		<tag k="ssr:type" v="adressenavn" />
+		<tag k="ssr:stedsnr" v="782994" />
+		<tag k="ssr:type" v="lanterne" />
 	</node>
-	<node id="-18138" lat="66.094914522" lon="13.8252269306">
-		<tag k="name" v="Vollaveien" />
-		<tag k="ssr:date" v="2019-12-13" />
-		<tag k="ssr:gruppe" v="veg" />
-		<tag k="ssr:hovedgruppe" v="infrastruktur" />
-		<tag k="ssr:stedsnr" v="1074288" />
-		<tag k="ssr:type" v="adressenavn" />
-	</node>
-	<node id="-18137" lat="66.1448052903" lon="13.8403172887">
-		<tag k="name" v="Lillebjerkaveien" />
-		<tag k="ssr:date" v="2019-12-13" />
-		<tag k="ssr:gruppe" v="veg" />
-		<tag k="ssr:hovedgruppe" v="infrastruktur" />
-		<tag k="ssr:stedsnr" v="1074287" />
-		<tag k="ssr:type" v="adressenavn" />
-	</node>
-	<node id="-18136" lat="65.9193228671" lon="13.8733952213">
-		<tag k="name" v="Ole K. Brønseths vei" />
-		<tag k="ssr:date" v="2019-12-13" />
-		<tag k="ssr:gruppe" v="veg" />
-		<tag k="ssr:hovedgruppe" v="infrastruktur" />
-		<tag k="ssr:stedsnr" v="1074286" />
-		<tag k="ssr:type" v="adressenavn" />
-	</node>
-	<node id="-18135" lat="66.0642161434" lon="13.8301160957">
-		<tag k="name" v="Sørfjellveien" />
-		<tag k="ssr:date" v="2019-12-13" />
-		<tag k="ssr:gruppe" v="veg" />
-		<tag k="ssr:hovedgruppe" v="infrastruktur" />
-		<tag k="ssr:stedsnr" v="1074283" />
-		<tag k="ssr:type" v="adressenavn" />
-	</node>
-	<node id="-18134" lat="65.8144503525" lon="13.9089684374">
-		<tag k="name" v="Orrhaugveien" />
-		<tag k="ssr:date" v="2019-12-11" />
-		<tag k="ssr:gruppe" v="veg" />
-		<tag k="ssr:hovedgruppe" v="infrastruktur" />
-		<tag k="ssr:stedsnr" v="1074080" />
-		<tag k="ssr:type" v="adressenavn" />
-	</node>
-	<node id="-18133" lat="63.1711744" lon="-6.76544376313">
-		<tag k="name" v="Norumveien" />
-		<tag k="ssr:date" v="2019-12-11" />
-		<tag k="ssr:gruppe" v="veg" />
-		<tag k="ssr:hovedgruppe" v="infrastruktur" />
-		<tag k="ssr:stedsnr" v="1074079" />
-		<tag k="ssr:type" v="adressenavn" />
-	</node>
-	<node id="-18132" lat="65.8590958961" lon="13.7942263732">
-		<tag k="name" v="Tverrbergveien" />
-		<tag k="ssr:date" v="2019-12-11" />
-		<tag k="ssr:gruppe" v="veg" />
-		<tag k="ssr:hovedgruppe" v="infrastruktur" />
-		<tag k="ssr:stedsnr" v="1074078" />
-		<tag k="ssr:type" v="adressenavn" />
-	</node>
-	<node id="-18131" lat="65.8727682842" lon="14.1339887038">
-		<tag k="name" v="Tortenliveien" />
-		<tag k="ssr:date" v="2019-12-11" />
-		<tag k="ssr:gruppe" v="veg" />
-		<tag k="ssr:hovedgruppe" v="infrastruktur" />
-		<tag k="ssr:stedsnr" v="1074077" />
-		<tag k="ssr:type" v="adressenavn" />
-	</node>
-	<node id="-18130" lat="65.7984187141" lon="13.9522146061">
-		<tag k="name" v="Kvalbuktveien" />
-		<tag k="ssr:date" v="2019-12-11" />
-		<tag k="ssr:gruppe" v="veg" />
-		<tag k="ssr:hovedgruppe" v="infrastruktur" />
-		<tag k="ssr:stedsnr" v="1074075" />
-		<tag k="ssr:type" v="adressenavn" />
-	</node>
-	<node id="-18129" lat="65.8883635792" lon="14.0693560781">
-		<tag k="name" v="Stubbliveien" />
-		<tag k="ssr:date" v="2019-12-11" />
-		<tag k="ssr:gruppe" v="veg" />
-		<tag k="ssr:hovedgruppe" v="infrastruktur" />
-		<tag k="ssr:stedsnr" v="1074076" />
-		<tag k="ssr:type" v="adressenavn" />
-	</node>
-	<node id="-18128" lat="66.0651990753" lon="13.7957574473">
-		<tag k="name" v="Villmoveien" />
-		<tag k="ssr:date" v="2019-12-11" />
-		<tag k="ssr:gruppe" v="veg" />
-		<tag k="ssr:hovedgruppe" v="infrastruktur" />
-		<tag k="ssr:stedsnr" v="1074074" />
-		<tag k="ssr:type" v="adressenavn" />
-	</node>
-	<node id="-18127" lat="65.9082022788" lon="13.8064536303">
+	<node lat="65.90820227880839" lon="13.806453630331722" id="-9960">
 		<tag k="name" v="Villmarksveien" />
 		<tag k="ssr:date" v="2019-12-11" />
 		<tag k="ssr:gruppe" v="veg" />
@@ -128,12 +53,149 @@
 		<tag k="ssr:stedsnr" v="1074073" />
 		<tag k="ssr:type" v="adressenavn" />
 	</node>
-	<node id="-17751" lat="66.2456356079" lon="13.6991409017">
-		<tag k="name" v="Ranskjæret Indre" />
-		<tag k="ssr:date" v="2020-09-01" />
-		<tag k="ssr:gruppe" v="navigasjon" />
+	<node lat="66.06519907534856" lon="13.795757447346029" id="-9961">
+		<tag k="name" v="Villmoveien" />
+		<tag k="ssr:date" v="2019-12-11" />
+		<tag k="ssr:gruppe" v="veg" />
 		<tag k="ssr:hovedgruppe" v="infrastruktur" />
-		<tag k="ssr:stedsnr" v="782994" />
-		<tag k="ssr:type" v="lanterne" />
+		<tag k="ssr:stedsnr" v="1074074" />
+		<tag k="ssr:type" v="adressenavn" />
+	</node>
+	<node lat="65.88836357918119" lon="14.069356078086933" id="-9962">
+		<tag k="name" v="Stubbliveien" />
+		<tag k="ssr:date" v="2019-12-11" />
+		<tag k="ssr:gruppe" v="veg" />
+		<tag k="ssr:hovedgruppe" v="infrastruktur" />
+		<tag k="ssr:stedsnr" v="1074076" />
+		<tag k="ssr:type" v="adressenavn" />
+	</node>
+	<node lat="65.79841871407449" lon="13.952214606124999" id="-9963">
+		<tag k="name" v="Kvalbuktveien" />
+		<tag k="ssr:date" v="2019-12-11" />
+		<tag k="ssr:gruppe" v="veg" />
+		<tag k="ssr:hovedgruppe" v="infrastruktur" />
+		<tag k="ssr:stedsnr" v="1074075" />
+		<tag k="ssr:type" v="adressenavn" />
+	</node>
+	<node lat="65.87276828424322" lon="14.133988703849045" id="-9964">
+		<tag k="name" v="Tortenliveien" />
+		<tag k="ssr:date" v="2019-12-11" />
+		<tag k="ssr:gruppe" v="veg" />
+		<tag k="ssr:hovedgruppe" v="infrastruktur" />
+		<tag k="ssr:stedsnr" v="1074077" />
+		<tag k="ssr:type" v="adressenavn" />
+	</node>
+	<node lat="65.85909589610247" lon="13.794226373158747" id="-9965">
+		<tag k="name" v="Tverrbergveien" />
+		<tag k="ssr:date" v="2019-12-11" />
+		<tag k="ssr:gruppe" v="veg" />
+		<tag k="ssr:hovedgruppe" v="infrastruktur" />
+		<tag k="ssr:stedsnr" v="1074078" />
+		<tag k="ssr:type" v="adressenavn" />
+	</node>
+	<node lat="63.17117439997234" lon="-6.76544376312679" id="-9966">
+		<tag k="name" v="Norumveien" />
+		<tag k="ssr:date" v="2019-12-11" />
+		<tag k="ssr:gruppe" v="veg" />
+		<tag k="ssr:hovedgruppe" v="infrastruktur" />
+		<tag k="ssr:stedsnr" v="1074079" />
+		<tag k="ssr:type" v="adressenavn" />
+	</node>
+	<node lat="65.81445035249145" lon="13.908968437431326" id="-9967">
+		<tag k="name" v="Orrhaugveien" />
+		<tag k="ssr:date" v="2019-12-11" />
+		<tag k="ssr:gruppe" v="veg" />
+		<tag k="ssr:hovedgruppe" v="infrastruktur" />
+		<tag k="ssr:stedsnr" v="1074080" />
+		<tag k="ssr:type" v="adressenavn" />
+	</node>
+	<node lat="66.06421614341706" lon="13.830116095746215" id="-9968">
+		<tag k="name" v="Sørfjellveien" />
+		<tag k="ssr:date" v="2019-12-13" />
+		<tag k="ssr:gruppe" v="veg" />
+		<tag k="ssr:hovedgruppe" v="infrastruktur" />
+		<tag k="ssr:stedsnr" v="1074283" />
+		<tag k="ssr:type" v="adressenavn" />
+	</node>
+	<node lat="65.91932286712044" lon="13.873395221260997" id="-9969">
+		<tag k="name" v="Ole K. Brønseths vei" />
+		<tag k="ssr:date" v="2019-12-13" />
+		<tag k="ssr:gruppe" v="veg" />
+		<tag k="ssr:hovedgruppe" v="infrastruktur" />
+		<tag k="ssr:stedsnr" v="1074286" />
+		<tag k="ssr:type" v="adressenavn" />
+	</node>
+	<node lat="66.14480529025069" lon="13.84031728873446" id="-9970">
+		<tag k="name" v="Litlbjerkveien" />
+		<tag k="old_name" v="Lillebjerkaveien" />
+		<tag k="ssr:date" v="2019-12-13" />
+		<tag k="ssr:gruppe" v="veg" />
+		<tag k="ssr:hovedgruppe" v="infrastruktur" />
+		<tag k="ssr:stedsnr" v="1074287" />
+		<tag k="ssr:type" v="adressenavn" />
+	</node>
+	<node lat="66.09491452197663" lon="13.825226930607188" id="-9971">
+		<tag k="name" v="Vollaveien" />
+		<tag k="ssr:date" v="2019-12-13" />
+		<tag k="ssr:gruppe" v="veg" />
+		<tag k="ssr:hovedgruppe" v="infrastruktur" />
+		<tag k="ssr:stedsnr" v="1074288" />
+		<tag k="ssr:type" v="adressenavn" />
+	</node>
+	<node lat="66.07225123743507" lon="13.812742928010325" id="-9972">
+		<tag k="name" v="Tømmerbakkmoen" />
+		<tag k="ssr:date" v="2019-12-13" />
+		<tag k="ssr:gruppe" v="veg" />
+		<tag k="ssr:hovedgruppe" v="infrastruktur" />
+		<tag k="ssr:stedsnr" v="1074289" />
+		<tag k="ssr:type" v="adressenavn" />
+	</node>
+	<node lat="66.06901300783144" lon="13.972824096103606" id="-9979">
+		<tag k="name" v="Skredslettveien" />
+		<tag k="ssr:date" v="2021-01-15" />
+		<tag k="ssr:gruppe" v="veg" />
+		<tag k="ssr:hovedgruppe" v="infrastruktur" />
+		<tag k="ssr:stedsnr" v="1079638" />
+		<tag k="ssr:type" v="adressenavn" />
+	</node>
+	<node lat="65.91329682887617" lon="13.807336526471241" id="-9980">
+		<tag k="name" v="Sneliveien" />
+		<tag k="ssr:date" v="2021-01-15" />
+		<tag k="ssr:gruppe" v="veg" />
+		<tag k="ssr:hovedgruppe" v="infrastruktur" />
+		<tag k="ssr:stedsnr" v="1079637" />
+		<tag k="ssr:type" v="adressenavn" />
+	</node>
+	<node lat="65.92456017062533" lon="13.880371441744018" id="-9981">
+		<tag k="name" v="Rapliåsveien" />
+		<tag k="ssr:date" v="2021-01-15" />
+		<tag k="ssr:gruppe" v="veg" />
+		<tag k="ssr:hovedgruppe" v="infrastruktur" />
+		<tag k="ssr:stedsnr" v="1079640" />
+		<tag k="ssr:type" v="adressenavn" />
+	</node>
+	<node lat="66.14684530492868" lon="13.832156473682709" id="-9982">
+		<tag k="name" v="Nermotunet" />
+		<tag k="ssr:date" v="2021-01-15" />
+		<tag k="ssr:gruppe" v="veg" />
+		<tag k="ssr:hovedgruppe" v="infrastruktur" />
+		<tag k="ssr:stedsnr" v="1079639" />
+		<tag k="ssr:type" v="adressenavn" />
+	</node>
+	<node lat="66.02772591502504" lon="13.849442834504995" id="-9983">
+		<tag k="name" v="Kjukkelmoveien" />
+		<tag k="ssr:date" v="2021-01-15" />
+		<tag k="ssr:gruppe" v="veg" />
+		<tag k="ssr:hovedgruppe" v="infrastruktur" />
+		<tag k="ssr:stedsnr" v="1079641" />
+		<tag k="ssr:type" v="adressenavn" />
+	</node>
+	<node lat="66.0816093525175" lon="13.855887395567612" id="-9984">
+		<tag k="name" v="Jerpbakkveien" />
+		<tag k="ssr:date" v="2021-01-19" />
+		<tag k="ssr:gruppe" v="veg" />
+		<tag k="ssr:hovedgruppe" v="infrastruktur" />
+		<tag k="ssr:stedsnr" v="1079673" />
+		<tag k="ssr:type" v="adressenavn" />
 	</node>
 </osm>

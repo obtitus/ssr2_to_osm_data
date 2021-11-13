@@ -1,24 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<osm generator="osmapis" version="0.6">
-	<node id="-59680" lat="59.5037934654" lon="5.25274866939">
-		<tag k="loc_name" v="Stigurene" />
-		<tag k="natural" v="scree" />
+<osm version="0.6" generator="osmapis">
+	<node lat="59.507717484016055" lon="5.254402989956517" id="-35012">
+		<tag k="loc_name" v="Digranes" />
+		<tag k="natural" v="cape" />
 		<tag k="ssr:date" v="2019-12-27" />
-		<tag k="ssr:gruppe" v="løsmasseavsetninger" />
-		<tag k="ssr:hovedgruppe" v="markslag" />
-		<tag k="ssr:stedsnr" v="982225" />
-		<tag k="ssr:type" v="ur" />
+		<tag k="ssr:gruppe" v="kystkontur" />
+		<tag k="ssr:hovedgruppe" v="sjø" />
+		<tag k="ssr:stedsnr" v="982198" />
+		<tag k="ssr:type" v="nesISjø" />
 	</node>
-	<node id="-59679" lat="59.503636459" lon="5.25103640801">
-		<tag k="loc_name" v="Stemmen" />
-		<tag k="place" v="locality" />
-		<tag k="ssr:date" v="2019-12-27" />
-		<tag k="ssr:gruppe" v="kulturminner" />
-		<tag k="ssr:hovedgruppe" v="kultur" />
-		<tag k="ssr:stedsnr" v="982211" />
-		<tag k="ssr:type" v="annenKulturdetalj" />
-	</node>
-	<node id="-60598" lat="59.5058429867" lon="5.25753185489">
+	<node lat="59.505842986679774" lon="5.25753185488649" id="-35013">
 		<tag k="loc_name" v="Digranesvarden" />
 		<tag k="man_made" v="cairn" />
 		<tag k="place" v="locality" />
@@ -28,23 +19,32 @@
 		<tag k="ssr:stedsnr" v="982200" />
 		<tag k="ssr:type" v="varde" />
 	</node>
-	<node id="-60597" lat="59.507717484" lon="5.25440298996">
-		<tag k="loc_name" v="Digranes" />
-		<tag k="natural" v="cape" />
-		<tag k="ssr:date" v="2019-12-27" />
-		<tag k="ssr:gruppe" v="kystkontur" />
-		<tag k="ssr:hovedgruppe" v="sjø" />
-		<tag k="ssr:stedsnr" v="982198" />
-		<tag k="ssr:type" v="nesISjø" />
-	</node>
-	<node id="-60271" lat="59.6953361087" lon="5.457216664">
+	<node lat="59.695336108688544" lon="5.457216663999024" id="-35487">
 		<tag k="cemetery" v="grave" />
 		<tag k="loc_name" v="Kolerakyrkjegarden" />
 		<tag k="place" v="locality" />
-		<tag k="ssr:date" v="2019-12-27" />
+		<tag k="ssr:date" v="2021-02-15" />
 		<tag k="ssr:gruppe" v="kulturinstitusjoner" />
 		<tag k="ssr:hovedgruppe" v="kultur" />
 		<tag k="ssr:stedsnr" v="542662" />
 		<tag k="ssr:type" v="gravplass" />
+	</node>
+	<node lat="59.50363645896017" lon="5.251036408012585" id="-35878">
+		<tag k="loc_name" v="Stemmen" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2019-12-27" />
+		<tag k="ssr:gruppe" v="kulturminner" />
+		<tag k="ssr:hovedgruppe" v="kultur" />
+		<tag k="ssr:stedsnr" v="982211" />
+		<tag k="ssr:type" v="annenKulturdetalj" />
+	</node>
+	<node lat="59.503793465412485" lon="5.2527486693878584" id="-35879">
+		<tag k="loc_name" v="Stigurene" />
+		<tag k="natural" v="scree" />
+		<tag k="ssr:date" v="2019-12-27" />
+		<tag k="ssr:gruppe" v="løsmasseavsetninger" />
+		<tag k="ssr:hovedgruppe" v="markslag" />
+		<tag k="ssr:stedsnr" v="982225" />
+		<tag k="ssr:type" v="ur" />
 	</node>
 </osm>

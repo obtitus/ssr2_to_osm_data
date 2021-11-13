@@ -1,858 +1,97 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<osm generator="osmapis" version="0.6">
-	<node id="-61950" lat="60.1652222257" lon="6.85900000523">
-		<tag k="ford" v="yes" />
-		<tag k="name" v="Tyssevadet" />
-		<tag k="place" v="locality" />
-		<tag k="ssr:stedsnr" v="671453" />
-	</node>
-	<node id="-66041" lat="60.1782083342" lon="6.57969722227">
-		<tag k="highway" v="path" />
-		<tag k="name" v="Hundstien" />
-		<tag k="ssr:stedsnr" v="826426" />
-	</node>
-	<node id="-66030" lat="60.2690277735" lon="7.16009999282">
-		<tag k="ford" v="yes" />
-		<tag k="name" v="Kongsbergvadet" />
-		<tag k="place" v="locality" />
-		<tag k="ssr:stedsnr" v="810606" />
-	</node>
-	<node id="-63911" lat="60.342186109" lon="6.42493055526">
-		<tag k="ford" v="yes" />
-		<tag k="name" v="Ingebriktsvad" />
-		<tag k="place" v="locality" />
-		<tag k="ssr:stedsnr" v="99859" />
-	</node>
-	<node id="-61416" lat="60.2566222212" lon="6.81558055121">
-		<tag k="highway" v="path" />
-		<tag k="name" v="Kjerringekleiv" />
-		<tag k="ssr:stedsnr" v="447177" />
-	</node>
-	<node id="-66166" lat="60.3911583324" lon="6.64970000601">
-		<tag k="bridge" v="yes" />
-		<tag k="layer" v="1" />
-		<tag k="name" v="Langasete" />
-		<tag k="ssr:stedsnr" v="835773" />
-	</node>
-	<node id="-61408" lat="60.2117000039" lon="6.56693611825">
+<osm version="0.6" generator="osmapis">
+	<node lat="60.21170000390641" lon="6.566936118253708" id="-26662">
 		<tag k="bridge" v="yes" />
 		<tag k="layer" v="1" />
 		<tag k="name" v="Idlegjel" />
 		<tag k="ssr:stedsnr" v="229762" />
 	</node>
-	<node id="-61919" lat="60.1999444437" lon="6.54147777329">
-		<tag k="highway" v="path" />
-		<tag k="name" v="Brattastig" />
-		<tag k="ssr:stedsnr" v="463962" />
-	</node>
-	<node id="-63448" lat="60.1824333325" lon="6.66234721968">
-		<tag k="highway" v="path" />
-		<tag k="name" v="Bjørnaslepet" />
-		<tag k="ssr:stedsnr" v="4433" />
-	</node>
-	<node id="-65494" lat="60.2847305523" lon="6.32818055089">
-		<tag k="bridge" v="yes" />
-		<tag k="layer" v="1" />
-		<tag k="name" v="Espeland" />
-		<tag k="ssr:stedsnr" v="592899" />
-	</node>
-	<node id="-65493" lat="59.9482055585" lon="6.59119999517">
-		<tag k="bridge" v="yes" />
-		<tag k="layer" v="1" />
-		<tag k="name" v="Låte" />
-		<tag k="ssr:stedsnr" v="592829" />
-	</node>
-	<node id="-65492" lat="59.9476850471" lon="6.58403730218">
-		<tag k="bridge" v="yes" />
-		<tag k="layer" v="1" />
-		<tag k="name" v="Låtefoss" />
-		<tag k="ssr:stedsnr" v="592828" />
-	</node>
-	<node id="-65491" lat="59.8703499985" lon="6.67764721614">
-		<tag k="bridge" v="yes" />
-		<tag k="layer" v="1" />
-		<tag k="name" v="Histein" />
-		<tag k="ssr:stedsnr" v="592822" />
-	</node>
-	<node id="-64978" lat="60.3469222179" lon="6.40132777266">
-		<tag k="bridge" v="yes" />
-		<tag k="layer" v="1" />
-		<tag k="name" v="Herandselva" />
-		<tag k="ssr:stedsnr" v="411850" />
-	</node>
-	<node id="-64977" lat="60.0955527818" lon="6.52971388261">
-		<tag k="bridge" v="yes" />
-		<tag k="layer" v="1" />
-		<tag k="name" v="Eitrheimsvågen" />
-		<tag k="ssr:stedsnr" v="410861" />
-	</node>
-	<node id="-64976" lat="60.1440238603" lon="6.54006608675">
-		<tag k="bridge" v="yes" />
-		<tag k="layer" v="1" />
-		<tag k="name" v="Flesje" />
-		<tag k="ssr:stedsnr" v="410770" />
-	</node>
-	<node id="-64975" lat="59.881136112" lon="6.66189444555">
-		<tag k="bridge" v="yes" />
-		<tag k="layer" v="1" />
-		<tag k="name" v="Korlevoll" />
-		<tag k="ssr:stedsnr" v="410769" />
-	</node>
-	<node id="-63950" lat="60.0308666646" lon="6.46082500739">
-		<tag k="ford" v="yes" />
-		<tag k="name" v="Sigridsprang" />
-		<tag k="place" v="locality" />
-		<tag k="ssr:stedsnr" v="125044" />
-	</node>
-	<node id="-61901" lat="60.2708888872" lon="6.26147222456">
-		<tag k="fixme" v="consider highway=path" />
-		<tag k="highway" v="track" />
-		<tag k="name" v="Husastien" />
-		<tag k="ssr:stedsnr" v="463702" />
-	</node>
-	<node id="-61899" lat="60.3733598032" lon="6.68919080473">
-		<tag k="loc_name" v="Legehaugane" />
-		<tag k="name" v="Laugehaugane" />
-		<tag k="place" v="locality" />
-		<tag k="ssr:stedsnr" v="463553" />
-	</node>
-	<node id="-62922" lat="59.7527055556" lon="6.78989444711">
-		<tag k="bridge" v="yes" />
-		<tag k="layer" v="1" />
-		<tag k="name" v="Botna" />
-		<tag k="ssr:stedsnr" v="774876" />
-	</node>
-	<node id="-62921" lat="60.2393083323" lon="6.20097777344">
-		<tag k="bridge" v="yes" />
-		<tag k="layer" v="1" />
-		<tag k="name" v="Torsnes" />
-		<tag k="ssr:stedsnr" v="774871" />
-	</node>
-	<node id="-61382" lat="60.3760361077" lon="6.71911388719">
-		<tag k="amenity" v="ferry_terminal" />
-		<tag k="name" v="Kinsarvik ferjekai" />
-		<tag k="ssr:stedsnr" v="181113" />
-	</node>
-	<node id="-63939" lat="60.1458694468" lon="6.54161665753">
-		<tag k="bridge" v="yes" />
-		<tag k="layer" v="1" />
-		<tag k="name" v="Apold" />
-		<tag k="ssr:stedsnr" v="107879" />
-	</node>
-	<node id="-63938" lat="59.7732444425" lon="6.74245000416">
-		<tag k="bridge" v="yes" />
-		<tag k="layer" v="1" />
-		<tag k="name" v="Ekkjeskar" />
-		<tag k="ssr:stedsnr" v="107875" />
-	</node>
-	<node id="-63937" lat="60.2795277812" lon="6.38163888379">
-		<tag k="bridge" v="yes" />
-		<tag k="layer" v="1" />
-		<tag k="name" v="Sand" />
-		<tag k="ssr:stedsnr" v="107869" />
-	</node>
-	<node id="-63936" lat="59.8125472263" lon="6.76165833237">
-		<tag k="bridge" v="yes" />
-		<tag k="layer" v="1" />
-		<tag k="name" v="Turtveit" />
-		<tag k="ssr:stedsnr" v="107797" />
-	</node>
-	<node id="-63935" lat="60.4221777764" lon="6.62579999996">
-		<tag k="bridge" v="yes" />
-		<tag k="layer" v="1" />
-		<tag k="name" v="Utneselvi" />
-		<tag k="ssr:stedsnr" v="107790" />
-	</node>
-	<node id="-61513" lat="60.3649472188" lon="6.73230556334">
-		<tag k="fixme" v="consider highway=path" />
-		<tag k="highway" v="track" />
-		<tag k="name" v="Sagvegen" />
-		<tag k="ssr:stedsnr" v="463588" />
-	</node>
-	<node id="-65453" lat="60.2890833341" lon="6.37674167003">
-		<tag k="highway" v="path" />
-		<tag k="name" v="Hestastigen" />
-		<tag k="ssr:stedsnr" v="584618" />
-	</node>
-	<node id="-63916" lat="60.2891305575" lon="6.42924722468">
-		<tag k="ford" v="yes" />
-		<tag k="name" v="Smalabruvad" />
-		<tag k="place" v="locality" />
-		<tag k="ssr:stedsnr" v="99875" />
-	</node>
-	<node id="-62887" lat="60.2903027771" lon="7.06221111955">
-		<tag k="ford" v="yes" />
-		<tag k="name" v="Nautavad" />
-		<tag k="place" v="locality" />
-		<tag k="ssr:stedsnr" v="915495" />
-	</node>
-	<node id="-63909" lat="60.4192305563" lon="6.7798666617">
-		<tag k="man_made" v="cairn" />
-		<tag k="name" v="Varden" />
-		<tag k="place" v="locality" />
-		<tag k="ssr:stedsnr" v="99787" />
-	</node>
-	<node id="-62362" lat="60.2778666676" lon="6.25136667">
-		<tag k="bridge" v="yes" />
-		<tag k="layer" v="1" />
-		<tag k="name" v="Jondal" />
-		<tag k="ssr:stedsnr" v="714863" />
-	</node>
-	<node id="-62361" lat="60.0821166675" lon="6.53098054651">
-		<tag k="bridge" v="yes" />
-		<tag k="layer" v="1" />
-		<tag k="name" v="Tokheim" />
-		<tag k="ssr:stedsnr" v="714761" />
-	</node>
-	<node id="-62358" lat="60.2593277778" lon="6.23444722683">
-		<tag k="bridge" v="yes" />
-		<tag k="layer" v="1" />
-		<tag k="name" v="Vikane" />
-		<tag k="ssr:stedsnr" v="713872" />
-	</node>
-	<node id="-60821" lat="60.3304722252" lon="6.67887778279">
+	<node lat="60.33047222522723" lon="6.6788777827872785" id="-26767">
 		<tag k="ford" v="yes" />
 		<tag k="name" v="Kaldavad" />
 		<tag k="place" v="locality" />
 		<tag k="ssr:stedsnr" v="38610" />
 	</node>
-	<node id="-62356" lat="60.0874333321" lon="6.54977777186">
-		<tag k="fixme" v="verify maritime location" />
-		<tag k="mooring" v="yes" />
-		<tag k="name" v="Sandteig" />
-		<tag k="place" v="locality" />
-		<tag k="ssr:stedsnr" v="711710" />
-	</node>
-	<node id="-65912" lat="60.4645222204" lon="6.82172499501">
-		<tag k="layer" v="-1" />
-		<tag k="name" v="Butunnelen" />
-		<tag k="ssr:stedsnr" v="778886" />
-		<tag k="tunnel" v="yes" />
-	</node>
-	<node id="-65911" lat="60.3398194437" lon="6.37163611325">
+	<node lat="60.245793986912226" lon="6.56724383950279" id="-26798">
 		<tag k="bridge" v="yes" />
 		<tag k="layer" v="1" />
-		<tag k="name" v="Haugen" />
-		<tag k="ssr:stedsnr" v="775847" />
+		<tag k="name" v="Bleie" />
+		<tag k="ssr:stedsnr" v="46786" />
 	</node>
-	<node id="-65910" lat="60.2130333335" lon="6.15801944725">
+	<node lat="60.24039999949419" lon="6.6198138966296645" id="-26799">
 		<tag k="bridge" v="yes" />
 		<tag k="layer" v="1" />
-		<tag k="name" v="Gangdal" />
-		<tag k="ssr:stedsnr" v="775844" />
+		<tag k="name" v="Glåmo" />
+		<tag k="ssr:stedsnr" v="46787" />
 	</node>
-	<node id="-65909" lat="60.4493916666" lon="6.8045611176">
+	<node lat="60.20561944707217" lon="6.563483330834149" id="-26800">
 		<tag k="bridge" v="yes" />
 		<tag k="layer" v="1" />
-		<tag k="name" v="Bjotveit" />
-		<tag k="ssr:stedsnr" v="775752" />
+		<tag k="name" v="Måge" />
+		<tag k="ssr:stedsnr" v="46789" />
 	</node>
-	<node id="-65396" lat="60.4285999994" lon="6.56690000653">
-		<tag k="highway" v="path" />
-		<tag k="name" v="Tveitestigen" />
-		<tag k="ssr:stedsnr" v="584019" />
-	</node>
-	<node id="-65906" lat="60.2913110203" lon="6.59844009841">
+	<node lat="60.31540833085283" lon="6.322627773749846" id="-26801">
 		<tag k="bridge" v="yes" />
 		<tag k="layer" v="1" />
-		<tag k="name" v="Syreflotbrui" />
-		<tag k="ssr:stedsnr" v="774788" />
+		<tag k="name" v="Månevik" />
+		<tag k="ssr:stedsnr" v="46872" />
 	</node>
-	<node id="-65905" lat="60.2502416647" lon="6.56999999161">
+	<node lat="60.347936114041225" lon="6.401388891012614" id="-26802">
 		<tag k="bridge" v="yes" />
 		<tag k="layer" v="1" />
-		<tag k="name" v="Naust" />
-		<tag k="ssr:stedsnr" v="774785" />
+		<tag k="name" v="Samland" />
+		<tag k="ssr:stedsnr" v="46874" />
 	</node>
-	<node id="-65904" lat="60.4061027781" lon="6.73293054716">
+	<node lat="59.78921944633776" lon="6.769186114074029" id="-26803">
 		<tag k="bridge" v="yes" />
 		<tag k="layer" v="1" />
-		<tag k="name" v="Koldegjel" />
-		<tag k="ssr:stedsnr" v="774775" />
+		<tag k="name" v="Ekkje" />
+		<tag k="ssr:stedsnr" v="46880" />
 	</node>
-	<node id="-60783" lat="60.0691277807" lon="6.54939999873">
-		<tag k="bridge" v="yes" />
-		<tag k="layer" v="1" />
-		<tag k="name" v="Opo" />
-		<tag k="ssr:stedsnr" v="228814" />
+	<node lat="60.424050002349375" lon="6.621780551209828" id="-26806">
+		<tag k="amenity" v="ferry_terminal" />
+		<tag k="name" v="Utne ferjekai" />
+		<tag k="ssr:stedsnr" v="60122" />
 	</node>
-	<node id="-60782" lat="59.9087694459" lon="6.53796667497">
-		<tag k="bridge" v="yes" />
-		<tag k="layer" v="1" />
-		<tag k="name" v="Holstøl" />
-		<tag k="ssr:stedsnr" v="228808" />
-	</node>
-	<node id="-64864" lat="60.3245555536" lon="6.41916110653">
-		<tag k="ford" v="yes" />
-		<tag k="name" v="Sæverhagen-vad" />
-		<tag k="place" v="locality" />
-		<tag k="ssr:stedsnr" v="402072" />
-	</node>
-	<node id="-65371" lat="60.3722978407" lon="6.70046211056">
-		<tag k="highway" v="path" />
-		<tag k="name" v="Kongsbergvegen" />
-		<tag k="ssr:stedsnr" v="568202" />
-	</node>
-	<node id="-65370" lat="60.1238055529" lon="6.99360833323">
-		<tag k="highway" v="path" />
-		<tag k="name" v="Hardingslepa" />
-		<tag k="ssr:stedsnr" v="567993" />
-	</node>
-	<node id="-62297" lat="60.3316999975" lon="6.41484166654">
-		<tag k="ford" v="yes" />
-		<tag k="name" v="Åsvad" />
-		<tag k="place" v="locality" />
-		<tag k="ssr:stedsnr" v="706885" />
-	</node>
-	<node id="-61272" lat="59.8211861106" lon="6.81544999753">
-		<tag k="landuse" v="industrial" />
-		<tag k="name" v="Røldal kraftstasjon" />
-		<tag k="power" v="plant" />
-		<tag k="ssr:stedsnr" v="281473" />
-	</node>
-	<node id="-65367" lat="60.2785333361" lon="7.07049444319">
-		<tag k="highway" v="path" />
-		<tag k="name" v="Søra Nordmannsslepa" />
-		<tag k="ssr:stedsnr" v="567585" />
-	</node>
-	<node id="-65857" lat="60.2912805535" lon="6.32759443626">
-		<tag k="highway" v="path" />
-		<tag k="name" v="Bjørnsteg" />
-		<tag k="ssr:stedsnr" v="766610" />
-	</node>
-	<node id="-61248" lat="60.3122027796" lon="6.60486666316">
-		<tag k="highway" v="path" />
-		<tag k="name" v="Bakkastigen" />
-		<tag k="ssr:stedsnr" v="281266" />
-	</node>
-	<node id="-65851" lat="60.3026611155" lon="6.31673056216">
-		<tag k="highway" v="path" />
-		<tag k="name" v="Smalastigen" />
-		<tag k="ssr:stedsnr" v="766592" />
-	</node>
-	<node id="-64694" lat="60.234069442" lon="6.61668610889">
-		<tag k="bridge" v="yes" />
-		<tag k="layer" v="1" />
-		<tag k="name" v="Hovland" />
-		<tag k="ssr:stedsnr" v="350743" />
-	</node>
-	<node id="-61231" lat="60.3169416671" lon="6.32411111299">
-		<tag k="bridge" v="yes" />
-		<tag k="layer" v="1" />
-		<tag k="name" v="Månevikelva" />
-		<tag k="ssr:stedsnr" v="168857" />
-	</node>
-	<node id="-62763" lat="60.0074833296" lon="6.53924444647">
-		<tag k="barrier" v="toll_booth" />
-		<tag k="name" v="Fjelaleitet" />
-		<tag k="ssr:stedsnr" v="915021" />
-	</node>
-	<node id="-63786" lat="60.2704666691" lon="6.48290832992">
+	<node lat="60.27046666913344" lon="6.48290832991675" id="-26856">
 		<tag k="loc_name" v="Klokkaren" />
 		<tag k="man_made" v="cairn" />
 		<tag k="name" v="Klokkarane" />
 		<tag k="place" v="locality" />
 		<tag k="ssr:stedsnr" v="66368" />
 	</node>
-	<node id="-63273" lat="59.7369750017" lon="6.75297777688">
-		<tag k="bridge" v="yes" />
-		<tag k="layer" v="1" />
-		<tag k="name" v="Lono" />
-		<tag k="ssr:stedsnr" v="896824" />
-	</node>
-	<node id="-63272" lat="59.8451749998" lon="6.97195833848">
-		<tag k="bridge" v="yes" />
-		<tag k="layer" v="1" />
-		<tag k="name" v="Holbubekk" />
-		<tag k="ssr:stedsnr" v="896819" />
-	</node>
-	<node id="-63271" lat="59.7894638904" lon="6.75746944799">
-		<tag k="bridge" v="yes" />
-		<tag k="layer" v="1" />
-		<tag k="name" v="Ekkjestølen" />
-		<tag k="ssr:stedsnr" v="896816" />
-	</node>
-	<node id="-63270" lat="60.3003805563" lon="6.60344444004">
-		<tag k="bridge" v="yes" />
-		<tag k="layer" v="1" />
-		<tag k="name" v="Storebekk" />
-		<tag k="ssr:stedsnr" v="896806" />
-	</node>
-	<node id="-63269" lat="60.3262472227" lon="6.60554722406">
-		<tag k="bridge" v="yes" />
-		<tag k="layer" v="1" />
-		<tag k="name" v="Velure" />
-		<tag k="ssr:stedsnr" v="896803" />
-	</node>
-	<node id="-62737" lat="60.206599999" lon="6.60144999167">
-		<tag k="bridge" v="yes" />
-		<tag k="layer" v="1" />
-		<tag k="name" v="Espe" />
-		<tag k="ssr:stedsnr" v="896801" />
-	</node>
-	<node id="-62736" lat="60.3757027778" lon="6.7232027793">
-		<tag k="bridge" v="yes" />
-		<tag k="layer" v="1" />
-		<tag k="name" v="Kinso" />
-		<tag k="ssr:stedsnr" v="896794" />
-	</node>
-	<node id="-62735" lat="60.0816972191" lon="6.55040833884">
-		<tag k="bridge" v="yes" />
-		<tag k="layer" v="1" />
-		<tag k="name" v="Byrkjenes" />
-		<tag k="ssr:stedsnr" v="896897" />
-	</node>
-	<node id="-62734" lat="60.1385138896" lon="6.14530833394">
-		<tag k="bridge" v="yes" />
-		<tag k="layer" v="1" />
-		<tag k="name" v="Årsand" />
-		<tag k="ssr:stedsnr" v="896881" />
-	</node>
-	<node id="-62216" lat="60.0979083312" lon="6.55528889505">
-		<tag k="ford" v="yes" />
-		<tag k="name" v="Halvgjenge" />
-		<tag k="place" v="locality" />
-		<tag k="ssr:stedsnr" v="706354" />
-	</node>
-	<node id="-64773" lat="60.3221833367" lon="6.45268055538">
-		<tag k="highway" v="path" />
-		<tag k="name" v="Gåsekleivi" />
-		<tag k="ssr:stedsnr" v="369002" />
-	</node>
-	<node id="-65750" lat="60.2967666654" lon="6.63935834049">
-		<tag k="bridge" v="yes" />
-		<tag k="layer" v="1" />
-		<tag k="name" v="Deildo" />
-		<tag k="ssr:stedsnr" v="653781" />
-	</node>
-	<node id="-65279" lat="60.1495249987" lon="6.88596388295">
-		<tag k="man_made" v="cairn" />
-		<tag k="name" v="Skjeldåsvarden" />
-		<tag k="place" v="locality" />
-		<tag k="ssr:stedsnr" v="550451" />
-	</node>
-	<node id="-64254" lat="60.0449833324" lon="6.64693056347">
-		<tag k="ford" v="yes" />
-		<tag k="name" v="Kyravadet" />
-		<tag k="place" v="locality" />
-		<tag k="ssr:stedsnr" v="186445" />
-	</node>
-	<node id="-64252" lat="60.0597944424" lon="6.63381944557">
-		<tag k="man_made" v="cairn" />
-		<tag k="name" v="Bygdavarden" />
-		<tag k="place" v="locality" />
-		<tag k="ssr:stedsnr" v="186429" />
-	</node>
-	<node id="-61681" lat="60.142470808" lon="6.94733524704">
-		<tag k="ford" v="yes" />
-		<tag k="name" v="Bykset" />
-		<tag k="place" v="locality" />
-		<tag k="ssr:stedsnr" v="490393" />
-	</node>
-	<node id="-66283" lat="60.2757189996" lon="6.25134973374">
-		<tag k="amenity" v="ferry_terminal" />
-		<tag k="name" v="Jondal ferjekai" />
-		<tag k="ssr:stedsnr" v="978599" />
-	</node>
-	<node id="-66282" lat="60.2776776746" lon="6.61930505634">
-		<tag k="man_made" v="quay" />
-		<tag k="name" v="Nausto" />
-		<tag k="place" v="locality" />
-		<tag k="ssr:stedsnr" v="978429" />
-	</node>
-	<node id="-65489" lat="60.3409972254" lon="6.65581389219">
-		<tag k="bridge" v="yes" />
-		<tag k="layer" v="1" />
-		<tag k="name" v="Hellelandshagebrui" />
-		<tag k="ssr:stedsnr" v="592804" />
-	</node>
-	<node id="-63203" lat="60.2803555514" lon="6.25689165856">
-		<tag k="highway" v="path" />
-		<tag k="name" v="Lindesteg" />
-		<tag k="ssr:stedsnr" v="949638" />
-	</node>
-	<node id="-65761" lat="60.32576389" lon="6.73940832664">
-		<tag k="man_made" v="cairn" />
-		<tag k="name" v="Heradsvarden" />
-		<tag k="place" v="locality" />
-		<tag k="ssr:stedsnr" v="749188" />
-	</node>
-	<node id="-66270" lat="59.7085138873" lon="6.741558334">
-		<tag k="bridge" v="yes" />
-		<tag k="layer" v="1" />
-		<tag k="name" v="Selland" />
-		<tag k="ssr:stedsnr" v="957780" />
-	</node>
-	<node id="-66269" lat="60.1020388862" lon="6.55080277242">
-		<tag k="bridge" v="yes" />
-		<tag k="layer" v="1" />
-		<tag k="name" v="Slarkebekk" />
-		<tag k="ssr:stedsnr" v="957778" />
-	</node>
-	<node id="-66268" lat="60.385994442" lon="6.64497222">
-		<tag k="bridge" v="yes" />
-		<tag k="layer" v="1" />
-		<tag k="name" v="Grimo" />
-		<tag k="ssr:stedsnr" v="957761" />
-	</node>
-	<node id="-66267" lat="60.2373777811" lon="6.56297778347">
-		<tag k="bridge" v="yes" />
-		<tag k="layer" v="1" />
-		<tag k="name" v="Skipervik" />
-		<tag k="ssr:stedsnr" v="956778" />
-	</node>
-	<node id="-64217" lat="60.029761108" lon="6.58731388982">
-		<tag k="ford" v="yes" />
-		<tag k="name" v="Bjørkevadet" />
-		<tag k="place" v="locality" />
-		<tag k="ssr:stedsnr" v="186028" />
-	</node>
-	<node id="-65752" lat="60.0808416684" lon="6.53040555153">
-		<tag k="bridge" v="yes" />
-		<tag k="layer" v="1" />
-		<tag k="name" v="Tokheimselva" />
-		<tag k="ssr:stedsnr" v="653793" />
-	</node>
-	<node id="-65751" lat="59.833455558" lon="6.81505832801">
-		<tag k="bridge" v="yes" />
-		<tag k="layer" v="1" />
-		<tag k="name" v="Tuftejuv" />
-		<tag k="ssr:stedsnr" v="653791" />
-	</node>
-	<node id="-64214" lat="60.2437305513" lon="6.70246388693">
-		<tag k="fixme" v="multiple name tags, choose one and add the other to alt_name" />
-		<tag k="highway" v="path" />
-		<tag k="name" v="Sneisagavlskroken;Ysjekroken" />
-		<tag k="ssr:stedsnr" v="186011" />
-	</node>
-	<node id="-64213" lat="60.2475500021" lon="6.72026943997">
-		<tag k="man_made" v="cairn" />
-		<tag k="name" v="Vigleiksvarden" />
-		<tag k="place" v="locality" />
-		<tag k="ssr:stedsnr" v="186010" />
-	</node>
-	<node id="-61140" lat="60.2727749968" lon="6.80956388045">
-		<tag k="highway" v="path" />
-		<tag k="name" v="Skarvavegen" />
-		<tag k="ssr:stedsnr" v="127717" />
-	</node>
-	<node id="-65747" lat="59.7906250017" lon="6.76826665968">
-		<tag k="bridge" v="yes" />
-		<tag k="layer" v="1" />
-		<tag k="name" v="Ekkjevik" />
-		<tag k="ssr:stedsnr" v="652756" />
-	</node>
-	<node id="-65746" lat="59.8091722226" lon="6.77226388885">
-		<tag k="bridge" v="yes" />
-		<tag k="layer" v="1" />
-		<tag k="name" v="Horda" />
-		<tag k="ssr:stedsnr" v="652753" />
-	</node>
-	<node id="-62156" lat="60.3688083373" lon="6.43248333878">
-		<tag k="bridge" v="yes" />
-		<tag k="layer" v="1" />
-		<tag k="loc_name" v="Bjotveitbrui" />
-		<tag k="name" v="Bjotveit" />
-		<tag k="ssr:stedsnr" v="532761" />
-	</node>
-	<node id="-62155" lat="60.3467305544" lon="6.6274305537">
-		<tag k="bridge" v="yes" />
-		<tag k="layer" v="1" />
-		<tag k="name" v="Jaastad" />
-		<tag k="ssr:stedsnr" v="532754" />
-	</node>
-	<node id="-64199" lat="59.811669442" lon="6.76633889305">
-		<tag k="bridge" v="yes" />
-		<tag k="layer" v="1" />
-		<tag k="name" v="Hordajuvet" />
-		<tag k="ssr:stedsnr" v="167785" />
-	</node>
-	<node id="-64198" lat="60.2265833339" lon="6.19695000727">
-		<tag k="bridge" v="yes" />
-		<tag k="layer" v="1" />
-		<tag k="name" v="Stampefossen" />
-		<tag k="ssr:stedsnr" v="167868" />
-	</node>
-	<node id="-60790" lat="60.4041472264" lon="6.61329722981">
-		<tag k="highway" v="path" />
-		<tag k="name" v="Bersvollstigen" />
-		<tag k="ssr:stedsnr" v="38176" />
-	</node>
-	<node id="-65218" lat="59.9031499963" lon="6.62183056135">
-		<tag k="bridge" v="yes" />
-		<tag k="layer" v="1" />
-		<tag k="name" v="Seljestad" />
-		<tag k="ssr:stedsnr" v="532776" />
-	</node>
-	<node id="-65217" lat="59.9348194446" lon="6.59718333801">
-		<tag k="bridge" v="yes" />
-		<tag k="layer" v="1" />
-		<tag k="name" v="Skardsbekken" />
-		<tag k="ssr:stedsnr" v="532773" />
-	</node>
-	<node id="-65216" lat="60.2393000008" lon="6.62240277177">
-		<tag k="bridge" v="yes" />
-		<tag k="layer" v="1" />
-		<tag k="name" v="Trappetun" />
-		<tag k="ssr:stedsnr" v="531784" />
-	</node>
-	<node id="-61119" lat="60.2186833331" lon="6.56414445339">
-		<tag k="highway" v="path" />
-		<tag k="name" v="Raudstig" />
-		<tag k="ssr:stedsnr" v="99967" />
-	</node>
-	<node id="-63166" lat="60.4230249974" lon="6.59481389362">
-		<tag k="highway" v="path" />
-		<tag k="name" v="Nevrastigen" />
-		<tag k="ssr:stedsnr" v="949093" />
-	</node>
-	<node id="-62652" lat="60.303422224" lon="6.2906888914">
-		<tag k="highway" v="path" />
-		<tag k="name" v="Borkavegen" />
-		<tag k="ssr:stedsnr" v="888535" />
-	</node>
-	<node id="-63675" lat="59.7892194463" lon="6.76918611407">
-		<tag k="bridge" v="yes" />
-		<tag k="layer" v="1" />
-		<tag k="name" v="Ekkje" />
-		<tag k="ssr:stedsnr" v="46880" />
-	</node>
-	<node id="-63674" lat="60.347936114" lon="6.40138889101">
-		<tag k="bridge" v="yes" />
-		<tag k="layer" v="1" />
-		<tag k="name" v="Samland" />
-		<tag k="ssr:stedsnr" v="46874" />
-	</node>
-	<node id="-63673" lat="60.3154083309" lon="6.32262777375">
-		<tag k="bridge" v="yes" />
-		<tag k="layer" v="1" />
-		<tag k="name" v="Månevik" />
-		<tag k="ssr:stedsnr" v="46872" />
-	</node>
-	<node id="-64696" lat="60.0254942835" lon="6.56227665116">
-		<tag k="bridge" v="yes" />
-		<tag k="layer" v="1" />
-		<tag k="name" v="Tjødnadal" />
-		<tag k="ssr:stedsnr" v="350757" />
-	</node>
-	<node id="-64695" lat="60.3233861093" lon="6.60701666782">
-		<tag k="bridge" v="yes" />
-		<tag k="layer" v="1" />
-		<tag k="name" v="Bersåsskreda" />
-		<tag k="ssr:stedsnr" v="350746" />
-	</node>
-	<node id="-63670" lat="60.2056194471" lon="6.56348333083">
-		<tag k="bridge" v="yes" />
-		<tag k="layer" v="1" />
-		<tag k="name" v="Måge" />
-		<tag k="ssr:stedsnr" v="46789" />
-	</node>
-	<node id="-63669" lat="60.2403999995" lon="6.61981389663">
-		<tag k="bridge" v="yes" />
-		<tag k="layer" v="1" />
-		<tag k="name" v="Glåmo" />
-		<tag k="ssr:stedsnr" v="46787" />
-	</node>
-	<node id="-63668" lat="60.2457939869" lon="6.5672438395">
-		<tag k="bridge" v="yes" />
-		<tag k="layer" v="1" />
-		<tag k="name" v="Bleie" />
-		<tag k="ssr:stedsnr" v="46786" />
-	</node>
-	<node id="-63686" lat="60.4240500023" lon="6.62178055121">
-		<tag k="amenity" v="ferry_terminal" />
-		<tag k="name" v="Utne ferjekai" />
-		<tag k="ssr:stedsnr" v="60122" />
-	</node>
-	<node id="-65490" lat="60.4227666643" lon="6.6247166666">
-		<tag k="bridge" v="yes" />
-		<tag k="layer" v="1" />
-		<tag k="name" v="Utneselvi" />
-		<tag k="ssr:stedsnr" v="592817" />
-	</node>
-	<node id="-61076" lat="59.7563055536" lon="6.78717778521">
-		<tag k="ford" v="yes" />
-		<tag k="name" v="Forvadet" />
-		<tag k="place" v="locality" />
-		<tag k="ssr:stedsnr" v="99257" />
-	</node>
-	<node id="-65678" lat="60.3022527809" lon="6.28824167082">
-		<tag k="highway" v="path" />
-		<tag k="name" v="Moldstigen" />
-		<tag k="ssr:stedsnr" v="644632" />
-	</node>
-	<node id="-62605" lat="60.4182472243" lon="6.61086111194">
-		<tag k="highway" v="path" />
-		<tag k="name" v="Stigen" />
-		<tag k="ssr:stedsnr" v="888066" />
-	</node>
-	<node id="-61378" lat="60.3793638909" lon="6.51192500086">
-		<tag k="bridge" v="yes" />
-		<tag k="layer" v="1" />
-		<tag k="name" v="Geitabruna" />
-		<tag k="ssr:stedsnr" v="281989" />
-	</node>
-	<node id="-62086" lat="60.3251583324" lon="6.38400555976">
-		<tag k="ford" v="yes" />
-		<tag k="name" v="Tømmervadet" />
-		<tag k="place" v="locality" />
-		<tag k="ssr:stedsnr" v="523642" />
-	</node>
-	<node id="-61120" lat="60.1931000002" lon="7.06918333897">
-		<tag k="man_made" v="cairn" />
-		<tag k="name" v="Hårteigen" />
-		<tag k="place" v="locality" />
-		<tag k="ssr:stedsnr" v="111314" />
-	</node>
-	<node id="-65662" lat="60.1696777741" lon="6.13238611286">
-		<tag k="highway" v="path" />
-		<tag k="name" v="Heimesetravegen" />
-		<tag k="ssr:stedsnr" v="644467" />
-	</node>
-	<node id="-63160" lat="60.2415388906" lon="6.27143333985">
-		<tag k="highway" v="path" />
-		<tag k="name" v="Bjørnsteg" />
-		<tag k="ssr:stedsnr" v="948793" />
-	</node>
-	<node id="-62585" lat="60.1645453334" lon="7.00645039101">
-		<tag k="highway" v="path" />
-		<tag k="name" v="Skålsspranget" />
-		<tag k="ssr:stedsnr" v="671327" />
-	</node>
-	<node id="-66167" lat="60.1741000005" lon="6.54715833235">
-		<tag k="bridge" v="yes" />
-		<tag k="layer" v="1" />
-		<tag k="name" v="Kvitno" />
-		<tag k="ssr:stedsnr" v="835786" />
-	</node>
-	<node id="-62582" lat="60.2797888897" lon="6.36021944109">
-		<tag k="bridge" v="yes" />
-		<tag k="layer" v="1" />
-		<tag k="name" v="Bakgården" />
-		<tag k="ssr:stedsnr" v="653868" />
-	</node>
-	<node id="-61555" lat="60.0536027786" lon="6.5553833305">
-		<tag k="bridge" v="yes" />
-		<tag k="layer" v="1" />
-		<tag k="name" v="Vasstun" />
-		<tag k="ssr:stedsnr" v="471786" />
-	</node>
-	<node id="-61554" lat="60.3829694475" lon="6.49477499856">
-		<tag k="bridge" v="yes" />
-		<tag k="layer" v="1" />
-		<tag k="loc_name" v="Alsvikbrui" />
-		<tag k="name" v="Alsviken" />
-		<tag k="ssr:stedsnr" v="471784" />
-	</node>
-	<node id="-61546" lat="60.0716861068" lon="6.55239165853">
-		<tag k="bridge" v="yes" />
-		<tag k="layer" v="1" />
-		<tag k="name" v="Freimsbekken" />
-		<tag k="ssr:stedsnr" v="470785" />
-	</node>
-	<node id="-61545" lat="59.74901944" lon="6.69724444522">
-		<tag k="bridge" v="yes" />
-		<tag k="layer" v="1" />
-		<tag k="name" v="Krigleseter" />
-		<tag k="ssr:stedsnr" v="470779" />
-	</node>
-	<node id="-64603" lat="60.4409194451" lon="6.79055832846">
-		<tag k="ford" v="yes" />
-		<tag k="name" v="Sleipavad" />
-		<tag k="place" v="locality" />
-		<tag k="ssr:stedsnr" v="341710" />
-	</node>
-	<node id="-64697" lat="60.3848611145" lon="6.49896667516">
-		<tag k="bridge" v="yes" />
-		<tag k="layer" v="1" />
-		<tag k="loc_name" v="Alsåkerbrui" />
-		<tag k="name" v="Alsåkerelva" />
-		<tag k="ssr:stedsnr" v="350758" />
-	</node>
-	<node id="-63672" lat="59.8148555542" lon="6.75789444708">
-		<tag k="bridge" v="yes" />
-		<tag k="layer" v="1" />
-		<tag k="name" v="Hagabekken" />
-		<tag k="ssr:stedsnr" v="46798" />
-	</node>
-	<node id="-61518" lat="60.2795083342" lon="6.28899443657">
-		<tag k="bridge" v="yes" />
-		<tag k="layer" v="1" />
-		<tag k="name" v="Byrkjeland" />
-		<tag k="ssr:stedsnr" v="289907" />
-	</node>
-	<node id="-63671" lat="59.8141083295" lon="6.75591389239">
-		<tag k="bridge" v="yes" />
-		<tag k="layer" v="1" />
-		<tag k="name" v="Hordali" />
-		<tag k="ssr:stedsnr" v="46794" />
-	</node>
-	<node id="-63559" lat="60.1983638931" lon="6.71660833022">
-		<tag k="highway" v="path" />
-		<tag k="name" v="Vegaskil" />
-		<tag k="ssr:stedsnr" v="21856" />
-	</node>
-	<node id="-61110" lat="60.3776805593" lon="6.8017694494">
+	<node lat="60.37768055932369" lon="6.801769449403589" id="-26995">
 		<tag k="highway" v="path" />
 		<tag k="name" v="Flatakvilet" />
 		<tag k="ssr:stedsnr" v="99807" />
 	</node>
-	<node id="-63040" lat="60.170008336" lon="7.13922777569">
+	<node lat="60.289130557452495" lon="6.429247224682968" id="-27003">
 		<tag k="ford" v="yes" />
-		<tag k="name" v="Nekkjaspranget" />
+		<tag k="name" v="Smalabruvad" />
 		<tag k="place" v="locality" />
-		<tag k="ssr:stedsnr" v="854306" />
+		<tag k="ssr:stedsnr" v="99875" />
 	</node>
-	<node id="-64061" lat="60.2500277758" lon="6.84691111768">
-		<tag k="name" v="Moldkleiv" />
-		<tag k="place" v="locality" />
-		<tag k="ssr:stedsnr" v="126623" />
-	</node>
-	<node id="-64692" lat="59.9904583304" lon="6.56692499922">
-		<tag k="bridge" v="yes" />
-		<tag k="layer" v="1" />
-		<tag k="name" v="Hildal" />
-		<tag k="ssr:stedsnr" v="349805" />
-	</node>
-	<node id="-66057" lat="60.3077611091" lon="6.59516666002">
+	<node lat="60.21868333308499" lon="6.564144453393092" id="-27012">
 		<tag k="highway" v="path" />
-		<tag k="name" v="Espeskorstegane" />
-		<tag k="ssr:stedsnr" v="827281" />
+		<tag k="name" v="Raudstig" />
+		<tag k="ssr:stedsnr" v="99967" />
 	</node>
-	<node id="-63026" lat="60.1711555592" lon="6.10795276889">
+	<node lat="59.77324444252088" lon="6.742450004156244" id="-27046">
 		<tag k="bridge" v="yes" />
 		<tag k="layer" v="1" />
-		<tag k="name" v="Årvik" />
-		<tag k="ssr:stedsnr" v="836865" />
+		<tag k="name" v="Ekkjeskar" />
+		<tag k="ssr:stedsnr" v="107875" />
 	</node>
-	<node id="-63025" lat="60.1337083357" lon="6.53853610315">
+	<node lat="60.14586944683533" lon="6.541616657527361" id="-27047">
 		<tag k="bridge" v="yes" />
 		<tag k="layer" v="1" />
-		<tag k="name" v="Edna" />
-		<tag k="ssr:stedsnr" v="835875" />
+		<tag k="name" v="Apold" />
+		<tag k="ssr:stedsnr" v="107879" />
 	</node>
-	<node id="-63024" lat="60.3035777769" lon="6.28363333803">
-		<tag k="bridge" v="yes" />
-		<tag k="layer" v="1" />
-		<tag k="name" v="Selsvik" />
-		<tag k="ssr:stedsnr" v="835868" />
-	</node>
-	<node id="-65064" lat="60.3021883529" lon="6.81503664225">
-		<tag k="loc_name" v="Murtakleiv" />
-		<tag k="name" v="Myrtakleiv" />
+	<node lat="60.19310000016949" lon="7.069183338972876" id="-27050">
+		<tag k="man_made" v="cairn" />
+		<tag k="name" v="Hårteigen" />
 		<tag k="place" v="locality" />
-		<tag k="ssr:stedsnr" v="430303" />
-	</node>
-	<node id="-64974" lat="60.4214972265" lon="6.54061111685">
-		<tag k="bridge" v="yes" />
-		<tag k="layer" v="1" />
-		<tag k="loc_name" v="Loteselvbrui" />
-		<tag k="name" v="Lote" />
-		<tag k="ssr:stedsnr" v="410758" />
-	</node>
-	<node id="-64855" lat="60.3730638906" lon="6.77927777715">
-		<tag k="highway" v="path" />
-		<tag k="name" v="Klyvet" />
-		<tag k="ssr:stedsnr" v="402840" />
+		<tag k="ssr:stedsnr" v="111314" />
 	</node>
 </osm>

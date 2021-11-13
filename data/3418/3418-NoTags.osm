@@ -1,14 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<osm generator="osmapis" version="0.6">
-	<node id="-33712" lat="60.7952487072" lon="11.0825912243">
-		<tag k="name" v="Innlandet fylke" />
-		<tag k="ssr:date" v="2020-01-13" />
-		<tag k="ssr:gruppe" v="administrativeIndelinger" />
-		<tag k="ssr:hovedgruppe" v="offentligAdministrasjon" />
-		<tag k="ssr:stedsnr" v="1074406" />
-		<tag k="ssr:type" v="fylke" />
-	</node>
-	<node id="-31911" lat="60.6136333338" lon="12.0120027784">
+<osm version="0.6" generator="osmapis">
+	<node lat="60.613633333814825" lon="12.01200277840593" id="-19550">
 		<tag k="name" v="Åsnes kommune" />
 		<tag k="ssr:date" v="2019-12-27" />
 		<tag k="ssr:gruppe" v="administrativeIndelinger" />
@@ -16,15 +8,15 @@
 		<tag k="ssr:stedsnr" v="693620" />
 		<tag k="ssr:type" v="kommune" />
 	</node>
-	<node id="-33708" lat="60.5926845174" lon="12.0597012914">
-		<tag k="name" v="Sætregutua" />
+	<node lat="60.392125001701345" lon="11.900519439086322" id="-20144">
+		<tag k="name" v="Solør" />
 		<tag k="ssr:date" v="2019-12-27" />
-		<tag k="ssr:gruppe" v="veg" />
-		<tag k="ssr:hovedgruppe" v="infrastruktur" />
-		<tag k="ssr:stedsnr" v="1003911" />
-		<tag k="ssr:type" v="adressenavn" />
+		<tag k="ssr:gruppe" v="terrengområder" />
+		<tag k="ssr:hovedgruppe" v="terreng" />
+		<tag k="ssr:stedsnr" v="146630" />
+		<tag k="ssr:type" v="landskapsområde" />
 	</node>
-	<node id="-33707" lat="60.6252501796" lon="12.4952670734">
+	<node lat="60.62525017961245" lon="12.49526707341849" id="-21076">
 		<tag k="name" v="Kuralampi" />
 		<tag k="ssr:date" v="2019-12-27" />
 		<tag k="ssr:gruppe" v="veg" />
@@ -32,12 +24,20 @@
 		<tag k="ssr:stedsnr" v="1003900" />
 		<tag k="ssr:type" v="adressenavn" />
 	</node>
-	<node id="-32745" lat="60.3921250017" lon="11.9005194391">
-		<tag k="name" v="Solør" />
+	<node lat="60.59268451744107" lon="12.059701291407276" id="-21077">
+		<tag k="name" v="Sætregutua" />
 		<tag k="ssr:date" v="2019-12-27" />
-		<tag k="ssr:gruppe" v="terrengområder" />
-		<tag k="ssr:hovedgruppe" v="terreng" />
-		<tag k="ssr:stedsnr" v="146630" />
-		<tag k="ssr:type" v="landskapsområde" />
+		<tag k="ssr:gruppe" v="veg" />
+		<tag k="ssr:hovedgruppe" v="infrastruktur" />
+		<tag k="ssr:stedsnr" v="1003911" />
+		<tag k="ssr:type" v="adressenavn" />
+	</node>
+	<node lat="60.795248707246294" lon="11.082591224285064" id="-21081">
+		<tag k="name" v="Innlandet fylke" />
+		<tag k="ssr:date" v="2021-06-08" />
+		<tag k="ssr:gruppe" v="administrativeIndelinger" />
+		<tag k="ssr:hovedgruppe" v="offentligAdministrasjon" />
+		<tag k="ssr:stedsnr" v="1074406" />
+		<tag k="ssr:type" v="fylke" />
 	</node>
 </osm>

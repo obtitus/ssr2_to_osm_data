@@ -1,16 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<osm generator="osmapis" version="0.6">
-	<node id="-39836" lat="60.7419444437" lon="9.3234916593">
-		<tag k="loc_name" v="Gråberget" />
-		<tag k="natural" v="hill" />
-		<tag k="place" v="locality" />
-		<tag k="ssr:date" v="2019-12-27" />
-		<tag k="ssr:gruppe" v="høyder" />
-		<tag k="ssr:hovedgruppe" v="terreng" />
-		<tag k="ssr:stedsnr" v="968820" />
-		<tag k="ssr:type" v="haug" />
-	</node>
-	<node id="-40217" lat="60.4834222256" lon="9.70788055264">
+<osm version="0.6" generator="osmapis">
+	<node lat="60.48342222558454" lon="9.707880552636192" id="-17892">
 		<tag k="fixme" v="consider natural=peak for the most distinct mountains in the district" />
 		<tag k="loc_name" v="Skurveknatta" />
 		<tag k="natural" v="hill" />
@@ -21,16 +11,7 @@
 		<tag k="ssr:stedsnr" v="171510" />
 		<tag k="ssr:type" v="fjell" />
 	</node>
-	<node id="-40687" lat="60.6208472212" lon="9.69353056206">
-		<tag k="old_name" v="Solheimen" />
-		<tag k="place" v="farm" />
-		<tag k="ssr:date" v="2019-12-27" />
-		<tag k="ssr:gruppe" v="gardsbebyggelse" />
-		<tag k="ssr:hovedgruppe" v="bebyggelse" />
-		<tag k="ssr:stedsnr" v="543431" />
-		<tag k="ssr:type" v="bruk" />
-	</node>
-	<node id="-39245" lat="60.5498194411" lon="9.77893610763">
+	<node lat="60.54981944114681" lon="9.778936107633301" id="-18544">
 		<tag k="amenity" v="school" />
 		<tag k="old_name" v="Storruste" />
 		<tag k="ssr:date" v="2019-12-27" />
@@ -39,33 +20,22 @@
 		<tag k="ssr:stedsnr" v="706685" />
 		<tag k="ssr:type" v="skole" />
 	</node>
-	<node id="-38538" lat="60.840566671" lon="9.40801111034">
-		<tag k="loc_name" v="Stavadalen;Stavedalen" />
-		<tag k="place" v="hamlet" />
-		<tag k="ssr:date" v="2019-12-27" />
-		<tag k="ssr:gruppe" v="bebyggelsesområder" />
-		<tag k="ssr:hovedgruppe" v="bebyggelse" />
-		<tag k="ssr:stedsnr" v="42215" />
-		<tag k="ssr:type" v="grend" />
-	</node>
-	<node id="-39561" lat="60.7421416648" lon="9.32375833819">
-		<tag k="highway" v="path" />
+	<node lat="60.742141664838115" lon="9.323758338185861" id="-18708">
 		<tag k="loc_name" v="Sinsenkrysset" />
-		<tag k="ssr:date" v="2019-12-27" />
-		<tag k="ssr:gruppe" v="veg" />
-		<tag k="ssr:hovedgruppe" v="infrastruktur" />
-		<tag k="ssr:stedsnr" v="903073" />
-		<tag k="ssr:type" v="sti" />
-	</node>
-	<node id="-41250" lat="60.6218980311" lon="9.41299977639">
-		<tag k="fixme" v="consider natural=peak for the most distinct mountains in the district" />
-		<tag k="loc_name" v="Kviturden" />
-		<tag k="natural" v="hill" />
 		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2021-06-10" />
+		<tag k="ssr:gruppe" v="kulturminner" />
+		<tag k="ssr:hovedgruppe" v="kultur" />
+		<tag k="ssr:stedsnr" v="903073" />
+		<tag k="ssr:type" v="annenKulturdetalj" />
+	</node>
+	<node lat="60.620847221165924" lon="9.693530562058509" id="-19789">
+		<tag k="old_name" v="Solheimen" />
+		<tag k="place" v="farm" />
 		<tag k="ssr:date" v="2019-12-27" />
-		<tag k="ssr:gruppe" v="høyder" />
-		<tag k="ssr:hovedgruppe" v="terreng" />
-		<tag k="ssr:stedsnr" v="983627" />
-		<tag k="ssr:type" v="ås" />
+		<tag k="ssr:gruppe" v="gardsbebyggelse" />
+		<tag k="ssr:hovedgruppe" v="bebyggelse" />
+		<tag k="ssr:stedsnr" v="543431" />
+		<tag k="ssr:type" v="bruk" />
 	</node>
 </osm>

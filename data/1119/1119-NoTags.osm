@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<osm generator="osmapis" version="0.6">
-	<node id="-959" lat="58.4851805553" lon="5.81568333974">
+<osm version="0.6" generator="osmapis">
+	<node lat="58.485180555254225" lon="5.815683339735919" id="-65">
 		<tag k="name" v="Vatnemoholmene, vestre, øvre" />
 		<tag k="ssr:date" v="2016-05-10" />
 		<tag k="ssr:gruppe" v="navigasjon" />
@@ -8,15 +8,7 @@
 		<tag k="ssr:stedsnr" v="100508" />
 		<tag k="ssr:type" v="lanterne" />
 	</node>
-	<node id="-1461" lat="58.4845055543" lon="5.82331388514">
-		<tag k="name" v="Vatnemoholmene, østre, nedre" />
-		<tag k="ssr:date" v="2016-05-10" />
-		<tag k="ssr:gruppe" v="navigasjon" />
-		<tag k="ssr:hovedgruppe" v="infrastruktur" />
-		<tag k="ssr:stedsnr" v="161495" />
-		<tag k="ssr:type" v="lanterne" />
-	</node>
-	<node id="-1525" lat="58.5016555578" lon="5.79691665959">
+	<node lat="58.50165555779868" lon="5.796916659591237" id="-150">
 		<tag k="name" v="Sirevåg, øvre" />
 		<tag k="ssr:date" v="2016-05-10" />
 		<tag k="ssr:gruppe" v="navigasjon" />
@@ -24,7 +16,15 @@
 		<tag k="ssr:stedsnr" v="343510" />
 		<tag k="ssr:type" v="lanterne" />
 	</node>
-	<node id="-1084" lat="58.6694777759" lon="5.54204722238">
+	<node lat="58.50304444161396" lon="5.794283334123256" id="-151">
+		<tag k="name" v="Sirevåg, nedre" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:gruppe" v="navigasjon" />
+		<tag k="ssr:hovedgruppe" v="infrastruktur" />
+		<tag k="ssr:stedsnr" v="343511" />
+		<tag k="ssr:type" v="lanterne" />
+	</node>
+	<node lat="58.669477775940535" lon="5.542047222377142" id="-160">
 		<tag k="alt_name" v="Håtangen" />
 		<tag k="name" v="Håtangen lykt" />
 		<tag k="ssr:date" v="2016-05-10" />
@@ -33,58 +33,7 @@
 		<tag k="ssr:stedsnr" v="364787" />
 		<tag k="ssr:type" v="fyrlykt" />
 	</node>
-	<node id="-1721" lat="58.5273972242" lon="5.70477222027">
-		<tag k="name" v="Rauna" />
-		<tag k="ssr:date" v="2016-05-11" />
-		<tag k="ssr:gruppe" v="navigasjon" />
-		<tag k="ssr:hovedgruppe" v="infrastruktur" />
-		<tag k="ssr:stedsnr" v="767216" />
-		<tag k="ssr:type" v="lanterne" />
-	</node>
-	<node id="-1752" lat="58.6468305515" lon="5.75073332528">
-		<tag k="loc_name" v="Høg-Jæren" />
-		<tag k="name" v="Høgjæren" />
-		<tag k="ssr:date" v="2016-05-11" />
-		<tag k="ssr:gruppe" v="terrengområder" />
-		<tag k="ssr:hovedgruppe" v="terreng" />
-		<tag k="ssr:stedsnr" v="789327" />
-		<tag k="ssr:type" v="landskapsområde" />
-	</node>
-	<node id="-1526" lat="58.5030444416" lon="5.79428333412">
-		<tag k="name" v="Sirevåg, nedre" />
-		<tag k="ssr:date" v="2016-05-10" />
-		<tag k="ssr:gruppe" v="navigasjon" />
-		<tag k="ssr:hovedgruppe" v="infrastruktur" />
-		<tag k="ssr:stedsnr" v="343511" />
-		<tag k="ssr:type" v="lanterne" />
-	</node>
-	<node id="-1807" lat="58.6580333356" lon="5.55434166798">
-		<tag k="alt_name" v="Obrestad" />
-		<tag k="name" v="Obrestad fyr" />
-		<tag k="ssr:date" v="2016-05-11" />
-		<tag k="ssr:gruppe" v="navigasjon" />
-		<tag k="ssr:hovedgruppe" v="infrastruktur" />
-		<tag k="ssr:stedsnr" v="850275" />
-		<tag k="ssr:type" v="fyrstasjon" />
-	</node>
-	<node id="-1523" lat="58.5444333352" lon="5.68041111685">
-		<tag k="alt_name" v="Kvassheim" />
-		<tag k="name" v="Kvassheim lykt" />
-		<tag k="ssr:date" v="2016-05-10" />
-		<tag k="ssr:gruppe" v="navigasjon" />
-		<tag k="ssr:hovedgruppe" v="infrastruktur" />
-		<tag k="ssr:stedsnr" v="343318" />
-		<tag k="ssr:type" v="fyrlykt" />
-	</node>
-	<node id="-1714" lat="58.6520426295" lon="5.56643821148">
-		<tag k="name" v="Obrestad havn" />
-		<tag k="ssr:date" v="2020-09-03" />
-		<tag k="ssr:gruppe" v="navigasjon" />
-		<tag k="ssr:hovedgruppe" v="infrastruktur" />
-		<tag k="ssr:stedsnr" v="752410" />
-		<tag k="ssr:type" v="fyrlykt" />
-	</node>
-	<node id="-1107" lat="58.5072102187" lon="5.78892496063">
+	<node lat="58.5072102187203" lon="5.788924960625679" id="-212">
 		<tag k="alt_name" v="Persodden" />
 		<tag k="name" v="Persodden lykt" />
 		<tag k="ssr:date" v="2020-09-03" />
@@ -93,23 +42,7 @@
 		<tag k="ssr:stedsnr" v="425421" />
 		<tag k="ssr:type" v="fyrlykt" />
 	</node>
-	<node id="-1200" lat="58.6889166675" lon="5.58042778607">
-		<tag k="name" v="Jæren" />
-		<tag k="ssr:date" v="2019-12-27" />
-		<tag k="ssr:gruppe" v="terrengområder" />
-		<tag k="ssr:hovedgruppe" v="terreng" />
-		<tag k="ssr:stedsnr" v="606791" />
-		<tag k="ssr:type" v="landskapsområde" />
-	</node>
-	<node id="-1839" lat="58.5047361132" lon="5.79005833975">
-		<tag k="name" v="Vestreodden" />
-		<tag k="ssr:date" v="2016-05-11" />
-		<tag k="ssr:gruppe" v="navigasjon" />
-		<tag k="ssr:hovedgruppe" v="infrastruktur" />
-		<tag k="ssr:stedsnr" v="950484" />
-		<tag k="ssr:type" v="lanterne" />
-	</node>
-	<node id="-1129" lat="58.5060249958" lon="5.78952777137">
+	<node lat="58.50602499577386" lon="5.789527771365876" id="-219">
 		<tag k="name" v="Indreodden lanterne" />
 		<tag k="ssr:date" v="2016-05-10" />
 		<tag k="ssr:gruppe" v="navigasjon" />
@@ -117,16 +50,40 @@
 		<tag k="ssr:stedsnr" v="464507" />
 		<tag k="ssr:type" v="lanterne" />
 	</node>
-	<node id="-1353" lat="58.616119441" lon="5.64481666739">
-		<tag k="alt_name" v="Hå" />
-		<tag k="name" v="Hå kommune" />
-		<tag k="ssr:date" v="2017-04-04" />
+	<node lat="58.9647333357896" lon="5.731188892301877" id="-234">
+		<tag k="alt_name" v="Rogaland" />
+		<tag k="name" v="Rogaland fylke" />
+		<tag k="ssr:date" v="2021-02-03" />
 		<tag k="ssr:gruppe" v="administrativeIndelinger" />
 		<tag k="ssr:hovedgruppe" v="offentligAdministrasjon" />
-		<tag k="ssr:stedsnr" v="23896" />
-		<tag k="ssr:type" v="kommune" />
+		<tag k="ssr:stedsnr" v="511115" />
+		<tag k="ssr:type" v="fylke" />
 	</node>
-	<node id="-902" lat="58.5440444476" lon="5.68178888825">
+	<node lat="58.652042629525035" lon="5.5664382114789825" id="-382">
+		<tag k="name" v="Obrestad havn" />
+		<tag k="ssr:date" v="2020-09-03" />
+		<tag k="ssr:gruppe" v="navigasjon" />
+		<tag k="ssr:hovedgruppe" v="infrastruktur" />
+		<tag k="ssr:stedsnr" v="752410" />
+		<tag k="ssr:type" v="fyrlykt" />
+	</node>
+	<node lat="58.52739722415271" lon="5.704772220273089" id="-386">
+		<tag k="name" v="Rauna" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:gruppe" v="navigasjon" />
+		<tag k="ssr:hovedgruppe" v="infrastruktur" />
+		<tag k="ssr:stedsnr" v="767216" />
+		<tag k="ssr:type" v="lanterne" />
+	</node>
+	<node lat="58.50473611318168" lon="5.790058339749862" id="-502">
+		<tag k="name" v="Vestreodden" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:gruppe" v="navigasjon" />
+		<tag k="ssr:hovedgruppe" v="infrastruktur" />
+		<tag k="ssr:stedsnr" v="950484" />
+		<tag k="ssr:type" v="lanterne" />
+	</node>
+	<node lat="58.544044447628224" lon="5.681788888252081" id="-519">
 		<tag k="name" v="Kvassheim fyr" />
 		<tag k="old_name" v="Kvassheim" />
 		<tag k="ssr:date" v="2016-05-10" />
@@ -135,7 +92,49 @@
 		<tag k="ssr:stedsnr" v="425" />
 		<tag k="ssr:type" v="fyrstasjon" />
 	</node>
-	<node id="-1605" lat="58.4849305571" lon="5.81608332951">
+	<node lat="58.61611944102918" lon="5.644816667391546" id="-524">
+		<tag k="alt_name" v="Hå" />
+		<tag k="name" v="Hå kommune" />
+		<tag k="ssr:date" v="2017-04-04" />
+		<tag k="ssr:gruppe" v="administrativeIndelinger" />
+		<tag k="ssr:hovedgruppe" v="offentligAdministrasjon" />
+		<tag k="ssr:stedsnr" v="23896" />
+		<tag k="ssr:type" v="kommune" />
+	</node>
+	<node lat="58.48450555425629" lon="5.823313885144184" id="-608">
+		<tag k="name" v="Vatnemoholmene, østre, nedre" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:gruppe" v="navigasjon" />
+		<tag k="ssr:hovedgruppe" v="infrastruktur" />
+		<tag k="ssr:stedsnr" v="161495" />
+		<tag k="ssr:type" v="lanterne" />
+	</node>
+	<node lat="58.544433335173295" lon="5.68041111685386" id="-684">
+		<tag k="alt_name" v="Kvassheim" />
+		<tag k="name" v="Kvassheim lykt" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:gruppe" v="navigasjon" />
+		<tag k="ssr:hovedgruppe" v="infrastruktur" />
+		<tag k="ssr:stedsnr" v="343318" />
+		<tag k="ssr:type" v="fyrlykt" />
+	</node>
+	<node lat="58.485011115200514" lon="5.823713896502889" id="-724">
+		<tag k="name" v="Vatnemoholmene, østre, øvre" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:gruppe" v="navigasjon" />
+		<tag k="ssr:hovedgruppe" v="infrastruktur" />
+		<tag k="ssr:stedsnr" v="404501" />
+		<tag k="ssr:type" v="lanterne" />
+	</node>
+	<node lat="58.53596111224878" lon="5.698005559416749" id="-740">
+		<tag k="name" v="Krossen" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:gruppe" v="detaljISjø" />
+		<tag k="ssr:hovedgruppe" v="sjø" />
+		<tag k="ssr:stedsnr" v="422988" />
+		<tag k="ssr:type" v="sjødetalj" />
+	</node>
+	<node lat="58.48493055708959" lon="5.8160833295069665" id="-766">
 		<tag k="name" v="Vatnemoholmene, vestre, nedre" />
 		<tag k="ssr:date" v="2016-05-10" />
 		<tag k="ssr:gruppe" v="navigasjon" />
@@ -143,20 +142,38 @@
 		<tag k="ssr:stedsnr" v="525518" />
 		<tag k="ssr:type" v="lanterne" />
 	</node>
-	<node id="-1252" lat="58.507277778" lon="5.78496666897">
+	<node lat="58.688916667548824" lon="5.5804277860667035" id="-818">
+		<tag k="name" v="Jæren" />
+		<tag k="ssr:date" v="2021-03-23" />
+		<tag k="ssr:gruppe" v="terrengområder" />
+		<tag k="ssr:hovedgruppe" v="terreng" />
+		<tag k="ssr:stedsnr" v="606791" />
+		<tag k="ssr:type" v="landskapsområde" />
+	</node>
+	<node lat="58.64683055149836" lon="5.750733325282897" id="-884">
+		<tag k="loc_name" v="Høg-Jæren" />
+		<tag k="name" v="Høgjæren" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:gruppe" v="terrengområder" />
+		<tag k="ssr:hovedgruppe" v="terreng" />
+		<tag k="ssr:stedsnr" v="789327" />
+		<tag k="ssr:type" v="landskapsområde" />
+	</node>
+	<node lat="58.658033335648746" lon="5.554341667984962" id="-924">
+		<tag k="alt_name" v="Obrestad" />
+		<tag k="name" v="Obrestad fyr" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:gruppe" v="navigasjon" />
+		<tag k="ssr:hovedgruppe" v="infrastruktur" />
+		<tag k="ssr:stedsnr" v="850275" />
+		<tag k="ssr:type" v="fyrstasjon" />
+	</node>
+	<node lat="58.50727777802194" lon="5.784966668969349" id="-946">
 		<tag k="name" v="Sirevåg molo" />
 		<tag k="ssr:date" v="2016-05-11" />
 		<tag k="ssr:gruppe" v="navigasjon" />
 		<tag k="ssr:hovedgruppe" v="infrastruktur" />
 		<tag k="ssr:stedsnr" v="889492" />
-		<tag k="ssr:type" v="lanterne" />
-	</node>
-	<node id="-1570" lat="58.4850111152" lon="5.8237138965">
-		<tag k="name" v="Vatnemoholmene, østre, øvre" />
-		<tag k="ssr:date" v="2016-05-10" />
-		<tag k="ssr:gruppe" v="navigasjon" />
-		<tag k="ssr:hovedgruppe" v="infrastruktur" />
-		<tag k="ssr:stedsnr" v="404501" />
 		<tag k="ssr:type" v="lanterne" />
 	</node>
 </osm>

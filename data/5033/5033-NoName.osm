@@ -1,24 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<osm generator="osmapis" version="0.6">
-	<node id="-76160" lat="62.9596277757" lon="11.7935694367">
-		<tag k="old_name" v="Kyrkvollsætra" />
-		<tag k="place" v="isolated_dwelling" />
-		<tag k="ssr:date" v="2018-01-09" />
-		<tag k="ssr:gruppe" v="bolighus" />
-		<tag k="ssr:hovedgruppe" v="bebyggelse" />
-		<tag k="ssr:stedsnr" v="740969" />
-		<tag k="ssr:type" v="eneboligMindreBoligbygg" />
-	</node>
-	<node id="-76493" lat="62.9058361143" lon="11.8948500083">
-		<tag k="amenity" v="school" />
-		<tag k="old_name" v="Stuggudal skule" />
-		<tag k="ssr:date" v="2018-01-09" />
-		<tag k="ssr:gruppe" v="institusjoner" />
-		<tag k="ssr:hovedgruppe" v="bebyggelse" />
-		<tag k="ssr:stedsnr" v="152918" />
-		<tag k="ssr:type" v="skole" />
-	</node>
-	<node id="-76733" lat="63.047749999" lon="11.6490916656">
+<osm version="0.6" generator="osmapis">
+	<node lat="63.04774999897846" lon="11.649091665644674" id="-28748">
 		<tag k="loc_name" v="Lundbakken" />
 		<tag k="place" v="quarter" />
 		<tag k="ssr:date" v="2018-01-09" />
@@ -27,7 +9,25 @@
 		<tag k="ssr:stedsnr" v="546924" />
 		<tag k="ssr:type" v="boligfelt" />
 	</node>
-	<node id="-77009" lat="62.9176435986" lon="11.8845291276">
+	<node lat="62.90583611432367" lon="11.89485000828269" id="-29155">
+		<tag k="amenity" v="school" />
+		<tag k="old_name" v="Stuggudal skule" />
+		<tag k="ssr:date" v="2018-01-09" />
+		<tag k="ssr:gruppe" v="institusjoner" />
+		<tag k="ssr:hovedgruppe" v="bebyggelse" />
+		<tag k="ssr:stedsnr" v="152918" />
+		<tag k="ssr:type" v="skole" />
+	</node>
+	<node lat="62.95962777571416" lon="11.793569436709989" id="-29587">
+		<tag k="old_name" v="Kyrkvollsætra" />
+		<tag k="place" v="isolated_dwelling" />
+		<tag k="ssr:date" v="2018-01-09" />
+		<tag k="ssr:gruppe" v="bolighus" />
+		<tag k="ssr:hovedgruppe" v="bebyggelse" />
+		<tag k="ssr:stedsnr" v="740969" />
+		<tag k="ssr:type" v="eneboligMindreBoligbygg" />
+	</node>
+	<node lat="62.91764359860536" lon="11.884529127647193" id="-29778">
 		<tag k="fixme" v="consider place=hamlet" />
 		<tag k="loc_name" v="Stugguvollen" />
 		<tag k="place" v="farm" />

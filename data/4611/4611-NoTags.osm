@@ -1,31 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<osm generator="osmapis" version="0.6">
-	<node id="-60125" lat="59.6305027775" lon="5.95808611884">
-		<tag k="name" v="Sunnhordland" />
-		<tag k="ssr:date" v="2019-12-27" />
-		<tag k="ssr:gruppe" v="terrengområder" />
-		<tag k="ssr:hovedgruppe" v="terreng" />
-		<tag k="ssr:stedsnr" v="692498" />
-		<tag k="ssr:type" v="landskapsområde" />
-	</node>
-	<node id="-61623" lat="60.3866658713" lon="5.33255753121">
-		<tag k="name" v="Vestland fylke" />
-		<tag k="ssr:date" v="2020-01-13" />
-		<tag k="ssr:gruppe" v="administrativeIndelinger" />
-		<tag k="ssr:hovedgruppe" v="offentligAdministrasjon" />
-		<tag k="ssr:stedsnr" v="1074408" />
-		<tag k="ssr:type" v="fylke" />
-	</node>
-	<node id="-61395" lat="59.6647237527" lon="5.93439816607">
-		<tag k="alt_name" v="Etne" />
-		<tag k="name" v="Etne kommune" />
-		<tag k="ssr:date" v="2019-12-27" />
-		<tag k="ssr:gruppe" v="administrativeIndelinger" />
-		<tag k="ssr:hovedgruppe" v="offentligAdministrasjon" />
-		<tag k="ssr:stedsnr" v="752007" />
-		<tag k="ssr:type" v="kommune" />
-	</node>
-	<node id="-60658" lat="59.853872724" lon="6.33956273781">
+<osm version="0.6" generator="osmapis">
+	<node lat="59.85387272397112" lon="6.3395627378098895" id="-41519">
 		<tag k="alt_name" v="Mosnes" />
 		<tag k="name" v="Mosnes lykt" />
 		<tag k="ssr:date" v="2019-12-27" />
@@ -34,24 +9,7 @@
 		<tag k="ssr:stedsnr" v="44636" />
 		<tag k="ssr:type" v="fyrlykt" />
 	</node>
-	<node id="-60567" lat="59.8545630891" lon="6.34044363129">
-		<tag k="name" v="Mosnes" />
-		<tag k="ssr:date" v="2019-12-27" />
-		<tag k="ssr:gruppe" v="veg" />
-		<tag k="ssr:hovedgruppe" v="infrastruktur" />
-		<tag k="ssr:stedsnr" v="981309" />
-		<tag k="ssr:type" v="adressenavn" />
-	</node>
-	<node id="-60079" lat="59.744752273" lon="5.92664347623">
-		<tag k="alt_name" v="Skånevik" />
-		<tag k="name" v="Skånevik lykt" />
-		<tag k="ssr:date" v="2020-09-08" />
-		<tag k="ssr:gruppe" v="navigasjon" />
-		<tag k="ssr:hovedgruppe" v="infrastruktur" />
-		<tag k="ssr:stedsnr" v="670624" />
-		<tag k="ssr:type" v="fyrlykt" />
-	</node>
-	<node id="-60876" lat="59.831007182" lon="6.25045403493">
+	<node lat="59.83100718197244" lon="6.250454034927926" id="-41676">
 		<tag k="alt_name" v="Skålnes" />
 		<tag k="name" v="Skålnes lykt" />
 		<tag k="ssr:date" v="2020-09-08" />
@@ -60,7 +18,41 @@
 		<tag k="ssr:stedsnr" v="186050" />
 		<tag k="ssr:type" v="fyrlykt" />
 	</node>
-	<node id="-61442" lat="59.7446083346" lon="6.04353055993">
+	<node lat="59.68864444387537" lon="5.795402773729441" id="-41688">
+		<tag k="name" v="Notaholo" />
+		<tag k="ssr:date" v="2019-12-27" />
+		<tag k="ssr:gruppe" v="sjøbunn" />
+		<tag k="ssr:hovedgruppe" v="sjø" />
+		<tag k="ssr:stedsnr" v="219586" />
+		<tag k="ssr:type" v="søkkISjø" />
+	</node>
+	<node lat="59.63050277750045" lon="5.958086118840962" id="-42052">
+		<tag k="name" v="Sunnhordland" />
+		<tag k="ssr:date" v="2019-12-27" />
+		<tag k="ssr:gruppe" v="terrengområder" />
+		<tag k="ssr:hovedgruppe" v="terreng" />
+		<tag k="ssr:stedsnr" v="692498" />
+		<tag k="ssr:type" v="landskapsområde" />
+	</node>
+	<node lat="59.74475227296879" lon="5.926643476233663" id="-42187">
+		<tag k="alt_name" v="Skånevik" />
+		<tag k="name" v="Skånevik lykt" />
+		<tag k="ssr:date" v="2020-09-08" />
+		<tag k="ssr:gruppe" v="navigasjon" />
+		<tag k="ssr:hovedgruppe" v="infrastruktur" />
+		<tag k="ssr:stedsnr" v="670624" />
+		<tag k="ssr:type" v="fyrlykt" />
+	</node>
+	<node lat="59.66472375267084" lon="5.934398166065306" id="-42267">
+		<tag k="alt_name" v="Etne" />
+		<tag k="name" v="Etne kommune" />
+		<tag k="ssr:date" v="2019-12-27" />
+		<tag k="ssr:gruppe" v="administrativeIndelinger" />
+		<tag k="ssr:hovedgruppe" v="offentligAdministrasjon" />
+		<tag k="ssr:stedsnr" v="752007" />
+		<tag k="ssr:type" v="kommune" />
+	</node>
+	<node lat="59.74460833457606" lon="6.043530559933292" id="-42298">
 		<tag k="alt_name" v="Susodden" />
 		<tag k="name" v="Susodden lykt" />
 		<tag k="ssr:date" v="2019-12-27" />
@@ -69,71 +61,7 @@
 		<tag k="ssr:stedsnr" v="782311" />
 		<tag k="ssr:type" v="fyrlykt" />
 	</node>
-	<node id="-61609" lat="59.8073862791" lon="6.16581957854">
-		<tag k="name" v="Kallvika" />
-		<tag k="ssr:date" v="2019-12-27" />
-		<tag k="ssr:gruppe" v="veg" />
-		<tag k="ssr:hovedgruppe" v="infrastruktur" />
-		<tag k="ssr:stedsnr" v="974659" />
-		<tag k="ssr:type" v="adressenavn" />
-	</node>
-	<node id="-61608" lat="59.8098085331" lon="6.1739971355">
-		<tag k="name" v="Kvanndal" />
-		<tag k="ssr:date" v="2019-12-27" />
-		<tag k="ssr:gruppe" v="veg" />
-		<tag k="ssr:hovedgruppe" v="infrastruktur" />
-		<tag k="ssr:stedsnr" v="974658" />
-		<tag k="ssr:type" v="adressenavn" />
-	</node>
-	<node id="-61607" lat="59.8133024263" lon="6.19029108243">
-		<tag k="name" v="Hammarsland" />
-		<tag k="ssr:date" v="2019-12-27" />
-		<tag k="ssr:gruppe" v="veg" />
-		<tag k="ssr:hovedgruppe" v="infrastruktur" />
-		<tag k="ssr:stedsnr" v="974657" />
-		<tag k="ssr:type" v="adressenavn" />
-	</node>
-	<node id="-61606" lat="59.814471059" lon="6.19242254737">
-		<tag k="name" v="Strond" />
-		<tag k="ssr:date" v="2019-12-27" />
-		<tag k="ssr:gruppe" v="veg" />
-		<tag k="ssr:hovedgruppe" v="infrastruktur" />
-		<tag k="ssr:stedsnr" v="974656" />
-		<tag k="ssr:type" v="adressenavn" />
-	</node>
-	<node id="-61605" lat="59.8235760945" lon="6.2098925231">
-		<tag k="name" v="Bjelland" />
-		<tag k="ssr:date" v="2019-12-27" />
-		<tag k="ssr:gruppe" v="veg" />
-		<tag k="ssr:hovedgruppe" v="infrastruktur" />
-		<tag k="ssr:stedsnr" v="974655" />
-		<tag k="ssr:type" v="adressenavn" />
-	</node>
-	<node id="-61604" lat="59.8248150357" lon="6.21196589188">
-		<tag k="name" v="Eintveit" />
-		<tag k="ssr:date" v="2019-12-27" />
-		<tag k="ssr:gruppe" v="veg" />
-		<tag k="ssr:hovedgruppe" v="infrastruktur" />
-		<tag k="ssr:stedsnr" v="974654" />
-		<tag k="ssr:type" v="adressenavn" />
-	</node>
-	<node id="-61603" lat="59.8365754709" lon="6.24348836645">
-		<tag k="name" v="Teigen" />
-		<tag k="ssr:date" v="2019-12-27" />
-		<tag k="ssr:gruppe" v="veg" />
-		<tag k="ssr:hovedgruppe" v="infrastruktur" />
-		<tag k="ssr:stedsnr" v="974653" />
-		<tag k="ssr:type" v="adressenavn" />
-	</node>
-	<node id="-61602" lat="59.7171575055" lon="5.84970506515">
-		<tag k="name" v="Taraldsøya" />
-		<tag k="ssr:date" v="2019-12-27" />
-		<tag k="ssr:gruppe" v="veg" />
-		<tag k="ssr:hovedgruppe" v="infrastruktur" />
-		<tag k="ssr:stedsnr" v="974652" />
-		<tag k="ssr:type" v="adressenavn" />
-	</node>
-	<node id="-61569" lat="59.7259068186" lon="5.84775345378">
+	<node lat="59.72590681861933" lon="5.8477534537834135" id="-43329">
 		<tag k="alt_name" v="Taraldsøya lykt;Taraldsøy;Taraldsøy lykt" />
 		<tag k="name" v="Taraldsøya" />
 		<tag k="ssr:date" v="2019-12-27" />
@@ -141,5 +69,85 @@
 		<tag k="ssr:hovedgruppe" v="infrastruktur" />
 		<tag k="ssr:stedsnr" v="853643" />
 		<tag k="ssr:type" v="fyrlykt" />
+	</node>
+	<node lat="59.717157505547135" lon="5.8497050651536515" id="-43427">
+		<tag k="name" v="Taraldsøya" />
+		<tag k="ssr:date" v="2019-12-27" />
+		<tag k="ssr:gruppe" v="veg" />
+		<tag k="ssr:hovedgruppe" v="infrastruktur" />
+		<tag k="ssr:stedsnr" v="974652" />
+		<tag k="ssr:type" v="adressenavn" />
+	</node>
+	<node lat="59.83657547093533" lon="6.243488366447624" id="-43428">
+		<tag k="name" v="Teigen" />
+		<tag k="ssr:date" v="2019-12-27" />
+		<tag k="ssr:gruppe" v="veg" />
+		<tag k="ssr:hovedgruppe" v="infrastruktur" />
+		<tag k="ssr:stedsnr" v="974653" />
+		<tag k="ssr:type" v="adressenavn" />
+	</node>
+	<node lat="59.82481503571463" lon="6.211965891884701" id="-43429">
+		<tag k="name" v="Eintveit" />
+		<tag k="ssr:date" v="2019-12-27" />
+		<tag k="ssr:gruppe" v="veg" />
+		<tag k="ssr:hovedgruppe" v="infrastruktur" />
+		<tag k="ssr:stedsnr" v="974654" />
+		<tag k="ssr:type" v="adressenavn" />
+	</node>
+	<node lat="59.8235760945081" lon="6.209892523104905" id="-43430">
+		<tag k="name" v="Bjelland" />
+		<tag k="ssr:date" v="2019-12-27" />
+		<tag k="ssr:gruppe" v="veg" />
+		<tag k="ssr:hovedgruppe" v="infrastruktur" />
+		<tag k="ssr:stedsnr" v="974655" />
+		<tag k="ssr:type" v="adressenavn" />
+	</node>
+	<node lat="59.81447105904509" lon="6.19242254737288" id="-43431">
+		<tag k="name" v="Strond" />
+		<tag k="ssr:date" v="2019-12-27" />
+		<tag k="ssr:gruppe" v="veg" />
+		<tag k="ssr:hovedgruppe" v="infrastruktur" />
+		<tag k="ssr:stedsnr" v="974656" />
+		<tag k="ssr:type" v="adressenavn" />
+	</node>
+	<node lat="59.81330242634806" lon="6.190291082429136" id="-43432">
+		<tag k="name" v="Hammarsland" />
+		<tag k="ssr:date" v="2019-12-27" />
+		<tag k="ssr:gruppe" v="veg" />
+		<tag k="ssr:hovedgruppe" v="infrastruktur" />
+		<tag k="ssr:stedsnr" v="974657" />
+		<tag k="ssr:type" v="adressenavn" />
+	</node>
+	<node lat="59.8098085331411" lon="6.173997135500639" id="-43433">
+		<tag k="name" v="Kvanndal" />
+		<tag k="ssr:date" v="2019-12-27" />
+		<tag k="ssr:gruppe" v="veg" />
+		<tag k="ssr:hovedgruppe" v="infrastruktur" />
+		<tag k="ssr:stedsnr" v="974658" />
+		<tag k="ssr:type" v="adressenavn" />
+	</node>
+	<node lat="59.8073862791099" lon="6.165819578544945" id="-43434">
+		<tag k="name" v="Kallvika" />
+		<tag k="ssr:date" v="2019-12-27" />
+		<tag k="ssr:gruppe" v="veg" />
+		<tag k="ssr:hovedgruppe" v="infrastruktur" />
+		<tag k="ssr:stedsnr" v="974659" />
+		<tag k="ssr:type" v="adressenavn" />
+	</node>
+	<node lat="59.854563089068655" lon="6.340443631288204" id="-43437">
+		<tag k="name" v="Mosnes" />
+		<tag k="ssr:date" v="2019-12-27" />
+		<tag k="ssr:gruppe" v="veg" />
+		<tag k="ssr:hovedgruppe" v="infrastruktur" />
+		<tag k="ssr:stedsnr" v="981309" />
+		<tag k="ssr:type" v="adressenavn" />
+	</node>
+	<node lat="60.38666587132831" lon="5.332557531214444" id="-43445">
+		<tag k="name" v="Vestland fylke" />
+		<tag k="ssr:date" v="2021-06-08" />
+		<tag k="ssr:gruppe" v="administrativeIndelinger" />
+		<tag k="ssr:hovedgruppe" v="offentligAdministrasjon" />
+		<tag k="ssr:stedsnr" v="1074408" />
+		<tag k="ssr:type" v="fylke" />
 	</node>
 </osm>

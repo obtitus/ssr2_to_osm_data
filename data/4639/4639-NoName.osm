@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<osm generator="osmapis" version="0.6">
-	<node id="-67458" lat="61.0499337074" lon="6.40447450599">
+<osm version="0.6" generator="osmapis">
+	<node lat="61.049933707404286" lon="6.404474505985798" id="-31141">
 		<tag k="old_name" v="Otreskreda" />
 		<tag k="place" v="farm" />
 		<tag k="ssr:date" v="2019-12-27" />
@@ -9,7 +9,7 @@
 		<tag k="ssr:stedsnr" v="677588" />
 		<tag k="ssr:type" v="bruk" />
 	</node>
-	<node id="-68826" lat="60.9337040636" lon="6.44816225193">
+	<node lat="60.93370406363683" lon="6.448162251925511" id="-31605">
 		<tag k="loc_name" v="Skjelingavatnet Sør" />
 		<tag k="place" v="neighbourhood" />
 		<tag k="ssr:date" v="2019-12-27" />
@@ -18,7 +18,16 @@
 		<tag k="ssr:stedsnr" v="982063" />
 		<tag k="ssr:type" v="hyttefelt" />
 	</node>
-	<node id="-68834" lat="61.00881931" lon="6.32245220045">
+	<node lat="61.003940331647634" lon="6.321310465676836" id="-32512">
+		<tag k="loc_name" v="Langefossen" />
+		<tag k="natural" v="waterfall" />
+		<tag k="ssr:date" v="2020-08-31" />
+		<tag k="ssr:gruppe" v="rennendeVann" />
+		<tag k="ssr:hovedgruppe" v="ferskvann" />
+		<tag k="ssr:stedsnr" v="1078097" />
+		<tag k="ssr:type" v="foss" />
+	</node>
+	<node lat="61.00881930999267" lon="6.322452200454184" id="-32513">
 		<tag k="loc_name" v="Breifossen" />
 		<tag k="natural" v="waterfall" />
 		<tag k="ssr:date" v="2020-08-31" />
@@ -27,13 +36,23 @@
 		<tag k="ssr:stedsnr" v="1078098" />
 		<tag k="ssr:type" v="foss" />
 	</node>
-	<node id="-68833" lat="61.0039403316" lon="6.32131046568">
-		<tag k="loc_name" v="Langefossen" />
-		<tag k="natural" v="waterfall" />
-		<tag k="ssr:date" v="2020-08-31" />
-		<tag k="ssr:gruppe" v="rennendeVann" />
+	<node lat="60.99632929547889" lon="6.260881394120961" id="-32515">
+		<tag k="loc_name" v="Vetla Dagvatnet" />
+		<tag k="natural" v="water" />
+		<tag k="ssr:date" v="2021-07-01" />
+		<tag k="ssr:gruppe" v="stilleståendeVann" />
 		<tag k="ssr:hovedgruppe" v="ferskvann" />
-		<tag k="ssr:stedsnr" v="1078097" />
-		<tag k="ssr:type" v="foss" />
+		<tag k="ssr:stedsnr" v="1081723" />
+		<tag k="ssr:type" v="tjern" />
+	</node>
+	<node lat="60.98384900112386" lon="6.238931967725714" id="-32516">
+		<tag k="loc_name" v="Åsbotnvatnet" />
+		<tag k="natural" v="water" />
+		<tag k="ssr:date" v="2021-07-01" />
+		<tag k="ssr:gruppe" v="stilleståendeVann" />
+		<tag k="ssr:hovedgruppe" v="ferskvann" />
+		<tag k="ssr:stedsnr" v="1081724" />
+		<tag k="ssr:type" v="vann" />
+		<tag k="water" v="lake" />
 	</node>
 </osm>

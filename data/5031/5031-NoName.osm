@@ -1,6 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<osm generator="osmapis" version="0.6">
-	<node id="-74825" lat="63.4417416708" lon="10.5966555476">
+<osm version="0.6" generator="osmapis">
+	<node lat="63.441541663912325" lon="10.602419443656201" id="-33058">
+		<tag k="natural" v="cape" />
+		<tag k="old_name" v="Hornhammer" />
+		<tag k="ssr:date" v="2018-01-09" />
+		<tag k="ssr:gruppe" v="kystkontur" />
+		<tag k="ssr:hovedgruppe" v="sjø" />
+		<tag k="ssr:stedsnr" v="249002" />
+		<tag k="ssr:type" v="nesISjø" />
+	</node>
+	<node lat="63.43515000209516" lon="10.700736117649543" id="-33077">
+		<tag k="building" v="industrial" />
+		<tag k="industrial" v="factory" />
+		<tag k="old_name" v="Torpaunet mølle" />
+		<tag k="ssr:date" v="2021-10-07" />
+		<tag k="ssr:gruppe" v="næring" />
+		<tag k="ssr:hovedgruppe" v="bebyggelse" />
+		<tag k="ssr:stedsnr" v="461044" />
+		<tag k="ssr:type" v="fabrikk" />
+	</node>
+	<node lat="63.44174167083628" lon="10.596655547622184" id="-33130">
 		<tag k="natural" v="hill" />
 		<tag k="old_name" v="Hornhammer" />
 		<tag k="place" v="locality" />
@@ -10,16 +29,17 @@
 		<tag k="ssr:stedsnr" v="484449" />
 		<tag k="ssr:type" v="berg" />
 	</node>
-	<node id="-74973" lat="63.4246388889" lon="10.7384805516">
-		<tag k="loc_name" v="Stavsbekken" />
+	<node lat="63.44072778087626" lon="10.604538879104892" id="-33276">
+		<tag k="loc_name" v="Saksvikhaugen" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
 		<tag k="ssr:date" v="2018-01-09" />
-		<tag k="ssr:gruppe" v="rennendeVann" />
-		<tag k="ssr:hovedgruppe" v="ferskvann" />
-		<tag k="ssr:stedsnr" v="722972" />
-		<tag k="ssr:type" v="bekk" />
-		<tag k="waterway" v="stream" />
+		<tag k="ssr:gruppe" v="høyder" />
+		<tag k="ssr:hovedgruppe" v="terreng" />
+		<tag k="ssr:stedsnr" v="709503" />
+		<tag k="ssr:type" v="haug" />
 	</node>
-	<node id="-74971" lat="63.4366444486" lon="10.5851638913">
+	<node lat="63.4366444485547" lon="10.5851638912907" id="-33278">
 		<tag k="loc_name" v="Saksvikmarka" />
 		<tag k="place" v="locality" />
 		<tag k="ssr:date" v="2018-01-09" />
@@ -28,26 +48,17 @@
 		<tag k="ssr:stedsnr" v="891514" />
 		<tag k="ssr:type" v="utmark" />
 	</node>
-	<node id="-74677" lat="63.4415416639" lon="10.6024194437">
-		<tag k="natural" v="cape" />
-		<tag k="old_name" v="Hornhammer" />
-		<tag k="ssr:date" v="2018-01-09" />
-		<tag k="ssr:gruppe" v="kystkontur" />
-		<tag k="ssr:hovedgruppe" v="sjø" />
-		<tag k="ssr:stedsnr" v="249002" />
-		<tag k="ssr:type" v="nesISjø" />
-	</node>
-	<node id="-75059" lat="63.4407277809" lon="10.6045388791">
-		<tag k="loc_name" v="Øvre Saksvikberget" />
+	<node lat="63.442091669267235" lon="10.60475556526021" id="-33760">
+		<tag k="loc_name" v="Nedre Saksvikberget" />
 		<tag k="natural" v="hill" />
 		<tag k="place" v="locality" />
 		<tag k="ssr:date" v="2018-01-09" />
 		<tag k="ssr:gruppe" v="høyder" />
 		<tag k="ssr:hovedgruppe" v="terreng" />
-		<tag k="ssr:stedsnr" v="952503" />
+		<tag k="ssr:stedsnr" v="587524" />
 		<tag k="ssr:type" v="berg" />
 	</node>
-	<node id="-75436" lat="63.4417499996" lon="10.5967972273">
+	<node lat="63.44174999964478" lon="10.596797227274491" id="-33761">
 		<tag k="loc_name" v="Hornhåmmåren" />
 		<tag k="natural" v="hill" />
 		<tag k="old_name" v="Hornhammer" />
@@ -58,27 +69,16 @@
 		<tag k="ssr:stedsnr" v="593487" />
 		<tag k="ssr:type" v="berg" />
 	</node>
-	<node id="-74923" lat="63.4407277809" lon="10.6045388791">
-		<tag k="loc_name" v="Saksvikhaugen" />
-		<tag k="natural" v="hill" />
-		<tag k="place" v="locality" />
+	<node lat="63.42463888894121" lon="10.73848055159866" id="-33782">
+		<tag k="loc_name" v="Stavsbekken" />
 		<tag k="ssr:date" v="2018-01-09" />
-		<tag k="ssr:gruppe" v="høyder" />
-		<tag k="ssr:hovedgruppe" v="terreng" />
-		<tag k="ssr:stedsnr" v="709503" />
-		<tag k="ssr:type" v="haug" />
+		<tag k="ssr:gruppe" v="rennendeVann" />
+		<tag k="ssr:hovedgruppe" v="ferskvann" />
+		<tag k="ssr:stedsnr" v="722972" />
+		<tag k="ssr:type" v="bekk" />
+		<tag k="waterway" v="stream" />
 	</node>
-	<node id="-75433" lat="63.4420916693" lon="10.6047555653">
-		<tag k="loc_name" v="Nedre Saksvikberget" />
-		<tag k="natural" v="hill" />
-		<tag k="place" v="locality" />
-		<tag k="ssr:date" v="2018-01-09" />
-		<tag k="ssr:gruppe" v="høyder" />
-		<tag k="ssr:hovedgruppe" v="terreng" />
-		<tag k="ssr:stedsnr" v="587524" />
-		<tag k="ssr:type" v="berg" />
-	</node>
-	<node id="-75003" lat="63.4318257919" lon="10.7303213091">
+	<node lat="63.43182579192369" lon="10.730321309057514" id="-33898">
 		<tag k="old_name" v="Midtsandan stasjon" />
 		<tag k="railway" v="station" />
 		<tag k="ssr:date" v="2020-05-08" />
@@ -87,5 +87,15 @@
 		<tag k="ssr:stedsnr" v="947098" />
 		<tag k="ssr:type" v="stasjon" />
 		<tag k="train" v="yes" />
+	</node>
+	<node lat="63.44072778087626" lon="10.604538879104892" id="-33924">
+		<tag k="loc_name" v="Øvre Saksvikberget" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2018-01-09" />
+		<tag k="ssr:gruppe" v="høyder" />
+		<tag k="ssr:hovedgruppe" v="terreng" />
+		<tag k="ssr:stedsnr" v="952503" />
+		<tag k="ssr:type" v="berg" />
 	</node>
 </osm>

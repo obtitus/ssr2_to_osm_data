@@ -1,25 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<osm generator="osmapis" version="0.6">
-	<node id="-26103" lat="59.9245444418" lon="10.6008638833">
-		<tag k="name" v="Bjerkelunden ruin" />
-		<tag k="ssr:stedsnr" v="811980" />
-		<tag k="tourism" v="attraction" />
+<osm version="0.6" generator="osmapis">
+	<node lat="59.9213222235662" lon="10.490263888326833" id="-13161">
+		<tag k="amenity" v="community_centre" />
+		<tag k="name" v="Heimdal" />
+		<tag k="ssr:stedsnr" v="22941" />
 	</node>
-	<node id="-25965" lat="59.9190000044" lon="10.3813499996">
-		<tag k="alt_name" v="Mikkelsbotn" />
-		<tag k="name" v="Mikkelsbonn" />
-		<tag k="place" v="locality" />
-		<tag k="ssr:stedsnr" v="568104" />
+	<node lat="59.888674996555416" lon="10.552861107768924" id="-13169">
+		<tag k="name" v="Henie Onstad kunstsenter" />
+		<tag k="ssr:stedsnr" v="23338" />
+		<tag k="tourism" v="museum" />
 	</node>
-	<node id="-25575" lat="59.9208666623" lon="10.4879805491">
-		<tag k="alt_name" v="Bryn;Vestre Bærum" />
-		<tag k="amenity" v="place_of_worship" />
-		<tag k="denomination" v="lutheran" />
-		<tag k="name" v="Bryn kirke" />
-		<tag k="religion" v="christian" />
-		<tag k="ssr:stedsnr" v="65925" />
-	</node>
-	<node id="-25574" lat="59.8955777745" lon="10.4790916598">
+	<node lat="59.895577774471455" lon="10.479091659848633" id="-13187">
 		<tag k="alt_name" v="Tanum" />
 		<tag k="amenity" v="place_of_worship" />
 		<tag k="denomination" v="lutheran" />
@@ -27,12 +18,21 @@
 		<tag k="religion" v="christian" />
 		<tag k="ssr:stedsnr" v="65873" />
 	</node>
-	<node id="-25446" lat="59.899708334" lon="10.5951499952">
-		<tag k="amenity" v="community_centre" />
-		<tag k="name" v="Strand restaurant" />
-		<tag k="ssr:stedsnr" v="932881" />
+	<node lat="59.920866662328315" lon="10.487980549058488" id="-13189">
+		<tag k="alt_name" v="Bryn;Vestre Bærum" />
+		<tag k="amenity" v="place_of_worship" />
+		<tag k="denomination" v="lutheran" />
+		<tag k="name" v="Bryn kirke" />
+		<tag k="religion" v="christian" />
+		<tag k="ssr:stedsnr" v="65925" />
 	</node>
-	<node id="-25692" lat="59.899083331" lon="10.5770250002">
+	<node lat="59.925333329314704" lon="10.567838890788488" id="-13249">
+		<tag k="amenity" v="place_of_worship" />
+		<tag k="fixme" v="specify religion=*, denomination=*, building=* etc" />
+		<tag k="name" v="Haslum krematorium" />
+		<tag k="ssr:stedsnr" v="143990" />
+	</node>
+	<node lat="59.899083331001094" lon="10.577025000248758" id="-13269">
 		<tag k="alt_name" v="Høvik" />
 		<tag k="amenity" v="place_of_worship" />
 		<tag k="denomination" v="lutheran" />
@@ -40,71 +40,7 @@
 		<tag k="religion" v="christian" />
 		<tag k="ssr:stedsnr" v="186891" />
 	</node>
-	<node id="-25815" lat="59.9745838725" lon="10.5435723309">
-		<tag k="alt_name" v="Haslumsæter kapell;Haslumseter" />
-		<tag k="amenity" v="place_of_worship" />
-		<tag k="denomination" v="lutheran" />
-		<tag k="name" v="Haslumseter kapell" />
-		<tag k="religion" v="christian" />
-		<tag k="ssr:stedsnr" v="367017" />
-	</node>
-	<node id="-25699" lat="59.9181638877" lon="10.617188883">
-		<tag k="alt_name" v="Jar" />
-		<tag k="amenity" v="place_of_worship" />
-		<tag k="denomination" v="lutheran" />
-		<tag k="name" v="Jar kirke" />
-		<tag k="religion" v="christian" />
-		<tag k="ssr:stedsnr" v="186917" />
-	</node>
-	<node id="-25547" lat="59.8886749966" lon="10.5528611078">
-		<tag k="name" v="Henie Onstad kunstsenter" />
-		<tag k="ssr:stedsnr" v="23338" />
-		<tag k="tourism" v="museum" />
-	</node>
-	<node id="-25930" lat="59.9302000037" lon="10.4491777747">
-		<tag k="alt_name" v="Berghoff" />
-		<tag k="amenity" v="community_centre" />
-		<tag k="name" v="Berghov" />
-		<tag k="ssr:stedsnr" v="550944" />
-	</node>
-	<node id="-26184" lat="59.9402673215" lon="10.6070493271">
-		<tag k="amenity" v="place_of_worship" />
-		<tag k="denomination" v="lutheran" />
-		<tag k="name" v="Østerås kirke" />
-		<tag k="religion" v="christian" />
-		<tag k="ssr:stedsnr" v="991002" />
-	</node>
-	<node id="-26178" lat="59.932352219" lon="10.5527898545">
-		<tag k="cemetery" v="grave" />
-		<tag k="name" v="Steinsskogen gravlund" />
-		<tag k="place" v="locality" />
-		<tag k="ssr:stedsnr" v="987804" />
-	</node>
-	<node id="-25660" lat="59.9253333293" lon="10.5678388908">
-		<tag k="amenity" v="place_of_worship" />
-		<tag k="fixme" v="specify religion=*, denomination=*, building=* etc" />
-		<tag k="name" v="Haslum krematorium" />
-		<tag k="ssr:stedsnr" v="143990" />
-	</node>
-	<node id="-26058" lat="59.9508694472" lon="10.5011416715">
-		<tag k="amenity" v="place_of_worship" />
-		<tag k="denomination" v="lutheran" />
-		<tag k="name" v="Lommedalen kirke" />
-		<tag k="religion" v="christian" />
-		<tag k="ssr:stedsnr" v="753471" />
-	</node>
-	<node id="-25402" lat="59.8938513203" lon="10.4914074895">
-		<tag k="name" v="Emma Hjorth museum" />
-		<tag k="old_name" v="Emma Hjorths Hjem;Emma Hjorts Hjem" />
-		<tag k="ssr:stedsnr" v="914865" />
-		<tag k="tourism" v="museum" />
-	</node>
-	<node id="-26041" lat="59.9108194455" lon="10.5043833404">
-		<tag k="amenity" v="community_centre" />
-		<tag k="name" v="Idrettens hus" />
-		<tag k="ssr:stedsnr" v="750980" />
-	</node>
-	<node id="-25901" lat="59.9237916693" lon="10.5656916733">
+	<node lat="59.92379166932878" lon="10.56569167331611" id="-13444">
 		<tag k="alt_name" v="Haslum" />
 		<tag k="amenity" v="place_of_worship" />
 		<tag k="denomination" v="lutheran" />
@@ -112,7 +48,49 @@
 		<tag k="religion" v="christian" />
 		<tag k="ssr:stedsnr" v="429951" />
 	</node>
-	<node id="-25496" lat="59.9489555521" lon="10.6229111068">
+	<node lat="59.930200003709636" lon="10.449177774749115" id="-13509">
+		<tag k="alt_name" v="Berghoff" />
+		<tag k="amenity" v="community_centre" />
+		<tag k="name" v="Berghov" />
+		<tag k="ssr:stedsnr" v="550944" />
+	</node>
+	<node lat="59.91900000438521" lon="10.381349999582085" id="-13550">
+		<tag k="alt_name" v="Mikkelsbotn" />
+		<tag k="name" v="Mikkelsbonn" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="568104" />
+	</node>
+	<node lat="59.91081944552444" lon="10.504383340363642" id="-13644">
+		<tag k="amenity" v="community_centre" />
+		<tag k="name" v="Idrettens hus" />
+		<tag k="ssr:stedsnr" v="750980" />
+	</node>
+	<node lat="59.892088889549605" lon="10.518280562474514" id="-13652">
+		<tag k="amenity" v="place_of_worship" />
+		<tag k="denomination" v="lutheran" />
+		<tag k="name" v="Sandvika kirke" />
+		<tag k="religion" v="christian" />
+		<tag k="ssr:stedsnr" v="751575" />
+	</node>
+	<node lat="59.95086944722101" lon="10.50114167152979" id="-13654">
+		<tag k="amenity" v="place_of_worship" />
+		<tag k="denomination" v="lutheran" />
+		<tag k="name" v="Lommedalen kirke" />
+		<tag k="religion" v="christian" />
+		<tag k="ssr:stedsnr" v="753471" />
+	</node>
+	<node lat="59.89385132032048" lon="10.491407489476776" id="-13680">
+		<tag k="name" v="Emma Hjorth museum" />
+		<tag k="old_name" v="Emma Hjorths Hjem;Emma Hjorts Hjem" />
+		<tag k="ssr:stedsnr" v="914865" />
+		<tag k="tourism" v="museum" />
+	</node>
+	<node lat="59.92454444179968" lon="10.600863883259482" id="-13706">
+		<tag k="name" v="Bjerkelunden ruin" />
+		<tag k="ssr:stedsnr" v="811980" />
+		<tag k="tourism" v="attraction" />
+	</node>
+	<node lat="59.94895555205857" lon="10.622911106774138" id="-13744">
 		<tag k="alt_name" v="Grinilunden kapell" />
 		<tag k="amenity" v="place_of_worship" />
 		<tag k="denomination" v="lutheran" />
@@ -120,19 +98,20 @@
 		<tag k="religion" v="christian" />
 		<tag k="ssr:stedsnr" v="932905" />
 	</node>
-	<node id="-25878" lat="59.9024555557" lon="10.513330547">
+	<node lat="59.92454444179968" lon="10.600863883259482" id="-13874">
+		<tag k="name" v="Bjerkelunden" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="115498" />
+	</node>
+	<node lat="59.918163887723615" lon="10.61718888296013" id="-13929">
+		<tag k="alt_name" v="Jar" />
 		<tag k="amenity" v="place_of_worship" />
 		<tag k="denomination" v="lutheran" />
-		<tag k="name" v="Helgerud kirke" />
+		<tag k="name" v="Jar kirke" />
 		<tag k="religion" v="christian" />
-		<tag k="ssr:stedsnr" v="389544" />
+		<tag k="ssr:stedsnr" v="186917" />
 	</node>
-	<node id="-24981" lat="59.9213222236" lon="10.4902638883">
-		<tag k="amenity" v="community_centre" />
-		<tag k="name" v="Heimdal" />
-		<tag k="ssr:stedsnr" v="22941" />
-	</node>
-	<node id="-25743" lat="59.8811527763" lon="10.6110249957">
+	<node lat="59.881152776341885" lon="10.611024995689089" id="-13955">
 		<tag k="alt_name" v="Snarøya" />
 		<tag k="amenity" v="place_of_worship" />
 		<tag k="denomination" v="lutheran" />
@@ -140,16 +119,43 @@
 		<tag k="religion" v="christian" />
 		<tag k="ssr:stedsnr" v="205242" />
 	</node>
-	<node id="-26050" lat="59.8920888895" lon="10.5182805625">
+	<node lat="59.97458387250902" lon="10.543572330928765" id="-14016">
+		<tag k="alt_name" v="Haslumsæter kapell;Haslumseter" />
 		<tag k="amenity" v="place_of_worship" />
 		<tag k="denomination" v="lutheran" />
-		<tag k="name" v="Sandvika kirke" />
+		<tag k="name" v="Haslumseter kapell" />
 		<tag k="religion" v="christian" />
-		<tag k="ssr:stedsnr" v="751575" />
+		<tag k="ssr:stedsnr" v="367017" />
 	</node>
-	<node id="-25605" lat="59.9245444418" lon="10.6008638833">
-		<tag k="name" v="Bjerkelunden" />
+	<node lat="59.902455555691645" lon="10.513330546999878" id="-14062">
+		<tag k="amenity" v="place_of_worship" />
+		<tag k="denomination" v="lutheran" />
+		<tag k="name" v="Helgerud kirke" />
+		<tag k="religion" v="christian" />
+		<tag k="ssr:stedsnr" v="389544" />
+	</node>
+	<node lat="59.93235873102287" lon="10.533699643416469" id="-14099">
+		<tag k="name" v="Tjuenborn" />
 		<tag k="place" v="locality" />
-		<tag k="ssr:stedsnr" v="115498" />
+		<tag k="ssr:stedsnr" v="447997" />
+	</node>
+	<node lat="59.932352219021546" lon="10.552789854480485" id="-14358">
+		<tag k="cemetery" v="grave" />
+		<tag k="name" v="Steinsskogen gravlund" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="987804" />
+	</node>
+	<node lat="59.940267321465605" lon="10.607049327068705" id="-14361">
+		<tag k="amenity" v="place_of_worship" />
+		<tag k="denomination" v="lutheran" />
+		<tag k="name" v="Østerås kirke" />
+		<tag k="religion" v="christian" />
+		<tag k="ssr:stedsnr" v="991002" />
+	</node>
+	<node lat="59.89463643617572" lon="10.597252924564746" id="-14396">
+		<tag k="cemetery" v="grave" />
+		<tag k="name" v="Lilleøya gravlund" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="1081617" />
 	</node>
 </osm>

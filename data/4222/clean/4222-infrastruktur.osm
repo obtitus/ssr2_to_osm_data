@@ -1,239 +1,103 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<osm generator="osmapis" version="0.6">
-	<node id="-56573" lat="59.3230305565" lon="7.32354445115">
-		<tag k="highway" v="path" />
-		<tag k="name" v="Byklestigen" />
-		<tag k="ssr:stedsnr" v="88843" />
-	</node>
-	<node id="-57328" lat="59.3082138892" lon="7.29069165931">
-		<tag k="highway" v="path" />
-		<tag k="name" v="Stigen" />
-		<tag k="ssr:stedsnr" v="213888" />
-	</node>
-	<node id="-56940" lat="59.6453333335" lon="7.46179445179">
-		<tag k="bridge" v="yes" />
-		<tag k="layer" v="1" />
-		<tag k="name" v="Hemla" />
-		<tag k="ssr:stedsnr" v="168389" />
-	</node>
-	<node id="-56939" lat="59.6225222237" lon="7.4462999953">
-		<tag k="bridge" v="yes" />
-		<tag k="layer" v="1" />
-		<tag k="name" v="Flåtebekk" />
-		<tag k="ssr:stedsnr" v="168151" />
-	</node>
-	<node id="-56938" lat="59.6452833324" lon="7.46171388591">
-		<tag k="bridge" v="yes" />
-		<tag k="layer" v="1" />
-		<tag k="name" v="Hemla" />
-		<tag k="ssr:stedsnr" v="168149" />
-	</node>
-	<node id="-52969" lat="59.5682666681" lon="7.3595777837">
-		<tag k="bridge" v="yes" />
-		<tag k="layer" v="1" />
-		<tag k="name" v="Hovden nordre" />
-		<tag k="ssr:stedsnr" v="289142" />
-	</node>
-	<node id="-52968" lat="59.355458335" lon="7.36150833062">
-		<tag k="bridge" v="yes" />
-		<tag k="layer" v="1" />
-		<tag k="name" v="Bykle undergang" />
-		<tag k="ssr:stedsnr" v="289136" />
-	</node>
-	<node id="-53347" lat="59.4472583357" lon="7.4138972308">
-		<tag k="bridge" v="yes" />
-		<tag k="layer" v="1" />
-		<tag k="name" v="Berdals" />
-		<tag k="ssr:stedsnr" v="229157" />
-	</node>
-	<node id="-57442" lat="59.575811109" lon="7.38691111011">
-		<tag k="bridge" v="yes" />
-		<tag k="layer" v="1" />
-		<tag k="name" v="Børtemannsbekken" />
-		<tag k="ssr:stedsnr" v="350139" />
-	</node>
-	<node id="-57184" lat="59.4137416684" lon="7.41076388875">
+<osm version="0.6" generator="osmapis">
+	<node lat="59.41374166843409" lon="7.410763888753974" id="-27779">
 		<tag k="bridge" v="yes" />
 		<tag k="layer" v="1" />
 		<tag k="name" v="Glidbjørgsbruni" />
 		<tag k="ssr:stedsnr" v="174724" />
 	</node>
-	<node id="-55896" lat="59.5458055584" lon="7.01179443993">
-		<tag k="highway" v="path" />
-		<tag k="name" v="Skoravegen" />
-		<tag k="ssr:stedsnr" v="853262" />
-	</node>
-	<node id="-58907" lat="59.2961194465" lon="7.40584999514">
-		<tag k="highway" v="path" />
-		<tag k="name" v="Krobakk" />
-		<tag k="ssr:stedsnr" v="759955" />
-	</node>
-	<node id="-57812" lat="59.5645583357" lon="7.38243889265">
-		<tag k="highway" v="path" />
-		<tag k="name" v="Byrtevegen" />
-		<tag k="ssr:stedsnr" v="386343" />
-	</node>
-	<node id="-57443" lat="59.2898500039" lon="7.3989694523">
-		<tag k="bridge" v="yes" />
-		<tag k="layer" v="1" />
-		<tag k="name" v="Bjørnarå" />
-		<tag k="ssr:stedsnr" v="350144" />
-	</node>
-	<node id="-53967" lat="59.2936333344" lon="7.40485277142">
-		<tag k="highway" v="path" />
-		<tag k="name" v="Vedbakk" />
-		<tag k="ssr:stedsnr" v="517962" />
-	</node>
-	<node id="-54606" lat="59.3552000019" lon="7.31963055665">
-		<tag k="highway" v="path" />
-		<tag k="name" v="Oksekleiv" />
-		<tag k="ssr:stedsnr" v="577912" />
-	</node>
-	<node id="-53706" lat="59.5933722254" lon="7.41422222599">
-		<tag k="fixme" v="consider highway=path" />
-		<tag k="highway" v="track" />
-		<tag k="name" v="Galtevegen" />
-		<tag k="ssr:stedsnr" v="335640" />
-	</node>
-	<node id="-55109" lat="59.6162861103" lon="7.3770611105">
-		<tag k="bridge" v="yes" />
-		<tag k="layer" v="1" />
-		<tag k="name" v="Kloppi" />
-		<tag k="ssr:stedsnr" v="881504" />
-	</node>
-	<node id="-56899" lat="59.3242027739" lon="7.36467222219">
-		<tag k="highway" v="path" />
-		<tag k="name" v="Stigane" />
-		<tag k="ssr:stedsnr" v="152844" />
-	</node>
-	<node id="-53944" lat="59.4719361111" lon="7.38121111537">
-		<tag k="highway" v="path" />
-		<tag k="name" v="Ålmannvegen" />
-		<tag k="ssr:stedsnr" v="517595" />
-	</node>
-	<node id="-56841" lat="59.4607138898" lon="7.15053888478">
-		<tag k="fixme" v="verify maritime location" />
-		<tag k="mooring" v="yes" />
-		<tag k="name" v="Pråmstoni" />
-		<tag k="place" v="locality" />
-		<tag k="ssr:stedsnr" v="123201" />
-	</node>
-	<node id="-54580" lat="59.3235694471" lon="7.36201110918">
-		<tag k="bridge" v="yes" />
-		<tag k="layer" v="1" />
-		<tag k="name" v="Stigebrune" />
-		<tag k="ssr:stedsnr" v="699830" />
-	</node>
-	<node id="-54962" lat="59.3471861132" lon="6.95978610753">
-		<tag k="ford" v="yes" />
-		<tag k="name" v="Steinvadet" />
-		<tag k="place" v="locality" />
-		<tag k="ssr:stedsnr" v="730240" />
-	</node>
-	<node id="-58160" lat="59.6090944483" lon="7.41680278016">
-		<tag k="bridge" v="yes" />
-		<tag k="layer" v="1" />
-		<tag k="name" v="Lislefjellåna" />
-		<tag k="ssr:stedsnr" v="532138" />
-	</node>
-	<node id="-52910" lat="59.5673944464" lon="7.29865277894">
-		<tag k="name" v="Kanalen" />
-		<tag k="ssr:stedsnr" v="274569" />
-		<tag k="waterway" v="canal" />
-	</node>
-	<node id="-59309" lat="59.3432444432" lon="7.33015278214">
-		<tag k="bridge" v="yes" />
-		<tag k="layer" v="1" />
-		<tag k="name" v="Bykle" />
-		<tag k="ssr:stedsnr" v="836115" />
-	</node>
-	<node id="-53420" lat="59.4450638917" lon="7.41730833194">
+	<node lat="59.44506389174167" lon="7.417308331935467" id="-28022">
 		<tag k="bridge" v="yes" />
 		<tag k="layer" v="1" />
 		<tag k="name" v="Berdalsbru" />
 		<tag k="ssr:stedsnr" v="456550" />
 	</node>
-	<node id="-58795" lat="59.3568833295" lon="6.96009999938">
+	<node lat="59.406399998718285" lon="7.225274995043276" id="-28055">
+		<tag k="ford" v="yes" />
+		<tag k="name" v="Spranget" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="270821" />
+	</node>
+	<node lat="59.56739444640367" lon="7.2986527789406415" id="-28067">
+		<tag k="name" v="Kanalen" />
+		<tag k="ssr:stedsnr" v="274569" />
+		<tag k="waterway" v="canal" />
+	</node>
+	<node lat="59.35545833504635" lon="7.361508330619164" id="-28086">
+		<tag k="bridge" v="yes" />
+		<tag k="layer" v="1" />
+		<tag k="name" v="Bykle undergang" />
+		<tag k="ssr:stedsnr" v="289136" />
+	</node>
+	<node lat="59.312402776956525" lon="7.365808335898788" id="-28253">
+		<tag k="bridge" v="yes" />
+		<tag k="layer" v="1" />
+		<tag k="name" v="Uptestøyl øvre" />
+		<tag k="ssr:stedsnr" v="471153" />
+	</node>
+	<node lat="59.2936333343664" lon="7.404852771422119" id="-29033">
+		<tag k="highway" v="path" />
+		<tag k="name" v="Vedbakk" />
+		<tag k="ssr:stedsnr" v="517962" />
+	</node>
+	<node lat="59.32356944708538" lon="7.362011109181245" id="-29395">
+		<tag k="bridge" v="yes" />
+		<tag k="layer" v="1" />
+		<tag k="name" v="Stigebrune" />
+		<tag k="ssr:stedsnr" v="699830" />
+	</node>
+	<node lat="59.35688332948016" lon="6.960099999382633" id="-29421">
 		<tag k="ford" v="yes" />
 		<tag k="name" v="Sandvadet" />
 		<tag k="place" v="locality" />
 		<tag k="ssr:stedsnr" v="609239" />
 	</node>
-	<node id="-55175" lat="59.5200444489" lon="7.40537777329">
+	<node lat="59.35874721806147" lon="7.406552772100403" id="-29657">
+		<tag k="ford" v="yes" />
+		<tag k="name" v="Berstølvaet" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="699972" />
+	</node>
+	<node lat="59.5200444488965" lon="7.405377773288986" id="-29659">
 		<tag k="bridge" v="yes" />
 		<tag k="layer" v="1" />
 		<tag k="name" v="Aurevasså" />
 		<tag k="ssr:stedsnr" v="896147" />
 	</node>
-	<node id="-58913" lat="59.4595361097" lon="7.13764722781">
+	<node lat="59.30974722099848" lon="7.369547217851349" id="-29660">
+		<tag k="bridge" v="yes" />
+		<tag k="layer" v="1" />
+		<tag k="name" v="Uptestøyl nedre" />
+		<tag k="ssr:stedsnr" v="896150" />
+	</node>
+	<node lat="59.42828611094661" lon="7.404236118822578" id="-29661">
+		<tag k="bridge" v="yes" />
+		<tag k="layer" v="1" />
+		<tag k="name" v="Hoslemo" />
+		<tag k="ssr:stedsnr" v="896154" />
+	</node>
+	<node lat="59.45953610973726" lon="7.137647227811097" id="-30081">
 		<tag k="fixme" v="verify maritime location" />
 		<tag k="mooring" v="yes" />
 		<tag k="name" v="Nøre Pråmstoni" />
 		<tag k="place" v="locality" />
 		<tag k="ssr:stedsnr" v="759808" />
 	</node>
-	<node id="-59291" lat="59.4585638875" lon="7.38900555841">
-		<tag k="bridge" v="yes" />
-		<tag k="layer" v="1" />
-		<tag k="name" v="Løyningsbrune" />
-		<tag k="ssr:stedsnr" v="820547" />
-	</node>
-	<node id="-52886" lat="59.4063999987" lon="7.22527499504">
-		<tag k="ford" v="yes" />
-		<tag k="name" v="Spranget" />
-		<tag k="place" v="locality" />
-		<tag k="ssr:stedsnr" v="270821" />
-	</node>
-	<node id="-59541" lat="59.4848194467" lon="7.42024999861">
-		<tag k="bridge" v="yes" />
-		<tag k="layer" v="1" />
-		<tag k="name" v="Maurlibekk" />
-		<tag k="ssr:stedsnr" v="957153" />
-	</node>
-	<node id="-58895" lat="59.4457694488" lon="7.38028611166">
-		<tag k="highway" v="path" />
-		<tag k="name" v="Ålmannvegen" />
-		<tag k="ssr:stedsnr" v="759561" />
-	</node>
-	<node id="-55177" lat="59.4282861109" lon="7.40423611882">
-		<tag k="bridge" v="yes" />
-		<tag k="layer" v="1" />
-		<tag k="name" v="Hoslemo" />
-		<tag k="ssr:stedsnr" v="896154" />
-	</node>
-	<node id="-55176" lat="59.309747221" lon="7.36954721785">
-		<tag k="bridge" v="yes" />
-		<tag k="layer" v="1" />
-		<tag k="name" v="Uptestøyl nedre" />
-		<tag k="ssr:stedsnr" v="896150" />
-	</node>
-	<node id="-55660" lat="59.396441667" lon="7.37906389206">
+	<node lat="59.396441666997625" lon="7.379063892056615" id="-30280">
 		<tag k="ford" v="yes" />
 		<tag k="name" v="Dvalavaet" />
 		<tag k="place" v="locality" />
 		<tag k="ssr:stedsnr" v="820507" />
 	</node>
-	<node id="-55174" lat="59.3587472181" lon="7.4065527721">
-		<tag k="ford" v="yes" />
-		<tag k="name" v="Berstølvaet" />
-		<tag k="place" v="locality" />
-		<tag k="ssr:stedsnr" v="699972" />
-	</node>
-	<node id="-56325" lat="59.4623499957" lon="7.41028332644">
-		<tag k="bridge" v="yes" />
-		<tag k="layer" v="1" />
-		<tag k="name" v="Tverrå" />
-		<tag k="ssr:stedsnr" v="46160" />
-	</node>
-	<node id="-53506" lat="59.312402777" lon="7.3658083359">
-		<tag k="bridge" v="yes" />
-		<tag k="layer" v="1" />
-		<tag k="name" v="Uptestøyl øvre" />
-		<tag k="ssr:stedsnr" v="471153" />
-	</node>
-	<node id="-58113" lat="59.2129388847" lon="6.97808611798">
+	<node lat="59.545805558420305" lon="7.0117944399338645" id="-30429">
 		<tag k="highway" v="path" />
-		<tag k="name" v="Karl Johan" />
-		<tag k="ssr:stedsnr" v="426869" />
+		<tag k="name" v="Skoravegen" />
+		<tag k="ssr:stedsnr" v="853262" />
+	</node>
+	<node lat="59.61628611030271" lon="7.377061110498055" id="-30447">
+		<tag k="bridge" v="yes" />
+		<tag k="layer" v="1" />
+		<tag k="name" v="Kloppi" />
+		<tag k="ssr:stedsnr" v="881504" />
 	</node>
 </osm>

@@ -1,571 +1,67 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<osm generator="osmapis" version="0.6">
-	<node id="-6144" lat="62.4338250018" lon="6.20154722495">
-		<tag k="leisure" v="pitch" />
-		<tag k="name" v="Langevåg stadion" />
-		<tag k="ssr:stedsnr" v="399908" />
+<osm version="0.6" generator="osmapis">
+	<node lat="62.419030559431874" lon="6.3275083251610855" id="-3183">
+		<tag k="name" v="Slettereit" />
+		<tag k="place" v="quarter" />
+		<tag k="ssr:stedsnr" v="231401" />
 	</node>
-	<node id="-6143" lat="62.4120416621" lon="6.25613887979">
-		<tag k="bridge" v="yes" />
-		<tag k="layer" v="1" />
-		<tag k="name" v="Storhaugbrua" />
-		<tag k="ssr:stedsnr" v="391325" />
-	</node>
-	<node id="-6142" lat="62.4185527763" lon="6.34198055853">
-		<tag k="name" v="Svenakken" />
-		<tag k="natural" v="hill" />
-		<tag k="place" v="locality" />
-		<tag k="ssr:stedsnr" v="389179" />
-	</node>
-	<node id="-6141" lat="62.4095083315" lon="6.26809444907">
-		<tag k="name" v="Vikesteinen" />
-		<tag k="place" v="islet" />
-		<tag k="ssr:stedsnr" v="389178" />
-	</node>
-	<node id="-6140" lat="62.4117166639" lon="6.28636944872">
-		<tag k="name" v="Barlindnakkane" />
-		<tag k="natural" v="hill" />
-		<tag k="place" v="locality" />
-		<tag k="ssr:stedsnr" v="388175" />
-	</node>
-	<node id="-6139" lat="62.4183749984" lon="6.0724055628">
-		<tag k="name" v="Raudneset" />
-		<tag k="natural" v="cape" />
-		<tag k="ssr:stedsnr" v="375920" />
-	</node>
-	<node id="-6138" lat="62.4475657592" lon="6.20385135909">
-		<tag k="fixme" v="consider place=hamlet" />
-		<tag k="name" v="Kipperberget" />
-		<tag k="place" v="farm" />
-		<tag k="ssr:stedsnr" v="374970" />
-	</node>
-	<node id="-6137" lat="62.4152777786" lon="6.13374444222">
-		<tag k="name" v="Sula" />
-		<tag k="place" v="island" />
-		<tag k="ssr:stedsnr" v="496927" />
-	</node>
-	<node id="-6136" lat="62.3951328334" lon="6.16686591401">
-		<tag k="amenity" v="ferry_terminal" />
-		<tag k="name" v="Sulesund ferjekai" />
-		<tag k="ssr:stedsnr" v="496895" />
-	</node>
-	<node id="-6135" lat="62.3977625437" lon="6.14548977719">
-		<tag k="fixme" v="consider place=hamlet" />
-		<tag k="name" v="Røysa" />
-		<tag k="place" v="farm" />
-		<tag k="ssr:stedsnr" v="496877" />
-	</node>
-	<node id="-6134" lat="62.4307437633" lon="6.280724849">
-		<tag k="fixme" v="consider place=hamlet" />
-		<tag k="name" v="Rørstad" />
-		<tag k="place" v="farm" />
-		<tag k="ssr:stedsnr" v="496047" />
-	</node>
-	<node id="-6133" lat="62.4339444461" lon="6.26392500018">
-		<tag k="name" v="Storevatnet" />
-		<tag k="natural" v="water" />
-		<tag k="ssr:stedsnr" v="496029" />
-		<tag k="water" v="lake" />
-	</node>
-	<node id="-6132" lat="62.4380081511" lon="6.29060486116">
-		<tag k="fixme" v="consider place=hamlet" />
-		<tag k="name" v="Korsneset" />
-		<tag k="place" v="farm" />
-		<tag k="ssr:stedsnr" v="496055" />
-	</node>
-	<node id="-6131" lat="62.4264390455" lon="6.31023750216">
-		<tag k="fixme" v="consider place=hamlet" />
-		<tag k="name" v="Solavågseidet" />
-		<tag k="place" v="farm" />
-		<tag k="ssr:stedsnr" v="495107" />
-	</node>
-	<node id="-6130" lat="62.4499222212" lon="6.18877777174">
-		<tag k="name" v="Storholmsundet" />
-		<tag k="natural" v="strait" />
-		<tag k="ssr:stedsnr" v="483714" />
-	</node>
-	<node id="-6129" lat="62.4469583338" lon="6.19512499383">
-		<tag k="name" v="Ytre Karlholmen" />
-		<tag k="place" v="islet" />
-		<tag k="ssr:stedsnr" v="483711" />
-	</node>
-	<node id="-6128" lat="62.4409888847" lon="6.17174166036">
-		<tag k="name" v="Myranesflua" />
-		<tag k="natural" v="shoal" />
-		<tag k="place" v="locality" />
-		<tag k="ssr:stedsnr" v="483694" />
-	</node>
-	<node id="-6127" lat="62.4090472195" lon="6.26303611564">
-		<tag k="name" v="Bunesa" />
-		<tag k="natural" v="cape" />
-		<tag k="ssr:stedsnr" v="338826" />
-	</node>
-	<node id="-6126" lat="62.4228583343" lon="6.27871110423">
-		<tag k="name" v="Tomaselva" />
-		<tag k="ssr:stedsnr" v="338804" />
-		<tag k="waterway" v="stream" />
-	</node>
-	<node id="-6125" lat="62.4042694459" lon="6.24183055791">
-		<tag k="bridge" v="yes" />
-		<tag k="layer" v="1" />
-		<tag k="name" v="Storelvbrua" />
-		<tag k="ssr:stedsnr" v="330317" />
-	</node>
-	<node id="-6124" lat="62.4370055517" lon="6.27768333558">
-		<tag k="bridge" v="yes" />
-		<tag k="layer" v="1" />
-		<tag k="name" v="Valebrua" />
-		<tag k="ssr:stedsnr" v="330316" />
-	</node>
-	<node id="-6123" lat="62.3805722238" lon="6.12816110182">
-		<tag k="bay" v="fjord" />
-		<tag k="name" v="Sulafjorden" />
-		<tag k="natural" v="bay" />
-		<tag k="ssr:stedsnr" v="314906" />
-	</node>
-	<node id="-6122" lat="62.4059227538" lon="6.25015364578">
-		<tag k="fixme" v="consider place=hamlet" />
-		<tag k="name" v="Eikrem" />
-		<tag k="place" v="farm" />
-		<tag k="ssr:stedsnr" v="314112" />
-	</node>
-	<node id="-6121" lat="62.4460833293" lon="6.23181112041">
-		<tag k="name" v="Orkevika" />
-		<tag k="natural" v="bay" />
-		<tag k="ssr:stedsnr" v="314010" />
-	</node>
-	<node id="-6120" lat="62.4385638922" lon="6.16821110815">
-		<tag k="name" v="Sandvikfjøra" />
-		<tag k="natural" v="beach" />
-		<tag k="place" v="locality" />
-		<tag k="ssr:stedsnr" v="301662" />
-	</node>
-	<node id="-6119" lat="62.4403749989" lon="6.25007222221">
-		<tag k="name" v="Litlevågen" />
-		<tag k="natural" v="bay" />
-		<tag k="ssr:stedsnr" v="460937" />
-	</node>
-	<node id="-6118" lat="62.4357847586" lon="6.18300272143">
-		<tag k="name" v="Bjørkhaugen" />
-		<tag k="natural" v="hill" />
-		<tag k="place" v="locality" />
-		<tag k="ssr:stedsnr" v="460936" />
-	</node>
-	<node id="-6117" lat="62.4055694479" lon="6.26090555165">
-		<tag k="name" v="Hansskaret" />
-		<tag k="natural" v="valley" />
-		<tag k="place" v="locality" />
-		<tag k="ssr:stedsnr" v="460932" />
-	</node>
-	<node id="-6116" lat="62.4096055524" lon="6.10153055534">
-		<tag k="name" v="Skotet" />
-		<tag k="natural" v="ridge" />
-		<tag k="place" v="locality" />
-		<tag k="ssr:stedsnr" v="460887" />
-	</node>
-	<node id="-6115" lat="62.4160861089" lon="6.31051111202">
-		<tag k="name" v="Rothaugen" />
-		<tag k="natural" v="hill" />
-		<tag k="place" v="locality" />
-		<tag k="ssr:stedsnr" v="460885" />
-	</node>
-	<node id="-6114" lat="62.4290111096" lon="6.09971388881">
-		<tag k="name" v="Sætrevatnet" />
-		<tag k="natural" v="water" />
-		<tag k="ssr:stedsnr" v="460883" />
-	</node>
-	<node id="-6113" lat="62.4196527752" lon="6.33177499254">
-		<tag k="name" v="Sundsmyra" />
-		<tag k="natural" v="wetland" />
-		<tag k="ssr:stedsnr" v="460882" />
-	</node>
-	<node id="-6112" lat="62.4333305551" lon="6.11781111119">
-		<tag k="name" v="Flesje-elva" />
-		<tag k="ssr:stedsnr" v="460879" />
-		<tag k="waterway" v="stream" />
-	</node>
-	<node id="-6111" lat="62.4129555521" lon="6.22201944767">
-		<tag k="name" v="Fallhammaren" />
-		<tag k="natural" v="ridge" />
-		<tag k="place" v="locality" />
-		<tag k="ssr:stedsnr" v="460877" />
-	</node>
-	<node id="-6110" lat="62.4314805588" lon="6.28880277195">
-		<tag k="name" v="Rørstadneset" />
-		<tag k="natural" v="cape" />
-		<tag k="ssr:stedsnr" v="460871" />
-	</node>
-	<node id="-6109" lat="62.4455416679" lon="6.19405833851">
-		<tag k="name" v="Bolneset" />
-		<tag k="natural" v="cape" />
-		<tag k="ssr:stedsnr" v="460855" />
-	</node>
-	<node id="-6108" lat="62.4358861079" lon="6.15834999446">
-		<tag k="name" v="Såthaugane" />
-		<tag k="natural" v="hill" />
-		<tag k="place" v="locality" />
-		<tag k="ssr:stedsnr" v="460849" />
-	</node>
-	<node id="-6107" lat="62.4433960693" lon="6.23248514143">
-		<tag k="fixme" v="consider place=hamlet" />
-		<tag k="name" v="Holsfeta" />
-		<tag k="place" v="farm" />
-		<tag k="ssr:stedsnr" v="460808" />
-	</node>
-	<node id="-6106" lat="62.4082166661" lon="6.25102499626">
-		<tag k="bridge" v="yes" />
-		<tag k="layer" v="1" />
-		<tag k="name" v="Eikremsbrua" />
-		<tag k="ssr:stedsnr" v="270325" />
-	</node>
-	<node id="-6105" lat="62.4359694441" lon="6.24466111965">
-		<tag k="bridge" v="yes" />
-		<tag k="layer" v="1" />
-		<tag k="name" v="Veddebrua" />
-		<tag k="ssr:stedsnr" v="270323" />
-	</node>
-	<node id="-6104" lat="62.4502222224" lon="6.22799722898">
-		<tag k="name" v="Linaholmen" />
-		<tag k="place" v="islet" />
-		<tag k="ssr:stedsnr" v="270206" />
-	</node>
-	<node id="-6103" lat="62.4327666699" lon="6.27490278605">
-		<tag k="name" v="Endrevatnet" />
-		<tag k="natural" v="water" />
-		<tag k="ssr:stedsnr" v="454000" />
-		<tag k="water" v="lake" />
-	</node>
-	<node id="-6102" lat="62.4156222258" lon="6.20783888497">
-		<tag k="name" v="Rollonhytta" />
-		<tag k="place" v="isolated_dwelling" />
-		<tag k="ssr:stedsnr" v="254872" />
-	</node>
-	<node id="-6101" lat="62.4441000017" lon="6.18227221276">
-		<tag k="name" v="Presten" />
-		<tag k="place" v="islet" />
-		<tag k="ssr:stedsnr" v="452580" />
-	</node>
-	<node id="-6100" lat="62.4496416626" lon="6.22948611552">
-		<tag k="name" v="Skarbøholmen" />
-		<tag k="place" v="islet" />
-		<tag k="ssr:stedsnr" v="452178" />
-	</node>
-	<node id="-6099" lat="62.4344416654" lon="6.29023889525">
-		<tag k="fixme" v="consider seamark:type=rock or natural=shoal" />
-		<tag k="name" v="Kobbeskjeret" />
-		<tag k="place" v="islet" />
-		<tag k="ssr:stedsnr" v="450168" />
-	</node>
-	<node id="-6098" lat="62.4430944472" lon="6.19723055235">
+	<node lat="62.44309444724042" lon="6.197230552346495" id="-3184">
 		<tag k="name" v="Nymarkbakken" />
 		<tag k="place" v="quarter" />
 		<tag k="ssr:stedsnr" v="231410" />
 	</node>
-	<node id="-6097" lat="62.4144277764" lon="6.33687777948">
-		<tag k="name" v="Gardvika" />
-		<tag k="natural" v="bay" />
-		<tag k="ssr:stedsnr" v="217835" />
-	</node>
-	<node id="-6096" lat="62.3990999998" lon="6.12488610838">
-		<tag k="name" v="Litleneset" />
-		<tag k="natural" v="cape" />
-		<tag k="ssr:stedsnr" v="217833" />
-	</node>
-	<node id="-6095" lat="62.4027472219" lon="6.24790556339">
-		<tag k="name" v="Nausthaugen" />
-		<tag k="natural" v="hill" />
-		<tag k="place" v="locality" />
-		<tag k="ssr:stedsnr" v="217822" />
-	</node>
-	<node id="-6094" lat="62.4240138927" lon="6.35384722697">
-		<tag k="name" v="Breidalen" />
-		<tag k="natural" v="valley" />
-		<tag k="place" v="locality" />
-		<tag k="ssr:stedsnr" v="217815" />
-	</node>
-	<node id="-6093" lat="62.428841664" lon="6.18809445398">
-		<tag k="highway" v="path" />
-		<tag k="name" v="Devoldrenna" />
-		<tag k="ssr:stedsnr" v="217810" />
-	</node>
-	<node id="-6092" lat="62.4391861126" lon="6.18424167413">
-		<tag k="amenity" v="school" />
-		<tag k="name" v="barnehage" />
-		<tag k="ssr:stedsnr" v="217805" />
-	</node>
-	<node id="-6091" lat="62.4388972237" lon="6.16691389457">
-		<tag k="name" v="Sandvika" />
-		<tag k="natural" v="bay" />
-		<tag k="ssr:stedsnr" v="217915" />
-	</node>
-	<node id="-6090" lat="62.4138861141" lon="6.20611389267">
-		<tag k="name" v="Litlebakken" />
-		<tag k="natural" v="slope" />
-		<tag k="place" v="locality" />
-		<tag k="ssr:stedsnr" v="217906" />
-	</node>
-	<node id="-6089" lat="62.4181333351" lon="6.26817499418">
-		<tag k="bridge" v="yes" />
-		<tag k="layer" v="1" />
-		<tag k="name" v="Mausabrua" />
-		<tag k="ssr:stedsnr" v="209315" />
-	</node>
-	<node id="-6088" lat="62.422544473" lon="6.32684261554">
-		<tag k="fixme" v="consider place=hamlet" />
-		<tag k="name" v="Leirvåg" />
-		<tag k="old_name" v="Veibost" />
-		<tag k="place" v="farm" />
-		<tag k="ssr:stedsnr" v="294753" />
-	</node>
-	<node id="-6087" lat="62.4312944461" lon="6.30571666847">
-		<tag k="name" v="Eidsundet" />
-		<tag k="natural" v="strait" />
-		<tag k="ssr:stedsnr" v="294751" />
-	</node>
-	<node id="-6086" lat="62.4414249991" lon="6.26721666838">
-		<tag k="name" v="Søre Hammaren" />
-		<tag k="place" v="quarter" />
-		<tag k="ssr:stedsnr" v="292814" />
-	</node>
-	<node id="-6085" lat="62.4296249973" lon="6.10911388163">
-		<tag k="fixme" v="consider natural=peak for the most distinct mountains in the district" />
-		<tag k="name" v="Flesjehornet" />
-		<tag k="natural" v="hill" />
-		<tag k="place" v="locality" />
-		<tag k="ssr:stedsnr" v="193902" />
-	</node>
-	<node id="-6084" lat="62.4282944414" lon="6.32113888852">
-		<tag k="name" v="Eidsbukta" />
-		<tag k="natural" v="bay" />
-		<tag k="ssr:stedsnr" v="180119" />
-	</node>
-	<node id="-6083" lat="62.4500923983" lon="6.21665018223">
-		<tag k="fixme" v="consider place=hamlet" />
-		<tag k="name" v="Salen" />
-		<tag k="place" v="farm" />
-		<tag k="ssr:stedsnr" v="179664" />
-	</node>
-	<node id="-6082" lat="62.4358166651" lon="6.05178056244">
-		<tag k="name" v="Eltranausen" />
-		<tag k="natural" v="shoal" />
-		<tag k="place" v="locality" />
-		<tag k="ssr:stedsnr" v="281613" />
-	</node>
-	<node id="-6081" lat="62.4151944403" lon="6.07355000735">
-		<tag k="name" v="Skarsteinflua" />
-		<tag k="natural" v="shoal" />
-		<tag k="place" v="locality" />
-		<tag k="ssr:stedsnr" v="281611" />
-	</node>
-	<node id="-6080" lat="62.4279694426" lon="6.0595694411">
-		<tag k="name" v="Trælbåen" />
-		<tag k="natural" v="shoal" />
-		<tag k="place" v="locality" />
-		<tag k="ssr:stedsnr" v="160523" />
-	</node>
-	<node id="-6079" lat="62.4424055568" lon="6.18811944045">
-		<tag k="amenity" v="nursing_home" />
-		<tag k="name" v="Sulatunet" />
-		<tag k="ssr:stedsnr" v="278952" />
-	</node>
-	<node id="-6078" lat="62.4261500025" lon="6.32145554916">
-		<tag k="name" v="Støleskaret" />
-		<tag k="natural" v="valley" />
-		<tag k="place" v="locality" />
-		<tag k="ssr:stedsnr" v="278946" />
-	</node>
-	<node id="-6077" lat="62.4308777804" lon="6.3570277796">
-		<tag k="name" v="Veibustvågen" />
-		<tag k="natural" v="bay" />
-		<tag k="ssr:stedsnr" v="278911" />
-	</node>
-	<node id="-6076" lat="62.4055611075" lon="6.29931666087">
-		<tag k="name" v="Ramsvikura" />
-		<tag k="natural" v="scree" />
-		<tag k="ssr:stedsnr" v="278875" />
-	</node>
-	<node id="-6075" lat="62.429283331" lon="6.05998888223">
-		<tag k="name" v="Furneset" />
-		<tag k="natural" v="cape" />
-		<tag k="ssr:stedsnr" v="278865" />
-	</node>
-	<node id="-6074" lat="62.4039694485" lon="6.28135555115">
-		<tag k="alt_name" v="Eikremsvika" />
-		<tag k="name" v="Eikremsvikane" />
-		<tag k="natural" v="bay" />
-		<tag k="ssr:stedsnr" v="278862" />
-	</node>
-	<node id="-6073" lat="62.405713893" lon="6.28626110324">
-		<tag k="name" v="Eiteråna" />
-		<tag k="ssr:stedsnr" v="278860" />
-		<tag k="waterway" v="stream" />
-	</node>
-	<node id="-6072" lat="62.4066555534" lon="6.29413056162">
-		<tag k="name" v="Ramsvikløypa" />
-		<tag k="natural" v="valley" />
-		<tag k="place" v="locality" />
-		<tag k="ssr:stedsnr" v="278859" />
-	</node>
-	<node id="-6071" lat="62.432227775" lon="6.14157222075">
-		<tag k="name" v="Kjellingsetelva" />
-		<tag k="ssr:stedsnr" v="278857" />
-		<tag k="waterway" v="stream" />
-	</node>
-	<node id="-6070" lat="62.3973090197" lon="6.15370985314">
-		<tag k="alt_name" v="Øygarden" />
-		<tag k="fixme" v="consider place=hamlet" />
-		<tag k="name" v="Sulødegård" />
-		<tag k="place" v="farm" />
-		<tag k="ssr:stedsnr" v="278833" />
-	</node>
-	<node id="-6069" lat="62.4387138926" lon="6.16115554564">
-		<tag k="name" v="Sandvika" />
-		<tag k="old_name" v="Ænes" />
-		<tag k="place" v="farm" />
-		<tag k="ssr:stedsnr" v="278829" />
-	</node>
-	<node id="-6068" lat="62.4486249979" lon="6.18971111682">
-		<tag k="name" v="Lisjehatten" />
+	<node lat="62.44963055554219" lon="6.234394443609738" id="-3185">
+		<tag k="name" v="Fransholmen" />
 		<tag k="place" v="islet" />
-		<tag k="ssr:stedsnr" v="149952" />
+		<tag k="ssr:stedsnr" v="11012" />
 	</node>
-	<node id="-6067" lat="62.4283388927" lon="6.27385556472">
-		<tag k="name" v="Kvernhushaugen" />
-		<tag k="natural" v="hill" />
-		<tag k="place" v="locality" />
-		<tag k="ssr:stedsnr" v="146219" />
-	</node>
-	<node id="-6066" lat="62.4225972755" lon="6.36215627193">
-		<tag k="fixme" v="consider place=hamlet" />
-		<tag k="name" v="Kvasnes" />
-		<tag k="place" v="farm" />
-		<tag k="ssr:stedsnr" v="272364" />
-	</node>
-	<node id="-6065" lat="62.4501494478" lon="6.19662793399">
-		<tag k="name" v="Flatholmen" />
-		<tag k="place" v="islet" />
-		<tag k="ssr:stedsnr" v="270946" />
-	</node>
-	<node id="-6064" lat="62.4470555553" lon="6.19735556382">
-		<tag k="name" v="Karlholmen" />
-		<tag k="place" v="islet" />
-		<tag k="ssr:stedsnr" v="270942" />
-	</node>
-	<node id="-6063" lat="62.4459978376" lon="6.1734427091">
-		<tag k="name" v="Skarveskjeret" />
-		<tag k="place" v="islet" />
-		<tag k="ssr:stedsnr" v="270938" />
-	</node>
-	<node id="-6061" lat="62.407466669" lon="6.24148055049">
-		<tag k="name" v="Stormyrhaugen" />
-		<tag k="natural" v="hill" />
-		<tag k="place" v="locality" />
-		<tag k="ssr:stedsnr" v="267175" />
-	</node>
-	<node id="-6060" lat="62.4300888249" lon="6.35952294106">
-		<tag k="name" v="Pina" />
-		<tag k="old_name" v="Veibustholmen" />
-		<tag k="place" v="islet" />
-		<tag k="ssr:stedsnr" v="267142" />
-	</node>
-	<node id="-6059" lat="62.4208290614" lon="6.35750749952">
-		<tag k="name" v="Furehaugen" />
-		<tag k="natural" v="hill" />
-		<tag k="place" v="locality" />
-		<tag k="ssr:stedsnr" v="267131" />
-	</node>
-	<node id="-6058" lat="62.413652782" lon="6.22066943971">
-		<tag k="name" v="Humlestølen" />
-		<tag k="place" v="isolated_dwelling" />
-		<tag k="ssr:stedsnr" v="263187" />
-	</node>
-	<node id="-6057" lat="62.4175805516" lon="6.07000277308">
-		<tag k="name" v="Raudnesskallen" />
-		<tag k="natural" v="shoal" />
-		<tag k="place" v="locality" />
-		<tag k="ssr:stedsnr" v="99611" />
-	</node>
-	<node id="-6056" lat="62.440926338" lon="6.22727546576">
-		<tag k="fixme" v="consider place=hamlet" />
-		<tag k="name" v="Holen" />
-		<tag k="place" v="farm" />
-		<tag k="ssr:stedsnr" v="96859" />
-	</node>
-	<node id="-6055" lat="62.4358138855" lon="6.1923861024">
-		<tag k="name" v="Molværsrema" />
-		<tag k="place" v="farm" />
-		<tag k="ssr:stedsnr" v="96857" />
-	</node>
-	<node id="-6054" lat="62.4389571301" lon="6.17229356475">
-		<tag k="fixme" v="consider place=hamlet" />
-		<tag k="name" v="Molværsmyra" />
-		<tag k="place" v="farm" />
-		<tag k="ssr:stedsnr" v="96807" />
-	</node>
-	<node id="-6053" lat="62.447623719" lon="6.19209134482">
-		<tag k="fixme" v="consider place=hamlet" />
-		<tag k="name" v="Hattholmen" />
-		<tag k="place" v="farm" />
-		<tag k="ssr:stedsnr" v="96923" />
-	</node>
-	<node id="-6052" lat="62.4001944404" lon="6.11734721547">
-		<tag k="name" v="Kårsteinen" />
-		<tag k="natural" v="stone" />
-		<tag k="ssr:stedsnr" v="96913" />
-	</node>
-	<node id="-6051" lat="62.4491000011" lon="6.22729444719">
-		<tag k="name" v="Skrivarhamna" />
-		<tag k="natural" v="bay" />
-		<tag k="ssr:stedsnr" v="96904" />
-	</node>
-	<node id="-6050" lat="62.4357888856" lon="6.0581638924">
-		<tag k="name" v="Rekvika" />
-		<tag k="natural" v="bay" />
-		<tag k="ssr:stedsnr" v="96762" />
-	</node>
-	<node id="-6049" lat="62.4063786801" lon="6.10190758198">
-		<tag k="fixme" v="consider place=hamlet" />
-		<tag k="name" v="Nøringset" />
-		<tag k="place" v="farm" />
-		<tag k="ssr:stedsnr" v="254878" />
-	</node>
-	<node id="-6048" lat="62.4365090689" lon="6.10447776593">
-		<tag k="name" v="Kalvestad" />
-		<tag k="place" v="locality" />
-		<tag k="ssr:stedsnr" v="253970" />
-	</node>
-	<node id="-6047" lat="62.4477166633" lon="6.1712583399">
-		<tag k="name" v="Langedraget" />
-		<tag k="place" v="islet" />
-		<tag k="ssr:stedsnr" v="253964" />
-	</node>
-	<node id="-6046" lat="62.4284194454" lon="6.16095278516">
-		<tag k="name" v="Steinelva" />
-		<tag k="ssr:stedsnr" v="253922" />
-		<tag k="waterway" v="stream" />
-	</node>
-	<node id="-6045" lat="62.4268611142" lon="6.32225555031">
-		<tag k="name" v="Stølane" />
-		<tag k="place" v="farm" />
-		<tag k="ssr:stedsnr" v="253085" />
-	</node>
-	<node id="-6044" lat="62.4271833362" lon="6.26495000045">
-		<tag k="name" v="Raudåvatnet" />
+	<node lat="62.42943055355363" lon="6.22011667190074" id="-3186">
+		<tag k="name" v="Sætrevatnet" />
 		<tag k="natural" v="water" />
-		<tag k="ssr:stedsnr" v="253076" />
+		<tag k="ssr:stedsnr" v="11028" />
 	</node>
-	<node id="-6043" lat="62.4495555578" lon="6.2288166735">
-		<tag k="name" v="Skarhaugholmen" />
+	<node lat="62.419230554981866" lon="6.130788888854215" id="-3187">
+		<tag k="name" v="Myrane" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="11923" />
+	</node>
+	<node lat="62.44968889245096" lon="6.203527780453308" id="-3188">
+		<tag k="name" v="Bukkholmen" />
 		<tag k="place" v="islet" />
-		<tag k="ssr:stedsnr" v="88147" />
+		<tag k="ssr:stedsnr" v="28968" />
 	</node>
-	<node id="-6042" lat="62.3963462752" lon="6.16652697526">
-		<tag k="fixme" v="consider place=hamlet" />
-		<tag k="name" v="Sulesund" />
-		<tag k="place" v="farm" />
-		<tag k="ssr:stedsnr" v="85022" />
+	<node lat="62.44825728387061" lon="6.19531316973051" id="-3189">
+		<tag k="name" v="Vassholmen" />
+		<tag k="place" v="islet" />
+		<tag k="ssr:stedsnr" v="28971" />
 	</node>
-	<node id="-6041" lat="62.4250250013" lon="6.13906944217">
+	<node lat="62.42179722621288" lon="6.319563880122082" id="-3190">
+		<tag k="name" v="Eliasneset" />
+		<tag k="natural" v="cape" />
+		<tag k="ssr:stedsnr" v="35861" />
+	</node>
+	<node lat="62.44085277814866" lon="6.238772214141463" id="-3191">
+		<tag k="name" v="Holsneset" />
+		<tag k="natural" v="cape" />
+		<tag k="ssr:stedsnr" v="58704" />
+	</node>
+	<node lat="62.44386944674701" lon="6.261583331569813" id="-3192">
+		<tag k="name" v="Hammarsneset" />
+		<tag k="natural" v="cape" />
+		<tag k="ssr:stedsnr" v="58792" />
+	</node>
+	<node lat="62.4386305573219" lon="6.262780563510966" id="-3193">
+		<tag k="name" v="Djupvikvatnet" />
+		<tag k="natural" v="water" />
+		<tag k="ssr:stedsnr" v="240794" />
+		<tag k="water" v="lake" />
+	</node>
+	<node lat="62.42571944073673" lon="6.082072223413897" id="-3194">
+		<tag k="name" v="Raudneselva" />
+		<tag k="ssr:stedsnr" v="71927" />
+		<tag k="waterway" v="stream" />
+	</node>
+	<node lat="62.425025001302444" lon="6.139069442167515" id="-3195">
 		<tag k="alt_name" v="Grjothornet" />
 		<tag k="fixme" v="consider natural=peak for the most distinct mountains in the district" />
 		<tag k="name" v="Grøthornet" />
@@ -573,1028 +69,1334 @@
 		<tag k="place" v="locality" />
 		<tag k="ssr:stedsnr" v="71930" />
 	</node>
-	<node id="-6040" lat="62.4257194407" lon="6.08207222341">
-		<tag k="name" v="Raudneselva" />
-		<tag k="ssr:stedsnr" v="71927" />
-		<tag k="waterway" v="stream" />
-	</node>
-	<node id="-6039" lat="62.4386305573" lon="6.26278056351">
-		<tag k="name" v="Djupvikvatnet" />
-		<tag k="natural" v="water" />
-		<tag k="ssr:stedsnr" v="240794" />
-		<tag k="water" v="lake" />
-	</node>
-	<node id="-6038" lat="62.4190305594" lon="6.32750832516">
-		<tag k="name" v="Slettereit" />
-		<tag k="place" v="quarter" />
-		<tag k="ssr:stedsnr" v="231401" />
-	</node>
-	<node id="-6037" lat="62.4130138892" lon="6.30091111548">
-		<tag k="name" v="Trollhaugen" />
-		<tag k="natural" v="hill" />
+	<node lat="62.44148333047971" lon="6.1309416741453004" id="-3196">
+		<tag k="alt_name" v="Flesjeflua" />
+		<tag k="name" v="Flesjefluda" />
+		<tag k="natural" v="shoal" />
 		<tag k="place" v="locality" />
-		<tag k="ssr:stedsnr" v="25235" />
+		<tag k="ssr:stedsnr" v="71987" />
 	</node>
-	<node id="-6036" lat="62.419230555" lon="6.13078888885">
-		<tag k="name" v="Myrane" />
-		<tag k="natural" v="wetland" />
-		<tag k="ssr:stedsnr" v="11923" />
-	</node>
-	<node id="-6035" lat="62.4340749985" lon="6.20933610657">
-		<tag k="name" v="Vassetvatnet" />
-		<tag k="natural" v="water" />
-		<tag k="ssr:stedsnr" v="11918" />
-		<tag k="water" v="lake" />
-	</node>
-	<node id="-6034" lat="62.4496305555" lon="6.23439444361">
-		<tag k="name" v="Fransholmen" />
+	<node lat="62.4456888930454" lon="6.237588895087737" id="-3197">
+		<tag k="name" v="Budaholmen" />
 		<tag k="place" v="islet" />
-		<tag k="ssr:stedsnr" v="11012" />
+		<tag k="ssr:stedsnr" v="86195" />
 	</node>
-	<node id="-6033" lat="62.4421861107" lon="6.21426110431">
-		<tag k="name" v="Erikplassen" />
-		<tag k="place" v="quarter" />
-		<tag k="ssr:stedsnr" v="221899" />
-	</node>
-	<node id="-6032" lat="62.4400500034" lon="6.21168333662">
-		<tag k="amenity" v="school" />
-		<tag k="name" v="Sula ungdomssskule" />
-		<tag k="ssr:stedsnr" v="217931" />
-	</node>
-	<node id="-6031" lat="62.4294861128" lon="6.30548887956">
-		<tag k="name" v="Grøthaugen" />
-		<tag k="natural" v="hill" />
-		<tag k="place" v="locality" />
-		<tag k="ssr:stedsnr" v="217930" />
-	</node>
-	<node id="-6030" lat="62.4015277745" lon="6.23834443655">
-		<tag k="name" v="Hjellneset" />
-		<tag k="natural" v="cape" />
-		<tag k="ssr:stedsnr" v="217898" />
-	</node>
-	<node id="-6029" lat="62.4084472239" lon="6.24325555412">
-		<tag k="name" v="Litle Staglehaugen" />
-		<tag k="natural" v="hill" />
-		<tag k="place" v="locality" />
-		<tag k="ssr:stedsnr" v="217896" />
-	</node>
-	<node id="-6530" lat="62.4438672612" lon="6.27384569614">
-		<tag k="name" v="Humlesundet" />
-		<tag k="natural" v="strait" />
-		<tag k="ssr:stedsnr" v="703935" />
-	</node>
-	<node id="-6525" lat="62.3952737279" lon="6.3020382625">
-		<tag k="bay" v="fjord" />
-		<tag k="name" v="Storfjorden" />
-		<tag k="natural" v="bay" />
-		<tag k="ssr:stedsnr" v="1077297" />
-	</node>
-	<node id="-6521" lat="62.4378862017" lon="6.26263508082">
-		<tag k="name" v="Haugen" />
-		<tag k="place" v="locality" />
-		<tag k="ssr:stedsnr" v="982394" />
-	</node>
-	<node id="-6519" lat="62.4402435325" lon="6.27423904072">
-		<tag k="name" v="Våtmyr" />
-		<tag k="place" v="locality" />
-		<tag k="ssr:stedsnr" v="982388" />
-	</node>
-	<node id="-6516" lat="62.4505027782" lon="6.21241943688">
-		<tag k="name" v="Kålneset" />
-		<tag k="natural" v="cape" />
-		<tag k="ssr:stedsnr" v="968716" />
-	</node>
-	<node id="-6515" lat="62.4276416688" lon="6.28455833044">
-		<tag k="name" v="Mauseidvågen" />
-		<tag k="natural" v="bay" />
-		<tag k="ssr:stedsnr" v="961427" />
-	</node>
-	<node id="-6514" lat="62.421219443" lon="6.26212499343">
-		<tag k="name" v="Svartevasshaugen" />
-		<tag k="natural" v="hill" />
-		<tag k="place" v="locality" />
-		<tag k="ssr:stedsnr" v="874247" />
-	</node>
-	<node id="-6513" lat="62.4043972247" lon="6.2589388851">
-		<tag k="name" v="Eikremsnakken" />
-		<tag k="natural" v="hill" />
-		<tag k="place" v="locality" />
-		<tag k="ssr:stedsnr" v="874225" />
-	</node>
-	<node id="-6512" lat="62.4285611074" lon="6.24912777695">
-		<tag k="name" v="Gjølvatnet" />
-		<tag k="natural" v="water" />
-		<tag k="ssr:stedsnr" v="861031" />
-		<tag k="water" v="lake" />
-	</node>
-	<node id="-6511" lat="62.4391027773" lon="6.06491110699">
-		<tag k="name" v="Gjøtta" />
-		<tag k="natural" v="cape" />
-		<tag k="ssr:stedsnr" v="860977" />
-	</node>
-	<node id="-6509" lat="62.4108972201" lon="6.3192666594">
-		<tag k="name" v="Høghaugen" />
-		<tag k="place" v="farm" />
-		<tag k="ssr:stedsnr" v="860131" />
-	</node>
-	<node id="-6508" lat="62.4339861128" lon="6.28933056096">
-		<tag k="name" v="Sandvika" />
-		<tag k="natural" v="bay" />
-		<tag k="ssr:stedsnr" v="847791" />
-	</node>
-	<node id="-6507" lat="62.4136488829" lon="6.3323289259">
-		<tag k="name" v="Storhaugodden" />
-		<tag k="natural" v="cape" />
-		<tag k="ssr:stedsnr" v="847789" />
-	</node>
-	<node id="-6506" lat="62.4469777766" lon="6.19735276838">
-		<tag k="name" v="Indre Karlholmen" />
+	<node lat="62.44955555782063" lon="6.228816673504865" id="-3198">
+		<tag k="name" v="Skarhaugholmen" />
 		<tag k="place" v="islet" />
-		<tag k="ssr:stedsnr" v="847698" />
+		<tag k="ssr:stedsnr" v="88147" />
 	</node>
-	<node id="-6505" lat="62.4366274533" lon="6.22490188218">
+	<node lat="62.42894444510049" lon="6.148294449426842" id="-3199">
+		<tag k="name" v="Eltratjønna" />
+		<tag k="natural" v="water" />
+		<tag k="ssr:stedsnr" v="88911" />
+	</node>
+	<node lat="62.42541944399446" lon="6.297738890256008" id="-3200">
+		<tag k="name" v="Bjørkavågen" />
+		<tag k="natural" v="bay" />
+		<tag k="ssr:stedsnr" v="90368" />
+	</node>
+	<node lat="62.43578888563556" lon="6.058163892401145" id="-3201">
+		<tag k="name" v="Rekvika" />
+		<tag k="natural" v="bay" />
+		<tag k="ssr:stedsnr" v="96762" />
+	</node>
+	<node lat="62.43895713013431" lon="6.172293564745988" id="-3202">
 		<tag k="fixme" v="consider place=hamlet" />
-		<tag k="name" v="Veddegjerdet" />
+		<tag k="name" v="Molværsmyra" />
 		<tag k="place" v="farm" />
-		<tag k="ssr:stedsnr" v="847685" />
+		<tag k="ssr:stedsnr" v="96807" />
 	</node>
-	<node id="-6504" lat="62.4342972226" lon="6.07614721796">
-		<tag k="fixme" v="consider natural=peak for the most distinct mountains in the district" />
-		<tag k="name" v="Eltrane" />
-		<tag k="natural" v="hill" />
-		<tag k="place" v="locality" />
-		<tag k="ssr:stedsnr" v="824941" />
-	</node>
-	<node id="-6503" lat="62.4019027822" lon="6.25938056179">
-		<tag k="alt_name" v="Fluaberget" />
-		<tag k="name" v="Fludaberget" />
-		<tag k="natural" v="cape" />
-		<tag k="ssr:stedsnr" v="824870" />
-	</node>
-	<node id="-6502" lat="62.4132611107" lon="6.20539443999">
-		<tag k="fixme" v="consider natural=peak for the most distinct mountains in the district" />
-		<tag k="name" v="Taustua" />
-		<tag k="natural" v="hill" />
-		<tag k="place" v="locality" />
-		<tag k="ssr:stedsnr" v="824849" />
-	</node>
-	<node id="-6501" lat="62.4370583357" lon="6.20282222187">
-		<tag k="name" v="Sloghaugen" />
-		<tag k="natural" v="hill" />
-		<tag k="place" v="locality" />
-		<tag k="ssr:stedsnr" v="824841" />
-	</node>
-	<node id="-6500" lat="62.4180277809" lon="6.26796389402">
-		<tag k="name" v="Mausaelva" />
-		<tag k="ssr:stedsnr" v="824833" />
-		<tag k="waterway" v="stream" />
-	</node>
-	<node id="-6499" lat="62.4486050267" lon="6.21055189755">
-		<tag k="name" v="Kråna" />
-		<tag k="place" v="locality" />
-		<tag k="ssr:stedsnr" v="824831" />
-	</node>
-	<node id="-6498" lat="62.410191668" lon="6.30221111792">
-		<tag k="name" v="Lisjehjellhaugen" />
-		<tag k="natural" v="hill" />
-		<tag k="place" v="locality" />
-		<tag k="ssr:stedsnr" v="814267" />
-	</node>
-	<node id="-6497" lat="62.4168666625" lon="6.27414444251">
-		<tag k="name" v="Nakken" />
-		<tag k="natural" v="hill" />
-		<tag k="place" v="locality" />
-		<tag k="ssr:stedsnr" v="814265" />
-	</node>
-	<node id="-6496" lat="62.4153722201" lon="6.29614721738">
-		<tag k="name" v="Dorgerhaugen" />
-		<tag k="natural" v="hill" />
-		<tag k="place" v="locality" />
-		<tag k="ssr:stedsnr" v="814258" />
-	</node>
-	<node id="-6495" lat="62.436766665" lon="6.05335554709">
-		<tag k="fixme" v="consider seamark:type=rock or natural=shoal" />
-		<tag k="name" v="Eltraskjeret" />
-		<tag k="place" v="islet" />
-		<tag k="ssr:stedsnr" v="814233" />
-	</node>
-	<node id="-6494" lat="62.4415027743" lon="6.18737777908">
-		<tag k="name" v="Syverholmen" />
-		<tag k="place" v="islet" />
-		<tag k="ssr:stedsnr" v="814231" />
-	</node>
-	<node id="-6493" lat="62.427702779" lon="6.0610083319">
-		<tag k="alt_name" v="Trælbåneset" />
-		<tag k="name" v="Trælbodneset" />
-		<tag k="natural" v="cape" />
-		<tag k="ssr:stedsnr" v="800903" />
-	</node>
-	<node id="-6492" lat="62.4408472187" lon="6.19137499267">
-		<tag k="alt_name" v="Langevågen" />
-		<tag k="name" v="Langevåg" />
-		<tag k="place" v="village" />
-		<tag k="ssr:stedsnr" v="800956" />
-	</node>
-	<node id="-6491" lat="62.4083416665" lon="6.2269333397">
-		<tag k="name" v="Storelva" />
-		<tag k="ssr:stedsnr" v="800633" />
-		<tag k="waterway" v="stream" />
-	</node>
-	<node id="-6490" lat="62.4266429149" lon="6.35914063628">
+	<node lat="62.44092633803983" lon="6.227275465760472" id="-3203">
 		<tag k="fixme" v="consider place=hamlet" />
-		<tag k="name" v="Kongshaugen" />
+		<tag k="name" v="Holen" />
 		<tag k="place" v="farm" />
-		<tag k="ssr:stedsnr" v="799098" />
+		<tag k="ssr:stedsnr" v="96859" />
 	</node>
-	<node id="-6489" lat="62.4210083332" lon="6.36303333509">
-		<tag k="name" v="Kvasneset" />
-		<tag k="natural" v="cape" />
-		<tag k="ssr:stedsnr" v="799094" />
-	</node>
-	<node id="-6488" lat="62.4227444472" lon="6.31043611193">
-		<tag k="name" v="Storevalen" />
-		<tag k="place" v="farm" />
-		<tag k="ssr:stedsnr" v="799091" />
-	</node>
-	<node id="-6487" lat="62.4111499996" lon="6.23937777388">
-		<tag k="name" v="Tverråna" />
-		<tag k="ssr:stedsnr" v="799065" />
-		<tag k="waterway" v="stream" />
-	</node>
-	<node id="-6486" lat="62.4105527796" lon="6.26516945027">
-		<tag k="name" v="Mausavatnet" />
-		<tag k="natural" v="water" />
-		<tag k="ssr:stedsnr" v="799064" />
-		<tag k="water" v="lake" />
-	</node>
-	<node id="-6485" lat="62.4454444421" lon="6.20598888118">
-		<tag k="name" v="Fyllingsvågen" />
+	<node lat="62.44910000107351" lon="6.227294447187083" id="-3204">
+		<tag k="name" v="Skrivarhamna" />
 		<tag k="natural" v="bay" />
-		<tag k="ssr:stedsnr" v="786705" />
+		<tag k="ssr:stedsnr" v="96904" />
 	</node>
-	<node id="-6484" lat="62.4267499969" lon="6.27396389062">
-		<tag k="name" v="Røbekk" />
-		<tag k="place" v="farm" />
-		<tag k="ssr:stedsnr" v="786119" />
-	</node>
-	<node id="-6483" lat="62.4311388872" lon="6.35439166466">
-		<tag k="name" v="Klokkarneset" />
-		<tag k="natural" v="cape" />
-		<tag k="ssr:stedsnr" v="780145" />
-	</node>
-	<node id="-6482" lat="62.4437916625" lon="6.17124444317">
-		<tag k="name" v="Bollflua" />
-		<tag k="natural" v="shoal" />
-		<tag k="place" v="locality" />
-		<tag k="ssr:stedsnr" v="779624" />
-	</node>
-	<node id="-6481" lat="62.4462277792" lon="6.21022499131">
-		<tag k="name" v="Straumen" />
-		<tag k="ssr:stedsnr" v="763932" />
-		<tag k="waterway" v="stream" />
-	</node>
-	<node id="-6480" lat="62.4445861105" lon="6.23058611262">
-		<tag k="name" v="Urkevika" />
-		<tag k="natural" v="bay" />
-		<tag k="ssr:stedsnr" v="763927" />
-	</node>
-	<node id="-6479" lat="62.4098750017" lon="6.26948333897">
-		<tag k="name" v="Bytingsneset" />
-		<tag k="natural" v="cape" />
-		<tag k="ssr:stedsnr" v="763902" />
-	</node>
-	<node id="-6478" lat="62.4230777797" lon="6.26914166541">
-		<tag k="amenity" v="school" />
-		<tag k="name" v="Mauseid skole" />
-		<tag k="ssr:stedsnr" v="763897" />
-	</node>
-	<node id="-6477" lat="62.4194083369" lon="6.34873332962">
-		<tag k="name" v="Haggardhaugsletta" />
-		<tag k="place" v="locality" />
-		<tag k="ssr:stedsnr" v="763892" />
-	</node>
-	<node id="-6476" lat="62.416838892" lon="6.35176665683">
-		<tag k="name" v="Lahellestranda" />
-		<tag k="natural" v="beach" />
-		<tag k="place" v="locality" />
-		<tag k="ssr:stedsnr" v="763891" />
-	</node>
-	<node id="-6475" lat="62.4135722204" lon="6.32098055364">
-		<tag k="name" v="Køvikleira" />
-		<tag k="natural" v="bay" />
-		<tag k="ssr:stedsnr" v="763846" />
-	</node>
-	<node id="-6474" lat="62.4062388918" lon="6.15471944565">
-		<tag k="fixme" v="consider natural=peak for the most distinct mountains in the district" />
-		<tag k="name" v="Tussnipen" />
-		<tag k="natural" v="hill" />
-		<tag k="place" v="locality" />
-		<tag k="ssr:stedsnr" v="763841" />
-	</node>
-	<node id="-6473" lat="62.4277999974" lon="6.15976944499">
-		<tag k="name" v="Grønbakkhola" />
-		<tag k="natural" v="valley" />
-		<tag k="place" v="locality" />
-		<tag k="ssr:stedsnr" v="763801" />
-	</node>
-	<node id="-6472" lat="62.4494111078" lon="6.19153889499">
-		<tag k="name" v="Svinholmen" />
-		<tag k="place" v="islet" />
-		<tag k="ssr:stedsnr" v="756969" />
-	</node>
-	<node id="-6471" lat="62.4439555545" lon="6.21893333957">
-		<tag k="name" v="Iglevatnet" />
-		<tag k="natural" v="water" />
-		<tag k="ssr:stedsnr" v="756936" />
-	</node>
-	<node id="-6470" lat="62.443206457" lon="6.18184422497">
-		<tag k="name" v="Massholmen" />
-		<tag k="place" v="islet" />
-		<tag k="ssr:stedsnr" v="756575" />
-	</node>
-	<node id="-6469" lat="62.4209000009" lon="6.27275834266">
-		<tag k="bridge" v="yes" />
-		<tag k="layer" v="1" />
-		<tag k="name" v="Vågsbrua" />
-		<tag k="ssr:stedsnr" v="755314" />
-	</node>
-	<node id="-6468" lat="62.4099443064" lon="6.24302283792">
-		<tag k="name" v="Staglehaugane" />
-		<tag k="natural" v="hill" />
-		<tag k="place" v="locality" />
-		<tag k="ssr:stedsnr" v="753167" />
-	</node>
-	<node id="-6467" lat="62.4314583339" lon="6.36172499684">
-		<tag k="name" v="Snauholmen" />
-		<tag k="place" v="islet" />
-		<tag k="ssr:stedsnr" v="753154" />
-	</node>
-	<node id="-6466" lat="62.4243805568" lon="6.33567222672">
-		<tag k="name" v="Høgefjellet" />
-		<tag k="natural" v="hill" />
-		<tag k="place" v="locality" />
-		<tag k="ssr:stedsnr" v="753151" />
-	</node>
-	<node id="-6465" lat="62.4143083318" lon="6.2636666675">
-		<tag k="name" v="Tenneskjeret" />
-		<tag k="place" v="islet" />
-		<tag k="ssr:stedsnr" v="753147" />
-	</node>
-	<node id="-6464" lat="62.4306750012" lon="6.13242500276">
-		<tag k="fixme" v="consider natural=peak for the most distinct mountains in the district" />
-		<tag k="name" v="Kjellingsethornet" />
-		<tag k="natural" v="hill" />
-		<tag k="place" v="locality" />
-		<tag k="ssr:stedsnr" v="739889" />
-	</node>
-	<node id="-6463" lat="62.4049194417" lon="6.26961389017">
-		<tag k="name" v="Brauta" />
-		<tag k="place" v="farm" />
-		<tag k="ssr:stedsnr" v="739093" />
-	</node>
-	<node id="-6462" lat="62.4356749974" lon="6.23457777988">
-		<tag k="fixme" v="consider place=hamlet" />
-		<tag k="name" v="Vedde" />
-		<tag k="place" v="village" />
-		<tag k="ssr:stedsnr" v="739032" />
-	</node>
-	<node id="-6461" lat="62.3958777765" lon="6.19703889472">
-		<tag k="alt_name" v="Vindneset" />
-		<tag k="name" v="Vindsneset" />
-		<tag k="natural" v="cape" />
-		<tag k="ssr:stedsnr" v="738919" />
-	</node>
-	<node id="-6460" lat="62.4223749966" lon="6.21935832768">
-		<tag k="alt_name" v="Veddeberget" />
-		<tag k="name" v="Veddehjellane" />
-		<tag k="natural" v="hill" />
-		<tag k="place" v="locality" />
-		<tag k="ssr:stedsnr" v="738096" />
-	</node>
-	<node id="-6459" lat="62.412453245" lon="6.30056606179">
-		<tag k="fixme" v="consider natural=peak for the most distinct mountains in the district" />
-		<tag k="name" v="Solavågsfjellet" />
-		<tag k="natural" v="hill" />
-		<tag k="place" v="locality" />
-		<tag k="ssr:stedsnr" v="738076" />
-	</node>
-	<node id="-6458" lat="62.4277250035" lon="6.3115055482">
-		<tag k="amenity" v="school" />
-		<tag k="name" v="Solevåg skole" />
-		<tag k="ssr:stedsnr" v="642910" />
-	</node>
-	<node id="-6457" lat="62.4370472238" lon="6.2798944357">
-		<tag k="name" v="Valebukta" />
-		<tag k="natural" v="bay" />
-		<tag k="ssr:stedsnr" v="642908" />
-	</node>
-	<node id="-6456" lat="62.4039638875" lon="6.28818332553">
-		<tag k="name" v="Litleneset" />
-		<tag k="natural" v="cape" />
-		<tag k="ssr:stedsnr" v="642896" />
-	</node>
-	<node id="-6455" lat="62.4041916677" lon="6.29488056433">
-		<tag k="name" v="Ramsvikhaugane" />
-		<tag k="natural" v="hill" />
-		<tag k="place" v="locality" />
-		<tag k="ssr:stedsnr" v="642895" />
-	</node>
-	<node id="-6454" lat="62.4147749991" lon="6.34057500567">
-		<tag k="name" v="Legeberget" />
-		<tag k="natural" v="hill" />
-		<tag k="place" v="locality" />
-		<tag k="ssr:stedsnr" v="642876" />
-	</node>
-	<node id="-6453" lat="62.4355750012" lon="6.25765556424">
-		<tag k="name" v="Storevatnet" />
-		<tag k="natural" v="water" />
-		<tag k="ssr:stedsnr" v="642801" />
-		<tag k="water" v="lake" />
-	</node>
-	<node id="-6452" lat="62.4046499992" lon="6.11734723188">
-		<tag k="name" v="Lynglegda" />
-		<tag k="natural" v="valley" />
-		<tag k="place" v="locality" />
-		<tag k="ssr:stedsnr" v="641760" />
-	</node>
-	<node id="-6451" lat="62.4257999968" lon="6.35254167548">
-		<tag k="name" v="Veibustfjellet" />
-		<tag k="natural" v="hill" />
-		<tag k="place" v="locality" />
-		<tag k="ssr:stedsnr" v="634604" />
-	</node>
-	<node id="-6449" lat="62.4522298905" lon="6.20260784504">
-		<tag k="name" v="Gåsholmen" />
-		<tag k="place" v="islet" />
-		<tag k="ssr:stedsnr" v="617948" />
-	</node>
-	<node id="-6448" lat="62.4526472187" lon="6.18822778127">
-		<tag k="name" v="Rognholmen" />
-		<tag k="place" v="islet" />
-		<tag k="ssr:stedsnr" v="617947" />
-	</node>
-	<node id="-6446" lat="62.4044666681" lon="6.10666111346">
-		<tag k="name" v="Naustvika" />
-		<tag k="natural" v="bay" />
-		<tag k="ssr:stedsnr" v="617882" />
-	</node>
-	<node id="-6445" lat="62.4319638923" lon="6.35148610981">
-		<tag k="name" v="Vegsundet" />
-		<tag k="natural" v="strait" />
-		<tag k="ssr:stedsnr" v="617049" />
-	</node>
-	<node id="-6444" lat="62.4523638894" lon="6.21331389606">
-		<tag k="name" v="Salflua" />
-		<tag k="natural" v="shoal" />
-		<tag k="place" v="locality" />
-		<tag k="ssr:stedsnr" v="604703" />
-	</node>
-	<node id="-6443" lat="62.4422361086" lon="6.16634999862">
-		<tag k="name" v="Sandvikflua" />
-		<tag k="natural" v="shoal" />
-		<tag k="place" v="locality" />
-		<tag k="ssr:stedsnr" v="597627" />
-	</node>
-	<node id="-6441" lat="62.4366277804" lon="6.17765833874">
-		<tag k="name" v="Haugedammen" />
-		<tag k="place" v="quarter" />
-		<tag k="ssr:stedsnr" v="595345" />
-	</node>
-	<node id="-6440" lat="62.4401972232" lon="6.05716667343">
-		<tag k="name" v="Nordre Eltraflua" />
-		<tag k="natural" v="shoal" />
-		<tag k="place" v="locality" />
-		<tag k="ssr:stedsnr" v="584605" />
-	</node>
-	<node id="-6439" lat="62.4434166654" lon="6.19388332504">
-		<tag k="name" v="Haugane" />
-		<tag k="natural" v="hill" />
-		<tag k="place" v="locality" />
-		<tag k="ssr:stedsnr" v="581946" />
-	</node>
-	<node id="-6438" lat="62.4319944463" lon="6.17781112006">
-		<tag k="name" v="Rotene" />
-		<tag k="natural" v="slope" />
-		<tag k="place" v="locality" />
-		<tag k="ssr:stedsnr" v="581926" />
-	</node>
-	<node id="-6437" lat="62.4082027754" lon="6.29606389169">
-		<tag k="name" v="Halseskaret" />
-		<tag k="natural" v="valley" />
-		<tag k="place" v="locality" />
-		<tag k="ssr:stedsnr" v="581924" />
-	</node>
-	<node id="-6436" lat="62.4477972181" lon="6.20642777065">
-		<tag k="fixme" v="consider place=suburb, village or hamlet" />
-		<tag k="name" v="Kipperberg" />
-		<tag k="place" v="quarter" />
-		<tag k="ssr:stedsnr" v="581788" />
-	</node>
-	<node id="-6435" lat="62.4130361131" lon="6.08311110192">
-		<tag k="name" v="Ølkonå" />
+	<node lat="62.400194440357566" lon="6.117347215468559" id="-3205">
+		<tag k="name" v="Kårsteinen" />
 		<tag k="natural" v="stone" />
-		<tag k="ssr:stedsnr" v="581867" />
+		<tag k="ssr:stedsnr" v="96913" />
 	</node>
-	<node id="-6434" lat="62.4407722199" lon="6.1977777813">
-		<tag k="name" v="Djupdalen" />
-		<tag k="natural" v="valley" />
+	<node lat="62.41758055158301" lon="6.070002773075098" id="-3206">
+		<tag k="name" v="Raudnesskallen" />
+		<tag k="natural" v="shoal" />
 		<tag k="place" v="locality" />
-		<tag k="ssr:stedsnr" v="581857" />
+		<tag k="ssr:stedsnr" v="99611" />
 	</node>
-	<node id="-6433" lat="62.4355111077" lon="6.20275277367">
-		<tag k="name" v="Vassetelva" />
-		<tag k="ssr:stedsnr" v="581854" />
-		<tag k="waterway" v="stream" />
-	</node>
-	<node id="-6432" lat="62.4525916678" lon="6.1974388888">
-		<tag k="name" v="Lisjegåsa" />
-		<tag k="place" v="islet" />
-		<tag k="ssr:stedsnr" v="573955" />
-	</node>
-	<node id="-6431" lat="62.4493555585" lon="6.23102499583">
-		<tag k="name" v="Svinholmen" />
-		<tag k="place" v="islet" />
-		<tag k="ssr:stedsnr" v="573182" />
-	</node>
-	<node id="-6430" lat="62.4246666691" lon="6.34413333559">
-		<tag k="name" v="Kamben" />
-		<tag k="natural" v="hill" />
-		<tag k="place" v="locality" />
-		<tag k="ssr:stedsnr" v="571177" />
-	</node>
-	<node id="-6429" lat="62.4208361103" lon="6.28378054868">
-		<tag k="name" v="Furnesfjellet" />
-		<tag k="natural" v="hill" />
-		<tag k="place" v="locality" />
-		<tag k="ssr:stedsnr" v="570167" />
-	</node>
-	<node id="-6428" lat="62.4063388909" lon="6.28983611982">
-		<tag k="name" v="Sætrenakken" />
-		<tag k="natural" v="hill" />
-		<tag k="place" v="locality" />
-		<tag k="ssr:stedsnr" v="570165" />
-	</node>
-	<node id="-6427" lat="62.4095277765" lon="6.29760554873">
-		<tag k="name" v="Storhjellhaugen" />
-		<tag k="natural" v="hill" />
-		<tag k="place" v="locality" />
-		<tag k="ssr:stedsnr" v="570164" />
-	</node>
-	<node id="-6426" lat="62.4111305515" lon="6.26659167322">
-		<tag k="name" v="Bakkeholmen" />
-		<tag k="place" v="islet" />
-		<tag k="ssr:stedsnr" v="570144" />
-	</node>
-	<node id="-6425" lat="62.4170222196" lon="6.23196111043">
-		<tag k="name" v="Rørstadstølen" />
+	<node lat="62.426638891990336" lon="6.315766667531864" id="-3207">
+		<tag k="name" v="Eidsnes" />
 		<tag k="place" v="isolated_dwelling" />
-		<tag k="ssr:stedsnr" v="566168" />
+		<tag k="ssr:stedsnr" v="119121" />
 	</node>
-	<node id="-6424" lat="62.4035416699" lon="6.1885972285">
-		<tag k="fixme" v="consider natural=peak for the most distinct mountains in the district" />
-		<tag k="name" v="Skallen" />
-		<tag k="natural" v="hill" />
-		<tag k="place" v="locality" />
-		<tag k="ssr:stedsnr" v="557887" />
-	</node>
-	<node id="-6423" lat="62.4010916657" lon="6.13970832795">
-		<tag k="fixme" v="multiple name tags, choose one and add the other to alt_name" />
-		<tag k="name" v="Ranten;Sulabakken" />
-		<tag k="place" v="farm" />
-		<tag k="ssr:stedsnr" v="557881" />
-	</node>
-	<node id="-6422" lat="62.4277983348" lon="6.29840114382">
+	<node lat="62.42347257246385" lon="6.283847315916776" id="-3208">
 		<tag k="fixme" v="consider place=hamlet" />
-		<tag k="name" v="Bjørkavåg" />
+		<tag k="name" v="Furneset" />
 		<tag k="place" v="farm" />
-		<tag k="ssr:stedsnr" v="557042" />
+		<tag k="ssr:stedsnr" v="131092" />
 	</node>
-	<node id="-6421" lat="62.4086666687" lon="6.13420277061">
-		<tag k="fixme" v="consider natural=peak for the most distinct mountains in the district" />
-		<tag k="name" v="Sulabakkhornet" />
-		<tag k="natural" v="hill" />
-		<tag k="place" v="locality" />
-		<tag k="ssr:stedsnr" v="556881" />
-	</node>
-	<node id="-6420" lat="62.450958336" lon="6.18902778084">
-		<tag k="name" v="Storholmsnaget" />
-		<tag k="natural" v="cape" />
-		<tag k="ssr:stedsnr" v="543668" />
-	</node>
-	<node id="-6419" lat="62.4492055527" lon="6.20813889703">
-		<tag k="name" v="Jyljebøflua" />
-		<tag k="natural" v="shoal" />
-		<tag k="place" v="locality" />
-		<tag k="ssr:stedsnr" v="543661" />
-	</node>
-	<node id="-6418" lat="62.4353666678" lon="6.22764999909">
-		<tag k="name" v="Gjerdshaugen" />
-		<tag k="natural" v="hill" />
-		<tag k="place" v="locality" />
-		<tag k="ssr:stedsnr" v="543654" />
-	</node>
-	<node id="-6417" lat="62.4360166621" lon="6.24768888145">
-		<tag k="name" v="Veddevatnet" />
-		<tag k="natural" v="water" />
-		<tag k="ssr:stedsnr" v="543776" />
-		<tag k="water" v="lake" />
-	</node>
-	<node id="-6416" lat="62.4377900497" lon="6.27723733128">
-		<tag k="fixme" v="consider place=hamlet" />
-		<tag k="name" v="Tranvåg" />
+	<node lat="62.426861114236644" lon="6.3222555503110645" id="-3209">
+		<tag k="name" v="Stølane" />
 		<tag k="place" v="farm" />
-		<tag k="ssr:stedsnr" v="543770" />
+		<tag k="ssr:stedsnr" v="253085" />
 	</node>
-	<node id="-6415" lat="62.4187027812" lon="6.32546388486">
-		<tag k="name" v="Valane" />
-		<tag k="natural" v="strait" />
-		<tag k="ssr:stedsnr" v="521927" />
+	<node lat="62.428419445449954" lon="6.16095278515929" id="-3210">
+		<tag k="name" v="Steinelva" />
+		<tag k="ssr:stedsnr" v="253922" />
+		<tag k="waterway" v="stream" />
 	</node>
-	<node id="-6414" lat="62.4038055589" lon="6.18426110317">
-		<tag k="name" v="Skallerøra" />
-		<tag k="natural" v="ridge" />
-		<tag k="place" v="locality" />
-		<tag k="ssr:stedsnr" v="521910" />
-	</node>
-	<node id="-6413" lat="62.4167944406" lon="6.32369444919">
-		<tag k="name" v="Nausthaugen" />
-		<tag k="natural" v="hill" />
-		<tag k="place" v="locality" />
-		<tag k="ssr:stedsnr" v="521886" />
-	</node>
-	<node id="-6412" lat="62.418855559" lon="6.33089443618">
-		<tag k="fixme" v="consider natural=peak for the most distinct mountains in the district" />
-		<tag k="name" v="Sundnakken" />
-		<tag k="natural" v="hill" />
-		<tag k="place" v="locality" />
-		<tag k="ssr:stedsnr" v="521836" />
-	</node>
-	<node id="-6411" lat="62.4387305524" lon="6.27962777815">
-		<tag k="name" v="Tranvågen" />
-		<tag k="natural" v="bay" />
-		<tag k="ssr:stedsnr" v="521820" />
-	</node>
-	<node id="-6410" lat="62.4200083292" lon="6.31566389424">
-		<tag k="name" v="Solavåg" />
-		<tag k="place" v="farm" />
-		<tag k="ssr:stedsnr" v="520888" />
-	</node>
-	<node id="-6409" lat="62.4010361077" lon="6.23475000333">
-		<tag k="name" v="Raudhammaren" />
-		<tag k="natural" v="cliff" />
-		<tag k="ssr:stedsnr" v="520886" />
-	</node>
-	<node id="-6408" lat="62.4295944443" lon="6.27736665794">
-		<tag k="name" v="Litlevågen" />
-		<tag k="natural" v="bay" />
-		<tag k="ssr:stedsnr" v="520848" />
-	</node>
-	<node id="-6407" lat="62.4134388873" lon="6.29240832533">
-		<tag k="name" v="Svartevatnet" />
-		<tag k="natural" v="water" />
-		<tag k="ssr:stedsnr" v="436601" />
-	</node>
-	<node id="-6406" lat="62.4377916636" lon="6.24073889328">
-		<tag k="name" v="Veddevika" />
-		<tag k="natural" v="bay" />
-		<tag k="ssr:stedsnr" v="436064" />
-	</node>
-	<node id="-6405" lat="62.4366801975" lon="6.12540333019">
-		<tag k="name" v="Flesje" />
-		<tag k="place" v="locality" />
-		<tag k="ssr:stedsnr" v="435988" />
-	</node>
-	<node id="-6404" lat="62.437592897" lon="6.18113917881">
-		<tag k="fixme" v="consider place=suburb, village or hamlet" />
-		<tag k="name" v="Molvær" />
-		<tag k="place" v="quarter" />
-		<tag k="ssr:stedsnr" v="435986" />
-	</node>
-	<node id="-6403" lat="62.4465083314" lon="6.1790138926">
-		<tag k="fixme" v="consider seamark:type=rock or natural=shoal" />
-		<tag k="name" v="Seiskjeret" />
+	<node lat="62.447716663323405" lon="6.171258339902058" id="-3211">
+		<tag k="name" v="Langedraget" />
 		<tag k="place" v="islet" />
-		<tag k="ssr:stedsnr" v="422670" />
+		<tag k="ssr:stedsnr" v="253964" />
 	</node>
-	<node id="-6402" lat="62.4296694443" lon="6.352136113">
-		<tag k="name" v="Veibust næringsområde" />
-		<tag k="place" v="quarter" />
-		<tag k="ssr:stedsnr" v="413385" />
-	</node>
-	<node id="-6401" lat="62.4413416673" lon="6.20452777929">
-		<tag k="amenity" v="community_centre" />
-		<tag k="name" v="Breidablikk" />
-		<tag k="ssr:stedsnr" v="399901" />
-	</node>
-	<node id="-6400" lat="62.407558331" lon="6.31545555126">
-		<tag k="name" v="Saltrøya" />
-		<tag k="natural" v="bay" />
-		<tag k="ssr:stedsnr" v="399885" />
-	</node>
-	<node id="-6399" lat="62.3957249956" lon="6.17768888878">
-		<tag k="name" v="Lassegarden" />
-		<tag k="place" v="farm" />
-		<tag k="ssr:stedsnr" v="399848" />
-	</node>
-	<node id="-6398" lat="62.4229138877" lon="6.2377555536">
-		<tag k="historic" v="shieling" />
-		<tag k="name" v="Djupviksætra" />
+	<node lat="62.436509068922554" lon="6.104477765928543" id="-3212">
+		<tag k="name" v="Kalvestad" />
 		<tag k="place" v="locality" />
-		<tag k="ssr:stedsnr" v="399845" />
+		<tag k="ssr:stedsnr" v="253970" />
 	</node>
-	<node id="-6397" lat="62.4098249955" lon="6.31321665887">
-		<tag k="name" v="Nausa" />
-		<tag k="natural" v="ridge" />
-		<tag k="place" v="locality" />
-		<tag k="ssr:stedsnr" v="399843" />
+	<node lat="62.41562222578348" lon="6.20783888496899" id="-3213">
+		<tag k="name" v="Rollonhytta" />
+		<tag k="place" v="isolated_dwelling" />
+		<tag k="ssr:stedsnr" v="254872" />
 	</node>
-	<node id="-6396" lat="62.4383999992" lon="6.12492777776">
-		<tag k="name" v="Flesje" />
-		<tag k="place" v="locality" />
-		<tag k="ssr:stedsnr" v="399829" />
-	</node>
-	<node id="-6395" lat="62.4246138872" lon="6.34944722412">
-		<tag k="highway" v="path" />
-		<tag k="name" v="Torvvegen" />
-		<tag k="ssr:stedsnr" v="399825" />
-	</node>
-	<node id="-6394" lat="62.4311249962" lon="6.17563333998">
-		<tag k="name" v="Klovsteinane" />
-		<tag k="natural" v="stone" />
-		<tag k="ssr:stedsnr" v="399820" />
-	</node>
-	<node id="-6393" lat="62.4369194482" lon="6.17806667231">
-		<tag k="name" v="Haugedammen" />
-		<tag k="ssr:stedsnr" v="399815" />
-		<tag k="waterway" v="dam" />
-	</node>
-	<node id="-6392" lat="62.4232888931" lon="6.2884472207">
-		<tag k="name" v="Furnesvikane" />
-		<tag k="natural" v="bay" />
-		<tag k="ssr:stedsnr" v="399805" />
-	</node>
-	<node id="-6391" lat="62.4428277822" lon="6.18052500276">
-		<tag k="name" v="Lisjemassen" />
-		<tag k="place" v="islet" />
-		<tag k="ssr:stedsnr" v="392625" />
-	</node>
-	<node id="-6390" lat="62.4502916671" lon="6.23427500213">
-		<tag k="name" v="Lisje Fransholmen" />
-		<tag k="place" v="islet" />
-		<tag k="ssr:stedsnr" v="391193" />
-	</node>
-	<node id="-6389" lat="62.4220194416" lon="6.302211117">
-		<tag k="name" v="Porsenakken" />
-		<tag k="natural" v="hill" />
-		<tag k="place" v="locality" />
-		<tag k="ssr:stedsnr" v="388180" />
-	</node>
-	<node id="-6388" lat="62.3988872246" lon="6.1313594938">
+	<node lat="62.40637868007211" lon="6.101907581984189" id="-3214">
 		<tag k="fixme" v="consider place=hamlet" />
-		<tag k="name" v="Sulebust" />
+		<tag k="name" v="Nøringset" />
 		<tag k="place" v="farm" />
-		<tag k="ssr:stedsnr" v="375876" />
+		<tag k="ssr:stedsnr" v="254878" />
 	</node>
-	<node id="-6387" lat="62.4223111137" lon="6.32469721606">
-		<tag k="loc_name" v="Leirvåg" />
-		<tag k="name" v="Leirvågen" />
-		<tag k="place" v="hamlet" />
-		<tag k="ssr:stedsnr" v="374095" />
-	</node>
-	<node id="-6386" lat="62.4153477565" lon="6.33238681221">
-		<tag k="fixme" v="consider place=hamlet" />
-		<tag k="name" v="Sunde" />
-		<tag k="place" v="farm" />
-		<tag k="ssr:stedsnr" v="374081" />
-	</node>
-	<node id="-6385" lat="62.3985305571" lon="6.21866665731">
-		<tag k="name" v="Båtneset" />
-		<tag k="natural" v="cape" />
-		<tag k="ssr:stedsnr" v="374134" />
-	</node>
-	<node id="-6384" lat="62.4275555524" lon="6.29588054784">
-		<tag k="name" v="Bjørkavågneset" />
-		<tag k="natural" v="cape" />
-		<tag k="ssr:stedsnr" v="361133" />
-	</node>
-	<node id="-6383" lat="62.4290888882" lon="6.33957499155">
-		<tag k="name" v="Reitebøen" />
-		<tag k="place" v="farm" />
-		<tag k="ssr:stedsnr" v="355670" />
-	</node>
-	<node id="-6382" lat="62.4456777801" lon="6.24703333372">
-		<tag k="name" v="Litle Veddeholmen" />
-		<tag k="place" v="islet" />
-		<tag k="ssr:stedsnr" v="354682" />
-	</node>
-	<node id="-6381" lat="62.4402444473" lon="6.22215554978">
-		<tag k="name" v="Øvre Holen" />
-		<tag k="place" v="quarter" />
-		<tag k="ssr:stedsnr" v="352360" />
-	</node>
-	<node id="-6380" lat="62.446374999" lon="6.20246666424">
-		<tag k="name" v="Kippervika" />
-		<tag k="natural" v="bay" />
-		<tag k="ssr:stedsnr" v="338923" />
-	</node>
-	<node id="-6379" lat="62.4379694483" lon="6.28144166299">
-		<tag k="name" v="Tranvågen" />
-		<tag k="natural" v="bay" />
-		<tag k="ssr:stedsnr" v="338917" />
-	</node>
-	<node id="-6378" lat="62.407633329" lon="6.29260277541">
-		<tag k="name" v="Halsen" />
-		<tag k="natural" v="valley" />
-		<tag k="place" v="locality" />
-		<tag k="ssr:stedsnr" v="338897" />
-	</node>
-	<node id="-6377" lat="62.4107611123" lon="6.24084443584">
-		<tag k="name" v="Store Staglehaugen" />
+	<node lat="62.42833889267143" lon="6.273855564715401" id="-3215">
+		<tag k="name" v="Kvernhushaugen" />
 		<tag k="natural" v="hill" />
 		<tag k="place" v="locality" />
-		<tag k="ssr:stedsnr" v="338892" />
+		<tag k="ssr:stedsnr" v="146219" />
 	</node>
-	<node id="-6376" lat="62.4199000022" lon="6.26391110985">
-		<tag k="name" v="Høgstehaugen" />
-		<tag k="natural" v="hill" />
-		<tag k="place" v="locality" />
-		<tag k="ssr:stedsnr" v="328194" />
-	</node>
-	<node id="-6375" lat="62.4173777757" lon="6.29257777519">
-		<tag k="name" v="Ruskenakken" />
-		<tag k="natural" v="hill" />
-		<tag k="place" v="locality" />
-		<tag k="ssr:stedsnr" v="328190" />
-	</node>
-	<node id="-6374" lat="62.4201805527" lon="6.07960833115">
-		<tag k="name" v="Flåa" />
-		<tag k="old_name" v="Flåna" />
-		<tag k="place" v="locality" />
-		<tag k="ssr:stedsnr" v="314900" />
-	</node>
-	<node id="-6373" lat="62.4220277818" lon="6.16558888037">
-		<tag k="alt_name" v="Moldværsvatnet" />
-		<tag k="name" v="Molværsvatnet" />
-		<tag k="natural" v="water" />
-		<tag k="ssr:stedsnr" v="314894" />
-	</node>
-	<node id="-6372" lat="62.4374258686" lon="6.21350895025">
-		<tag k="fixme" v="consider place=hamlet" />
-		<tag k="name" v="Vasset" />
-		<tag k="place" v="farm" />
-		<tag k="ssr:stedsnr" v="314886" />
-	</node>
-	<node id="-6371" lat="62.4176444404" lon="6.32031112024">
-		<tag k="alt_name" v="Solevåg;Solevågen" />
-		<tag k="fixme" v="consider place=hamlet" />
-		<tag k="name" v="Solavågen" />
-		<tag k="place" v="village" />
-		<tag k="ssr:stedsnr" v="314069" />
-	</node>
-	<node id="-6370" lat="62.4302861118" lon="6.26106111864">
-		<tag k="name" v="Øtrevatnet" />
-		<tag k="natural" v="water" />
-		<tag k="ssr:stedsnr" v="314031" />
-	</node>
-	<node id="-6369" lat="62.4392274774" lon="6.21323268584">
-		<tag k="amenity" v="school" />
-		<tag k="name" v="Langevåg skule" />
-		<tag k="ssr:stedsnr" v="300994" />
-	</node>
-	<node id="-6368" lat="62.44944167" lon="6.19918610987">
-		<tag k="name" v="Tennholmen" />
-		<tag k="place" v="islet" />
-		<tag k="ssr:stedsnr" v="210953" />
-	</node>
-	<node id="-6367" lat="62.4461777741" lon="6.2208638889">
-		<tag k="name" v="Vågevatnet" />
-		<tag k="natural" v="water" />
-		<tag k="ssr:stedsnr" v="210925" />
-	</node>
-	<node id="-6366" lat="62.4267083355" lon="6.32042778553">
-		<tag k="name" v="Stølenakken" />
-		<tag k="natural" v="hill" />
-		<tag k="place" v="locality" />
-		<tag k="ssr:stedsnr" v="207183" />
-	</node>
-	<node id="-6365" lat="62.4402416703" lon="6.15707777799">
-		<tag k="alt_name" v="Ædhammaren" />
-		<tag k="name" v="Æhammaren" />
-		<tag k="natural" v="cape" />
-		<tag k="ssr:stedsnr" v="193958" />
-	</node>
-	<node id="-6364" lat="62.4240777807" lon="6.10071666248">
-		<tag k="fixme" v="consider natural=peak for the most distinct mountains in the district" />
-		<tag k="name" v="Langerabben" />
-		<tag k="natural" v="hill" />
-		<tag k="place" v="locality" />
-		<tag k="ssr:stedsnr" v="193899" />
-	</node>
-	<node id="-6361" lat="62.4039916647" lon="6.29649721737">
-		<tag k="name" v="Ramsvikneset" />
-		<tag k="natural" v="cape" />
-		<tag k="ssr:stedsnr" v="172790" />
-	</node>
-	<node id="-6360" lat="62.4469805588" lon="6.23260277832">
-		<tag k="building" v="commercial" />
-		<tag k="name" v="Våge" />
-		<tag k="ssr:stedsnr" v="172724" />
-	</node>
-	<node id="-6359" lat="62.4398583288" lon="6.06446943679">
-		<tag k="alt_name" v="Gjøtaflua" />
-		<tag k="name" v="Gjøttaflua" />
-		<tag k="natural" v="shoal" />
-		<tag k="place" v="locality" />
-		<tag k="ssr:stedsnr" v="160529" />
-	</node>
-	<node id="-6358" lat="62.4219666662" lon="6.32800276913">
-		<tag k="name" v="Leirvåg" />
-		<tag k="place" v="farm" />
-		<tag k="ssr:stedsnr" v="157750" />
-	</node>
-	<node id="-6357" lat="62.4107416686" lon="6.09682500397">
-		<tag k="name" v="Nybø" />
-		<tag k="place" v="farm" />
-		<tag k="ssr:stedsnr" v="156915" />
-	</node>
-	<node id="-6356" lat="62.4283194451" lon="6.30797221977">
+	<node lat="62.428319445077015" lon="6.307972219772918" id="-3216">
 		<tag k="alt_name" v="Storehaugen" />
 		<tag k="name" v="Storvalen" />
 		<tag k="natural" v="hill" />
 		<tag k="place" v="locality" />
 		<tag k="ssr:stedsnr" v="156914" />
 	</node>
-	<node id="-6355" lat="62.4295361142" lon="6.34945554971">
-		<tag k="name" v="Vassmyra" />
-		<tag k="natural" v="wetland" />
-		<tag k="ssr:stedsnr" v="156892" />
+	<node lat="62.41074166860556" lon="6.096825003972897" id="-3217">
+		<tag k="alt_name" v="Nymarka" />
+		<tag k="name" v="Nybø" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:stedsnr" v="156915" />
 	</node>
-	<node id="-6354" lat="62.403536114" lon="6.29483055889">
-		<tag k="name" v="Kviteberget" />
-		<tag k="natural" v="cape" />
-		<tag k="ssr:stedsnr" v="156859" />
+	<node lat="62.44008889002005" lon="6.155911110680006" id="-3218">
+		<tag k="name" v="Styggemannshola" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="156818" />
 	</node>
-	<node id="-6353" lat="62.4071416696" lon="6.2934166759">
+	<node lat="62.407141669607576" lon="6.293416675896096" id="-3219">
 		<tag k="historic" v="shieling" />
 		<tag k="name" v="Ramsvikstølen" />
 		<tag k="place" v="locality" />
 		<tag k="ssr:stedsnr" v="156849" />
 	</node>
-	<node id="-6352" lat="62.4253416641" lon="6.17916666302">
-		<tag k="historic" v="shieling" />
-		<tag k="name" v="Gamlestølen" />
-		<tag k="place" v="locality" />
-		<tag k="ssr:stedsnr" v="156830" />
+	<node lat="62.403536113955866" lon="6.294830558889856" id="-3220">
+		<tag k="name" v="Kviteberget" />
+		<tag k="natural" v="cape" />
+		<tag k="ssr:stedsnr" v="156859" />
 	</node>
-	<node id="-6351" lat="62.4105500003" lon="6.32115834082">
+	<node lat="62.45009239830927" lon="6.216650182229393" id="-3221">
+		<tag k="fixme" v="consider place=hamlet" />
+		<tag k="name" v="Salen" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:stedsnr" v="179664" />
+	</node>
+	<node lat="62.413652781954305" lon="6.220669439706052" id="-3222">
+		<tag k="name" v="Humlestølen" />
+		<tag k="place" v="isolated_dwelling" />
+		<tag k="ssr:stedsnr" v="263187" />
+	</node>
+	<node lat="62.43008882492209" lon="6.359522941062587" id="-3223">
+		<tag k="name" v="Pina" />
+		<tag k="old_name" v="Veibustholmen" />
+		<tag k="place" v="islet" />
+		<tag k="ssr:stedsnr" v="267142" />
+	</node>
+	<node lat="62.40746666900306" lon="6.241480550486428" id="-3224">
+		<tag k="name" v="Stormyrhaugen" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="267175" />
+	</node>
+	<node lat="62.42670833551584" lon="6.320427785531219" id="-3226">
+		<tag k="name" v="Stølenakken" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="207183" />
+	</node>
+	<node lat="62.446177774063926" lon="6.220863888897238" id="-3227">
+		<tag k="name" v="Vågevatnet" />
+		<tag k="natural" v="water" />
+		<tag k="ssr:stedsnr" v="210925" />
+	</node>
+	<node lat="62.41388611409554" lon="6.206113892670327" id="-3228">
+		<tag k="name" v="Litlebakken" />
+		<tag k="natural" v="slope" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="217906" />
+	</node>
+	<node lat="62.438897223700735" lon="6.166913894572468" id="-3229">
+		<tag k="name" v="Sandvika" />
+		<tag k="natural" v="bay" />
+		<tag k="ssr:stedsnr" v="217915" />
+	</node>
+	<node lat="62.42948611283291" lon="6.305488879564024" id="-3230">
+		<tag k="name" v="Grøthaugen" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="217930" />
+	</node>
+	<node lat="62.44005000339981" lon="6.211683336623549" id="-3231">
+		<tag k="amenity" v="school" />
+		<tag k="name" v="Sula ungdomssskule" />
+		<tag k="ssr:stedsnr" v="217931" />
+	</node>
+	<node lat="62.43918611255909" lon="6.184241674131877" id="-3232">
+		<tag k="amenity" v="school" />
+		<tag k="name" v="barnehage" />
+		<tag k="ssr:stedsnr" v="217805" />
+	</node>
+	<node lat="62.42884166402305" lon="6.1880944539789535" id="-3233">
+		<tag k="highway" v="path" />
+		<tag k="name" v="Devoldrenna" />
+		<tag k="ssr:stedsnr" v="217810" />
+	</node>
+	<node lat="62.424013892699385" lon="6.3538472269668675" id="-3234">
+		<tag k="name" v="Breidalen" />
+		<tag k="natural" v="valley" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="217815" />
+	</node>
+	<node lat="62.40274722189584" lon="6.2479055633874125" id="-3235">
+		<tag k="name" v="Nausthaugen" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="217822" />
+	</node>
+	<node lat="62.40844722392862" lon="6.243255554116187" id="-3236">
+		<tag k="name" v="Litle Staglehaugen" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="217896" />
+	</node>
+	<node lat="62.40152777447734" lon="6.238344436550132" id="-3237">
+		<tag k="name" v="Hjellneset" />
+		<tag k="natural" v="cape" />
+		<tag k="ssr:stedsnr" v="217898" />
+	</node>
+	<node lat="62.432766669884664" lon="6.274902786054095" id="-3238">
+		<tag k="name" v="Endrevatnet" />
+		<tag k="natural" v="water" />
+		<tag k="ssr:stedsnr" v="454000" />
+		<tag k="water" v="lake" />
+	</node>
+	<node lat="62.427183336168554" lon="6.264950000451826" id="-3239">
+		<tag k="name" v="Raudåvatnet" />
+		<tag k="natural" v="water" />
+		<tag k="ssr:stedsnr" v="253076" />
+	</node>
+	<node lat="62.42082906142262" lon="6.3575074995158545" id="-3240">
+		<tag k="name" v="Furehaugen" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="267131" />
+	</node>
+	<node lat="62.45022222241004" lon="6.22799722898387" id="-3241">
+		<tag k="name" v="Linaholmen" />
+		<tag k="place" v="islet" />
+		<tag k="ssr:stedsnr" v="270206" />
+	</node>
+	<node lat="62.43596944414794" lon="6.244661119649105" id="-3242">
+		<tag k="bridge" v="yes" />
+		<tag k="layer" v="1" />
+		<tag k="name" v="Veddebrua" />
+		<tag k="ssr:stedsnr" v="270323" />
+	</node>
+	<node lat="62.40821666609172" lon="6.251024996258113" id="-3243">
+		<tag k="bridge" v="yes" />
+		<tag k="layer" v="1" />
+		<tag k="name" v="Eikremsbrua" />
+		<tag k="ssr:stedsnr" v="270325" />
+	</node>
+	<node lat="62.44599783755846" lon="6.173442709099124" id="-3244">
+		<tag k="name" v="Skarveskjeret" />
+		<tag k="place" v="islet" />
+		<tag k="ssr:stedsnr" v="270938" />
+	</node>
+	<node lat="62.44705555527703" lon="6.197355563817151" id="-3245">
+		<tag k="name" v="Karlholmen" />
+		<tag k="place" v="islet" />
+		<tag k="ssr:stedsnr" v="270942" />
+	</node>
+	<node lat="62.45014944779295" lon="6.196627933987067" id="-3246">
+		<tag k="name" v="Flatholmen" />
+		<tag k="place" v="islet" />
+		<tag k="ssr:stedsnr" v="270946" />
+	</node>
+	<node lat="62.415194440312966" lon="6.073550007345805" id="-3247">
+		<tag k="name" v="Skarsteinflua" />
+		<tag k="natural" v="shoal" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="281611" />
+	</node>
+	<node lat="62.43581666508205" lon="6.051780562436096" id="-3248">
+		<tag k="name" v="Eltranausen" />
+		<tag k="natural" v="shoal" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="281613" />
+	</node>
+	<node lat="62.43148055879722" lon="6.288802771950438" id="-3249">
+		<tag k="name" v="Rørstadneset" />
+		<tag k="natural" v="cape" />
+		<tag k="ssr:stedsnr" v="460871" />
+	</node>
+	<node lat="62.43588610791682" lon="6.158349994459123" id="-3250">
+		<tag k="name" v="Såthaugane" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="460849" />
+	</node>
+	<node lat="62.44554166786578" lon="6.194058338506598" id="-3251">
+		<tag k="name" v="Bolneset" />
+		<tag k="natural" v="cape" />
+		<tag k="ssr:stedsnr" v="460855" />
+	</node>
+	<node lat="62.41295555213333" lon="6.222019447666722" id="-3252">
+		<tag k="name" v="Fallhammaren" />
+		<tag k="natural" v="ridge" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="460877" />
+	</node>
+	<node lat="62.43333055506601" lon="6.117811111185333" id="-3253">
+		<tag k="name" v="Flesje-elva" />
+		<tag k="ssr:stedsnr" v="460879" />
+		<tag k="waterway" v="stream" />
+	</node>
+	<node lat="62.41965277520477" lon="6.331774992535714" id="-3254">
+		<tag k="name" v="Sundsmyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="460882" />
+	</node>
+	<node lat="62.42901110957072" lon="6.099713888806278" id="-3255">
+		<tag k="name" v="Sætrevatnet" />
+		<tag k="natural" v="water" />
+		<tag k="ssr:stedsnr" v="460883" />
+	</node>
+	<node lat="62.41608610885767" lon="6.310511112017348" id="-3256">
+		<tag k="name" v="Rothaugen" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="460885" />
+	</node>
+	<node lat="62.40960555241771" lon="6.101530555341754" id="-3257">
+		<tag k="name" v="Skotet" />
+		<tag k="natural" v="ridge" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="460887" />
+	</node>
+	<node lat="62.40556944787419" lon="6.260905551651564" id="-3258">
+		<tag k="name" v="Hansskaret" />
+		<tag k="natural" v="valley" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="460932" />
+	</node>
+	<node lat="62.43578475855805" lon="6.1830027214304835" id="-3259">
+		<tag k="name" v="Bjørkhaugen" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="460936" />
+	</node>
+	<node lat="62.440374998872805" lon="6.250072222205521" id="-3260">
+		<tag k="name" v="Litlevågen" />
+		<tag k="natural" v="bay" />
+		<tag k="ssr:stedsnr" v="460937" />
+	</node>
+	<node lat="62.43922747737174" lon="6.213232685835746" id="-3261">
+		<tag k="amenity" v="school" />
+		<tag k="name" v="Langevåg skule" />
+		<tag k="ssr:stedsnr" v="300994" />
+	</node>
+	<node lat="62.438563892170436" lon="6.168211108153037" id="-3262">
+		<tag k="name" v="Sandvikfjøra" />
+		<tag k="natural" v="beach" />
+		<tag k="ssr:stedsnr" v="301662" />
+	</node>
+	<node lat="62.446083329331444" lon="6.231811120409029" id="-3263">
+		<tag k="name" v="Orkevika" />
+		<tag k="natural" v="bay" />
+		<tag k="ssr:stedsnr" v="314010" />
+	</node>
+	<node lat="62.41764444039923" lon="6.320311120236103" id="-3264">
+		<tag k="alt_name" v="Solevåg;Solevågen" />
+		<tag k="fixme" v="consider place=hamlet" />
+		<tag k="name" v="Solavågen" />
+		<tag k="place" v="village" />
+		<tag k="ssr:stedsnr" v="314069" />
+	</node>
+	<node lat="62.40592275380846" lon="6.250153645783142" id="-3265">
+		<tag k="fixme" v="consider place=hamlet" />
+		<tag k="name" v="Eikrem" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:stedsnr" v="314112" />
+	</node>
+	<node lat="62.3805722238325" lon="6.128161101821952" id="-3266">
+		<tag k="bay" v="fjord" />
+		<tag k="name" v="Sulafjorden" />
+		<tag k="natural" v="bay" />
+		<tag k="ssr:stedsnr" v="314906" />
+	</node>
+	<node lat="62.4107611122894" lon="6.240844435844641" id="-3267">
+		<tag k="name" v="Store Staglehaugen" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="338892" />
+	</node>
+	<node lat="62.40763332898057" lon="6.292602775410581" id="-3268">
+		<tag k="name" v="Halsen" />
+		<tag k="natural" v="valley" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="338897" />
+	</node>
+	<node lat="62.44024444734099" lon="6.2221555497752705" id="-3269">
+		<tag k="name" v="Øvre Holen" />
+		<tag k="place" v="quarter" />
+		<tag k="ssr:stedsnr" v="352360" />
+	</node>
+	<node lat="62.44442221951129" lon="6.251702784212862" id="-3270">
+		<tag k="name" v="Store Veddeholmen" />
+		<tag k="place" v="islet" />
+		<tag k="ssr:stedsnr" v="476656" />
+	</node>
+	<node lat="62.42231111367864" lon="6.3246972160618204" id="-3271">
+		<tag k="loc_name" v="Leirvåg" />
+		<tag k="name" v="Leirvågen" />
+		<tag k="place" v="hamlet" />
+		<tag k="ssr:stedsnr" v="374095" />
+	</node>
+	<node lat="62.398887224557825" lon="6.131359493798085" id="-3272">
+		<tag k="fixme" v="consider place=hamlet" />
+		<tag k="name" v="Sulebust" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:stedsnr" v="375876" />
+	</node>
+	<node lat="62.450291667052745" lon="6.2342750021299915" id="-3273">
+		<tag k="name" v="Lisje Fransholmen" />
+		<tag k="place" v="islet" />
+		<tag k="ssr:stedsnr" v="391193" />
+	</node>
+	<node lat="62.44098888471539" lon="6.171741660356823" id="-3274">
+		<tag k="name" v="Myranesflua" />
+		<tag k="natural" v="shoal" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="483694" />
+	</node>
+	<node lat="62.449922221236996" lon="6.1887777717358965" id="-3275">
+		<tag k="name" v="Storholmsundet" />
+		<tag k="natural" v="strait" />
+		<tag k="ssr:stedsnr" v="483714" />
+	</node>
+	<node lat="62.438399999174884" lon="6.1249277777572315" id="-3276">
+		<tag k="name" v="Flesje" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="399829" />
+	</node>
+	<node lat="62.407558331048264" lon="6.315455551262772" id="-3277">
+		<tag k="name" v="Saltrøya" />
+		<tag k="natural" v="bay" />
+		<tag k="ssr:stedsnr" v="399885" />
+	</node>
+	<node lat="62.404262919651124" lon="6.258712187051049" id="-3278">
+		<tag k="fixme" v="consider natural=peak for the most distinct mountains in the district" />
+		<tag k="name" v="Ruskenakken" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="435143" />
+	</node>
+	<node lat="62.4482027816881" lon="6.232738887895047" id="-3279">
+		<tag k="name" v="Landfarneset" />
+		<tag k="natural" v="cape" />
+		<tag k="ssr:stedsnr" v="436014" />
+	</node>
+	<node lat="62.43759289703226" lon="6.1811391788055206" id="-3280">
+		<tag k="fixme" v="consider place=suburb, village or hamlet" />
+		<tag k="name" v="Molvær" />
+		<tag k="place" v="quarter" />
+		<tag k="ssr:stedsnr" v="435986" />
+	</node>
+	<node lat="62.424855558249405" lon="6.129105560316509" id="-3281">
+		<tag k="name" v="Kjerringvatnet" />
+		<tag k="natural" v="water" />
+		<tag k="ssr:stedsnr" v="436912" />
+	</node>
+	<node lat="62.41486944408637" lon="6.077822226007105" id="-3282">
+		<tag k="name" v="Skarsteinen" />
+		<tag k="natural" v="cape" />
+		<tag k="ssr:stedsnr" v="436917" />
+	</node>
+	<node lat="62.406630558441044" lon="6.303422221183904" id="-3283">
+		<tag k="name" v="Blåfjellet" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="450202" />
+	</node>
+	<node lat="62.43444166536527" lon="6.290238895245343" id="-3284">
+		<tag k="fixme" v="consider seamark:type=rock or natural=shoal" />
+		<tag k="name" v="Kobbeskjeret" />
+		<tag k="place" v="islet" />
+		<tag k="ssr:stedsnr" v="450168" />
+	</node>
+	<node lat="62.44964166262899" lon="6.229486115524982" id="-3285">
+		<tag k="name" v="Skarbøholmen" />
+		<tag k="place" v="islet" />
+		<tag k="ssr:stedsnr" v="452178" />
+	</node>
+	<node lat="62.42996388868988" lon="6.353572221242826" id="-3286">
+		<tag k="bridge" v="yes" />
+		<tag k="layer" v="1" />
+		<tag k="name" v="Reitehaugbrua" />
+		<tag k="ssr:stedsnr" v="452304" />
+	</node>
+	<node lat="62.44410000167363" lon="6.182272212755178" id="-3287">
+		<tag k="name" v="Presten" />
+		<tag k="place" v="islet" />
+		<tag k="ssr:stedsnr" v="452580" />
+	</node>
+	<node lat="62.443396069254085" lon="6.232485141433556" id="-3288">
+		<tag k="fixme" v="consider place=hamlet" />
+		<tag k="name" v="Holsfeta" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:stedsnr" v="460808" />
+	</node>
+	<node lat="62.40726666655083" lon="6.328461113980236" id="-3289">
+		<tag k="alt_name" v="Solavågflua" />
+		<tag k="name" v="Solavågsfluda" />
+		<tag k="natural" v="shoal" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="678121" />
+	</node>
+	<node lat="62.41018333082632" lon="6.148136120960179" id="-3290">
+		<tag k="fixme" v="consider natural=peak for the most distinct mountains in the district" />
+		<tag k="name" v="Tverrfjellet" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="678862" />
+	</node>
+	<node lat="62.436679951740665" lon="6.166305413255351" id="-3291">
+		<tag k="alt_name" v="Sandvik" />
+		<tag k="fixme" v="consider place=hamlet" />
+		<tag k="name" v="Sandvika" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:stedsnr" v="678949" />
+	</node>
+	<node lat="62.43925000405382" lon="6.129761102679652" id="-3292">
+		<tag k="name" v="Flesjeberget" />
+		<tag k="natural" v="cape" />
+		<tag k="ssr:stedsnr" v="678950" />
+	</node>
+	<node lat="62.444116669793694" lon="6.179724999417872" id="-3293">
+		<tag k="name" v="Stabben" />
+		<tag k="natural" v="shoal" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="483703" />
+	</node>
+	<node lat="62.43990000201649" lon="6.184019448976349" id="-3294">
+		<tag k="name" v="Geilneset" />
+		<tag k="natural" v="cape" />
+		<tag k="ssr:stedsnr" v="483705" />
+	</node>
+	<node lat="62.44695833380678" lon="6.1951249938265045" id="-3295">
+		<tag k="name" v="Ytre Karlholmen" />
+		<tag k="place" v="islet" />
+		<tag k="ssr:stedsnr" v="483711" />
+	</node>
+	<node lat="62.41853492682804" lon="6.265280650443858" id="-3296">
+		<tag k="fixme" v="consider place=hamlet" />
+		<tag k="name" v="Mauseid" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:stedsnr" v="495103" />
+	</node>
+	<node lat="62.4380081511256" lon="6.290604861157291" id="-3297">
+		<tag k="fixme" v="consider place=hamlet" />
+		<tag k="name" v="Korsneset" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:stedsnr" v="496055" />
+	</node>
+	<node lat="62.431277781531804" lon="6.216319448370988" id="-3298">
+		<tag k="name" v="Sætrevatnet" />
+		<tag k="natural" v="water" />
+		<tag k="ssr:stedsnr" v="496913" />
+		<tag k="water" v="lake" />
+	</node>
+	<node lat="62.42259727552295" lon="6.36215627192867" id="-3299">
+		<tag k="fixme" v="consider place=hamlet" />
+		<tag k="name" v="Kvasnes" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:stedsnr" v="272364" />
+	</node>
+	<node lat="62.43159167121164" lon="6.3559694487012575" id="-3300">
+		<tag k="bridge" v="yes" />
+		<tag k="layer" v="1" />
+		<tag k="name" v="Vegsundbrua" />
+		<tag k="ssr:stedsnr" v="512311" />
+	</node>
+	<node lat="62.438730552436624" lon="6.279627778146468" id="-3301">
+		<tag k="name" v="Tranvågen" />
+		<tag k="natural" v="bay" />
+		<tag k="ssr:stedsnr" v="521820" />
+	</node>
+	<node lat="62.403805558917675" lon="6.184261103174739" id="-3302">
+		<tag k="name" v="Skallerøra" />
+		<tag k="natural" v="ridge" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="521910" />
+	</node>
+	<node lat="62.45095833596533" lon="6.189027780844615" id="-3303">
+		<tag k="name" v="Storholmsnaget" />
+		<tag k="natural" v="cape" />
+		<tag k="ssr:stedsnr" v="543668" />
+	</node>
+	<node lat="62.437790049685645" lon="6.277237331280376" id="-3304">
+		<tag k="fixme" v="consider place=hamlet" />
+		<tag k="name" v="Tranvåg" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:stedsnr" v="543770" />
+	</node>
+	<node lat="62.43601666211234" lon="6.247688881448276" id="-3305">
+		<tag k="name" v="Veddevatnet" />
+		<tag k="natural" v="water" />
+		<tag k="ssr:stedsnr" v="543776" />
+		<tag k="water" v="lake" />
+	</node>
+	<node lat="62.4395916653915" lon="6.204847225879172" id="-3306">
+		<tag k="amenity" v="place_of_worship" />
+		<tag k="denomination" v="lutheran" />
+		<tag k="fixme" v="multiple name tags, choose one and add the other to alt_name" />
+		<tag k="name" v="Langevåg kirke;Langevåg" />
+		<tag k="old_name" v="Langevåg kyrkje;Langevågen" />
+		<tag k="religion" v="christian" />
+		<tag k="ssr:stedsnr" v="687347" />
+	</node>
+	<node lat="62.4166916650021" lon="6.173880560060777" id="-3307">
+		<tag k="fixme" v="consider natural=peak for the most distinct mountains in the district" />
+		<tag k="name" v="Rundehornet" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="556920" />
+	</node>
+	<node lat="62.437374999142214" lon="6.056725009516436" id="-3308">
+		<tag k="alt_name" v="Eltreneset" />
+		<tag k="name" v="Eltraneset" />
+		<tag k="natural" v="cape" />
+		<tag k="ssr:stedsnr" v="556970" />
+	</node>
+	<node lat="62.423063884885586" lon="6.346697224031917" id="-3309">
+		<tag k="name" v="Sætrenakkane" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="692164" />
+	</node>
+	<node lat="62.4484499989663" lon="6.173555563361927" id="-3310">
+		<tag k="name" v="Lyktholmen" />
+		<tag k="old_name" v="Gråtarholmen" />
+		<tag k="place" v="islet" />
+		<tag k="ssr:stedsnr" v="573948" />
+	</node>
+	<node lat="62.45259166776164" lon="6.197438888804992" id="-3311">
+		<tag k="name" v="Lisjegåsa" />
+		<tag k="place" v="islet" />
+		<tag k="ssr:stedsnr" v="573955" />
+	</node>
+	<node lat="62.44341666542623" lon="6.1938833250395815" id="-3312">
+		<tag k="name" v="Haugane" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="581946" />
+	</node>
+	<node lat="62.44019722323822" lon="6.057166673427539" id="-3313">
+		<tag k="name" v="Nordre Eltraflua" />
+		<tag k="natural" v="shoal" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="584605" />
+	</node>
+	<node lat="62.42368888590352" lon="6.314722214976472" id="-3314">
+		<tag k="name" v="Storevalen" />
+		<tag k="natural" v="bay" />
+		<tag k="ssr:stedsnr" v="695998" />
+	</node>
+	<node lat="62.42748611487972" lon="6.260500004740589" id="-3315">
+		<tag k="name" v="Raudåstaupet" />
+		<tag k="natural" v="water" />
+		<tag k="ssr:stedsnr" v="695999" />
+	</node>
+	<node lat="62.45236388938907" lon="6.213313896058349" id="-3317">
+		<tag k="name" v="Salflua" />
+		<tag k="natural" v="shoal" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="604703" />
+	</node>
+	<node lat="62.43196389225775" lon="6.351486109812577" id="-3318">
+		<tag k="name" v="Vegsundet" />
+		<tag k="natural" v="strait" />
+		<tag k="ssr:stedsnr" v="617049" />
+	</node>
+	<node lat="62.40446666808598" lon="6.1066611134594435" id="-3319">
+		<tag k="name" v="Naustvika" />
+		<tag k="natural" v="bay" />
+		<tag k="ssr:stedsnr" v="617882" />
+	</node>
+	<node lat="62.42264166607444" lon="6.299172218207868" id="-3321">
+		<tag k="name" v="Gjerdenakken" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="703830" />
+	</node>
+	<node lat="62.42052778025741" lon="6.305797225373976" id="-3322">
+		<tag k="name" v="Demningsmyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="703831" />
+	</node>
+	<node lat="62.44120833496248" lon="6.251186112873905" id="-3323">
+		<tag k="name" v="Djupvikstranda" />
+		<tag k="natural" v="beach" />
+		<tag k="ssr:stedsnr" v="703833" />
+	</node>
+	<node lat="62.41427499575253" lon="6.218866675471823" id="-3324">
+		<tag k="historic" v="shieling" />
+		<tag k="name" v="Humlestølen" />
+		<tag k="place" v="isolated_dwelling" />
+		<tag k="ssr:stedsnr" v="703844" />
+	</node>
+	<node lat="62.442674999340355" lon="6.214066672004683" id="-3325">
+		<tag k="name" v="Havnegjerdet" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:stedsnr" v="703847" />
+	</node>
+	<node lat="62.41298333340294" lon="6.29604445338084" id="-3326">
+		<tag k="name" v="Vasshaugane" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="703853" />
+	</node>
+	<node lat="62.42166110680419" lon="6.346411107591005" id="-3327">
+		<tag k="name" v="Bruna" />
+		<tag k="natural" v="ridge" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="703857" />
+	</node>
+	<node lat="62.41361944501655" lon="6.323041671619404" id="-3328">
+		<tag k="name" v="Køvikneset" />
+		<tag k="natural" v="cape" />
+		<tag k="ssr:stedsnr" v="703905" />
+	</node>
+	<node lat="62.425799996835316" lon="6.352541675476073" id="-3329">
+		<tag k="name" v="Veibustfjellet" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="634604" />
+	</node>
+	<node lat="62.43890555514917" lon="6.210761120435017" id="-3330">
+		<tag k="amenity" v="school" />
+		<tag k="name" v="Sulahallen" />
+		<tag k="ssr:stedsnr" v="642810" />
+	</node>
+	<node lat="62.41412778039487" lon="6.2022749924633445" id="-3331">
+		<tag k="name" v="Taustudalen" />
+		<tag k="natural" v="valley" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="642823" />
+	</node>
+	<node lat="62.43704722376599" lon="6.279894435701113" id="-3332">
+		<tag k="name" v="Valebukta" />
+		<tag k="natural" v="bay" />
+		<tag k="ssr:stedsnr" v="642908" />
+	</node>
+	<node lat="62.42772500353038" lon="6.3115055481990705" id="-3333">
+		<tag k="amenity" v="school" />
+		<tag k="name" v="Solevåg skole" />
+		<tag k="ssr:stedsnr" v="642910" />
+	</node>
+	<node lat="62.414774999133655" lon="6.340575005666167" id="-3334">
+		<tag k="name" v="Legeberget" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="642876" />
+	</node>
+	<node lat="62.43447500422704" lon="6.057961112719874" id="-3335">
+		<tag k="name" v="Eltravika" />
+		<tag k="natural" v="bay" />
+		<tag k="ssr:stedsnr" v="706546" />
+	</node>
+	<node lat="62.441058335164605" lon="6.283049993146238" id="-3337">
+		<tag k="name" v="Tranvågflua" />
+		<tag k="natural" v="shoal" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="665811" />
+	</node>
+	<node lat="62.42818991495337" lon="6.355506073941569" id="-3338">
+		<tag k="fixme" v="consider place=hamlet" />
+		<tag k="name" v="Veibust" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:stedsnr" v="678096" />
+	</node>
+	<node lat="62.426525003491406" lon="6.17911388111253" id="-3339">
+		<tag k="alt_name" v="Moldværselva" />
+		<tag k="name" v="Molværselva" />
+		<tag k="ssr:stedsnr" v="678905" />
+		<tag k="waterway" v="stream" />
+	</node>
+	<node lat="62.42327500098864" lon="6.1584249933269675" id="-3340">
+		<tag k="amenity" v="cafe" />
+		<tag k="name" v="Vonhytta" />
+		<tag k="ssr:stedsnr" v="687346" />
+	</node>
+	<node lat="62.41515555843091" lon="6.2542138822971385" id="-3341">
+		<tag k="name" v="Storhaugen" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="692188" />
+	</node>
+	<node lat="62.40550277619988" lon="6.308194449607814" id="-3342">
+		<tag k="name" v="Linneset" />
+		<tag k="natural" v="cape" />
+		<tag k="ssr:stedsnr" v="703869" />
+	</node>
+	<node lat="62.402555556114415" lon="6.266405560675846" id="-3343">
+		<tag k="name" v="Kattavika" />
+		<tag k="natural" v="bay" />
+		<tag k="ssr:stedsnr" v="703872" />
+	</node>
+	<node lat="62.403049998062635" lon="6.269872218717526" id="-3344">
+		<tag k="name" v="Samundstufte" />
+		<tag k="place" v="isolated_dwelling" />
+		<tag k="ssr:stedsnr" v="703877" />
+	</node>
+	<node lat="62.413658331999514" lon="6.220488897417582" id="-3345">
+		<tag k="historic" v="shieling" />
+		<tag k="name" v="Mausastølen" />
+		<tag k="place" v="isolated_dwelling" />
+		<tag k="ssr:stedsnr" v="703925" />
+	</node>
+	<node lat="62.405483332213926" lon="6.150613889554427" id="-3346">
+		<tag k="name" v="Adensgjølet" />
+		<tag k="natural" v="gorge" />
+		<tag k="ssr:stedsnr" v="703927" />
+	</node>
+	<node lat="62.43013610999872" lon="6.331047216471884" id="-3347">
+		<tag k="name" v="Sjukeneset" />
+		<tag k="natural" v="cape" />
+		<tag k="ssr:stedsnr" v="703934" />
+	</node>
+	<node lat="62.44386726115857" lon="6.273845696137874" id="-3348">
+		<tag k="name" v="Humlesundet" />
+		<tag k="natural" v="strait" />
+		<tag k="ssr:stedsnr" v="703935" />
+	</node>
+	<node lat="62.448130554993654" lon="6.195369438086504" id="-3349">
+		<tag k="name" v="Vassholmen" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="703938" />
+	</node>
+	<node lat="62.4382361107617" lon="6.224241660499409" id="-3350">
+		<tag k="name" v="Bratthaugen" />
+		<tag k="place" v="quarter" />
+		<tag k="ssr:stedsnr" v="716331" />
+	</node>
+	<node lat="62.41327499726041" lon="6.315452780825392" id="-3351">
+		<tag k="name" v="Nathaugen" />
+		<tag k="place" v="quarter" />
+		<tag k="ssr:stedsnr" v="899379" />
+	</node>
+	<node lat="62.44099999898178" lon="6.197155556679405" id="-3352">
+		<tag k="name" v="Løken" />
+		<tag k="place" v="isolated_dwelling" />
+		<tag k="ssr:stedsnr" v="726698" />
+	</node>
+	<node lat="62.43663611268776" lon="6.222861111739136" id="-3353">
+		<tag k="name" v="Gjerde" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:stedsnr" v="901688" />
+	</node>
+	<node lat="62.412453244967736" lon="6.300566061786925" id="-3354">
+		<tag k="fixme" v="consider natural=peak for the most distinct mountains in the district" />
+		<tag k="name" v="Solavågsfjellet" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="738076" />
+	</node>
+	<node lat="62.43544727962972" lon="6.237835213839439" id="-3355">
+		<tag k="fixme" v="consider place=hamlet" />
+		<tag k="name" v="Vedde" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:stedsnr" v="753124" />
+	</node>
+	<node lat="62.43145833391057" lon="6.36172499684004" id="-3356">
+		<tag k="name" v="Snauholmen" />
+		<tag k="place" v="islet" />
+		<tag k="ssr:stedsnr" v="753154" />
+	</node>
+	<node lat="62.40994430636281" lon="6.243022837917543" id="-3357">
+		<tag k="name" v="Staglehaugane" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="753167" />
+	</node>
+	<node lat="62.42090000090907" lon="6.272758342658287" id="-3359">
+		<tag k="bridge" v="yes" />
+		<tag k="layer" v="1" />
+		<tag k="name" v="Vågsbrua" />
+		<tag k="ssr:stedsnr" v="755314" />
+	</node>
+	<node lat="62.427799997406744" lon="6.159769444988314" id="-3360">
+		<tag k="name" v="Grønbakkhola" />
+		<tag k="natural" v="valley" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="763801" />
+	</node>
+	<node lat="62.424636111942" lon="6.157388888466676" id="-3361">
+		<tag k="name" v="Rødekorshytta" />
+		<tag k="place" v="isolated_dwelling" />
+		<tag k="ssr:stedsnr" v="763918" />
+	</node>
+	<node lat="62.4497749974173" lon="6.222730554419512" id="-3362">
+		<tag k="name" v="Djuphamna" />
+		<tag k="natural" v="bay" />
+		<tag k="ssr:stedsnr" v="763808" />
+	</node>
+	<node lat="62.40885000416257" lon="6.320902769369482" id="-3363">
+		<tag k="name" v="Klubben" />
+		<tag k="natural" v="cape" />
+		<tag k="ssr:stedsnr" v="763814" />
+	</node>
+	<node lat="62.4322444452829" lon="6.192575008812903" id="-3364">
+		<tag k="name" v="Harhaugen" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="763817" />
+	</node>
+	<node lat="62.4178833377294" lon="6.190194442651877" id="-3365">
+		<tag k="name" v="Sauegeila" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="763818" />
+	</node>
+	<node lat="62.40623889179004" lon="6.154719445645866" id="-3366">
+		<tag k="fixme" v="consider natural=peak for the most distinct mountains in the district" />
+		<tag k="name" v="Tussnipen" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="763841" />
+	</node>
+	<node lat="62.41357222041318" lon="6.320980553637327" id="-3367">
+		<tag k="name" v="Køvikleira" />
+		<tag k="natural" v="bay" />
+		<tag k="ssr:stedsnr" v="763846" />
+	</node>
+	<node lat="62.44515000200479" lon="6.214591664436236" id="-3368">
+		<tag k="name" v="Heidegjerdet" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:stedsnr" v="763856" />
+	</node>
+	<node lat="62.416838891958676" lon="6.351766656828737" id="-3369">
+		<tag k="name" v="Lahellestranda" />
+		<tag k="natural" v="beach" />
+		<tag k="ssr:stedsnr" v="763891" />
+	</node>
+	<node lat="62.41940833694225" lon="6.3487333296191055" id="-3370">
+		<tag k="name" v="Haggardhaugsletta" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="763892" />
+	</node>
+	<node lat="62.42307777969251" lon="6.269141665413403" id="-3371">
+		<tag k="amenity" v="school" />
+		<tag k="name" v="Mauseid skole" />
+		<tag k="ssr:stedsnr" v="763897" />
+	</node>
+	<node lat="62.409875001745476" lon="6.269483338971266" id="-3372">
+		<tag k="name" v="Bytingsneset" />
+		<tag k="natural" v="cape" />
+		<tag k="ssr:stedsnr" v="763902" />
+	</node>
+	<node lat="62.44144444231227" lon="6.188933328603092" id="-3373">
+		<tag k="name" v="Syversanden" />
+		<tag k="natural" v="shoal" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="908713" />
+	</node>
+	<node lat="62.42674999691492" lon="6.2739638906173605" id="-3374">
+		<tag k="name" v="Røbekk" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:stedsnr" v="786119" />
+	</node>
+	<node lat="62.44544444206609" lon="6.205988881177477" id="-3375">
+		<tag k="name" v="Fyllingsvågen" />
+		<tag k="natural" v="bay" />
+		<tag k="ssr:stedsnr" v="786705" />
+	</node>
+	<node lat="62.42274444723729" lon="6.310436111931226" id="-3376">
+		<tag k="name" v="Storevalen" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:stedsnr" v="799091" />
+	</node>
+	<node lat="62.42100833324165" lon="6.363033335094899" id="-3377">
+		<tag k="name" v="Kvasneset" />
+		<tag k="natural" v="cape" />
+		<tag k="ssr:stedsnr" v="799094" />
+	</node>
+	<node lat="62.426642914920144" lon="6.35914063627661" id="-3378">
+		<tag k="fixme" v="consider place=hamlet" />
+		<tag k="name" v="Kongshaugen" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:stedsnr" v="799098" />
+	</node>
+	<node lat="62.44470555623182" lon="6.250280547382504" id="-3379">
+		<tag k="name" v="Veddeholmane" />
+		<tag k="place" v="islet" />
+		<tag k="ssr:stedsnr" v="800016" />
+	</node>
+	<node lat="62.40834166650212" lon="6.226933339704083" id="-3380">
+		<tag k="name" v="Storelva" />
+		<tag k="ssr:stedsnr" v="800633" />
+		<tag k="waterway" v="stream" />
+	</node>
+	<node lat="62.42770277895332" lon="6.061008331898669" id="-3381">
+		<tag k="alt_name" v="Trælbåneset" />
+		<tag k="name" v="Trælbodneset" />
+		<tag k="natural" v="cape" />
+		<tag k="ssr:stedsnr" v="800903" />
+	</node>
+	<node lat="62.44318125407054" lon="6.23578578837394" id="-3382">
+		<tag k="alt_name" v="Holsfita" />
+		<tag k="name" v="Holsfeta" />
+		<tag k="natural" v="cape" />
+		<tag k="ssr:stedsnr" v="921061" />
+	</node>
+	<node lat="62.43482777636828" lon="6.264586114132315" id="-3383">
+		<tag k="name" v="Storevassholmen" />
+		<tag k="place" v="islet" />
+		<tag k="ssr:stedsnr" v="824911" />
+	</node>
+	<node lat="62.4443027774325" lon="6.202452775823352" id="-3384">
+		<tag k="fixme" v="consider place=hamlet" />
+		<tag k="name" v="Fyllingen" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:stedsnr" v="824920" />
+	</node>
+	<node lat="62.413277779241625" lon="6.16556388048588" id="-3385">
+		<tag k="fixme" v="consider natural=peak for the most distinct mountains in the district" />
+		<tag k="name" v="Vardane" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="921871" />
+	</node>
+	<node lat="62.39539839415434" lon="6.178836426708839" id="-3386">
+		<tag k="fixme" v="consider place=hamlet" />
+		<tag k="name" v="Kyrkjebø" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:stedsnr" v="921890" />
+	</node>
+	<node lat="62.458183336872125" lon="6.198124998150761" id="-3387">
+		<tag k="bay" v="fjord" />
+		<tag k="name" v="Borgundfjorden" />
+		<tag k="natural" v="bay" />
+		<tag k="ssr:stedsnr" v="921948" />
+	</node>
+	<node lat="62.44167777629534" lon="6.185322219933996" id="-3388">
+		<tag k="name" v="Langevågen" />
+		<tag k="natural" v="bay" />
+		<tag k="ssr:stedsnr" v="921958" />
+	</node>
+	<node lat="62.432605553890916" lon="6.157455551037854" id="-3389">
+		<tag k="fixme" v="consider natural=peak for the most distinct mountains in the district" />
+		<tag k="name" v="Blåfjellet" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="860914" />
+	</node>
+	<node lat="62.43910277727887" lon="6.064911106990495" id="-3391">
+		<tag k="name" v="Gjøtta" />
+		<tag k="natural" v="cape" />
+		<tag k="ssr:stedsnr" v="860977" />
+	</node>
+	<node lat="62.4427166654223" lon="6.258219448019044" id="-3392">
+		<tag k="name" v="Djupvika" />
+		<tag k="natural" v="bay" />
+		<tag k="ssr:stedsnr" v="879363" />
+	</node>
+	<node lat="62.40738333022624" lon="6.262324996330212" id="-3393">
+		<tag k="name" v="Ruskenakken" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="935184" />
+	</node>
+	<node lat="62.434730557092074" lon="6.195558337124971" id="-3394">
+		<tag k="name" v="Legene" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="885816" />
+	</node>
+	<node lat="62.43858888943056" lon="6.149711112613789" id="-3395">
+		<tag k="name" v="Æhammarsvika" />
+		<tag k="natural" v="bay" />
+		<tag k="ssr:stedsnr" v="885797" />
+	</node>
+	<node lat="62.45003888913752" lon="6.210727781267005" id="-3396">
+		<tag k="name" v="Urvika" />
+		<tag k="natural" v="bay" />
+		<tag k="ssr:stedsnr" v="885801" />
+	</node>
+	<node lat="62.438749995618764" lon="6.213297216352116" id="-3397">
+		<tag k="amenity" v="school" />
+		<tag k="name" v="Sula vidaregåande skule" />
+		<tag k="ssr:stedsnr" v="885907" />
+	</node>
+	<node lat="62.422209073849345" lon="6.354316644178572" id="-3398">
+		<tag k="name" v="Brudehammaren" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="935163" />
+	</node>
+	<node lat="62.43277777558681" lon="6.284963897905999" id="-3399">
+		<tag k="name" v="Kyrkjehaugen" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="935199" />
+	</node>
+	<node lat="62.44560278056295" lon="6.195097214577571" id="-3400">
+		<tag k="man_made" v="quay" />
+		<tag k="name" v="Stadsneshamna" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="900111" />
+	</node>
+	<node lat="62.42105478367084" lon="6.271989862540565" id="-3401">
+		<tag k="fixme" v="consider place=hamlet" />
+		<tag k="name" v="Mauseidvågen" />
+		<tag k="place" v="village" />
+		<tag k="ssr:stedsnr" v="920093" />
+	</node>
+	<node lat="62.42993611445574" lon="6.30940277070419" id="-3402">
+		<tag k="name" v="Eidsneset" />
+		<tag k="natural" v="cape" />
+		<tag k="ssr:stedsnr" v="921045" />
+	</node>
+	<node lat="62.40407804879736" lon="6.271317749049859" id="-3403">
+		<tag k="alt_name" v="Eikremsvika" />
+		<tag k="fixme" v="consider place=hamlet" />
+		<tag k="name" v="Eikreimsvika" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:stedsnr" v="921104" />
+	</node>
+	<node lat="62.42188610911391" lon="6.070550003138255" id="-3404">
+		<tag k="name" v="Raudnesvika" />
+		<tag k="natural" v="bay" />
+		<tag k="ssr:stedsnr" v="921914" />
+	</node>
+	<node lat="62.438966670821706" lon="6.1771361048406686" id="-3405">
+		<tag k="name" v="Molværsmyra" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:stedsnr" v="946928" />
+	</node>
+	<node lat="62.44456944348733" lon="6.18307500556113" id="-3406">
+		<tag k="name" v="Peneset" />
+		<tag k="natural" v="cape" />
+		<tag k="ssr:stedsnr" v="946929" />
+	</node>
+	<node lat="62.443280554740774" lon="6.26910277945805" id="-3407">
+		<tag k="name" v="Fiskarstranda" />
+		<tag k="natural" v="beach" />
+		<tag k="ssr:stedsnr" v="968806" />
+	</node>
+	<node lat="62.413941146115874" lon="6.269822802992559" id="-3408">
+		<tag k="fixme" v="consider place=hamlet" />
+		<tag k="name" v="Karlsbakken" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:stedsnr" v="10070" />
+	</node>
+	<node lat="62.40908055571333" lon="6.200083325021398" id="-3409">
+		<tag k="alt_name" v="Tverråna;Tveråa" />
+		<tag k="name" v="Storelva" />
+		<tag k="ssr:stedsnr" v="11877" />
+		<tag k="waterway" v="stream" />
+	</node>
+	<node lat="62.434074998454584" lon="6.2093361065710875" id="-3410">
+		<tag k="name" v="Vassetvatnet" />
+		<tag k="natural" v="water" />
+		<tag k="ssr:stedsnr" v="11918" />
+		<tag k="water" v="lake" />
+	</node>
+	<node lat="62.424925000136945" lon="6.304861103375388" id="-3411">
+		<tag k="bridge" v="yes" />
+		<tag k="layer" v="1" />
+		<tag k="name" v="Bjørkavågsbrua" />
+		<tag k="ssr:stedsnr" v="20459" />
+	</node>
+	<node lat="62.41301388921778" lon="6.300911115484815" id="-3412">
+		<tag k="name" v="Trollhaugen" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="25235" />
+	</node>
+	<node lat="62.40615000281662" lon="6.313472231501621" id="-3413">
+		<tag k="name" v="Skarvhammaren" />
+		<tag k="natural" v="cliff" />
+		<tag k="ssr:stedsnr" v="35876" />
+	</node>
+	<node lat="62.423213888354894" lon="6.157788880916554" id="-3414">
+		<tag k="name" v="Von-hytta" />
+		<tag k="place" v="isolated_dwelling" />
+		<tag k="ssr:stedsnr" v="35934" />
+	</node>
+	<node lat="62.44869523200299" lon="6.209248555369444" id="-3415">
+		<tag k="name" v="Jyljebø" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="35943" />
+	</node>
+	<node lat="62.44061371955354" lon="6.172067759542129" id="-3416">
+		<tag k="name" v="Myraneset" />
+		<tag k="natural" v="cape" />
+		<tag k="ssr:stedsnr" v="35825" />
+	</node>
+	<node lat="62.42390833666442" lon="6.291633338424741" id="-3417">
+		<tag k="name" v="Klubben" />
+		<tag k="natural" v="cape" />
+		<tag k="ssr:stedsnr" v="35830" />
+	</node>
+	<node lat="62.42364166549647" lon="6.262830561971002" id="-3418">
+		<tag k="name" v="Svartevasselva" />
+		<tag k="ssr:stedsnr" v="35835" />
+		<tag k="waterway" v="stream" />
+	</node>
+	<node lat="62.444983331692505" lon="6.209108336067002" id="-3419">
+		<tag k="name" v="Åregjerdet" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:stedsnr" v="35836" />
+	</node>
+	<node lat="62.41106111156735" lon="6.258825009245012" id="-3420">
+		<tag k="name" v="Tverråneset" />
+		<tag k="natural" v="cape" />
+		<tag k="ssr:stedsnr" v="35840" />
+	</node>
+	<node lat="62.438958330932" lon="6.184475004963715" id="-3421">
+		<tag k="amenity" v="kindergarten" />
+		<tag k="name" v="Molvær" />
+		<tag k="ssr:stedsnr" v="35843" />
+	</node>
+	<node lat="62.447772221244605" lon="6.17705277351667" id="-3422">
+		<tag k="name" v="Nålaugholmen" />
+		<tag k="place" v="islet" />
+		<tag k="ssr:stedsnr" v="58695" />
+	</node>
+	<node lat="62.445719444443014" lon="6.171566661261068" id="-3423">
+		<tag k="name" v="Brørne" />
+		<tag k="natural" v="shoal" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="58700" />
+	</node>
+	<node lat="62.40473333772537" lon="6.299641662261766" id="-3424">
+		<tag k="alt_name" v="Ramsvikbukta" />
+		<tag k="name" v="Ramsvika" />
+		<tag k="natural" v="bay" />
+		<tag k="ssr:stedsnr" v="71118" />
+	</node>
+	<node lat="62.42878421661433" lon="6.3434419603832595" id="-3425">
+		<tag k="fixme" v="consider place=hamlet" />
+		<tag k="name" v="Reitehaugen" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:stedsnr" v="71089" />
+	</node>
+	<node lat="62.43571844424101" lon="6.277744223633313" id="-3426">
+		<tag k="fixme" v="consider place=hamlet" />
+		<tag k="name" v="Valen" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:stedsnr" v="72034" />
+	</node>
+	<node lat="62.435570441734335" lon="6.286696902254433" id="-3427">
+		<tag k="alt_name" v="Blomvik" />
+		<tag k="fixme" v="consider place=hamlet" />
+		<tag k="name" v="Blomvika" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:stedsnr" v="72045" />
+	</node>
+	<node lat="62.396346275249876" lon="6.166526975261791" id="-3428">
+		<tag k="fixme" v="consider place=hamlet" />
+		<tag k="name" v="Sulesund" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:stedsnr" v="85022" />
+	</node>
+	<node lat="62.429013885101945" lon="6.349072216941781" id="-3429">
+		<tag k="bridge" v="yes" />
+		<tag k="layer" v="1" />
+		<tag k="name" v="Veibustbrua" />
+		<tag k="ssr:stedsnr" v="88264" />
+	</node>
+	<node lat="62.43663446397327" lon="6.276400978021067" id="-3430">
+		<tag k="name" v="Leira" />
+		<tag k="natural" v="water" />
+		<tag k="ssr:stedsnr" v="89000" />
+	</node>
+	<node lat="62.42907222454639" lon="6.281938883189691" id="-3431">
+		<tag k="name" v="Haneneset" />
+		<tag k="natural" v="cape" />
+		<tag k="ssr:stedsnr" v="96818" />
+	</node>
+	<node lat="62.43871111009644" lon="6.185927774966807" id="-3432">
+		<tag k="amenity" v="school" />
+		<tag k="name" v="Molvær skule" />
+		<tag k="ssr:stedsnr" v="96828" />
+	</node>
+	<node lat="62.43806666958539" lon="6.2188916584613" id="-3433">
+		<tag k="name" v="Bratthaugen" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="96830" />
+	</node>
+	<node lat="62.409269444091535" lon="6.240905562577329" id="-3434">
+		<tag k="name" v="Storemyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="96837" />
+	</node>
+	<node lat="62.406694447806316" lon="6.111569441306135" id="-3435">
+		<tag k="name" v="Storstølbrua" />
+		<tag k="natural" v="cliff" />
+		<tag k="ssr:stedsnr" v="96848" />
+	</node>
+	<node lat="62.43581388551299" lon="6.1923861023950835" id="-3436">
+		<tag k="name" v="Molværsrema" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:stedsnr" v="96857" />
+	</node>
+	<node lat="62.44762371896259" lon="6.192091344819215" id="-3437">
+		<tag k="fixme" v="consider place=hamlet" />
+		<tag k="name" v="Hattholmen" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:stedsnr" v="96923" />
+	</node>
+	<node lat="62.39577500126446" lon="6.1590333354887585" id="-3438">
+		<tag k="name" v="Øygardsvika" />
+		<tag k="natural" v="bay" />
+		<tag k="ssr:stedsnr" v="112483" />
+	</node>
+	<node lat="62.41055000030246" lon="6.321158340817873" id="-3439">
 		<tag k="name" v="Verpingsberga" />
 		<tag k="natural" v="hill" />
 		<tag k="place" v="locality" />
 		<tag k="ssr:stedsnr" v="156826" />
 	</node>
-	<node id="-6350" lat="62.44008889" lon="6.15591111068">
-		<tag k="name" v="Styggemannshola" />
+	<node lat="62.42534166405209" lon="6.17916666301906" id="-3440">
+		<tag k="historic" v="shieling" />
+		<tag k="name" v="Gamlestølen" />
 		<tag k="place" v="locality" />
-		<tag k="ssr:stedsnr" v="156818" />
+		<tag k="ssr:stedsnr" v="156830" />
 	</node>
-	<node id="-6349" lat="62.4424000014" lon="6.19045277307">
-		<tag k="name" v="Langevåg" />
-		<tag k="place" v="farm" />
-		<tag k="ssr:stedsnr" v="150390" />
-	</node>
-	<node id="-6348" lat="62.4311638846" lon="6.24790278621">
-		<tag k="name" v="Rotevatnet" />
-		<tag k="natural" v="water" />
-		<tag k="ssr:stedsnr" v="149927" />
-	</node>
-	<node id="-6347" lat="62.4166166652" lon="6.26199167434">
-		<tag k="bridge" v="yes" />
-		<tag k="layer" v="1" />
-		<tag k="name" v="Jakobbrua" />
-		<tag k="ssr:stedsnr" v="148327" />
-	</node>
-	<node id="-6346" lat="62.4107861085" lon="6.29358055904">
-		<tag k="name" v="Storskarnakken" />
-		<tag k="natural" v="hill" />
-		<tag k="place" v="locality" />
-		<tag k="ssr:stedsnr" v="146194" />
-	</node>
-	<node id="-6345" lat="62.4354972227" lon="6.08445278301">
-		<tag k="name" v="Storura" />
-		<tag k="natural" v="scree" />
-		<tag k="ssr:stedsnr" v="132957" />
-	</node>
-	<node id="-6344" lat="62.4494344454" lon="6.18213076921">
-		<tag k="name" v="Storholmen" />
-		<tag k="place" v="islet" />
-		<tag k="ssr:stedsnr" v="132955" />
-	</node>
-	<node id="-6343" lat="62.4082916629" lon="6.10654444069">
-		<tag k="name" v="Storelva" />
-		<tag k="ssr:stedsnr" v="132878" />
-		<tag k="waterway" v="stream" />
-	</node>
-	<node id="-6342" lat="62.4250722238" lon="6.33578332911">
+	<node lat="62.42507222378219" lon="6.335783329110114" id="-3441">
 		<tag k="alt_name" v="Høgefjellet" />
 		<tag k="fixme" v="consider natural=peak for the most distinct mountains in the district" />
 		<tag k="name" v="Leirvågfjellet" />
@@ -1602,540 +1404,846 @@
 		<tag k="place" v="locality" />
 		<tag k="ssr:stedsnr" v="132077" />
 	</node>
-	<node id="-6341" lat="62.4417974736" lon="6.26080445936">
-		<tag k="fixme" v="consider place=hamlet" />
-		<tag k="name" v="Djupvika" />
-		<tag k="place" v="farm" />
-		<tag k="ssr:stedsnr" v="132052" />
-	</node>
-	<node id="-6340" lat="62.4403555595" lon="6.27198610921">
+	<node lat="62.44035555946799" lon="6.27198610920516" id="-3442">
 		<tag k="fixme" v="consider place=hamlet" />
 		<tag k="name" v="Fiskarstranda" />
 		<tag k="place" v="village" />
 		<tag k="ssr:stedsnr" v="132045" />
 	</node>
-	<node id="-6339" lat="62.4234725725" lon="6.28384731592">
+	<node lat="62.44179747355741" lon="6.260804459359296" id="-3443">
 		<tag k="fixme" v="consider place=hamlet" />
-		<tag k="name" v="Furneset" />
+		<tag k="name" v="Djupvika" />
 		<tag k="place" v="farm" />
-		<tag k="ssr:stedsnr" v="131092" />
+		<tag k="ssr:stedsnr" v="132052" />
 	</node>
-	<node id="-6338" lat="62.426638892" lon="6.31576666753">
-		<tag k="name" v="Eidsnes" />
-		<tag k="place" v="isolated_dwelling" />
-		<tag k="ssr:stedsnr" v="119121" />
-	</node>
-	<node id="-6337" lat="62.3957750013" lon="6.15903333549">
-		<tag k="name" v="Øygardsvika" />
-		<tag k="natural" v="bay" />
-		<tag k="ssr:stedsnr" v="112483" />
-	</node>
-	<node id="-6336" lat="62.4066944478" lon="6.11156944131">
-		<tag k="name" v="Storstølbrua" />
-		<tag k="natural" v="cliff" />
-		<tag k="ssr:stedsnr" v="96848" />
-	</node>
-	<node id="-6335" lat="62.4092694441" lon="6.24090556258">
-		<tag k="name" v="Storemyra" />
-		<tag k="natural" v="wetland" />
-		<tag k="ssr:stedsnr" v="96837" />
-	</node>
-	<node id="-6334" lat="62.4380666696" lon="6.21889165846">
-		<tag k="name" v="Bratthaugen" />
-		<tag k="natural" v="hill" />
-		<tag k="place" v="locality" />
-		<tag k="ssr:stedsnr" v="96830" />
-	</node>
-	<node id="-6333" lat="62.4387111101" lon="6.18592777497">
-		<tag k="amenity" v="school" />
-		<tag k="name" v="Molvær skule" />
-		<tag k="ssr:stedsnr" v="96828" />
-	</node>
-	<node id="-6332" lat="62.4290722245" lon="6.28193888319">
-		<tag k="name" v="Haneneset" />
-		<tag k="natural" v="cape" />
-		<tag k="ssr:stedsnr" v="96818" />
-	</node>
-	<node id="-6331" lat="62.425419444" lon="6.29773889026">
-		<tag k="name" v="Bjørkavågen" />
-		<tag k="natural" v="bay" />
-		<tag k="ssr:stedsnr" v="90368" />
-	</node>
-	<node id="-6330" lat="62.436634464" lon="6.27640097802">
-		<tag k="name" v="Leira" />
-		<tag k="natural" v="water" />
-		<tag k="ssr:stedsnr" v="89000" />
-	</node>
-	<node id="-6329" lat="62.4469777786" lon="6.19539722889">
-		<tag k="name" v="Hansholmen" />
-		<tag k="place" v="islet" />
-		<tag k="ssr:stedsnr" v="88957" />
-	</node>
-	<node id="-6328" lat="62.4289444451" lon="6.14829444943">
-		<tag k="name" v="Eltratjønna" />
-		<tag k="natural" v="water" />
-		<tag k="ssr:stedsnr" v="88911" />
-	</node>
-	<node id="-6327" lat="62.4290138851" lon="6.34907221694">
-		<tag k="bridge" v="yes" />
-		<tag k="layer" v="1" />
-		<tag k="name" v="Veibustbrua" />
-		<tag k="ssr:stedsnr" v="88264" />
-	</node>
-	<node id="-6326" lat="62.445688893" lon="6.23758889509">
-		<tag k="name" v="Budaholmen" />
-		<tag k="place" v="islet" />
-		<tag k="ssr:stedsnr" v="86195" />
-	</node>
-	<node id="-6325" lat="62.4107746197" lon="6.09685142361">
-		<tag k="name" v="Nymarka" />
-		<tag k="place" v="farm" />
-		<tag k="ssr:stedsnr" v="72866" />
-	</node>
-	<node id="-6324" lat="62.4414833305" lon="6.13094167415">
-		<tag k="alt_name" v="Flesjeflua" />
-		<tag k="name" v="Flesjefluda" />
-		<tag k="natural" v="shoal" />
-		<tag k="place" v="locality" />
-		<tag k="ssr:stedsnr" v="71987" />
-	</node>
-	<node id="-6323" lat="62.4355704417" lon="6.28669690225">
-		<tag k="alt_name" v="Blomvik" />
-		<tag k="fixme" v="consider place=hamlet" />
-		<tag k="name" v="Blomvika" />
-		<tag k="place" v="farm" />
-		<tag k="ssr:stedsnr" v="72045" />
-	</node>
-	<node id="-6322" lat="62.4357184442" lon="6.27774422363">
-		<tag k="fixme" v="consider place=hamlet" />
-		<tag k="name" v="Valen" />
-		<tag k="place" v="farm" />
-		<tag k="ssr:stedsnr" v="72034" />
-	</node>
-	<node id="-6321" lat="62.4047333377" lon="6.29964166226">
-		<tag k="alt_name" v="Ramsvikbukta" />
-		<tag k="name" v="Ramsvika" />
-		<tag k="natural" v="bay" />
-		<tag k="ssr:stedsnr" v="71118" />
-	</node>
-	<node id="-6320" lat="62.4287842166" lon="6.34344196038">
-		<tag k="fixme" v="consider place=hamlet" />
-		<tag k="name" v="Reitehaugen" />
-		<tag k="place" v="farm" />
-		<tag k="ssr:stedsnr" v="71089" />
-	</node>
-	<node id="-6319" lat="62.4438694467" lon="6.26158333157">
-		<tag k="name" v="Hammarsneset" />
-		<tag k="natural" v="cape" />
-		<tag k="ssr:stedsnr" v="58792" />
-	</node>
-	<node id="-6318" lat="62.4408527781" lon="6.23877221414">
-		<tag k="name" v="Holsneset" />
-		<tag k="natural" v="cape" />
-		<tag k="ssr:stedsnr" v="58704" />
-	</node>
-	<node id="-6317" lat="62.4457194444" lon="6.17156666126">
-		<tag k="name" v="Brørne" />
-		<tag k="natural" v="shoal" />
-		<tag k="place" v="locality" />
-		<tag k="ssr:stedsnr" v="58700" />
-	</node>
-	<node id="-6316" lat="62.4477722212" lon="6.17705277352">
-		<tag k="name" v="Nålaugholmen" />
-		<tag k="place" v="islet" />
-		<tag k="ssr:stedsnr" v="58695" />
-	</node>
-	<node id="-6315" lat="62.448695232" lon="6.20924855537">
-		<tag k="name" v="Jyljebø" />
-		<tag k="place" v="locality" />
-		<tag k="ssr:stedsnr" v="35943" />
-	</node>
-	<node id="-6314" lat="62.4232138884" lon="6.15778888092">
-		<tag k="name" v="Von-hytta" />
-		<tag k="place" v="isolated_dwelling" />
-		<tag k="ssr:stedsnr" v="35934" />
-	</node>
-	<node id="-6313" lat="62.4061500028" lon="6.3134722315">
-		<tag k="name" v="Skarvhammaren" />
-		<tag k="natural" v="cliff" />
-		<tag k="ssr:stedsnr" v="35876" />
-	</node>
-	<node id="-6312" lat="62.4217972262" lon="6.31956388012">
-		<tag k="name" v="Eliasneset" />
-		<tag k="natural" v="cape" />
-		<tag k="ssr:stedsnr" v="35861" />
-	</node>
-	<node id="-6311" lat="62.4389583309" lon="6.18447500496">
-		<tag k="amenity" v="kindergarten" />
-		<tag k="name" v="Molvær" />
-		<tag k="ssr:stedsnr" v="35843" />
-	</node>
-	<node id="-6310" lat="62.4110611116" lon="6.25882500925">
-		<tag k="name" v="Tverråneset" />
-		<tag k="natural" v="cape" />
-		<tag k="ssr:stedsnr" v="35840" />
-	</node>
-	<node id="-6309" lat="62.4449833317" lon="6.20910833607">
-		<tag k="name" v="Åregjerdet" />
-		<tag k="place" v="farm" />
-		<tag k="ssr:stedsnr" v="35836" />
-	</node>
-	<node id="-6308" lat="62.4236416655" lon="6.26283056197">
-		<tag k="name" v="Svartevasselva" />
-		<tag k="ssr:stedsnr" v="35835" />
-		<tag k="waterway" v="stream" />
-	</node>
-	<node id="-6307" lat="62.4239083367" lon="6.29163333842">
-		<tag k="name" v="Klubben" />
-		<tag k="natural" v="cape" />
-		<tag k="ssr:stedsnr" v="35830" />
-	</node>
-	<node id="-6306" lat="62.4406137196" lon="6.17206775954">
-		<tag k="name" v="Myraneset" />
-		<tag k="natural" v="cape" />
-		<tag k="ssr:stedsnr" v="35825" />
-	</node>
-	<node id="-6305" lat="62.4482572839" lon="6.19531316973">
-		<tag k="name" v="Vassholmen" />
-		<tag k="place" v="islet" />
-		<tag k="ssr:stedsnr" v="28971" />
-	</node>
-	<node id="-6304" lat="62.4496888925" lon="6.20352778045">
-		<tag k="name" v="Bukkholmen" />
-		<tag k="place" v="islet" />
-		<tag k="ssr:stedsnr" v="28968" />
-	</node>
-	<node id="-6303" lat="62.4249250001" lon="6.30486110338">
-		<tag k="bridge" v="yes" />
-		<tag k="layer" v="1" />
-		<tag k="name" v="Bjørkavågsbrua" />
-		<tag k="ssr:stedsnr" v="20459" />
-	</node>
-	<node id="-6302" lat="62.4090805557" lon="6.20008332502">
-		<tag k="alt_name" v="Tverråna;Tveråa" />
+	<node lat="62.40829166291554" lon="6.10654444069323" id="-3444">
 		<tag k="name" v="Storelva" />
-		<tag k="ssr:stedsnr" v="11877" />
+		<tag k="ssr:stedsnr" v="132878" />
 		<tag k="waterway" v="stream" />
 	</node>
-	<node id="-6301" lat="62.4294305536" lon="6.2201166719">
-		<tag k="name" v="Sætrevatnet" />
-		<tag k="natural" v="water" />
-		<tag k="ssr:stedsnr" v="11028" />
+	<node lat="62.44943444538013" lon="6.182130769214198" id="-3445">
+		<tag k="name" v="Storholmen" />
+		<tag k="place" v="islet" />
+		<tag k="ssr:stedsnr" v="132955" />
 	</node>
-	<node id="-6300" lat="62.4139411461" lon="6.26982280299">
-		<tag k="fixme" v="consider place=hamlet" />
-		<tag k="name" v="Karlsbakken" />
-		<tag k="place" v="farm" />
-		<tag k="ssr:stedsnr" v="10070" />
+	<node lat="62.43549722270623" lon="6.0844527830119475" id="-3446">
+		<tag k="name" v="Storura" />
+		<tag k="natural" v="scree" />
+		<tag k="ssr:stedsnr" v="132957" />
 	</node>
-	<node id="-6298" lat="62.4365337165" lon="6.18280066586">
-		<tag k="fixme" v="consider place=hamlet" />
-		<tag k="name" v="Molvær" />
-		<tag k="place" v="farm" />
-		<tag k="ssr:stedsnr" v="982410" />
-	</node>
-	<node id="-6294" lat="62.4468512614" lon="6.20324793727">
-		<tag k="name" v="Kippervik" />
-		<tag k="place" v="locality" />
-		<tag k="ssr:stedsnr" v="982405" />
-	</node>
-	<node id="-6292" lat="62.4490700316" lon="6.2265572623">
-		<tag k="loc_name" v="Hamna" />
-		<tag k="name" v="Skrivarhamna" />
-		<tag k="place" v="locality" />
-		<tag k="ssr:stedsnr" v="982403" />
-	</node>
-	<node id="-6290" lat="62.4477184543" lon="6.23078984431">
-		<tag k="fixme" v="consider place=hamlet" />
-		<tag k="name" v="Vågnes" />
-		<tag k="place" v="farm" />
-		<tag k="ssr:stedsnr" v="982400" />
-	</node>
-	<node id="-6288" lat="62.4424368958" lon="6.26997330628">
-		<tag k="name" v="Størkerplassen" />
-		<tag k="place" v="locality" />
-		<tag k="ssr:stedsnr" v="982397" />
-	</node>
-	<node id="-6287" lat="62.4418357564" lon="6.27146806772">
-		<tag k="name" v="Davidsplassen" />
-		<tag k="place" v="locality" />
-		<tag k="ssr:stedsnr" v="982396" />
-	</node>
-	<node id="-6286" lat="62.4432805547" lon="6.26910277946">
-		<tag k="name" v="Fiskarstranda" />
-		<tag k="natural" v="beach" />
-		<tag k="place" v="locality" />
-		<tag k="ssr:stedsnr" v="968806" />
-	</node>
-	<node id="-6285" lat="62.4478527748" lon="6.23177499807">
-		<tag k="name" v="Vågneset" />
-		<tag k="natural" v="cape" />
-		<tag k="ssr:stedsnr" v="946923" />
-	</node>
-	<node id="-6284" lat="62.4025416685" lon="6.12084722387">
-		<tag k="name" v="Furukammen" />
-		<tag k="natural" v="ridge" />
-		<tag k="place" v="locality" />
-		<tag k="ssr:stedsnr" v="946911" />
-	</node>
-	<node id="-6283" lat="62.4163194458" lon="6.32341110251">
-		<tag k="name" v="Nausthaugen" />
+	<node lat="62.41078610854503" lon="6.293580559041567" id="-3448">
+		<tag k="name" v="Storskarnakken" />
 		<tag k="natural" v="hill" />
 		<tag k="place" v="locality" />
-		<tag k="ssr:stedsnr" v="946850" />
+		<tag k="ssr:stedsnr" v="146194" />
 	</node>
-	<node id="-6282" lat="62.4431812541" lon="6.23578578837">
-		<tag k="alt_name" v="Holsfita" />
-		<tag k="name" v="Holsfeta" />
-		<tag k="natural" v="cape" />
-		<tag k="ssr:stedsnr" v="921061" />
+	<node lat="62.416616665208686" lon="6.261991674338944" id="-3449">
+		<tag k="bridge" v="yes" />
+		<tag k="layer" v="1" />
+		<tag k="name" v="Jakobbrua" />
+		<tag k="ssr:stedsnr" v="148327" />
 	</node>
-	<node id="-6281" lat="62.4040780488" lon="6.27131774905">
-		<tag k="alt_name" v="Eikremsvika" />
-		<tag k="fixme" v="consider place=hamlet" />
-		<tag k="name" v="Eikreimsvika" />
+	<node lat="62.43116388464219" lon="6.2479027862109415" id="-3450">
+		<tag k="name" v="Rotevatnet" />
+		<tag k="natural" v="water" />
+		<tag k="ssr:stedsnr" v="149927" />
+	</node>
+	<node lat="62.448624997914706" lon="6.189711116820643" id="-3451">
+		<tag k="name" v="Lisjehatten" />
+		<tag k="place" v="islet" />
+		<tag k="ssr:stedsnr" v="149952" />
+	</node>
+	<node lat="62.44240000143034" lon="6.190452773071646" id="-3452">
+		<tag k="name" v="Langevåg" />
 		<tag k="place" v="farm" />
-		<tag k="ssr:stedsnr" v="921104" />
+		<tag k="ssr:stedsnr" v="150390" />
 	</node>
-	<node id="-6280" lat="62.4456027806" lon="6.19509721458">
-		<tag k="man_made" v="quay" />
-		<tag k="name" v="Stadsneshamna" />
+	<node lat="62.42953611418683" lon="6.349455549706" id="-3453">
+		<tag k="name" v="Vassmyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="156892" />
+	</node>
+	<node lat="62.42196666622132" lon="6.328002769132898" id="-3454">
+		<tag k="name" v="Leirvåg" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:stedsnr" v="157750" />
+	</node>
+	<node lat="62.427969442570614" lon="6.059569441097239" id="-3455">
+		<tag k="name" v="Trælbåen" />
+		<tag k="natural" v="shoal" />
 		<tag k="place" v="locality" />
-		<tag k="ssr:stedsnr" v="900111" />
+		<tag k="ssr:stedsnr" v="160523" />
 	</node>
-	<node id="-6279" lat="62.4387499956" lon="6.21329721635">
-		<tag k="amenity" v="school" />
-		<tag k="name" v="Sula vidaregåande skule" />
-		<tag k="ssr:stedsnr" v="885907" />
+	<node lat="62.43985832875555" lon="6.0644694367907075" id="-3456">
+		<tag k="alt_name" v="Gjøtaflua" />
+		<tag k="name" v="Gjøttaflua" />
+		<tag k="natural" v="shoal" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="160529" />
 	</node>
-	<node id="-6278" lat="62.4243305598" lon="6.32861666701">
-		<tag k="name" v="Leirvågdalen" />
+	<node lat="62.44698055882197" lon="6.232602778324932" id="-3457">
+		<tag k="building" v="commercial" />
+		<tag k="name" v="Våge" />
+		<tag k="ssr:stedsnr" v="172724" />
+	</node>
+	<node lat="62.40399166472022" lon="6.296497217371664" id="-3458">
+		<tag k="name" v="Ramsvikneset" />
+		<tag k="natural" v="cape" />
+		<tag k="ssr:stedsnr" v="172790" />
+	</node>
+	<node lat="62.428294441414764" lon="6.321138888524561" id="-3461">
+		<tag k="name" v="Eidsbukta" />
+		<tag k="natural" v="bay" />
+		<tag k="ssr:stedsnr" v="180119" />
+	</node>
+	<node lat="62.42407778072965" lon="6.1007166624837295" id="-3462">
+		<tag k="fixme" v="consider natural=peak for the most distinct mountains in the district" />
+		<tag k="name" v="Langerabben" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="193899" />
+	</node>
+	<node lat="62.42962499728201" lon="6.109113881627639" id="-3463">
+		<tag k="fixme" v="consider natural=peak for the most distinct mountains in the district" />
+		<tag k="name" v="Flesjehornet" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="193902" />
+	</node>
+	<node lat="62.44024167025334" lon="6.1570777779896435" id="-3464">
+		<tag k="alt_name" v="Ædhammaren" />
+		<tag k="name" v="Æhammaren" />
+		<tag k="natural" v="cape" />
+		<tag k="ssr:stedsnr" v="193958" />
+	</node>
+	<node lat="62.418133335117055" lon="6.26817499418288" id="-3465">
+		<tag k="bridge" v="yes" />
+		<tag k="layer" v="1" />
+		<tag k="name" v="Mausabrua" />
+		<tag k="ssr:stedsnr" v="209315" />
+	</node>
+	<node lat="62.44944166995509" lon="6.199186109869047" id="-3466">
+		<tag k="name" v="Tennholmen" />
+		<tag k="place" v="islet" />
+		<tag k="ssr:stedsnr" v="210953" />
+	</node>
+	<node lat="62.399099999799624" lon="6.124886108380899" id="-3467">
+		<tag k="name" v="Litleneset" />
+		<tag k="natural" v="cape" />
+		<tag k="ssr:stedsnr" v="217833" />
+	</node>
+	<node lat="62.41442777639589" lon="6.336877779478427" id="-3468">
+		<tag k="name" v="Gardvika" />
+		<tag k="natural" v="bay" />
+		<tag k="ssr:stedsnr" v="217835" />
+	</node>
+	<node lat="62.44218611073292" lon="6.214261104308595" id="-3469">
+		<tag k="name" v="Erikplassen" />
+		<tag k="place" v="quarter" />
+		<tag k="ssr:stedsnr" v="221899" />
+	</node>
+	<node lat="62.405561107511886" lon="6.299316660874688" id="-3470">
+		<tag k="name" v="Ramsvikura" />
+		<tag k="natural" v="scree" />
+		<tag k="ssr:stedsnr" v="278875" />
+	</node>
+	<node lat="62.43087778037196" lon="6.357027779599422" id="-3471">
+		<tag k="name" v="Veibustvågen" />
+		<tag k="natural" v="bay" />
+		<tag k="ssr:stedsnr" v="278911" />
+	</node>
+	<node lat="62.43871389262492" lon="6.161155545639362" id="-3472">
+		<tag k="name" v="Sandvika" />
+		<tag k="old_name" v="Ænes" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:stedsnr" v="278829" />
+	</node>
+	<node lat="62.397309019724894" lon="6.153709853135192" id="-3473">
+		<tag k="alt_name" v="Øygarden" />
+		<tag k="fixme" v="consider place=hamlet" />
+		<tag k="name" v="Sulødegård" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:stedsnr" v="278833" />
+	</node>
+	<node lat="62.43222777500605" lon="6.141572220747934" id="-3474">
+		<tag k="name" v="Kjellingsetelva" />
+		<tag k="ssr:stedsnr" v="278857" />
+		<tag k="waterway" v="stream" />
+	</node>
+	<node lat="62.40665555344208" lon="6.2941305616193794" id="-3475">
+		<tag k="name" v="Ramsvikløypa" />
 		<tag k="natural" v="valley" />
 		<tag k="place" v="locality" />
-		<tag k="ssr:stedsnr" v="885819" />
+		<tag k="ssr:stedsnr" v="278859" />
 	</node>
-	<node id="-6277" lat="62.4347305571" lon="6.19555833712">
-		<tag k="name" v="Legene" />
-		<tag k="place" v="locality" />
-		<tag k="ssr:stedsnr" v="885816" />
+	<node lat="62.40571389304315" lon="6.286261103237384" id="-3476">
+		<tag k="name" v="Eiteråna" />
+		<tag k="ssr:stedsnr" v="278860" />
+		<tag k="waterway" v="stream" />
 	</node>
-	<node id="-6276" lat="62.403295679" lon="6.2338228417">
-		<tag k="fixme" v="consider place=hamlet" />
-		<tag k="name" v="Hjellen" />
-		<tag k="place" v="farm" />
-		<tag k="ssr:stedsnr" v="873712" />
-	</node>
-	<node id="-6275" lat="62.4140166684" lon="6.33278611192">
-		<tag k="name" v="Storhaugen" />
-		<tag k="natural" v="hill" />
-		<tag k="place" v="locality" />
-		<tag k="ssr:stedsnr" v="946901" />
-	</node>
-	<node id="-6274" lat="62.4445694435" lon="6.18307500556">
-		<tag k="name" v="Peneset" />
-		<tag k="natural" v="cape" />
-		<tag k="ssr:stedsnr" v="946929" />
-	</node>
-	<node id="-6273" lat="62.4389666708" lon="6.17713610484">
-		<tag k="name" v="Molværsmyra" />
-		<tag k="place" v="farm" />
-		<tag k="ssr:stedsnr" v="946928" />
-	</node>
-	<node id="-6272" lat="62.4326055539" lon="6.15745555104">
-		<tag k="fixme" v="consider natural=peak for the most distinct mountains in the district" />
-		<tag k="name" v="Blåfjellet" />
-		<tag k="natural" v="hill" />
-		<tag k="place" v="locality" />
-		<tag k="ssr:stedsnr" v="860914" />
-	</node>
-	<node id="-6271" lat="62.446752776" lon="6.20136665963">
-		<tag k="name" v="Kipperholmen" />
-		<tag k="place" v="islet" />
-		<tag k="ssr:stedsnr" v="938963" />
-	</node>
-	<node id="-6270" lat="62.4481749983" lon="6.1821944467">
-		<tag k="name" v="Brandholmen" />
-		<tag k="place" v="islet" />
-		<tag k="ssr:stedsnr" v="938959" />
-	</node>
-	<node id="-6269" lat="62.4520638905" lon="6.17647499523">
-		<tag k="name" v="Kveiteskjeret" />
-		<tag k="place" v="islet" />
-		<tag k="ssr:stedsnr" v="938958" />
-	</node>
-	<node id="-6268" lat="62.4507361124" lon="6.23132499294">
-		<tag k="name" v="Hamnaskjeret" />
-		<tag k="place" v="islet" />
-		<tag k="ssr:stedsnr" v="938171" />
-	</node>
-	<node id="-6267" lat="62.4494083326" lon="6.23003055534">
-		<tag k="name" v="Randiholmen" />
-		<tag k="place" v="islet" />
-		<tag k="ssr:stedsnr" v="938170" />
-	</node>
-	<node id="-6266" lat="62.4150111117" lon="6.32531111025">
-		<tag k="name" v="Solavågen" />
+	<node lat="62.40396944848936" lon="6.281355551152111" id="-3477">
+		<tag k="alt_name" v="Eikremsvika" />
+		<tag k="name" v="Eikremsvikane" />
 		<tag k="natural" v="bay" />
-		<tag k="ssr:stedsnr" v="937177" />
+		<tag k="ssr:stedsnr" v="278862" />
 	</node>
-	<node id="-6265" lat="62.4327777756" lon="6.28496389791">
-		<tag k="name" v="Kyrkjehaugen" />
-		<tag k="natural" v="hill" />
+	<node lat="62.42928333098818" lon="6.05998888223456" id="-3478">
+		<tag k="name" v="Furneset" />
+		<tag k="natural" v="cape" />
+		<tag k="ssr:stedsnr" v="278865" />
+	</node>
+	<node lat="62.4261500025316" lon="6.321455549160402" id="-3479">
+		<tag k="name" v="Støleskaret" />
+		<tag k="natural" v="valley" />
 		<tag k="place" v="locality" />
-		<tag k="ssr:stedsnr" v="935199" />
+		<tag k="ssr:stedsnr" v="278946" />
 	</node>
-	<node id="-6264" lat="62.4073833302" lon="6.26232499633">
+	<node lat="62.442405556784536" lon="6.1881194404464885" id="-3480">
+		<tag k="amenity" v="nursing_home" />
+		<tag k="name" v="Sulatunet" />
+		<tag k="ssr:stedsnr" v="278952" />
+	</node>
+	<node lat="62.441424999080596" lon="6.2672166683777375" id="-3481">
+		<tag k="name" v="Søre Hammaren" />
+		<tag k="place" v="quarter" />
+		<tag k="ssr:stedsnr" v="292814" />
+	</node>
+	<node lat="62.43129444611571" lon="6.305716668468739" id="-3482">
+		<tag k="name" v="Eidsundet" />
+		<tag k="natural" v="strait" />
+		<tag k="ssr:stedsnr" v="294751" />
+	</node>
+	<node lat="62.422544473040915" lon="6.326842615543596" id="-3483">
+		<tag k="fixme" v="consider place=hamlet" />
+		<tag k="name" v="Leirvåg" />
+		<tag k="old_name" v="Veibost" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:stedsnr" v="294753" />
+	</node>
+	<node lat="62.430286111811164" lon="6.26106111864369" id="-3484">
+		<tag k="name" v="Øtrevatnet" />
+		<tag k="natural" v="water" />
+		<tag k="ssr:stedsnr" v="314031" />
+	</node>
+	<node lat="62.43742586862964" lon="6.213508950249755" id="-3485">
+		<tag k="fixme" v="consider place=hamlet" />
+		<tag k="name" v="Vasset" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:stedsnr" v="314886" />
+	</node>
+	<node lat="62.422027781779896" lon="6.165588880367214" id="-3486">
+		<tag k="alt_name" v="Moldværsvatnet" />
+		<tag k="name" v="Molværsvatnet" />
+		<tag k="natural" v="water" />
+		<tag k="ssr:stedsnr" v="314894" />
+	</node>
+	<node lat="62.42018055269731" lon="6.079608331147197" id="-3487">
+		<tag k="name" v="Flåa" />
+		<tag k="old_name" v="Flåna" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="314900" />
+	</node>
+	<node lat="62.41737777574532" lon="6.2925777751882475" id="-3488">
 		<tag k="name" v="Ruskenakken" />
 		<tag k="natural" v="hill" />
 		<tag k="place" v="locality" />
-		<tag k="ssr:stedsnr" v="935184" />
+		<tag k="ssr:stedsnr" v="328190" />
 	</node>
-	<node id="-6263" lat="62.4222090738" lon="6.35431664418">
-		<tag k="name" v="Brudehammaren" />
+	<node lat="62.41990000216916" lon="6.26391110985207" id="-3489">
+		<tag k="name" v="Høgstehaugen" />
 		<tag k="natural" v="hill" />
 		<tag k="place" v="locality" />
-		<tag k="ssr:stedsnr" v="935163" />
+		<tag k="ssr:stedsnr" v="328194" />
 	</node>
-	<node id="-6262" lat="62.4443027774" lon="6.20245277582">
-		<tag k="fixme" v="consider place=hamlet" />
-		<tag k="name" v="Fyllingen" />
-		<tag k="place" v="farm" />
-		<tag k="ssr:stedsnr" v="824920" />
+	<node lat="62.43700555167465" lon="6.277683335575373" id="-3490">
+		<tag k="bridge" v="yes" />
+		<tag k="layer" v="1" />
+		<tag k="name" v="Valebrua" />
+		<tag k="ssr:stedsnr" v="330316" />
 	</node>
-	<node id="-6261" lat="62.4348277764" lon="6.26458611413">
-		<tag k="name" v="Storevassholmen" />
-		<tag k="place" v="islet" />
-		<tag k="ssr:stedsnr" v="824911" />
+	<node lat="62.40426944585072" lon="6.24183055790731" id="-3491">
+		<tag k="bridge" v="yes" />
+		<tag k="layer" v="1" />
+		<tag k="name" v="Storelvbrua" />
+		<tag k="ssr:stedsnr" v="330317" />
 	</node>
-	<node id="-6260" lat="62.4477247277" lon="6.19102199607">
-		<tag k="name" v="Hattholmen" />
-		<tag k="place" v="islet" />
-		<tag k="ssr:stedsnr" v="817965" />
-	</node>
-	<node id="-6259" lat="62.4274111082" lon="6.2996388925">
-		<tag k="amenity" v="place_of_worship" />
-		<tag k="denomination" v="lutheran" />
-		<tag k="name" v="Indre Sula" />
-		<tag k="religion" v="christian" />
-		<tag k="ssr:stedsnr" v="809345" />
-	</node>
-	<node id="-6258" lat="62.4513166646" lon="6.21804444925">
-		<tag k="alt_name" v="Salneset" />
-		<tag k="name" v="Saleneset" />
-		<tag k="natural" v="cape" />
-		<tag k="old_name" v="Salen" />
-		<tag k="ssr:stedsnr" v="800019" />
-	</node>
-	<node id="-6257" lat="62.4447055562" lon="6.25028054738">
-		<tag k="name" v="Veddeholmane" />
-		<tag k="place" v="islet" />
-		<tag k="ssr:stedsnr" v="800016" />
-	</node>
-	<node id="-6256" lat="62.4416777763" lon="6.18532221993">
-		<tag k="name" v="Langevågen" />
-		<tag k="natural" v="bay" />
-		<tag k="ssr:stedsnr" v="921958" />
-	</node>
-	<node id="-6255" lat="62.4581833369" lon="6.19812499815">
-		<tag k="bay" v="fjord" />
-		<tag k="name" v="Borgundfjorden" />
-		<tag k="natural" v="bay" />
-		<tag k="ssr:stedsnr" v="921948" />
-	</node>
-	<node id="-6254" lat="62.4218861091" lon="6.07055000314">
-		<tag k="name" v="Raudnesvika" />
-		<tag k="natural" v="bay" />
-		<tag k="ssr:stedsnr" v="921914" />
-	</node>
-	<node id="-6253" lat="62.3953983942" lon="6.17883642671">
-		<tag k="fixme" v="consider place=hamlet" />
-		<tag k="name" v="Kyrkjebø" />
-		<tag k="place" v="farm" />
-		<tag k="ssr:stedsnr" v="921890" />
-	</node>
-	<node id="-6252" lat="62.4132777792" lon="6.16556388049">
-		<tag k="fixme" v="consider natural=peak for the most distinct mountains in the district" />
-		<tag k="name" v="Vardane" />
-		<tag k="natural" v="hill" />
-		<tag k="place" v="locality" />
-		<tag k="ssr:stedsnr" v="921871" />
-	</node>
-	<node id="-6251" lat="62.4299361145" lon="6.3094027707">
-		<tag k="name" v="Eidsneset" />
-		<tag k="natural" v="cape" />
-		<tag k="ssr:stedsnr" v="921045" />
-	</node>
-	<node id="-6250" lat="62.4210547837" lon="6.27198986254">
-		<tag k="fixme" v="consider place=hamlet" />
-		<tag k="name" v="Mauseidvågen" />
-		<tag k="place" v="village" />
-		<tag k="ssr:stedsnr" v="920093" />
-	</node>
-	<node id="-6249" lat="62.4246361119" lon="6.15738888847">
-		<tag k="name" v="Rødekorshytta" />
-		<tag k="place" v="isolated_dwelling" />
-		<tag k="ssr:stedsnr" v="763918" />
-	</node>
-	<node id="-6248" lat="62.445150002" lon="6.21459166444">
-		<tag k="name" v="Heidegjerdet" />
-		<tag k="place" v="farm" />
-		<tag k="ssr:stedsnr" v="763856" />
-	</node>
-	<node id="-6247" lat="62.4121277749" lon="6.09937222119">
-		<tag k="name" v="Svartedalselva" />
-		<tag k="ssr:stedsnr" v="763838" />
+	<node lat="62.422858334338166" lon="6.27871110422506" id="-3492">
+		<tag k="name" v="Tomaselva" />
+		<tag k="ssr:stedsnr" v="338804" />
 		<tag k="waterway" v="stream" />
 	</node>
-	<node id="-6246" lat="62.4199138847" lon="6.32811666028">
+	<node lat="62.4090472194922" lon="6.263036115642471" id="-3493">
+		<tag k="name" v="Bunesa" />
+		<tag k="natural" v="cape" />
+		<tag k="ssr:stedsnr" v="338826" />
+	</node>
+	<node lat="62.43796944831896" lon="6.28144166298894" id="-3494">
+		<tag k="name" v="Tranvågen" />
+		<tag k="natural" v="bay" />
+		<tag k="ssr:stedsnr" v="338917" />
+	</node>
+	<node lat="62.44637499895973" lon="6.202466664235142" id="-3495">
+		<tag k="name" v="Kippervika" />
+		<tag k="natural" v="bay" />
+		<tag k="ssr:stedsnr" v="338923" />
+	</node>
+	<node lat="62.445677780067754" lon="6.247033333715522" id="-3496">
+		<tag k="name" v="Litle Veddeholmen" />
+		<tag k="place" v="islet" />
+		<tag k="ssr:stedsnr" v="354682" />
+	</node>
+	<node lat="62.42908888815931" lon="6.339574991549472" id="-3497">
+		<tag k="name" v="Reitebøen" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:stedsnr" v="355670" />
+	</node>
+	<node lat="62.42755555236502" lon="6.295880547835132" id="-3498">
+		<tag k="name" v="Bjørkavågneset" />
+		<tag k="natural" v="cape" />
+		<tag k="ssr:stedsnr" v="361133" />
+	</node>
+	<node lat="62.398530557080186" lon="6.218666657306885" id="-3499">
+		<tag k="name" v="Båtneset" />
+		<tag k="natural" v="cape" />
+		<tag k="ssr:stedsnr" v="374134" />
+	</node>
+	<node lat="62.415347756482724" lon="6.3323868122087426" id="-3500">
+		<tag k="fixme" v="consider place=hamlet" />
 		<tag k="name" v="Sunde" />
 		<tag k="place" v="farm" />
-		<tag k="ssr:stedsnr" v="763837" />
+		<tag k="ssr:stedsnr" v="374081" />
 	</node>
-	<node id="-6245" lat="62.4111749968" lon="6.18100556051">
-		<tag k="name" v="Heia" />
-		<tag k="natural" v="hill" />
-		<tag k="place" v="locality" />
-		<tag k="ssr:stedsnr" v="763822" />
-	</node>
-	<node id="-6244" lat="62.4426499986" lon="6.18304167562">
-		<tag k="name" v="Kyrkjesundet" />
-		<tag k="natural" v="strait" />
-		<tag k="ssr:stedsnr" v="763820" />
-	</node>
-	<node id="-6243" lat="62.4178833377" lon="6.19019444265">
-		<tag k="name" v="Sauegeila" />
-		<tag k="place" v="locality" />
-		<tag k="ssr:stedsnr" v="763818" />
-	</node>
-	<node id="-6242" lat="62.4322444453" lon="6.19257500881">
-		<tag k="name" v="Harhaugen" />
-		<tag k="natural" v="hill" />
-		<tag k="place" v="locality" />
-		<tag k="ssr:stedsnr" v="763817" />
-	</node>
-	<node id="-6241" lat="62.4088500042" lon="6.32090276937">
-		<tag k="name" v="Klubben" />
-		<tag k="natural" v="cape" />
-		<tag k="ssr:stedsnr" v="763814" />
-	</node>
-	<node id="-6240" lat="62.4497749974" lon="6.22273055442">
-		<tag k="name" v="Djuphamna" />
-		<tag k="natural" v="bay" />
-		<tag k="ssr:stedsnr" v="763808" />
-	</node>
-	<node id="-6239" lat="62.4354472796" lon="6.23783521384">
+	<node lat="62.44756575921492" lon="6.203851359087848" id="-3501">
 		<tag k="fixme" v="consider place=hamlet" />
-		<tag k="name" v="Vedde" />
+		<tag k="name" v="Kipperberget" />
 		<tag k="place" v="farm" />
-		<tag k="ssr:stedsnr" v="753124" />
+		<tag k="ssr:stedsnr" v="374970" />
 	</node>
-	<node id="-6238" lat="62.4414444423" lon="6.1889333286">
-		<tag k="name" v="Syversanden" />
+	<node lat="62.418374998417455" lon="6.072405562803534" id="-3502">
+		<tag k="name" v="Raudneset" />
+		<tag k="natural" v="cape" />
+		<tag k="ssr:stedsnr" v="375920" />
+	</node>
+	<node lat="62.411716663943416" lon="6.286369448718323" id="-3503">
+		<tag k="name" v="Barlindnakkane" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="388175" />
+	</node>
+	<node lat="62.42201944163552" lon="6.302211116996608" id="-3504">
+		<tag k="name" v="Porsenakken" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="388180" />
+	</node>
+	<node lat="62.42643904552262" lon="6.310237502162059" id="-3505">
+		<tag k="fixme" v="consider place=hamlet" />
+		<tag k="name" v="Solavågseidet" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:stedsnr" v="495107" />
+	</node>
+	<node lat="62.4095083315088" lon="6.268094449070572" id="-3506">
+		<tag k="name" v="Vikesteinen" />
+		<tag k="place" v="islet" />
+		<tag k="ssr:stedsnr" v="389178" />
+	</node>
+	<node lat="62.4185527763402" lon="6.341980558532278" id="-3507">
+		<tag k="name" v="Svenakken" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="389179" />
+	</node>
+	<node lat="62.41204166214019" lon="6.256138879789984" id="-3508">
+		<tag k="bridge" v="yes" />
+		<tag k="layer" v="1" />
+		<tag k="name" v="Storhaugbrua" />
+		<tag k="ssr:stedsnr" v="391325" />
+	</node>
+	<node lat="62.44282778220812" lon="6.1805250027602" id="-3509">
+		<tag k="name" v="Lisjemassen" />
+		<tag k="place" v="islet" />
+		<tag k="ssr:stedsnr" v="392625" />
+	</node>
+	<node lat="62.42328889306723" lon="6.288447220699275" id="-3510">
+		<tag k="name" v="Furnesvikane" />
+		<tag k="natural" v="bay" />
+		<tag k="ssr:stedsnr" v="399805" />
+	</node>
+	<node lat="62.43691944816587" lon="6.178066672309552" id="-3511">
+		<tag k="name" v="Haugedammen" />
+		<tag k="ssr:stedsnr" v="399815" />
+		<tag k="waterway" v="dam" />
+	</node>
+	<node lat="62.43112499624735" lon="6.175633339977064" id="-3512">
+		<tag k="name" v="Klovsteinane" />
+		<tag k="natural" v="stone" />
+		<tag k="ssr:stedsnr" v="399820" />
+	</node>
+	<node lat="62.42461388721692" lon="6.349447224117244" id="-3513">
+		<tag k="highway" v="path" />
+		<tag k="name" v="Torvvegen" />
+		<tag k="ssr:stedsnr" v="399825" />
+	</node>
+	<node lat="62.40982499547782" lon="6.313216658874454" id="-3514">
+		<tag k="name" v="Nausa" />
+		<tag k="natural" v="ridge" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="399843" />
+	</node>
+	<node lat="62.42291388774688" lon="6.237755553596364" id="-3515">
+		<tag k="historic" v="shieling" />
+		<tag k="name" v="Djupviksætra" />
+		<tag k="place" v="isolated_dwelling" />
+		<tag k="ssr:stedsnr" v="399845" />
+	</node>
+	<node lat="62.39572499562239" lon="6.1776888887843775" id="-3516">
+		<tag k="name" v="Lassegarden" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:stedsnr" v="399848" />
+	</node>
+	<node lat="62.441341667320266" lon="6.20452777929479" id="-3517">
+		<tag k="amenity" v="community_centre" />
+		<tag k="name" v="Breidablikk" />
+		<tag k="ssr:stedsnr" v="399901" />
+	</node>
+	<node lat="62.43382500180239" lon="6.201547224953502" id="-3518">
+		<tag k="leisure" v="pitch" />
+		<tag k="name" v="Langevåg stadion" />
+		<tag k="ssr:stedsnr" v="399908" />
+	</node>
+	<node lat="62.41771110989729" lon="6.357627772282538" id="-3519">
+		<tag k="name" v="Lahella" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="399914" />
+	</node>
+	<node lat="62.42966944427575" lon="6.352136113004894" id="-3520">
+		<tag k="name" v="Veibust næringsområde" />
+		<tag k="place" v="quarter" />
+		<tag k="ssr:stedsnr" v="413385" />
+	</node>
+	<node lat="62.43041388470385" lon="6.362497220745963" id="-3521">
+		<tag k="name" v="Pinesundet" />
+		<tag k="natural" v="strait" />
+		<tag k="ssr:stedsnr" v="416133" />
+	</node>
+	<node lat="62.44650833137691" lon="6.1790138926001426" id="-3522">
+		<tag k="fixme" v="consider seamark:type=rock or natural=shoal" />
+		<tag k="name" v="Seiskjeret" />
+		<tag k="place" v="islet" />
+		<tag k="ssr:stedsnr" v="422670" />
+	</node>
+	<node lat="62.436680197513134" lon="6.12540333018703" id="-3523">
+		<tag k="name" v="Flesje" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="435988" />
+	</node>
+	<node lat="62.41343888734704" lon="6.292408325325132" id="-3524">
+		<tag k="name" v="Svartevatnet" />
+		<tag k="natural" v="water" />
+		<tag k="ssr:stedsnr" v="436601" />
+	</node>
+	<node lat="62.437791663615535" lon="6.240738893280443" id="-3525">
+		<tag k="name" v="Veddevika" />
+		<tag k="natural" v="bay" />
+		<tag k="ssr:stedsnr" v="436064" />
+	</node>
+	<node lat="62.406252775661564" lon="6.1548999942449125" id="-3526">
+		<tag k="fixme" v="consider natural=peak for the most distinct mountains in the district" />
+		<tag k="name" v="Røysahornet" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="436874" />
+	</node>
+	<node lat="62.410119442784975" lon="6.094205553846882" id="-3527">
+		<tag k="alt_name" v="Oksevik" />
+		<tag k="name" v="Oksavik" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:stedsnr" v="436926" />
+	</node>
+	<node lat="62.40207880361831" lon="6.1318440874665106" id="-3528">
+		<tag k="alt_name" v="Sulabakken;Sulabakk" />
+		<tag k="fixme" v="consider place=hamlet" />
+		<tag k="name" v="Sulebakk" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:stedsnr" v="436878" />
+	</node>
+	<node lat="62.433944446111504" lon="6.263925000178228" id="-3529">
+		<tag k="name" v="Storevatnet" />
+		<tag k="natural" v="water" />
+		<tag k="ssr:stedsnr" v="496029" />
+		<tag k="water" v="lake" />
+	</node>
+	<node lat="62.430743763341454" lon="6.2807248489959395" id="-3530">
+		<tag k="fixme" v="consider place=hamlet" />
+		<tag k="name" v="Rørstad" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:stedsnr" v="496047" />
+	</node>
+	<node lat="62.39776254365448" lon="6.145489777190795" id="-3531">
+		<tag k="fixme" v="consider place=hamlet" />
+		<tag k="name" v="Røysa" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:stedsnr" v="496877" />
+	</node>
+	<node lat="62.39513283342728" lon="6.166865914009895" id="-3532">
+		<tag k="amenity" v="ferry_terminal" />
+		<tag k="name" v="Sulesund ferjekai" />
+		<tag k="ssr:stedsnr" v="496895" />
+	</node>
+	<node lat="62.415277778609095" lon="6.133744442215701" id="-3533">
+		<tag k="name" v="Sula" />
+		<tag k="place" v="island" />
+		<tag k="ssr:stedsnr" v="496927" />
+	</node>
+	<node lat="62.42740555710231" lon="6.316980560287597" id="-3534">
+		<tag k="bridge" v="yes" />
+		<tag k="layer" v="1" />
+		<tag k="name" v="Eidsbrua" />
+		<tag k="ssr:stedsnr" v="506477" />
+	</node>
+	<node lat="62.41795833318893" lon="6.315613880636107" id="-3535">
+		<tag k="name" v="Geitlihaugen" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="510200" />
+	</node>
+	<node lat="62.43123889136646" lon="6.266905554369399" id="-3536">
+		<tag k="name" v="Ferdahaugen" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="510222" />
+	</node>
+	<node lat="62.41373332959613" lon="6.327536110760812" id="-3537">
+		<tag k="amenity" v="ferry_terminal" />
+		<tag k="name" v="Solavågen ferjekai" />
+		<tag k="old_name" v="Sunde ferjekai" />
+		<tag k="ssr:stedsnr" v="512142" />
+	</node>
+	<node lat="62.42309321166772" lon="6.272803616376708" id="-3538">
+		<tag k="fixme" v="consider place=hamlet" />
+		<tag k="name" v="Mauseidvåg" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:stedsnr" v="515393" />
+	</node>
+	<node lat="62.42959444426626" lon="6.277366657943632" id="-3539">
+		<tag k="name" v="Litlevågen" />
+		<tag k="natural" v="bay" />
+		<tag k="ssr:stedsnr" v="520848" />
+	</node>
+	<node lat="62.40103610772708" lon="6.2347500033326595" id="-3540">
+		<tag k="name" v="Raudhammaren" />
+		<tag k="natural" v="cliff" />
+		<tag k="ssr:stedsnr" v="520886" />
+	</node>
+	<node lat="62.42000832923997" lon="6.315663894241513" id="-3541">
+		<tag k="name" v="Solavåg" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:stedsnr" v="520888" />
+	</node>
+	<node lat="62.41679444062185" lon="6.323694449187665" id="-3542">
+		<tag k="name" v="Nausthaugen" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="521886" />
+	</node>
+	<node lat="62.41885555903556" lon="6.330894436182384" id="-3543">
+		<tag k="fixme" v="consider natural=peak for the most distinct mountains in the district" />
+		<tag k="name" v="Sundnakken" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="521836" />
+	</node>
+	<node lat="62.418702781216254" lon="6.325463884861992" id="-3544">
+		<tag k="name" v="Valane" />
+		<tag k="natural" v="strait" />
+		<tag k="ssr:stedsnr" v="521927" />
+	</node>
+	<node lat="62.43731388693333" lon="6.285522220877831" id="-3545">
+		<tag k="name" v="Korsneset" />
+		<tag k="place" v="quarter" />
+		<tag k="ssr:stedsnr" v="534363" />
+	</node>
+	<node lat="62.44525000050356" lon="6.1847361153462925" id="-3546">
+		<tag k="name" v="Katterumpa" />
 		<tag k="natural" v="shoal" />
 		<tag k="place" v="locality" />
-		<tag k="ssr:stedsnr" v="908713" />
+		<tag k="ssr:stedsnr" v="543651" />
 	</node>
-	<node id="-6237" lat="62.4033055512" lon="6.17206388763">
+	<node lat="62.43536666782344" lon="6.227649999090371" id="-3547">
+		<tag k="name" v="Gjerdshaugen" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="543654" />
+	</node>
+	<node lat="62.44920555266695" lon="6.208138897030956" id="-3548">
+		<tag k="name" v="Jyljebøflua" />
+		<tag k="natural" v="shoal" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="543661" />
+	</node>
+	<node lat="62.408666668713664" lon="6.134202770609356" id="-3549">
+		<tag k="fixme" v="consider natural=peak for the most distinct mountains in the district" />
+		<tag k="name" v="Sulabakkhornet" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="556881" />
+	</node>
+	<node lat="62.42779833484135" lon="6.298401143816882" id="-3550">
+		<tag k="fixme" v="consider place=hamlet" />
+		<tag k="name" v="Bjørkavåg" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:stedsnr" v="557042" />
+	</node>
+	<node lat="62.401091665744815" lon="6.139708327951479" id="-3551">
+		<tag k="fixme" v="multiple name tags, choose one and add the other to alt_name" />
+		<tag k="name" v="Ranten;Sulabakken" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:stedsnr" v="557881" />
+	</node>
+	<node lat="62.40354166985541" lon="6.188597228500527" id="-3552">
+		<tag k="fixme" v="consider natural=peak for the most distinct mountains in the district" />
+		<tag k="name" v="Skallen" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="557887" />
+	</node>
+	<node lat="62.41702221959969" lon="6.231961110430748" id="-3553">
+		<tag k="name" v="Rørstadstølen" />
+		<tag k="place" v="isolated_dwelling" />
+		<tag k="ssr:stedsnr" v="566168" />
+	</node>
+	<node lat="62.41113055152219" lon="6.266591673216174" id="-3554">
+		<tag k="name" v="Bakkeholmen" />
+		<tag k="place" v="islet" />
+		<tag k="ssr:stedsnr" v="570144" />
+	</node>
+	<node lat="62.40952777645544" lon="6.2976055487316245" id="-3555">
+		<tag k="name" v="Storhjellhaugen" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="570164" />
+	</node>
+	<node lat="62.40633889085684" lon="6.2898361198173705" id="-3556">
+		<tag k="name" v="Sætrenakken" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="570165" />
+	</node>
+	<node lat="62.42083611026226" lon="6.2837805486840494" id="-3557">
+		<tag k="name" v="Furnesfjellet" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="570167" />
+	</node>
+	<node lat="62.440819447453656" lon="6.189961118380991" id="-3558">
+		<tag k="name" v="Vågstorget" />
+		<tag k="place" v="square" />
+		<tag k="ssr:stedsnr" v="570452" />
+	</node>
+	<node lat="62.42466666906484" lon="6.3441333355884195" id="-3559">
+		<tag k="name" v="Kamben" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="571177" />
+	</node>
+	<node lat="62.44935555852076" lon="6.23102499582746" id="-3560">
+		<tag k="name" v="Svinholmen" />
+		<tag k="place" v="islet" />
+		<tag k="ssr:stedsnr" v="573182" />
+	</node>
+	<node lat="62.45068820173272" lon="6.180214895963467" id="-3561">
+		<tag k="name" v="Brattholmen" />
+		<tag k="place" v="islet" />
+		<tag k="ssr:stedsnr" v="573529" />
+	</node>
+	<node lat="62.43038888748908" lon="6.257713896434026" id="-3562">
+		<tag k="name" v="Lisjevatnet" />
+		<tag k="natural" v="water" />
+		<tag k="ssr:stedsnr" v="573916" />
+	</node>
+	<node lat="62.434566664713856" lon="6.246724999243754" id="-3563">
+		<tag k="name" v="Klingrevatnet" />
+		<tag k="natural" v="water" />
+		<tag k="ssr:stedsnr" v="573917" />
+	</node>
+	<node lat="62.44779721811178" lon="6.206427770652104" id="-3564">
+		<tag k="fixme" v="consider place=suburb, village or hamlet" />
+		<tag k="name" v="Kipperberg" />
+		<tag k="place" v="quarter" />
+		<tag k="ssr:stedsnr" v="581788" />
+	</node>
+	<node lat="62.435511107674444" lon="6.202752773673614" id="-3565">
+		<tag k="name" v="Vassetelva" />
+		<tag k="ssr:stedsnr" v="581854" />
+		<tag k="waterway" v="stream" />
+	</node>
+	<node lat="62.440772219946155" lon="6.19777778130092" id="-3566">
+		<tag k="name" v="Djupdalen" />
+		<tag k="natural" v="valley" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="581857" />
+	</node>
+	<node lat="62.41303611307898" lon="6.0831111019207285" id="-3567">
+		<tag k="name" v="Ølkonå" />
+		<tag k="natural" v="stone" />
+		<tag k="ssr:stedsnr" v="581867" />
+	</node>
+	<node lat="62.40820277542539" lon="6.2960638916850655" id="-3568">
+		<tag k="name" v="Halseskaret" />
+		<tag k="natural" v="valley" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="581924" />
+	</node>
+	<node lat="62.43199444631548" lon="6.177811120064816" id="-3569">
+		<tag k="name" v="Rotene" />
+		<tag k="natural" v="slope" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="581926" />
+	</node>
+	<node lat="62.436627780447935" lon="6.17765833873516" id="-3570">
+		<tag k="name" v="Haugedammen" />
+		<tag k="place" v="quarter" />
+		<tag k="ssr:stedsnr" v="595345" />
+	</node>
+	<node lat="62.442236108618786" lon="6.166349998616974" id="-3571">
+		<tag k="name" v="Sandvikflua" />
+		<tag k="natural" v="shoal" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="597627" />
+	</node>
+	<node lat="62.398162153128425" lon="6.216901321106215" id="-3572">
+		<tag k="alt_name" v="Båtnes" />
+		<tag k="fixme" v="consider place=hamlet" />
+		<tag k="name" v="Båtneset" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:stedsnr" v="617905" />
+	</node>
+	<node lat="62.42610555586393" lon="6.2011249956340695" id="-3573">
+		<tag k="name" v="Svanselva" />
+		<tag k="ssr:stedsnr" v="617917" />
+		<tag k="waterway" v="stream" />
+	</node>
+	<node lat="62.45264721866521" lon="6.188227781272855" id="-3575">
+		<tag k="name" v="Rognholmen" />
+		<tag k="place" v="islet" />
+		<tag k="ssr:stedsnr" v="617947" />
+	</node>
+	<node lat="62.452229890549084" lon="6.202607845035559" id="-3576">
+		<tag k="name" v="Gåsholmen" />
+		<tag k="place" v="islet" />
+		<tag k="ssr:stedsnr" v="617948" />
+	</node>
+	<node lat="62.44715833338595" lon="6.132511117704479" id="-3577">
+		<tag k="bay" v="fjord" />
+		<tag k="name" v="Hessafjorden" />
+		<tag k="natural" v="bay" />
+		<tag k="ssr:stedsnr" v="617955" />
+	</node>
+	<node lat="62.4434877775999" lon="6.185774940944434" id="-3578">
+		<tag k="fixme" v="consider place=hamlet" />
+		<tag k="name" v="Stadsneset" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:stedsnr" v="617956" />
+	</node>
+	<node lat="62.43382778220642" lon="6.078550008661934" id="-3579">
+		<tag k="alt_name" v="Høgenausa;Trælbånausa" />
+		<tag k="fixme" v="consider natural=peak for the most distinct mountains in the district" />
+		<tag k="name" v="Trælbodnausa" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="617957" />
+	</node>
+	<node lat="62.436128243951" lon="6.142453137691153" id="-3580">
+		<tag k="name" v="Kjellingset" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="617966" />
+	</node>
+	<node lat="62.41081944753454" lon="6.2630750042429435" id="-3581">
+		<tag k="name" v="Eikremsholmen" />
+		<tag k="place" v="islet" />
+		<tag k="ssr:stedsnr" v="631157" />
+	</node>
+	<node lat="62.41451678331868" lon="6.320188574491266" id="-3582">
+		<tag k="fixme" v="consider place=hamlet" />
+		<tag k="name" v="Solavåg" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:stedsnr" v="633166" />
+	</node>
+	<node lat="62.447424997626115" lon="6.176244442224368" id="-3583">
+		<tag k="name" v="Notholmen" />
+		<tag k="place" v="islet" />
+		<tag k="ssr:stedsnr" v="634956" />
+	</node>
+	<node lat="62.44579722425303" lon="6.191111105939267" id="-3584">
+		<tag k="name" v="Gulholmen" />
+		<tag k="place" v="islet" />
+		<tag k="ssr:stedsnr" v="634961" />
+	</node>
+	<node lat="62.40464999915747" lon="6.117347231876463" id="-3585">
+		<tag k="name" v="Lynglegda" />
+		<tag k="natural" v="valley" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="641760" />
+	</node>
+	<node lat="62.4039083339546" lon="6.148563886116617" id="-3586">
+		<tag k="name" v="Adensgjølelva" />
+		<tag k="ssr:stedsnr" v="642833" />
+		<tag k="waterway" v="stream" />
+	</node>
+	<node lat="62.43557500124027" lon="6.2576555642427865" id="-3587">
+		<tag k="name" v="Storevatnet" />
+		<tag k="natural" v="water" />
+		<tag k="ssr:stedsnr" v="642801" />
+		<tag k="water" v="lake" />
+	</node>
+	<node lat="62.404191667663696" lon="6.294880564325593" id="-3588">
+		<tag k="name" v="Ramsvikhaugane" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="642895" />
+	</node>
+	<node lat="62.40396388751845" lon="6.288183325529701" id="-3589">
+		<tag k="name" v="Litleneset" />
+		<tag k="natural" v="cape" />
+		<tag k="ssr:stedsnr" v="642896" />
+	</node>
+	<node lat="62.44529166971525" lon="6.179227781104232" id="-3590">
+		<tag k="name" v="Skinnbroka" />
+		<tag k="natural" v="shoal" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="665723" />
+	</node>
+	<node lat="62.430391662834126" lon="6.355697219271106" id="-3591">
+		<tag k="name" v="Veibustvågen" />
+		<tag k="place" v="quarter" />
+		<tag k="ssr:stedsnr" v="716393" />
+	</node>
+	<node lat="62.422374996572785" lon="6.219358327684504" id="-3592">
+		<tag k="alt_name" v="Veddeberget" />
+		<tag k="name" v="Veddehjellane" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="738096" />
+	</node>
+	<node lat="62.3958777764643" lon="6.197038894718512" id="-3593">
+		<tag k="alt_name" v="Vindneset" />
+		<tag k="name" v="Vindsneset" />
+		<tag k="natural" v="cape" />
+		<tag k="ssr:stedsnr" v="738919" />
+	</node>
+	<node lat="62.43567499744807" lon="6.234577779878219" id="-3594">
+		<tag k="fixme" v="consider place=hamlet" />
+		<tag k="name" v="Vedde" />
+		<tag k="place" v="village" />
+		<tag k="ssr:stedsnr" v="739032" />
+	</node>
+	<node lat="62.40491944171892" lon="6.2696138901725496" id="-3595">
+		<tag k="name" v="Brauta" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:stedsnr" v="739093" />
+	</node>
+	<node lat="62.40330555119107" lon="6.172063887632843" id="-3596">
 		<tag k="alt_name" v="Sulesundnipen" />
 		<tag k="fixme" v="consider natural=peak for the most distinct mountains in the district" />
 		<tag k="name" v="Sundsnipa" />
@@ -2144,511 +2252,390 @@
 		<tag k="place" v="locality" />
 		<tag k="ssr:stedsnr" v="739867" />
 	</node>
-	<node id="-6236" lat="62.4215777815" lon="6.20294444437">
+	<node lat="62.43067500116127" lon="6.132425002760492" id="-3597">
+		<tag k="fixme" v="consider natural=peak for the most distinct mountains in the district" />
+		<tag k="name" v="Kjellingsethornet" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="739889" />
+	</node>
+	<node lat="62.421505554488306" lon="6.212733337805467" id="-3598">
+		<tag k="name" v="Purketjønna" />
+		<tag k="natural" v="water" />
+		<tag k="ssr:stedsnr" v="739910" />
+	</node>
+	<node lat="62.42157778149152" lon="6.20294444437319" id="-3599">
 		<tag k="fixme" v="consider natural=peak for the most distinct mountains in the district" />
 		<tag k="name" v="Svanshornet" />
 		<tag k="natural" v="hill" />
 		<tag k="place" v="locality" />
 		<tag k="ssr:stedsnr" v="739911" />
 	</node>
-	<node id="-6235" lat="62.4215055545" lon="6.21273333781">
-		<tag k="name" v="Purketjønna" />
+	<node lat="62.41430833180317" lon="6.263666667502707" id="-3600">
+		<tag k="name" v="Tenneskjeret" />
+		<tag k="place" v="islet" />
+		<tag k="ssr:stedsnr" v="753147" />
+	</node>
+	<node lat="62.42438055678135" lon="6.3356722267232675" id="-3601">
+		<tag k="name" v="Høgefjellet" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="753151" />
+	</node>
+	<node lat="62.4432064569544" lon="6.181844224972002" id="-3602">
+		<tag k="name" v="Massholmen" />
+		<tag k="place" v="islet" />
+		<tag k="ssr:stedsnr" v="756575" />
+	</node>
+	<node lat="62.443955554497585" lon="6.218933339566572" id="-3603">
+		<tag k="name" v="Iglevatnet" />
 		<tag k="natural" v="water" />
-		<tag k="ssr:stedsnr" v="739910" />
+		<tag k="ssr:stedsnr" v="756936" />
 	</node>
-	<node id="-6233" lat="62.4366361127" lon="6.22286111174">
-		<tag k="name" v="Gjerde" />
+	<node lat="62.449411107789906" lon="6.191538894989699" id="-3604">
+		<tag k="name" v="Svinholmen" />
+		<tag k="place" v="islet" />
+		<tag k="ssr:stedsnr" v="756969" />
+	</node>
+	<node lat="62.44264999864546" lon="6.1830416756243975" id="-3605">
+		<tag k="name" v="Kyrkjesundet" />
+		<tag k="natural" v="strait" />
+		<tag k="ssr:stedsnr" v="763820" />
+	</node>
+	<node lat="62.411174996834866" lon="6.181005560510082" id="-3606">
+		<tag k="name" v="Heia" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="763822" />
+	</node>
+	<node lat="62.4199138846567" lon="6.328116660282099" id="-3607">
+		<tag k="name" v="Sunde" />
 		<tag k="place" v="farm" />
-		<tag k="ssr:stedsnr" v="901688" />
+		<tag k="ssr:stedsnr" v="763837" />
 	</node>
-	<node id="-6232" lat="62.4132749973" lon="6.31545278083">
-		<tag k="name" v="Nathaugen" />
-		<tag k="place" v="quarter" />
-		<tag k="ssr:stedsnr" v="899379" />
+	<node lat="62.412127774893065" lon="6.09937222118638" id="-3608">
+		<tag k="name" v="Svartedalselva" />
+		<tag k="ssr:stedsnr" v="763838" />
+		<tag k="waterway" v="stream" />
 	</node>
-	<node id="-6231" lat="62.4382361108" lon="6.2242416605">
-		<tag k="name" v="Bratthaugen" />
-		<tag k="place" v="quarter" />
-		<tag k="ssr:stedsnr" v="716331" />
+	<node lat="62.44458611054232" lon="6.230586112621963" id="-3609">
+		<tag k="name" v="Urkevika" />
+		<tag k="natural" v="bay" />
+		<tag k="ssr:stedsnr" v="763927" />
 	</node>
-	<node id="-6230" lat="62.4324444426" lon="6.15913612057">
-		<tag k="highway" v="path" />
-		<tag k="name" v="Trippe" />
-		<tag k="ssr:stedsnr" v="885894" />
+	<node lat="62.446227779217665" lon="6.2102249913066565" id="-3610">
+		<tag k="name" v="Straumen" />
+		<tag k="ssr:stedsnr" v="763932" />
+		<tag k="waterway" v="stream" />
 	</node>
-	<node id="-6229" lat="62.4260861089" lon="6.18560000561">
-		<tag k="name" v="Koppen" />
-		<tag k="place" v="isolated_dwelling" />
-		<tag k="ssr:stedsnr" v="885892" />
+	<node lat="62.443791662496665" lon="6.171244443171669" id="-3611">
+		<tag k="name" v="Bollflua" />
+		<tag k="natural" v="shoal" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="779624" />
 	</node>
-	<node id="-6228" lat="62.4437583354" lon="6.19728055413">
-		<tag k="landuse" v="meadow" />
-		<tag k="name" v="Nymarka" />
-		<tag k="ssr:stedsnr" v="885884" />
+	<node lat="62.43113888719001" lon="6.354391664661041" id="-3612">
+		<tag k="name" v="Klokkarneset" />
+		<tag k="natural" v="cape" />
+		<tag k="ssr:stedsnr" v="780145" />
 	</node>
-	<node id="-6227" lat="62.4210805569" lon="6.3210083428">
+	<node lat="62.41055277961227" lon="6.265169450268372" id="-3613">
+		<tag k="name" v="Mausavatnet" />
+		<tag k="natural" v="water" />
+		<tag k="ssr:stedsnr" v="799064" />
+		<tag k="water" v="lake" />
+	</node>
+	<node lat="62.411149999590855" lon="6.239377773878172" id="-3614">
+		<tag k="name" v="Tverråna" />
+		<tag k="ssr:stedsnr" v="799065" />
+		<tag k="waterway" v="stream" />
+	</node>
+	<node lat="62.451316664562036" lon="6.218044449250816" id="-3615">
+		<tag k="alt_name" v="Salneset" />
+		<tag k="name" v="Saleneset" />
+		<tag k="natural" v="cape" />
+		<tag k="old_name" v="Salen" />
+		<tag k="ssr:stedsnr" v="800019" />
+	</node>
+	<node lat="62.440847218728386" lon="6.191374992666857" id="-3616">
+		<tag k="alt_name" v="Langevågen" />
+		<tag k="name" v="Langevåg" />
+		<tag k="place" v="village" />
+		<tag k="ssr:stedsnr" v="800956" />
+	</node>
+	<node lat="62.42741110824368" lon="6.299638892497998" id="-3617">
+		<tag k="amenity" v="place_of_worship" />
+		<tag k="denomination" v="lutheran" />
+		<tag k="name" v="Indre Sula" />
+		<tag k="religion" v="christian" />
+		<tag k="ssr:stedsnr" v="809345" />
+	</node>
+	<node lat="62.441502774335305" lon="6.18737777907831" id="-3618">
+		<tag k="name" v="Syverholmen" />
+		<tag k="place" v="islet" />
+		<tag k="ssr:stedsnr" v="814231" />
+	</node>
+	<node lat="62.43676666499413" lon="6.05335554708925" id="-3619">
+		<tag k="fixme" v="consider seamark:type=rock or natural=shoal" />
+		<tag k="name" v="Eltraskjeret" />
+		<tag k="place" v="islet" />
+		<tag k="ssr:stedsnr" v="814233" />
+	</node>
+	<node lat="62.415372220138906" lon="6.2961472173815185" id="-3620">
+		<tag k="name" v="Dorgerhaugen" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="814258" />
+	</node>
+	<node lat="62.41686666246542" lon="6.274144442508416" id="-3621">
+		<tag k="name" v="Nakken" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="814265" />
+	</node>
+	<node lat="62.41019166798952" lon="6.3022111179154034" id="-3622">
+		<tag k="name" v="Lisjehjellhaugen" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="814267" />
+	</node>
+	<node lat="62.44772472774989" lon="6.191021996068645" id="-3623">
+		<tag k="name" v="Hattholmen" />
+		<tag k="place" v="islet" />
+		<tag k="ssr:stedsnr" v="817965" />
+	</node>
+	<node lat="62.448605026660196" lon="6.210551897549669" id="-3624">
+		<tag k="name" v="Kråna" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="824831" />
+	</node>
+	<node lat="62.41802778090389" lon="6.267963894021748" id="-3625">
+		<tag k="name" v="Mausaelva" />
+		<tag k="ssr:stedsnr" v="824833" />
+		<tag k="waterway" v="stream" />
+	</node>
+	<node lat="62.43705833567608" lon="6.202822221866412" id="-3626">
+		<tag k="name" v="Sloghaugen" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="824841" />
+	</node>
+	<node lat="62.401902782183875" lon="6.259380561788723" id="-3627">
+		<tag k="alt_name" v="Fluaberget" />
+		<tag k="name" v="Fludaberget" />
+		<tag k="natural" v="cape" />
+		<tag k="ssr:stedsnr" v="824870" />
+	</node>
+	<node lat="62.43429722264971" lon="6.076147217959509" id="-3628">
+		<tag k="fixme" v="consider natural=peak for the most distinct mountains in the district" />
+		<tag k="name" v="Eltrane" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="824941" />
+	</node>
+	<node lat="62.413261110691835" lon="6.205394439988398" id="-3629">
+		<tag k="fixme" v="consider natural=peak for the most distinct mountains in the district" />
+		<tag k="name" v="Taustua" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="824849" />
+	</node>
+	<node lat="62.436627453268194" lon="6.2249018821829285" id="-3630">
+		<tag k="fixme" v="consider place=hamlet" />
+		<tag k="name" v="Veddegjerdet" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:stedsnr" v="847685" />
+	</node>
+	<node lat="62.446977776562925" lon="6.197352768380986" id="-3631">
+		<tag k="name" v="Indre Karlholmen" />
+		<tag k="place" v="islet" />
+		<tag k="ssr:stedsnr" v="847698" />
+	</node>
+	<node lat="62.41364888293226" lon="6.3323289258977" id="-3632">
+		<tag k="name" v="Storhaugodden" />
+		<tag k="natural" v="cape" />
+		<tag k="ssr:stedsnr" v="847789" />
+	</node>
+	<node lat="62.4339861128362" lon="6.2893305609617185" id="-3633">
+		<tag k="name" v="Sandvika" />
+		<tag k="natural" v="bay" />
+		<tag k="ssr:stedsnr" v="847791" />
+	</node>
+	<node lat="62.410897220142175" lon="6.319266659398935" id="-3634">
+		<tag k="name" v="Høghaugen" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:stedsnr" v="860131" />
+	</node>
+	<node lat="62.42856110737047" lon="6.249127776954441" id="-3635">
+		<tag k="name" v="Gjølvatnet" />
+		<tag k="natural" v="water" />
+		<tag k="ssr:stedsnr" v="861031" />
+		<tag k="water" v="lake" />
+	</node>
+	<node lat="62.40329567904624" lon="6.2338228417034784" id="-3636">
+		<tag k="fixme" v="consider place=hamlet" />
+		<tag k="name" v="Hjellen" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:stedsnr" v="873712" />
+	</node>
+	<node lat="62.40439722470555" lon="6.258938885097297" id="-3637">
+		<tag k="name" v="Eikremsnakken" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="874225" />
+	</node>
+	<node lat="62.421219442983556" lon="6.262124993434778" id="-3638">
+		<tag k="name" v="Svartevasshaugen" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="874247" />
+	</node>
+	<node lat="62.42108055687055" lon="6.321008342796717" id="-3639">
 		<tag k="name" v="Rabbeneset" />
 		<tag k="natural" v="cape" />
 		<tag k="ssr:stedsnr" v="885873" />
 	</node>
-	<node id="-6226" lat="62.4500388891" lon="6.21072778127">
-		<tag k="name" v="Urvika" />
-		<tag k="natural" v="bay" />
-		<tag k="ssr:stedsnr" v="885801" />
+	<node lat="62.44375833535268" lon="6.197280554128085" id="-3640">
+		<tag k="landuse" v="meadow" />
+		<tag k="name" v="Nymarka" />
+		<tag k="ssr:stedsnr" v="885884" />
 	</node>
-	<node id="-6225" lat="62.4385888894" lon="6.14971111261">
-		<tag k="name" v="Æhammarsvika" />
-		<tag k="natural" v="bay" />
-		<tag k="ssr:stedsnr" v="885797" />
+	<node lat="62.42433055980937" lon="6.328616667006482" id="-3641">
+		<tag k="name" v="Leirvågdalen" />
+		<tag k="natural" v="valley" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="885819" />
 	</node>
-	<node id="-6224" lat="62.4014333362" lon="6.12328889704">
-		<tag k="name" v="Høgfloget" />
-		<tag k="natural" v="cliff" />
-		<tag k="ssr:stedsnr" v="885835" />
-	</node>
-	<node id="-6223" lat="62.4066111117" lon="6.09882223008">
+	<node lat="62.406611111743786" lon="6.098822230084942" id="-3642">
 		<tag k="name" v="Hågarn" />
 		<tag k="natural" v="stone" />
 		<tag k="ssr:stedsnr" v="885832" />
 	</node>
-	<node id="-6222" lat="62.4265250035" lon="6.17911388111">
-		<tag k="alt_name" v="Moldværselva" />
-		<tag k="name" v="Molværselva" />
-		<tag k="ssr:stedsnr" v="678905" />
-		<tag k="waterway" v="stream" />
+	<node lat="62.40143333618535" lon="6.123288897041093" id="-3643">
+		<tag k="name" v="Høgfloget" />
+		<tag k="natural" v="cliff" />
+		<tag k="ssr:stedsnr" v="885835" />
 	</node>
-	<node id="-6221" lat="62.4072666666" lon="6.32846111398">
-		<tag k="alt_name" v="Solavågflua" />
-		<tag k="name" v="Solavågsfluda" />
-		<tag k="natural" v="shoal" />
-		<tag k="place" v="locality" />
-		<tag k="ssr:stedsnr" v="678121" />
-	</node>
-	<node id="-6220" lat="62.4427166654" lon="6.25821944802">
-		<tag k="name" v="Djupvika" />
-		<tag k="natural" v="bay" />
-		<tag k="ssr:stedsnr" v="879363" />
-	</node>
-	<node id="-6219" lat="62.4410583352" lon="6.28304999315">
-		<tag k="name" v="Tranvågflua" />
-		<tag k="natural" v="shoal" />
-		<tag k="place" v="locality" />
-		<tag k="ssr:stedsnr" v="665811" />
-	</node>
-	<node id="-6218" lat="62.403908334" lon="6.14856388612">
-		<tag k="name" v="Adensgjølelva" />
-		<tag k="ssr:stedsnr" v="642833" />
-		<tag k="waterway" v="stream" />
-	</node>
-	<node id="-6217" lat="62.4141277804" lon="6.20227499246">
-		<tag k="name" v="Taustudalen" />
-		<tag k="natural" v="valley" />
-		<tag k="place" v="locality" />
-		<tag k="ssr:stedsnr" v="642823" />
-	</node>
-	<node id="-6216" lat="62.4389055551" lon="6.21076112044">
-		<tag k="amenity" v="school" />
-		<tag k="name" v="Sulahallen" />
-		<tag k="ssr:stedsnr" v="642810" />
-	</node>
-	<node id="-6215" lat="62.4457972243" lon="6.19111110594">
-		<tag k="name" v="Gulholmen" />
-		<tag k="place" v="islet" />
-		<tag k="ssr:stedsnr" v="634961" />
-	</node>
-	<node id="-6214" lat="62.4474249976" lon="6.17624444222">
-		<tag k="name" v="Notholmen" />
-		<tag k="place" v="islet" />
-		<tag k="ssr:stedsnr" v="634956" />
-	</node>
-	<node id="-6213" lat="62.4145167833" lon="6.32018857449">
-		<tag k="fixme" v="consider place=hamlet" />
-		<tag k="name" v="Solavåg" />
-		<tag k="place" v="farm" />
-		<tag k="ssr:stedsnr" v="633166" />
-	</node>
-	<node id="-6212" lat="62.4108194475" lon="6.26307500424">
-		<tag k="name" v="Eikremsholmen" />
-		<tag k="place" v="islet" />
-		<tag k="ssr:stedsnr" v="631157" />
-	</node>
-	<node id="-6211" lat="62.440999999" lon="6.19715555668">
-		<tag k="name" v="Løken" />
+	<node lat="62.426086108944524" lon="6.185600005611389" id="-3644">
+		<tag k="name" v="Koppen" />
 		<tag k="place" v="isolated_dwelling" />
-		<tag k="ssr:stedsnr" v="726698" />
+		<tag k="ssr:stedsnr" v="885892" />
 	</node>
-	<node id="-6210" lat="62.436128244" lon="6.14245313769">
-		<tag k="name" v="Kjellingset" />
-		<tag k="place" v="locality" />
-		<tag k="ssr:stedsnr" v="617966" />
+	<node lat="62.43244444259821" lon="6.1591361205659805" id="-3645">
+		<tag k="highway" v="path" />
+		<tag k="name" v="Trippe" />
+		<tag k="ssr:stedsnr" v="885894" />
 	</node>
-	<node id="-6209" lat="62.4338277822" lon="6.07855000866">
-		<tag k="alt_name" v="Høgenausa;Trælbånausa" />
-		<tag k="fixme" v="consider natural=peak for the most distinct mountains in the district" />
-		<tag k="name" v="Trælbodnausa" />
-		<tag k="natural" v="hill" />
-		<tag k="place" v="locality" />
-		<tag k="ssr:stedsnr" v="617957" />
-	</node>
-	<node id="-6208" lat="62.4434877776" lon="6.18577494094">
-		<tag k="fixme" v="consider place=hamlet" />
-		<tag k="name" v="Stadsneset" />
-		<tag k="place" v="farm" />
-		<tag k="ssr:stedsnr" v="617956" />
-	</node>
-	<node id="-6207" lat="62.4471583334" lon="6.1325111177">
-		<tag k="bay" v="fjord" />
-		<tag k="name" v="Hessafjorden" />
+	<node lat="62.415011111668136" lon="6.32531111024774" id="-3646">
+		<tag k="name" v="Solavågen" />
 		<tag k="natural" v="bay" />
-		<tag k="ssr:stedsnr" v="617955" />
+		<tag k="ssr:stedsnr" v="937177" />
 	</node>
-	<node id="-6206" lat="62.4261055559" lon="6.20112499563">
-		<tag k="name" v="Svanselva" />
-		<tag k="ssr:stedsnr" v="617917" />
-		<tag k="waterway" v="stream" />
-	</node>
-	<node id="-6205" lat="62.3981621531" lon="6.21690132111">
-		<tag k="alt_name" v="Båtnes" />
-		<tag k="fixme" v="consider place=hamlet" />
-		<tag k="name" v="Båtneset" />
-		<tag k="place" v="farm" />
-		<tag k="ssr:stedsnr" v="617905" />
-	</node>
-	<node id="-6204" lat="62.4303916628" lon="6.35569721927">
-		<tag k="name" v="Veibustvågen" />
-		<tag k="place" v="quarter" />
-		<tag k="ssr:stedsnr" v="716393" />
-	</node>
-	<node id="-6203" lat="62.448449999" lon="6.17355556336">
-		<tag k="name" v="Lyktholmen" />
-		<tag k="old_name" v="Gråtarholmen" />
+	<node lat="62.4494083326422" lon="6.230030555335054" id="-3647">
+		<tag k="name" v="Randiholmen" />
 		<tag k="place" v="islet" />
-		<tag k="ssr:stedsnr" v="573948" />
+		<tag k="ssr:stedsnr" v="938170" />
 	</node>
-	<node id="-6202" lat="62.4345666647" lon="6.24672499924">
-		<tag k="name" v="Klingrevatnet" />
-		<tag k="natural" v="water" />
-		<tag k="ssr:stedsnr" v="573917" />
-	</node>
-	<node id="-6201" lat="62.4303888875" lon="6.25771389643">
-		<tag k="name" v="Lisjevatnet" />
-		<tag k="natural" v="water" />
-		<tag k="ssr:stedsnr" v="573916" />
-	</node>
-	<node id="-6200" lat="62.4506882017" lon="6.18021489596">
-		<tag k="name" v="Brattholmen" />
+	<node lat="62.45073611235646" lon="6.231324992935456" id="-3648">
+		<tag k="name" v="Hamnaskjeret" />
 		<tag k="place" v="islet" />
-		<tag k="ssr:stedsnr" v="573529" />
+		<tag k="ssr:stedsnr" v="938171" />
 	</node>
-	<node id="-6199" lat="62.4344750042" lon="6.05796111272">
-		<tag k="name" v="Eltravika" />
-		<tag k="natural" v="bay" />
-		<tag k="ssr:stedsnr" v="706546" />
+	<node lat="62.452063890481" lon="6.176474995226316" id="-3649">
+		<tag k="name" v="Kveiteskjeret" />
+		<tag k="place" v="islet" />
+		<tag k="ssr:stedsnr" v="938958" />
 	</node>
-	<node id="-6198" lat="62.4408194475" lon="6.18996111838">
-		<tag k="name" v="Vågstorget" />
-		<tag k="place" v="square" />
-		<tag k="ssr:stedsnr" v="570452" />
+	<node lat="62.448174998342594" lon="6.182194446703304" id="-3650">
+		<tag k="name" v="Brandholmen" />
+		<tag k="place" v="islet" />
+		<tag k="ssr:stedsnr" v="938959" />
 	</node>
-	<node id="-6197" lat="62.448130555" lon="6.19536943809">
-		<tag k="name" v="Vassholmen" />
-		<tag k="place" v="locality" />
-		<tag k="ssr:stedsnr" v="703938" />
+	<node lat="62.446752775999215" lon="6.201366659634327" id="-3651">
+		<tag k="name" v="Kipperholmen" />
+		<tag k="place" v="islet" />
+		<tag k="ssr:stedsnr" v="938963" />
 	</node>
-	<node id="-6196" lat="62.43013611" lon="6.33104721647">
-		<tag k="name" v="Sjukeneset" />
-		<tag k="natural" v="cape" />
-		<tag k="ssr:stedsnr" v="703934" />
-	</node>
-	<node id="-6195" lat="62.4054833322" lon="6.15061388955">
-		<tag k="name" v="Adensgjølet" />
-		<tag k="natural" v="gorge" />
-		<tag k="ssr:stedsnr" v="703927" />
-	</node>
-	<node id="-6194" lat="62.413658332" lon="6.22048889742">
-		<tag k="historic" v="shieling" />
-		<tag k="name" v="Mausastølen" />
-		<tag k="place" v="locality" />
-		<tag k="ssr:stedsnr" v="703925" />
-	</node>
-	<node id="-6193" lat="62.413619445" lon="6.32304167162">
-		<tag k="name" v="Køvikneset" />
-		<tag k="natural" v="cape" />
-		<tag k="ssr:stedsnr" v="703905" />
-	</node>
-	<node id="-6192" lat="62.4030499981" lon="6.26987221872">
-		<tag k="name" v="Samundstufte" />
-		<tag k="place" v="isolated_dwelling" />
-		<tag k="ssr:stedsnr" v="703877" />
-	</node>
-	<node id="-6191" lat="62.4025555561" lon="6.26640556068">
-		<tag k="name" v="Kattavika" />
-		<tag k="natural" v="bay" />
-		<tag k="ssr:stedsnr" v="703872" />
-	</node>
-	<node id="-6190" lat="62.4055027762" lon="6.30819444961">
-		<tag k="name" v="Linneset" />
-		<tag k="natural" v="cape" />
-		<tag k="ssr:stedsnr" v="703869" />
-	</node>
-	<node id="-6189" lat="62.4216611068" lon="6.34641110759">
-		<tag k="name" v="Bruna" />
-		<tag k="natural" v="ridge" />
-		<tag k="place" v="locality" />
-		<tag k="ssr:stedsnr" v="703857" />
-	</node>
-	<node id="-6188" lat="62.4129833334" lon="6.29604445338">
-		<tag k="name" v="Vasshaugane" />
+	<node lat="62.416319445754866" lon="6.323411102507364" id="-3652">
+		<tag k="name" v="Nausthaugen" />
 		<tag k="natural" v="hill" />
 		<tag k="place" v="locality" />
-		<tag k="ssr:stedsnr" v="703853" />
+		<tag k="ssr:stedsnr" v="946850" />
 	</node>
-	<node id="-6187" lat="62.4426749993" lon="6.214066672">
-		<tag k="name" v="Havnegjerdet" />
-		<tag k="place" v="farm" />
-		<tag k="ssr:stedsnr" v="703847" />
-	</node>
-	<node id="-6186" lat="62.4142749958" lon="6.21886667547">
-		<tag k="historic" v="shieling" />
-		<tag k="name" v="Humlestølen" />
-		<tag k="place" v="locality" />
-		<tag k="ssr:stedsnr" v="703844" />
-	</node>
-	<node id="-6185" lat="62.441208335" lon="6.25118611287">
-		<tag k="name" v="Djupvikstranda" />
-		<tag k="natural" v="beach" />
-		<tag k="place" v="locality" />
-		<tag k="ssr:stedsnr" v="703833" />
-	</node>
-	<node id="-6184" lat="62.4205277803" lon="6.30579722537">
-		<tag k="name" v="Demningsmyra" />
-		<tag k="natural" v="wetland" />
-		<tag k="ssr:stedsnr" v="703831" />
-	</node>
-	<node id="-6183" lat="62.4226416661" lon="6.29917221821">
-		<tag k="name" v="Gjerdenakken" />
-		<tag k="natural" v="hill" />
-		<tag k="place" v="locality" />
-		<tag k="ssr:stedsnr" v="703830" />
-	</node>
-	<node id="-6182" lat="62.4373749991" lon="6.05672500952">
-		<tag k="alt_name" v="Eltreneset" />
-		<tag k="name" v="Eltraneset" />
-		<tag k="natural" v="cape" />
-		<tag k="ssr:stedsnr" v="556970" />
-	</node>
-	<node id="-6181" lat="62.416691665" lon="6.17388056006">
-		<tag k="fixme" v="consider natural=peak for the most distinct mountains in the district" />
-		<tag k="name" v="Rundehornet" />
-		<tag k="natural" v="hill" />
-		<tag k="place" v="locality" />
-		<tag k="ssr:stedsnr" v="556920" />
-	</node>
-	<node id="-6180" lat="62.4274861149" lon="6.26050000474">
-		<tag k="name" v="Raudåstaupet" />
-		<tag k="natural" v="water" />
-		<tag k="ssr:stedsnr" v="695999" />
-	</node>
-	<node id="-6179" lat="62.4236888859" lon="6.31472221498">
-		<tag k="name" v="Storevalen" />
-		<tag k="natural" v="bay" />
-		<tag k="ssr:stedsnr" v="695998" />
-	</node>
-	<node id="-6178" lat="62.4452500005" lon="6.18473611535">
-		<tag k="name" v="Katterumpa" />
-		<tag k="natural" v="shoal" />
-		<tag k="place" v="locality" />
-		<tag k="ssr:stedsnr" v="543651" />
-	</node>
-	<node id="-6177" lat="62.4151555584" lon="6.2542138823">
+	<node lat="62.41401666835957" lon="6.332786111922511" id="-3653">
 		<tag k="name" v="Storhaugen" />
 		<tag k="natural" v="hill" />
 		<tag k="place" v="locality" />
-		<tag k="ssr:stedsnr" v="692188" />
+		<tag k="ssr:stedsnr" v="946901" />
 	</node>
-	<node id="-6176" lat="62.4230638849" lon="6.34669722403">
-		<tag k="name" v="Sætrenakkane" />
-		<tag k="natural" v="hill" />
+	<node lat="62.402541668542256" lon="6.1208472238707" id="-3654">
+		<tag k="name" v="Furukammen" />
+		<tag k="natural" v="ridge" />
 		<tag k="place" v="locality" />
-		<tag k="ssr:stedsnr" v="692164" />
+		<tag k="ssr:stedsnr" v="946911" />
 	</node>
-	<node id="-6175" lat="62.4373138869" lon="6.28552222088">
-		<tag k="name" v="Korsneset" />
-		<tag k="place" v="quarter" />
-		<tag k="ssr:stedsnr" v="534363" />
-	</node>
-	<node id="-6174" lat="62.4395916654" lon="6.20484722588">
-		<tag k="amenity" v="place_of_worship" />
-		<tag k="denomination" v="lutheran" />
-		<tag k="fixme" v="multiple name tags, choose one and add the other to alt_name" />
-		<tag k="name" v="Langevåg;Langevåg kirke" />
-		<tag k="old_name" v="Langevåg kyrkje;Langevågen" />
-		<tag k="religion" v="christian" />
-		<tag k="ssr:stedsnr" v="687347" />
-	</node>
-	<node id="-6173" lat="62.423275001" lon="6.15842499333">
-		<tag k="amenity" v="cafe" />
-		<tag k="name" v="Vonhytta" />
-		<tag k="ssr:stedsnr" v="687346" />
-	</node>
-	<node id="-6172" lat="62.4137333296" lon="6.32753611076">
-		<tag k="amenity" v="ferry_terminal" />
-		<tag k="name" v="Solavågen ferjekai" />
-		<tag k="old_name" v="Sunde ferjekai" />
-		<tag k="ssr:stedsnr" v="512142" />
-	</node>
-	<node id="-6171" lat="62.4274055571" lon="6.31698056029">
-		<tag k="bridge" v="yes" />
-		<tag k="layer" v="1" />
-		<tag k="name" v="Eidsbrua" />
-		<tag k="ssr:stedsnr" v="506477" />
-	</node>
-	<node id="-6170" lat="62.4312777815" lon="6.21631944837">
-		<tag k="name" v="Sætrevatnet" />
-		<tag k="natural" v="water" />
-		<tag k="ssr:stedsnr" v="496913" />
-		<tag k="water" v="lake" />
-	</node>
-	<node id="-6169" lat="62.4185349268" lon="6.26528065044">
-		<tag k="fixme" v="consider place=hamlet" />
-		<tag k="name" v="Mauseid" />
-		<tag k="place" v="farm" />
-		<tag k="ssr:stedsnr" v="495103" />
-	</node>
-	<node id="-6168" lat="62.4392500041" lon="6.12976110268">
-		<tag k="name" v="Flesjeberget" />
+	<node lat="62.447852774761834" lon="6.231774998066548" id="-3655">
+		<tag k="name" v="Vågneset" />
 		<tag k="natural" v="cape" />
-		<tag k="ssr:stedsnr" v="678950" />
+		<tag k="ssr:stedsnr" v="946923" />
 	</node>
-	<node id="-6167" lat="62.4366799517" lon="6.16630541326">
-		<tag k="alt_name" v="Sandvik" />
-		<tag k="fixme" v="consider place=hamlet" />
-		<tag k="name" v="Sandvika" />
-		<tag k="place" v="farm" />
-		<tag k="ssr:stedsnr" v="678949" />
+	<node lat="62.427641668849866" lon="6.284558330439379" id="-3656">
+		<tag k="name" v="Mauseidvågen" />
+		<tag k="natural" v="bay" />
+		<tag k="ssr:stedsnr" v="961427" />
 	</node>
-	<node id="-6166" lat="62.4101833308" lon="6.14813612096">
-		<tag k="fixme" v="consider natural=peak for the most distinct mountains in the district" />
-		<tag k="name" v="Tverrfjellet" />
-		<tag k="natural" v="hill" />
-		<tag k="place" v="locality" />
-		<tag k="ssr:stedsnr" v="678862" />
-	</node>
-	<node id="-6165" lat="62.428189915" lon="6.35550607394">
-		<tag k="fixme" v="consider place=hamlet" />
-		<tag k="name" v="Veibust" />
-		<tag k="place" v="farm" />
-		<tag k="ssr:stedsnr" v="678096" />
-	</node>
-	<node id="-6164" lat="62.439900002" lon="6.18401944898">
-		<tag k="name" v="Geilneset" />
+	<node lat="62.450502778172456" lon="6.21241943687706" id="-3657">
+		<tag k="name" v="Kålneset" />
 		<tag k="natural" v="cape" />
-		<tag k="ssr:stedsnr" v="483705" />
+		<tag k="ssr:stedsnr" v="968716" />
 	</node>
-	<node id="-6163" lat="62.4441166698" lon="6.17972499942">
-		<tag k="name" v="Stabben" />
-		<tag k="natural" v="shoal" />
+	<node lat="62.440243532546916" lon="6.2742390407169255" id="-3660">
+		<tag k="name" v="Våtmyr" />
 		<tag k="place" v="locality" />
-		<tag k="ssr:stedsnr" v="483703" />
+		<tag k="ssr:stedsnr" v="982388" />
 	</node>
-	<node id="-6162" lat="62.4444222195" lon="6.25170278421">
-		<tag k="name" v="Store Veddeholmen" />
-		<tag k="place" v="islet" />
-		<tag k="ssr:stedsnr" v="476656" />
-	</node>
-	<node id="-6161" lat="62.4452916697" lon="6.1792277811">
-		<tag k="name" v="Skinnbroka" />
-		<tag k="natural" v="shoal" />
+	<node lat="62.43788620165379" lon="6.262635080816793" id="-3662">
+		<tag k="name" v="Haugen" />
 		<tag k="place" v="locality" />
-		<tag k="ssr:stedsnr" v="665723" />
+		<tag k="ssr:stedsnr" v="982394" />
 	</node>
-	<node id="-6159" lat="62.4299638887" lon="6.35357222124">
-		<tag k="bridge" v="yes" />
-		<tag k="layer" v="1" />
-		<tag k="name" v="Reitehaugbrua" />
-		<tag k="ssr:stedsnr" v="452304" />
-	</node>
-	<node id="-6158" lat="62.4066305584" lon="6.30342222118">
-		<tag k="name" v="Blåfjellet" />
-		<tag k="natural" v="hill" />
+	<node lat="62.44183575638287" lon="6.271468067717868" id="-3664">
+		<tag k="name" v="Davidsplassen" />
 		<tag k="place" v="locality" />
-		<tag k="ssr:stedsnr" v="450202" />
+		<tag k="ssr:stedsnr" v="982396" />
 	</node>
-	<node id="-6157" lat="62.4020788036" lon="6.13184408747">
-		<tag k="alt_name" v="Sulabakken;Sulabakk" />
+	<node lat="62.44243689584435" lon="6.269973306275421" id="-3665">
+		<tag k="name" v="Størkerplassen" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="982397" />
+	</node>
+	<node lat="62.447718454313666" lon="6.230789844308412" id="-3667">
 		<tag k="fixme" v="consider place=hamlet" />
-		<tag k="name" v="Sulebakk" />
+		<tag k="name" v="Vågnes" />
 		<tag k="place" v="farm" />
-		<tag k="ssr:stedsnr" v="436878" />
+		<tag k="ssr:stedsnr" v="982400" />
 	</node>
-	<node id="-6156" lat="62.4062527757" lon="6.15489999424">
-		<tag k="fixme" v="consider natural=peak for the most distinct mountains in the district" />
-		<tag k="name" v="Røysahornet" />
-		<tag k="natural" v="hill" />
+	<node lat="62.449070031648425" lon="6.22655726230322" id="-3669">
+		<tag k="loc_name" v="Hamna" />
+		<tag k="name" v="Skrivarhamna" />
 		<tag k="place" v="locality" />
-		<tag k="ssr:stedsnr" v="436874" />
+		<tag k="ssr:stedsnr" v="982403" />
 	</node>
-	<node id="-6155" lat="62.4101194428" lon="6.09420555385">
-		<tag k="alt_name" v="Oksevik" />
-		<tag k="name" v="Oksavik" />
-		<tag k="place" v="farm" />
-		<tag k="ssr:stedsnr" v="436926" />
-	</node>
-	<node id="-6154" lat="62.4148694441" lon="6.07782222601">
-		<tag k="name" v="Skarsteinen" />
-		<tag k="natural" v="cape" />
-		<tag k="ssr:stedsnr" v="436917" />
-	</node>
-	<node id="-6153" lat="62.4248555582" lon="6.12910556032">
-		<tag k="name" v="Kjerringvatnet" />
-		<tag k="natural" v="water" />
-		<tag k="ssr:stedsnr" v="436912" />
-	</node>
-	<node id="-6152" lat="62.4482027817" lon="6.2327388879">
-		<tag k="name" v="Landfarneset" />
-		<tag k="natural" v="cape" />
-		<tag k="ssr:stedsnr" v="436014" />
-	</node>
-	<node id="-6151" lat="62.4042629197" lon="6.25871218705">
-		<tag k="fixme" v="consider natural=peak for the most distinct mountains in the district" />
-		<tag k="name" v="Ruskenakken" />
-		<tag k="natural" v="hill" />
+	<node lat="62.446851261351874" lon="6.203247937267581" id="-3671">
+		<tag k="name" v="Kippervik" />
 		<tag k="place" v="locality" />
-		<tag k="ssr:stedsnr" v="435143" />
+		<tag k="ssr:stedsnr" v="982405" />
 	</node>
-	<node id="-6150" lat="62.4230932117" lon="6.27280361638">
+	<node lat="62.43653371649324" lon="6.1828006658636845" id="-3675">
 		<tag k="fixme" v="consider place=hamlet" />
-		<tag k="name" v="Mauseidvåg" />
+		<tag k="name" v="Molvær" />
 		<tag k="place" v="farm" />
-		<tag k="ssr:stedsnr" v="515393" />
+		<tag k="ssr:stedsnr" v="982410" />
 	</node>
-	<node id="-6149" lat="62.4304138847" lon="6.36249722075">
-		<tag k="name" v="Pinesundet" />
-		<tag k="natural" v="strait" />
-		<tag k="ssr:stedsnr" v="416133" />
-	</node>
-	<node id="-6148" lat="62.4315916712" lon="6.3559694487">
-		<tag k="bridge" v="yes" />
-		<tag k="layer" v="1" />
-		<tag k="name" v="Vegsundbrua" />
-		<tag k="ssr:stedsnr" v="512311" />
-	</node>
-	<node id="-6147" lat="62.4312388914" lon="6.26690555437">
-		<tag k="name" v="Ferdahaugen" />
-		<tag k="natural" v="hill" />
-		<tag k="place" v="locality" />
-		<tag k="ssr:stedsnr" v="510222" />
-	</node>
-	<node id="-6146" lat="62.4179583332" lon="6.31561388064">
-		<tag k="name" v="Geitlihaugen" />
-		<tag k="natural" v="hill" />
-		<tag k="place" v="locality" />
-		<tag k="ssr:stedsnr" v="510200" />
-	</node>
-	<node id="-6145" lat="62.4177111099" lon="6.35762777228">
-		<tag k="name" v="Lahella" />
-		<tag k="natural" v="hill" />
-		<tag k="place" v="locality" />
-		<tag k="ssr:stedsnr" v="399914" />
+	<node lat="62.3952737279079" lon="6.302038262498307" id="-3679">
+		<tag k="bay" v="fjord" />
+		<tag k="name" v="Storfjorden" />
+		<tag k="natural" v="bay" />
+		<tag k="ssr:stedsnr" v="1077297" />
 	</node>
 </osm>

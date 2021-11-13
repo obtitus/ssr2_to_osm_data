@@ -1,26 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<osm generator="osmapis" version="0.6">
-	<node changeset="30760622" id="2350105147" lat="70.1502393" lon="29.1121686" timestamp="2015-05-03T21:26:12Z" uid="32112" user="SverigeFan" version="2" />
-	<node changeset="30760622" id="2350105145" lat="70.1502597" lon="29.1123452" timestamp="2015-05-03T21:26:12Z" uid="32112" user="SverigeFan" version="2" />
-	<node changeset="58620907" id="2353340427" lat="70.1146868" lon="28.5181517" timestamp="2018-05-02T17:03:49Z" uid="3497659" user="NKA" version="5">
+<osm version="0.6" generator="osmapis">
+	<node id="2353340427" lat="70.1146868" lon="28.5181517" version="5" timestamp="2018-05-02T17:03:49Z" changeset="58620907" uid="3497659" user="NKA">
 		<tag k="name" v="Storfossen" />
 		<tag k="name:no" v="Storfossen" />
 		<tag k="natural" v="waterfall" />
 		<tag k="source" v="Kartverket" />
 		<tag k="ssr:stedsnr" v="511317" />
 	</node>
-	<node changeset="30760622" id="3495859220" lat="70.1501867" lon="29.1124183" timestamp="2015-05-03T21:23:30Z" uid="32112" user="SverigeFan" version="1" />
-	<node changeset="30760622" id="2350105150" lat="70.1501663" lon="29.1122417" timestamp="2015-05-03T21:26:12Z" uid="32112" user="SverigeFan" version="2" />
-	<way changeset="58620907" id="226155564" timestamp="2018-05-02T17:09:19Z" uid="3497659" user="NKA" version="3">
+	<node id="2350105145" lat="70.1503479" lon="29.1123602" version="3" timestamp="2021-06-15T06:52:56Z" changeset="106377463" uid="3497659" user="NKA" />
+	<node id="2350105147" lat="70.1503309" lon="29.1121992" version="3" timestamp="2021-06-15T06:52:56Z" changeset="106377463" uid="3497659" user="NKA" />
+	<node id="2350105150" lat="70.1502811" lon="29.1122448" version="3" timestamp="2021-06-15T06:52:56Z" changeset="106377463" uid="3497659" user="NKA" />
+	<node id="3495859220" lat="70.1502981" lon="29.1124058" version="2" timestamp="2021-06-15T06:52:56Z" changeset="106377463" uid="3497659" user="NKA" />
+	<way id="226155564" version="4" timestamp="2021-06-15T06:52:56Z" changeset="106377463" uid="3497659" user="NKA">
 		<tag k="building" v="cabin" />
 		<tag k="name" v="Dalen" />
 		<tag k="name:no" v="Dalen" />
-		<tag k="source" v="Kartverket" />
+		<tag k="ref:bygningsnr" v="3840751" />
 		<tag k="ssr:stedsnr" v="505658" />
-		<nd ref="2350105145" />
-		<nd ref="2350105147" />
 		<nd ref="2350105150" />
 		<nd ref="3495859220" />
 		<nd ref="2350105145" />
+		<nd ref="2350105147" />
+		<nd ref="2350105150" />
 	</way>
 </osm>
