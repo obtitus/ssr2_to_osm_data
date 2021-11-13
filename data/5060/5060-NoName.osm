@@ -1,6 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<<<<<<< HEAD
 <osm version="0.6" generator="osmapis">
 	<node lat="64.88053332939337" lon="11.567666658696911" id="-36869">
+=======
+<osm generator="osmapis" version="0.6">
+	<node id="-827903" lat="64.824952777" lon="11.5333166735">
+		<tag k="loc_name" v="Horvereidbekken" />
+		<tag k="ssr:date" v="2019-12-27" />
+		<tag k="ssr:gruppe" v="rennendeVann" />
+		<tag k="ssr:hovedgruppe" v="ferskvann" />
+		<tag k="ssr:stedsnr" v="237752" />
+		<tag k="ssr:type" v="bekk" />
+		<tag k="waterway" v="stream" />
+	</node>
+	<node id="-827902" lat="64.8805333294" lon="11.5676666587">
+>>>>>>> e1d4bc35ff8a6074a6f2e91616a996b547c36f15
 		<tag k="loc_name" v="Rørvikodden" />
 		<tag k="natural" v="cape" />
 		<tag k="ssr:date" v="2019-12-27" />
@@ -9,6 +23,7 @@
 		<tag k="ssr:stedsnr" v="237742" />
 		<tag k="ssr:type" v="nesISjø" />
 	</node>
+<<<<<<< HEAD
 	<node lat="64.94471944768043" lon="11.941019446585436" id="-36870">
 		<tag k="loc_name" v="Sørmo;Hestmarka" />
 		<tag k="place" v="farm" />
@@ -20,11 +35,26 @@
 	</node>
 	<node lat="65.06583333149196" lon="11.911444447457137" id="-36871">
 		<tag k="loc_name" v="Einarstrandlia" />
+=======
+	<node id="-827901" lat="64.8005333356" lon="11.7757833265">
+		<tag k="loc_name" v="Storbrenna" />
 		<tag k="natural" v="slope" />
 		<tag k="place" v="locality" />
 		<tag k="ssr:date" v="2019-12-27" />
 		<tag k="ssr:gruppe" v="skråninger" />
 		<tag k="ssr:hovedgruppe" v="terreng" />
+		<tag k="ssr:stedsnr" v="237713" />
+		<tag k="ssr:type" v="bakke" />
+	</node>
+	<node id="-827900" lat="64.9132611123" lon="11.6058861078">
+		<tag k="loc_name" v="Storbakkan" />
+>>>>>>> e1d4bc35ff8a6074a6f2e91616a996b547c36f15
+		<tag k="natural" v="slope" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2019-12-27" />
+		<tag k="ssr:gruppe" v="skråninger" />
+		<tag k="ssr:hovedgruppe" v="terreng" />
+<<<<<<< HEAD
 		<tag k="ssr:stedsnr" v="237173" />
 		<tag k="ssr:type" v="li" />
 	</node>
@@ -48,21 +78,85 @@
 	</node>
 	<node lat="64.92753610718046" lon="12.245652777442254" id="-36874">
 		<tag k="loc_name" v="Storbjørklia" />
+=======
+		<tag k="ssr:stedsnr" v="237700" />
+		<tag k="ssr:type" v="bakke" />
+	</node>
+	<node id="-827899" lat="64.9180055588" lon="11.5360694387">
+		<tag k="loc_name" v="Fredheim" />
+		<tag k="place" v="isolated_dwelling" />
+		<tag k="ssr:date" v="2019-12-27" />
+		<tag k="ssr:gruppe" v="bolighus" />
+		<tag k="ssr:hovedgruppe" v="bebyggelse" />
+		<tag k="ssr:stedsnr" v="237696" />
+		<tag k="ssr:type" v="eneboligMindreBoligbygg" />
+	</node>
+	<node id="-827898" lat="64.9084277738" lon="11.5876305465">
+		<tag k="loc_name" v="Grova" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2019-12-27" />
+		<tag k="ssr:gruppe" v="flater" />
+		<tag k="ssr:hovedgruppe" v="terreng" />
+		<tag k="ssr:stedsnr" v="237611" />
+		<tag k="ssr:type" v="slette" />
+	</node>
+	<node id="-827897" lat="64.8950722194" lon="11.5831111208">
+		<tag k="loc_name" v="Korshaugmoan" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2019-12-27" />
+		<tag k="ssr:gruppe" v="høyder" />
+		<tag k="ssr:hovedgruppe" v="terreng" />
+		<tag k="ssr:stedsnr" v="237609" />
+		<tag k="ssr:type" v="haug" />
+	</node>
+	<node id="-827896" lat="64.8946166633" lon="11.5758388797">
+		<tag k="loc_name" v="Solheimmyra" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2019-12-27" />
+		<tag k="ssr:gruppe" v="dyrkamark" />
+		<tag k="ssr:hovedgruppe" v="markslag" />
+		<tag k="ssr:stedsnr" v="237607" />
+		<tag k="ssr:type" v="jorde" />
+	</node>
+	<node id="-827895" lat="64.8974027808" lon="11.5746472124">
+		<tag k="loc_name" v="Korshammardalen" />
+		<tag k="natural" v="valley" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2019-12-27" />
+		<tag k="ssr:gruppe" v="senkninger" />
+		<tag k="ssr:hovedgruppe" v="terreng" />
+		<tag k="ssr:stedsnr" v="237605" />
+		<tag k="ssr:type" v="dal" />
+	</node>
+	<node id="-827894" lat="64.8987611085" lon="11.5656027837">
+		<tag k="loc_name" v="Nordvika" />
+>>>>>>> e1d4bc35ff8a6074a6f2e91616a996b547c36f15
 		<tag k="natural" v="slope" />
 		<tag k="place" v="locality" />
 		<tag k="ssr:date" v="2019-12-27" />
 		<tag k="ssr:gruppe" v="skråninger" />
 		<tag k="ssr:hovedgruppe" v="terreng" />
+<<<<<<< HEAD
 		<tag k="ssr:stedsnr" v="41370" />
 		<tag k="ssr:type" v="li" />
 	</node>
 	<node lat="64.92448889105572" lon="12.235863886534938" id="-36875">
 		<tag k="loc_name" v="Demlødalen" />
 		<tag k="natural" v="valley" />
+=======
+		<tag k="ssr:stedsnr" v="237599" />
+		<tag k="ssr:type" v="li" />
+	</node>
+	<node id="-827893" lat="64.907013886" lon="11.5487972219">
+		<tag k="loc_name" v="Lofte" />
+		<tag k="natural" v="slope" />
+>>>>>>> e1d4bc35ff8a6074a6f2e91616a996b547c36f15
 		<tag k="place" v="locality" />
 		<tag k="ssr:date" v="2019-12-27" />
-		<tag k="ssr:gruppe" v="senkninger" />
+		<tag k="ssr:gruppe" v="skråninger" />
 		<tag k="ssr:hovedgruppe" v="terreng" />
+<<<<<<< HEAD
 		<tag k="ssr:stedsnr" v="41373" />
 		<tag k="ssr:type" v="dal" />
 	</node>
@@ -95,11 +189,56 @@
 	</node>
 	<node lat="64.93721389143377" lon="11.612830559424172" id="-36879">
 		<tag k="loc_name" v="Kartholet" />
+=======
+		<tag k="ssr:stedsnr" v="55565" />
+		<tag k="ssr:type" v="li" />
+	</node>
+	<node id="-827892" lat="64.9621583348" lon="11.6603777826">
+		<tag k="loc_name" v="Kamman" />
+		<tag k="natural" v="slope" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2019-12-27" />
+		<tag k="ssr:gruppe" v="skråninger" />
+		<tag k="ssr:hovedgruppe" v="terreng" />
+		<tag k="ssr:stedsnr" v="55559" />
+		<tag k="ssr:type" v="bakke" />
+	</node>
+	<node id="-827891" lat="64.9561416688" lon="11.6554583232">
+		<tag k="loc_name" v="Torvholet" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2019-12-27" />
+		<tag k="ssr:gruppe" v="vegetasjon" />
+		<tag k="ssr:hovedgruppe" v="markslag" />
+		<tag k="ssr:stedsnr" v="237584" />
+		<tag k="ssr:type" v="skog" />
+	</node>
+	<node id="-827890" lat="64.7812611078" lon="11.792619451">
+		<tag k="loc_name" v="Verkarvika" />
+		<tag k="natural" v="bay" />
+		<tag k="ssr:date" v="2019-12-27" />
+		<tag k="ssr:gruppe" v="kystkontur" />
+		<tag k="ssr:hovedgruppe" v="sjø" />
+		<tag k="ssr:stedsnr" v="55406" />
+		<tag k="ssr:type" v="vikISjø" />
+	</node>
+	<node id="-828499" lat="64.8551694412" lon="11.5682222265">
+		<tag k="loc_name" v="Skogtun" />
+		<tag k="place" v="isolated_dwelling" />
+		<tag k="ssr:date" v="2019-12-27" />
+		<tag k="ssr:gruppe" v="bolighus" />
+		<tag k="ssr:hovedgruppe" v="bebyggelse" />
+		<tag k="ssr:stedsnr" v="298629" />
+		<tag k="ssr:type" v="eneboligMindreBoligbygg" />
+	</node>
+	<node id="-827887" lat="64.8067222225" lon="11.9678249992">
+		<tag k="loc_name" v="Elgåvassdalen" />
+>>>>>>> e1d4bc35ff8a6074a6f2e91616a996b547c36f15
 		<tag k="natural" v="valley" />
 		<tag k="place" v="locality" />
 		<tag k="ssr:date" v="2019-12-27" />
 		<tag k="ssr:gruppe" v="senkninger" />
 		<tag k="ssr:hovedgruppe" v="terreng" />
+<<<<<<< HEAD
 		<tag k="ssr:stedsnr" v="42589" />
 		<tag k="ssr:type" v="botn" />
 	</node>
@@ -114,11 +253,38 @@
 	</node>
 	<node lat="64.91326111228291" lon="11.605886107756177" id="-36885">
 		<tag k="loc_name" v="Storbakkan" />
+=======
+		<tag k="ssr:stedsnr" v="237208" />
+		<tag k="ssr:type" v="dal" />
+	</node>
+	<node id="-829934" lat="64.987338888" lon="11.0507666631">
+		<tag k="loc_name" v="Sandøyan" />
+		<tag k="place" v="island" />
+		<tag k="ssr:date" v="2019-12-27" />
+		<tag k="ssr:gruppe" v="kystkontur" />
+		<tag k="ssr:hovedgruppe" v="sjø" />
+		<tag k="ssr:stedsnr" v="693234" />
+		<tag k="ssr:type" v="øygruppeISjø" />
+	</node>
+	<node id="-827884" lat="65.0658333315" lon="11.9114444475">
+		<tag k="loc_name" v="Einarstrandlia" />
 		<tag k="natural" v="slope" />
 		<tag k="place" v="locality" />
 		<tag k="ssr:date" v="2019-12-27" />
 		<tag k="ssr:gruppe" v="skråninger" />
 		<tag k="ssr:hovedgruppe" v="terreng" />
+		<tag k="ssr:stedsnr" v="237173" />
+		<tag k="ssr:type" v="li" />
+	</node>
+	<node id="-829931" lat="64.9179750008" lon="12.3123444386">
+		<tag k="loc_name" v="Tåa" />
+>>>>>>> e1d4bc35ff8a6074a6f2e91616a996b547c36f15
+		<tag k="natural" v="slope" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2019-12-27" />
+		<tag k="ssr:gruppe" v="skråninger" />
+		<tag k="ssr:hovedgruppe" v="terreng" />
+<<<<<<< HEAD
 		<tag k="ssr:stedsnr" v="237700" />
 		<tag k="ssr:type" v="bakke" />
 	</node>
@@ -133,20 +299,85 @@
 	</node>
 	<node lat="64.78126110776424" lon="11.792619451017384" id="-36940">
 		<tag k="loc_name" v="Verkarvika" />
+=======
+		<tag k="ssr:stedsnr" v="543365" />
+		<tag k="ssr:type" v="li" />
+	</node>
+	<node id="-827882" lat="64.7931694478" lon="11.4504694473">
+		<tag k="loc_name" v="Inerberg" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2019-12-27" />
+		<tag k="ssr:gruppe" v="gardsbebyggelse" />
+		<tag k="ssr:hovedgruppe" v="bebyggelse" />
+		<tag k="ssr:stedsnr" v="237139" />
+		<tag k="ssr:type" v="bruk" />
+	</node>
+	<node id="-827880" lat="64.9449722205" lon="11.9102916736">
+		<tag k="loc_name" v="Heia" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2019-12-27" />
+		<tag k="ssr:gruppe" v="høyder" />
+		<tag k="ssr:hovedgruppe" v="terreng" />
+		<tag k="ssr:stedsnr" v="237088" />
+		<tag k="ssr:type" v="hei" />
+	</node>
+	<node id="-828497" lat="64.9573138871" lon="11.6429888825">
+		<tag k="loc_name" v="Svanhaugan" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2019-12-27" />
+		<tag k="ssr:gruppe" v="høyder" />
+		<tag k="ssr:hovedgruppe" v="terreng" />
+		<tag k="ssr:stedsnr" v="298577" />
+		<tag k="ssr:type" v="haug" />
+	</node>
+	<node id="-828496" lat="64.8459750005" lon="11.7803416668">
+		<tag k="loc_name" v="Saltbunesodden" />
+>>>>>>> e1d4bc35ff8a6074a6f2e91616a996b547c36f15
 		<tag k="natural" v="bay" />
 		<tag k="ssr:date" v="2019-12-27" />
 		<tag k="ssr:gruppe" v="kystkontur" />
 		<tag k="ssr:hovedgruppe" v="sjø" />
+<<<<<<< HEAD
 		<tag k="ssr:stedsnr" v="55406" />
 		<tag k="ssr:type" v="vikISjø" />
 	</node>
 	<node lat="64.90701388598126" lon="11.54879722194456" id="-36941">
 		<tag k="loc_name" v="Lofte" />
 		<tag k="natural" v="slope" />
+=======
+		<tag k="ssr:stedsnr" v="298434" />
+		<tag k="ssr:type" v="vikISjø" />
+	</node>
+	<node id="-830629" lat="64.9928583318" lon="11.7748555655">
+		<tag k="loc_name" v="Nerli" />
+		<tag k="place" v="isolated_dwelling" />
+		<tag k="ssr:date" v="2019-12-27" />
+		<tag k="ssr:gruppe" v="bolighus" />
+		<tag k="ssr:hovedgruppe" v="bebyggelse" />
+		<tag k="ssr:stedsnr" v="722403" />
+		<tag k="ssr:type" v="eneboligMindreBoligbygg" />
+	</node>
+	<node id="-831396" lat="64.9255388896" lon="12.3663305661">
+		<tag k="bay" v="fjord" />
+		<tag k="loc_name" v="Follafjorden" />
+		<tag k="natural" v="bay" />
+		<tag k="ssr:date" v="2019-12-27" />
+		<tag k="ssr:gruppe" v="farvann" />
+		<tag k="ssr:hovedgruppe" v="sjø" />
+		<tag k="ssr:stedsnr" v="968375" />
+		<tag k="ssr:type" v="fjord" />
+	</node>
+	<node id="-831395" lat="64.9449444473" lon="12.322650001">
+		<tag k="loc_name" v="Djupneshaugen" />
+		<tag k="natural" v="hill" />
+>>>>>>> e1d4bc35ff8a6074a6f2e91616a996b547c36f15
 		<tag k="place" v="locality" />
 		<tag k="ssr:date" v="2019-12-27" />
 		<tag k="ssr:gruppe" v="skråninger" />
 		<tag k="ssr:hovedgruppe" v="terreng" />
+<<<<<<< HEAD
 		<tag k="ssr:stedsnr" v="55565" />
 		<tag k="ssr:type" v="li" />
 	</node>
@@ -179,30 +410,93 @@
 	</node>
 	<node lat="64.89714722582006" lon="11.691563884219796" id="-36945">
 		<tag k="loc_name" v="Brubakkan" />
+=======
+		<tag k="ssr:stedsnr" v="968370" />
+		<tag k="ssr:type" v="haug" />
+	</node>
+	<node id="-831394" lat="64.8682694416" lon="11.6171527675">
+		<tag k="loc_name" v="Hagan" />
+		<tag k="place" v="hamlet" />
+		<tag k="ssr:date" v="2019-12-27" />
+		<tag k="ssr:gruppe" v="bebyggelsesområder" />
+		<tag k="ssr:hovedgruppe" v="bebyggelse" />
+		<tag k="ssr:stedsnr" v="965663" />
+		<tag k="ssr:type" v="grend" />
+	</node>
+	<node id="-827846" lat="64.9244888911" lon="12.2358638865">
+		<tag k="loc_name" v="Demlødalen" />
+		<tag k="natural" v="valley" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2019-12-27" />
+		<tag k="ssr:gruppe" v="senkninger" />
+		<tag k="ssr:hovedgruppe" v="terreng" />
+		<tag k="ssr:stedsnr" v="41373" />
+		<tag k="ssr:type" v="dal" />
+	</node>
+	<node id="-827845" lat="64.9275361072" lon="12.2456527774">
+		<tag k="loc_name" v="Storbjørklia" />
 		<tag k="natural" v="slope" />
 		<tag k="place" v="locality" />
 		<tag k="ssr:date" v="2019-12-27" />
 		<tag k="ssr:gruppe" v="skråninger" />
 		<tag k="ssr:hovedgruppe" v="terreng" />
+		<tag k="ssr:stedsnr" v="41370" />
+		<tag k="ssr:type" v="li" />
+	</node>
+	<node id="-827844" lat="64.9743861146" lon="12.1484388844">
+		<tag k="loc_name" v="Langåa" />
+		<tag k="ssr:date" v="2019-12-27" />
+		<tag k="ssr:gruppe" v="rennendeVann" />
+		<tag k="ssr:hovedgruppe" v="ferskvann" />
+		<tag k="ssr:stedsnr" v="41366" />
+		<tag k="ssr:type" v="bekk" />
+		<tag k="waterway" v="stream" />
+	</node>
+	<node id="-827843" lat="64.950388886" lon="12.1530972189">
+		<tag k="loc_name" v="Nonslia" />
+>>>>>>> e1d4bc35ff8a6074a6f2e91616a996b547c36f15
+		<tag k="natural" v="slope" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2019-12-27" />
+		<tag k="ssr:gruppe" v="skråninger" />
+		<tag k="ssr:hovedgruppe" v="terreng" />
+<<<<<<< HEAD
 		<tag k="ssr:stedsnr" v="55471" />
 		<tag k="ssr:type" v="li" />
 	</node>
 	<node lat="64.9282750007358" lon="11.602330553656039" id="-36946">
 		<tag k="loc_name" v="Moan" />
+=======
+		<tag k="ssr:stedsnr" v="41355" />
+		<tag k="ssr:type" v="li" />
+	</node>
+	<node id="-827842" lat="64.9703305574" lon="12.0514916712">
+		<tag k="loc_name" v="Salmonhaugen" />
+>>>>>>> e1d4bc35ff8a6074a6f2e91616a996b547c36f15
 		<tag k="natural" v="slope" />
 		<tag k="place" v="locality" />
 		<tag k="ssr:date" v="2019-12-27" />
 		<tag k="ssr:gruppe" v="skråninger" />
 		<tag k="ssr:hovedgruppe" v="terreng" />
+<<<<<<< HEAD
 		<tag k="ssr:stedsnr" v="55623" />
 		<tag k="ssr:type" v="li" />
 	</node>
 	<node lat="64.85184999965367" lon="11.236322229278228" id="-36947">
 		<tag k="loc_name" v="Smevika" />
 		<tag k="place" v="isolated_dwelling" />
+=======
+		<tag k="ssr:stedsnr" v="41310" />
+		<tag k="ssr:type" v="li" />
+	</node>
+	<node id="-827841" lat="64.955530554" lon="12.0135277735">
+		<tag k="loc_name" v="Ålberg" />
+		<tag k="place" v="farm" />
+>>>>>>> e1d4bc35ff8a6074a6f2e91616a996b547c36f15
 		<tag k="ssr:date" v="2019-12-27" />
 		<tag k="ssr:gruppe" v="bolighus" />
 		<tag k="ssr:hovedgruppe" v="bebyggelse" />
+<<<<<<< HEAD
 		<tag k="ssr:stedsnr" v="241547" />
 		<tag k="ssr:type" v="eneboligMindreBoligbygg" />
 	</node>
@@ -218,10 +512,47 @@
 	<node lat="64.84604166837414" lon="11.241661111394361" id="-36949">
 		<tag k="loc_name" v="Trongskaret" />
 		<tag k="natural" v="valley" />
+=======
+		<tag k="ssr:stedsnr" v="41308" />
+		<tag k="ssr:type" v="bruk" />
+	</node>
+	<node id="-831392" lat="64.9933027753" lon="11.744033328">
+		<tag k="loc_name" v="Finset nedre" />
+		<tag k="place" v="isolated_dwelling" />
+		<tag k="ssr:date" v="2019-12-27" />
+		<tag k="ssr:gruppe" v="bolighus" />
+		<tag k="ssr:hovedgruppe" v="bebyggelse" />
+		<tag k="ssr:stedsnr" v="965414" />
+		<tag k="ssr:type" v="eneboligMindreBoligbygg" />
+	</node>
+	<node id="-830397" lat="64.8542444485" lon="11.5722916636">
+		<tag k="loc_name" v="Rødalsbekken" />
+		<tag k="ssr:date" v="2019-12-27" />
+		<tag k="ssr:gruppe" v="rennendeVann" />
+		<tag k="ssr:hovedgruppe" v="ferskvann" />
+		<tag k="ssr:stedsnr" v="662669" />
+		<tag k="ssr:type" v="bekk" />
+		<tag k="waterway" v="stream" />
+	</node>
+	<node id="-830396" lat="64.8847361112" lon="11.5552416753">
+		<tag k="loc_name" v="Liavikskardet" />
+		<tag k="natural" v="valley" />
 		<tag k="place" v="locality" />
 		<tag k="ssr:date" v="2019-12-27" />
 		<tag k="ssr:gruppe" v="senkninger" />
 		<tag k="ssr:hovedgruppe" v="terreng" />
+		<tag k="ssr:stedsnr" v="662738" />
+		<tag k="ssr:type" v="skar" />
+	</node>
+	<node id="-830395" lat="64.924727782" lon="11.5873833423">
+		<tag k="loc_name" v="Heimerkråa" />
+		<tag k="natural" v="hill" />
+>>>>>>> e1d4bc35ff8a6074a6f2e91616a996b547c36f15
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2019-12-27" />
+		<tag k="ssr:gruppe" v="høyder" />
+		<tag k="ssr:hovedgruppe" v="terreng" />
+<<<<<<< HEAD
 		<tag k="ssr:stedsnr" v="241520" />
 		<tag k="ssr:type" v="skar" />
 	</node>
@@ -245,20 +576,87 @@
 	</node>
 	<node lat="64.95142777668137" lon="12.018744450212644" id="-37048">
 		<tag k="loc_name" v="Åkervika" />
+=======
+		<tag k="ssr:stedsnr" v="662704" />
+		<tag k="ssr:type" v="berg" />
+	</node>
+	<node id="-830394" lat="64.922277776" lon="11.7661777778">
+		<tag k="fixme" v="consider natural=peak for the most distinct mountains in the district" />
+		<tag k="loc_name" v="Durmålfjellet" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2019-12-27" />
+		<tag k="ssr:gruppe" v="høyder" />
+		<tag k="ssr:hovedgruppe" v="terreng" />
+		<tag k="ssr:stedsnr" v="662507" />
+		<tag k="ssr:type" v="fjell" />
+	</node>
+	<node id="-831391" lat="64.9851416704" lon="11.6827277824">
+		<tag k="loc_name" v="Lars Andersholet" />
+		<tag k="natural" v="valley" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2019-12-27" />
+		<tag k="ssr:gruppe" v="senkninger" />
+		<tag k="ssr:hovedgruppe" v="terreng" />
+		<tag k="ssr:stedsnr" v="965406" />
+		<tag k="ssr:type" v="botn" />
+	</node>
+	<node id="-829940" lat="64.8331416692" lon="11.1959305476">
+		<tag k="loc_name" v="Storvika" />
+>>>>>>> e1d4bc35ff8a6074a6f2e91616a996b547c36f15
 		<tag k="natural" v="bay" />
 		<tag k="ssr:date" v="2019-12-27" />
 		<tag k="ssr:gruppe" v="kystkontur" />
 		<tag k="ssr:hovedgruppe" v="sjø" />
+<<<<<<< HEAD
 		<tag k="ssr:stedsnr" v="102334" />
 		<tag k="ssr:type" v="vikISjø" />
 	</node>
 	<node lat="64.94737777460517" lon="12.142977767523746" id="-37049">
 		<tag k="loc_name" v="Tjønnheian" />
 		<tag k="natural" v="hill" />
+=======
+		<tag k="ssr:stedsnr" v="544522" />
+		<tag k="ssr:type" v="vikISjø" />
+	</node>
+	<node id="-831390" lat="65.0158555594" lon="11.8703388925">
+		<tag k="loc_name" v="Bjønndalen" />
+		<tag k="natural" v="valley" />
 		<tag k="place" v="locality" />
 		<tag k="ssr:date" v="2019-12-27" />
-		<tag k="ssr:gruppe" v="høyder" />
+		<tag k="ssr:gruppe" v="senkninger" />
 		<tag k="ssr:hovedgruppe" v="terreng" />
+		<tag k="ssr:stedsnr" v="965160" />
+		<tag k="ssr:type" v="dal" />
+	</node>
+	<node id="-829873" lat="64.9269722223" lon="11.8008833399">
+		<tag k="loc_name" v="Sesiliavatnet" />
+		<tag k="natural" v="water" />
+		<tag k="ssr:date" v="2019-12-27" />
+		<tag k="ssr:gruppe" v="stilleståendeVann" />
+		<tag k="ssr:hovedgruppe" v="ferskvann" />
+		<tag k="ssr:stedsnr" v="527960" />
+		<tag k="ssr:type" v="vann" />
+		<tag k="water" v="lake" />
+	</node>
+	<node id="-830280" lat="64.8446861139" lon="11.2296722192">
+		<tag k="loc_name" v="Kudaumyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:date" v="2019-12-27" />
+		<tag k="ssr:gruppe" v="våtmark" />
+		<tag k="ssr:hovedgruppe" v="markslag" />
+		<tag k="ssr:stedsnr" v="726565" />
+		<tag k="ssr:type" v="myr" />
+	</node>
+	<node id="-829870" lat="64.9456500002" lon="11.5638222319">
+		<tag k="loc_name" v="Nekolinabotnet" />
+		<tag k="natural" v="valley" />
+>>>>>>> e1d4bc35ff8a6074a6f2e91616a996b547c36f15
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2019-12-27" />
+		<tag k="ssr:gruppe" v="senkninger" />
+		<tag k="ssr:hovedgruppe" v="terreng" />
+<<<<<<< HEAD
 		<tag k="ssr:stedsnr" v="102414" />
 		<tag k="ssr:type" v="hei" />
 	</node>
@@ -332,10 +730,94 @@
 	<node lat="64.96973333539869" lon="12.076227785233044" id="-37396">
 		<tag k="loc_name" v="Sopphaugan" />
 		<tag k="natural" v="slope" />
+=======
+		<tag k="ssr:stedsnr" v="527587" />
+		<tag k="ssr:type" v="dal" />
+	</node>
+	<node id="-829869" lat="64.9885750009" lon="11.6340944531">
+		<tag k="loc_name" v="Fagerbakken" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2019-12-27" />
+		<tag k="ssr:gruppe" v="bolighus" />
+		<tag k="ssr:hovedgruppe" v="bebyggelse" />
+		<tag k="ssr:stedsnr" v="527630" />
+		<tag k="ssr:type" v="gammelBosettingsplass" />
+	</node>
+	<node id="-829868" lat="64.9329861119" lon="11.6554083266">
+		<tag k="loc_name" v="Golanhaugen" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2019-12-27" />
+		<tag k="ssr:gruppe" v="gardsbebyggelse" />
+		<tag k="ssr:hovedgruppe" v="bebyggelse" />
+		<tag k="ssr:stedsnr" v="527628" />
+		<tag k="ssr:type" v="bruk" />
+	</node>
+	<node id="-829938" lat="64.8354416669" lon="11.2138722284">
+		<tag k="fixme" v="consider seamark:type=rock or natural=shoal" />
+		<tag k="loc_name" v="Birgitskjæret" />
+		<tag k="place" v="islet" />
+		<tag k="ssr:date" v="2019-12-27" />
+		<tag k="ssr:gruppe" v="grunnerISjø" />
+		<tag k="ssr:hovedgruppe" v="sjø" />
+		<tag k="ssr:stedsnr" v="544518" />
+		<tag k="ssr:type" v="skjærISjø" />
+	</node>
+	<node id="-829866" lat="64.9818611118" lon="12.0441305588">
+		<tag k="loc_name" v="Seterlia" />
+		<tag k="natural" v="slope" />
 		<tag k="place" v="locality" />
 		<tag k="ssr:date" v="2019-12-27" />
 		<tag k="ssr:gruppe" v="skråninger" />
 		<tag k="ssr:hovedgruppe" v="terreng" />
+		<tag k="ssr:stedsnr" v="526364" />
+		<tag k="ssr:type" v="li" />
+	</node>
+	<node id="-828329" lat="64.9779083311" lon="11.6173111175">
+		<tag k="loc_name" v="Båsen" />
+		<tag k="natural" v="bay" />
+		<tag k="ssr:date" v="2019-12-27" />
+		<tag k="ssr:gruppe" v="kystkontur" />
+		<tag k="ssr:hovedgruppe" v="sjø" />
+		<tag k="ssr:stedsnr" v="285613" />
+		<tag k="ssr:type" v="vikISjø" />
+	</node>
+	<node id="-828328" lat="64.9819499999" lon="11.6562388914">
+		<tag k="loc_name" v="Hammarvika" />
+		<tag k="natural" v="bay" />
+		<tag k="ssr:date" v="2019-12-27" />
+		<tag k="ssr:gruppe" v="kystkontur" />
+		<tag k="ssr:hovedgruppe" v="sjø" />
+		<tag k="ssr:stedsnr" v="285611" />
+		<tag k="ssr:type" v="vikISjø" />
+	</node>
+	<node id="-828327" lat="64.9433111084" lon="11.5782527692">
+		<tag k="loc_name" v="Gisethaugen" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2019-12-27" />
+		<tag k="ssr:gruppe" v="høyder" />
+		<tag k="ssr:hovedgruppe" v="terreng" />
+		<tag k="ssr:stedsnr" v="285600" />
+		<tag k="ssr:type" v="haug" />
+	</node>
+	<node id="-828326" lat="64.9821722252" lon="11.6003611058">
+		<tag k="loc_name" v="Badevika" />
+		<tag k="natural" v="bay" />
+		<tag k="ssr:date" v="2019-12-27" />
+		<tag k="ssr:gruppe" v="kystkontur" />
+		<tag k="ssr:hovedgruppe" v="sjø" />
+		<tag k="ssr:stedsnr" v="285590" />
+		<tag k="ssr:type" v="vikISjø" />
+	</node>
+	<node id="-831397" lat="64.9269916673" lon="12.396599993">
+		<tag k="loc_name" v="Strenghaugen" />
+		<tag k="natural" v="hill" />
+>>>>>>> e1d4bc35ff8a6074a6f2e91616a996b547c36f15
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2019-12-27" />
+		<tag k="ssr:gruppe" v="høyder" />
+		<tag k="ssr:hovedgruppe" v="terreng" />
+<<<<<<< HEAD
 		<tag k="ssr:stedsnr" v="162252" />
 		<tag k="ssr:type" v="li" />
 	</node>
@@ -352,10 +834,29 @@
 	<node lat="64.93579722380741" lon="11.683483329029862" id="-37453">
 		<tag k="loc_name" v="Vasslian" />
 		<tag k="natural" v="slope" />
+=======
+		<tag k="ssr:stedsnr" v="968377" />
+		<tag k="ssr:type" v="haug" />
+	</node>
+	<node id="-828324" lat="64.8426944427" lon="11.2535111103">
+		<tag k="fixme" v="consider seamark:type=rock or natural=shoal" />
+		<tag k="loc_name" v="Naustskjæret" />
+		<tag k="place" v="islet" />
+		<tag k="ssr:date" v="2019-12-27" />
+		<tag k="ssr:gruppe" v="grunnerISjø" />
+		<tag k="ssr:hovedgruppe" v="sjø" />
+		<tag k="ssr:stedsnr" v="180524" />
+		<tag k="ssr:type" v="skjærISjø" />
+	</node>
+	<node id="-828323" lat="64.8308555515" lon="11.2240583359">
+		<tag k="loc_name" v="Smiskaret" />
+		<tag k="natural" v="valley" />
+>>>>>>> e1d4bc35ff8a6074a6f2e91616a996b547c36f15
 		<tag k="place" v="locality" />
 		<tag k="ssr:date" v="2019-12-27" />
-		<tag k="ssr:gruppe" v="skråninger" />
+		<tag k="ssr:gruppe" v="senkninger" />
 		<tag k="ssr:hovedgruppe" v="terreng" />
+<<<<<<< HEAD
 		<tag k="ssr:stedsnr" v="176356" />
 		<tag k="ssr:type" v="li" />
 	</node>
@@ -370,11 +871,28 @@
 	</node>
 	<node lat="64.80863611183335" lon="11.71390832507981" id="-37455">
 		<tag k="loc_name" v="Guroneshøgda" />
+=======
+		<tag k="ssr:stedsnr" v="180505" />
+		<tag k="ssr:type" v="skar" />
+	</node>
+	<node id="-828322" lat="64.8173944448" lon="12.1659250034">
+		<tag k="loc_name" v="Middagsbekken" />
+		<tag k="ssr:date" v="2019-12-27" />
+		<tag k="ssr:gruppe" v="rennendeVann" />
+		<tag k="ssr:hovedgruppe" v="ferskvann" />
+		<tag k="ssr:stedsnr" v="284379" />
+		<tag k="ssr:type" v="bekk" />
+		<tag k="waterway" v="stream" />
+	</node>
+	<node id="-828321" lat="64.9335222199" lon="12.19814167">
+		<tag k="loc_name" v="Kolvmohaugen" />
+>>>>>>> e1d4bc35ff8a6074a6f2e91616a996b547c36f15
 		<tag k="natural" v="hill" />
 		<tag k="place" v="locality" />
 		<tag k="ssr:date" v="2019-12-27" />
 		<tag k="ssr:gruppe" v="høyder" />
 		<tag k="ssr:hovedgruppe" v="terreng" />
+<<<<<<< HEAD
 		<tag k="ssr:stedsnr" v="176419" />
 		<tag k="ssr:type" v="høyde" />
 	</node>
@@ -409,10 +927,19 @@
 	<node lat="64.97273055939067" lon="12.148605549448101" id="-37647">
 		<tag k="loc_name" v="Langmarkhatten" />
 		<tag k="natural" v="hill" />
+=======
+		<tag k="ssr:stedsnr" v="284370" />
+		<tag k="ssr:type" v="haug" />
+	</node>
+	<node id="-828320" lat="64.9261305522" lon="12.2372472167">
+		<tag k="loc_name" v="Lomtjønnlia" />
+		<tag k="natural" v="slope" />
+>>>>>>> e1d4bc35ff8a6074a6f2e91616a996b547c36f15
 		<tag k="place" v="locality" />
 		<tag k="ssr:date" v="2019-12-27" />
 		<tag k="ssr:gruppe" v="høyder" />
 		<tag k="ssr:hovedgruppe" v="terreng" />
+<<<<<<< HEAD
 		<tag k="ssr:stedsnr" v="223381" />
 		<tag k="ssr:type" v="haug" />
 	</node>
@@ -456,20 +983,92 @@
 	</node>
 	<node lat="64.89507221941174" lon="11.583111120809727" id="-37723">
 		<tag k="loc_name" v="Korshaugmoan" />
+=======
+		<tag k="ssr:stedsnr" v="284365" />
+		<tag k="ssr:type" v="li" />
+	</node>
+	<node id="-828319" lat="64.9709527734" lon="12.1651666732">
+		<tag k="loc_name" v="Ulvstubakken" />
+		<tag k="natural" v="slope" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2019-12-27" />
+		<tag k="ssr:gruppe" v="skråninger" />
+		<tag k="ssr:hovedgruppe" v="terreng" />
+		<tag k="ssr:stedsnr" v="284363" />
+		<tag k="ssr:type" v="bakke" />
+	</node>
+	<node id="-828318" lat="64.9647444444" lon="12.0232972191">
+		<tag k="loc_name" v="Engesmoen" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2019-12-27" />
+		<tag k="ssr:gruppe" v="bolighus" />
+		<tag k="ssr:hovedgruppe" v="bebyggelse" />
+		<tag k="ssr:stedsnr" v="284308" />
+		<tag k="ssr:type" v="gammelBosettingsplass" />
+	</node>
+	<node id="-828317" lat="64.9695555511" lon="12.11208056">
+		<tag k="loc_name" v="Vika" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2019-12-27" />
+		<tag k="ssr:gruppe" v="bolighus" />
+		<tag k="ssr:hovedgruppe" v="bebyggelse" />
+		<tag k="ssr:stedsnr" v="284297" />
+		<tag k="ssr:type" v="gammelBosettingsplass" />
+	</node>
+	<node id="-828316" lat="64.9714416681" lon="12.0705083367">
+		<tag k="loc_name" v="Løenget" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2019-12-27" />
+		<tag k="ssr:gruppe" v="flater" />
+		<tag k="ssr:hovedgruppe" v="terreng" />
+		<tag k="ssr:stedsnr" v="284286" />
+		<tag k="ssr:type" v="mo" />
+	</node>
+	<node id="-828315" lat="64.944986114" lon="11.9588611018">
+		<tag k="loc_name" v="Årforsjøen (Sjøgården)" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2019-12-27" />
+		<tag k="ssr:gruppe" v="gardsbebyggelse" />
+		<tag k="ssr:hovedgruppe" v="bebyggelse" />
+		<tag k="ssr:stedsnr" v="284220" />
+		<tag k="ssr:type" v="bruk" />
+	</node>
+	<node id="-831377" lat="64.9325888917" lon="12.1918472202">
+		<tag k="loc_name" v="Varghaugen" />
+>>>>>>> e1d4bc35ff8a6074a6f2e91616a996b547c36f15
 		<tag k="natural" v="hill" />
 		<tag k="place" v="locality" />
 		<tag k="ssr:date" v="2019-12-27" />
 		<tag k="ssr:gruppe" v="høyder" />
 		<tag k="ssr:hovedgruppe" v="terreng" />
+<<<<<<< HEAD
 		<tag k="ssr:stedsnr" v="237609" />
 		<tag k="ssr:type" v="haug" />
 	</node>
 	<node lat="64.90842777380965" lon="11.58763054647851" id="-37724">
 		<tag k="loc_name" v="Grova" />
+=======
+		<tag k="ssr:stedsnr" v="951370" />
+		<tag k="ssr:type" v="haug" />
+	</node>
+	<node id="-831376" lat="64.9440444446" lon="12.1629833373">
+		<tag k="loc_name" v="Stormyrbenken" />
 		<tag k="place" v="locality" />
 		<tag k="ssr:date" v="2019-12-27" />
-		<tag k="ssr:gruppe" v="flater" />
+		<tag k="ssr:gruppe" v="vegetasjon" />
+		<tag k="ssr:hovedgruppe" v="markslag" />
+		<tag k="ssr:stedsnr" v="951367" />
+		<tag k="ssr:type" v="skog" />
+	</node>
+	<node id="-831375" lat="64.946688893" lon="12.1556916718">
+		<tag k="loc_name" v="Tømmerdalen" />
+		<tag k="natural" v="valley" />
+>>>>>>> e1d4bc35ff8a6074a6f2e91616a996b547c36f15
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2019-12-27" />
+		<tag k="ssr:gruppe" v="senkninger" />
 		<tag k="ssr:hovedgruppe" v="terreng" />
+<<<<<<< HEAD
 		<tag k="ssr:stedsnr" v="237611" />
 		<tag k="ssr:type" v="slette" />
 	</node>
@@ -484,21 +1083,37 @@
 	</node>
 	<node lat="64.89876110849762" lon="11.565602783732915" id="-37726">
 		<tag k="loc_name" v="Nordvika" />
+=======
+		<tag k="ssr:stedsnr" v="951364" />
+		<tag k="ssr:type" v="dal" />
+	</node>
+	<node id="-831374" lat="64.9426583319" lon="12.1703388955">
+		<tag k="loc_name" v="Taklia" />
+>>>>>>> e1d4bc35ff8a6074a6f2e91616a996b547c36f15
 		<tag k="natural" v="slope" />
 		<tag k="place" v="locality" />
 		<tag k="ssr:date" v="2019-12-27" />
 		<tag k="ssr:gruppe" v="skråninger" />
 		<tag k="ssr:hovedgruppe" v="terreng" />
+<<<<<<< HEAD
 		<tag k="ssr:stedsnr" v="237599" />
 		<tag k="ssr:type" v="li" />
 	</node>
 	<node lat="64.80053333562465" lon="11.77578332651173" id="-37727">
 		<tag k="loc_name" v="Storbrenna" />
+=======
+		<tag k="ssr:stedsnr" v="951361" />
+		<tag k="ssr:type" v="li" />
+	</node>
+	<node id="-829932" lat="64.9462916687" lon="12.3190027879">
+		<tag k="loc_name" v="Nyenget" />
+>>>>>>> e1d4bc35ff8a6074a6f2e91616a996b547c36f15
 		<tag k="natural" v="slope" />
 		<tag k="place" v="locality" />
 		<tag k="ssr:date" v="2019-12-27" />
 		<tag k="ssr:gruppe" v="skråninger" />
 		<tag k="ssr:hovedgruppe" v="terreng" />
+<<<<<<< HEAD
 		<tag k="ssr:stedsnr" v="237713" />
 		<tag k="ssr:type" v="bakke" />
 	</node>
@@ -523,10 +1138,18 @@
 	</node>
 	<node lat="64.98194999989144" lon="11.656238891408766" id="-37881">
 		<tag k="loc_name" v="Hammarvika" />
+=======
+		<tag k="ssr:stedsnr" v="543372" />
+		<tag k="ssr:type" v="li" />
+	</node>
+	<node id="-829163" lat="64.8522555527" lon="11.2457444541">
+		<tag k="loc_name" v="Botnet" />
+>>>>>>> e1d4bc35ff8a6074a6f2e91616a996b547c36f15
 		<tag k="natural" v="bay" />
 		<tag k="ssr:date" v="2019-12-27" />
 		<tag k="ssr:gruppe" v="kystkontur" />
 		<tag k="ssr:hovedgruppe" v="sjø" />
+<<<<<<< HEAD
 		<tag k="ssr:stedsnr" v="285611" />
 		<tag k="ssr:type" v="vikISjø" />
 	</node>
@@ -560,10 +1183,78 @@
 	<node lat="64.95731388714695" lon="11.642988882458331" id="-37942">
 		<tag k="loc_name" v="Svanhaugan" />
 		<tag k="natural" v="hill" />
+=======
+		<tag k="ssr:stedsnr" v="362571" />
+		<tag k="ssr:type" v="vikISjø" />
+	</node>
+	<node id="-829162" lat="64.8075277804" lon="11.1450833243">
+		<tag k="loc_name" v="Litltreholmen" />
+		<tag k="place" v="islet" />
+		<tag k="ssr:date" v="2019-12-27" />
+		<tag k="ssr:gruppe" v="kystkontur" />
+		<tag k="ssr:hovedgruppe" v="sjø" />
+		<tag k="ssr:stedsnr" v="362524" />
+		<tag k="ssr:type" v="holmeISjø" />
+	</node>
+	<node id="-830842" lat="64.9415249964" lon="12.2823388879">
+		<tag k="bay" v="fjord" />
+		<tag k="loc_name" v="Follafjorden" />
+		<tag k="natural" v="bay" />
+		<tag k="ssr:date" v="2019-12-27" />
+		<tag k="ssr:gruppe" v="farvann" />
+		<tag k="ssr:hovedgruppe" v="sjø" />
+		<tag k="ssr:stedsnr" v="786363" />
+		<tag k="ssr:type" v="fjord" />
+	</node>
+	<node id="-829075" lat="64.7966722231" lon="11.4191777803">
+		<tag k="loc_name" v="Treåkerhaugen" />
+		<tag k="natural" v="hill" />
 		<tag k="place" v="locality" />
 		<tag k="ssr:date" v="2019-12-27" />
 		<tag k="ssr:gruppe" v="høyder" />
 		<tag k="ssr:hovedgruppe" v="terreng" />
+		<tag k="ssr:stedsnr" v="479186" />
+		<tag k="ssr:type" v="haug" />
+	</node>
+	<node id="-830696" lat="64.8848666675" lon="11.580397225">
+		<tag k="loc_name" v="Oksvikhaugen" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2019-12-27" />
+		<tag k="ssr:gruppe" v="høyder" />
+		<tag k="ssr:hovedgruppe" v="terreng" />
+		<tag k="ssr:stedsnr" v="905685" />
+		<tag k="ssr:type" v="haug" />
+	</node>
+	<node id="-829074" lat="64.9002555597" lon="11.8487138982">
+		<tag k="loc_name" v="Langdalen" />
+		<tag k="natural" v="valley" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2019-12-27" />
+		<tag k="ssr:gruppe" v="senkninger" />
+		<tag k="ssr:hovedgruppe" v="terreng" />
+		<tag k="ssr:stedsnr" v="479087" />
+		<tag k="ssr:type" v="dal" />
+	</node>
+	<node id="-828647" lat="64.9489666633" lon="11.5933250033">
+		<tag k="loc_name" v="Fjellveigen" />
+		<tag k="natural" v="slope" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2019-12-27" />
+		<tag k="ssr:gruppe" v="skråninger" />
+		<tag k="ssr:hovedgruppe" v="terreng" />
+		<tag k="ssr:stedsnr" v="224588" />
+		<tag k="ssr:type" v="li" />
+	</node>
+	<node id="-828262" lat="64.9697333354" lon="12.0762277852">
+		<tag k="loc_name" v="Sopphaugan" />
+		<tag k="natural" v="slope" />
+>>>>>>> e1d4bc35ff8a6074a6f2e91616a996b547c36f15
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2019-12-27" />
+		<tag k="ssr:gruppe" v="skråninger" />
+		<tag k="ssr:hovedgruppe" v="terreng" />
+<<<<<<< HEAD
 		<tag k="ssr:stedsnr" v="298577" />
 		<tag k="ssr:type" v="haug" />
 	</node>
@@ -579,29 +1270,100 @@
 	</node>
 	<node lat="64.86926111280285" lon="11.576302785810368" id="-37944">
 		<tag k="loc_name" v="Åsheim" />
-		<tag k="place" v="isolated_dwelling" />
+=======
+		<tag k="ssr:stedsnr" v="162252" />
+		<tag k="ssr:type" v="li" />
+	</node>
+	<node id="-829073" lat="64.8973694425" lon="11.8225944478">
+		<tag k="loc_name" v="Trolldalen" />
+		<tag k="natural" v="slope" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2019-12-27" />
+		<tag k="ssr:gruppe" v="skråninger" />
+		<tag k="ssr:hovedgruppe" v="terreng" />
+		<tag k="ssr:stedsnr" v="479082" />
+		<tag k="ssr:type" v="li" />
+	</node>
+	<node id="-830308" lat="64.9544222181" lon="12.0119611046">
+		<tag k="loc_name" v="Husmoen" />
+		<tag k="place" v="locality" />
 		<tag k="ssr:date" v="2019-12-27" />
 		<tag k="ssr:gruppe" v="bolighus" />
 		<tag k="ssr:hovedgruppe" v="bebyggelse" />
-		<tag k="ssr:stedsnr" v="298709" />
-		<tag k="ssr:type" v="eneboligMindreBoligbygg" />
+		<tag k="ssr:stedsnr" v="647325" />
+		<tag k="ssr:type" v="gammelBosettingsplass" />
 	</node>
-	<node lat="64.83099722336362" lon="11.220613895990095" id="-37945">
-		<tag k="loc_name" v="Klehaugen" />
+	<node id="-830307" lat="65.0163444419" lon="11.9811">
+		<tag k="loc_name" v="Kårfjellet" />
 		<tag k="natural" v="hill" />
 		<tag k="place" v="locality" />
 		<tag k="ssr:date" v="2019-12-27" />
 		<tag k="ssr:gruppe" v="høyder" />
 		<tag k="ssr:hovedgruppe" v="terreng" />
+		<tag k="ssr:stedsnr" v="647304" />
+		<tag k="ssr:type" v="høyde" />
+	</node>
+	<node id="-831330" lat="64.919227781" lon="11.6230305461">
+		<tag k="loc_name" v="Øverløftet" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2019-12-27" />
+		<tag k="ssr:gruppe" v="bartFjell" />
+		<tag k="ssr:hovedgruppe" v="markslag" />
+		<tag k="ssr:stedsnr" v="905707" />
+		<tag k="ssr:type" v="fjellIDagen" />
+	</node>
+	<node id="-831329" lat="64.9201361127" lon="11.7181583347">
+		<tag k="loc_name" v="Dale" />
+>>>>>>> e1d4bc35ff8a6074a6f2e91616a996b547c36f15
+		<tag k="place" v="isolated_dwelling" />
+		<tag k="ssr:date" v="2019-12-27" />
+		<tag k="ssr:gruppe" v="bolighus" />
+		<tag k="ssr:hovedgruppe" v="bebyggelse" />
+		<tag k="ssr:stedsnr" v="905523" />
+		<tag k="ssr:type" v="eneboligMindreBoligbygg" />
+	</node>
+<<<<<<< HEAD
+	<node lat="64.83099722336362" lon="11.220613895990095" id="-37945">
+		<tag k="loc_name" v="Klehaugen" />
+		<tag k="natural" v="hill" />
+=======
+	<node id="-831328" lat="64.806900003" lon="11.7823805505">
+		<tag k="loc_name" v="Søndagsholet" />
+		<tag k="natural" v="valley" />
+>>>>>>> e1d4bc35ff8a6074a6f2e91616a996b547c36f15
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2019-12-27" />
+		<tag k="ssr:gruppe" v="senkninger" />
+		<tag k="ssr:hovedgruppe" v="terreng" />
+<<<<<<< HEAD
 		<tag k="ssr:stedsnr" v="302510" />
 		<tag k="ssr:type" v="haug" />
 	</node>
 	<node lat="64.84958889208484" lon="11.223075007266285" id="-37946">
 		<tag k="loc_name" v="Kjerringrauva" />
 		<tag k="place" v="locality" />
+=======
+		<tag k="ssr:stedsnr" v="905505" />
+		<tag k="ssr:type" v="botn" />
+	</node>
+	<node id="-829072" lat="64.9427944451" lon="11.8971361188">
+		<tag k="loc_name" v="Stordalslia" />
+		<tag k="natural" v="slope" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2019-12-27" />
+		<tag k="ssr:gruppe" v="skråninger" />
+		<tag k="ssr:hovedgruppe" v="terreng" />
+		<tag k="ssr:stedsnr" v="479080" />
+		<tag k="ssr:type" v="li" />
+	</node>
+	<node id="-831326" lat="64.8909749987" lon="11.7859916621">
+		<tag k="loc_name" v="Dalmyra" />
+		<tag k="natural" v="wetland" />
+>>>>>>> e1d4bc35ff8a6074a6f2e91616a996b547c36f15
 		<tag k="ssr:date" v="2019-12-27" />
 		<tag k="ssr:gruppe" v="bartFjell" />
 		<tag k="ssr:hovedgruppe" v="markslag" />
+<<<<<<< HEAD
 		<tag k="ssr:stedsnr" v="302572" />
 		<tag k="ssr:type" v="fjellIDagen" />
 	</node>
@@ -616,11 +1378,29 @@
 	</node>
 	<node lat="64.92552499674359" lon="11.933980549994526" id="-37951">
 		<tag k="loc_name" v="Skarvberget" />
+=======
+		<tag k="ssr:stedsnr" v="905356" />
+		<tag k="ssr:type" v="myr" />
+	</node>
+	<node id="-828645" lat="64.7312277803" lon="11.1803500059">
+		<tag k="loc_name" v="Fiskberga" />
 		<tag k="natural" v="hill" />
 		<tag k="place" v="locality" />
 		<tag k="ssr:date" v="2019-12-27" />
 		<tag k="ssr:gruppe" v="høyder" />
 		<tag k="ssr:hovedgruppe" v="terreng" />
+		<tag k="ssr:stedsnr" v="224579" />
+		<tag k="ssr:type" v="berg" />
+	</node>
+	<node id="-831324" lat="64.907177774" lon="11.5481361099">
+		<tag k="loc_name" v="Gløshaugen" />
+>>>>>>> e1d4bc35ff8a6074a6f2e91616a996b547c36f15
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2019-12-27" />
+		<tag k="ssr:gruppe" v="høyder" />
+		<tag k="ssr:hovedgruppe" v="terreng" />
+<<<<<<< HEAD
 		<tag k="ssr:stedsnr" v="466953" />
 		<tag k="ssr:type" v="berg" />
 	</node>
@@ -645,10 +1425,112 @@
 	<node lat="64.89627221818839" lon="11.829263888841895" id="-38198">
 		<tag k="loc_name" v="Kubrudalen" />
 		<tag k="natural" v="valley" />
+=======
+		<tag k="ssr:stedsnr" v="905612" />
+		<tag k="ssr:type" v="haug" />
+	</node>
+	<node id="-831323" lat="64.8933472263" lon="11.6166777755">
+		<tag k="loc_name" v="Grytdalen" />
+		<tag k="natural" v="valley" />
 		<tag k="place" v="locality" />
 		<tag k="ssr:date" v="2019-12-27" />
 		<tag k="ssr:gruppe" v="senkninger" />
 		<tag k="ssr:hovedgruppe" v="terreng" />
+		<tag k="ssr:stedsnr" v="905610" />
+		<tag k="ssr:type" v="dal" />
+	</node>
+	<node id="-831322" lat="64.9907555564" lon="11.7296416653">
+		<tag k="amenity" v="community_centre" />
+		<tag k="loc_name" v="Breidablikk" />
+		<tag k="ssr:date" v="2019-12-27" />
+		<tag k="ssr:gruppe" v="kulturinstitusjoner" />
+		<tag k="ssr:hovedgruppe" v="kultur" />
+		<tag k="ssr:stedsnr" v="905412" />
+		<tag k="ssr:type" v="forsamlingshusKulturhus" />
+	</node>
+	<node id="-829071" lat="64.9366416659" lon="11.9157194529">
+		<tag k="loc_name" v="Bakken" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2019-12-27" />
+		<tag k="ssr:gruppe" v="gardsbebyggelse" />
+		<tag k="ssr:hovedgruppe" v="bebyggelse" />
+		<tag k="ssr:stedsnr" v="479078" />
+		<tag k="ssr:type" v="bruk" />
+	</node>
+	<node id="-831320" lat="65.0260916625" lon="11.9024138913">
+		<tag k="loc_name" v="Lundsengvatnet" />
+		<tag k="natural" v="water" />
+		<tag k="ssr:date" v="2019-12-27" />
+		<tag k="ssr:gruppe" v="stilleståendeVann" />
+		<tag k="ssr:hovedgruppe" v="ferskvann" />
+		<tag k="ssr:stedsnr" v="905176" />
+		<tag k="ssr:type" v="vann" />
+		<tag k="water" v="lake" />
+	</node>
+	<node id="-831319" lat="65.0441611076" lon="11.8874805523">
+		<tag k="loc_name" v="Hundholet" />
+		<tag k="natural" v="strait" />
+		<tag k="ssr:date" v="2019-12-27" />
+		<tag k="ssr:gruppe" v="ferskvannskontur" />
+		<tag k="ssr:hovedgruppe" v="ferskvann" />
+		<tag k="ssr:stedsnr" v="905160" />
+		<tag k="ssr:type" v="sund" />
+	</node>
+	<node id="-830803" lat="64.9743972178" lon="12.0520611124">
+		<tag k="loc_name" v="Hopskogen" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2019-12-27" />
+		<tag k="ssr:gruppe" v="vegetasjon" />
+		<tag k="ssr:hovedgruppe" v="markslag" />
+		<tag k="ssr:stedsnr" v="769292" />
+		<tag k="ssr:type" v="skog" />
+	</node>
+	<node id="-830802" lat="64.9422250002" lon="12.01514444">
+		<tag k="bay" v="fjord" />
+		<tag k="loc_name" v="Follafjorden" />
+		<tag k="natural" v="bay" />
+		<tag k="ssr:date" v="2019-12-27" />
+		<tag k="ssr:gruppe" v="farvann" />
+		<tag k="ssr:hovedgruppe" v="sjø" />
+		<tag k="ssr:stedsnr" v="769259" />
+		<tag k="ssr:type" v="fjord" />
+	</node>
+	<node id="-828238" lat="65.0044111089" lon="10.8343055494">
+		<tag k="loc_name" v="Frelsøyan" />
+		<tag k="place" v="island" />
+		<tag k="ssr:date" v="2019-12-27" />
+		<tag k="ssr:gruppe" v="kystkontur" />
+		<tag k="ssr:hovedgruppe" v="sjø" />
+		<tag k="ssr:stedsnr" v="147209" />
+		<tag k="ssr:type" v="øygruppeISjø" />
+	</node>
+	<node id="-830794" lat="64.8523416629" lon="11.2406472143">
+		<tag k="loc_name" v="Øvermoen" />
+		<tag k="place" v="isolated_dwelling" />
+		<tag k="ssr:date" v="2019-12-27" />
+		<tag k="ssr:gruppe" v="bolighus" />
+		<tag k="ssr:hovedgruppe" v="bebyggelse" />
+		<tag k="ssr:stedsnr" v="908592" />
+		<tag k="ssr:type" v="eneboligMindreBoligbygg" />
+	</node>
+	<node id="-830793" lat="64.8468861083" lon="11.2165027705">
+		<tag k="loc_name" v="Storvika" />
+		<tag k="natural" v="bay" />
+		<tag k="ssr:date" v="2019-12-27" />
+		<tag k="ssr:gruppe" v="kystkontur" />
+		<tag k="ssr:hovedgruppe" v="sjø" />
+		<tag k="ssr:stedsnr" v="908581" />
+		<tag k="ssr:type" v="vikISjø" />
+	</node>
+	<node id="-830792" lat="64.8446527809" lon="11.2272444384">
+		<tag k="loc_name" v="Kudauhaugen" />
+		<tag k="natural" v="hill" />
+>>>>>>> e1d4bc35ff8a6074a6f2e91616a996b547c36f15
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2019-12-27" />
+		<tag k="ssr:gruppe" v="senkninger" />
+		<tag k="ssr:hovedgruppe" v="terreng" />
+<<<<<<< HEAD
 		<tag k="ssr:stedsnr" v="358102" />
 		<tag k="ssr:type" v="dal" />
 	</node>
@@ -682,52 +1564,152 @@
 	</node>
 	<node lat="64.96210000196919" lon="11.648102788411542" id="-38202">
 		<tag k="loc_name" v="Groftlibakkan" />
+=======
+		<tag k="ssr:stedsnr" v="908572" />
+		<tag k="ssr:type" v="haug" />
+	</node>
+	<node id="-830791" lat="64.846716667" lon="11.2206027775">
+		<tag k="loc_name" v="Larsvikkleiva" />
 		<tag k="natural" v="slope" />
 		<tag k="place" v="locality" />
 		<tag k="ssr:date" v="2019-12-27" />
 		<tag k="ssr:gruppe" v="skråninger" />
 		<tag k="ssr:hovedgruppe" v="terreng" />
+		<tag k="ssr:stedsnr" v="908556" />
+		<tag k="ssr:type" v="bakke" />
+	</node>
+	<node id="-830278" lat="64.9201833323" lon="12.2909638819">
+		<tag k="loc_name" v="Kartholet" />
+		<tag k="natural" v="valley" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2019-12-27" />
+		<tag k="ssr:gruppe" v="senkninger" />
+		<tag k="ssr:hovedgruppe" v="terreng" />
+		<tag k="ssr:stedsnr" v="725334" />
+		<tag k="ssr:type" v="dal" />
+	</node>
+	<node id="-830277" lat="64.927450002" lon="12.3205222249">
+		<tag k="loc_name" v="Liltmoen" />
+		<tag k="place" v="isolated_dwelling" />
+		<tag k="ssr:date" v="2019-12-27" />
+		<tag k="ssr:gruppe" v="bolighus" />
+		<tag k="ssr:hovedgruppe" v="bebyggelse" />
+		<tag k="ssr:stedsnr" v="725324" />
+		<tag k="ssr:type" v="eneboligMindreBoligbygg" />
+	</node>
+	<node id="-827905" lat="64.9133527736" lon="12.3020194341">
+		<tag k="loc_name" v="Henrikhaugen" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2019-12-27" />
+		<tag k="ssr:gruppe" v="høyder" />
+		<tag k="ssr:hovedgruppe" v="terreng" />
+		<tag k="ssr:stedsnr" v="240381" />
+		<tag k="ssr:type" v="haug" />
+	</node>
+	<node id="-830247" lat="64.932258329" lon="11.6553777809">
+		<tag k="loc_name" v="Buengskardet" />
+>>>>>>> e1d4bc35ff8a6074a6f2e91616a996b547c36f15
+		<tag k="natural" v="slope" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2019-12-27" />
+		<tag k="ssr:gruppe" v="skråninger" />
+		<tag k="ssr:hovedgruppe" v="terreng" />
+<<<<<<< HEAD
 		<tag k="ssr:stedsnr" v="358599" />
 		<tag k="ssr:type" v="bakke" />
 	</node>
 	<node lat="64.9124861105276" lon="11.554816666966511" id="-38203">
 		<tag k="fixme" v="consider natural=peak for the most distinct mountains in the district" />
 		<tag k="loc_name" v="Inndikstinden" />
+=======
+		<tag k="ssr:stedsnr" v="723661" />
+		<tag k="ssr:type" v="li" />
+	</node>
+	<node id="-830246" lat="64.9301861144" lon="11.6013500044">
+		<tag k="loc_name" v="Demmå" />
+		<tag k="ssr:date" v="2019-12-27" />
+		<tag k="ssr:gruppe" v="rennendeVann" />
+		<tag k="ssr:hovedgruppe" v="ferskvann" />
+		<tag k="ssr:stedsnr" v="723651" />
+		<tag k="ssr:type" v="stryk" />
+		<tag k="waterway" v="rapids" />
+	</node>
+	<node id="-830238" lat="64.8848027741" lon="11.5360222157">
+		<tag k="loc_name" v="Småhaugan" />
+>>>>>>> e1d4bc35ff8a6074a6f2e91616a996b547c36f15
 		<tag k="natural" v="hill" />
 		<tag k="place" v="locality" />
 		<tag k="ssr:date" v="2019-12-27" />
 		<tag k="ssr:gruppe" v="høyder" />
 		<tag k="ssr:hovedgruppe" v="terreng" />
+<<<<<<< HEAD
 		<tag k="ssr:stedsnr" v="358700" />
 		<tag k="ssr:type" v="ås" />
 	</node>
 	<node lat="64.8973694425014" lon="11.822594447835836" id="-38212">
 		<tag k="loc_name" v="Trolldalen" />
 		<tag k="natural" v="slope" />
+=======
+		<tag k="ssr:stedsnr" v="722748" />
+		<tag k="ssr:type" v="haug" />
+	</node>
+	<node id="-830237" lat="64.8875138878" lon="11.5658611041">
+		<tag k="loc_name" v="Kjørskardet" />
+		<tag k="natural" v="valley" />
+>>>>>>> e1d4bc35ff8a6074a6f2e91616a996b547c36f15
 		<tag k="place" v="locality" />
 		<tag k="ssr:date" v="2019-12-27" />
 		<tag k="ssr:gruppe" v="skråninger" />
 		<tag k="ssr:hovedgruppe" v="terreng" />
+<<<<<<< HEAD
 		<tag k="ssr:stedsnr" v="479082" />
 		<tag k="ssr:type" v="li" />
 	</node>
 	<node lat="64.90025555971081" lon="11.848713898202856" id="-38213">
 		<tag k="loc_name" v="Langdalen" />
 		<tag k="natural" v="valley" />
+=======
+		<tag k="ssr:stedsnr" v="722744" />
+		<tag k="ssr:type" v="skar" />
+	</node>
+	<node id="-830236" lat="64.8778722209" lon="11.5492027702">
+		<tag k="loc_name" v="Liavikenget" />
+		<tag k="natural" v="slope" />
+>>>>>>> e1d4bc35ff8a6074a6f2e91616a996b547c36f15
 		<tag k="place" v="locality" />
 		<tag k="ssr:date" v="2019-12-27" />
-		<tag k="ssr:gruppe" v="senkninger" />
+		<tag k="ssr:gruppe" v="skråninger" />
 		<tag k="ssr:hovedgruppe" v="terreng" />
+<<<<<<< HEAD
 		<tag k="ssr:stedsnr" v="479087" />
 		<tag k="ssr:type" v="dal" />
 	</node>
 	<node lat="64.7966722231073" lon="11.419177780273392" id="-38214">
 		<tag k="loc_name" v="Treåkerhaugen" />
 		<tag k="natural" v="hill" />
+=======
+		<tag k="ssr:stedsnr" v="722741" />
+		<tag k="ssr:type" v="li" />
+	</node>
+	<node id="-830235" lat="64.893149996" lon="11.7000416575">
+		<tag k="loc_name" v="Lomtjønna" />
+		<tag k="natural" v="water" />
+		<tag k="ssr:date" v="2019-12-27" />
+		<tag k="ssr:gruppe" v="stilleståendeVann" />
+		<tag k="ssr:hovedgruppe" v="ferskvann" />
+		<tag k="ssr:stedsnr" v="722499" />
+		<tag k="ssr:type" v="tjern" />
+	</node>
+	<node id="-830234" lat="64.8153027817" lon="11.7853972204">
+		<tag k="loc_name" v="Blautdalen" />
+		<tag k="natural" v="valley" />
+>>>>>>> e1d4bc35ff8a6074a6f2e91616a996b547c36f15
 		<tag k="place" v="locality" />
 		<tag k="ssr:date" v="2019-12-27" />
-		<tag k="ssr:gruppe" v="høyder" />
+		<tag k="ssr:gruppe" v="senkninger" />
 		<tag k="ssr:hovedgruppe" v="terreng" />
+<<<<<<< HEAD
 		<tag k="ssr:stedsnr" v="479186" />
 		<tag k="ssr:type" v="haug" />
 	</node>
@@ -751,21 +1733,74 @@
 	</node>
 	<node lat="64.92310555251697" lon="11.557055551202666" id="-38217">
 		<tag k="loc_name" v="Ørnhaugen" />
+=======
+		<tag k="ssr:stedsnr" v="722477" />
+		<tag k="ssr:type" v="dal" />
+	</node>
+	<node id="-830233" lat="64.7759250045" lon="11.3538166636">
+		<tag k="loc_name" v="Tennskjæret" />
+		<tag k="place" v="islet" />
+		<tag k="ssr:date" v="2019-12-27" />
+		<tag k="ssr:gruppe" v="grunnerIFerskvann" />
+		<tag k="ssr:hovedgruppe" v="ferskvann" />
+		<tag k="ssr:stedsnr" v="722145" />
+		<tag k="ssr:type" v="skjær" />
+	</node>
+	<node id="-830232" lat="65.0236166642" lon="11.903144439">
+		<tag k="loc_name" v="Vasslian" />
+		<tag k="natural" v="slope" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2019-12-27" />
+		<tag k="ssr:gruppe" v="skråninger" />
+		<tag k="ssr:hovedgruppe" v="terreng" />
+		<tag k="ssr:stedsnr" v="722176" />
+		<tag k="ssr:type" v="li" />
+	</node>
+	<node id="-827671" lat="64.9452972257" lon="12.155208336">
+		<tag k="loc_name" v="Sørenglia" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2019-12-27" />
+		<tag k="ssr:gruppe" v="vegetasjon" />
+		<tag k="ssr:hovedgruppe" v="markslag" />
+		<tag k="ssr:stedsnr" v="223390" />
+		<tag k="ssr:type" v="skog" />
+	</node>
+	<node id="-829865" lat="64.95089722" lon="12.0005083232">
+		<tag k="loc_name" v="Utstillingsplassen" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2020-06-15" />
+		<tag k="ssr:gruppe" v="kulturminner" />
+		<tag k="ssr:hovedgruppe" v="kultur" />
+		<tag k="ssr:stedsnr" v="526363" />
+		<tag k="ssr:type" v="annenKulturdetalj" />
+	</node>
+	<node id="-831250" lat="64.922819442" lon="11.5537499956">
+		<tag k="loc_name" v="Bjønnberhaugen" />
+>>>>>>> e1d4bc35ff8a6074a6f2e91616a996b547c36f15
 		<tag k="natural" v="hill" />
 		<tag k="place" v="locality" />
 		<tag k="ssr:date" v="2019-12-27" />
 		<tag k="ssr:gruppe" v="høyder" />
 		<tag k="ssr:hovedgruppe" v="terreng" />
+<<<<<<< HEAD
 		<tag k="ssr:stedsnr" v="480692" />
 		<tag k="ssr:type" v="haug" />
 	</node>
 	<node lat="64.94789444168637" lon="11.719408335654064" id="-38218">
 		<tag k="loc_name" v="Brennhaugan" />
+=======
+		<tag k="ssr:stedsnr" v="844712" />
+		<tag k="ssr:type" v="haug" />
+	</node>
+	<node id="-827665" lat="64.9727305594" lon="12.1486055494">
+		<tag k="loc_name" v="Langmarkhatten" />
+>>>>>>> e1d4bc35ff8a6074a6f2e91616a996b547c36f15
 		<tag k="natural" v="hill" />
 		<tag k="place" v="locality" />
 		<tag k="ssr:date" v="2019-12-27" />
 		<tag k="ssr:gruppe" v="høyder" />
 		<tag k="ssr:hovedgruppe" v="terreng" />
+<<<<<<< HEAD
 		<tag k="ssr:stedsnr" v="480383" />
 		<tag k="ssr:type" v="haug" />
 	</node>
@@ -809,10 +1844,102 @@
 	<node lat="64.88335555959084" lon="11.573788892898875" id="-38223">
 		<tag k="loc_name" v="Halsoddhaugen" />
 		<tag k="natural" v="hill" />
+=======
+		<tag k="ssr:stedsnr" v="223381" />
+		<tag k="ssr:type" v="haug" />
+	</node>
+	<node id="-827664" lat="64.9658694466" lon="12.0474416584">
+		<tag k="loc_name" v="Saltbuenget" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2019-12-27" />
+		<tag k="ssr:gruppe" v="dyrkamark" />
+		<tag k="ssr:hovedgruppe" v="markslag" />
+		<tag k="ssr:stedsnr" v="223308" />
+		<tag k="ssr:type" v="jorde" />
+	</node>
+	<node id="-827663" lat="64.9678972234" lon="12.0808083288">
+		<tag k="loc_name" v="Antonplassen" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2019-12-27" />
+		<tag k="ssr:gruppe" v="bolighus" />
+		<tag k="ssr:hovedgruppe" v="bebyggelse" />
+		<tag k="ssr:stedsnr" v="223294" />
+		<tag k="ssr:type" v="gammelBosettingsplass" />
+	</node>
+	<node id="-830221" lat="64.841519443" lon="11.2331222261">
+		<tag k="loc_name" v="Engashaugen" />
+		<tag k="natural" v="hill" />
 		<tag k="place" v="locality" />
 		<tag k="ssr:date" v="2019-12-27" />
 		<tag k="ssr:gruppe" v="høyder" />
 		<tag k="ssr:hovedgruppe" v="terreng" />
+		<tag k="ssr:stedsnr" v="604560" />
+		<tag k="ssr:type" v="haug" />
+	</node>
+	<node id="-830218" lat="64.9646527802" lon="11.656088885">
+		<tag k="loc_name" v="Slåtten" />
+		<tag k="natural" v="slope" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2019-12-27" />
+		<tag k="ssr:gruppe" v="skråninger" />
+		<tag k="ssr:hovedgruppe" v="terreng" />
+		<tag k="ssr:stedsnr" v="601576" />
+		<tag k="ssr:type" v="li" />
+	</node>
+	<node id="-830217" lat="64.9024027735" lon="11.5720194497">
+		<tag k="loc_name" v="Orreleiken" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2019-12-27" />
+		<tag k="ssr:gruppe" v="bartFjell" />
+		<tag k="ssr:hovedgruppe" v="markslag" />
+		<tag k="ssr:stedsnr" v="601553" />
+		<tag k="ssr:type" v="fjellIDagen" />
+	</node>
+	<node id="-830216" lat="64.8895888921" lon="11.7799083292">
+		<tag k="loc_name" v="Hopadalen" />
+		<tag k="natural" v="valley" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2019-12-27" />
+		<tag k="ssr:gruppe" v="senkninger" />
+		<tag k="ssr:hovedgruppe" v="terreng" />
+		<tag k="ssr:stedsnr" v="601352" />
+		<tag k="ssr:type" v="dal" />
+	</node>
+	<node id="-828679" lat="64.8362500015" lon="11.2150583433">
+		<tag k="loc_name" v="Brønnvika" />
+		<tag k="natural" v="bay" />
+		<tag k="ssr:date" v="2019-12-27" />
+		<tag k="ssr:gruppe" v="kystkontur" />
+		<tag k="ssr:hovedgruppe" v="sjø" />
+		<tag k="ssr:stedsnr" v="241510" />
+		<tag k="ssr:type" v="vikISjø" />
+	</node>
+	<node id="-830214" lat="64.7960916711" lon="11.4277583252">
+		<tag k="loc_name" v="Smihaugen" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2020-06-15" />
+		<tag k="ssr:gruppe" v="kulturminner" />
+		<tag k="ssr:hovedgruppe" v="kultur" />
+		<tag k="ssr:stedsnr" v="601156" />
+		<tag k="ssr:type" v="annenKulturdetalj" />
+	</node>
+	<node id="-831749" lat="64.8179027782" lon="11.1625333347">
+		<tag k="loc_name" v="Keipen" />
+		<tag k="natural" v="cape" />
+		<tag k="ssr:date" v="2019-12-27" />
+		<tag k="ssr:gruppe" v="kystkontur" />
+		<tag k="ssr:hovedgruppe" v="sjø" />
+		<tag k="ssr:stedsnr" v="59517" />
+		<tag k="ssr:type" v="nesISjø" />
+	</node>
+	<node id="-831746" lat="64.8185222204" lon="11.5502277711">
+		<tag k="loc_name" v="Kløyvmoen" />
+>>>>>>> e1d4bc35ff8a6074a6f2e91616a996b547c36f15
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2019-12-27" />
+		<tag k="ssr:gruppe" v="flater" />
+		<tag k="ssr:hovedgruppe" v="terreng" />
+<<<<<<< HEAD
 		<tag k="ssr:stedsnr" v="480739" />
 		<tag k="ssr:type" v="haug" />
 	</node>
@@ -829,10 +1956,65 @@
 	<node lat="64.88036388491035" lon="11.537272226294652" id="-38225">
 		<tag k="loc_name" v="Middagsskardet" />
 		<tag k="natural" v="valley" />
+=======
+		<tag k="ssr:stedsnr" v="55717" />
+		<tag k="ssr:type" v="mo" />
+	</node>
+	<node id="-831745" lat="64.820838886" lon="11.5366000084">
+		<tag k="loc_name" v="Storkrokbekken" />
+		<tag k="ssr:date" v="2019-12-27" />
+		<tag k="ssr:gruppe" v="rennendeVann" />
+		<tag k="ssr:hovedgruppe" v="ferskvann" />
+		<tag k="ssr:stedsnr" v="55716" />
+		<tag k="ssr:type" v="bekk" />
+		<tag k="waterway" v="stream" />
+	</node>
+	<node id="-831744" lat="64.8820805546" lon="11.5309472226">
+		<tag k="loc_name" v="Liamyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:date" v="2019-12-27" />
+		<tag k="ssr:gruppe" v="våtmark" />
+		<tag k="ssr:hovedgruppe" v="markslag" />
+		<tag k="ssr:stedsnr" v="55709" />
+		<tag k="ssr:type" v="myr" />
+	</node>
+	<node id="-831743" lat="64.8850194423" lon="11.574666659">
+		<tag k="loc_name" v="Monsvika" />
+		<tag k="natural" v="bay" />
+		<tag k="ssr:date" v="2019-12-27" />
+		<tag k="ssr:gruppe" v="kystkontur" />
+		<tag k="ssr:hovedgruppe" v="sjø" />
+		<tag k="ssr:stedsnr" v="55693" />
+		<tag k="ssr:type" v="vikISjø" />
+	</node>
+	<node id="-831742" lat="64.9275083312" lon="11.5625972234">
+		<tag k="loc_name" v="Mølderslimyrå" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:date" v="2019-12-27" />
+		<tag k="ssr:gruppe" v="våtmark" />
+		<tag k="ssr:hovedgruppe" v="markslag" />
+		<tag k="ssr:stedsnr" v="55658" />
+		<tag k="ssr:type" v="myr" />
+	</node>
+	<node id="-831741" lat="64.917308332" lon="11.6137055605">
+		<tag k="loc_name" v="Bjønnarevvå" />
+		<tag k="natural" v="slope" />
 		<tag k="place" v="locality" />
 		<tag k="ssr:date" v="2019-12-27" />
-		<tag k="ssr:gruppe" v="senkninger" />
+		<tag k="ssr:gruppe" v="skråninger" />
 		<tag k="ssr:hovedgruppe" v="terreng" />
+		<tag k="ssr:stedsnr" v="55653" />
+		<tag k="ssr:type" v="li" />
+	</node>
+	<node id="-831740" lat="64.8971472258" lon="11.6915638842">
+		<tag k="loc_name" v="Brubakkan" />
+		<tag k="natural" v="slope" />
+>>>>>>> e1d4bc35ff8a6074a6f2e91616a996b547c36f15
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2019-12-27" />
+		<tag k="ssr:gruppe" v="skråninger" />
+		<tag k="ssr:hovedgruppe" v="terreng" />
+<<<<<<< HEAD
 		<tag k="ssr:stedsnr" v="480751" />
 		<tag k="ssr:type" v="skar" />
 	</node>
@@ -875,10 +2057,47 @@
 	<node lat="64.74620833395385" lon="11.234266659805591" id="-38343">
 		<tag k="loc_name" v="Middagshaugen" />
 		<tag k="natural" v="hill" />
+=======
+		<tag k="ssr:stedsnr" v="55471" />
+		<tag k="ssr:type" v="li" />
+	</node>
+	<node id="-831739" lat="64.8087388927" lon="11.7204527882">
+		<tag k="loc_name" v="Tømmerstrandlia" />
+		<tag k="natural" v="slope" />
 		<tag k="place" v="locality" />
 		<tag k="ssr:date" v="2019-12-27" />
-		<tag k="ssr:gruppe" v="høyder" />
+		<tag k="ssr:gruppe" v="skråninger" />
 		<tag k="ssr:hovedgruppe" v="terreng" />
+		<tag k="ssr:stedsnr" v="55435" />
+		<tag k="ssr:type" v="li" />
+	</node>
+	<node id="-831738" lat="64.81098889" lon="11.727652774">
+		<tag k="loc_name" v="Øystermyra" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2019-12-27" />
+		<tag k="ssr:gruppe" v="vegetasjon" />
+		<tag k="ssr:hovedgruppe" v="markslag" />
+		<tag k="ssr:stedsnr" v="55431" />
+		<tag k="ssr:type" v="skog" />
+	</node>
+	<node id="-831737" lat="64.9883416658" lon="11.7574166688">
+		<tag k="loc_name" v="Solstad" />
+		<tag k="place" v="isolated_dwelling" />
+		<tag k="ssr:date" v="2019-12-27" />
+		<tag k="ssr:gruppe" v="bolighus" />
+		<tag k="ssr:hovedgruppe" v="bebyggelse" />
+		<tag k="ssr:stedsnr" v="55388" />
+		<tag k="ssr:type" v="eneboligMindreBoligbygg" />
+	</node>
+	<node id="-831736" lat="64.9330333309" lon="11.6344583264">
+		<tag k="loc_name" v="Hagaskardet" />
+		<tag k="natural" v="valley" />
+>>>>>>> e1d4bc35ff8a6074a6f2e91616a996b547c36f15
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2019-12-27" />
+		<tag k="ssr:gruppe" v="senkninger" />
+		<tag k="ssr:hovedgruppe" v="terreng" />
+<<<<<<< HEAD
 		<tag k="ssr:stedsnr" v="406607" />
 		<tag k="ssr:type" v="haug" />
 	</node>
@@ -893,10 +2112,19 @@
 	</node>
 	<node lat="64.74317777750862" lon="11.226241659313361" id="-38345">
 		<tag k="loc_name" v="Klavamyra" />
+=======
+		<tag k="ssr:stedsnr" v="55639" />
+		<tag k="ssr:type" v="skar" />
+	</node>
+	<node id="-831735" lat="64.9302472237" lon="11.6377611151">
+		<tag k="loc_name" v="Sjurshaugen" />
+		<tag k="natural" v="hill" />
+>>>>>>> e1d4bc35ff8a6074a6f2e91616a996b547c36f15
 		<tag k="place" v="locality" />
 		<tag k="ssr:date" v="2019-12-27" />
 		<tag k="ssr:gruppe" v="flater" />
 		<tag k="ssr:hovedgruppe" v="terreng" />
+<<<<<<< HEAD
 		<tag k="ssr:stedsnr" v="406596" />
 		<tag k="ssr:type" v="slette" />
 	</node>
@@ -911,11 +2139,19 @@
 	</node>
 	<node lat="64.9072833364633" lon="11.668683328395948" id="-38389">
 		<tag k="loc_name" v="Dallia" />
+=======
+		<tag k="ssr:stedsnr" v="55633" />
+		<tag k="ssr:type" v="haug" />
+	</node>
+	<node id="-831734" lat="64.9282750007" lon="11.6023305537">
+		<tag k="loc_name" v="Moan" />
+>>>>>>> e1d4bc35ff8a6074a6f2e91616a996b547c36f15
 		<tag k="natural" v="slope" />
 		<tag k="place" v="locality" />
 		<tag k="ssr:date" v="2019-12-27" />
 		<tag k="ssr:gruppe" v="skråninger" />
 		<tag k="ssr:hovedgruppe" v="terreng" />
+<<<<<<< HEAD
 		<tag k="ssr:stedsnr" v="419487" />
 		<tag k="ssr:type" v="li" />
 	</node>
@@ -939,11 +2175,46 @@
 	</node>
 	<node lat="64.80057777724635" lon="11.778125007732545" id="-38392">
 		<tag k="loc_name" v="Litlbrenna" />
+=======
+		<tag k="ssr:stedsnr" v="55623" />
+		<tag k="ssr:type" v="li" />
+	</node>
+	<node id="-831733" lat="64.8029999989" lon="11.4574472218">
+		<tag k="loc_name" v="Nordli" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2019-12-27" />
+		<tag k="ssr:gruppe" v="gardsbebyggelse" />
+		<tag k="ssr:hovedgruppe" v="bebyggelse" />
+		<tag k="ssr:stedsnr" v="55142" />
+		<tag k="ssr:type" v="bruk" />
+	</node>
+	<node id="-831732" lat="64.9510499982" lon="11.9337888816">
+		<tag k="loc_name" v="Brennskardmyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:date" v="2019-12-27" />
+		<tag k="ssr:gruppe" v="våtmark" />
+		<tag k="ssr:hovedgruppe" v="markslag" />
+		<tag k="ssr:stedsnr" v="55090" />
+		<tag k="ssr:type" v="myr" />
+	</node>
+	<node id="-829378" lat="64.9645916711" lon="12.021522218">
+		<tag k="loc_name" v="Kalvmoen" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2019-12-27" />
+		<tag k="ssr:gruppe" v="bolighus" />
+		<tag k="ssr:hovedgruppe" v="bebyggelse" />
+		<tag k="ssr:stedsnr" v="405305" />
+		<tag k="ssr:type" v="gammelBosettingsplass" />
+	</node>
+	<node id="-830703" lat="64.8898194405" lon="11.5308750035">
+		<tag k="loc_name" v="Kløyva" />
+>>>>>>> e1d4bc35ff8a6074a6f2e91616a996b547c36f15
 		<tag k="natural" v="slope" />
 		<tag k="place" v="locality" />
 		<tag k="ssr:date" v="2019-12-27" />
 		<tag k="ssr:gruppe" v="skråninger" />
 		<tag k="ssr:hovedgruppe" v="terreng" />
+<<<<<<< HEAD
 		<tag k="ssr:stedsnr" v="419703" />
 		<tag k="ssr:type" v="li" />
 	</node>
@@ -1004,29 +2275,65 @@
 	<node lat="64.72880833557677" lon="11.178872215417709" id="-38513">
 		<tag k="loc_name" v="Storhallaren" />
 		<tag k="natural" v="hill" />
+=======
+		<tag k="ssr:stedsnr" v="905742" />
+		<tag k="ssr:type" v="bakke" />
+	</node>
+	<node id="-830702" lat="64.8795944461" lon="11.5497472293">
+		<tag k="loc_name" v="Storkløyva" />
+		<tag k="natural" v="slope" />
 		<tag k="place" v="locality" />
 		<tag k="ssr:date" v="2019-12-27" />
-		<tag k="ssr:gruppe" v="høyder" />
+		<tag k="ssr:gruppe" v="skråninger" />
 		<tag k="ssr:hovedgruppe" v="terreng" />
+		<tag k="ssr:stedsnr" v="905740" />
+		<tag k="ssr:type" v="li" />
+	</node>
+	<node id="-830701" lat="64.8832250018" lon="11.5453999911">
+		<tag k="loc_name" v="Storfjelldalen" />
+		<tag k="natural" v="valley" />
+>>>>>>> e1d4bc35ff8a6074a6f2e91616a996b547c36f15
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2019-12-27" />
+		<tag k="ssr:gruppe" v="senkninger" />
+		<tag k="ssr:hovedgruppe" v="terreng" />
+<<<<<<< HEAD
 		<tag k="ssr:stedsnr" v="466633" />
 		<tag k="ssr:type" v="berg" />
 	</node>
 	<node lat="64.94189722167583" lon="11.579491675562364" id="-38514">
 		<tag k="loc_name" v="Dalaberget" />
 		<tag k="natural" v="hill" />
+=======
+		<tag k="ssr:stedsnr" v="905739" />
+		<tag k="ssr:type" v="dal" />
+	</node>
+	<node id="-830700" lat="64.8850888861" lon="11.5670861091">
+		<tag k="loc_name" v="Straumlia" />
+		<tag k="natural" v="slope" />
+>>>>>>> e1d4bc35ff8a6074a6f2e91616a996b547c36f15
 		<tag k="place" v="locality" />
 		<tag k="ssr:date" v="2019-12-27" />
-		<tag k="ssr:gruppe" v="høyder" />
+		<tag k="ssr:gruppe" v="skråninger" />
 		<tag k="ssr:hovedgruppe" v="terreng" />
+<<<<<<< HEAD
 		<tag k="ssr:stedsnr" v="466635" />
 		<tag k="ssr:type" v="berg" />
 	</node>
 	<node lat="65.01842422622131" lon="11.830299587101644" id="-38565">
 		<tag k="loc_name" v="Hamnaholet" />
+=======
+		<tag k="ssr:stedsnr" v="905738" />
+		<tag k="ssr:type" v="li" />
+	</node>
+	<node id="-830699" lat="64.8883055534" lon="11.5689777824">
+		<tag k="loc_name" v="Ulvika" />
+>>>>>>> e1d4bc35ff8a6074a6f2e91616a996b547c36f15
 		<tag k="natural" v="bay" />
 		<tag k="ssr:date" v="2020-02-14" />
 		<tag k="ssr:gruppe" v="kystkontur" />
 		<tag k="ssr:hovedgruppe" v="sjø" />
+<<<<<<< HEAD
 		<tag k="ssr:stedsnr" v="479166" />
 		<tag k="ssr:type" v="vikISjø" />
 	</node>
@@ -1053,10 +2360,37 @@
 		<tag k="fixme" v="consider natural=peak for the most distinct mountains in the district" />
 		<tag k="loc_name" v="Blåfjellet" />
 		<tag k="natural" v="hill" />
+=======
+		<tag k="ssr:stedsnr" v="905734" />
+		<tag k="ssr:type" v="vikISjø" />
+	</node>
+	<node id="-830698" lat="64.9237416699" lon="11.5591888974">
+		<tag k="loc_name" v="Siriholet" />
+		<tag k="natural" v="spring" />
+		<tag k="ssr:date" v="2019-12-27" />
+		<tag k="ssr:gruppe" v="rennendeVann" />
+		<tag k="ssr:hovedgruppe" v="ferskvann" />
+		<tag k="ssr:stedsnr" v="905711" />
+		<tag k="ssr:type" v="kilde" />
+	</node>
+	<node id="-829161" lat="64.8297694411" lon="11.217455565">
+		<tag k="loc_name" v="Lauvbrekka" />
+>>>>>>> e1d4bc35ff8a6074a6f2e91616a996b547c36f15
 		<tag k="place" v="locality" />
 		<tag k="ssr:date" v="2019-12-27" />
-		<tag k="ssr:gruppe" v="høyder" />
+		<tag k="ssr:gruppe" v="dyrkamark" />
+		<tag k="ssr:hovedgruppe" v="markslag" />
+		<tag k="ssr:stedsnr" v="362521" />
+		<tag k="ssr:type" v="jorde" />
+	</node>
+	<node id="-829160" lat="64.9331888869" lon="11.5984666688">
+		<tag k="loc_name" v="Seteråsen" />
+		<tag k="natural" v="slope" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2019-12-27" />
+		<tag k="ssr:gruppe" v="skråninger" />
 		<tag k="ssr:hovedgruppe" v="terreng" />
+<<<<<<< HEAD
 		<tag k="ssr:stedsnr" v="480181" />
 		<tag k="ssr:type" v="fjell" />
 	</node>
@@ -1250,11 +2584,38 @@
 	</node>
 	<node lat="64.88958889209125" lon="11.779908329166942" id="-39148">
 		<tag k="loc_name" v="Hopadalen" />
+=======
+		<tag k="ssr:stedsnr" v="358673" />
+		<tag k="ssr:type" v="li" />
+	</node>
+	<node id="-829159" lat="64.9617499957" lon="11.7268555495">
+		<tag k="loc_name" v="Oterrevå" />
+		<tag k="natural" v="bay" />
+		<tag k="ssr:date" v="2019-12-27" />
+		<tag k="ssr:gruppe" v="kystkontur" />
+		<tag k="ssr:hovedgruppe" v="sjø" />
+		<tag k="ssr:stedsnr" v="358358" />
+		<tag k="ssr:type" v="vikISjø" />
+	</node>
+	<node id="-829158" lat="64.8962722182" lon="11.8292638888">
+		<tag k="loc_name" v="Kubrudalen" />
 		<tag k="natural" v="valley" />
 		<tag k="place" v="locality" />
 		<tag k="ssr:date" v="2019-12-27" />
 		<tag k="ssr:gruppe" v="senkninger" />
 		<tag k="ssr:hovedgruppe" v="terreng" />
+		<tag k="ssr:stedsnr" v="358102" />
+		<tag k="ssr:type" v="dal" />
+	</node>
+	<node id="-830693" lat="64.8992999992" lon="11.8329888797">
+		<tag k="loc_name" v="Kvennadalen" />
+>>>>>>> e1d4bc35ff8a6074a6f2e91616a996b547c36f15
+		<tag k="natural" v="valley" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2019-12-27" />
+		<tag k="ssr:gruppe" v="senkninger" />
+		<tag k="ssr:hovedgruppe" v="terreng" />
+<<<<<<< HEAD
 		<tag k="ssr:stedsnr" v="601352" />
 		<tag k="ssr:type" v="dal" />
 	</node>
@@ -1363,11 +2724,29 @@
 	</node>
 	<node lat="64.93883333520883" lon="11.579008332969458" id="-39284">
 		<tag k="loc_name" v="Litlfårråheia" />
+=======
+		<tag k="ssr:stedsnr" v="905089" />
+		<tag k="ssr:type" v="dal" />
+	</node>
+	<node id="-830843" lat="64.8529111122" lon="11.2326333392">
+		<tag k="fixme" v="consider seamark:type=rock or natural=shoal" />
+		<tag k="loc_name" v="Åboskjæret" />
+		<tag k="place" v="islet" />
+		<tag k="ssr:date" v="2019-12-27" />
+		<tag k="ssr:gruppe" v="grunnerISjø" />
+		<tag k="ssr:hovedgruppe" v="sjø" />
+		<tag k="ssr:stedsnr" v="787591" />
+		<tag k="ssr:type" v="skjærISjø" />
+	</node>
+	<node id="-829164" lat="64.8539722193" lon="11.243863898">
+		<tag k="loc_name" v="Andaflauget" />
+>>>>>>> e1d4bc35ff8a6074a6f2e91616a996b547c36f15
 		<tag k="natural" v="hill" />
 		<tag k="place" v="locality" />
 		<tag k="ssr:date" v="2019-12-27" />
 		<tag k="ssr:gruppe" v="høyder" />
 		<tag k="ssr:hovedgruppe" v="terreng" />
+<<<<<<< HEAD
 		<tag k="ssr:stedsnr" v="648642" />
 		<tag k="ssr:type" v="hei" />
 	</node>
@@ -1402,11 +2781,38 @@
 	</node>
 	<node lat="64.90897499630775" lon="11.59062500720939" id="-39349">
 		<tag k="loc_name" v="Kløyva" />
+=======
+		<tag k="ssr:stedsnr" v="362574" />
+		<tag k="ssr:type" v="haug" />
+	</node>
+	<node id="-830694" lat="64.788080558" lon="11.4013555629">
+		<tag k="loc_name" v="Solvang" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2019-12-27" />
+		<tag k="ssr:gruppe" v="gardsbebyggelse" />
+		<tag k="ssr:hovedgruppe" v="bebyggelse" />
+		<tag k="ssr:stedsnr" v="905180" />
+		<tag k="ssr:type" v="bruk" />
+	</node>
+	<node id="-829475" lat="64.8005777772" lon="11.7781250077">
+		<tag k="loc_name" v="Litlbrenna" />
 		<tag k="natural" v="slope" />
 		<tag k="place" v="locality" />
 		<tag k="ssr:date" v="2019-12-27" />
 		<tag k="ssr:gruppe" v="skråninger" />
 		<tag k="ssr:hovedgruppe" v="terreng" />
+		<tag k="ssr:stedsnr" v="419703" />
+		<tag k="ssr:type" v="li" />
+	</node>
+	<node id="-828103" lat="64.9208166662" lon="12.3074027744">
+		<tag k="loc_name" v="Leirbakken" />
+>>>>>>> e1d4bc35ff8a6074a6f2e91616a996b547c36f15
+		<tag k="natural" v="slope" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2019-12-27" />
+		<tag k="ssr:gruppe" v="skråninger" />
+		<tag k="ssr:hovedgruppe" v="terreng" />
+<<<<<<< HEAD
 		<tag k="ssr:stedsnr" v="662614" />
 		<tag k="ssr:type" v="bakke" />
 	</node>
@@ -1422,50 +2828,167 @@
 	<node lat="64.94544722572284" lon="11.666511117911515" id="-39351">
 		<tag k="fixme" v="consider natural=peak for the most distinct mountains in the district" />
 		<tag k="loc_name" v="Raudfjellet" />
+=======
+		<tag k="ssr:stedsnr" v="118333" />
+		<tag k="ssr:type" v="bakke" />
+	</node>
+	<node id="-828498" lat="64.920674997" lon="11.5958166575">
+		<tag k="loc_name" v="Staurvika" />
+		<tag k="natural" v="bay" />
+		<tag k="ssr:date" v="2019-12-27" />
+		<tag k="ssr:gruppe" v="kystkontur" />
+		<tag k="ssr:hovedgruppe" v="sjø" />
+		<tag k="ssr:stedsnr" v="298617" />
+		<tag k="ssr:type" v="vikISjø" />
+	</node>
+	<node id="-828101" lat="64.8901638859" lon="11.5537944436">
+		<tag k="fixme" v="consider natural=peak for the most distinct mountains in the district" />
+		<tag k="loc_name" v="Aunfjellet" />
+>>>>>>> e1d4bc35ff8a6074a6f2e91616a996b547c36f15
 		<tag k="natural" v="hill" />
 		<tag k="place" v="locality" />
 		<tag k="ssr:date" v="2019-12-27" />
 		<tag k="ssr:gruppe" v="høyder" />
 		<tag k="ssr:hovedgruppe" v="terreng" />
+<<<<<<< HEAD
 		<tag k="ssr:stedsnr" v="662385" />
 		<tag k="ssr:type" v="fjell" />
 	</node>
 	<node lat="65.0072777819585" lon="11.726149999731025" id="-39352">
 		<tag k="loc_name" v="Vangen" />
+=======
+		<tag k="ssr:stedsnr" v="116730" />
+		<tag k="ssr:type" v="fjell" />
+	</node>
+	<node id="-830660" lat="64.9039666637" lon="11.5672833346">
+		<tag k="loc_name" v="Utfallia" />
+		<tag k="natural" v="slope" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2019-12-27" />
+		<tag k="ssr:gruppe" v="skråninger" />
+		<tag k="ssr:hovedgruppe" v="terreng" />
+		<tag k="ssr:stedsnr" v="723586" />
+		<tag k="ssr:type" v="li" />
+	</node>
+	<node id="-828099" lat="64.8855750026" lon="11.5794722294">
+		<tag k="loc_name" v="Remma" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2019-12-27" />
+		<tag k="ssr:gruppe" v="vegetasjon" />
+		<tag k="ssr:hovedgruppe" v="markslag" />
+		<tag k="ssr:stedsnr" v="116719" />
+		<tag k="ssr:type" v="skog" />
+	</node>
+	<node id="-828098" lat="64.8987583293" lon="11.7057194404">
+		<tag k="loc_name" v="Vassenden" />
+		<tag k="natural" v="bay" />
+		<tag k="ssr:date" v="2019-12-27" />
+		<tag k="ssr:gruppe" v="ferskvannskontur" />
+		<tag k="ssr:hovedgruppe" v="ferskvann" />
+		<tag k="ssr:stedsnr" v="116514" />
+		<tag k="ssr:type" v="vik" />
+	</node>
+	<node id="-829120" lat="64.941391663" lon="11.631974991">
+		<tag k="loc_name" v="Jordfallodden" />
+		<tag k="natural" v="cape" />
+		<tag k="ssr:date" v="2019-12-27" />
+		<tag k="ssr:gruppe" v="kystkontur" />
+		<tag k="ssr:hovedgruppe" v="sjø" />
+		<tag k="ssr:stedsnr" v="345605" />
+		<tag k="ssr:type" v="nesISjø" />
+	</node>
+	<node id="-829119" lat="64.9392611079" lon="11.9856944435">
+		<tag k="bay" v="fjord" />
+		<tag k="loc_name" v="Follafjorden" />
+		<tag k="natural" v="bay" />
+		<tag k="ssr:date" v="2019-12-27" />
+		<tag k="ssr:gruppe" v="farvann" />
+		<tag k="ssr:hovedgruppe" v="sjø" />
+		<tag k="ssr:stedsnr" v="344306" />
+		<tag k="ssr:type" v="fjord" />
+	</node>
+	<node id="-829118" lat="64.8803638849" lon="11.5372722263">
+		<tag k="loc_name" v="Middagsskardet" />
+		<tag k="natural" v="valley" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2019-12-27" />
+		<tag k="ssr:gruppe" v="senkninger" />
+		<tag k="ssr:hovedgruppe" v="terreng" />
+		<tag k="ssr:stedsnr" v="480751" />
+		<tag k="ssr:type" v="skar" />
+	</node>
+	<node id="-829117" lat="64.8894444413" lon="11.5565361008">
+		<tag k="fixme" v="consider place=hamlet" />
+		<tag k="loc_name" v="Liaaunet" />
+>>>>>>> e1d4bc35ff8a6074a6f2e91616a996b547c36f15
 		<tag k="place" v="farm" />
 		<tag k="ssr:date" v="2019-12-27" />
 		<tag k="ssr:gruppe" v="gardsbebyggelse" />
 		<tag k="ssr:hovedgruppe" v="bebyggelse" />
+<<<<<<< HEAD
 		<tag k="ssr:stedsnr" v="662393" />
 		<tag k="ssr:type" v="bruk" />
 	</node>
 	<node lat="64.92227777598981" lon="11.76617777781196" id="-39353">
 		<tag k="fixme" v="consider natural=peak for the most distinct mountains in the district" />
 		<tag k="loc_name" v="Durmålfjellet" />
+=======
+		<tag k="ssr:stedsnr" v="480749" />
+		<tag k="ssr:type" v="gard" />
+	</node>
+	<node id="-829116" lat="64.8833555596" lon="11.5737888929">
+		<tag k="loc_name" v="Halsoddhaugen" />
+>>>>>>> e1d4bc35ff8a6074a6f2e91616a996b547c36f15
 		<tag k="natural" v="hill" />
 		<tag k="place" v="locality" />
 		<tag k="ssr:date" v="2019-12-27" />
 		<tag k="ssr:gruppe" v="høyder" />
 		<tag k="ssr:hovedgruppe" v="terreng" />
+<<<<<<< HEAD
 		<tag k="ssr:stedsnr" v="662507" />
 		<tag k="ssr:type" v="fjell" />
 	</node>
 	<node lat="64.92472778203668" lon="11.587383342337297" id="-39354">
 		<tag k="loc_name" v="Heimerkråa" />
+=======
+		<tag k="ssr:stedsnr" v="480739" />
+		<tag k="ssr:type" v="haug" />
+	</node>
+	<node id="-829115" lat="64.8271416646" lon="11.9303250069">
+		<tag k="loc_name" v="Ungkarsstranda" />
+		<tag k="natural" v="beach" />
+		<tag k="ssr:date" v="2019-12-27" />
+		<tag k="ssr:gruppe" v="ferskvannskontur" />
+		<tag k="ssr:hovedgruppe" v="ferskvann" />
+		<tag k="ssr:stedsnr" v="480705" />
+		<tag k="ssr:type" v="strand" />
+	</node>
+	<node id="-829114" lat="64.9231055525" lon="11.5570555512">
+		<tag k="loc_name" v="Ørnhaugen" />
+>>>>>>> e1d4bc35ff8a6074a6f2e91616a996b547c36f15
 		<tag k="natural" v="hill" />
 		<tag k="place" v="locality" />
 		<tag k="ssr:date" v="2019-12-27" />
 		<tag k="ssr:gruppe" v="høyder" />
 		<tag k="ssr:hovedgruppe" v="terreng" />
+<<<<<<< HEAD
 		<tag k="ssr:stedsnr" v="662704" />
 		<tag k="ssr:type" v="berg" />
 	</node>
 	<node lat="64.97098333784363" lon="12.052986109598583" id="-39355">
 		<tag k="loc_name" v="Solbakken" />
+=======
+		<tag k="ssr:stedsnr" v="480692" />
+		<tag k="ssr:type" v="haug" />
+	</node>
+	<node id="-829113" lat="64.9326083341" lon="11.6208472277">
+		<tag k="loc_name" v="Nordgården" />
+>>>>>>> e1d4bc35ff8a6074a6f2e91616a996b547c36f15
 		<tag k="place" v="farm" />
 		<tag k="ssr:date" v="2019-12-27" />
 		<tag k="ssr:gruppe" v="gardsbebyggelse" />
 		<tag k="ssr:hovedgruppe" v="bebyggelse" />
+<<<<<<< HEAD
 		<tag k="ssr:stedsnr" v="709305" />
 		<tag k="ssr:type" v="bruk" />
 	</node>
@@ -1480,10 +3003,27 @@
 	</node>
 	<node lat="64.96999722114278" lon="12.096041663374422" id="-39357">
 		<tag k="loc_name" v="Lømoen" />
+=======
+		<tag k="ssr:stedsnr" v="480688" />
+		<tag k="ssr:type" v="bruk" />
+	</node>
+	<node id="-829112" lat="64.9294444425" lon="11.655627778">
+		<tag k="loc_name" v="Fossen" />
+		<tag k="natural" v="waterfall" />
+		<tag k="ssr:date" v="2019-12-27" />
+		<tag k="ssr:gruppe" v="rennendeVann" />
+		<tag k="ssr:hovedgruppe" v="ferskvann" />
+		<tag k="ssr:stedsnr" v="480682" />
+		<tag k="ssr:type" v="foss" />
+	</node>
+	<node id="-829111" lat="64.8617472227" lon="11.5652805607">
+		<tag k="loc_name" v="Nymo" />
+>>>>>>> e1d4bc35ff8a6074a6f2e91616a996b547c36f15
 		<tag k="place" v="farm" />
 		<tag k="ssr:date" v="2019-12-27" />
 		<tag k="ssr:gruppe" v="gardsbebyggelse" />
 		<tag k="ssr:hovedgruppe" v="bebyggelse" />
+<<<<<<< HEAD
 		<tag k="ssr:stedsnr" v="709310" />
 		<tag k="ssr:type" v="bruk" />
 	</node>
@@ -1534,33 +3074,178 @@
 	</node>
 	<node lat="64.94767222511815" lon="11.586147232492843" id="-39364">
 		<tag k="loc_name" v="Raudmelen" />
-		<tag k="place" v="locality" />
-		<tag k="ssr:date" v="2019-12-27" />
-		<tag k="ssr:gruppe" v="flater" />
-		<tag k="ssr:hovedgruppe" v="terreng" />
-		<tag k="ssr:stedsnr" v="709616" />
-		<tag k="ssr:type" v="slette" />
+=======
+		<tag k="ssr:stedsnr" v="480674" />
+		<tag k="ssr:type" v="bruk" />
 	</node>
-	<node lat="64.9466972241263" lon="11.578197218330535" id="-39365">
-		<tag k="loc_name" v="Jektvikberget" />
+	<node id="-829109" lat="64.8671250033" lon="11.6279777867">
+		<tag k="fixme" v="consider seamark:type=rock or natural=shoal" />
+		<tag k="loc_name" v="Sellivikskjæret" />
+		<tag k="place" v="islet" />
+		<tag k="ssr:date" v="2019-12-27" />
+		<tag k="ssr:gruppe" v="grunnerISjø" />
+		<tag k="ssr:hovedgruppe" v="sjø" />
+		<tag k="ssr:stedsnr" v="480666" />
+		<tag k="ssr:type" v="skjærISjø" />
+	</node>
+	<node id="-829108" lat="64.8622583374" lon="11.614308332">
+		<tag k="loc_name" v="Odden" />
+		<tag k="place" v="isolated_dwelling" />
+		<tag k="ssr:date" v="2019-12-27" />
+		<tag k="ssr:gruppe" v="bolighus" />
+		<tag k="ssr:hovedgruppe" v="bebyggelse" />
+		<tag k="ssr:stedsnr" v="480664" />
+		<tag k="ssr:type" v="eneboligMindreBoligbygg" />
+	</node>
+	<node id="-829107" lat="64.8120027821" lon="11.6995805485">
+		<tag k="loc_name" v="Løvollen" />
+		<tag k="place" v="isolated_dwelling" />
+		<tag k="ssr:date" v="2019-12-27" />
+		<tag k="ssr:gruppe" v="bolighus" />
+		<tag k="ssr:hovedgruppe" v="bebyggelse" />
+		<tag k="ssr:stedsnr" v="480480" />
+		<tag k="ssr:type" v="eneboligMindreBoligbygg" />
+	</node>
+	<node id="-829106" lat="64.8953361078" lon="11.7971194391">
+		<tag k="loc_name" v="Rundtjønna" />
+		<tag k="natural" v="water" />
+		<tag k="ssr:date" v="2019-12-27" />
+		<tag k="ssr:gruppe" v="stilleståendeVann" />
+		<tag k="ssr:hovedgruppe" v="ferskvann" />
+		<tag k="ssr:stedsnr" v="480349" />
+		<tag k="ssr:type" v="tjern" />
+	</node>
+	<node id="-829105" lat="64.8928305537" lon="11.7956527864">
+		<tag k="loc_name" v="Hopavatna" />
+		<tag k="natural" v="water" />
+		<tag k="ssr:date" v="2019-12-27" />
+		<tag k="ssr:gruppe" v="stilleståendeVann" />
+		<tag k="ssr:hovedgruppe" v="ferskvann" />
+		<tag k="ssr:stedsnr" v="480348" />
+		<tag k="ssr:type" v="gruppeAvTjern" />
+		<tag k="water" v="lake" />
+	</node>
+	<node id="-829100" lat="64.9478944417" lon="11.7194083357">
+		<tag k="loc_name" v="Brennhaugan" />
 		<tag k="natural" v="hill" />
 		<tag k="place" v="locality" />
 		<tag k="ssr:date" v="2019-12-27" />
 		<tag k="ssr:gruppe" v="høyder" />
 		<tag k="ssr:hovedgruppe" v="terreng" />
+		<tag k="ssr:stedsnr" v="480383" />
+		<tag k="ssr:type" v="haug" />
+	</node>
+	<node id="-829608" lat="64.8309749988" lon="11.2173444401">
+		<tag k="loc_name" v="Liskaret" />
+		<tag k="natural" v="slope" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2019-12-27" />
+		<tag k="ssr:gruppe" v="skråninger" />
+		<tag k="ssr:hovedgruppe" v="terreng" />
+		<tag k="ssr:stedsnr" v="483569" />
+		<tag k="ssr:type" v="li" />
+	</node>
+	<node id="-830631" lat="64.9221249976" lon="11.559311121">
+		<tag k="loc_name" v="Bubakkan" />
+>>>>>>> e1d4bc35ff8a6074a6f2e91616a996b547c36f15
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2019-12-27" />
+		<tag k="ssr:gruppe" v="flater" />
+		<tag k="ssr:hovedgruppe" v="terreng" />
+<<<<<<< HEAD
+		<tag k="ssr:stedsnr" v="709616" />
+		<tag k="ssr:type" v="slette" />
+	</node>
+	<node lat="64.9466972241263" lon="11.578197218330535" id="-39365">
+		<tag k="loc_name" v="Jektvikberget" />
+=======
+		<tag k="ssr:stedsnr" v="722704" />
+		<tag k="ssr:type" v="slette" />
+	</node>
+	<node id="-830630" lat="64.92147222" lon="11.5622305597">
+		<tag k="loc_name" v="Sandbakkan" />
+		<tag k="natural" v="slope" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2019-12-27" />
+		<tag k="ssr:gruppe" v="skråninger" />
+		<tag k="ssr:hovedgruppe" v="terreng" />
+		<tag k="ssr:stedsnr" v="722703" />
+		<tag k="ssr:type" v="bakke" />
+	</node>
+	<node id="-829605" lat="64.961158331" lon="11.6711277825">
+		<tag k="loc_name" v="Kalvnestjønna" />
+		<tag k="natural" v="water" />
+		<tag k="ssr:date" v="2019-12-27" />
+		<tag k="ssr:gruppe" v="stilleståendeVann" />
+		<tag k="ssr:hovedgruppe" v="ferskvann" />
+		<tag k="ssr:stedsnr" v="480353" />
+		<tag k="ssr:type" v="tjern" />
+	</node>
+	<node id="-829604" lat="64.9858805548" lon="11.7271305461">
+		<tag k="loc_name" v="Moloen" />
+		<tag k="man_made" v="breakwater" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2019-12-27" />
+		<tag k="ssr:gruppe" v="sjøfart" />
+		<tag k="ssr:hovedgruppe" v="infrastruktur" />
+		<tag k="ssr:stedsnr" v="480407" />
+		<tag k="ssr:type" v="molo" />
+	</node>
+	<node id="-829603" lat="65.0184242262" lon="11.8302995871">
+		<tag k="loc_name" v="Hamnaholet" />
+		<tag k="natural" v="bay" />
+		<tag k="ssr:date" v="2020-02-14" />
+		<tag k="ssr:gruppe" v="kystkontur" />
+		<tag k="ssr:hovedgruppe" v="sjø" />
+		<tag k="ssr:stedsnr" v="479166" />
+		<tag k="ssr:type" v="vikISjø" />
+	</node>
+	<node id="-830626" lat="64.9838583373" lon="11.767708325">
+		<tag k="landuse" v="aquaculture" />
+		<tag k="loc_name" v="Sea-farm" />
+		<tag k="ssr:date" v="2019-12-27" />
+		<tag k="ssr:gruppe" v="næring" />
+		<tag k="ssr:hovedgruppe" v="bebyggelse" />
+		<tag k="ssr:stedsnr" v="722392" />
+		<tag k="ssr:type" v="oppdrettsanlegg" />
+	</node>
+	<node id="-830625" lat="64.9443611069" lon="11.7157888834">
+		<tag k="loc_name" v="Fjellbekken" />
+		<tag k="ssr:date" v="2019-12-27" />
+		<tag k="ssr:gruppe" v="rennendeVann" />
+		<tag k="ssr:hovedgruppe" v="ferskvann" />
+		<tag k="ssr:stedsnr" v="722386" />
+		<tag k="ssr:type" v="bekk" />
+		<tag k="waterway" v="stream" />
+	</node>
+	<node id="-829381" lat="65.0086027798" lon="11.6369388888">
+		<tag k="loc_name" v="Brattstøa" />
+		<tag k="natural" v="bay" />
+		<tag k="ssr:date" v="2019-12-27" />
+		<tag k="ssr:gruppe" v="kystkontur" />
+		<tag k="ssr:hovedgruppe" v="sjø" />
+		<tag k="ssr:stedsnr" v="406619" />
+		<tag k="ssr:type" v="vikISjø" />
+	</node>
+	<node id="-828100" lat="64.8842222243" lon="11.5459166658">
+		<tag k="fixme" v="consider natural=peak for the most distinct mountains in the district" />
+		<tag k="loc_name" v="Storfjellet" />
+>>>>>>> e1d4bc35ff8a6074a6f2e91616a996b547c36f15
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2019-12-27" />
+		<tag k="ssr:gruppe" v="høyder" />
+		<tag k="ssr:hovedgruppe" v="terreng" />
+<<<<<<< HEAD
 		<tag k="ssr:stedsnr" v="709619" />
 		<tag k="ssr:type" v="berg" />
 	</node>
 	<node lat="64.95104722520914" lon="11.662155546835718" id="-39366">
-		<tag k="loc_name" v="Vågheim" />
-		<tag k="place" v="isolated_dwelling" />
-		<tag k="ssr:date" v="2019-12-27" />
-		<tag k="ssr:gruppe" v="bolighus" />
-		<tag k="ssr:hovedgruppe" v="bebyggelse" />
-		<tag k="ssr:stedsnr" v="709620" />
-		<tag k="ssr:type" v="eneboligMindreBoligbygg" />
+=======
+		<tag k="ssr:stedsnr" v="116724" />
+		<tag k="ssr:type" v="fjell" />
 	</node>
-	<node lat="64.91232777705946" lon="11.905355555114951" id="-39368">
+	<node id="-830100" lat="64.9123277771" lon="11.9053555551">
 		<tag k="loc_name" v="Volan" />
 		<tag k="natural" v="hill" />
 		<tag k="place" v="locality" />
@@ -1570,13 +3255,102 @@
 		<tag k="ssr:stedsnr" v="709946" />
 		<tag k="ssr:type" v="høyde" />
 	</node>
+	<node id="-830099" lat="64.9510472252" lon="11.6621555468">
+>>>>>>> e1d4bc35ff8a6074a6f2e91616a996b547c36f15
+		<tag k="loc_name" v="Vågheim" />
+		<tag k="place" v="isolated_dwelling" />
+		<tag k="ssr:date" v="2019-12-27" />
+		<tag k="ssr:gruppe" v="bolighus" />
+		<tag k="ssr:hovedgruppe" v="bebyggelse" />
+		<tag k="ssr:stedsnr" v="709620" />
+		<tag k="ssr:type" v="eneboligMindreBoligbygg" />
+	</node>
+<<<<<<< HEAD
+	<node lat="64.91232777705946" lon="11.905355555114951" id="-39368">
+		<tag k="loc_name" v="Volan" />
+=======
+	<node id="-830098" lat="64.9466972241" lon="11.5781972183">
+		<tag k="loc_name" v="Jektvikberget" />
+>>>>>>> e1d4bc35ff8a6074a6f2e91616a996b547c36f15
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2019-12-27" />
+		<tag k="ssr:gruppe" v="høyder" />
+		<tag k="ssr:hovedgruppe" v="terreng" />
+<<<<<<< HEAD
+		<tag k="ssr:stedsnr" v="709946" />
+		<tag k="ssr:type" v="høyde" />
+	</node>
 	<node lat="64.9319083337098" lon="12.249463891819332" id="-39375">
 		<tag k="loc_name" v="Keipskardet" />
+=======
+		<tag k="ssr:stedsnr" v="709619" />
+		<tag k="ssr:type" v="berg" />
+	</node>
+	<node id="-830097" lat="64.9476722251" lon="11.5861472325">
+		<tag k="loc_name" v="Raudmelen" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2019-12-27" />
+		<tag k="ssr:gruppe" v="flater" />
+		<tag k="ssr:hovedgruppe" v="terreng" />
+		<tag k="ssr:stedsnr" v="709616" />
+		<tag k="ssr:type" v="slette" />
+	</node>
+	<node id="-830096" lat="64.9407194435" lon="11.5743611055">
+		<tag k="loc_name" v="Gammelgården" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2019-12-27" />
+		<tag k="ssr:gruppe" v="dyrkamark" />
+		<tag k="ssr:hovedgruppe" v="markslag" />
+		<tag k="ssr:stedsnr" v="709614" />
+		<tag k="ssr:type" v="jorde" />
+	</node>
+	<node id="-830095" lat="64.9418027796" lon="11.582913885">
+		<tag k="loc_name" v="Båfjordholet" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2019-12-27" />
+		<tag k="ssr:gruppe" v="flater" />
+		<tag k="ssr:hovedgruppe" v="terreng" />
+		<tag k="ssr:stedsnr" v="709612" />
+		<tag k="ssr:type" v="mo" />
+	</node>
+	<node id="-830093" lat="64.976808334" lon="12.0714638957">
+		<tag k="highway" v="path" />
+		<tag k="loc_name" v="Vestervegen" />
+		<tag k="ssr:date" v="2019-12-27" />
+		<tag k="ssr:gruppe" v="veg" />
+		<tag k="ssr:hovedgruppe" v="infrastruktur" />
+		<tag k="ssr:stedsnr" v="709375" />
+		<tag k="ssr:type" v="sti" />
+	</node>
+	<node id="-830092" lat="64.945755558" lon="12.1713000045">
+		<tag k="loc_name" v="Eitermoan" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2019-12-27" />
+		<tag k="ssr:gruppe" v="vegetasjon" />
+		<tag k="ssr:hovedgruppe" v="markslag" />
+		<tag k="ssr:stedsnr" v="709368" />
+		<tag k="ssr:type" v="skog" />
+	</node>
+	<node id="-830091" lat="64.9401277783" lon="11.9489638796">
+		<tag k="bay" v="fjord" />
+		<tag k="loc_name" v="Follafjorden" />
+		<tag k="natural" v="bay" />
+		<tag k="ssr:date" v="2019-12-27" />
+		<tag k="ssr:gruppe" v="farvann" />
+		<tag k="ssr:hovedgruppe" v="sjø" />
+		<tag k="ssr:stedsnr" v="709245" />
+		<tag k="ssr:type" v="fjord" />
+	</node>
+	<node id="-831173" lat="64.9415027755" lon="11.6119361116">
+		<tag k="loc_name" v="Bjønnarabban" />
+>>>>>>> e1d4bc35ff8a6074a6f2e91616a996b547c36f15
 		<tag k="natural" v="valley" />
 		<tag k="place" v="locality" />
 		<tag k="ssr:date" v="2019-12-27" />
 		<tag k="ssr:gruppe" v="senkninger" />
 		<tag k="ssr:hovedgruppe" v="terreng" />
+<<<<<<< HEAD
 		<tag k="ssr:stedsnr" v="891400" />
 		<tag k="ssr:type" v="skar" />
 	</node>
@@ -1601,22 +3375,115 @@
 	<node lat="64.94036389251725" lon="11.573163891216723" id="-39379">
 		<tag k="fixme" v="consider natural=peak for the most distinct mountains in the district" />
 		<tag k="loc_name" v="Sommerfjøshaugen" />
+=======
+		<tag k="ssr:stedsnr" v="831571" />
+		<tag k="ssr:type" v="dal" />
+	</node>
+	<node id="-829093" lat="65.0272138906" lon="11.9419666742">
+		<tag k="fixme" v="consider natural=peak for the most distinct mountains in the district" />
+		<tag k="loc_name" v="Blåfjellet" />
 		<tag k="natural" v="hill" />
 		<tag k="place" v="locality" />
 		<tag k="ssr:date" v="2019-12-27" />
 		<tag k="ssr:gruppe" v="høyder" />
 		<tag k="ssr:hovedgruppe" v="terreng" />
+		<tag k="ssr:stedsnr" v="480181" />
+		<tag k="ssr:type" v="fjell" />
+	</node>
+	<node id="-829573" lat="64.9136083311" lon="11.8417111162">
+		<tag k="loc_name" v="Indre Follafjorden" />
+		<tag k="natural" v="bay" />
+		<tag k="ssr:date" v="2019-12-27" />
+		<tag k="ssr:gruppe" v="kystkontur" />
+		<tag k="ssr:hovedgruppe" v="sjø" />
+		<tag k="ssr:stedsnr" v="466959" />
+		<tag k="ssr:type" v="vågISjø" />
+	</node>
+	<node id="-829572" lat="64.9214388882" lon="11.898194447">
+		<tag k="loc_name" v="Follafjorden" />
+		<tag k="natural" v="strait" />
+		<tag k="ssr:date" v="2019-12-27" />
+		<tag k="ssr:gruppe" v="kystkontur" />
+		<tag k="ssr:hovedgruppe" v="sjø" />
+		<tag k="ssr:stedsnr" v="466954" />
+		<tag k="ssr:type" v="sundISjø" />
+	</node>
+	<node id="-829571" lat="64.9255249967" lon="11.93398055">
+		<tag k="loc_name" v="Skarvberget" />
+>>>>>>> e1d4bc35ff8a6074a6f2e91616a996b547c36f15
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2019-12-27" />
+		<tag k="ssr:gruppe" v="høyder" />
+		<tag k="ssr:hovedgruppe" v="terreng" />
+<<<<<<< HEAD
 		<tag k="ssr:stedsnr" v="891650" />
 		<tag k="ssr:type" v="ås" />
 	</node>
 	<node lat="64.94789722621077" lon="11.590763891499325" id="-39380">
 		<tag k="fixme" v="consider natural=peak for the most distinct mountains in the district" />
 		<tag k="loc_name" v="Klokkeølløvtuvå" />
+=======
+		<tag k="ssr:stedsnr" v="466953" />
+		<tag k="ssr:type" v="berg" />
+	</node>
+	<node id="-829570" lat="64.9685361067" lon="12.0933055651">
+		<tag k="loc_name" v="Groftuengbekken" />
+		<tag k="ssr:date" v="2019-12-27" />
+		<tag k="ssr:gruppe" v="rennendeVann" />
+		<tag k="ssr:hovedgruppe" v="ferskvann" />
+		<tag k="ssr:stedsnr" v="466314" />
+		<tag k="ssr:type" v="bekk" />
+		<tag k="waterway" v="stream" />
+	</node>
+	<node id="-829569" lat="64.8342250012" lon="11.1954499948">
+		<tag k="fixme" v="consider seamark:type=rock or natural=shoal" />
+		<tag k="loc_name" v="Småskjæra" />
+		<tag k="place" v="islet" />
+		<tag k="ssr:date" v="2019-12-27" />
+		<tag k="ssr:gruppe" v="grunnerISjø" />
+		<tag k="ssr:hovedgruppe" v="sjø" />
+		<tag k="ssr:stedsnr" v="665576" />
+		<tag k="ssr:type" v="skjærISjø" />
+	</node>
+	<node id="-829568" lat="64.9089749963" lon="11.5906250072">
+		<tag k="loc_name" v="Kløyva" />
+		<tag k="natural" v="slope" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2019-12-27" />
+		<tag k="ssr:gruppe" v="skråninger" />
+		<tag k="ssr:hovedgruppe" v="terreng" />
+		<tag k="ssr:stedsnr" v="662614" />
+		<tag k="ssr:type" v="bakke" />
+	</node>
+	<node id="-829567" lat="64.9549194491" lon="11.6634944364">
+		<tag k="loc_name" v="Sør-Moen" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2019-12-27" />
+		<tag k="ssr:gruppe" v="gardsbebyggelse" />
+		<tag k="ssr:hovedgruppe" v="bebyggelse" />
+		<tag k="ssr:stedsnr" v="662589" />
+		<tag k="ssr:type" v="bruk" />
+	</node>
+	<node id="-829566" lat="65.007277782" lon="11.7261499997">
+		<tag k="loc_name" v="Vangen" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2019-12-27" />
+		<tag k="ssr:gruppe" v="gardsbebyggelse" />
+		<tag k="ssr:hovedgruppe" v="bebyggelse" />
+		<tag k="ssr:stedsnr" v="662393" />
+		<tag k="ssr:type" v="bruk" />
+	</node>
+	<node id="-829565" lat="64.9454472257" lon="11.6665111179">
+		<tag k="fixme" v="consider natural=peak for the most distinct mountains in the district" />
+		<tag k="loc_name" v="Raudfjellet" />
+>>>>>>> e1d4bc35ff8a6074a6f2e91616a996b547c36f15
 		<tag k="natural" v="hill" />
 		<tag k="place" v="locality" />
 		<tag k="ssr:date" v="2019-12-27" />
 		<tag k="ssr:gruppe" v="høyder" />
 		<tag k="ssr:hovedgruppe" v="terreng" />
+<<<<<<< HEAD
 		<tag k="ssr:stedsnr" v="891651" />
 		<tag k="ssr:type" v="ås" />
 	</node>
@@ -1633,9 +3500,83 @@
 	<node lat="64.99285833177248" lon="11.774855565489618" id="-39623">
 		<tag k="loc_name" v="Nerli" />
 		<tag k="place" v="isolated_dwelling" />
+=======
+		<tag k="ssr:stedsnr" v="662385" />
+		<tag k="ssr:type" v="fjell" />
+	</node>
+	<node id="-829564" lat="65.0004972263" lon="11.7418638883">
+		<tag k="loc_name" v="Sjølia" />
+		<tag k="place" v="farm" />
 		<tag k="ssr:date" v="2019-12-27" />
-		<tag k="ssr:gruppe" v="bolighus" />
+		<tag k="ssr:gruppe" v="gardsbebyggelse" />
 		<tag k="ssr:hovedgruppe" v="bebyggelse" />
+		<tag k="ssr:stedsnr" v="662382" />
+		<tag k="ssr:type" v="bruk" />
+	</node>
+	<node id="-829563" lat="64.8374472185" lon="11.9659611178">
+		<tag k="fixme" v="consider place=hamlet" />
+		<tag k="loc_name" v="Li" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2019-12-27" />
+		<tag k="ssr:gruppe" v="gardsbebyggelse" />
+		<tag k="ssr:hovedgruppe" v="bebyggelse" />
+		<tag k="ssr:stedsnr" v="662134" />
+		<tag k="ssr:type" v="gard" />
+	</node>
+	<node id="-831610" lat="64.9372138914" lon="11.6128305594">
+		<tag k="loc_name" v="Kartholet" />
+		<tag k="natural" v="valley" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2019-12-27" />
+		<tag k="ssr:gruppe" v="senkninger" />
+		<tag k="ssr:hovedgruppe" v="terreng" />
+		<tag k="ssr:stedsnr" v="42589" />
+		<tag k="ssr:type" v="botn" />
+	</node>
+	<node id="-831609" lat="64.9491277811" lon="11.578791674">
+		<tag k="loc_name" v="Fevikodden" />
+		<tag k="natural" v="cape" />
+		<tag k="ssr:date" v="2019-12-27" />
+		<tag k="ssr:gruppe" v="kystkontur" />
+		<tag k="ssr:hovedgruppe" v="sjø" />
+		<tag k="ssr:stedsnr" v="42587" />
+		<tag k="ssr:type" v="nesISjø" />
+	</node>
+	<node id="-831608" lat="64.9397416663" lon="11.5742472133">
+		<tag k="loc_name" v="Sommerfjøsmyrå" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:date" v="2019-12-27" />
+		<tag k="ssr:gruppe" v="våtmark" />
+		<tag k="ssr:hovedgruppe" v="markslag" />
+		<tag k="ssr:stedsnr" v="42580" />
+		<tag k="ssr:type" v="myr" />
+	</node>
+	<node id="-831607" lat="64.7391666629" lon="11.1426222247">
+		<tag k="loc_name" v="Langskjærslua" />
+		<tag k="place" v="islet" />
+		<tag k="ssr:date" v="2019-12-27" />
+		<tag k="ssr:gruppe" v="grunnerIFerskvann" />
+		<tag k="ssr:hovedgruppe" v="ferskvann" />
+		<tag k="ssr:stedsnr" v="42573" />
+		<tag k="ssr:type" v="skjær" />
+	</node>
+	<node id="-831606" lat="64.9881416678" lon="11.6270944361">
+		<tag k="loc_name" v="Båsen" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2019-12-27" />
+		<tag k="ssr:gruppe" v="flater" />
+		<tag k="ssr:hovedgruppe" v="terreng" />
+		<tag k="ssr:stedsnr" v="42566" />
+		<tag k="ssr:type" v="mo" />
+	</node>
+	<node id="-831605" lat="64.9447194477" lon="11.9410194466">
+		<tag k="loc_name" v="Sørmo;Hestmarka" />
+		<tag k="place" v="farm" />
+>>>>>>> e1d4bc35ff8a6074a6f2e91616a996b547c36f15
+		<tag k="ssr:date" v="2019-12-27" />
+		<tag k="ssr:gruppe" v="gardsbebyggelse" />
+		<tag k="ssr:hovedgruppe" v="bebyggelse" />
+<<<<<<< HEAD
 		<tag k="ssr:stedsnr" v="722403" />
 		<tag k="ssr:type" v="eneboligMindreBoligbygg" />
 	</node>
@@ -1650,30 +3591,75 @@
 	</node>
 	<node lat="64.92147222000585" lon="11.562230559704343" id="-39626">
 		<tag k="loc_name" v="Sandbakkan" />
+=======
+		<tag k="ssr:stedsnr" v="41219" />
+		<tag k="ssr:type" v="bruk" />
+	</node>
+	<node id="-830695" lat="64.8978416691" lon="11.6725222269">
+		<tag k="loc_name" v="Sør-Salten" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2019-12-27" />
+		<tag k="ssr:gruppe" v="farvann" />
+		<tag k="ssr:hovedgruppe" v="sjø" />
+		<tag k="ssr:stedsnr" v="905530" />
+		<tag k="ssr:type" v="sjøstykke" />
+	</node>
+	<node id="-831166" lat="64.932275002" lon="12.3123972254">
+		<tag k="bay" v="fjord" />
+		<tag k="loc_name" v="Follafjorden" />
+		<tag k="natural" v="bay" />
+		<tag k="ssr:date" v="2019-12-27" />
+		<tag k="ssr:gruppe" v="farvann" />
+		<tag k="ssr:hovedgruppe" v="sjø" />
+		<tag k="ssr:stedsnr" v="830321" />
+		<tag k="ssr:type" v="fjord" />
+	</node>
+	<node id="-831331" lat="64.9147194443" lon="11.5887027712">
+		<tag k="loc_name" v="Leilia" />
+>>>>>>> e1d4bc35ff8a6074a6f2e91616a996b547c36f15
 		<tag k="natural" v="slope" />
 		<tag k="place" v="locality" />
 		<tag k="ssr:date" v="2019-12-27" />
 		<tag k="ssr:gruppe" v="skråninger" />
 		<tag k="ssr:hovedgruppe" v="terreng" />
+<<<<<<< HEAD
 		<tag k="ssr:stedsnr" v="722703" />
 		<tag k="ssr:type" v="bakke" />
 	</node>
 	<node lat="64.92212499760102" lon="11.559311121015721" id="-39627">
 		<tag k="loc_name" v="Bubakkan" />
+=======
+		<tag k="ssr:stedsnr" v="905709" />
+		<tag k="ssr:type" v="li" />
+	</node>
+	<node id="-829382" lat="64.935208333" lon="11.6425027672">
+		<tag k="loc_name" v="Sjåberget" />
+		<tag k="natural" v="hill" />
+>>>>>>> e1d4bc35ff8a6074a6f2e91616a996b547c36f15
 		<tag k="place" v="locality" />
 		<tag k="ssr:date" v="2019-12-27" />
 		<tag k="ssr:gruppe" v="flater" />
 		<tag k="ssr:hovedgruppe" v="terreng" />
+<<<<<<< HEAD
 		<tag k="ssr:stedsnr" v="722704" />
 		<tag k="ssr:type" v="slette" />
 	</node>
 	<node lat="64.9039666637409" lon="11.567283334597466" id="-39630">
 		<tag k="loc_name" v="Utfallia" />
 		<tag k="natural" v="slope" />
+=======
+		<tag k="ssr:stedsnr" v="406622" />
+		<tag k="ssr:type" v="berg" />
+	</node>
+	<node id="-831172" lat="64.7304055593" lon="11.1843583419">
+		<tag k="loc_name" v="Burshaugen" />
+		<tag k="natural" v="hill" />
+>>>>>>> e1d4bc35ff8a6074a6f2e91616a996b547c36f15
 		<tag k="place" v="locality" />
 		<tag k="ssr:date" v="2019-12-27" />
 		<tag k="ssr:gruppe" v="skråninger" />
 		<tag k="ssr:hovedgruppe" v="terreng" />
+<<<<<<< HEAD
 		<tag k="ssr:stedsnr" v="723586" />
 		<tag k="ssr:type" v="li" />
 	</node>
@@ -1727,27 +3713,79 @@
 	<node lat="64.7880805579646" lon="11.40135556287286" id="-39718">
 		<tag k="loc_name" v="Solvang" />
 		<tag k="place" v="farm" />
+=======
+		<tag k="ssr:stedsnr" v="831559" />
+		<tag k="ssr:type" v="haug" />
+	</node>
+	<node id="-829544" lat="65.011013885" lon="11.8610305459">
+		<tag k="loc_name" v="Nilslia" />
+		<tag k="natural" v="slope" />
+		<tag k="place" v="locality" />
 		<tag k="ssr:date" v="2019-12-27" />
-		<tag k="ssr:gruppe" v="gardsbebyggelse" />
+		<tag k="ssr:gruppe" v="skråninger" />
+		<tag k="ssr:hovedgruppe" v="terreng" />
+		<tag k="ssr:stedsnr" v="661152" />
+		<tag k="ssr:type" v="li" />
+	</node>
+	<node id="-829543" lat="65.0191499984" lon="11.8036888875">
+		<tag k="loc_name" v="Flatskjæret" />
+		<tag k="place" v="islet" />
+		<tag k="ssr:date" v="2019-12-27" />
+		<tag k="ssr:gruppe" v="grunnerIFerskvann" />
+		<tag k="ssr:hovedgruppe" v="ferskvann" />
+		<tag k="ssr:stedsnr" v="661147" />
+		<tag k="ssr:type" v="skjær" />
+	</node>
+	<node id="-831393" lat="64.9872722186" lon="11.7618472234">
+		<tag k="loc_name" v="Heimstad" />
+		<tag k="place" v="isolated_dwelling" />
+>>>>>>> e1d4bc35ff8a6074a6f2e91616a996b547c36f15
+		<tag k="ssr:date" v="2019-12-27" />
+		<tag k="ssr:gruppe" v="bolighus" />
 		<tag k="ssr:hovedgruppe" v="bebyggelse" />
+<<<<<<< HEAD
 		<tag k="ssr:stedsnr" v="905180" />
 		<tag k="ssr:type" v="bruk" />
 	</node>
 	<node lat="64.99075555635143" lon="11.729641665349837" id="-39723">
 		<tag k="amenity" v="community_centre" />
 		<tag k="loc_name" v="Breidablikk" />
+=======
+		<tag k="ssr:stedsnr" v="965418" />
+		<tag k="ssr:type" v="eneboligMindreBoligbygg" />
+	</node>
+	<node id="-829535" lat="64.8008055545" lon="11.4283111139">
+		<tag k="loc_name" v="Sammarbakken" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2019-12-27" />
+		<tag k="ssr:gruppe" v="bolighus" />
+		<tag k="ssr:hovedgruppe" v="bebyggelse" />
+		<tag k="ssr:stedsnr" v="661124" />
+		<tag k="ssr:type" v="gammelBosettingsplass" />
+	</node>
+	<node id="-830309" lat="64.9503194459" lon="12.0065000087">
+		<tag k="loc_name" v="Dallia" />
+		<tag k="natural" v="slope" />
+		<tag k="place" v="locality" />
+>>>>>>> e1d4bc35ff8a6074a6f2e91616a996b547c36f15
 		<tag k="ssr:date" v="2019-12-27" />
 		<tag k="ssr:gruppe" v="kulturinstitusjoner" />
 		<tag k="ssr:hovedgruppe" v="kultur" />
 		<tag k="ssr:stedsnr" v="905412" />
 		<tag k="ssr:type" v="forsamlingshusKulturhus" />
 	</node>
+<<<<<<< HEAD
 	<node lat="64.92013611271895" lon="11.718158334741304" id="-39732">
 		<tag k="loc_name" v="Dale" />
+=======
+	<node id="-828506" lat="64.8692611128" lon="11.5763027858">
+		<tag k="loc_name" v="Åsheim" />
+>>>>>>> e1d4bc35ff8a6074a6f2e91616a996b547c36f15
 		<tag k="place" v="isolated_dwelling" />
 		<tag k="ssr:date" v="2019-12-27" />
 		<tag k="ssr:gruppe" v="bolighus" />
 		<tag k="ssr:hovedgruppe" v="bebyggelse" />
+<<<<<<< HEAD
 		<tag k="ssr:stedsnr" v="905523" />
 		<tag k="ssr:type" v="eneboligMindreBoligbygg" />
 	</node>
@@ -1763,10 +3801,38 @@
 	<node lat="64.88508888607528" lon="11.567086109127443" id="-39734">
 		<tag k="loc_name" v="Straumlia" />
 		<tag k="natural" v="slope" />
+=======
+		<tag k="ssr:stedsnr" v="298709" />
+		<tag k="ssr:type" v="eneboligMindreBoligbygg" />
+	</node>
+	<node id="-828505" lat="64.8894222227" lon="11.533161118">
+		<tag k="loc_name" v="Hesthagahaugen" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2019-12-27" />
+		<tag k="ssr:gruppe" v="høyder" />
+		<tag k="ssr:hovedgruppe" v="terreng" />
+		<tag k="ssr:stedsnr" v="298706" />
+		<tag k="ssr:type" v="haug" />
+	</node>
+	<node id="-828504" lat="64.9257333297" lon="11.5899361038">
+		<tag k="loc_name" v="Kjerringstadmyrå" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:date" v="2019-12-27" />
+		<tag k="ssr:gruppe" v="våtmark" />
+		<tag k="ssr:hovedgruppe" v="markslag" />
+		<tag k="ssr:stedsnr" v="298668" />
+		<tag k="ssr:type" v="myr" />
+	</node>
+	<node id="-828503" lat="64.9314166704" lon="11.6259166589">
+		<tag k="loc_name" v="Revskardet" />
+		<tag k="natural" v="valley" />
+>>>>>>> e1d4bc35ff8a6074a6f2e91616a996b547c36f15
 		<tag k="place" v="locality" />
 		<tag k="ssr:date" v="2019-12-27" />
 		<tag k="ssr:gruppe" v="skråninger" />
 		<tag k="ssr:hovedgruppe" v="terreng" />
+<<<<<<< HEAD
 		<tag k="ssr:stedsnr" v="905738" />
 		<tag k="ssr:type" v="li" />
 	</node>
@@ -1802,20 +3868,129 @@
 	</node>
 	<node lat="64.88981944047605" lon="11.530875003533476" id="-39739">
 		<tag k="loc_name" v="Kløyva" />
+=======
+		<tag k="ssr:stedsnr" v="298661" />
+		<tag k="ssr:type" v="skar" />
+	</node>
+	<node id="-828502" lat="64.9317166655" lon="11.6455472289">
+		<tag k="fixme" v="consider natural=peak for the most distinct mountains in the district" />
+		<tag k="loc_name" v="Barbrofjellet" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2019-12-27" />
+		<tag k="ssr:gruppe" v="høyder" />
+		<tag k="ssr:hovedgruppe" v="terreng" />
+		<tag k="ssr:stedsnr" v="298659" />
+		<tag k="ssr:type" v="fjell" />
+	</node>
+	<node id="-828501" lat="64.9289555514" lon="11.6096555599">
+		<tag k="loc_name" v="Meieritomta" />
+		<tag k="place" v="isolated_dwelling" />
+		<tag k="ssr:date" v="2019-12-27" />
+		<tag k="ssr:gruppe" v="bolighus" />
+		<tag k="ssr:hovedgruppe" v="bebyggelse" />
+		<tag k="ssr:stedsnr" v="298651" />
+		<tag k="ssr:type" v="eneboligMindreBoligbygg" />
+	</node>
+	<node id="-828500" lat="64.8542472179" lon="11.5658972293">
+		<tag k="loc_name" v="Solhaug" />
+		<tag k="place" v="isolated_dwelling" />
+		<tag k="ssr:date" v="2019-12-27" />
+		<tag k="ssr:gruppe" v="bolighus" />
+		<tag k="ssr:hovedgruppe" v="bebyggelse" />
+		<tag k="ssr:stedsnr" v="298646" />
+		<tag k="ssr:type" v="eneboligMindreBoligbygg" />
+	</node>
+	<node id="-830547" lat="64.9589444442" lon="12.0019388935">
+		<tag k="loc_name" v="Bruenget" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2019-12-27" />
+		<tag k="ssr:gruppe" v="vegetasjon" />
+		<tag k="ssr:hovedgruppe" v="markslag" />
+		<tag k="ssr:stedsnr" v="709318" />
+		<tag k="ssr:type" v="skog" />
+	</node>
+	<node id="-828648" lat="64.9452583343" lon="11.5756444491">
+		<tag k="loc_name" v="Jektvikodden" />
+		<tag k="natural" v="cape" />
+		<tag k="ssr:date" v="2019-12-27" />
+		<tag k="ssr:gruppe" v="kystkontur" />
+		<tag k="ssr:hovedgruppe" v="sjø" />
+		<tag k="ssr:stedsnr" v="224589" />
+		<tag k="ssr:type" v="nesISjø" />
+	</node>
+	<node id="-830545" lat="64.9686472194" lon="12.0621749998">
+		<tag k="loc_name" v="Kløyvholet" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2019-12-27" />
+		<tag k="ssr:gruppe" v="kulturminner" />
+		<tag k="ssr:hovedgruppe" v="kultur" />
+		<tag k="ssr:stedsnr" v="709307" />
+		<tag k="ssr:type" v="annenKulturdetalj" />
+	</node>
+	<node id="-830544" lat="64.9709833378" lon="12.0529861096">
+		<tag k="loc_name" v="Solbakken" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2019-12-27" />
+		<tag k="ssr:gruppe" v="gardsbebyggelse" />
+		<tag k="ssr:hovedgruppe" v="bebyggelse" />
+		<tag k="ssr:stedsnr" v="709305" />
+		<tag k="ssr:type" v="bruk" />
+	</node>
+	<node id="-828495" lat="64.990244448" lon="11.7291444522">
+		<tag k="leisure" v="pitch" />
+		<tag k="loc_name" v="Idrettsplass" />
+		<tag k="ssr:date" v="2019-12-27" />
+		<tag k="ssr:gruppe" v="fritidsanlegg" />
+		<tag k="ssr:hovedgruppe" v="bebyggelse" />
+		<tag k="ssr:stedsnr" v="298371" />
+		<tag k="ssr:type" v="idrettsanlegg" />
+	</node>
+	<node id="-828494" lat="64.7904277813" lon="11.4226611132">
+		<tag k="loc_name" v="Kjøbenhavn" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2019-12-27" />
+		<tag k="ssr:gruppe" v="kulturminner" />
+		<tag k="ssr:hovedgruppe" v="kultur" />
+		<tag k="ssr:stedsnr" v="298166" />
+		<tag k="ssr:type" v="annenKulturdetalj" />
+	</node>
+	<node id="-828493" lat="65.043741664" lon="11.9035916706">
+		<tag k="loc_name" v="Skardet" />
+		<tag k="natural" v="valley" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2019-12-27" />
+		<tag k="ssr:gruppe" v="senkninger" />
+		<tag k="ssr:hovedgruppe" v="terreng" />
+		<tag k="ssr:stedsnr" v="298156" />
+		<tag k="ssr:type" v="skar" />
+	</node>
+	<node id="-828492" lat="64.9402499966" lon="11.8908472217">
+		<tag k="loc_name" v="Storhollia" />
+>>>>>>> e1d4bc35ff8a6074a6f2e91616a996b547c36f15
 		<tag k="natural" v="slope" />
 		<tag k="place" v="locality" />
 		<tag k="ssr:date" v="2019-12-27" />
 		<tag k="ssr:gruppe" v="skråninger" />
 		<tag k="ssr:hovedgruppe" v="terreng" />
+<<<<<<< HEAD
 		<tag k="ssr:stedsnr" v="905742" />
 		<tag k="ssr:type" v="bakke" />
 	</node>
 	<node lat="64.84688610825415" lon="11.216502770526228" id="-39776">
 		<tag k="loc_name" v="Storvika" />
+=======
+		<tag k="ssr:stedsnr" v="298101" />
+		<tag k="ssr:type" v="li" />
+	</node>
+	<node id="-830659" lat="64.8945388854" lon="11.6366638946">
+		<tag k="loc_name" v="Vikern" />
+>>>>>>> e1d4bc35ff8a6074a6f2e91616a996b547c36f15
 		<tag k="natural" v="bay" />
 		<tag k="ssr:date" v="2019-12-27" />
 		<tag k="ssr:gruppe" v="kystkontur" />
 		<tag k="ssr:hovedgruppe" v="sjø" />
+<<<<<<< HEAD
 		<tag k="ssr:stedsnr" v="908581" />
 		<tag k="ssr:type" v="vikISjø" />
 	</node>
@@ -1893,21 +4068,78 @@
 	</node>
 	<node lat="64.96039167115268" lon="12.18401110694963" id="-39921">
 		<tag k="loc_name" v="Stordalen" />
+=======
+		<tag k="ssr:stedsnr" v="723581" />
+		<tag k="ssr:type" v="vikISjø" />
+	</node>
+	<node id="-831327" lat="64.9700138871" lon="11.7743527716">
+		<tag k="loc_name" v="Heggvikkeipen" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2019-12-27" />
+		<tag k="ssr:gruppe" v="høyder" />
+		<tag k="ssr:hovedgruppe" v="terreng" />
+		<tag k="ssr:stedsnr" v="905370" />
+		<tag k="ssr:type" v="haug" />
+	</node>
+	<node id="-830519" lat="64.9478972262" lon="11.5907638915">
+		<tag k="fixme" v="consider natural=peak for the most distinct mountains in the district" />
+		<tag k="loc_name" v="Klokkeølløvtuvå" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2019-12-27" />
+		<tag k="ssr:gruppe" v="høyder" />
+		<tag k="ssr:hovedgruppe" v="terreng" />
+		<tag k="ssr:stedsnr" v="891651" />
+		<tag k="ssr:type" v="ås" />
+	</node>
+	<node id="-830518" lat="64.9403638925" lon="11.5731638912">
+		<tag k="fixme" v="consider natural=peak for the most distinct mountains in the district" />
+		<tag k="loc_name" v="Sommerfjøshaugen" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2019-12-27" />
+		<tag k="ssr:gruppe" v="høyder" />
+		<tag k="ssr:hovedgruppe" v="terreng" />
+		<tag k="ssr:stedsnr" v="891650" />
+		<tag k="ssr:type" v="ås" />
+	</node>
+	<node id="-830516" lat="64.9748611076" lon="12.0710305635">
+		<tag k="loc_name" v="Stakkmyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:date" v="2019-12-27" />
+		<tag k="ssr:gruppe" v="våtmark" />
+		<tag k="ssr:hovedgruppe" v="markslag" />
+		<tag k="ssr:stedsnr" v="891418" />
+		<tag k="ssr:type" v="myr" />
+	</node>
+	<node id="-830515" lat="64.9319083337" lon="12.2494638918">
+		<tag k="loc_name" v="Keipskardet" />
+>>>>>>> e1d4bc35ff8a6074a6f2e91616a996b547c36f15
 		<tag k="natural" v="valley" />
 		<tag k="place" v="locality" />
 		<tag k="ssr:date" v="2019-12-27" />
 		<tag k="ssr:gruppe" v="senkninger" />
 		<tag k="ssr:hovedgruppe" v="terreng" />
+<<<<<<< HEAD
 		<tag k="ssr:stedsnr" v="830344" />
 		<tag k="ssr:type" v="dal" />
 	</node>
 	<node lat="65.06395833302997" lon="11.89749722471137" id="-40026">
 		<tag k="loc_name" v="Fjellengdalen" />
+=======
+		<tag k="ssr:stedsnr" v="891400" />
+		<tag k="ssr:type" v="skar" />
+	</node>
+	<node id="-830514" lat="64.9535805519" lon="12.2259638948">
+		<tag k="loc_name" v="Langdalen" />
+>>>>>>> e1d4bc35ff8a6074a6f2e91616a996b547c36f15
 		<tag k="natural" v="valley" />
 		<tag k="place" v="locality" />
 		<tag k="ssr:date" v="2019-12-27" />
 		<tag k="ssr:gruppe" v="senkninger" />
 		<tag k="ssr:hovedgruppe" v="terreng" />
+<<<<<<< HEAD
 		<tag k="ssr:stedsnr" v="844175" />
 		<tag k="ssr:type" v="dal" />
 	</node>
@@ -1923,10 +4155,20 @@
 	<node lat="64.96873333241659" lon="11.649733340894226" id="-40030">
 		<tag k="loc_name" v="Jensrevvå" />
 		<tag k="natural" v="slope" />
+=======
+		<tag k="ssr:stedsnr" v="891392" />
+		<tag k="ssr:type" v="dal" />
+	</node>
+	<node id="-830513" lat="64.9755111133" lon="12.1814416689">
+		<tag k="fixme" v="consider natural=peak for the most distinct mountains in the district" />
+		<tag k="loc_name" v="Foldereidåsen" />
+		<tag k="natural" v="hill" />
+>>>>>>> e1d4bc35ff8a6074a6f2e91616a996b547c36f15
 		<tag k="place" v="locality" />
 		<tag k="ssr:date" v="2019-12-27" />
 		<tag k="ssr:gruppe" v="skråninger" />
 		<tag k="ssr:hovedgruppe" v="terreng" />
+<<<<<<< HEAD
 		<tag k="ssr:stedsnr" v="844606" />
 		<tag k="ssr:type" v="li" />
 	</node>
@@ -1960,45 +4202,98 @@
 	</node>
 	<node lat="64.93223888508793" lon="11.660455562430286" id="-40036">
 		<tag k="loc_name" v="Vangsåsen" />
+=======
+		<tag k="ssr:stedsnr" v="891385" />
+		<tag k="ssr:type" v="ås" />
+	</node>
+	<node id="-830512" lat="64.9572861146" lon="12.0765583335">
+		<tag k="loc_name" v="Inner Kalvhagaodden" />
+		<tag k="natural" v="cape" />
+		<tag k="ssr:date" v="2019-12-27" />
+		<tag k="ssr:gruppe" v="kystkontur" />
+		<tag k="ssr:hovedgruppe" v="sjø" />
+		<tag k="ssr:stedsnr" v="891328" />
+		<tag k="ssr:type" v="nesISjø" />
+	</node>
+	<node id="-830511" lat="64.9715305592" lon="12.0578833384">
+		<tag k="loc_name" v="Litlengstrand" />
+>>>>>>> e1d4bc35ff8a6074a6f2e91616a996b547c36f15
 		<tag k="place" v="farm" />
 		<tag k="ssr:date" v="2019-12-27" />
 		<tag k="ssr:gruppe" v="gardsbebyggelse" />
 		<tag k="ssr:hovedgruppe" v="bebyggelse" />
+<<<<<<< HEAD
 		<tag k="ssr:stedsnr" v="844688" />
 		<tag k="ssr:type" v="bruk" />
 	</node>
 	<node lat="64.97486110760579" lon="12.071030563521495" id="-40188">
 		<tag k="loc_name" v="Stakkmyra" />
 		<tag k="natural" v="wetland" />
+=======
+		<tag k="ssr:stedsnr" v="891325" />
+		<tag k="ssr:type" v="bruk" />
+	</node>
+	<node id="-831325" lat="64.9042472224" lon="11.5707166576">
+		<tag k="fixme" v="consider natural=peak for the most distinct mountains in the district" />
+		<tag k="loc_name" v="Stortinden" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2019-12-27" />
+		<tag k="ssr:gruppe" v="høyder" />
+		<tag k="ssr:hovedgruppe" v="terreng" />
+		<tag k="ssr:stedsnr" v="905615" />
+		<tag k="ssr:type" v="ås" />
+	</node>
+	<node id="-828969" lat="64.8495888921" lon="11.2230750073">
+		<tag k="loc_name" v="Kjerringrauva" />
+		<tag k="place" v="locality" />
+>>>>>>> e1d4bc35ff8a6074a6f2e91616a996b547c36f15
 		<tag k="ssr:date" v="2019-12-27" />
 		<tag k="ssr:gruppe" v="våtmark" />
 		<tag k="ssr:hovedgruppe" v="markslag" />
 		<tag k="ssr:stedsnr" v="891418" />
 		<tag k="ssr:type" v="myr" />
 	</node>
+<<<<<<< HEAD
 	<node lat="64.97551111334096" lon="12.181441668886597" id="-40189">
 		<tag k="fixme" v="consider natural=peak for the most distinct mountains in the district" />
 		<tag k="loc_name" v="Foldereidåsen" />
 		<tag k="natural" v="hill" />
 		<tag k="place" v="locality" />
+=======
+	<node id="-828968" lat="64.8516861124" lon="11.2483555561">
+		<tag k="loc_name" v="Julieholet" />
+		<tag k="natural" v="bay" />
+>>>>>>> e1d4bc35ff8a6074a6f2e91616a996b547c36f15
 		<tag k="ssr:date" v="2019-12-27" />
 		<tag k="ssr:gruppe" v="høyder" />
 		<tag k="ssr:hovedgruppe" v="terreng" />
 		<tag k="ssr:stedsnr" v="891385" />
 		<tag k="ssr:type" v="ås" />
 	</node>
+<<<<<<< HEAD
 	<node lat="64.95358055188211" lon="12.225963894765732" id="-40190">
 		<tag k="loc_name" v="Langdalen" />
 		<tag k="natural" v="valley" />
 		<tag k="place" v="locality" />
+=======
+	<node id="-828967" lat="64.8529333353" lon="11.2317055473">
+		<tag k="loc_name" v="Haugodden" />
+		<tag k="natural" v="cape" />
+>>>>>>> e1d4bc35ff8a6074a6f2e91616a996b547c36f15
 		<tag k="ssr:date" v="2019-12-27" />
 		<tag k="ssr:gruppe" v="senkninger" />
 		<tag k="ssr:hovedgruppe" v="terreng" />
 		<tag k="ssr:stedsnr" v="891392" />
 		<tag k="ssr:type" v="dal" />
 	</node>
+<<<<<<< HEAD
 	<node lat="64.97001388708546" lon="11.774352771554238" id="-40269">
 		<tag k="loc_name" v="Heggvikkeipen" />
+=======
+	<node id="-828966" lat="64.8309972234" lon="11.220613896">
+		<tag k="loc_name" v="Klehaugen" />
+>>>>>>> e1d4bc35ff8a6074a6f2e91616a996b547c36f15
 		<tag k="natural" v="hill" />
 		<tag k="place" v="locality" />
 		<tag k="ssr:date" v="2019-12-27" />
@@ -2007,6 +4302,7 @@
 		<tag k="ssr:stedsnr" v="905370" />
 		<tag k="ssr:type" v="haug" />
 	</node>
+<<<<<<< HEAD
 	<node lat="64.80690000296302" lon="11.782380550472869" id="-40270">
 		<tag k="loc_name" v="Søndagsholet" />
 		<tag k="natural" v="valley" />
@@ -2029,22 +4325,83 @@
 	</node>
 	<node lat="64.90717777400249" lon="11.54813610993034" id="-40273">
 		<tag k="loc_name" v="Gløshaugen" />
+=======
+	<node id="-830215" lat="65.0368805546" lon="11.8724305474">
+		<tag k="loc_name" v="Tjeldvika" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2019-12-27" />
+		<tag k="ssr:gruppe" v="gardsbebyggelse" />
+		<tag k="ssr:hovedgruppe" v="bebyggelse" />
+		<tag k="ssr:stedsnr" v="601160" />
+		<tag k="ssr:type" v="bruk" />
+	</node>
+	<node id="-829476" lat="64.9278333337" lon="12.3137333258">
+		<tag k="loc_name" v="Kvennhusvika" />
+		<tag k="natural" v="bay" />
+		<tag k="ssr:date" v="2019-12-27" />
+		<tag k="ssr:gruppe" v="kystkontur" />
+		<tag k="ssr:hovedgruppe" v="sjø" />
+		<tag k="ssr:stedsnr" v="422338" />
+		<tag k="ssr:type" v="vikISjø" />
+	</node>
+	<node id="-831750" lat="64.8540472184" lon="11.2513388844">
+		<tag k="loc_name" v="Hilleborgholmen" />
+		<tag k="place" v="islet" />
+		<tag k="ssr:date" v="2019-12-27" />
+		<tag k="ssr:gruppe" v="kystkontur" />
+		<tag k="ssr:hovedgruppe" v="sjø" />
+		<tag k="ssr:stedsnr" v="59564" />
+		<tag k="ssr:type" v="holmeISjø" />
+	</node>
+	<node id="-829474" lat="64.8875333345" lon="11.5783083424">
+		<tag k="fixme" v="consider natural=peak for the most distinct mountains in the district" />
+		<tag k="loc_name" v="Monsvikfjellet" />
 		<tag k="natural" v="hill" />
 		<tag k="place" v="locality" />
 		<tag k="ssr:date" v="2019-12-27" />
 		<tag k="ssr:gruppe" v="høyder" />
 		<tag k="ssr:hovedgruppe" v="terreng" />
+		<tag k="ssr:stedsnr" v="419646" />
+		<tag k="ssr:type" v="fjell" />
+	</node>
+	<node id="-829473" lat="64.8614861145" lon="11.6179277783">
+		<tag k="loc_name" v="Rønningen" />
+		<tag k="place" v="hamlet" />
+		<tag k="ssr:date" v="2019-12-27" />
+		<tag k="ssr:gruppe" v="bebyggelsesområder" />
+		<tag k="ssr:hovedgruppe" v="bebyggelse" />
+		<tag k="ssr:stedsnr" v="419643" />
+		<tag k="ssr:type" v="grend" />
+	</node>
+	<node id="-829380" lat="64.746208334" lon="11.2342666598">
+		<tag k="loc_name" v="Middagshaugen" />
+>>>>>>> e1d4bc35ff8a6074a6f2e91616a996b547c36f15
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2019-12-27" />
+		<tag k="ssr:gruppe" v="høyder" />
+		<tag k="ssr:hovedgruppe" v="terreng" />
+<<<<<<< HEAD
 		<tag k="ssr:stedsnr" v="905612" />
 		<tag k="ssr:type" v="haug" />
 	</node>
 	<node lat="64.9042472224479" lon="11.57071665761794" id="-40274">
 		<tag k="fixme" v="consider natural=peak for the most distinct mountains in the district" />
 		<tag k="loc_name" v="Stortinden" />
+=======
+		<tag k="ssr:stedsnr" v="406607" />
+		<tag k="ssr:type" v="haug" />
+	</node>
+	<node id="-830658" lat="64.8961999996" lon="11.5693333297">
+		<tag k="fixme" v="consider natural=peak for the most distinct mountains in the district" />
+		<tag k="loc_name" v="Sørstrandvikkklaven" />
+>>>>>>> e1d4bc35ff8a6074a6f2e91616a996b547c36f15
 		<tag k="natural" v="hill" />
 		<tag k="place" v="locality" />
 		<tag k="ssr:date" v="2019-12-27" />
 		<tag k="ssr:gruppe" v="høyder" />
 		<tag k="ssr:hovedgruppe" v="terreng" />
+<<<<<<< HEAD
 		<tag k="ssr:stedsnr" v="905615" />
 		<tag k="ssr:type" v="ås" />
 	</node>
@@ -2070,39 +4427,156 @@
 	<node lat="64.92374166985992" lon="11.559188897447378" id="-40277">
 		<tag k="loc_name" v="Siriholet" />
 		<tag k="natural" v="spring" />
+=======
+		<tag k="ssr:stedsnr" v="723578" />
+		<tag k="ssr:type" v="ås" />
+	</node>
+	<node id="-828646" lat="64.7440194421" lon="11.2282027834">
+		<tag k="loc_name" v="Nonsskaret" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2019-12-27" />
+		<tag k="ssr:gruppe" v="flater" />
+		<tag k="ssr:hovedgruppe" v="terreng" />
+		<tag k="ssr:stedsnr" v="224582" />
+		<tag k="ssr:type" v="slette" />
+	</node>
+	<node id="-829529" lat="64.9408416655" lon="11.9011194422">
+		<tag k="loc_name" v="Kolmildalen" />
+		<tag k="natural" v="valley" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2019-12-27" />
+		<tag k="ssr:gruppe" v="senkninger" />
+		<tag k="ssr:hovedgruppe" v="terreng" />
+		<tag k="ssr:stedsnr" v="661080" />
+		<tag k="ssr:type" v="dal" />
+	</node>
+	<node id="-829379" lat="64.741041666" lon="11.1389694364">
+		<tag k="loc_name" v="Kvalneset" />
+		<tag k="natural" v="cape" />
+		<tag k="ssr:date" v="2019-12-27" />
+		<tag k="ssr:gruppe" v="kystkontur" />
+		<tag k="ssr:hovedgruppe" v="sjø" />
+		<tag k="ssr:stedsnr" v="406604" />
+		<tag k="ssr:type" v="nesISjø" />
+	</node>
+	<node id="-828931" lat="64.9324555536" lon="12.2156083311">
+		<tag k="loc_name" v="Brattåfossen" />
+		<tag k="natural" v="waterfall" />
+>>>>>>> e1d4bc35ff8a6074a6f2e91616a996b547c36f15
 		<tag k="ssr:date" v="2019-12-27" />
 		<tag k="ssr:gruppe" v="rennendeVann" />
 		<tag k="ssr:hovedgruppe" v="ferskvann" />
 		<tag k="ssr:stedsnr" v="905711" />
 		<tag k="ssr:type" v="kilde" />
 	</node>
+<<<<<<< HEAD
 	<node lat="64.88830555342125" lon="11.568977782396997" id="-40278">
 		<tag k="loc_name" v="Ulvika" />
 		<tag k="natural" v="bay" />
+=======
+	<node id="-829939" lat="64.8365166673" lon="11.2178000011">
+		<tag k="fixme" v="consider seamark:type=rock or natural=shoal" />
+		<tag k="loc_name" v="Stormåsskjæra" />
+		<tag k="place" v="islet" />
+		<tag k="ssr:date" v="2019-12-27" />
+		<tag k="ssr:gruppe" v="grunnerISjø" />
+		<tag k="ssr:hovedgruppe" v="sjø" />
+		<tag k="ssr:stedsnr" v="544520" />
+		<tag k="ssr:type" v="skjærISjø" />
+	</node>
+	<node id="-828930" lat="64.9626333304" lon="12.0082222141">
+		<tag k="loc_name" v="Olamoen" />
+		<tag k="place" v="locality" />
+>>>>>>> e1d4bc35ff8a6074a6f2e91616a996b547c36f15
 		<tag k="ssr:date" v="2019-12-27" />
 		<tag k="ssr:gruppe" v="kystkontur" />
 		<tag k="ssr:hovedgruppe" v="sjø" />
 		<tag k="ssr:stedsnr" v="905734" />
 		<tag k="ssr:type" v="vikISjø" />
 	</node>
+<<<<<<< HEAD
 	<node lat="64.84671666701263" lon="11.220602777517573" id="-40279">
 		<tag k="loc_name" v="Larsvikkleiva" />
 		<tag k="natural" v="slope" />
+=======
+	<node id="-830546" lat="64.9699972211" lon="12.0960416634">
+		<tag k="loc_name" v="Lømoen" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2019-12-27" />
+		<tag k="ssr:gruppe" v="gardsbebyggelse" />
+		<tag k="ssr:hovedgruppe" v="bebyggelse" />
+		<tag k="ssr:stedsnr" v="709310" />
+		<tag k="ssr:type" v="bruk" />
+	</node>
+	<node id="-828934" lat="64.9418972217" lon="11.5794916756">
+		<tag k="loc_name" v="Dalaberget" />
+		<tag k="natural" v="hill" />
+>>>>>>> e1d4bc35ff8a6074a6f2e91616a996b547c36f15
 		<tag k="place" v="locality" />
 		<tag k="ssr:date" v="2019-12-27" />
-		<tag k="ssr:gruppe" v="skråninger" />
+		<tag k="ssr:gruppe" v="høyder" />
 		<tag k="ssr:hovedgruppe" v="terreng" />
+<<<<<<< HEAD
 		<tag k="ssr:stedsnr" v="908556" />
 		<tag k="ssr:type" v="bakke" />
 	</node>
 	<node lat="64.8446527809223" lon="11.227244438421506" id="-40280">
 		<tag k="loc_name" v="Kudauhaugen" />
+=======
+		<tag k="ssr:stedsnr" v="466635" />
+		<tag k="ssr:type" v="berg" />
+	</node>
+	<node id="-828933" lat="64.7288083356" lon="11.1788722154">
+		<tag k="loc_name" v="Storhallaren" />
+>>>>>>> e1d4bc35ff8a6074a6f2e91616a996b547c36f15
 		<tag k="natural" v="hill" />
 		<tag k="place" v="locality" />
 		<tag k="ssr:date" v="2019-12-27" />
 		<tag k="ssr:gruppe" v="høyder" />
 		<tag k="ssr:hovedgruppe" v="terreng" />
+<<<<<<< HEAD
 		<tag k="ssr:stedsnr" v="908572" />
 		<tag k="ssr:type" v="haug" />
+=======
+		<tag k="ssr:stedsnr" v="466633" />
+		<tag k="ssr:type" v="berg" />
+	</node>
+	<node id="-828932" lat="64.9898249984" lon="11.6381194433">
+		<tag k="loc_name" v="Urda" />
+		<tag k="natural" v="scree" />
+		<tag k="ssr:date" v="2019-12-27" />
+		<tag k="ssr:gruppe" v="løsmasseavsetninger" />
+		<tag k="ssr:hovedgruppe" v="markslag" />
+		<tag k="ssr:stedsnr" v="466629" />
+		<tag k="ssr:type" v="ur" />
+	</node>
+	<node id="-827907" lat="64.8518499997" lon="11.2363222293">
+		<tag k="loc_name" v="Smevika" />
+		<tag k="place" v="isolated_dwelling" />
+		<tag k="ssr:date" v="2019-12-27" />
+		<tag k="ssr:gruppe" v="bolighus" />
+		<tag k="ssr:hovedgruppe" v="bebyggelse" />
+		<tag k="ssr:stedsnr" v="241547" />
+		<tag k="ssr:type" v="eneboligMindreBoligbygg" />
+	</node>
+	<node id="-827906" lat="64.8460416684" lon="11.2416611114">
+		<tag k="loc_name" v="Trongskaret" />
+		<tag k="natural" v="valley" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2019-12-27" />
+		<tag k="ssr:gruppe" v="senkninger" />
+		<tag k="ssr:hovedgruppe" v="terreng" />
+		<tag k="ssr:stedsnr" v="241520" />
+		<tag k="ssr:type" v="skar" />
+	</node>
+	<node id="-829867" lat="64.9907444482" lon="11.6092333235">
+		<tag k="loc_name" v="Leineset" />
+		<tag k="natural" v="cape" />
+		<tag k="ssr:date" v="2019-12-27" />
+		<tag k="ssr:gruppe" v="kystkontur" />
+		<tag k="ssr:hovedgruppe" v="sjø" />
+		<tag k="ssr:stedsnr" v="527611" />
+		<tag k="ssr:type" v="nesISjø" />
+>>>>>>> e1d4bc35ff8a6074a6f2e91616a996b547c36f15
 	</node>
 </osm>

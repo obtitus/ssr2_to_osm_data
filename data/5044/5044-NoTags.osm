@@ -1,29 +1,193 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<<<<<<< HEAD
 <osm version="0.6" generator="osmapis">
 	<node lat="65.08738610901405" lon="13.424683337205076" id="-40472">
 		<tag k="name" v="Namskrokhytta" />
 		<tag k="ssr:date" v="2021-06-08" />
-		<tag k="ssr:gruppe" v="veg" />
-		<tag k="ssr:hovedgruppe" v="infrastruktur" />
-		<tag k="ssr:stedsnr" v="242586" />
-		<tag k="ssr:type" v="adressetilleggsnavn" />
-	</node>
-	<node lat="64.81646666529356" lon="13.142808332824854" id="-40509">
+=======
+<osm generator="osmapis" version="0.6">
+	<node id="-781948" lat="64.8164666653" lon="13.1428083328">
 		<tag k="name" v="Tromsdalshytta" />
-		<tag k="ssr:date" v="2021-06-08" />
+		<tag k="ssr:date" v="2018-01-09" />
 		<tag k="ssr:gruppe" v="veg" />
 		<tag k="ssr:hovedgruppe" v="infrastruktur" />
 		<tag k="ssr:stedsnr" v="121616" />
 		<tag k="ssr:type" v="adressetilleggsnavn" />
 	</node>
-	<node lat="64.91885000287266" lon="13.230591675400353" id="-40657">
+	<node id="-783591" lat="69.6388889725" lon="30.5666644427">
+		<tag k="fixme" v="multiple name tags, choose one and add the other to alt_name" />
+		<tag k="loc_name:se" v="Norgga gonagasriika" />
+		<tag k="loc_name:sma" v="Nöörjen gånkarïjhke" />
+		<tag k="loc_name:smj" v="Vuona gånågisrijkka" />
+		<tag k="name" v="Noreg;Norge" />
+		<tag k="name:en" v="Norway" />
+		<tag k="name:no" v="Noreg;Norge" />
+		<tag k="ssr:date" v="2020-06-04" />
+		<tag k="ssr:gruppe" v="administrativeIndelinger" />
+		<tag k="ssr:hovedgruppe" v="offentligAdministrasjon" />
+		<tag k="ssr:stedsnr" v="26330" />
+		<tag k="ssr:type" v="nasjon" />
+	</node>
+	<node id="-783589" lat="64.0144468016" lon="11.4818866293">
+		<tag k="name" v="Trøndelag fylke - Trööndelagen fylhke" />
+		<tag k="name:no" v="Trøndelag fylke" />
+		<tag k="name:sma" v="Trööndelagen fylhke" />
+		<tag k="ssr:date" v="2020-01-13" />
+		<tag k="ssr:gruppe" v="administrativeIndelinger" />
+		<tag k="ssr:hovedgruppe" v="offentligAdministrasjon" />
+		<tag k="ssr:stedsnr" v="980645" />
+		<tag k="ssr:type" v="fylke" />
+	</node>
+	<node id="-783200" lat="64.8294527807" lon="13.0845472185">
+		<tag k="name" v="Westinhytta" />
+		<tag k="ssr:date" v="2018-01-09" />
+		<tag k="ssr:gruppe" v="veg" />
+		<tag k="ssr:hovedgruppe" v="infrastruktur" />
+		<tag k="ssr:stedsnr" v="545593" />
+		<tag k="ssr:type" v="adressetilleggsnavn" />
+	</node>
+	<node id="-783581" lat="64.7351472202" lon="12.8281944422">
+		<tag k="name" v="Vestmoen" />
+		<tag k="ssr:date" v="2018-01-09" />
+		<tag k="ssr:gruppe" v="veg" />
+		<tag k="ssr:hovedgruppe" v="infrastruktur" />
+		<tag k="ssr:stedsnr" v="970087" />
+		<tag k="ssr:type" v="adressetilleggsnavn" />
+	</node>
+	<node id="-783580" lat="65.0527027777" lon="13.1995416571">
+		<tag k="name" v="Storgåsvassbua" />
+		<tag k="ssr:date" v="2018-01-09" />
+		<tag k="ssr:gruppe" v="veg" />
+		<tag k="ssr:hovedgruppe" v="infrastruktur" />
+		<tag k="ssr:stedsnr" v="970175" />
+		<tag k="ssr:type" v="adressetilleggsnavn" />
+	</node>
+	<node id="-781913" lat="65.087386109" lon="13.4246833372">
+		<tag k="name" v="Namskrokhytta" />
+		<tag k="ssr:date" v="2018-01-09" />
+		<tag k="ssr:gruppe" v="veg" />
+		<tag k="ssr:hovedgruppe" v="infrastruktur" />
+		<tag k="ssr:stedsnr" v="242586" />
+		<tag k="ssr:type" v="adressetilleggsnavn" />
+	</node>
+	<node id="-782288" lat="65.0851611131" lon="13.2818972147">
+		<tag k="name" v="Mellingenhytta" />
+		<tag k="ssr:date" v="2018-01-09" />
+		<tag k="ssr:gruppe" v="veg" />
+		<tag k="ssr:hovedgruppe" v="infrastruktur" />
+		<tag k="ssr:stedsnr" v="485567" />
+		<tag k="ssr:type" v="adressetilleggsnavn" />
+	</node>
+	<node id="-782286" lat="65.0584222255" lon="13.1362777863">
+		<tag k="name" v="Stordalsbua" />
+		<tag k="ssr:date" v="2018-01-09" />
+		<tag k="ssr:gruppe" v="veg" />
+		<tag k="ssr:hovedgruppe" v="infrastruktur" />
+		<tag k="ssr:stedsnr" v="485553" />
+		<tag k="ssr:type" v="adressetilleggsnavn" />
+	</node>
+	<node id="-782274" lat="64.9660583349" lon="13.30315001">
+		<tag k="name" v="Finntjønnhytta" />
+		<tag k="ssr:date" v="2018-01-09" />
+		<tag k="ssr:gruppe" v="veg" />
+		<tag k="ssr:hovedgruppe" v="infrastruktur" />
+		<tag k="ssr:stedsnr" v="667568" />
+		<tag k="ssr:type" v="adressetilleggsnavn" />
+	</node>
+	<node id="-783040" lat="65.0919083316" lon="13.2701305634">
+		<tag k="name" v="Langholmhytta" />
+		<tag k="ssr:date" v="2018-01-09" />
+		<tag k="ssr:gruppe" v="veg" />
+		<tag k="ssr:hovedgruppe" v="infrastruktur" />
+		<tag k="ssr:stedsnr" v="363565" />
+		<tag k="ssr:type" v="adressetilleggsnavn" />
+	</node>
+	<node id="-783039" lat="64.9189361141" lon="13.2310500043">
+		<tag k="name" v="Mattisstua" />
+		<tag k="ssr:date" v="2018-01-09" />
+		<tag k="ssr:gruppe" v="veg" />
+		<tag k="ssr:hovedgruppe" v="infrastruktur" />
+		<tag k="ssr:stedsnr" v="363560" />
+		<tag k="ssr:type" v="adressetilleggsnavn" />
+	</node>
+	<node id="-783038" lat="65.0536694464" lon="13.325347222">
+		<tag k="name" v="Snåsamostua" />
+		<tag k="ssr:date" v="2018-01-09" />
+		<tag k="ssr:gruppe" v="veg" />
+		<tag k="ssr:hovedgruppe" v="infrastruktur" />
+		<tag k="ssr:stedsnr" v="363558" />
+		<tag k="ssr:type" v="adressetilleggsnavn" />
+	</node>
+	<node id="-783420" lat="65.060563892" lon="13.2146611079">
+		<tag k="name" v="Litlgåsvassbua" />
+		<tag k="ssr:date" v="2018-01-09" />
+		<tag k="ssr:gruppe" v="veg" />
+		<tag k="ssr:hovedgruppe" v="infrastruktur" />
+		<tag k="ssr:stedsnr" v="788602" />
+		<tag k="ssr:type" v="adressetilleggsnavn" />
+	</node>
+	<node id="-782139" lat="64.9188500029" lon="13.2305916754">
 		<tag k="name" v="Sandåstua" />
-		<tag k="ssr:date" v="2021-06-08" />
+		<tag k="ssr:date" v="2018-01-09" />
 		<tag k="ssr:gruppe" v="veg" />
 		<tag k="ssr:hovedgruppe" v="infrastruktur" />
 		<tag k="ssr:stedsnr" v="303609" />
 		<tag k="ssr:type" v="adressetilleggsnavn" />
 	</node>
+	<node id="-782138" lat="64.7287472261" lon="12.8161666611">
+		<tag k="name" v="Tromsstad" />
+		<tag k="ssr:date" v="2018-01-09" />
+		<tag k="ssr:gruppe" v="veg" />
+		<tag k="ssr:hovedgruppe" v="infrastruktur" />
+		<tag k="ssr:stedsnr" v="303556" />
+		<tag k="ssr:type" v="adressetilleggsnavn" />
+	</node>
+	<node id="-782392" lat="65.102108337" lon="13.2672888926">
+		<tag k="name" v="Storholmhytta" />
+		<tag k="ssr:date" v="2018-01-09" />
+>>>>>>> e1d4bc35ff8a6074a6f2e91616a996b547c36f15
+		<tag k="ssr:gruppe" v="veg" />
+		<tag k="ssr:hovedgruppe" v="infrastruktur" />
+		<tag k="ssr:stedsnr" v="606605" />
+		<tag k="ssr:type" v="adressetilleggsnavn" />
+	</node>
+<<<<<<< HEAD
+	<node lat="64.81646666529356" lon="13.142808332824854" id="-40509">
+		<tag k="name" v="Tromsdalshytta" />
+		<tag k="ssr:date" v="2021-06-08" />
+=======
+	<node id="-781916" lat="64.9259750038" lon="13.159319439">
+		<tag k="name" v="Namsskogan kommune" />
+		<tag k="ssr:date" v="2018-01-09" />
+		<tag k="ssr:gruppe" v="administrativeIndelinger" />
+		<tag k="ssr:hovedgruppe" v="offentligAdministrasjon" />
+		<tag k="ssr:stedsnr" v="86302" />
+		<tag k="ssr:type" v="kommune" />
+	</node>
+	<node id="-783398" lat="64.8672805554" lon="13.2281972169">
+		<tag k="name" v="Gammelvegen" />
+		<tag k="ssr:date" v="2018-01-09" />
+>>>>>>> e1d4bc35ff8a6074a6f2e91616a996b547c36f15
+		<tag k="ssr:gruppe" v="veg" />
+		<tag k="ssr:hovedgruppe" v="infrastruktur" />
+		<tag k="ssr:stedsnr" v="776398" />
+		<tag k="ssr:type" v="vegstrekning" />
+	</node>
+<<<<<<< HEAD
+	<node lat="64.91885000287266" lon="13.230591675400353" id="-40657">
+		<tag k="name" v="Sandåstua" />
+		<tag k="ssr:date" v="2021-06-08" />
+=======
+	<node id="-782740" lat="65.0880277818" lon="13.4242361097">
+		<tag k="name" v="Skogstua i Namskroken" />
+		<tag k="ssr:date" v="2018-01-09" />
+>>>>>>> e1d4bc35ff8a6074a6f2e91616a996b547c36f15
+		<tag k="ssr:gruppe" v="veg" />
+		<tag k="ssr:hovedgruppe" v="infrastruktur" />
+		<tag k="ssr:stedsnr" v="60599" />
+		<tag k="ssr:type" v="adressetilleggsnavn" />
+	</node>
+<<<<<<< HEAD
 	<node lat="64.72874722610135" lon="12.816166661146239" id="-40658">
 		<tag k="name" v="Tromsstad" />
 		<tag k="ssr:date" v="2021-06-08" />
@@ -47,5 +211,22 @@
 		<tag k="ssr:hovedgruppe" v="infrastruktur" />
 		<tag k="ssr:stedsnr" v="485553" />
 		<tag k="ssr:type" v="adressetilleggsnavn" />
+=======
+	<node id="-782739" lat="65.0528111101" lon="13.1351527687">
+		<tag k="name" v="Stordalshytta" />
+		<tag k="ssr:date" v="2018-01-09" />
+		<tag k="ssr:gruppe" v="veg" />
+		<tag k="ssr:hovedgruppe" v="infrastruktur" />
+		<tag k="ssr:stedsnr" v="60597" />
+		<tag k="ssr:type" v="adressetilleggsnavn" />
+	</node>
+	<node id="-782084" lat="65.0700916657" lon="13.3277916691">
+		<tag k="name" v="Kulverten" />
+		<tag k="ssr:date" v="2018-01-09" />
+		<tag k="ssr:gruppe" v="bane" />
+		<tag k="ssr:hovedgruppe" v="infrastruktur" />
+		<tag k="ssr:stedsnr" v="227367" />
+		<tag k="ssr:type" v="banestrekning" />
+>>>>>>> e1d4bc35ff8a6074a6f2e91616a996b547c36f15
 	</node>
 </osm>

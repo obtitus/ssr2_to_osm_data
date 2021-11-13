@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<<<<<<< HEAD
 <osm version="0.6" generator="osmapis">
 	<node lat="60.24143332906609" lon="5.442597228478601" id="-27460">
 		<tag k="leisure" v="pitch" />
@@ -10,6 +11,30 @@
 		<tag k="ssr:type" v="idrettsanlegg" />
 	</node>
 	<node lat="60.312001030852" lon="5.667706672208222" id="-29138">
+=======
+<osm generator="osmapis" version="0.6">
+	<node id="-634248" lat="60.2385893816" lon="5.81947166621">
+		<tag k="fixme" v="consider place=hamlet" />
+		<tag k="loc_name" v="Insterødo" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2020-02-17" />
+		<tag k="ssr:gruppe" v="gardsbebyggelse" />
+		<tag k="ssr:hovedgruppe" v="bebyggelse" />
+		<tag k="ssr:stedsnr" v="1075219" />
+		<tag k="ssr:type" v="gard" />
+	</node>
+	<node id="-634207" lat="60.3172026359" lon="5.67324203824">
+		<tag k="loc_name" v="Nordeikeskorena" />
+		<tag k="natural" v="slope" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2019-12-27" />
+		<tag k="ssr:gruppe" v="skråninger" />
+		<tag k="ssr:hovedgruppe" v="terreng" />
+		<tag k="ssr:stedsnr" v="976355" />
+		<tag k="ssr:type" v="li" />
+	</node>
+	<node id="-634205" lat="60.3120010309" lon="5.66770667221">
+>>>>>>> e1d4bc35ff8a6074a6f2e91616a996b547c36f15
 		<tag k="loc_name" v="Nybben" />
 		<tag k="natural" v="hill" />
 		<tag k="place" v="locality" />
@@ -18,5 +43,14 @@
 		<tag k="ssr:hovedgruppe" v="terreng" />
 		<tag k="ssr:stedsnr" v="976244" />
 		<tag k="ssr:type" v="haug" />
+	</node>
+	<node id="-630890" lat="60.2414333291" lon="5.44259722848">
+		<tag k="leisure" v="pitch" />
+		<tag k="old_name" v="Idrottsplass" />
+		<tag k="ssr:date" v="2019-12-27" />
+		<tag k="ssr:gruppe" v="fritidsanlegg" />
+		<tag k="ssr:hovedgruppe" v="bebyggelse" />
+		<tag k="ssr:stedsnr" v="98221" />
+		<tag k="ssr:type" v="idrettsanlegg" />
 	</node>
 </osm>

@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<<<<<<< HEAD
 <osm version="0.6" generator="osmapis">
 	<node lat="60.49098055785649" lon="9.578030548088313" id="-11633">
 		<tag k="loc_name" v="Tolvtjernskollen;Skarsnatten" />
+=======
+<osm generator="osmapis" version="0.6">
+	<node id="-269823" lat="60.4909805579" lon="9.57803054809">
+		<tag k="loc_name" v="Skarsnatten;Tolvtjernskollen" />
+>>>>>>> e1d4bc35ff8a6074a6f2e91616a996b547c36f15
 		<tag k="natural" v="hill" />
 		<tag k="place" v="locality" />
 		<tag k="ssr:date" v="2019-12-27" />
@@ -10,16 +16,28 @@
 		<tag k="ssr:stedsnr" v="56327" />
 		<tag k="ssr:type" v="haug" />
 	</node>
+<<<<<<< HEAD
 	<node lat="60.372533331724746" lon="9.632741661213718" id="-11980">
 		<tag k="loc_name" v="Trommaldstøe" />
+=======
+	<node id="-271229" lat="60.3747138871" lon="9.62709166183">
+		<tag k="loc_name" v="Viki" />
+>>>>>>> e1d4bc35ff8a6074a6f2e91616a996b547c36f15
 		<tag k="place" v="hamlet" />
 		<tag k="ssr:date" v="2019-12-27" />
 		<tag k="ssr:gruppe" v="bebyggelsesområder" />
 		<tag k="ssr:hovedgruppe" v="bebyggelse" />
+<<<<<<< HEAD
 		<tag k="ssr:stedsnr" v="465018" />
 		<tag k="ssr:type" v="grend" />
 	</node>
 	<node lat="60.38146389040999" lon="9.604275008387027" id="-12069">
+=======
+		<tag k="ssr:stedsnr" v="829030" />
+		<tag k="ssr:type" v="grend" />
+	</node>
+	<node id="-271099" lat="60.3814638904" lon="9.60427500839">
+>>>>>>> e1d4bc35ff8a6074a6f2e91616a996b547c36f15
 		<tag k="loc_name" v="Bjerkevik" />
 		<tag k="natural" v="bay" />
 		<tag k="ssr:date" v="2019-12-27" />
@@ -28,17 +46,38 @@
 		<tag k="ssr:stedsnr" v="586402" />
 		<tag k="ssr:type" v="vik" />
 	</node>
+<<<<<<< HEAD
 	<node lat="60.41696944108918" lon="9.501944440360019" id="-12204">
-		<tag k="old_name" v="Buøyni holdeplass" />
-		<tag k="railway" v="halt" />
+=======
+	<node id="-270936" lat="60.3656027803" lon="9.64906943708">
+		<tag k="amenity" v="school" />
+		<tag k="old_name" v="Medbøen skole" />
 		<tag k="ssr:date" v="2019-12-27" />
-		<tag k="ssr:gruppe" v="bane" />
-		<tag k="ssr:hovedgruppe" v="infrastruktur" />
-		<tag k="ssr:stedsnr" v="724177" />
-		<tag k="ssr:type" v="holdeplass" />
-		<tag k="train" v="yes" />
+		<tag k="ssr:gruppe" v="institusjoner" />
+		<tag k="ssr:hovedgruppe" v="bebyggelse" />
+		<tag k="ssr:stedsnr" v="403550" />
+		<tag k="ssr:type" v="skole" />
 	</node>
-	<node lat="60.42503055541695" lon="9.467519441619244" id="-12259">
+	<node id="-270357" lat="60.312777782" lon="9.63267221715">
+		<tag k="loc_name" v="Luterhaugen" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2019-12-27" />
+		<tag k="ssr:gruppe" v="høyder" />
+		<tag k="ssr:hovedgruppe" v="terreng" />
+		<tag k="ssr:stedsnr" v="889175" />
+		<tag k="ssr:type" v="haug" />
+	</node>
+	<node id="-271331" lat="60.4207141453" lon="9.20846535136">
+		<tag k="loc_name" v="Sevrelia" />
+		<tag k="place" v="neighbourhood" />
+		<tag k="ssr:date" v="2019-12-27" />
+		<tag k="ssr:gruppe" v="bebyggelsesområder" />
+		<tag k="ssr:hovedgruppe" v="bebyggelse" />
+		<tag k="ssr:stedsnr" v="981821" />
+		<tag k="ssr:type" v="hyttefelt" />
+	</node>
+	<node id="-271184" lat="60.4250305554" lon="9.46751944162">
 		<tag k="bridge" v="yes" />
 		<tag k="layer" v="1" />
 		<tag k="old_name" v="Vold øvre" />
@@ -48,17 +87,82 @@
 		<tag k="ssr:stedsnr" v="775758" />
 		<tag k="ssr:type" v="bru" />
 	</node>
+	<node id="-271192" lat="60.3273416682" lon="9.62723333765">
+		<tag k="old_name" v="Søre Veteren" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2019-12-27" />
+		<tag k="ssr:gruppe" v="bolighus" />
+		<tag k="ssr:hovedgruppe" v="bebyggelse" />
+		<tag k="ssr:stedsnr" v="785285" />
+		<tag k="ssr:type" v="gammelBosettingsplass" />
+	</node>
+	<node id="-269966" lat="60.3725333317" lon="9.63274166121">
+		<tag k="loc_name" v="Trommaldstøe" />
+		<tag k="place" v="hamlet" />
+		<tag k="ssr:date" v="2019-12-27" />
+		<tag k="ssr:gruppe" v="bebyggelsesområder" />
+		<tag k="ssr:hovedgruppe" v="bebyggelse" />
+		<tag k="ssr:stedsnr" v="465018" />
+		<tag k="ssr:type" v="grend" />
+	</node>
+	<node id="-271340" lat="60.4036457222" lon="9.42359728634">
+		<tag k="loc_name" v="Trøgabekken" />
+		<tag k="ssr:date" v="2019-12-27" />
+		<tag k="ssr:gruppe" v="rennendeVann" />
+		<tag k="ssr:hovedgruppe" v="ferskvann" />
+		<tag k="ssr:stedsnr" v="990985" />
+		<tag k="ssr:type" v="bekk" />
+		<tag k="waterway" v="stream" />
+	</node>
+	<node id="-270251" lat="60.4169694411" lon="9.50194444036">
+>>>>>>> e1d4bc35ff8a6074a6f2e91616a996b547c36f15
+		<tag k="old_name" v="Buøyni holdeplass" />
+		<tag k="railway" v="halt" />
+		<tag k="ssr:date" v="2019-12-27" />
+		<tag k="ssr:gruppe" v="bane" />
+		<tag k="ssr:hovedgruppe" v="infrastruktur" />
+		<tag k="ssr:stedsnr" v="724177" />
+		<tag k="ssr:type" v="holdeplass" />
+		<tag k="train" v="yes" />
+	</node>
+<<<<<<< HEAD
+	<node lat="60.42503055541695" lon="9.467519441619244" id="-12259">
+		<tag k="bridge" v="yes" />
+		<tag k="layer" v="1" />
+		<tag k="old_name" v="Vold øvre" />
+=======
+	<node id="-271338" lat="60.441851123" lon="9.76661657275">
+		<tag k="loc_name" v="Trollfossen" />
+		<tag k="natural" v="waterfall" />
+>>>>>>> e1d4bc35ff8a6074a6f2e91616a996b547c36f15
+		<tag k="ssr:date" v="2019-12-27" />
+		<tag k="ssr:gruppe" v="samferdselsanlegg" />
+		<tag k="ssr:hovedgruppe" v="infrastruktur" />
+		<tag k="ssr:stedsnr" v="775758" />
+		<tag k="ssr:type" v="bru" />
+	</node>
+<<<<<<< HEAD
 	<node lat="60.37471388713436" lon="9.627091661833298" id="-12306">
 		<tag k="loc_name" v="Viki" />
 		<tag k="place" v="hamlet" />
+=======
+	<node id="-271336" lat="60.3288842893" lon="9.48013735731">
+		<tag k="loc_name" v="Høgevarde hytteområde" />
+		<tag k="place" v="neighbourhood" />
+>>>>>>> e1d4bc35ff8a6074a6f2e91616a996b547c36f15
 		<tag k="ssr:date" v="2019-12-27" />
 		<tag k="ssr:gruppe" v="bebyggelsesområder" />
 		<tag k="ssr:hovedgruppe" v="bebyggelse" />
 		<tag k="ssr:stedsnr" v="829030" />
 		<tag k="ssr:type" v="grend" />
 	</node>
+<<<<<<< HEAD
 	<node lat="60.38368179338539" lon="9.188078476791839" id="-12398">
 		<tag k="loc_name" v="Reinsjøfjell Øvre" />
+=======
+	<node id="-271335" lat="60.4317636995" lon="9.47669519698">
+		<tag k="loc_name" v="Tunnelen" />
+>>>>>>> e1d4bc35ff8a6074a6f2e91616a996b547c36f15
 		<tag k="place" v="quarter" />
 		<tag k="ssr:date" v="2019-12-27" />
 		<tag k="ssr:gruppe" v="bebyggelsesområder" />
@@ -66,8 +170,23 @@
 		<tag k="ssr:stedsnr" v="981820" />
 		<tag k="ssr:type" v="boligfelt" />
 	</node>
+<<<<<<< HEAD
 	<node lat="60.4207141453364" lon="9.208465351355809" id="-12399">
 		<tag k="loc_name" v="Sevrelia" />
+=======
+	<node id="-271238" lat="60.3836194416" lon="9.60658333876">
+		<tag k="amenity" v="place_of_worship" />
+		<tag k="fixme" v="specify religion=*, denomination=*, building=* etc" />
+		<tag k="loc_name" v="Gulsvik misjonshus" />
+		<tag k="ssr:date" v="2019-12-27" />
+		<tag k="ssr:gruppe" v="kulturinstitusjoner" />
+		<tag k="ssr:hovedgruppe" v="kultur" />
+		<tag k="ssr:stedsnr" v="829388" />
+		<tag k="ssr:type" v="annenBygningForReligionsutøvelse" />
+	</node>
+	<node id="-271333" lat="60.4567257055" lon="9.39363364816">
+		<tag k="loc_name" v="Sørstølen Øst" />
+>>>>>>> e1d4bc35ff8a6074a6f2e91616a996b547c36f15
 		<tag k="place" v="neighbourhood" />
 		<tag k="ssr:date" v="2019-12-27" />
 		<tag k="ssr:gruppe" v="bebyggelsesområder" />
@@ -75,7 +194,11 @@
 		<tag k="ssr:stedsnr" v="981821" />
 		<tag k="ssr:type" v="hyttefelt" />
 	</node>
+<<<<<<< HEAD
 	<node lat="60.372342239509756" lon="9.292595751022116" id="-12400">
+=======
+	<node id="-271332" lat="60.3723422395" lon="9.29259575102">
+>>>>>>> e1d4bc35ff8a6074a6f2e91616a996b547c36f15
 		<tag k="loc_name" v="Olauglia" />
 		<tag k="place" v="neighbourhood" />
 		<tag k="ssr:date" v="2019-12-27" />
@@ -84,12 +207,18 @@
 		<tag k="ssr:stedsnr" v="981822" />
 		<tag k="ssr:type" v="hyttefelt" />
 	</node>
+<<<<<<< HEAD
 	<node lat="60.45672570552881" lon="9.393633648159108" id="-12401">
 		<tag k="loc_name" v="Sørstølen Øst" />
+=======
+	<node id="-271334" lat="60.4985395093" lon="9.43504498153">
+		<tag k="loc_name" v="Styrmannstjern;Styrmanntjern" />
+>>>>>>> e1d4bc35ff8a6074a6f2e91616a996b547c36f15
 		<tag k="place" v="neighbourhood" />
 		<tag k="ssr:date" v="2019-12-27" />
 		<tag k="ssr:gruppe" v="bebyggelsesområder" />
 		<tag k="ssr:hovedgruppe" v="bebyggelse" />
+<<<<<<< HEAD
 		<tag k="ssr:stedsnr" v="981823" />
 		<tag k="ssr:type" v="hyttefelt" />
 	</node>
@@ -196,4 +325,18 @@
 		<tag k="ssr:stedsnr" v="1077822" />
 		<tag k="ssr:type" v="skar" />
 	</node>
+=======
+		<tag k="ssr:stedsnr" v="981825" />
+		<tag k="ssr:type" v="hyttefelt" />
+	</node>
+	<node id="-271330" lat="60.3836817934" lon="9.18807847679">
+		<tag k="loc_name" v="Reinsjøfjell Øvre" />
+		<tag k="place" v="quarter" />
+		<tag k="ssr:date" v="2019-12-27" />
+		<tag k="ssr:gruppe" v="bebyggelsesområder" />
+		<tag k="ssr:hovedgruppe" v="bebyggelse" />
+		<tag k="ssr:stedsnr" v="981820" />
+		<tag k="ssr:type" v="boligfelt" />
+	</node>
+>>>>>>> e1d4bc35ff8a6074a6f2e91616a996b547c36f15
 </osm>

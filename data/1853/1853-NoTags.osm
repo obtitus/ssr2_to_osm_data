@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<<<<<<< HEAD
 <osm version="0.6" generator="osmapis">
 	<node lat="68.5233669500288" lon="17.008851935946662" id="-9345">
 		<tag k="alt_name:no" v="Evenes" />
@@ -6,11 +7,19 @@
 		<tag k="name:no" v="Evenes kommune" />
 		<tag k="name:se" v="Evenášši suohkan" />
 		<tag k="ssr:date" v="2021-06-14" />
+=======
+<osm generator="osmapis" version="0.6">
+	<node id="-185182" lat="68.5233361113" lon="17.0088833424">
+		<tag k="alt_name" v="Evenes" />
+		<tag k="name" v="Evenes kommune" />
+		<tag k="ssr:date" v="2016-05-10" />
+>>>>>>> e1d4bc35ff8a6074a6f2e91616a996b547c36f15
 		<tag k="ssr:gruppe" v="administrativeIndelinger" />
 		<tag k="ssr:hovedgruppe" v="offentligAdministrasjon" />
 		<tag k="ssr:stedsnr" v="268299" />
 		<tag k="ssr:type" v="kommune" />
 	</node>
+<<<<<<< HEAD
 	<node lat="68.33798873606251" lon="15.95480333777686" id="-9388">
 		<tag k="name" v="Ofoten - Ufuohttá" />
 		<tag k="name:no" v="Ofoten" />
@@ -22,6 +31,9 @@
 		<tag k="ssr:type" v="landskapsområde" />
 	</node>
 	<node lat="68.4650121371536" lon="16.909006996423017" id="-9496">
+=======
+	<node id="-185371" lat="68.4650583322" lon="16.9087694495">
+>>>>>>> e1d4bc35ff8a6074a6f2e91616a996b547c36f15
 		<tag k="name" v="Liland" />
 		<tag k="ssr:date" v="2020-09-15" />
 		<tag k="ssr:gruppe" v="navigasjon" />
@@ -29,7 +41,11 @@
 		<tag k="ssr:stedsnr" v="381509" />
 		<tag k="ssr:type" v="fyrlykt" />
 	</node>
+<<<<<<< HEAD
 	<node lat="68.49562588608286" lon="17.079410866723936" id="-9846">
+		<tag k="name" v="Lappslettveien" />
+=======
+	<node id="-186375" lat="68.4956258861" lon="17.0794108667">
 		<tag k="name" v="Lappslettveien" />
 		<tag k="ssr:date" v="2019-05-30" />
 		<tag k="ssr:gruppe" v="veg" />
@@ -37,33 +53,31 @@
 		<tag k="ssr:stedsnr" v="1002290" />
 		<tag k="ssr:type" v="adressenavn" />
 	</node>
-	<node lat="68.4970336700156" lon="17.07601419956334" id="-9847">
-		<tag k="name" v="Silsandveien" />
-		<tag k="ssr:date" v="2019-05-30" />
-		<tag k="ssr:gruppe" v="veg" />
+	<node id="-185972" lat="68.4503194473" lon="17.0480833249">
+		<tag k="alt_name" v="Skredneset lykt" />
+		<tag k="name" v="Fornes" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:gruppe" v="navigasjon" />
 		<tag k="ssr:hovedgruppe" v="infrastruktur" />
-		<tag k="ssr:stedsnr" v="1002291" />
-		<tag k="ssr:type" v="adressenavn" />
+		<tag k="ssr:stedsnr" v="321966" />
+		<tag k="ssr:type" v="fyrlykt" />
 	</node>
-	<node lat="68.46055660381111" lon="17.214057754137926" id="-9848">
-		<tag k="name" v="Gammelveggen" />
-		<tag k="ssr:date" v="2019-05-30" />
-		<tag k="ssr:gruppe" v="veg" />
-		<tag k="ssr:hovedgruppe" v="infrastruktur" />
-		<tag k="ssr:stedsnr" v="1002293" />
-		<tag k="ssr:type" v="adressenavn" />
+	<node id="-186390" lat="69.6388889725" lon="30.5666644427">
+		<tag k="fixme" v="multiple name tags, choose one and add the other to alt_name" />
+		<tag k="loc_name:se" v="Norgga gonagasriika" />
+		<tag k="loc_name:sma" v="Nöörjen gånkarïjhke" />
+		<tag k="loc_name:smj" v="Vuona gånågisrijkka" />
+		<tag k="name" v="Noreg;Norge" />
+		<tag k="name:en" v="Norway" />
+		<tag k="name:no" v="Noreg;Norge" />
+		<tag k="ssr:date" v="2020-06-04" />
+		<tag k="ssr:gruppe" v="administrativeIndelinger" />
+		<tag k="ssr:hovedgruppe" v="offentligAdministrasjon" />
+		<tag k="ssr:stedsnr" v="26330" />
+		<tag k="ssr:type" v="nasjon" />
 	</node>
-	<node lat="68.46395643873898" lon="17.088479706240314" id="-9849">
-		<tag k="name" v="Nerskavåsen" />
-		<tag k="ssr:date" v="2019-05-30" />
-		<tag k="ssr:gruppe" v="veg" />
-		<tag k="ssr:hovedgruppe" v="infrastruktur" />
-		<tag k="ssr:stedsnr" v="1002299" />
-		<tag k="ssr:type" v="adressenavn" />
-	</node>
-	<node lat="68.50220000023565" lon="17.069916658708156" id="-9868">
-		<tag k="alt_name" v="Østervik" />
-		<tag k="name" v="Østervika" />
+	<node id="-185780" lat="68.5022000002" lon="17.0699166587">
+		<tag k="name" v="Østervik" />
 		<tag k="old_name" v="Austervik" />
 		<tag k="ssr:date" v="2016-05-10" />
 		<tag k="ssr:gruppe" v="navigasjon" />
@@ -71,6 +85,81 @@
 		<tag k="ssr:stedsnr" v="20629" />
 		<tag k="ssr:type" v="fyrlykt" />
 	</node>
+	<node id="-185840" lat="68.5185638903" lon="16.9635666741">
+		<tag k="name" v="Sletbakken" />
+		<tag k="old_name" v="Slettebakk" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:gruppe" v="navigasjon" />
+		<tag k="ssr:hovedgruppe" v="infrastruktur" />
+		<tag k="ssr:stedsnr" v="81642" />
+		<tag k="ssr:type" v="fyrlykt" />
+	</node>
+	<node id="-186383" lat="68.4941340111" lon="16.6308776879">
+		<tag k="name" v="Høgåsenveien" />
+>>>>>>> e1d4bc35ff8a6074a6f2e91616a996b547c36f15
+		<tag k="ssr:date" v="2019-05-30" />
+		<tag k="ssr:gruppe" v="veg" />
+		<tag k="ssr:hovedgruppe" v="infrastruktur" />
+		<tag k="ssr:stedsnr" v="1002290" />
+		<tag k="ssr:type" v="adressenavn" />
+	</node>
+<<<<<<< HEAD
+	<node lat="68.4970336700156" lon="17.07601419956334" id="-9847">
+		<tag k="name" v="Silsandveien" />
+=======
+	<node id="-186382" lat="68.4961758206" lon="16.7004522693">
+		<tag k="name" v="Bedringens vei" />
+>>>>>>> e1d4bc35ff8a6074a6f2e91616a996b547c36f15
+		<tag k="ssr:date" v="2019-05-30" />
+		<tag k="ssr:gruppe" v="veg" />
+		<tag k="ssr:hovedgruppe" v="infrastruktur" />
+		<tag k="ssr:stedsnr" v="1002291" />
+		<tag k="ssr:type" v="adressenavn" />
+	</node>
+<<<<<<< HEAD
+	<node lat="68.46055660381111" lon="17.214057754137926" id="-9848">
+		<tag k="name" v="Gammelveggen" />
+=======
+	<node id="-186381" lat="68.4761309251" lon="16.7017613577">
+		<tag k="name" v="Blåakselveien" />
+>>>>>>> e1d4bc35ff8a6074a6f2e91616a996b547c36f15
+		<tag k="ssr:date" v="2019-05-30" />
+		<tag k="ssr:gruppe" v="veg" />
+		<tag k="ssr:hovedgruppe" v="infrastruktur" />
+		<tag k="ssr:stedsnr" v="1002293" />
+		<tag k="ssr:type" v="adressenavn" />
+	</node>
+<<<<<<< HEAD
+	<node lat="68.46395643873898" lon="17.088479706240314" id="-9849">
+		<tag k="name" v="Nerskavåsen" />
+=======
+	<node id="-186380" lat="68.5071306042" lon="16.8468553333">
+		<tag k="name" v="Grønnliveien" />
+>>>>>>> e1d4bc35ff8a6074a6f2e91616a996b547c36f15
+		<tag k="ssr:date" v="2019-05-30" />
+		<tag k="ssr:gruppe" v="veg" />
+		<tag k="ssr:hovedgruppe" v="infrastruktur" />
+		<tag k="ssr:stedsnr" v="1002299" />
+		<tag k="ssr:type" v="adressenavn" />
+	</node>
+<<<<<<< HEAD
+	<node lat="68.50220000023565" lon="17.069916658708156" id="-9868">
+		<tag k="alt_name" v="Østervik" />
+		<tag k="name" v="Østervika" />
+		<tag k="old_name" v="Austervik" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:gruppe" v="navigasjon" />
+=======
+	<node id="-186379" lat="68.4772317564" lon="16.9080637097">
+		<tag k="name" v="Skogøya" />
+		<tag k="ssr:date" v="2019-05-30" />
+		<tag k="ssr:gruppe" v="veg" />
+>>>>>>> e1d4bc35ff8a6074a6f2e91616a996b547c36f15
+		<tag k="ssr:hovedgruppe" v="infrastruktur" />
+		<tag k="ssr:stedsnr" v="20629" />
+		<tag k="ssr:type" v="fyrlykt" />
+	</node>
+<<<<<<< HEAD
 	<node lat="68.51856389027371" lon="16.96356667414208" id="-9910">
 		<tag k="name" v="Sletbakken" />
 		<tag k="old_name" v="Slettebakk" />
@@ -120,28 +209,43 @@
 	</node>
 	<node lat="68.51504161742635" lon="17.004993290178614" id="-10521">
 		<tag k="name" v="Lenvik" />
+=======
+	<node id="-186378" lat="68.4639564387" lon="17.0884797062">
+		<tag k="name" v="Nerskavåsen" />
+>>>>>>> e1d4bc35ff8a6074a6f2e91616a996b547c36f15
 		<tag k="ssr:date" v="2019-05-30" />
 		<tag k="ssr:gruppe" v="veg" />
 		<tag k="ssr:hovedgruppe" v="infrastruktur" />
 		<tag k="ssr:stedsnr" v="1002149" />
 		<tag k="ssr:type" v="adressenavn" />
 	</node>
+<<<<<<< HEAD
 	<node lat="68.52981182944986" lon="17.03632052404208" id="-10522">
 		<tag k="name" v="Krokslettveien" />
+=======
+	<node id="-186377" lat="68.4605566038" lon="17.2140577541">
+		<tag k="name" v="Gammelveggen" />
+>>>>>>> e1d4bc35ff8a6074a6f2e91616a996b547c36f15
 		<tag k="ssr:date" v="2019-05-30" />
 		<tag k="ssr:gruppe" v="veg" />
 		<tag k="ssr:hovedgruppe" v="infrastruktur" />
 		<tag k="ssr:stedsnr" v="1002153" />
 		<tag k="ssr:type" v="adressenavn" />
 	</node>
+<<<<<<< HEAD
 	<node lat="68.53834853227075" lon="17.03677333884114" id="-10523">
 		<tag k="name" v="Vassbotnveien" />
+=======
+	<node id="-186376" lat="68.49703367" lon="17.0760141996">
+		<tag k="name" v="Silsandveien" />
+>>>>>>> e1d4bc35ff8a6074a6f2e91616a996b547c36f15
 		<tag k="ssr:date" v="2019-05-30" />
 		<tag k="ssr:gruppe" v="veg" />
 		<tag k="ssr:hovedgruppe" v="infrastruktur" />
 		<tag k="ssr:stedsnr" v="1002155" />
 		<tag k="ssr:type" v="adressenavn" />
 	</node>
+<<<<<<< HEAD
 	<node lat="68.53046678590329" lon="17.26768019019088" id="-10524">
 		<tag k="name" v="Bruveien hyttefelt" />
 		<tag k="ssr:date" v="2019-05-30" />
@@ -151,6 +255,17 @@
 		<tag k="ssr:type" v="adressenavn" />
 	</node>
 	<node lat="68.514345611775" lon="17.153002115209375" id="-10525">
+=======
+	<node id="-186087" lat="68.4937805508" lon="16.9728194535">
+		<tag k="name" v="Skogøy" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:gruppe" v="navigasjon" />
+		<tag k="ssr:hovedgruppe" v="infrastruktur" />
+		<tag k="ssr:stedsnr" v="563508" />
+		<tag k="ssr:type" v="fyrlykt" />
+	</node>
+	<node id="-186374" lat="68.5143456118" lon="17.1530021152">
+>>>>>>> e1d4bc35ff8a6074a6f2e91616a996b547c36f15
 		<tag k="name" v="Østervikvann Hyttefelt" />
 		<tag k="ssr:date" v="2019-05-30" />
 		<tag k="ssr:gruppe" v="veg" />
@@ -158,38 +273,59 @@
 		<tag k="ssr:stedsnr" v="1002287" />
 		<tag k="ssr:type" v="adressenavn" />
 	</node>
+<<<<<<< HEAD
 	<node lat="68.47723175640876" lon="16.908063709669406" id="-10526">
 		<tag k="name" v="Skogøya" />
+=======
+	<node id="-186373" lat="68.5304667859" lon="17.2676801902">
+		<tag k="name" v="Bruveien hyttefelt" />
+>>>>>>> e1d4bc35ff8a6074a6f2e91616a996b547c36f15
 		<tag k="ssr:date" v="2019-05-30" />
 		<tag k="ssr:gruppe" v="veg" />
 		<tag k="ssr:hovedgruppe" v="infrastruktur" />
 		<tag k="ssr:stedsnr" v="1003852" />
 		<tag k="ssr:type" v="adressenavn" />
 	</node>
+<<<<<<< HEAD
 	<node lat="68.50713060422068" lon="16.846855333324296" id="-10527">
 		<tag k="name" v="Grønnliveien" />
+=======
+	<node id="-186372" lat="68.5383485323" lon="17.0367733388">
+		<tag k="name" v="Vassbotnveien" />
+>>>>>>> e1d4bc35ff8a6074a6f2e91616a996b547c36f15
 		<tag k="ssr:date" v="2019-05-30" />
 		<tag k="ssr:gruppe" v="veg" />
 		<tag k="ssr:hovedgruppe" v="infrastruktur" />
 		<tag k="ssr:stedsnr" v="1003879" />
 		<tag k="ssr:type" v="adressenavn" />
 	</node>
+<<<<<<< HEAD
 	<node lat="68.47613092511243" lon="16.701761357692757" id="-10528">
 		<tag k="name" v="Blåakselveien" />
+=======
+	<node id="-186371" lat="68.5298118294" lon="17.036320524">
+		<tag k="name" v="Krokslettveien" />
+>>>>>>> e1d4bc35ff8a6074a6f2e91616a996b547c36f15
 		<tag k="ssr:date" v="2019-05-30" />
 		<tag k="ssr:gruppe" v="veg" />
 		<tag k="ssr:hovedgruppe" v="infrastruktur" />
 		<tag k="ssr:stedsnr" v="1005293" />
 		<tag k="ssr:type" v="adressenavn" />
 	</node>
+<<<<<<< HEAD
 	<node lat="68.4961758206179" lon="16.70045226931594" id="-10529">
 		<tag k="name" v="Bedringens vei" />
+=======
+	<node id="-186370" lat="68.5150416174" lon="17.0049932902">
+		<tag k="name" v="Lenvik" />
+>>>>>>> e1d4bc35ff8a6074a6f2e91616a996b547c36f15
 		<tag k="ssr:date" v="2019-05-30" />
 		<tag k="ssr:gruppe" v="veg" />
 		<tag k="ssr:hovedgruppe" v="infrastruktur" />
 		<tag k="ssr:stedsnr" v="1005313" />
 		<tag k="ssr:type" v="adressenavn" />
 	</node>
+<<<<<<< HEAD
 	<node lat="68.49413401111924" lon="16.630877687903556" id="-10530">
 		<tag k="name" v="Høgåsenveien" />
 		<tag k="ssr:date" v="2019-05-30" />
@@ -198,4 +334,6 @@
 		<tag k="ssr:stedsnr" v="1005678" />
 		<tag k="ssr:type" v="adressenavn" />
 	</node>
+=======
+>>>>>>> e1d4bc35ff8a6074a6f2e91616a996b547c36f15
 </osm>
