@@ -1,702 +1,178 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<<<<<<< HEAD
 <osm version="0.6" generator="osmapis">
-	<node lat="68.80936959467157" lon="16.104904324904787" id="-35379">
-=======
-<osm generator="osmapis" version="0.6">
-	<node id="-850432" lat="68.5863083371" lon="15.7902361169">
-		<tag k="name" v="Bergli" />
-		<tag k="place" v="farm" />
-		<tag k="ssr:stedsnr" v="233880" />
-	</node>
-	<node id="-850941" lat="68.6529190352" lon="15.8531126522">
-		<tag k="name" v="Solvik" />
-		<tag k="place" v="farm" />
-		<tag k="ssr:stedsnr" v="886663" />
-	</node>
-	<node id="-850425" lat="68.733636108" lon="16.2750111111">
-		<tag k="name" v="Kristligflata" />
-		<tag k="place" v="farm" />
-		<tag k="ssr:stedsnr" v="443947" />
-	</node>
-	<node id="-850926" lat="68.8245222236" lon="16.1040277677">
-		<tag k="alt_name" v="Elde" />
-		<tag k="fixme" v="consider place=hamlet" />
-		<tag k="name" v="Elda" />
-		<tag k="place" v="village" />
-		<tag k="ssr:stedsnr" v="841619" />
-	</node>
-	<node id="-850923" lat="68.7231305584" lon="16.2601583352">
-		<tag k="name" v="Gammelsætran" />
-		<tag k="place" v="locality" />
-		<tag k="ssr:stedsnr" v="841507" />
-	</node>
-	<node id="-850917" lat="68.5717638866" lon="15.8298999909">
-		<tag k="amenity" v="school" />
-		<tag k="name" v="Moelv skole" />
-		<tag k="ssr:stedsnr" v="840905" />
-	</node>
-	<node id="-850404" lat="68.7414833313" lon="16.284594432">
-		<tag k="fixme" v="consider place=hamlet" />
-		<tag k="name" v="Voktor" />
-		<tag k="place" v="farm" />
-		<tag k="ssr:stedsnr" v="442826" />
-	</node>
-	<node id="-851936" lat="68.7348833305" lon="16.2243666555">
-		<tag k="alt_name" v="Hestevik;Heslevika" />
-		<tag k="name" v="Hestvika" />
-		<tag k="place" v="farm" />
-		<tag k="ssr:stedsnr" v="868925" />
-	</node>
-	<node id="-850397" lat="68.7625690564" lon="16.2431044222">
-		<tag k="alt_name" v="Gåra, in" />
-		<tag k="fixme" v="consider place=hamlet" />
-		<tag k="name" v="Indre Gåra" />
-		<tag k="place" v="farm" />
-		<tag k="ssr:stedsnr" v="442444" />
-	</node>
-	<node id="-850907" lat="68.7351629294" lon="16.2420499514">
-		<tag k="fixme" v="consider place=hamlet" />
-		<tag k="name" v="Straumen" />
-		<tag k="place" v="farm" />
-		<tag k="ssr:stedsnr" v="928947" />
-	</node>
-	<node id="-851417" lat="68.7680083325" lon="16.0803944554">
-		<tag k="name" v="Grønlia" />
-		<tag k="place" v="farm" />
-		<tag k="ssr:stedsnr" v="381171" />
-	</node>
-	<node id="-850901" lat="68.5457722206" lon="15.761211116">
-		<tag k="alt_name" v="Våtvoll, l" />
-		<tag k="name" v="Litle Våtvoll" />
-		<tag k="place" v="farm" />
-		<tag k="ssr:stedsnr" v="928860" />
-	</node>
-	<node id="-850897" lat="68.7488999997" lon="16.165241674">
-		<tag k="name" v="Hundstad" />
-		<tag k="place" v="farm" />
-		<tag k="ssr:stedsnr" v="928393" />
-	</node>
-	<node id="-850896" lat="68.6242636993" lon="15.76871984">
-		<tag k="alt_name" v="Forøysætran" />
-		<tag k="fixme" v="consider place=hamlet" />
-		<tag k="name" v="Forøysæter" />
-		<tag k="place" v="farm" />
-		<tag k="ssr:stedsnr" v="928300" />
-	</node>
-	<node id="-850888" lat="68.662580678" lon="15.8841817584">
-		<tag k="fixme" v="consider place=hamlet" />
-		<tag k="name" v="Bogen" />
-		<tag k="place" v="farm" />
-		<tag k="ssr:stedsnr" v="928244" />
-	</node>
-	<node id="-851904" lat="68.6697916631" lon="15.9025611196">
-		<tag k="fixme" v="consider place=hamlet" />
-		<tag k="name" v="Lamarka" />
-		<tag k="place" v="farm" />
-		<tag k="ssr:stedsnr" v="867314" />
-	</node>
-	<node id="-850365" lat="68.7162027778" lon="16.3182777806">
-		<tag k="name" v="Aletsætran" />
-		<tag k="place" v="locality" />
-		<tag k="ssr:stedsnr" v="294593" />
-	</node>
-	<node id="-850360" lat="68.7413286716" lon="16.0680115446">
-		<tag k="alt_name" v="Sandvik" />
-		<tag k="fixme" v="consider place=hamlet" />
-		<tag k="name" v="Sandvika" />
-		<tag k="place" v="farm" />
-		<tag k="ssr:stedsnr" v="294493" />
-	</node>
-	<node id="-850871" lat="68.767458236" lon="16.2121582324">
-		<tag k="name" v="Strand" />
-		<tag k="place" v="farm" />
-		<tag k="ssr:stedsnr" v="927471" />
-	</node>
-	<node id="-850670" lat="68.5994638901" lon="15.8231916695">
-		<tag k="name" v="Leirvikvågen" />
-		<tag k="place" v="farm" />
-		<tag k="ssr:stedsnr" v="536186" />
-	</node>
-	<node id="-851893" lat="68.727233338" lon="16.0658083297">
-		<tag k="alt_name" v="Hemmestad øvre" />
-		<tag k="name" v="Øvre Hemmestad" />
-		<tag k="place" v="farm" />
-		<tag k="ssr:stedsnr" v="844179" />
-	</node>
-	<node id="-851892" lat="68.7273638877" lon="16.0594166744">
-		<tag k="alt_name" v="Hemmestad øvre" />
-		<tag k="name" v="Øvre Hemmestad" />
-		<tag k="place" v="farm" />
-		<tag k="ssr:stedsnr" v="844178" />
-	</node>
-	<node id="-850348" lat="68.7585083335" lon="16.2459249926">
-		<tag k="name" v="Gamman" />
-		<tag k="place" v="locality" />
-		<tag k="ssr:stedsnr" v="294286" />
-	</node>
-	<node id="-850852" lat="68.7361722205" lon="16.2443972125">
-		<tag k="name" v="Straumen" />
-		<tag k="place" v="hamlet" />
-		<tag k="ssr:stedsnr" v="753032" />
-	</node>
-	<node id="-850329" lat="68.6502361151" lon="16.091675003">
-		<tag k="name" v="Einlia" />
-		<tag k="place" v="isolated_dwelling" />
-		<tag k="ssr:stedsnr" v="199321" />
-	</node>
-	<node id="-850837" lat="68.6025555537" lon="15.7873472096">
-		<tag k="name" v="Torsete" />
-		<tag k="place" v="farm" />
-		<tag k="ssr:stedsnr" v="901963" />
-	</node>
-	<node id="-851859" lat="68.6879611118" lon="15.9467999903">
-		<tag k="name" v="Holand" />
-		<tag k="place" v="hamlet" />
-		<tag k="ssr:stedsnr" v="840499" />
-	</node>
-	<node id="-851346" lat="68.7567439691" lon="16.1158523227">
-		<tag k="alt_name" v="Gardløs" />
-		<tag k="fixme" v="consider place=hamlet" />
-		<tag k="name" v="Gardløys" />
-		<tag k="place" v="farm" />
-		<tag k="ssr:stedsnr" v="354349" />
-	</node>
-	<node id="-850832" lat="68.5757222225" lon="15.8260361092">
-		<tag k="name" v="Solfjell" />
-		<tag k="place" v="farm" />
-		<tag k="ssr:stedsnr" v="901937" />
-	</node>
-	<node id="-851855" lat="68.7612340508" lon="16.0927571581">
-		<tag k="fixme" v="consider place=hamlet" />
-		<tag k="name" v="Skår" />
-		<tag k="place" v="farm" />
-		<tag k="ssr:stedsnr" v="840488" />
-	</node>
-	<node id="-851341" lat="68.6793333369" lon="16.3361611015">
-		<tag k="name" v="Skoglund" />
-		<tag k="place" v="isolated_dwelling" />
-		<tag k="ssr:stedsnr" v="323134" />
-	</node>
-	<node id="-851337" lat="68.7247444484" lon="16.2986333392">
-		<tag k="name" v="Solheim" />
-		<tag k="place" v="farm" />
-		<tag k="ssr:stedsnr" v="321970" />
-	</node>
-	<node id="-850157" lat="68.8093695947" lon="16.1049043249">
+	<node lat="68.80936959467157" lon="16.104904324904787" id="-47305">
 		<tag k="fixme" v="consider place=hamlet" />
 		<tag k="name" v="Utstrand" />
 		<tag k="place" v="farm" />
 		<tag k="ssr:stedsnr" v="18104" />
 	</node>
-	<node id="-851987" lat="68.8425503194" lon="16.1286175541">
-		<tag k="fixme" v="consider place=hamlet" />
-		<tag k="name" v="Aspenes" />
-		<tag k="place" v="farm" />
-		<tag k="ssr:stedsnr" v="962621" />
-	</node>
-	<node id="-851844" lat="68.8264638867" lon="16.1177833233">
-		<tag k="name" v="Elda" />
-		<tag k="place" v="farm" />
-		<tag k="ssr:stedsnr" v="828117" />
-	</node>
-	<node id="-851843" lat="68.7714722261" lon="16.3452138798">
-		<tag k="historic" v="shieling" />
-		<tag k="name" v="Vikelandsstølen" />
-		<tag k="place" v="locality" />
-		<tag k="ssr:stedsnr" v="827984" />
-	</node>
-	<node id="-851841" lat="68.8383249997" lon="16.1226000005">
-		<tag k="name" v="Bonstadvik" />
-		<tag k="place" v="isolated_dwelling" />
-		<tag k="ssr:stedsnr" v="824890" />
-	</node>
-	<node id="-851840" lat="68.6809" lon="16.3326722327">
-		<tag k="name" v="Frydenlund" />
-		<tag k="place" v="farm" />
-		<tag k="ssr:stedsnr" v="809134" />
-	</node>
-	<node id="-851837" lat="68.677119441" lon="16.3533722148">
-		<tag k="historic" v="shieling" />
-		<tag k="name" v="Gammelheimen" />
-		<tag k="place" v="locality" />
-		<tag k="ssr:stedsnr" v="808099" />
-	</node>
-	<node id="-850154" lat="68.6534592314" lon="15.8486634674">
-		<tag k="alt_name" v="Gombogen" />
-		<tag k="fixme" v="consider place=hamlet" />
-		<tag k="name" v="Gambogen" />
-		<tag k="place" v="farm" />
-		<tag k="ssr:stedsnr" v="17347" />
-	</node>
-	<node id="-851834" lat="68.735513885" lon="16.2654250072">
-		<tag k="name" v="Rydningen" />
-		<tag k="place" v="farm" />
-		<tag k="ssr:stedsnr" v="807969" />
-	</node>
-	<node id="-851833" lat="68.732505559" lon="16.2478861018">
-		<tag k="name" v="Vika" />
-		<tag k="place" v="farm" />
-		<tag k="ssr:stedsnr" v="807945" />
-	</node>
-	<node id="-850295" lat="68.7355197757" lon="16.2043538249">
-		<tag k="name" v="Hoklandsætran" />
-		<tag k="place" v="farm" />
-		<tag k="ssr:stedsnr" v="261453" />
-	</node>
-	<node id="-850294" lat="68.7892808183" lon="16.1247922814">
-		<tag k="fixme" v="consider place=hamlet" />
-		<tag k="name" v="Dale" />
-		<tag k="place" v="farm" />
-		<tag k="ssr:stedsnr" v="112730" />
-	</node>
-	<node id="-851827" lat="68.6790694433" lon="16.0484583343">
-		<tag k="alt_name" v="Refsnes" />
-		<tag k="fixme" v="consider place=hamlet" />
-		<tag k="name" v="Revsnes" />
-		<tag k="place" v="village" />
-		<tag k="ssr:stedsnr" v="807246" />
-	</node>
-	<node id="-851824" lat="68.7315075098" lon="16.0619091996">
-		<tag k="name" v="Hemmestad" />
-		<tag k="place" v="hamlet" />
-		<tag k="ssr:stedsnr" v="807428" />
-	</node>
-	<node id="-850664" lat="68.7171519622" lon="16.3025875156">
-		<tag k="name" v="Storlia" />
-		<tag k="place" v="farm" />
-		<tag k="ssr:stedsnr" v="685986" />
-	</node>
-	<node id="-851820" lat="68.7218611125" lon="16.2989694533">
-		<tag k="name" v="Voktarstranda" />
-		<tag k="place" v="isolated_dwelling" />
-		<tag k="ssr:stedsnr" v="806976" />
-	</node>
-	<node id="-851602" lat="68.7804861107" lon="16.0610833387">
-		<tag k="name" v="Leite" />
-		<tag k="place" v="farm" />
-		<tag k="ssr:stedsnr" v="597402" />
-	</node>
-	<node id="-850791" lat="68.7833638874" lon="16.3336138896">
-		<tag k="name" v="Kvilheim" />
-		<tag k="place" v="isolated_dwelling" />
-		<tag k="ssr:stedsnr" v="719960" />
-	</node>
-	<node id="-851810" lat="68.7720138882" lon="16.3305388991">
-		<tag k="historic" v="shieling" />
-		<tag k="name" v="Prestlahaugen" />
-		<tag k="place" v="locality" />
-		<tag k="ssr:stedsnr" v="806436" />
-	</node>
-	<node id="-851297" lat="68.6850573157" lon="16.3202263868">
-		<tag k="name" v="Grashola" />
-		<tag k="place" v="locality" />
-		<tag k="ssr:stedsnr" v="203169" />
-	</node>
-	<node id="-850271" lat="68.5850388901" lon="15.8224083336">
-		<tag k="name" v="Tennholmen" />
-		<tag k="place" v="farm" />
-		<tag k="ssr:stedsnr" v="260865" />
-	</node>
-	<node id="-851294" lat="68.7107666688" lon="16.3019277784">
-		<tag k="name" v="Solheim" />
-		<tag k="place" v="farm" />
-		<tag k="ssr:stedsnr" v="200868" />
-	</node>
-	<node id="-851802" lat="68.6409138931" lon="16.0898999934">
-		<tag k="name" v="Seljeneset" />
-		<tag k="place" v="isolated_dwelling" />
-		<tag k="ssr:stedsnr" v="806338" />
-	</node>
-	<node id="-851801" lat="68.6350083362" lon="16.0778416585">
-		<tag k="name" v="Botnjorda" />
-		<tag k="place" v="isolated_dwelling" />
-		<tag k="ssr:stedsnr" v="806333" />
-	</node>
-	<node id="-851287" lat="68.6633401704" lon="16.0857419043">
-		<tag k="alt_name" v="Melå;Melåen" />
-		<tag k="fixme" v="consider place=hamlet" />
-		<tag k="name" v="Melåa" />
-		<tag k="place" v="farm" />
-		<tag k="ssr:stedsnr" v="200298" />
-	</node>
-	<node id="-850261" lat="68.6349527813" lon="16.0480833436">
-		<tag k="fixme" v="consider tourism=alpine_hut or tourism=chalet" />
-		<tag k="name" v="Fossestua" />
-		<tag k="ssr:stedsnr" v="260376" />
-		<tag k="tourism" v="wilderness_hut" />
-	</node>
-	<node id="-850256" lat="68.6542094307" lon="16.087887366">
-		<tag k="alt_name" v="Forholtan" />
-		<tag k="fixme" v="consider place=hamlet" />
-		<tag k="name" v="Forrholtan" />
-		<tag k="place" v="farm" />
-		<tag k="ssr:stedsnr" v="260348" />
-	</node>
-	<node id="-851790" lat="68.75571555" lon="16.1201852023">
-		<tag k="alt_name" v="Gardløs" />
-		<tag k="name" v="Gardløys" />
-		<tag k="place" v="farm" />
-		<tag k="ssr:stedsnr" v="806145" />
-	</node>
-	<node id="-850829" lat="68.8425286949" lon="16.1429230864">
-		<tag k="fixme" v="consider place=hamlet" />
-		<tag k="name" v="Haugen" />
-		<tag k="place" v="farm" />
-		<tag k="ssr:stedsnr" v="901652" />
-	</node>
-	<node id="-851276" lat="68.7272555532" lon="16.2919138818">
-		<tag k="name" v="Vonheim" />
-		<tag k="place" v="farm" />
-		<tag k="ssr:stedsnr" v="199979" />
-	</node>
-	<node id="-850245" lat="68.8244305555" lon="16.1021083293">
->>>>>>> e1d4bc35ff8a6074a6f2e91616a996b547c36f15
-		<tag k="fixme" v="consider place=hamlet" />
-		<tag k="name" v="Utstrand" />
-		<tag k="place" v="farm" />
-		<tag k="ssr:stedsnr" v="18104" />
-	</node>
-<<<<<<< HEAD
-	<node lat="68.59583333308079" lon="15.817455558901262" id="-35390">
+	<node lat="68.59583333308079" lon="15.817455558901262" id="-47316">
 		<tag k="name" v="Skjåberget" />
 		<tag k="place" v="farm" />
 		<tag k="ssr:stedsnr" v="18784" />
 	</node>
-	<node lat="68.76934416064643" lon="16.205096867510825" id="-35393">
+	<node lat="68.76934416064643" lon="16.205096867510825" id="-47319">
 		<tag k="fixme" v="consider place=hamlet" />
 		<tag k="name" v="Strand" />
 		<tag k="place" v="farm" />
 		<tag k="ssr:stedsnr" v="233325" />
 	</node>
-	<node lat="68.75015555310821" lon="16.173274997886704" id="-35431">
+	<node lat="68.75015555310821" lon="16.173274997886704" id="-47357">
 		<tag k="name" v="Hamn" />
 		<tag k="place" v="farm" />
 		<tag k="ssr:stedsnr" v="52268" />
 	</node>
-	<node lat="68.64712222200428" lon="16.093511117402727" id="-35433">
-=======
-	<node id="-850243" lat="68.8466528745" lon="16.1610682198">
-		<tag k="alt_name" v="Molvika;Molvik" />
-		<tag k="name" v="Mollvik" />
-		<tag k="place" v="farm" />
-		<tag k="ssr:stedsnr" v="260053" />
-	</node>
-	<node id="-850241" lat="68.8336607122" lon="15.9759284955">
-		<tag k="fixme" v="consider place=hamlet" />
-		<tag k="name" v="Gapøy" />
-		<tag k="place" v="farm" />
-		<tag k="ssr:stedsnr" v="260016" />
-	</node>
-	<node id="-850750" lat="68.7008972254" lon="16.3081194452">
-		<tag k="historic" v="shieling" />
-		<tag k="name" v="Rudda" />
-		<tag k="place" v="locality" />
-		<tag k="ssr:stedsnr" v="627155" />
-	</node>
-	<node id="-851260" lat="68.7726111127" lon="16.1711472156">
-		<tag k="name" v="Borkenes" />
-		<tag k="place" v="village" />
-		<tag k="ssr:stedsnr" v="199188" />
-	</node>
-	<node id="-851259" lat="68.680369443" lon="16.0345072112">
-		<tag k="alt_name" v="Refsnes" />
-		<tag k="fixme" v="consider place=hamlet" />
-		<tag k="name" v="Revsnes" />
-		<tag k="place" v="farm" />
-		<tag k="ssr:stedsnr" v="180191" />
-	</node>
-	<node id="-850232" lat="68.8464345829" lon="16.1634896153">
-		<tag k="name" v="Molvik" />
-		<tag k="place" v="locality" />
-		<tag k="ssr:stedsnr" v="52608" />
-	</node>
-	<node id="-851253" lat="68.7322888926" lon="16.1871277775">
-		<tag k="name" v="Salsætran" />
-		<tag k="place" v="isolated_dwelling" />
-		<tag k="ssr:stedsnr" v="173723" />
-	</node>
-	<node id="-850739" lat="68.7822544121" lon="16.1411368127">
-		<tag k="fixme" v="consider place=hamlet" />
-		<tag k="name" v="Trastad" />
-		<tag k="place" v="farm" />
-		<tag k="ssr:stedsnr" v="719691" />
-	</node>
-	<node id="-851251" lat="68.7351666628" lon="16.2319111078">
-		<tag k="name" v="Vikran" />
-		<tag k="place" v="isolated_dwelling" />
-		<tag k="ssr:stedsnr" v="173708" />
-	</node>
-	<node id="-850220" lat="68.647122222" lon="16.0935111174">
->>>>>>> e1d4bc35ff8a6074a6f2e91616a996b547c36f15
+	<node lat="68.64712222200428" lon="16.093511117402727" id="-47359">
 		<tag k="name" v="Finnviken" />
 		<tag k="place" v="farm" />
 		<tag k="ssr:stedsnr" v="52416" />
 	</node>
-<<<<<<< HEAD
-	<node lat="68.84643458290061" lon="16.163489615322575" id="-35438">
+	<node lat="68.84643458290061" lon="16.163489615322575" id="-47364">
 		<tag k="name" v="Molvik" />
 		<tag k="place" v="locality" />
 		<tag k="ssr:stedsnr" v="52608" />
 	</node>
-	<node lat="68.67160827232307" lon="15.910511400714249" id="-35455">
+	<node lat="68.67160827232307" lon="15.910511400714249" id="-47381">
 		<tag k="fixme" v="consider place=hamlet" />
 		<tag k="name" v="Flesnes" />
-=======
-	<node id="-850218" lat="68.7501555531" lon="16.1732749979">
-		<tag k="name" v="Hamn" />
-		<tag k="place" v="farm" />
-		<tag k="ssr:stedsnr" v="52268" />
-	</node>
-	<node id="-850726" lat="68.6437136172" lon="16.0569806207">
-		<tag k="fixme" v="consider place=hamlet" />
-		<tag k="name" v="Aspenes" />
->>>>>>> e1d4bc35ff8a6074a6f2e91616a996b547c36f15
 		<tag k="place" v="farm" />
 		<tag k="ssr:stedsnr" v="79245" />
 	</node>
-<<<<<<< HEAD
-	<node lat="68.61670833037276" lon="16.02434443972406" id="-35470">
+	<node lat="68.61670833037276" lon="16.02434443972406" id="-47396">
 		<tag k="name" v="Knut-Jonsaheimen" />
 		<tag k="place" v="locality" />
 		<tag k="ssr:stedsnr" v="112012" />
 	</node>
-	<node lat="68.66755000048563" lon="15.914097218861786" id="-35505">
+	<node lat="68.66755000048563" lon="15.914097218861786" id="-47431">
 		<tag k="name" v="Lanes" />
 		<tag k="place" v="farm" />
 		<tag k="ssr:stedsnr" v="158648" />
 	</node>
-	<node lat="68.83366071224961" lon="15.975928495471482" id="-35507">
+	<node lat="68.83366071224961" lon="15.975928495471482" id="-47433">
 		<tag k="fixme" v="consider place=hamlet" />
 		<tag k="name" v="Gapøy" />
 		<tag k="place" v="farm" />
 		<tag k="ssr:stedsnr" v="260016" />
 	</node>
-	<node lat="68.6542094307352" lon="16.08788736601764" id="-35518">
+	<node lat="68.6542094307352" lon="16.08788736601764" id="-47444">
 		<tag k="alt_name" v="Forholtan" />
 		<tag k="fixme" v="consider place=hamlet" />
 		<tag k="name" v="Forrholtan" />
 		<tag k="place" v="farm" />
 		<tag k="ssr:stedsnr" v="260348" />
 	</node>
-	<node lat="68.63495278127061" lon="16.048083343621187" id="-35522">
+	<node lat="68.63495278127061" lon="16.048083343621187" id="-47448">
 		<tag k="fixme" v="consider tourism=alpine_hut or tourism=chalet" />
 		<tag k="name" v="Fossestua" />
 		<tag k="ssr:stedsnr" v="260376" />
 		<tag k="tourism" v="wilderness_hut" />
 	</node>
-	<node lat="68.76384968473035" lon="16.22306283873296" id="-35526">
+	<node lat="68.76384968473035" lon="16.22306283873296" id="-47452">
 		<tag k="alt_name" v="Gåra, yt" />
 		<tag k="fixme" v="consider place=hamlet" />
 		<tag k="name" v="Ytre Gåra" />
-=======
-	<node id="-851736" lat="68.5939194425" lon="16.0652277657">
-		<tag k="fixme" v="consider tourism=alpine_hut or tourism=chalet" />
-		<tag k="name" v="Haakonsbu" />
-		<tag k="old_name" v="Håkonsbu" />
-		<tag k="ssr:stedsnr" v="750155" />
-		<tag k="tourism" v="wilderness_hut" />
-	</node>
-	<node id="-850711" lat="68.638041666" lon="16.0447861062">
-		<tag k="name" v="Sætran" />
-		<tag k="place" v="locality" />
-		<tag k="ssr:stedsnr" v="597065" />
-	</node>
-	<node id="-850706" lat="68.8217750003" lon="16.0980499899">
-		<tag k="name" v="Elda" />
-		<tag k="place" v="farm" />
-		<tag k="ssr:stedsnr" v="585137" />
-	</node>
-	<node id="-850705" lat="68.824594447" lon="16.1032250032">
-		<tag k="name" v="Elda" />
->>>>>>> e1d4bc35ff8a6074a6f2e91616a996b547c36f15
 		<tag k="place" v="farm" />
 		<tag k="ssr:stedsnr" v="260471" />
 	</node>
-<<<<<<< HEAD
-	<node lat="68.58503889008273" lon="15.822408333644182" id="-35529">
+	<node lat="68.58503889008273" lon="15.822408333644182" id="-47455">
 		<tag k="name" v="Tennholmen" />
 		<tag k="place" v="farm" />
 		<tag k="ssr:stedsnr" v="260865" />
 	</node>
-	<node lat="68.73516666279876" lon="16.231911107795117" id="-35551">
+	<node lat="68.73516666279876" lon="16.231911107795117" id="-47477">
 		<tag k="name" v="Vikran" />
-=======
-	<node id="-850702" lat="68.8249055527" lon="16.101974989">
-		<tag k="name" v="Elda" />
-		<tag k="place" v="farm" />
-		<tag k="ssr:stedsnr" v="707140" />
-	</node>
-	<node id="-850700" lat="68.8362611152" lon="16.1199166606">
-		<tag k="name" v="Myrvik" />
->>>>>>> e1d4bc35ff8a6074a6f2e91616a996b547c36f15
 		<tag k="place" v="isolated_dwelling" />
 		<tag k="ssr:stedsnr" v="173708" />
 	</node>
-<<<<<<< HEAD
-	<node lat="68.73228889262957" lon="16.18712777748858" id="-35553">
+	<node lat="68.73228889262957" lon="16.18712777748858" id="-47479">
 		<tag k="name" v="Salsætran" />
 		<tag k="place" v="isolated_dwelling" />
 		<tag k="ssr:stedsnr" v="173723" />
 	</node>
-	<node lat="68.73551977571252" lon="16.20435382494395" id="-35554">
+	<node lat="68.73551977571252" lon="16.20435382494395" id="-47480">
 		<tag k="name" v="Hoklandsætran" />
-=======
-	<node id="-850699" lat="68.7085472189" lon="16.3055361181">
-		<tag k="name" v="Nygård" />
->>>>>>> e1d4bc35ff8a6074a6f2e91616a996b547c36f15
 		<tag k="place" v="farm" />
 		<tag k="ssr:stedsnr" v="261453" />
 	</node>
-<<<<<<< HEAD
-	<node lat="68.6502361150692" lon="16.091675003011343" id="-35561">
+	<node lat="68.6502361150692" lon="16.091675003011343" id="-47487">
 		<tag k="name" v="Einlia" />
 		<tag k="place" v="isolated_dwelling" />
 		<tag k="ssr:stedsnr" v="199321" />
 	</node>
-	<node lat="68.5863083371213" lon="15.79023611690682" id="-35588">
+	<node lat="68.5863083371213" lon="15.79023611690682" id="-47514">
 		<tag k="name" v="Bergli" />
-=======
-	<node id="-850694" lat="68.7488014231" lon="16.1689870978">
-		<tag k="fixme" v="consider place=hamlet" />
-		<tag k="name" v="Hundstad" />
-		<tag k="old_name" v="Hunstad" />
-		<tag k="place" v="farm" />
-		<tag k="ssr:stedsnr" v="693986" />
-	</node>
-	<node id="-851203" lat="68.8225833293" lon="16.1077138919">
-		<tag k="name" v="Elda" />
->>>>>>> e1d4bc35ff8a6074a6f2e91616a996b547c36f15
 		<tag k="place" v="farm" />
 		<tag k="ssr:stedsnr" v="233880" />
 	</node>
-<<<<<<< HEAD
-	<node lat="68.76111794084103" lon="16.242578207222515" id="-35589">
+	<node lat="68.76111794084103" lon="16.242578207222515" id="-47515">
 		<tag k="name" v="Gåra" />
 		<tag k="place" v="hamlet" />
 		<tag k="ssr:stedsnr" v="450039" />
 	</node>
-	<node lat="68.74484625214824" lon="16.27265106675822" id="-35592">
-=======
-	<node id="-851202" lat="68.6542055539" lon="16.0824472219">
-		<tag k="name" v="Finnvik" />
-		<tag k="place" v="locality" />
-		<tag k="ssr:stedsnr" v="158681" />
-	</node>
-	<node id="-851713" lat="68.5645216834" lon="15.8265243185">
->>>>>>> e1d4bc35ff8a6074a6f2e91616a996b547c36f15
+	<node lat="68.74484625214824" lon="16.27265106675822" id="-47518">
 		<tag k="fixme" v="consider place=hamlet" />
 		<tag k="name" v="Vik" />
 		<tag k="place" v="farm" />
 		<tag k="ssr:stedsnr" v="234531" />
 	</node>
-<<<<<<< HEAD
-	<node lat="68.84665287451797" lon="16.161068219787094" id="-35595">
+	<node lat="68.84665287451797" lon="16.161068219787094" id="-47521">
 		<tag k="alt_name" v="Molvika;Molvik" />
 		<tag k="name" v="Mollvik" />
-=======
-	<node id="-851200" lat="68.6675500005" lon="15.9140972189">
-		<tag k="name" v="Lanes" />
->>>>>>> e1d4bc35ff8a6074a6f2e91616a996b547c36f15
 		<tag k="place" v="farm" />
 		<tag k="ssr:stedsnr" v="260053" />
 	</node>
-<<<<<<< HEAD
-	<node lat="68.82443055552862" lon="16.102108329278323" id="-35597">
+	<node lat="68.82443055552862" lon="16.102108329278323" id="-47523">
 		<tag k="fixme" v="consider place=hamlet" />
 		<tag k="name" v="Elda" />
-=======
-	<node id="-851711" lat="68.7621499973" lon="16.249499998">
-		<tag k="name" v="Skallan" />
->>>>>>> e1d4bc35ff8a6074a6f2e91616a996b547c36f15
 		<tag k="place" v="farm" />
 		<tag k="ssr:stedsnr" v="260154" />
 	</node>
-<<<<<<< HEAD
-	<node lat="68.84879055354511" lon="16.171266683686515" id="-35613">
+	<node lat="68.84879055354511" lon="16.171266683686515" id="-47539">
 		<tag k="alt_name" v="Ytre Mollvik" />
 		<tag k="fixme" v="consider place=hamlet" />
 		<tag k="name" v="Elva" />
-=======
-	<node id="-851701" lat="68.7549062188" lon="16.1261668727">
-		<tag k="alt_name" v="Vebbestad" />
-		<tag k="name" v="Vebostad" />
->>>>>>> e1d4bc35ff8a6074a6f2e91616a996b547c36f15
 		<tag k="place" v="farm" />
 		<tag k="ssr:stedsnr" v="460901" />
 	</node>
-<<<<<<< HEAD
-	<node lat="68.82112499598554" lon="16.102805548592574" id="-35630">
+	<node lat="68.82112499598554" lon="16.102805548592574" id="-47556">
 		<tag k="name" v="Elde" />
 		<tag k="old_name" v="Elda" />
 		<tag k="place" v="farm" />
 		<tag k="ssr:stedsnr" v="464143" />
 	</node>
-	<node lat="68.8220638876029" lon="16.096327764639028" id="-35631">
+	<node lat="68.8220638876029" lon="16.096327764639028" id="-47557">
 		<tag k="name" v="Elda" />
 		<tag k="old_name" v="Elde" />
-=======
-	<node id="-850675" lat="68.6336749977" lon="16.0427694326">
-		<tag k="name" v="Moa" />
->>>>>>> e1d4bc35ff8a6074a6f2e91616a996b547c36f15
 		<tag k="place" v="farm" />
 		<tag k="ssr:stedsnr" v="464144" />
 	</node>
-<<<<<<< HEAD
-	<node lat="68.82713333126654" lon="16.11004998876136" id="-35632">
+	<node lat="68.82713333126654" lon="16.11004998876136" id="-47558">
 		<tag k="name" v="Elda" />
 		<tag k="old_name" v="Elde" />
 		<tag k="place" v="farm" />
 		<tag k="ssr:stedsnr" v="464147" />
 	</node>
-	<node lat="68.65021944704763" lon="16.091644455066398" id="-35641">
+	<node lat="68.65021944704763" lon="16.091644455066398" id="-47567">
 		<tag k="name" v="Skreden" />
 		<tag k="place" v="isolated_dwelling" />
 		<tag k="ssr:stedsnr" v="321286" />
 	</node>
-	<node lat="68.7440472208595" lon="16.06872223170296" id="-35643">
+	<node lat="68.7440472208595" lon="16.06872223170296" id="-47569">
 		<tag k="name" v="Sandvika" />
-=======
-	<node id="-851694" lat="68.7383750015" lon="16.2712111001">
-		<tag k="name" v="Kleiva" />
-		<tag k="place" v="isolated_dwelling" />
-		<tag k="ssr:stedsnr" v="624965" />
-	</node>
-	<node id="-851181" lat="68.7109722247" lon="16.2822388957">
-		<tag k="alt_name" v="Straumssætran" />
-		<tag k="historic" v="shieling" />
-		<tag k="name" v="Strømssætran" />
-		<tag k="place" v="locality" />
-		<tag k="ssr:stedsnr" v="138987" />
-	</node>
-	<node id="-851692" lat="68.7379777772" lon="16.2582861139">
-		<tag k="name" v="Lamhagan" />
->>>>>>> e1d4bc35ff8a6074a6f2e91616a996b547c36f15
 		<tag k="place" v="farm" />
 		<tag k="ssr:stedsnr" v="321406" />
 	</node>
-<<<<<<< HEAD
-	<node lat="68.67946333543543" lon="16.337202315227668" id="-35648">
+	<node lat="68.67946333543543" lon="16.337202315227668" id="-47574">
 		<tag k="name" v="Skoglund" />
 		<tag k="place" v="farm" />
 		<tag k="ssr:stedsnr" v="323134" />
 	</node>
-	<node lat="68.76800833252754" lon="16.080394455366218" id="-35713">
+	<node lat="68.76800833252754" lon="16.080394455366218" id="-47639">
 		<tag k="name" v="Grønlia" />
-=======
-	<node id="-850666" lat="68.6813499996" lon="16.3282305639">
-		<tag k="name" v="Tungebakken" />
-		<tag k="place" v="farm" />
-		<tag k="ssr:stedsnr" v="688127" />
-	</node>
-	<node id="-851689" lat="68.708122219" lon="16.3019750019">
-		<tag k="name" v="Vollan" />
->>>>>>> e1d4bc35ff8a6074a6f2e91616a996b547c36f15
 		<tag k="place" v="farm" />
 		<tag k="ssr:stedsnr" v="381171" />
 	</node>
-<<<<<<< HEAD
-	<node lat="68.59705623641202" lon="15.828001658810313" id="-35721">
+	<node lat="68.59705623641202" lon="15.828001658810313" id="-47647">
 		<tag k="alt_name:no" v="Gulholmen;Gullholm" />
 		<tag k="fixme" v="multiple name tags, choose one and add the other to alt_name; consider place=hamlet" />
 		<tag k="name" v="Gullholmen - Gollesuolu;Guollesuolu" />
@@ -705,146 +181,67 @@
 		<tag k="place" v="farm" />
 		<tag k="ssr:stedsnr" v="382804" />
 	</node>
-	<node lat="68.76256905640234" lon="16.243104422224306" id="-35762">
+	<node lat="68.76256905640234" lon="16.243104422224306" id="-47688">
 		<tag k="alt_name" v="Gåra, in" />
 		<tag k="fixme" v="consider place=hamlet" />
 		<tag k="name" v="Indre Gåra" />
 		<tag k="place" v="farm" />
 		<tag k="ssr:stedsnr" v="442444" />
 	</node>
-	<node lat="68.78967357830999" lon="16.12129939451101" id="-35787">
+	<node lat="68.78967357830999" lon="16.12129939451101" id="-47713">
 		<tag k="name" v="Dale" />
 		<tag k="place" v="farm" />
 		<tag k="ssr:stedsnr" v="503073" />
 	</node>
-	<node lat="68.57091391516694" lon="15.795772493593827" id="-35792">
+	<node lat="68.57091391516694" lon="15.795772493593827" id="-47718">
 		<tag k="fixme" v="consider place=hamlet" />
 		<tag k="name" v="Våtvoll" />
 		<tag k="place" v="village" />
 		<tag k="ssr:stedsnr" v="503806" />
 	</node>
-	<node lat="68.76025449946444" lon="16.09534099914938" id="-35805">
+	<node lat="68.76025449946444" lon="16.09534099914938" id="-47731">
 		<tag k="name" v="Skår" />
 		<tag k="place" v="farm" />
 		<tag k="ssr:stedsnr" v="685172" />
 	</node>
-	<node lat="68.73946667091214" lon="16.064736099512043" id="-35809">
+	<node lat="68.73946667091214" lon="16.064736099512043" id="-47735">
 		<tag k="name" v="Nergård" />
-=======
-	<node id="-851688" lat="68.7448472235" lon="16.2627944542">
-		<tag k="name" v="Bartega" />
-		<tag k="place" v="farm" />
-		<tag k="ssr:stedsnr" v="624804" />
-	</node>
-	<node id="-851173" lat="68.7664305595" lon="16.3269500076">
-		<tag k="historic" v="shieling" />
-		<tag k="name" v="Storhaugen" />
-		<tag k="place" v="locality" />
-		<tag k="ssr:stedsnr" v="138454" />
-	</node>
-	<node id="-851680" lat="68.7178361131" lon="16.1977638981">
-		<tag k="name" v="Saldalskråa" />
-		<tag k="place" v="isolated_dwelling" />
-		<tag k="ssr:stedsnr" v="624487" />
-	</node>
-	<node id="-850653" lat="68.7808611112" lon="16.3498499908">
-		<tag k="name" v="Bjørklund" />
->>>>>>> e1d4bc35ff8a6074a6f2e91616a996b547c36f15
 		<tag k="place" v="farm" />
 		<tag k="ssr:stedsnr" v="522666" />
 	</node>
-<<<<<<< HEAD
-	<node lat="68.72776944413934" lon="16.066005560756235" id="-35824">
-=======
-	<node id="-850748" lat="68.6821166665" lon="16.0341750117">
-		<tag k="alt_name" v="Refsnes" />
-		<tag k="name" v="Revsnes" />
-		<tag k="place" v="farm" />
-		<tag k="ssr:stedsnr" v="726124" />
-	</node>
-	<node id="-850651" lat="68.7277694441" lon="16.0660055608">
-		<tag k="alt_name" v="Hemmestad, øvre" />
->>>>>>> e1d4bc35ff8a6074a6f2e91616a996b547c36f15
+	<node lat="68.72776944413934" lon="16.066005560756235" id="-47750">
 		<tag k="name" v="Øvre Hemmestad" />
 		<tag k="old_name" v="Hemmestad øvre" />
 		<tag k="place" v="farm" />
 		<tag k="ssr:stedsnr" v="685427" />
 	</node>
-<<<<<<< HEAD
-	<node lat="68.71715196220944" lon="16.30258751560199" id="-35837">
+	<node lat="68.71715196220944" lon="16.30258751560199" id="-47763">
 		<tag k="name" v="Storlia" />
 		<tag k="place" v="farm" />
 		<tag k="ssr:stedsnr" v="685986" />
 	</node>
-	<node lat="68.59946389009316" lon="15.823191669531045" id="-35838">
+	<node lat="68.59946389009316" lon="15.823191669531045" id="-47764">
 		<tag k="name" v="Leirvikvågen" />
-=======
-	<node id="-851674" lat="68.7350666702" lon="16.1485027684">
-		<tag k="historic" v="shieling" />
-		<tag k="name" v="Hundstadsætran" />
-		<tag k="old_name" v="Hunstadsætran" />
-		<tag k="place" v="locality" />
-		<tag k="ssr:stedsnr" v="624461" />
-	</node>
-	<node id="-851161" lat="68.7532663403" lon="16.2569960091">
-		<tag k="fixme" v="consider place=hamlet" />
-		<tag k="name" v="Vikeland" />
->>>>>>> e1d4bc35ff8a6074a6f2e91616a996b547c36f15
 		<tag k="place" v="farm" />
 		<tag k="ssr:stedsnr" v="536186" />
 	</node>
-<<<<<<< HEAD
-	<node lat="68.63367499770966" lon="16.042769432607503" id="-35846">
+	<node lat="68.63367499770966" lon="16.042769432607503" id="-47772">
 		<tag k="name" v="Moa" />
-=======
-	<node id="-851160" lat="68.7813013514" lon="16.1385489729">
-		<tag k="alt_name" v="Trastad Gård" />
-		<tag k="name" v="Trastad" />
->>>>>>> e1d4bc35ff8a6074a6f2e91616a996b547c36f15
 		<tag k="place" v="farm" />
 		<tag k="ssr:stedsnr" v="537005" />
 	</node>
-<<<<<<< HEAD
-	<node lat="68.78048611068311" lon="16.061083338671626" id="-35870">
+	<node lat="68.78048611068311" lon="16.061083338671626" id="-47796">
 		<tag k="name" v="Leite" />
-=======
-	<node id="-850647" lat="68.6051218837" lon="15.775666299">
-		<tag k="alt_name" v="Bømarken" />
-		<tag k="fixme" v="consider place=hamlet" />
-		<tag k="name" v="Bømarka" />
->>>>>>> e1d4bc35ff8a6074a6f2e91616a996b547c36f15
 		<tag k="place" v="farm" />
 		<tag k="ssr:stedsnr" v="597402" />
 	</node>
-<<<<<<< HEAD
-	<node lat="68.6852166666881" lon="16.028474998765564" id="-35877">
-=======
-	<node id="-851156" lat="68.6803305587" lon="16.0385527871">
-		<tag k="alt_name" v="Refsnes" />
->>>>>>> e1d4bc35ff8a6074a6f2e91616a996b547c36f15
+	<node lat="68.6852166666881" lon="16.028474998765564" id="-47803">
 		<tag k="name" v="Revsnes" />
 		<tag k="old_name" v="Refsnes" />
 		<tag k="place" v="farm" />
-<<<<<<< HEAD
 		<tag k="ssr:stedsnr" v="604199" />
 	</node>
-	<node lat="68.65402857434927" lon="15.944905377729283" id="-35886">
-=======
-		<tag k="ssr:stedsnr" v="119188" />
-	</node>
-	<node id="-850641" lat="68.6326305523" lon="15.9089222136">
-		<tag k="name" v="Vassvika" />
-		<tag k="place" v="hamlet" />
-		<tag k="ssr:stedsnr" v="685309" />
-	</node>
-	<node id="-851664" lat="68.6540285743" lon="15.9449053777">
-		<tag k="fixme" v="consider place=hamlet" />
-		<tag k="name" v="Lyså" />
-		<tag k="place" v="farm" />
-		<tag k="ssr:stedsnr" v="624313" />
-	</node>
-	<node id="-851659" lat="68.6686569614" lon="16.0414023281">
->>>>>>> e1d4bc35ff8a6074a6f2e91616a996b547c36f15
+	<node lat="68.65402857434927" lon="15.944905377729283" id="-47812">
 		<tag k="fixme" v="consider place=hamlet" />
 		<tag k="name" v="Lyså - Lissuk" />
 		<tag k="name:no" v="Lyså" />
@@ -852,180 +249,120 @@
 		<tag k="place" v="farm" />
 		<tag k="ssr:stedsnr" v="624313" />
 	</node>
-<<<<<<< HEAD
-	<node lat="68.73506667021951" lon="16.148502768433485" id="-35891">
+	<node lat="68.73506667021951" lon="16.148502768433485" id="-47817">
 		<tag k="historic" v="shieling" />
 		<tag k="name" v="Hundstadsætran" />
 		<tag k="old_name" v="Hunstadsætran" />
 		<tag k="place" v="isolated_dwelling" />
 		<tag k="ssr:stedsnr" v="624461" />
 	</node>
-	<node lat="68.7448472235086" lon="16.262794454161607" id="-35892">
+	<node lat="68.7448472235086" lon="16.262794454161607" id="-47818">
 		<tag k="name" v="Bartega" />
-=======
-	<node id="-850628" lat="68.7602544995" lon="16.0953409991">
-		<tag k="name" v="Skår" />
->>>>>>> e1d4bc35ff8a6074a6f2e91616a996b547c36f15
 		<tag k="place" v="farm" />
 		<tag k="ssr:stedsnr" v="624804" />
 	</node>
-<<<<<<< HEAD
-	<node lat="68.7081222190448" lon="16.30197500191899" id="-35893">
+	<node lat="68.7081222190448" lon="16.30197500191899" id="-47819">
 		<tag k="name" v="Vollan" />
-=======
-	<node id="-851641" lat="68.6852166667" lon="16.0284749988">
-		<tag k="alt_name" v="Refsnes" />
-		<tag k="name" v="Revsnes" />
->>>>>>> e1d4bc35ff8a6074a6f2e91616a996b547c36f15
 		<tag k="place" v="farm" />
 		<tag k="ssr:stedsnr" v="624867" />
 	</node>
-<<<<<<< HEAD
-	<node lat="68.70576111303743" lon="16.328630564790146" id="-35894">
+	<node lat="68.70576111303743" lon="16.328630564790146" id="-47820">
 		<tag k="alt_name" v="Vikesetran" />
 		<tag k="name" v="Viksætra" />
 		<tag k="place" v="locality" />
 		<tag k="ssr:stedsnr" v="624870" />
 	</node>
-	<node lat="68.70089722538178" lon="16.30811944518048" id="-35896">
+	<node lat="68.70089722538178" lon="16.30811944518048" id="-47822">
 		<tag k="historic" v="shieling" />
 		<tag k="name" v="Rudda" />
 		<tag k="place" v="isolated_dwelling" />
 		<tag k="ssr:stedsnr" v="627155" />
 	</node>
-	<node lat="68.83601441479345" lon="16.12430619803514" id="-35897">
+	<node lat="68.83601441479345" lon="16.12430619803514" id="-47823">
 		<tag k="name" v="Myrvik" />
-=======
-	<node id="-851640" lat="68.6828416654" lon="16.0471750079">
-		<tag k="fixme" v="consider place=hamlet" />
-		<tag k="name" v="Revsnes" />
->>>>>>> e1d4bc35ff8a6074a6f2e91616a996b547c36f15
 		<tag k="place" v="farm" />
 		<tag k="ssr:stedsnr" v="703893" />
 	</node>
-<<<<<<< HEAD
-	<node lat="68.82490555273364" lon="16.101974989034066" id="-35899">
+	<node lat="68.82490555273364" lon="16.101974989034066" id="-47825">
 		<tag k="name" v="Elde" />
 		<tag k="old_name" v="Elda" />
 		<tag k="place" v="farm" />
 		<tag k="ssr:stedsnr" v="707140" />
 	</node>
-	<node lat="68.75199539608994" lon="16.137417233922147" id="-35915">
+	<node lat="68.75199539608994" lon="16.137417233922147" id="-47841">
 		<tag k="name" v="Vebostad" />
 		<tag k="place" v="locality" />
 		<tag k="ssr:stedsnr" v="658390" />
 	</node>
-	<node lat="68.77107936257855" lon="16.195327554612224" id="-35922">
-=======
-	<node id="-850611" lat="68.6325502451" lon="15.8613312337">
-		<tag k="alt_name" v="Huseby" />
->>>>>>> e1d4bc35ff8a6074a6f2e91616a996b547c36f15
+	<node lat="68.77107936257855" lon="16.195327554612224" id="-47848">
 		<tag k="fixme" v="consider place=hamlet" />
 		<tag k="name" v="Rå" />
 		<tag k="place" v="farm" />
 		<tag k="ssr:stedsnr" v="658684" />
 	</node>
-<<<<<<< HEAD
-	<node lat="68.6326305523321" lon="15.908922213603478" id="-35929">
+	<node lat="68.6326305523321" lon="15.908922213603478" id="-47855">
 		<tag k="name" v="Vassvika" />
 		<tag k="place" v="hamlet" />
 		<tag k="ssr:stedsnr" v="685309" />
 	</node>
-	<node lat="68.78086111116323" lon="16.349849990828144" id="-35933">
+	<node lat="68.78086111116323" lon="16.349849990828144" id="-47859">
 		<tag k="name" v="Bjørklund" />
 		<tag k="place" v="farm" />
 		<tag k="ssr:stedsnr" v="685446" />
 	</node>
-	<node lat="68.6051218837302" lon="15.775666298986438" id="-35934">
+	<node lat="68.6051218837302" lon="15.775666298986438" id="-47860">
 		<tag k="alt_name" v="Bømarken" />
 		<tag k="fixme" v="consider place=hamlet" />
 		<tag k="name" v="Bømarka" />
 		<tag k="place" v="farm" />
 		<tag k="ssr:stedsnr" v="685349" />
 	</node>
-	<node lat="68.681349999598" lon="16.32823056385661" id="-35938">
+	<node lat="68.681349999598" lon="16.32823056385661" id="-47864">
 		<tag k="name" v="Tungebakken" />
-=======
-	<node id="-851315" lat="68.650219447" lon="16.0916444551">
-		<tag k="name" v="Skreden" />
-		<tag k="place" v="isolated_dwelling" />
-		<tag k="ssr:stedsnr" v="321286" />
-	</node>
-	<node id="-850831" lat="68.5800555568" lon="15.8260194376">
-		<tag k="name" v="Holten" />
-		<tag k="place" v="farm" />
-		<tag k="ssr:stedsnr" v="901935" />
-	</node>
-	<node id="-851095" lat="68.6716082723" lon="15.9105114007">
-		<tag k="fixme" v="consider place=hamlet" />
-		<tag k="name" v="Flesnes" />
-		<tag k="place" v="farm" />
-		<tag k="ssr:stedsnr" v="79245" />
-	</node>
-	<node id="-850579" lat="68.7710793626" lon="16.1953275546">
-		<tag k="fixme" v="consider place=hamlet" />
-		<tag k="name" v="Rå" />
-		<tag k="place" v="farm" />
-		<tag k="ssr:stedsnr" v="658684" />
-	</node>
-	<node id="-851090" lat="68.5731333306" lon="15.8243694349">
-		<tag k="alt_name" v="Gammalgården" />
-		<tag k="name" v="Gammelgården" />
->>>>>>> e1d4bc35ff8a6074a6f2e91616a996b547c36f15
 		<tag k="place" v="farm" />
 		<tag k="ssr:stedsnr" v="688127" />
 	</node>
-<<<<<<< HEAD
-	<node lat="68.74880142305271" lon="16.16898709783607" id="-35940">
-=======
-	<node id="-850577" lat="68.7519953961" lon="16.1374172339">
-		<tag k="name" v="Vebostad" />
-		<tag k="place" v="locality" />
-		<tag k="ssr:stedsnr" v="658390" />
-	</node>
-	<node id="-851088" lat="68.5359680825" lon="15.7552478443">
->>>>>>> e1d4bc35ff8a6074a6f2e91616a996b547c36f15
+	<node lat="68.74880142305271" lon="16.16898709783607" id="-47866">
 		<tag k="fixme" v="consider place=hamlet" />
 		<tag k="name" v="Hundstad" />
 		<tag k="old_name" v="Hunstad" />
 		<tag k="place" v="farm" />
 		<tag k="ssr:stedsnr" v="693986" />
 	</node>
-<<<<<<< HEAD
-	<node lat="68.78225441212727" lon="16.141136812660896" id="-35957">
+	<node lat="68.78225441212727" lon="16.141136812660896" id="-47883">
 		<tag k="fixme" v="consider place=hamlet" />
 		<tag k="name" v="Trastad" />
 		<tag k="place" v="farm" />
 		<tag k="ssr:stedsnr" v="719691" />
 	</node>
-	<node lat="68.68211666648745" lon="16.034175011734575" id="-35962">
+	<node lat="68.68211666648745" lon="16.034175011734575" id="-47888">
 		<tag k="name" v="Revsnes" />
 		<tag k="old_name" v="Refsnes" />
 		<tag k="place" v="farm" />
 		<tag k="ssr:stedsnr" v="726124" />
 	</node>
-	<node lat="68.5800555567624" lon="15.826019437598898" id="-36001">
+	<node lat="68.5800555567624" lon="15.826019437598898" id="-47927">
 		<tag k="name" v="Holten" />
 		<tag k="place" v="farm" />
 		<tag k="ssr:stedsnr" v="901935" />
 	</node>
-	<node lat="68.5757222224821" lon="15.826036109190785" id="-36002">
+	<node lat="68.5757222224821" lon="15.826036109190785" id="-47928">
 		<tag k="name" v="Solfjell" />
 		<tag k="place" v="farm" />
 		<tag k="ssr:stedsnr" v="901937" />
 	</node>
-	<node lat="68.60255555365913" lon="15.787347209607153" id="-36004">
+	<node lat="68.60255555365913" lon="15.787347209607153" id="-47930">
 		<tag k="name" v="Torsete" />
 		<tag k="place" v="farm" />
 		<tag k="ssr:stedsnr" v="901963" />
 	</node>
-	<node lat="68.75490621882878" lon="16.126166872682255" id="-36006">
+	<node lat="68.75490621882878" lon="16.126166872682255" id="-47932">
 		<tag k="alt_name" v="Vebbestad" />
 		<tag k="name" v="Vebostad" />
 		<tag k="place" v="farm" />
 		<tag k="ssr:stedsnr" v="745182" />
 	</node>
-	<node lat="68.56452168344624" lon="15.826524318531085" id="-36011">
+	<node lat="68.56452168344624" lon="15.826524318531085" id="-47937">
 		<tag k="fixme" v="consider place=hamlet" />
 		<tag k="name" v="Eidet - Áidi" />
 		<tag k="name:no" v="Eidet" />
@@ -1033,90 +370,90 @@
 		<tag k="place" v="farm" />
 		<tag k="ssr:stedsnr" v="745878" />
 	</node>
-	<node lat="68.77147222613719" lon="16.345213879764756" id="-36035">
+	<node lat="68.77147222613719" lon="16.345213879764756" id="-47961">
 		<tag k="historic" v="shieling" />
 		<tag k="name" v="Vikelandsstølen" />
 		<tag k="place" v="isolated_dwelling" />
 		<tag k="ssr:stedsnr" v="827984" />
 	</node>
-	<node lat="68.82646388673393" lon="16.11778332333147" id="-36036">
+	<node lat="68.82646388673393" lon="16.11778332333147" id="-47962">
 		<tag k="name" v="Elde" />
 		<tag k="old_name" v="Elda" />
 		<tag k="place" v="farm" />
 		<tag k="ssr:stedsnr" v="828117" />
 	</node>
-	<node lat="68.76123405077885" lon="16.09275715810216" id="-36048">
+	<node lat="68.76123405077885" lon="16.09275715810216" id="-47974">
 		<tag k="fixme" v="consider place=hamlet" />
 		<tag k="name" v="Skår" />
 		<tag k="place" v="farm" />
 		<tag k="ssr:stedsnr" v="840488" />
 	</node>
-	<node lat="68.5717638865659" lon="15.829899990932962" id="-36051">
+	<node lat="68.5717638865659" lon="15.829899990932962" id="-47977">
 		<tag k="amenity" v="school" />
 		<tag k="name" v="Moelv skole" />
 		<tag k="ssr:stedsnr" v="840905" />
 	</node>
-	<node lat="68.7231305583847" lon="16.260158335179977" id="-36058">
+	<node lat="68.7231305583847" lon="16.260158335179977" id="-47984">
 		<tag k="name" v="Gammelsætran" />
 		<tag k="place" v="locality" />
 		<tag k="ssr:stedsnr" v="841507" />
 	</node>
-	<node lat="68.82452222357605" lon="16.104027767693776" id="-36061">
+	<node lat="68.82452222357605" lon="16.104027767693776" id="-47987">
 		<tag k="alt_name" v="Elde" />
 		<tag k="fixme" v="consider place=hamlet" />
 		<tag k="name" v="Elda" />
 		<tag k="place" v="village" />
 		<tag k="ssr:stedsnr" v="841619" />
 	</node>
-	<node lat="68.72736388769117" lon="16.059416674418948" id="-36066">
+	<node lat="68.72736388769117" lon="16.059416674418948" id="-47992">
 		<tag k="name" v="Hemmestad øvre" />
 		<tag k="old_name" v="Øvre Hemmestad" />
 		<tag k="place" v="farm" />
 		<tag k="ssr:stedsnr" v="844178" />
 	</node>
-	<node lat="68.72723333798028" lon="16.06580832971205" id="-36067">
+	<node lat="68.72723333798028" lon="16.06580832971205" id="-47993">
 		<tag k="name" v="Øvre Hemmestad" />
 		<tag k="old_name" v="Hemmestad, øvre;Hemmestad øvre" />
 		<tag k="place" v="farm" />
 		<tag k="ssr:stedsnr" v="844179" />
 	</node>
-	<node lat="68.7674582360409" lon="16.21215823243519" id="-36069">
+	<node lat="68.7674582360409" lon="16.21215823243519" id="-47995">
 		<tag k="name" v="Strand" />
 		<tag k="place" v="farm" />
 		<tag k="ssr:stedsnr" v="927471" />
 	</node>
-	<node lat="68.6625806780323" lon="15.884181758427689" id="-36075">
+	<node lat="68.6625806780323" lon="15.884181758427689" id="-48001">
 		<tag k="fixme" v="consider place=hamlet" />
 		<tag k="name" v="Bogen" />
 		<tag k="place" v="farm" />
 		<tag k="ssr:stedsnr" v="928244" />
 	</node>
-	<node lat="68.62426369933407" lon="15.768719840000772" id="-36081">
+	<node lat="68.62426369933407" lon="15.768719840000772" id="-48007">
 		<tag k="alt_name" v="Forøysætran" />
 		<tag k="fixme" v="consider place=hamlet" />
 		<tag k="name" v="Forøysæter" />
 		<tag k="place" v="farm" />
 		<tag k="ssr:stedsnr" v="928300" />
 	</node>
-	<node lat="68.74889999973936" lon="16.165241674034615" id="-36083">
+	<node lat="68.74889999973936" lon="16.165241674034615" id="-48009">
 		<tag k="name" v="Hundstad" />
 		<tag k="place" v="farm" />
 		<tag k="ssr:stedsnr" v="928393" />
 	</node>
-	<node lat="68.71810841276891" lon="16.061083650246786" id="-36084">
+	<node lat="68.71810841276891" lon="16.061083650246786" id="-48010">
 		<tag k="alt_name" v="Skommesvika" />
 		<tag k="fixme" v="consider place=hamlet" />
 		<tag k="name" v="Skommesvik" />
 		<tag k="place" v="farm" />
 		<tag k="ssr:stedsnr" v="928442" />
 	</node>
-	<node lat="68.54577222056217" lon="15.761211116032419" id="-36090">
+	<node lat="68.54577222056217" lon="15.761211116032419" id="-48016">
 		<tag k="alt_name" v="Våtvoll, l" />
 		<tag k="name" v="Litle Våtvoll" />
 		<tag k="place" v="farm" />
 		<tag k="ssr:stedsnr" v="928860" />
 	</node>
-	<node lat="68.7351629293842" lon="16.242049951354144" id="-36091">
+	<node lat="68.7351629293842" lon="16.242049951354144" id="-48017">
 		<tag k="fixme" v="consider place=hamlet" />
 		<tag k="name" v="Straumen - Strávvi" />
 		<tag k="name:no" v="Straumen" />
@@ -1124,31 +461,31 @@
 		<tag k="place" v="farm" />
 		<tag k="ssr:stedsnr" v="928947" />
 	</node>
-	<node lat="68.65291903519653" lon="15.853112652221533" id="-36100">
+	<node lat="68.65291903519653" lon="15.853112652221533" id="-48026">
 		<tag k="name" v="Solvik" />
 		<tag k="place" v="farm" />
 		<tag k="ssr:stedsnr" v="886663" />
 	</node>
-	<node lat="68.8425286948779" lon="16.142923086352564" id="-36116">
+	<node lat="68.8425286948779" lon="16.142923086352564" id="-48042">
 		<tag k="fixme" v="consider place=hamlet" />
 		<tag k="name" v="Haugen" />
 		<tag k="place" v="farm" />
 		<tag k="ssr:stedsnr" v="901652" />
 	</node>
-	<node lat="68.61787222113863" lon="15.760341673938754" id="-36135">
+	<node lat="68.61787222113863" lon="15.760341673938754" id="-48061">
 		<tag k="fixme" v="consider place=hamlet" />
 		<tag k="loc_name" v="Langvassbukt" />
 		<tag k="name" v="Langvassbukta" />
 		<tag k="place" v="village" />
 		<tag k="ssr:stedsnr" v="928321" />
 	</node>
-	<node lat="68.73901666464528" lon="16.124800001815988" id="-36140">
+	<node lat="68.73901666464528" lon="16.124800001815988" id="-48066">
 		<tag k="alt_name" v="Vebestadsætran" />
 		<tag k="name" v="Vebbestadsætran" />
 		<tag k="place" v="isolated_dwelling" />
 		<tag k="ssr:stedsnr" v="928413" />
 	</node>
-	<node lat="68.673554919294" lon="16.348737496662793" id="-36147">
+	<node lat="68.673554919294" lon="16.348737496662793" id="-48073">
 		<tag k="fixme" v="consider place=hamlet" />
 		<tag k="name" v="Storjorda - Stuorgieddi" />
 		<tag k="name:no" v="Storjorda" />
@@ -1156,7 +493,7 @@
 		<tag k="place" v="village" />
 		<tag k="ssr:stedsnr" v="930111" />
 	</node>
-	<node lat="68.65345923141571" lon="15.848663467417529" id="-36187">
+	<node lat="68.65345923141571" lon="15.848663467417529" id="-48113">
 		<tag k="alt_name:no" v="Gambogen" />
 		<tag k="fixme" v="consider place=hamlet" />
 		<tag k="name" v="Gombogen - Gámbohki" />
@@ -1165,17 +502,17 @@
 		<tag k="place" v="farm" />
 		<tag k="ssr:stedsnr" v="17347" />
 	</node>
-	<node lat="68.74232119909867" lon="16.276586894626494" id="-36207">
+	<node lat="68.74232119909867" lon="16.276586894626494" id="-48133">
 		<tag k="name" v="Vik" />
 		<tag k="place" v="farm" />
 		<tag k="ssr:stedsnr" v="18761" />
 	</node>
-	<node lat="68.6942583333148" lon="16.342041667548912" id="-36229">
+	<node lat="68.6942583333148" lon="16.342041667548912" id="-48155">
 		<tag k="name" v="Almenningssætran" />
 		<tag k="place" v="locality" />
 		<tag k="ssr:stedsnr" v="51640" />
 	</node>
-	<node lat="68.53596808247477" lon="15.755247844306632" id="-36271">
+	<node lat="68.53596808247477" lon="15.755247844306632" id="-48197">
 		<tag k="fixme" v="consider place=hamlet" />
 		<tag k="name" v="Gullesfjordbotn - Skájeaggi" />
 		<tag k="name:no" v="Gullesfjordbotn" />
@@ -1183,65 +520,65 @@
 		<tag k="place" v="farm" />
 		<tag k="ssr:stedsnr" v="78774" />
 	</node>
-	<node lat="68.57313333056253" lon="15.824369434879955" id="-36272">
+	<node lat="68.57313333056253" lon="15.824369434879955" id="-48198">
 		<tag k="alt_name" v="Gammalgården" />
 		<tag k="name" v="Gammelgården" />
 		<tag k="place" v="farm" />
 		<tag k="ssr:stedsnr" v="78859" />
 	</node>
-	<node lat="68.78928081833364" lon="16.12479228139942" id="-36305">
+	<node lat="68.78928081833364" lon="16.12479228139942" id="-48231">
 		<tag k="fixme" v="consider place=hamlet" />
 		<tag k="name" v="Dale" />
 		<tag k="place" v="farm" />
 		<tag k="ssr:stedsnr" v="112730" />
 	</node>
-	<node lat="68.58784444488342" lon="15.822427783564336" id="-36315">
+	<node lat="68.58784444488342" lon="15.822427783564336" id="-48241">
 		<tag k="name" v="Åsheim" />
 		<tag k="place" v="farm" />
 		<tag k="ssr:stedsnr" v="112840" />
 	</node>
-	<node lat="68.68033055874189" lon="16.038552787082775" id="-36323">
+	<node lat="68.68033055874189" lon="16.038552787082775" id="-48249">
 		<tag k="name" v="Revsnes" />
 		<tag k="old_name" v="Refsnes" />
 		<tag k="place" v="farm" />
 		<tag k="ssr:stedsnr" v="119188" />
 	</node>
-	<node lat="68.7813013513687" lon="16.13854897288807" id="-36327">
+	<node lat="68.7813013513687" lon="16.13854897288807" id="-48253">
 		<tag k="alt_name" v="Trastad Gård" />
 		<tag k="name" v="Trastad" />
 		<tag k="place" v="farm" />
 		<tag k="ssr:stedsnr" v="138083" />
 	</node>
-	<node lat="68.76643055949167" lon="16.326950007637304" id="-36334">
+	<node lat="68.76643055949167" lon="16.326950007637304" id="-48260">
 		<tag k="historic" v="shieling" />
 		<tag k="name" v="Storhaugen" />
 		<tag k="place" v="isolated_dwelling" />
 		<tag k="ssr:stedsnr" v="138454" />
 	</node>
-	<node lat="68.75326634032757" lon="16.25699600910398" id="-36336">
+	<node lat="68.75326634032757" lon="16.25699600910398" id="-48262">
 		<tag k="fixme" v="consider place=hamlet" />
 		<tag k="name" v="Vikeland" />
 		<tag k="place" v="farm" />
 		<tag k="ssr:stedsnr" v="138322" />
 	</node>
-	<node lat="68.76957601279727" lon="16.076658066063395" id="-36360">
+	<node lat="68.76957601279727" lon="16.076658066063395" id="-48286">
 		<tag k="fixme" v="consider place=hamlet" />
 		<tag k="name" v="Haug" />
 		<tag k="place" v="farm" />
 		<tag k="ssr:stedsnr" v="158676" />
 	</node>
-	<node lat="68.65420555393638" lon="16.082447221901795" id="-36361">
+	<node lat="68.65420555393638" lon="16.082447221901795" id="-48287">
 		<tag k="name" v="Finnvik" />
 		<tag k="place" v="locality" />
 		<tag k="ssr:stedsnr" v="158681" />
 	</node>
-	<node lat="68.82258332927778" lon="16.107713891914546" id="-36362">
+	<node lat="68.82258332927778" lon="16.107713891914546" id="-48288">
 		<tag k="name" v="Elde" />
 		<tag k="old_name" v="Elda" />
 		<tag k="place" v="farm" />
 		<tag k="ssr:stedsnr" v="161149" />
 	</node>
-	<node lat="68.68036944304333" lon="16.03450721115926" id="-36405">
+	<node lat="68.68036944304333" lon="16.03450721115926" id="-48331">
 		<tag k="fixme" v="consider place=hamlet" />
 		<tag k="loc_name:se" v="Reavččak" />
 		<tag k="name" v="Revsnes" />
@@ -1249,17 +586,17 @@
 		<tag k="place" v="farm" />
 		<tag k="ssr:stedsnr" v="180191" />
 	</node>
-	<node lat="68.72725555324378" lon="16.291913881820303" id="-36408">
+	<node lat="68.72725555324378" lon="16.291913881820303" id="-48334">
 		<tag k="name" v="Vonheim" />
 		<tag k="place" v="farm" />
 		<tag k="ssr:stedsnr" v="199979" />
 	</node>
-	<node lat="68.77261111267582" lon="16.171147215614166" id="-36413">
+	<node lat="68.77261111267582" lon="16.171147215614166" id="-48339">
 		<tag k="name" v="Borkenes" />
 		<tag k="place" v="village" />
 		<tag k="ssr:stedsnr" v="199188" />
 	</node>
-	<node lat="68.66340297660172" lon="16.081497705308088" id="-36428">
+	<node lat="68.66340297660172" lon="16.081497705308088" id="-48354">
 		<tag k="alt_name:no" v="Melå;Melåen" />
 		<tag k="fixme" v="consider place=hamlet" />
 		<tag k="name" v="Melåa - Mieluk" />
@@ -1268,175 +605,148 @@
 		<tag k="place" v="farm" />
 		<tag k="ssr:stedsnr" v="200298" />
 	</node>
-	<node lat="68.71076666876613" lon="16.301927778389757" id="-36435">
+	<node lat="68.71076666876613" lon="16.301927778389757" id="-48361">
 		<tag k="name" v="Solheim" />
 		<tag k="place" v="farm" />
 		<tag k="ssr:stedsnr" v="200868" />
 	</node>
-	<node lat="68.68505731574976" lon="16.320226386834506" id="-36438">
+	<node lat="68.68505731574976" lon="16.320226386834506" id="-48364">
 		<tag k="name" v="Grashola - Rássegohpi" />
 		<tag k="name:no" v="Grashola" />
 		<tag k="name:se" v="Rássegohpi" />
 		<tag k="place" v="locality" />
 		<tag k="ssr:stedsnr" v="203169" />
 	</node>
-	<node lat="68.758508333544" lon="16.245924992624136" id="-36457">
+	<node lat="68.758508333544" lon="16.245924992624136" id="-48383">
 		<tag k="name" v="Gamman" />
 		<tag k="place" v="locality" />
 		<tag k="ssr:stedsnr" v="294286" />
 	</node>
-	<node lat="68.74132867163252" lon="16.06801154457234" id="-36469">
+	<node lat="68.74132867163252" lon="16.06801154457234" id="-48395">
 		<tag k="alt_name" v="Sandvik" />
 		<tag k="fixme" v="consider place=hamlet" />
 		<tag k="name" v="Sandvika" />
 		<tag k="place" v="farm" />
 		<tag k="ssr:stedsnr" v="294493" />
 	</node>
-	<node lat="68.71620277779978" lon="16.318277780568007" id="-36470">
+	<node lat="68.71620277779978" lon="16.318277780568007" id="-48396">
 		<tag k="name" v="Aletsætran" />
 		<tag k="place" v="locality" />
 		<tag k="ssr:stedsnr" v="294593" />
 	</node>
-	<node lat="68.72474444844593" lon="16.2986333392034" id="-36501">
+	<node lat="68.72474444844593" lon="16.2986333392034" id="-48427">
 		<tag k="name" v="Solheim" />
 		<tag k="place" v="farm" />
 		<tag k="ssr:stedsnr" v="321970" />
 	</node>
-	<node lat="68.7567439690837" lon="16.115852322670808" id="-36513">
+	<node lat="68.7567439690837" lon="16.115852322670808" id="-48439">
 		<tag k="alt_name" v="Gardløs" />
 		<tag k="fixme" v="consider place=hamlet" />
 		<tag k="name" v="Gardløys" />
 		<tag k="place" v="farm" />
 		<tag k="ssr:stedsnr" v="354349" />
 	</node>
-	<node lat="68.68358888829984" lon="16.031063888813808" id="-36621">
+	<node lat="68.68358888829984" lon="16.031063888813808" id="-48547">
 		<tag k="name" v="Revsnes" />
 		<tag k="old_name" v="Refsnes" />
 		<tag k="place" v="farm" />
 		<tag k="ssr:stedsnr" v="423128" />
 	</node>
-	<node lat="68.74148333134534" lon="16.284594432027372" id="-36634">
+	<node lat="68.74148333134534" lon="16.284594432027372" id="-48560">
 		<tag k="fixme" v="consider place=hamlet" />
 		<tag k="name" v="Voktor" />
 		<tag k="place" v="farm" />
 		<tag k="ssr:stedsnr" v="442826" />
 	</node>
-	<node lat="68.73363610800853" lon="16.27501111109439" id="-36641">
+	<node lat="68.73363610800853" lon="16.27501111109439" id="-48567">
 		<tag k="name" v="Kristligflata" />
 		<tag k="place" v="farm" />
 		<tag k="ssr:stedsnr" v="443947" />
 	</node>
-	<node lat="68.59443333629875" lon="15.81599445571446" id="-36651">
+	<node lat="68.59443333629875" lon="15.81599445571446" id="-48577">
 		<tag k="name" v="Skinnhallaren" />
 		<tag k="place" v="farm" />
 		<tag k="ssr:stedsnr" v="503783" />
 	</node>
-	<node lat="68.57149999640343" lon="15.827902788565565" id="-36657">
+	<node lat="68.57149999640343" lon="15.827902788565565" id="-48583">
 		<tag k="alt_name" v="Moelv" />
 		<tag k="fixme" v="consider place=hamlet" />
 		<tag k="name" v="Moelva" />
 		<tag k="place" v="village" />
 		<tag k="ssr:stedsnr" v="503801" />
 	</node>
-	<node lat="68.67338611500644" lon="16.07721390034462" id="-36663">
+	<node lat="68.67338611500644" lon="16.07721390034462" id="-48589">
 		<tag k="name" v="Bjørnlia" />
 		<tag k="place" v="farm" />
 		<tag k="ssr:stedsnr" v="503235" />
 	</node>
-	<node lat="68.63255024507438" lon="15.861331233650501" id="-36670">
+	<node lat="68.63255024507438" lon="15.861331233650501" id="-48596">
 		<tag k="alt_name" v="Huseby" />
 		<tag k="fixme" v="consider place=hamlet" />
 		<tag k="name" v="Husby" />
 		<tag k="place" v="farm" />
 		<tag k="ssr:stedsnr" v="503315" />
 	</node>
-	<node lat="68.69173682312497" lon="15.95513321713168" id="-36680">
+	<node lat="68.69173682312497" lon="15.95513321713168" id="-48606">
 		<tag k="fixme" v="consider place=hamlet" />
 		<tag k="name" v="Holand" />
 		<tag k="place" v="farm" />
 		<tag k="ssr:stedsnr" v="503461" />
 	</node>
-	<node lat="68.67078610790254" lon="16.369902770182435" id="-36685">
+	<node lat="68.67078610790254" lon="16.369902770182435" id="-48611">
 		<tag k="name" v="Øvergården" />
 		<tag k="place" v="farm" />
 		<tag k="ssr:stedsnr" v="505114" />
 	</node>
-	<node lat="68.74267777812673" lon="16.10308055346292" id="-36730">
+	<node lat="68.74267777812673" lon="16.10308055346292" id="-48656">
 		<tag k="name" v="Garnbukta" />
 		<tag k="place" v="isolated_dwelling" />
 		<tag k="ssr:stedsnr" v="563413" />
 	</node>
-	<node lat="68.75431666578915" lon="16.164436109869452" id="-36739">
+	<node lat="68.75431666578915" lon="16.164436109869452" id="-48665">
 		<tag k="name" v="Hokland" />
 		<tag k="place" v="farm" />
 		<tag k="ssr:stedsnr" v="563155" />
 	</node>
-	<node lat="68.80706389090128" lon="16.228786107739108" id="-36751">
+	<node lat="68.80706389090128" lon="16.228786107739108" id="-48677">
 		<tag k="name" v="Koven" />
 		<tag k="place" v="isolated_dwelling" />
 		<tag k="ssr:stedsnr" v="563362" />
 	</node>
-	<node lat="68.7085472189407" lon="16.305536118090384" id="-36762">
+	<node lat="68.7085472189407" lon="16.305536118090384" id="-48688">
 		<tag k="name" v="Nygård" />
 		<tag k="place" v="farm" />
 		<tag k="ssr:stedsnr" v="563905" />
 	</node>
-	<node lat="68.71913611024225" lon="16.29996666653514" id="-36764">
-=======
-	<node id="-850200" lat="68.7448462521" lon="16.2726510668">
-		<tag k="fixme" v="consider place=hamlet" />
-		<tag k="name" v="Vik" />
-		<tag k="place" v="farm" />
-		<tag k="ssr:stedsnr" v="234531" />
-	</node>
-	<node id="-850284" lat="68.6167083304" lon="16.0243444397">
-		<tag k="name" v="Knut-Jonsaheimen" />
-		<tag k="place" v="locality" />
-		<tag k="ssr:stedsnr" v="112012" />
-	</node>
-	<node id="-851690" lat="68.705761113" lon="16.3286305648">
-		<tag k="fixme" v="multiple name tags, choose one and add the other to alt_name" />
-		<tag k="name" v="Vikesætran;Viksætra" />
-		<tag k="place" v="locality" />
-		<tag k="ssr:stedsnr" v="624870" />
-	</node>
-	<node id="-851585" lat="68.8630105239" lon="16.1979612248">
-		<tag k="fixme" v="consider place=hamlet" />
-		<tag k="name" v="Bremnes" />
-		<tag k="place" v="farm" />
-		<tag k="ssr:stedsnr" v="571984" />
-	</node>
-	<node id="-851581" lat="68.7191361102" lon="16.2999666665">
->>>>>>> e1d4bc35ff8a6074a6f2e91616a996b547c36f15
+	<node lat="68.71913611024225" lon="16.29996666653514" id="-48690">
 		<tag k="name" v="Lavollen" />
 		<tag k="place" v="farm" />
 		<tag k="ssr:stedsnr" v="563987" />
 	</node>
-<<<<<<< HEAD
-	<node lat="68.86301052386116" lon="16.19796122477451" id="-36767">
+	<node lat="68.86301052386116" lon="16.19796122477451" id="-48693">
 		<tag k="fixme" v="consider place=hamlet" />
 		<tag k="name" v="Bremnes" />
 		<tag k="place" v="farm" />
 		<tag k="ssr:stedsnr" v="571984" />
 	</node>
-	<node lat="68.82459444695863" lon="16.103225003188392" id="-36769">
+	<node lat="68.82459444695863" lon="16.103225003188392" id="-48695">
 		<tag k="name" v="Elde" />
 		<tag k="old_name" v="Elda" />
 		<tag k="place" v="farm" />
 		<tag k="ssr:stedsnr" v="585129" />
 	</node>
-	<node lat="68.8217750003201" lon="16.09804998990227" id="-36770">
+	<node lat="68.8217750003201" lon="16.09804998990227" id="-48696">
 		<tag k="name" v="Elda" />
 		<tag k="old_name" v="Elde" />
 		<tag k="place" v="farm" />
 		<tag k="ssr:stedsnr" v="585137" />
 	</node>
-	<node lat="68.63804166600464" lon="16.044786106221267" id="-36787">
+	<node lat="68.63804166600464" lon="16.044786106221267" id="-48713">
 		<tag k="name" v="Sætran" />
 		<tag k="place" v="locality" />
 		<tag k="ssr:stedsnr" v="597065" />
 	</node>
-	<node lat="68.66865696143134" lon="16.041402328118405" id="-36837">
+	<node lat="68.66865696143134" lon="16.041402328118405" id="-48763">
 		<tag k="fixme" v="consider place=hamlet" />
 		<tag k="name" v="Kjengsnes - Geaŋkkak" />
 		<tag k="name:no" v="Kjengsnes" />
@@ -1444,96 +754,96 @@
 		<tag k="place" v="farm" />
 		<tag k="ssr:stedsnr" v="624291" />
 	</node>
-	<node lat="68.71783611308332" lon="16.197763898132607" id="-36849">
+	<node lat="68.71783611308332" lon="16.197763898132607" id="-48775">
 		<tag k="name" v="Saldalskråa" />
 		<tag k="place" v="isolated_dwelling" />
 		<tag k="ssr:stedsnr" v="624487" />
 	</node>
-	<node lat="68.73797777718464" lon="16.258286113867463" id="-36858">
+	<node lat="68.73797777718464" lon="16.258286113867463" id="-48784">
 		<tag k="name" v="Lamhagan" />
 		<tag k="place" v="farm" />
 		<tag k="ssr:stedsnr" v="624942" />
 	</node>
-	<node lat="68.73841163066348" lon="16.271393204129307" id="-36860">
+	<node lat="68.73841163066348" lon="16.271393204129307" id="-48786">
 		<tag k="name" v="Kleiva" />
 		<tag k="place" v="farm" />
 		<tag k="ssr:stedsnr" v="624965" />
 	</node>
-	<node lat="68.75516863410598" lon="16.161165115839403" id="-36871">
+	<node lat="68.75516863410598" lon="16.161165115839403" id="-48797">
 		<tag k="fixme" v="consider place=hamlet" />
 		<tag k="name" v="Hokland" />
 		<tag k="place" v="farm" />
 		<tag k="ssr:stedsnr" v="657376" />
 	</node>
-	<node lat="68.7867219109674" lon="16.069566738248334" id="-36874">
+	<node lat="68.7867219109674" lon="16.069566738248334" id="-48800">
 		<tag k="fixme" v="consider place=hamlet" />
 		<tag k="name" v="Øynes" />
 		<tag k="place" v="farm" />
 		<tag k="ssr:stedsnr" v="657418" />
 	</node>
-	<node lat="68.64371361717171" lon="16.05698062071556" id="-36915">
+	<node lat="68.64371361717171" lon="16.05698062071556" id="-48841">
 		<tag k="fixme" v="consider place=hamlet" />
 		<tag k="name" v="Aspenes" />
 		<tag k="place" v="farm" />
 		<tag k="ssr:stedsnr" v="719051" />
 	</node>
-	<node lat="68.78336388738198" lon="16.33361388962325" id="-36933">
+	<node lat="68.78336388738198" lon="16.33361388962325" id="-48859">
 		<tag k="name" v="Kvilheim" />
 		<tag k="place" v="isolated_dwelling" />
 		<tag k="ssr:stedsnr" v="719960" />
 	</node>
-	<node lat="68.76214999730414" lon="16.249499997979385" id="-36946">
+	<node lat="68.76214999730414" lon="16.249499997979385" id="-48872">
 		<tag k="name" v="Skallan" />
 		<tag k="place" v="farm" />
 		<tag k="ssr:stedsnr" v="745446" />
 	</node>
-	<node lat="68.56165000238421" lon="15.746583324034908" id="-36949">
+	<node lat="68.56165000238421" lon="15.746583324034908" id="-48875">
 		<tag k="name" v="Løbergsbukta" />
 		<tag k="place" v="isolated_dwelling" />
 		<tag k="ssr:stedsnr" v="745891" />
 	</node>
-	<node lat="68.59391944252212" lon="16.06522776566679" id="-36971">
+	<node lat="68.59391944252212" lon="16.06522776566679" id="-48897">
 		<tag k="fixme" v="consider tourism=alpine_hut or tourism=chalet" />
 		<tag k="name" v="Haakonsbu" />
 		<tag k="old_name" v="Håkonsbu" />
 		<tag k="ssr:stedsnr" v="750155" />
 		<tag k="tourism" v="wilderness_hut" />
 	</node>
-	<node lat="68.73617222053245" lon="16.244397212495734" id="-36972">
+	<node lat="68.73617222053245" lon="16.244397212495734" id="-48898">
 		<tag k="name" v="Straumen - Strávvi" />
 		<tag k="name:no" v="Straumen" />
 		<tag k="name:se" v="Strávvi" />
 		<tag k="place" v="hamlet" />
 		<tag k="ssr:stedsnr" v="753032" />
 	</node>
-	<node lat="68.75571554997983" lon="16.120185202273184" id="-37030">
+	<node lat="68.75571554997983" lon="16.120185202273184" id="-48956">
 		<tag k="alt_name" v="Gardløs" />
 		<tag k="name" v="Gardløys" />
 		<tag k="place" v="farm" />
 		<tag k="ssr:stedsnr" v="806145" />
 	</node>
-	<node lat="68.63500833617968" lon="16.07784165854764" id="-37039">
+	<node lat="68.63500833617968" lon="16.07784165854764" id="-48965">
 		<tag k="name" v="Botnjorda" />
 		<tag k="place" v="isolated_dwelling" />
 		<tag k="ssr:stedsnr" v="806333" />
 	</node>
-	<node lat="68.64091389313906" lon="16.089899993368647" id="-37040">
+	<node lat="68.64091389313906" lon="16.089899993368647" id="-48966">
 		<tag k="name" v="Seljeneset" />
 		<tag k="place" v="isolated_dwelling" />
 		<tag k="ssr:stedsnr" v="806338" />
 	</node>
-	<node lat="68.77201388821315" lon="16.33053889905112" id="-37046">
+	<node lat="68.77201388821315" lon="16.33053889905112" id="-48972">
 		<tag k="historic" v="shieling" />
 		<tag k="name" v="Prestlahaugen" />
 		<tag k="place" v="isolated_dwelling" />
 		<tag k="ssr:stedsnr" v="806436" />
 	</node>
-	<node lat="68.7218611124552" lon="16.298969453306253" id="-37056">
+	<node lat="68.7218611124552" lon="16.298969453306253" id="-48982">
 		<tag k="name" v="Voktarstranda" />
 		<tag k="place" v="isolated_dwelling" />
 		<tag k="ssr:stedsnr" v="806976" />
 	</node>
-	<node lat="68.67906944333996" lon="16.04845833428126" id="-37061">
+	<node lat="68.67906944333996" lon="16.04845833428126" id="-48987">
 		<tag k="alt_name:no" v="Refsnes" />
 		<tag k="fixme" v="consider place=hamlet" />
 		<tag k="name" v="Revsnes - Reavččak" />
@@ -1542,67 +852,67 @@
 		<tag k="place" v="village" />
 		<tag k="ssr:stedsnr" v="807246" />
 	</node>
-	<node lat="68.7315075098447" lon="16.061909199583894" id="-37067">
+	<node lat="68.7315075098447" lon="16.061909199583894" id="-48993">
 		<tag k="name" v="Hemmestad - Hinak" />
 		<tag k="name:no" v="Hemmestad" />
 		<tag k="name:se" v="Hinak" />
 		<tag k="place" v="hamlet" />
 		<tag k="ssr:stedsnr" v="807428" />
 	</node>
-	<node lat="68.73250555897363" lon="16.24788610178738" id="-37071">
+	<node lat="68.73250555897363" lon="16.24788610178738" id="-48997">
 		<tag k="name" v="Vika" />
 		<tag k="place" v="farm" />
 		<tag k="ssr:stedsnr" v="807945" />
 	</node>
-	<node lat="68.73551388499776" lon="16.265425007174816" id="-37072">
+	<node lat="68.73551388499776" lon="16.265425007174816" id="-48998">
 		<tag k="name" v="Rydningen" />
 		<tag k="place" v="farm" />
 		<tag k="ssr:stedsnr" v="807969" />
 	</node>
-	<node lat="68.677119441034" lon="16.353372214771777" id="-37073">
+	<node lat="68.677119441034" lon="16.353372214771777" id="-48999">
 		<tag k="historic" v="shieling" />
 		<tag k="name" v="Gammelheimen" />
 		<tag k="place" v="isolated_dwelling" />
 		<tag k="ssr:stedsnr" v="808099" />
 	</node>
-	<node lat="68.6808999999606" lon="16.33267223266537" id="-37074">
+	<node lat="68.6808999999606" lon="16.33267223266537" id="-49000">
 		<tag k="name" v="Frydenlund" />
 		<tag k="place" v="farm" />
 		<tag k="ssr:stedsnr" v="809134" />
 	</node>
-	<node lat="68.83832499973953" lon="16.12260000047114" id="-37077">
+	<node lat="68.83832499973953" lon="16.12260000047114" id="-49003">
 		<tag k="name" v="Bonstadvik" />
 		<tag k="place" v="farm" />
 		<tag k="ssr:stedsnr" v="824890" />
 	</node>
-	<node lat="68.68796111182444" lon="15.946799990286063" id="-37084">
+	<node lat="68.68796111182444" lon="15.946799990286063" id="-49010">
 		<tag k="name" v="Holand" />
 		<tag k="place" v="hamlet" />
 		<tag k="ssr:stedsnr" v="840499" />
 	</node>
-	<node lat="68.66979166310172" lon="15.902561119587821" id="-37136">
+	<node lat="68.66979166310172" lon="15.902561119587821" id="-49062">
 		<tag k="name" v="Lamarka" />
 		<tag k="place" v="locality" />
 		<tag k="ssr:stedsnr" v="867314" />
 	</node>
-	<node lat="68.73488333052809" lon="16.22436665550827" id="-37160">
+	<node lat="68.73488333052809" lon="16.22436665550827" id="-49086">
 		<tag k="alt_name" v="Hestevik;Heslevika" />
 		<tag k="name" v="Hestvika" />
 		<tag k="place" v="farm" />
 		<tag k="ssr:stedsnr" v="868925" />
 	</node>
-	<node lat="68.7366333330638" lon="16.0566666590635" id="-37170">
+	<node lat="68.7366333330638" lon="16.0566666590635" id="-49096">
 		<tag k="alt_name" v="Hemmestad indre" />
 		<tag k="name" v="Indre Hemmestad" />
 		<tag k="place" v="farm" />
 		<tag k="ssr:stedsnr" v="961415" />
 	</node>
-	<node lat="68.7339722215974" lon="16.054583338871442" id="-37171">
+	<node lat="68.7339722215974" lon="16.054583338871442" id="-49097">
 		<tag k="name" v="Brekka" />
 		<tag k="place" v="farm" />
 		<tag k="ssr:stedsnr" v="961416" />
 	</node>
-	<node lat="68.66876389231228" lon="16.36372778805944" id="-37200">
+	<node lat="68.66876389231228" lon="16.36372778805944" id="-49126">
 		<tag k="fixme" v="consider place=hamlet" />
 		<tag k="name" v="Storjorda - Stuorgieddi" />
 		<tag k="name:no" v="Storjorda" />
@@ -1610,43 +920,43 @@
 		<tag k="place" v="farm" />
 		<tag k="ssr:stedsnr" v="962590" />
 	</node>
-	<node lat="68.84255031937467" lon="16.128617554083704" id="-37203">
+	<node lat="68.84255031937467" lon="16.128617554083704" id="-49129">
 		<tag k="fixme" v="consider place=hamlet" />
 		<tag k="name" v="Aspenes" />
 		<tag k="place" v="farm" />
 		<tag k="ssr:stedsnr" v="962621" />
 	</node>
-	<node lat="68.57055443019738" lon="15.797155382577511" id="-37230">
+	<node lat="68.57055443019738" lon="15.797155382577511" id="-49156">
 		<tag k="fixme" v="consider place=hamlet" />
 		<tag k="name" v="Våtvoll" />
 		<tag k="place" v="farm" />
 		<tag k="ssr:stedsnr" v="1073130" />
 	</node>
-	<node lat="69.65483861708206" lon="18.954055597917613" id="-37233">
+	<node lat="69.65483861708206" lon="18.954055597917613" id="-49159">
 		<tag k="amenity" v="school" />
 		<tag k="name" v="Ishavsbyen videregående skole" />
 		<tag k="ssr:stedsnr" v="1075695" />
 	</node>
-	<node lat="68.71741310552923" lon="15.987128165129421" id="-37234">
+	<node lat="68.71741310552923" lon="15.987128165129421" id="-49160">
 		<tag k="alt_name" v="Røyrvik" />
 		<tag k="fixme" v="consider place=hamlet" />
 		<tag k="name" v="Rørvika" />
 		<tag k="place" v="farm" />
 		<tag k="ssr:stedsnr" v="1077078" />
 	</node>
-	<node lat="68.62422002845992" lon="15.66854643776133" id="-37235">
+	<node lat="68.62422002845992" lon="15.66854643776133" id="-49161">
 		<tag k="fixme" v="consider place=hamlet" />
 		<tag k="name" v="Langvassdalen" />
 		<tag k="place" v="farm" />
 		<tag k="ssr:stedsnr" v="1077079" />
 	</node>
-	<node lat="68.57205369300226" lon="15.83411691508311" id="-37236">
+	<node lat="68.57205369300226" lon="15.83411691508311" id="-49162">
 		<tag k="fixme" v="consider place=hamlet" />
 		<tag k="name" v="Moelv" />
 		<tag k="place" v="farm" />
 		<tag k="ssr:stedsnr" v="1077081" />
 	</node>
-	<node lat="68.73430850470199" lon="16.206139901103157" id="-37237">
+	<node lat="68.73430850470199" lon="16.206139901103157" id="-49163">
 		<tag k="fixme" v="consider place=hamlet" />
 		<tag k="name" v="Salen - Sáttal" />
 		<tag k="name:no" v="Salen" />
@@ -1654,14 +964,14 @@
 		<tag k="place" v="farm" />
 		<tag k="ssr:stedsnr" v="1077089" />
 	</node>
-	<node lat="68.6632426993855" lon="16.085931166007637" id="-37243">
+	<node lat="68.6632426993855" lon="16.085931166007637" id="-49169">
 		<tag k="name" v="Melåa - Mieluk" />
 		<tag k="name:no" v="Melåa" />
 		<tag k="name:se" v="Mieluk" />
 		<tag k="place" v="hamlet" />
 		<tag k="ssr:stedsnr" v="1077557" />
 	</node>
-	<node lat="68.73145736071204" lon="16.061893775118033" id="-37244">
+	<node lat="68.73145736071204" lon="16.061893775118033" id="-49170">
 		<tag k="fixme" v="consider place=hamlet" />
 		<tag k="name" v="Hemmestad - Hinak" />
 		<tag k="name:no" v="Hemmestad" />
@@ -1669,281 +979,33 @@
 		<tag k="place" v="village" />
 		<tag k="ssr:stedsnr" v="1077558" />
 	</node>
-	<node lat="68.82809653879175" lon="16.109447067463837" id="-37245">
+	<node lat="68.82809653879175" lon="16.109447067463837" id="-49171">
 		<tag k="name" v="Elda" />
 		<tag k="old_name" v="Elde" />
 		<tag k="place" v="farm" />
 		<tag k="ssr:stedsnr" v="1077813" />
 	</node>
-	<node lat="68.82232827432627" lon="16.108676524104528" id="-37246">
+	<node lat="68.82232827432627" lon="16.108676524104528" id="-49172">
 		<tag k="name" v="Elde" />
 		<tag k="place" v="farm" />
 		<tag k="ssr:stedsnr" v="1077814" />
 	</node>
-	<node lat="68.68187752647198" lon="16.034432261285158" id="-37247">
+	<node lat="68.68187752647198" lon="16.034432261285158" id="-49173">
 		<tag k="name" v="Revsnes" />
 		<tag k="old_name" v="Refsnes" />
 		<tag k="place" v="farm" />
 		<tag k="ssr:stedsnr" v="1077816" />
 	</node>
-	<node lat="68.68052669451782" lon="16.038226637105684" id="-37248">
+	<node lat="68.68052669451782" lon="16.038226637105684" id="-49174">
 		<tag k="name" v="Revsnes" />
 		<tag k="old_name" v="Refsnes" />
 		<tag k="place" v="farm" />
 		<tag k="ssr:stedsnr" v="1077817" />
 	</node>
-	<node lat="68.68068931707862" lon="16.03331591436094" id="-37249">
+	<node lat="68.68068931707862" lon="16.03331591436094" id="-49175">
 		<tag k="name" v="Revsnes" />
 		<tag k="old_name" v="Refsnes" />
 		<tag k="place" v="farm" />
 		<tag k="ssr:stedsnr" v="1077818" />
-=======
-	<node id="-850555" lat="68.7551686341" lon="16.1611651158">
-		<tag k="fixme" v="consider place=hamlet" />
-		<tag k="name" v="Hokland" />
-		<tag k="place" v="farm" />
-		<tag k="ssr:stedsnr" v="657376" />
-	</node>
-	<node id="-850553" lat="68.6835888883" lon="16.0310638888">
-		<tag k="alt_name" v="Refsnes" />
-		<tag k="name" v="Revsnes" />
-		<tag k="place" v="farm" />
-		<tag k="ssr:stedsnr" v="423128" />
-	</node>
-	<node id="-850557" lat="68.786721911" lon="16.0695667382">
-		<tag k="fixme" v="consider place=hamlet" />
-		<tag k="name" v="Øynes" />
-		<tag k="place" v="farm" />
-		<tag k="ssr:stedsnr" v="657418" />
-	</node>
-	<node id="-851569" lat="68.7426777781" lon="16.1030805535">
-		<tag k="name" v="Garnbukta" />
-		<tag k="place" v="isolated_dwelling" />
-		<tag k="ssr:stedsnr" v="563413" />
-	</node>
-	<node id="-851567" lat="68.8070638909" lon="16.2287861077">
-		<tag k="name" v="Koven" />
-		<tag k="place" v="isolated_dwelling" />
-		<tag k="ssr:stedsnr" v="563362" />
-	</node>
-	<node id="-850538" lat="68.5709139152" lon="15.7957724936">
-		<tag k="fixme" v="consider place=hamlet" />
-		<tag k="name" v="Våtvoll" />
-		<tag k="place" v="village" />
-		<tag k="ssr:stedsnr" v="503806" />
-	</node>
-	<node id="-850536" lat="68.5714999964" lon="15.8279027886">
-		<tag k="alt_name" v="Moelv" />
-		<tag k="fixme" v="consider place=hamlet" />
-		<tag k="name" v="Moelva" />
-		<tag k="place" v="village" />
-		<tag k="ssr:stedsnr" v="503801" />
-	</node>
-	<node id="-851558" lat="68.7543166658" lon="16.1644361099">
-		<tag k="name" v="Hokland" />
-		<tag k="place" v="farm" />
-		<tag k="ssr:stedsnr" v="563155" />
-	</node>
-	<node id="-851045" lat="68.6942583333" lon="16.3420416675">
-		<tag k="name" v="Almenningssætran" />
-		<tag k="place" v="locality" />
-		<tag k="ssr:stedsnr" v="51640" />
-	</node>
-	<node id="-850530" lat="68.5944333363" lon="15.8159944557">
-		<tag k="name" v="Skinnhallaren" />
-		<tag k="place" v="farm" />
-		<tag k="ssr:stedsnr" v="503783" />
-	</node>
-	<node id="-850617" lat="68.6707861079" lon="16.3699027702">
-		<tag k="name" v="Øvergården" />
-		<tag k="place" v="farm" />
-		<tag k="ssr:stedsnr" v="505114" />
-	</node>
-	<node id="-850515" lat="68.673386115" lon="16.0772139003">
-		<tag k="name" v="Bjørnlia" />
-		<tag k="place" v="farm" />
-		<tag k="ssr:stedsnr" v="503235" />
-	</node>
-	<node id="-851025" lat="68.5958333331" lon="15.8174555589">
-		<tag k="name" v="Skjåberget" />
-		<tag k="place" v="farm" />
-		<tag k="ssr:stedsnr" v="18784" />
-	</node>
-	<node id="-850616" lat="68.6917368231" lon="15.9551332171">
-		<tag k="fixme" v="consider place=hamlet" />
-		<tag k="name" v="Holand" />
-		<tag k="place" v="farm" />
-		<tag k="ssr:stedsnr" v="503461" />
-	</node>
-	<node id="-851022" lat="68.7423211991" lon="16.2765868946">
-		<tag k="name" v="Vik" />
-		<tag k="place" v="farm" />
-		<tag k="ssr:stedsnr" v="18761" />
-	</node>
-	<node id="-850505" lat="68.5970562364" lon="15.8280016588">
-		<tag k="alt_name:no" v="Gulholmen;Gullholm" />
-		<tag k="fixme" v="consider place=hamlet" />
-		<tag k="loc_name:se" v="Gollesuolu" />
-		<tag k="name" v="Gullholmen" />
-		<tag k="name:no" v="Gullholmen" />
-		<tag k="place" v="farm" />
-		<tag k="ssr:stedsnr" v="382804" />
-	</node>
-	<node id="-851322" lat="68.7440472209" lon="16.0687222317">
-		<tag k="name" v="Sandvika" />
-		<tag k="place" v="farm" />
-		<tag k="ssr:stedsnr" v="321406" />
-	</node>
-	<node id="-852022" lat="68.7343085047" lon="16.2061399011">
-		<tag k="fixme" v="consider place=hamlet" />
-		<tag k="name" v="Salen" />
-		<tag k="place" v="farm" />
-		<tag k="ssr:stedsnr" v="1077089" />
-	</node>
-	<node id="-852021" lat="68.572053693" lon="15.8341169151">
-		<tag k="fixme" v="consider place=hamlet" />
-		<tag k="name" v="Moelv" />
-		<tag k="place" v="farm" />
-		<tag k="ssr:stedsnr" v="1077081" />
-	</node>
-	<node id="-852020" lat="68.6242200285" lon="15.6685464378">
-		<tag k="fixme" v="consider place=hamlet" />
-		<tag k="name" v="Langvassdalen" />
-		<tag k="place" v="farm" />
-		<tag k="ssr:stedsnr" v="1077079" />
-	</node>
-	<node id="-852019" lat="68.7174131055" lon="15.9871281651">
-		<tag k="alt_name" v="Røyrvik" />
-		<tag k="fixme" v="consider place=hamlet" />
-		<tag k="name" v="Rørvika" />
-		<tag k="place" v="farm" />
-		<tag k="ssr:stedsnr" v="1077078" />
-	</node>
-	<node id="-852018" lat="69.6807751959" lon="19.0868014399">
-		<tag k="fixme" v="consider place=hamlet" />
-		<tag k="name" v="Krokelv" />
-		<tag k="place" v="farm" />
-		<tag k="ssr:stedsnr" v="1076826" />
-	</node>
-	<node id="-851503" lat="68.7394666709" lon="16.0647360995">
-		<tag k="name" v="Nergård" />
-		<tag k="place" v="farm" />
-		<tag k="ssr:stedsnr" v="522666" />
-	</node>
-	<node id="-852012" lat="69.6548386171" lon="18.9540555979">
-		<tag k="amenity" v="school" />
-		<tag k="name" v="Ishavsbyen videregående skole" />
-		<tag k="ssr:stedsnr" v="1075695" />
-	</node>
-	<node id="-852009" lat="68.5705544302" lon="15.7971553826">
-		<tag k="fixme" v="consider place=hamlet" />
-		<tag k="name" v="Våtvoll" />
-		<tag k="place" v="farm" />
-		<tag k="ssr:stedsnr" v="1073130" />
-	</node>
-	<node id="-850609" lat="68.7896735783" lon="16.1212993945">
-		<tag k="name" v="Dale" />
-		<tag k="place" v="farm" />
-		<tag k="ssr:stedsnr" v="503073" />
-	</node>
-	<node id="-850972" lat="68.7339722216" lon="16.0545833389">
-		<tag k="name" v="Brekka" />
-		<tag k="place" v="farm" />
-		<tag k="ssr:stedsnr" v="961416" />
-	</node>
-	<node id="-850971" lat="68.7366333331" lon="16.0566666591">
-		<tag k="alt_name" v="Hemmestad indre" />
-		<tag k="name" v="Indre Hemmestad" />
-		<tag k="place" v="farm" />
-		<tag k="ssr:stedsnr" v="961415" />
-	</node>
-	<node id="-850969" lat="68.6735549193" lon="16.3487374967">
-		<tag k="fixme" v="consider place=hamlet" />
-		<tag k="name" v="Storjorda" />
-		<tag k="place" v="village" />
-		<tag k="ssr:stedsnr" v="930111" />
-	</node>
-	<node id="-850966" lat="68.7181084128" lon="16.0610836502">
-		<tag k="alt_name" v="Skommesvika" />
-		<tag k="fixme" v="consider place=hamlet" />
-		<tag k="name" v="Skommesvik" />
-		<tag k="place" v="farm" />
-		<tag k="ssr:stedsnr" v="928442" />
-	</node>
-	<node id="-850265" lat="68.7638496847" lon="16.2230628387">
-		<tag k="alt_name" v="Gåra, yt" />
-		<tag k="fixme" v="consider place=hamlet" />
-		<tag k="name" v="Ytre Gåra" />
-		<tag k="place" v="farm" />
-		<tag k="ssr:stedsnr" v="260471" />
-	</node>
-	<node id="-850963" lat="68.7390166646" lon="16.1248000018">
-		<tag k="alt_name" v="Vebestadsætran" />
-		<tag k="name" v="Vebbestadsætran" />
-		<tag k="place" v="isolated_dwelling" />
-		<tag k="ssr:stedsnr" v="928413" />
-	</node>
-	<node id="-850298" lat="68.5878444449" lon="15.8224277836">
-		<tag k="name" v="Åsheim" />
-		<tag k="place" v="farm" />
-		<tag k="ssr:stedsnr" v="112840" />
-	</node>
-	<node id="-851715" lat="68.5616500024" lon="15.746583324">
-		<tag k="name" v="Løbergsbukta" />
-		<tag k="place" v="isolated_dwelling" />
-		<tag k="ssr:stedsnr" v="745891" />
-	</node>
-	<node id="-850960" lat="68.6178722211" lon="15.7603416739">
-		<tag k="fixme" v="consider place=hamlet" />
-		<tag k="loc_name" v="Langvassbukt" />
-		<tag k="name" v="Langvassbukta" />
-		<tag k="place" v="village" />
-		<tag k="ssr:stedsnr" v="928321" />
-	</node>
-	<node id="-851982" lat="68.6687638923" lon="16.3637277881">
-		<tag k="fixme" v="consider place=hamlet" />
-		<tag k="name" v="Storjorda" />
-		<tag k="place" v="farm" />
-		<tag k="ssr:stedsnr" v="962590" />
-	</node>
-	<node id="-850445" lat="68.8271333313" lon="16.1100499888">
-		<tag k="name" v="Elda" />
-		<tag k="place" v="farm" />
-		<tag k="ssr:stedsnr" v="464147" />
-	</node>
-	<node id="-850444" lat="68.8220638876" lon="16.0963277646">
-		<tag k="name" v="Elda" />
-		<tag k="place" v="farm" />
-		<tag k="ssr:stedsnr" v="464144" />
-	</node>
-	<node id="-850443" lat="68.821124996" lon="16.1028055486">
-		<tag k="name" v="Elda" />
-		<tag k="place" v="farm" />
-		<tag k="ssr:stedsnr" v="464143" />
-	</node>
-	<node id="-850442" lat="68.8487905535" lon="16.1712666837">
-		<tag k="alt_name" v="Ytre Mollvik" />
-		<tag k="fixme" v="consider place=hamlet" />
-		<tag k="name" v="Elva" />
-		<tag k="place" v="farm" />
-		<tag k="ssr:stedsnr" v="460901" />
-	</node>
-	<node id="-850439" lat="68.7611179408" lon="16.2425782072">
-		<tag k="name" v="Gåra" />
-		<tag k="place" v="hamlet" />
-		<tag k="ssr:stedsnr" v="450039" />
-	</node>
-	<node id="-850177" lat="68.7693441606" lon="16.2050968675">
-		<tag k="fixme" v="consider place=hamlet" />
-		<tag k="name" v="Strand" />
-		<tag k="place" v="farm" />
-		<tag k="ssr:stedsnr" v="233325" />
-	</node>
-	<node id="-851201" lat="68.7695760128" lon="16.0766580661">
-		<tag k="fixme" v="consider place=hamlet" />
-		<tag k="name" v="Haug" />
-		<tag k="place" v="farm" />
-		<tag k="ssr:stedsnr" v="158676" />
->>>>>>> e1d4bc35ff8a6074a6f2e91616a996b547c36f15
 	</node>
 </osm>
