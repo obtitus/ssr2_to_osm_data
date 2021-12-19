@@ -1,9 +1,3 @@
-utility_to_osm - ERROR - ERROR, no ending in ssr2_to_osm_data/data/3424/3424-ssr.xml? Trying to re-download "/app:Skrivemåte>
-          </app:skrivemåte>
-        </app:Stedsnavn>
-      </app:stedsnavn>
-    </app:Sted>
-  </wfs:member"
 utility_to_osm - WARNING - ssr:stedsnr = 8202 has multiple (2) positions, using the first one!
 utility_to_osm - WARNING - ssr:stedsnr = 10295 has multiple (4) positions, using the first one!
 utility_to_osm - WARNING - ssr:stedsnr = 10298 has multiple (5) positions, using the first one!
@@ -19,7 +13,7 @@ utility_to_osm - ERROR - ssr:stedsnr = 10384: Adding multiple names to name tag,
 utility_to_osm - WARNING - ssr:stedsnr = 10384 has multiple (4) positions, using the first one!
 utility_to_osm - WARNING - ssr:stedsnr = 10433 has multiple (2) positions, using the first one!
 utility_to_osm - WARNING - ssr:stedsnr = 10448 has multiple (3) positions, using the first one!
-utility_to_osm - WARNING - ssr:stedsnr = 10713 has multiple (4) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 10713: No priority spelling found for lang = no, using alt_name to get "[('no', 'Pæla')]"
 utility_to_osm - WARNING - ssr:stedsnr = 11011 has multiple (2) positions, using the first one!
 utility_to_osm - WARNING - ssr:stedsnr = 11033 has multiple (3) positions, using the first one!
 utility_to_osm - WARNING - ssr:stedsnr = 11040 has multiple (4) positions, using the first one!
@@ -95,6 +89,7 @@ utility_to_osm - WARNING - ssr:stedsnr = 251169 has multiple (4) positions, usin
 utility_to_osm - ERROR - ssr:stedsnr = 252240: Adding multiple names to name tag, this is not OK! name = "Storkjølen;Gammelsæterkjølen"
 utility_to_osm - WARNING - ssr:stedsnr = 252263 has multiple (2) positions, using the first one!
 utility_to_osm - WARNING - ssr:stedsnr = 252292 has multiple (2) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 252310: No priority spelling found for lang = no, using alt_name to get "[('no', 'Borveggen')]"
 utility_to_osm - WARNING - ssr:stedsnr = 252310 has multiple (5) positions, using the first one!
 utility_to_osm - WARNING - ssr:stedsnr = 252312 has multiple (2) positions, using the first one!
 utility_to_osm - WARNING - ssr:stedsnr = 252383 has multiple (2) positions, using the first one!
@@ -118,6 +113,7 @@ utility_to_osm - WARNING - ssr:stedsnr = 131323 has multiple (3) positions, usin
 utility_to_osm - WARNING - ssr:stedsnr = 131324 has multiple (4) positions, using the first one!
 utility_to_osm - WARNING - ssr:stedsnr = 131278 has multiple (2) positions, using the first one!
 utility_to_osm - WARNING - ssr:stedsnr = 131283 has multiple (2) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 252692: No priority spelling found for lang = no, using alt_name to get "[('no', 'Lauvåstjønna')]"
 utility_to_osm - WARNING - ssr:stedsnr = 252693 has multiple (3) positions, using the first one!
 utility_to_osm - WARNING - ssr:stedsnr = 131417 has multiple (2) positions, using the first one!
 utility_to_osm - WARNING - ssr:stedsnr = 131467 has multiple (3) positions, using the first one!
@@ -224,6 +220,7 @@ utility_to_osm - WARNING - ssr:stedsnr = 314210 has multiple (3) positions, usin
 utility_to_osm - WARNING - ssr:stedsnr = 314212 has multiple (2) positions, using the first one!
 utility_to_osm - WARNING - ssr:stedsnr = 314221 has multiple (2) positions, using the first one!
 utility_to_osm - WARNING - ssr:stedsnr = 314225 has multiple (3) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 314104: No priority spelling found for lang = no, using alt_name to get "[('no', 'Slagglandet')]"
 utility_to_osm - WARNING - ssr:stedsnr = 314104 has multiple (3) positions, using the first one!
 utility_to_osm - WARNING - ssr:stedsnr = 314110 has multiple (2) positions, using the first one!
 utility_to_osm - WARNING - ssr:stedsnr = 314121 has multiple (3) positions, using the first one!
@@ -290,6 +287,7 @@ utility_to_osm - WARNING - ssr:stedsnr = 422292 has multiple (2) positions, usin
 utility_to_osm - WARNING - ssr:stedsnr = 422593: No priority spelling found for lang = no, using alt_name to get "[('no', 'Nedalsveien')]"
 utility_to_osm - ERROR - ssr:stedsnr = 422593. No positions found, skipping
 utility_to_osm - WARNING - ssr:stedsnr = 422695 has multiple (2) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 422857: No priority spelling found for lang = no, using alt_name to get "[('no', 'Myssmørbekken')]"
 utility_to_osm - WARNING - ssr:stedsnr = 433130 has multiple (2) positions, using the first one!
 utility_to_osm - WARNING - ssr:stedsnr = 433185 has multiple (3) positions, using the first one!
 utility_to_osm - WARNING - ssr:stedsnr = 433193 has multiple (3) positions, using the first one!
@@ -333,7 +331,8 @@ utility_to_osm - WARNING - ssr:stedsnr = 677280 has multiple (3) positions, usin
 utility_to_osm - WARNING - ssr:stedsnr = 677293 has multiple (4) positions, using the first one!
 utility_to_osm - WARNING - ssr:stedsnr = 677299 has multiple (3) positions, using the first one!
 utility_to_osm - WARNING - ssr:stedsnr = 677300 has multiple (3) positions, using the first one!
-utility_to_osm - ERROR - ssr:stedsnr = 677304: Adding multiple names to name tag, this is not OK! name = "Skjerbekkraudkollen;Lauvåskampen"
+utility_to_osm - WARNING - ssr:stedsnr = 677304: No priority spelling found for lang = no, using alt_name to get "[('no', 'Skjærbekkraudkollen'), ('no', 'Lauvåskampen')]"
+utility_to_osm - ERROR - ssr:stedsnr = 677304: Adding multiple names to name tag, this is not OK! name = "Skjærbekkraudkollen;Lauvåskampen"
 utility_to_osm - WARNING - ssr:stedsnr = 677309 has multiple (3) positions, using the first one!
 utility_to_osm - WARNING - ssr:stedsnr = 677310 has multiple (5) positions, using the first one!
 utility_to_osm - WARNING - ssr:stedsnr = 677357 has multiple (3) positions, using the first one!
@@ -351,6 +350,7 @@ utility_to_osm - WARNING - ssr:stedsnr = 677474 has multiple (2) positions, usin
 utility_to_osm - WARNING - ssr:stedsnr = 677476 has multiple (2) positions, using the first one!
 utility_to_osm - WARNING - ssr:stedsnr = 677704 has multiple (4) positions, using the first one!
 utility_to_osm - WARNING - ssr:stedsnr = 677705 has multiple (2) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 678001: No priority spelling found for lang = no, using alt_name to get "[('no', 'Bursledet')]"
 utility_to_osm - WARNING - ssr:stedsnr = 678029 has multiple (3) positions, using the first one!
 utility_to_osm - WARNING - ssr:stedsnr = 678051 has multiple (2) positions, using the first one!
 utility_to_osm - WARNING - ssr:stedsnr = 678055 has multiple (2) positions, using the first one!
@@ -420,6 +420,7 @@ utility_to_osm - ERROR - ssr:stedsnr = 554225: Adding multiple names to name tag
 utility_to_osm - WARNING - ssr:stedsnr = 555317 has multiple (3) positions, using the first one!
 utility_to_osm - WARNING - ssr:stedsnr = 555318 has multiple (2) positions, using the first one!
 utility_to_osm - WARNING - ssr:stedsnr = 555384 has multiple (3) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 555273: No priority spelling found for lang = no, using alt_name to get "[('no', 'Bortjønna')]"
 utility_to_osm - WARNING - ssr:stedsnr = 555273 has multiple (5) positions, using the first one!
 utility_to_osm - WARNING - ssr:stedsnr = 556103 has multiple (4) positions, using the first one!
 utility_to_osm - WARNING - ssr:stedsnr = 556163 has multiple (4) positions, using the first one!
@@ -910,6 +911,7 @@ utility_to_osm - WARNING - ssr:stedsnr = 131451 has multiple (2) positions, usin
 utility_to_osm - WARNING - ssr:stedsnr = 131463 has multiple (3) positions, using the first one!
 utility_to_osm - WARNING - ssr:stedsnr = 132062 has multiple (2) positions, using the first one!
 utility_to_osm - WARNING - ssr:stedsnr = 132063 has multiple (2) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 131723: No priority spelling found for lang = no, using alt_name to get "[('no', 'Lauvåstjønnbekken')]"
 utility_to_osm - WARNING - ssr:stedsnr = 131723 has multiple (3) positions, using the first one!
 utility_to_osm - WARNING - ssr:stedsnr = 131727 has multiple (3) positions, using the first one!
 utility_to_osm - WARNING - ssr:stedsnr = 131954 has multiple (2) positions, using the first one!
@@ -1000,3 +1002,621 @@ utility_to_osm - WARNING - ssr:stedsnr = 193946 has multiple (3) positions, usin
 utility_to_osm - WARNING - ssr:stedsnr = 193980 has multiple (3) positions, using the first one!
 utility_to_osm - WARNING - ssr:stedsnr = 202296 has multiple (3) positions, using the first one!
 utility_to_osm - WARNING - ssr:stedsnr = 202285 has multiple (2) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 204285 has multiple (3) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 208381 has multiple (3) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 214989 has multiple (2) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 301054: No priority spelling found for lang = no, using alt_name to get "[('no', 'Moraveien')]"
+utility_to_osm - ERROR - ssr:stedsnr = 301054. No positions found, skipping
+utility_to_osm - WARNING - ssr:stedsnr = 301830 has multiple (2) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 301845 has multiple (2) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 311218 has multiple (2) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 311261 has multiple (5) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 312085 has multiple (3) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 314274 has multiple (3) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 314279 has multiple (2) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 314280 has multiple (4) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 313389 has multiple (2) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 313406 has multiple (23) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 313296 has multiple (2) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 313333 has multiple (2) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 313336 has multiple (2) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 313449 has multiple (3) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 313711 has multiple (3) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 313714 has multiple (2) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 313717 has multiple (4) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 313700 has multiple (4) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 314030 has multiple (2) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 314032 has multiple (2) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 314047 has multiple (2) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 314053 has multiple (2) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 314057 has multiple (2) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 314145 has multiple (3) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 314148 has multiple (2) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 314251 has multiple (3) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 314255 has multiple (3) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 314355 has multiple (2) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 314428: No priority spelling found for lang = no, using alt_name to get "[('no', 'Storlægda')]"
+utility_to_osm - WARNING - ssr:stedsnr = 314093 has multiple (2) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 314095 has multiple (5) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 314185 has multiple (3) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 314188 has multiple (3) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 314387 has multiple (3) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 314388 has multiple (2) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 314400 has multiple (2) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 314451: No priority spelling found for lang = no, using alt_name to get "[('no', 'Treklettan')]"
+utility_to_osm - WARNING - ssr:stedsnr = 314451 has multiple (4) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 314967 has multiple (3) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 314968 has multiple (3) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 323298 has multiple (2) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 331848 has multiple (2) positions, using the first one!
+utility_to_osm - ERROR - ssr:stedsnr = 349345. No positions found, skipping
+utility_to_osm - ERROR - ssr:stedsnr = 349350. No positions found, skipping
+utility_to_osm - WARNING - ssr:stedsnr = 359183 has multiple (2) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 359790 has multiple (3) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 360389 has multiple (3) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 360397 has multiple (2) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 361347 has multiple (2) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 361360 has multiple (2) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 361437 has multiple (2) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 361660 has multiple (2) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 361852 has multiple (2) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 361866 has multiple (3) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 361930: No priority spelling found for lang = no, using alt_name to get "[('no', 'Krokbekkveien')]"
+utility_to_osm - ERROR - ssr:stedsnr = 361930. No positions found, skipping
+utility_to_osm - WARNING - ssr:stedsnr = 363426: No priority spelling found for lang = no, using alt_name to get "[('no', 'Tegningdalen naturreservat')]"
+utility_to_osm - WARNING - ssr:stedsnr = 372072 has multiple (3) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 372074 has multiple (2) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 372200 has multiple (4) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 373431 has multiple (2) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 373442 has multiple (2) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 373272 has multiple (6) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 373294 has multiple (3) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 374028 has multiple (5) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 374037 has multiple (2) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 374038 has multiple (7) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 374039 has multiple (2) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 374226 has multiple (2) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 374227 has multiple (3) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 374257 has multiple (10) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 374071 has multiple (2) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 375959 has multiple (2) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 375962 has multiple (3) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 375970 has multiple (2) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 374283 has multiple (2) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 374378 has multiple (2) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 374379 has multiple (4) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 374386 has multiple (2) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 374471 has multiple (18) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 374478 has multiple (2) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 375019 has multiple (3) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 375099 has multiple (3) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 375126 has multiple (4) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 375128 has multiple (3) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 375072 has multiple (2) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 375314 has multiple (2) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 375353 has multiple (2) positions, using the first one!
+utility_to_osm - ERROR - ssr:stedsnr = 375177: Adding multiple names to name tag, this is not OK! name = "Moen;Dalene"
+utility_to_osm - WARNING - ssr:stedsnr = 375177 has multiple (2) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 375372 has multiple (3) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 495330 has multiple (2) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 495344 has multiple (5) positions, using the first one!
+utility_to_osm - ERROR - ssr:stedsnr = 390408. No positions found, skipping
+utility_to_osm - ERROR - ssr:stedsnr = 410295. No positions found, skipping
+utility_to_osm - WARNING - ssr:stedsnr = 420415 has multiple (2) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 422651 has multiple (2) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 426301: No priority spelling found for lang = no, using alt_name to get "[('no', 'Glåma'), ('no', 'Glomma')]"
+utility_to_osm - ERROR - ssr:stedsnr = 426301: Adding multiple names to name tag, this is not OK! name = "Glåma;Glomma"
+utility_to_osm - WARNING - ssr:stedsnr = 426301 has multiple (342) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 434291: No priority spelling found for lang = no, using alt_name to get "[('no', 'Skjærbekken')]"
+utility_to_osm - WARNING - ssr:stedsnr = 435150 has multiple (2) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 435152 has multiple (3) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 435153 has multiple (2) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 435156 has multiple (2) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 435237 has multiple (4) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 435243 has multiple (2) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 434301 has multiple (3) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 434302 has multiple (2) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 435003 has multiple (4) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 435095 has multiple (2) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 435395 has multiple (2) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 435024 has multiple (2) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 435042 has multiple (3) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 435045 has multiple (2) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 435047 has multiple (2) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 435060 has multiple (2) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 435930 has multiple (2) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 435948 has multiple (3) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 435341 has multiple (2) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 435418 has multiple (5) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 435419 has multiple (2) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 435422 has multiple (3) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 435423 has multiple (2) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 435432 has multiple (2) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 435437 has multiple (2) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 435438 has multiple (2) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 435454 has multiple (2) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 435498 has multiple (3) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 435500 has multiple (3) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 436196 has multiple (3) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 436076 has multiple (4) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 436077 has multiple (3) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 436093 has multiple (2) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 436094 has multiple (3) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 436324 has multiple (2) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 436944 has multiple (6) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 436961 has multiple (3) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 436985 has multiple (2) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 444263 has multiple (2) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 495294 has multiple (3) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 495297 has multiple (3) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 495299 has multiple (5) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 495302 has multiple (2) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 495440 has multiple (3) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 495444 has multiple (3) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 495350 has multiple (3) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 495376 has multiple (2) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 495378 has multiple (3) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 495384 has multiple (2) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 495387 has multiple (2) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 495388 has multiple (3) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 495403 has multiple (2) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 495832 has multiple (2) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 496472 has multiple (2) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 496478 has multiple (3) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 496005 has multiple (2) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 496022 has multiple (2) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 496027 has multiple (2) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 496031 has multiple (2) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 496036 has multiple (3) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 496051 has multiple (5) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 496388 has multiple (2) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 496069 has multiple (2) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 496079 has multiple (2) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 496087 has multiple (2) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 496095: No priority spelling found for lang = no, using alt_name to get "[('no', 'Nekmyrene')]"
+utility_to_osm - WARNING - ssr:stedsnr = 496095 has multiple (3) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 496114 has multiple (2) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 496119 has multiple (6) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 496128 has multiple (3) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 496142 has multiple (2) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 496143 has multiple (6) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 496147 has multiple (2) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 496160 has multiple (3) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 496163 has multiple (3) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 496198 has multiple (6) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 496436 has multiple (2) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 496440 has multiple (2) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 496977 has multiple (3) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 496989 has multiple (2) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 496928 has multiple (4) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 496933 has multiple (3) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 505298 has multiple (2) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 509508 has multiple (2) positions, using the first one!
+utility_to_osm - ERROR - ssr:stedsnr = 532253. No positions found, skipping
+utility_to_osm - ERROR - ssr:stedsnr = 532257. No positions found, skipping
+utility_to_osm - ERROR - ssr:stedsnr = 532258. No positions found, skipping
+utility_to_osm - ERROR - ssr:stedsnr = 532262. No positions found, skipping
+utility_to_osm - WARNING - ssr:stedsnr = 541345: No priority spelling found for lang = no, using alt_name to get "[('no', 'Badstubakken')]"
+utility_to_osm - WARNING - ssr:stedsnr = 542746 has multiple (2) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 543843 has multiple (2) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 554093 has multiple (4) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 554178 has multiple (2) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 554209 has multiple (7) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 554217 has multiple (4) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 554222 has multiple (5) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 555229 has multiple (4) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 555231 has multiple (2) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 555237 has multiple (2) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 555324 has multiple (2) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 555326 has multiple (2) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 555330 has multiple (2) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 555336 has multiple (2) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 555339 has multiple (3) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 555429 has multiple (4) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 555438 has multiple (2) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 555442 has multiple (2) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 555443 has multiple (3) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 556019 has multiple (4) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 556021 has multiple (2) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 556038 has multiple (2) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 556042 has multiple (2) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 556050 has multiple (2) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 556051 has multiple (2) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 556052 has multiple (3) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 556053 has multiple (2) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 556156 has multiple (2) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 555445 has multiple (2) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 555446 has multiple (2) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 555671 has multiple (3) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 555680 has multiple (3) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 555686 has multiple (4) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 556001 has multiple (2) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 556067 has multiple (2) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 556068 has multiple (2) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 556089 has multiple (5) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 556091 has multiple (15) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 556199 has multiple (7) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 556245 has multiple (3) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 556411 has multiple (2) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 556412 has multiple (2) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 556419 has multiple (4) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 556421 has multiple (2) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 556422 has multiple (3) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 556427 has multiple (2) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 556428 has multiple (4) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 556446 has multiple (2) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 556451 has multiple (2) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 556266 has multiple (2) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 556276 has multiple (5) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 556287 has multiple (3) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 556396 has multiple (3) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 556484 has multiple (2) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 556492 has multiple (4) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 556507 has multiple (4) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 556513 has multiple (2) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 556788 has multiple (2) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 556994 has multiple (2) positions, using the first one!
+utility_to_osm - ERROR - ssr:stedsnr = 557134: Adding multiple names to name tag, this is not OK! name = "Kvernbekkmoen;Tobro"
+utility_to_osm - WARNING - ssr:stedsnr = 557142 has multiple (3) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 557227 has multiple (3) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 557228 has multiple (2) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 557382 has multiple (3) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 557939 has multiple (3) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 565277 has multiple (2) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 565278 has multiple (2) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 572031 has multiple (3) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 572129 has multiple (4) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 572474 has multiple (2) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 602184 has multiple (3) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 602188 has multiple (2) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 604075 has multiple (2) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 604818: No priority spelling found for lang = no, using alt_name to get "[('no', 'Kaldbergveien')]"
+utility_to_osm - ERROR - ssr:stedsnr = 604818. No positions found, skipping
+utility_to_osm - WARNING - ssr:stedsnr = 604497 has multiple (2) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 614112 has multiple (35) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 615094 has multiple (2) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 616211 has multiple (4) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 616233 has multiple (3) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 616319: No priority spelling found for lang = no, using alt_name to get "[('no', 'Skjærbekksvingen')]"
+utility_to_osm - WARNING - ssr:stedsnr = 616322 has multiple (3) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 616425 has multiple (2) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 616429 has multiple (2) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 616262 has multiple (3) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 616268 has multiple (2) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 616275 has multiple (2) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 616373 has multiple (2) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 616377 has multiple (2) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 616387 has multiple (2) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 616462 has multiple (2) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 616464 has multiple (3) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 616466 has multiple (3) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 616467 has multiple (3) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 616471 has multiple (5) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 616479 has multiple (2) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 616484 has multiple (2) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 616485 has multiple (3) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 616436 has multiple (4) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 617017 has multiple (3) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 617023 has multiple (3) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 617025 has multiple (3) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 617029 has multiple (3) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 617103 has multiple (2) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 617122 has multiple (2) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 617066 has multiple (5) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 617068 has multiple (4) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 617071 has multiple (2) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 617074 has multiple (4) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 617171 has multiple (3) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 617222 has multiple (2) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 617223 has multiple (3) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 617224 has multiple (2) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 617229 has multiple (2) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 617248 has multiple (4) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 617255 has multiple (6) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 617260 has multiple (2) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 617263 has multiple (3) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 617274 has multiple (6) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 617340 has multiple (2) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 617352 has multiple (3) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 617353 has multiple (2) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 617360 has multiple (2) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 617476 has multiple (2) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 617480 has multiple (3) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 617945 has multiple (3) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 626294 has multiple (2) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 627333 has multiple (2) positions, using the first one!
+utility_to_osm - ERROR - ssr:stedsnr = 653259. No positions found, skipping
+utility_to_osm - ERROR - ssr:stedsnr = 653261. No positions found, skipping
+utility_to_osm - WARNING - ssr:stedsnr = 653264 has multiple (2) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 658664 has multiple (5) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 664269 has multiple (3) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 665823 has multiple (2) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 665860 has multiple (3) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 721661 has multiple (4) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 724401 has multiple (4) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 724414 has multiple (2) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 724417 has multiple (2) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 724643 has multiple (2) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 724796 has multiple (2) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 724800 has multiple (2) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 726666 has multiple (3) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 726798 has multiple (2) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 726850 has multiple (2) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 736130 has multiple (2) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 736082 has multiple (2) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 736199 has multiple (15) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 738016 has multiple (2) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 738029 has multiple (4) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 738031 has multiple (2) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 738045 has multiple (4) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 738082 has multiple (2) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 738091 has multiple (2) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 738102 has multiple (2) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 738431 has multiple (2) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 738445 has multiple (2) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 738180 has multiple (5) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 738181 has multiple (3) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 738184 has multiple (4) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 738279 has multiple (3) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 738294 has multiple (2) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 738298 has multiple (4) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 738299 has multiple (2) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 738332 has multiple (3) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 738335 has multiple (3) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 738344 has multiple (4) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 738348 has multiple (4) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 738351 has multiple (15) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 738475 has multiple (2) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 738476 has multiple (3) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 738481 has multiple (4) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 738933 has multiple (3) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 739034: No priority spelling found for lang = no, using alt_name to get "[('no', 'Purksundmyra')]"
+utility_to_osm - WARNING - ssr:stedsnr = 739063 has multiple (3) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 739065 has multiple (2) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 739068 has multiple (2) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 739080 has multiple (2) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 739090 has multiple (2) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 739134 has multiple (2) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 739136 has multiple (4) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 739142 has multiple (2) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 739325 has multiple (4) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 739194 has multiple (2) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 739380 has multiple (2) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 739388 has multiple (2) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 739433 has multiple (2) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 739443 has multiple (2) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 739999 has multiple (3) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 739933 has multiple (3) positions, using the first one!
+utility_to_osm - ERROR - ssr:stedsnr = 754037. No positions found, skipping
+utility_to_osm - WARNING - ssr:stedsnr = 784373 has multiple (3) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 785886 has multiple (2) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 786089 has multiple (2) positions, using the first one!
+utility_to_osm - ERROR - ssr:stedsnr = 797129: Adding multiple names to name tag, this is not OK! name = "Karitjønna;Klettjønna"
+utility_to_osm - WARNING - ssr:stedsnr = 797129 has multiple (3) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 797074 has multiple (2) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 797196 has multiple (4) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 798267 has multiple (2) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 798271 has multiple (3) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 799332 has multiple (3) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 799001 has multiple (2) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 799002 has multiple (2) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 799028 has multiple (3) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 799070 has multiple (2) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 799173 has multiple (5) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 799175 has multiple (2) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 799263 has multiple (5) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 799283 has multiple (5) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 799356 has multiple (4) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 799367 has multiple (3) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 799369 has multiple (5) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 799378 has multiple (2) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 799443 has multiple (2) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 799448 has multiple (2) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 799420 has multiple (2) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 799423 has multiple (3) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 799428 has multiple (2) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 799430 has multiple (4) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 800059 has multiple (2) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 800063 has multiple (2) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 800064 has multiple (2) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 800068 has multiple (3) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 799467 has multiple (2) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 799470 has multiple (2) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 799473 has multiple (2) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 799957 has multiple (2) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 799966 has multiple (3) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 800017 has multiple (2) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 800021 has multiple (2) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 800023 has multiple (3) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 800098 has multiple (2) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 800122 has multiple (2) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 800133 has multiple (2) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 800140 has multiple (3) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 800143 has multiple (3) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 800161 has multiple (2) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 800206 has multiple (5) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 800218 has multiple (4) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 800219 has multiple (3) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 800222 has multiple (3) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 800238 has multiple (3) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 800240 has multiple (3) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 800241 has multiple (3) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 800353 has multiple (2) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 800357 has multiple (2) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 800360 has multiple (2) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 808271 has multiple (3) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 808277 has multiple (2) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 808279 has multiple (6) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 814461 has multiple (4) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 814585 has multiple (2) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 815533 has multiple (3) positions, using the first one!
+utility_to_osm - ERROR - ssr:stedsnr = 815129. No positions found, skipping
+utility_to_osm - WARNING - ssr:stedsnr = 817856 has multiple (2) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 847071 has multiple (2) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 847452 has multiple (2) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 847909 has multiple (7) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 847912 has multiple (2) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 859270 has multiple (2) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 859288 has multiple (3) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 859257 has multiple (2) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 859690 has multiple (5) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 859701 has multiple (2) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 860142 has multiple (3) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 860037 has multiple (2) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 860044 has multiple (3) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 860053 has multiple (2) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 860072 has multiple (4) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 860073 has multiple (2) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 860075 has multiple (3) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 860077 has multiple (3) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 860081 has multiple (2) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 860198 has multiple (3) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 860419 has multiple (2) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 860425 has multiple (4) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 860428 has multiple (3) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 860433 has multiple (5) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 860435 has multiple (2) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 860454 has multiple (2) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 860382 has multiple (4) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 860385 has multiple (2) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 860396 has multiple (2) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 860494 has multiple (5) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 860948 has multiple (3) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 860990 has multiple (2) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 861130 has multiple (2) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 861133 has multiple (4) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 861148 has multiple (2) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 861149 has multiple (3) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 861948 has multiple (6) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 861964 has multiple (5) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 869298 has multiple (2) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 869302 has multiple (2) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 869320 has multiple (2) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 936382 has multiple (2) positions, using the first one!
+utility_to_osm - ERROR - ssr:stedsnr = 957277. No positions found, skipping
+utility_to_osm - WARNING - ssr:stedsnr = 966117 has multiple (2) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 966419: No priority spelling found for lang = no, using alt_name to get "[('no', 'Østvollveien')]"
+utility_to_osm - ERROR - ssr:stedsnr = 966419. No positions found, skipping
+utility_to_osm - WARNING - ssr:stedsnr = 966317 has multiple (2) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 968129 has multiple (2) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 968872 has multiple (2) positions, using the first one!
+utility_to_osm - WARNING - ssr:stedsnr = 971418: No priority spelling found for lang = no, using alt_name to get "[('no', 'Misterlia naturreservat')]"
+utility_to_osm - ERROR - ssr:stedsnr = 976907. No positions found, skipping
+utility_to_osm - WARNING - ssr:stedsnr = 976908: No priority spelling found for lang = no, using alt_name to get "[('no', 'Øverliveien')]"
+utility_to_osm - ERROR - ssr:stedsnr = 976908. No positions found, skipping
+utility_to_osm - WARNING - ssr:stedsnr = 976909: No priority spelling found for lang = no, using alt_name to get "[('no', 'Skoleveien')]"
+utility_to_osm - ERROR - ssr:stedsnr = 976909. No positions found, skipping
+utility_to_osm - ERROR - ssr:stedsnr = 976910. No positions found, skipping
+utility_to_osm - ERROR - ssr:stedsnr = 976911. No positions found, skipping
+utility_to_osm - WARNING - ssr:stedsnr = 976912: No priority spelling found for lang = no, using alt_name to get "[('no', 'Aursjøvolaveien')]"
+utility_to_osm - ERROR - ssr:stedsnr = 976912. No positions found, skipping
+utility_to_osm - ERROR - ssr:stedsnr = 979974. No positions found, skipping
+utility_to_osm - ERROR - ssr:stedsnr = 979975. No positions found, skipping
+utility_to_osm - ERROR - ssr:stedsnr = 979976. No positions found, skipping
+utility_to_osm - ERROR - ssr:stedsnr = 979977. No positions found, skipping
+utility_to_osm - ERROR - ssr:stedsnr = 979978. No positions found, skipping
+utility_to_osm - ERROR - ssr:stedsnr = 980022. No positions found, skipping
+utility_to_osm - WARNING - ssr:stedsnr = 980023: No priority spelling found for lang = no, using alt_name to get "[('no', 'Renlavet')]"
+utility_to_osm - ERROR - ssr:stedsnr = 980023. No positions found, skipping
+utility_to_osm - WARNING - ssr:stedsnr = 980024: No priority spelling found for lang = no, using alt_name to get "[('no', 'Røsslyngen')]"
+utility_to_osm - ERROR - ssr:stedsnr = 980024. No positions found, skipping
+utility_to_osm - WARNING - ssr:stedsnr = 980025: No priority spelling found for lang = no, using alt_name to get "[('no', 'Fjellkreklingen')]"
+utility_to_osm - ERROR - ssr:stedsnr = 980025. No positions found, skipping
+utility_to_osm - WARNING - ssr:stedsnr = 980026: No priority spelling found for lang = no, using alt_name to get "[('no', 'Geitramsen')]"
+utility_to_osm - ERROR - ssr:stedsnr = 980026. No positions found, skipping
+utility_to_osm - ERROR - ssr:stedsnr = 980269. No positions found, skipping
+utility_to_osm - ERROR - ssr:stedsnr = 979972. No positions found, skipping
+utility_to_osm - ERROR - ssr:stedsnr = 979973. No positions found, skipping
+utility_to_osm - WARNING - ssr:stedsnr = 980045: No priority spelling found for lang = no, using alt_name to get "[('no', 'Spareforeningsveien')]"
+utility_to_osm - ERROR - ssr:stedsnr = 980045. No positions found, skipping
+utility_to_osm - WARNING - ssr:stedsnr = 980046: No priority spelling found for lang = no, using alt_name to get "[('no', 'Velheimveien')]"
+utility_to_osm - ERROR - ssr:stedsnr = 980046. No positions found, skipping
+utility_to_osm - ERROR - ssr:stedsnr = 980047. No positions found, skipping
+utility_to_osm - ERROR - ssr:stedsnr = 980048. No positions found, skipping
+utility_to_osm - ERROR - ssr:stedsnr = 980049. No positions found, skipping
+utility_to_osm - ERROR - ssr:stedsnr = 980050. No positions found, skipping
+utility_to_osm - ERROR - ssr:stedsnr = 980051. No positions found, skipping
+utility_to_osm - WARNING - ssr:stedsnr = 980052: No priority spelling found for lang = no, using alt_name to get "[('no', 'Tjeldveien')]"
+utility_to_osm - ERROR - ssr:stedsnr = 980052. No positions found, skipping
+utility_to_osm - ERROR - ssr:stedsnr = 980053. No positions found, skipping
+utility_to_osm - WARNING - ssr:stedsnr = 980054: No priority spelling found for lang = no, using alt_name to get "[('no', 'Fjellveien')]"
+utility_to_osm - ERROR - ssr:stedsnr = 980054. No positions found, skipping
+utility_to_osm - ERROR - ssr:stedsnr = 980055. No positions found, skipping
+utility_to_osm - WARNING - ssr:stedsnr = 980056: No priority spelling found for lang = no, using alt_name to get "[('no', 'Per Markens vei')]"
+utility_to_osm - ERROR - ssr:stedsnr = 980056. No positions found, skipping
+utility_to_osm - ERROR - ssr:stedsnr = 980057. No positions found, skipping
+utility_to_osm - ERROR - ssr:stedsnr = 980058. No positions found, skipping
+utility_to_osm - ERROR - ssr:stedsnr = 980059. No positions found, skipping
+utility_to_osm - ERROR - ssr:stedsnr = 980060. No positions found, skipping
+utility_to_osm - ERROR - ssr:stedsnr = 980061. No positions found, skipping
+utility_to_osm - WARNING - ssr:stedsnr = 980062: No priority spelling found for lang = no, using alt_name to get "[('no', 'Flatan')]"
+utility_to_osm - ERROR - ssr:stedsnr = 980062. No positions found, skipping
+utility_to_osm - WARNING - ssr:stedsnr = 980063: No priority spelling found for lang = no, using alt_name to get "[('no', 'Stengutua')]"
+utility_to_osm - ERROR - ssr:stedsnr = 980063. No positions found, skipping
+utility_to_osm - ERROR - ssr:stedsnr = 980064. No positions found, skipping
+utility_to_osm - ERROR - ssr:stedsnr = 980065. No positions found, skipping
+utility_to_osm - ERROR - ssr:stedsnr = 980066. No positions found, skipping
+utility_to_osm - ERROR - ssr:stedsnr = 980067. No positions found, skipping
+utility_to_osm - ERROR - ssr:stedsnr = 980068. No positions found, skipping
+utility_to_osm - ERROR - ssr:stedsnr = 980069. No positions found, skipping
+utility_to_osm - ERROR - ssr:stedsnr = 980070. No positions found, skipping
+utility_to_osm - ERROR - ssr:stedsnr = 980071. No positions found, skipping
+utility_to_osm - ERROR - ssr:stedsnr = 980072. No positions found, skipping
+utility_to_osm - WARNING - ssr:stedsnr = 980073: No priority spelling found for lang = no, using alt_name to get "[('no', 'Bureiserveien')]"
+utility_to_osm - ERROR - ssr:stedsnr = 980073. No positions found, skipping
+utility_to_osm - ERROR - ssr:stedsnr = 980074. No positions found, skipping
+utility_to_osm - ERROR - ssr:stedsnr = 980075. No positions found, skipping
+utility_to_osm - ERROR - ssr:stedsnr = 980076. No positions found, skipping
+utility_to_osm - WARNING - ssr:stedsnr = 980417: No priority spelling found for lang = no, using alt_name to get "[('no', 'Gamle Kongevei')]"
+utility_to_osm - ERROR - ssr:stedsnr = 980417. No positions found, skipping
+utility_to_osm - ERROR - ssr:stedsnr = 980418. No positions found, skipping
+utility_to_osm - WARNING - ssr:stedsnr = 980919: No priority spelling found for lang = no, using alt_name to get "[('no', 'Valsjøberget og Andråsberget naturreservat')]"
+utility_to_osm - WARNING - ssr:stedsnr = 989001: No priority spelling found for lang = no, using alt_name to get "[('no', 'Fjellkroken naturreservat')]"
+utility_to_osm - WARNING - ssr:stedsnr = 1005638: No priority spelling found for lang = no, using alt_name to get "[('no', 'Parkveien')]"
+utility_to_osm - ERROR - ssr:stedsnr = 1005638. No positions found, skipping
+utility_to_osm - WARNING - ssr:stedsnr = 1005642: No priority spelling found for lang = no, using alt_name to get "[('no', 'Bjønngardsveien')]"
+utility_to_osm - ERROR - ssr:stedsnr = 1005642. No positions found, skipping
+utility_to_osm - WARNING - ssr:stedsnr = 1005644: No priority spelling found for lang = no, using alt_name to get "[('no', 'Jutulhoggveien')]"
+utility_to_osm - ERROR - ssr:stedsnr = 1005644. No positions found, skipping
+utility_to_osm - WARNING - ssr:stedsnr = 1005748: No priority spelling found for lang = no, using alt_name to get "[('no', "Oddbjørn Hagen's vei")]"
+utility_to_osm - ERROR - ssr:stedsnr = 1005748. No positions found, skipping
+utility_to_osm - WARNING - ssr:stedsnr = 1006187: No priority spelling found for lang = no, using alt_name to get "[('no', 'Rypekjerret')]"
+utility_to_osm - ERROR - ssr:stedsnr = 1006187. No positions found, skipping
+utility_to_osm - WARNING - ssr:stedsnr = 1006184: No priority spelling found for lang = no, using alt_name to get "[('no', 'Flaggspetten')]"
+utility_to_osm - ERROR - ssr:stedsnr = 1006184. No positions found, skipping
+utility_to_osm - WARNING - ssr:stedsnr = 1007046: No priority spelling found for lang = no, using alt_name to get "[('no', 'Møreggveien')]"
+utility_to_osm - ERROR - ssr:stedsnr = 1007046. No positions found, skipping
+utility_to_osm - WARNING - ssr:stedsnr = 1007052: No priority spelling found for lang = no, using alt_name to get "[('no', 'Finstad Vestside')]"
+utility_to_osm - ERROR - ssr:stedsnr = 1007052. No positions found, skipping
+utility_to_osm - WARNING - ssr:stedsnr = 1007053: No priority spelling found for lang = no, using alt_name to get "[('no', 'Finstad Østside')]"
+utility_to_osm - ERROR - ssr:stedsnr = 1007053. No positions found, skipping
+utility_to_osm - WARNING - ssr:stedsnr = 1007054: No priority spelling found for lang = no, using alt_name to get "[('no', 'Finstadnysætra')]"
+utility_to_osm - ERROR - ssr:stedsnr = 1007054. No positions found, skipping
+utility_to_osm - WARNING - ssr:stedsnr = 1007005: No priority spelling found for lang = no, using alt_name to get "[('no', 'Renåtangen')]"
+utility_to_osm - ERROR - ssr:stedsnr = 1007005. No positions found, skipping
+utility_to_osm - WARNING - ssr:stedsnr = 1007006: No priority spelling found for lang = no, using alt_name to get "[('no', 'Fiskevollen')]"
+utility_to_osm - ERROR - ssr:stedsnr = 1007006. No positions found, skipping
+utility_to_osm - WARNING - ssr:stedsnr = 1007007: No priority spelling found for lang = no, using alt_name to get "[('no', 'Flendammen')]"
+utility_to_osm - ERROR - ssr:stedsnr = 1007007. No positions found, skipping
+utility_to_osm - WARNING - ssr:stedsnr = 1007009: No priority spelling found for lang = no, using alt_name to get "[('no', 'Gravåsen')]"
+utility_to_osm - ERROR - ssr:stedsnr = 1007009. No positions found, skipping
+utility_to_osm - WARNING - ssr:stedsnr = 1007014: No priority spelling found for lang = no, using alt_name to get "[('no', 'Balstadmistra')]"
+utility_to_osm - ERROR - ssr:stedsnr = 1007014. No positions found, skipping
+utility_to_osm - WARNING - ssr:stedsnr = 1007019: No priority spelling found for lang = no, using alt_name to get "[('no', 'Rønningsåsen')]"
+utility_to_osm - ERROR - ssr:stedsnr = 1007019. No positions found, skipping
+utility_to_osm - WARNING - ssr:stedsnr = 1007020: No priority spelling found for lang = no, using alt_name to get "[('no', 'Byringveien')]"
+utility_to_osm - ERROR - ssr:stedsnr = 1007020. No positions found, skipping
+utility_to_osm - WARNING - ssr:stedsnr = 1007021: No priority spelling found for lang = no, using alt_name to get "[('no', 'Åkersrokkdalen')]"
+utility_to_osm - ERROR - ssr:stedsnr = 1007021. No positions found, skipping
+utility_to_osm - WARNING - ssr:stedsnr = 1007022: No priority spelling found for lang = no, using alt_name to get "[('no', 'Fiskvikrokkdalen')]"
+utility_to_osm - ERROR - ssr:stedsnr = 1007022. No positions found, skipping
+utility_to_osm - WARNING - ssr:stedsnr = 1007023: No priority spelling found for lang = no, using alt_name to get "[('no', 'Mjovass')]"
+utility_to_osm - ERROR - ssr:stedsnr = 1007023. No positions found, skipping
+utility_to_osm - WARNING - ssr:stedsnr = 1072106: No priority spelling found for lang = no, using alt_name to get "[('no', 'Nekfallet naturreservat')]"
+utility_to_osm - WARNING - ssr:stedsnr = 1073619: No priority spelling found for lang = no, using alt_name to get "[('no', 'Myrestua')]"
+utility_to_osm - WARNING - ssr:stedsnr = 1074416: No priority spelling found for lang = no, using alt_name to get "[('no', 'Skjærbekken')]"
+utility_to_osm - WARNING - ssr:stedsnr = 1074406: No priority spelling found for lang = no, using alt_name to get "[('no', 'Innlandet fylke')]"
+utility_to_osm - WARNING - ssr:stedsnr = 1074748: No priority spelling found for lang = no, using alt_name to get "[('no', 'Hårrenna naturreservat')]"
+utility_to_osm - WARNING - ssr:stedsnr = 1074749: No priority spelling found for lang = no, using alt_name to get "[('no', 'Skjerbekkraudkollen og Løvåskampen naturreservat')]"
+utility_to_osm - WARNING - ssr:stedsnr = 1078014: No priority spelling found for lang = no, using alt_name to get "[('no', 'Hanestadvola naturreservat')]"
+utility_to_osm - WARNING - ssr:stedsnr = 1079557: No priority spelling found for lang = no, using alt_name to get "[('no', 'Skjærberget naturreservat')]"

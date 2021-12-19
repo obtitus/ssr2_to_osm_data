@@ -2382,7 +2382,10 @@
 	</node>
 	<node id="1938810051" lat="58.9692484" lon="5.7275842" version="2" timestamp="2018-07-09T01:25:56Z" changeset="60521511" uid="103253" user="gormur" />
 	<node id="354354710" lat="58.9657814" lon="5.7346319" version="10" timestamp="2010-12-05T16:50:24Z" changeset="6553106" uid="103253" user="gormur" />
-	<node id="354354712" lat="58.965874" lon="5.7358642" version="6" timestamp="2021-08-23T13:52:47Z" changeset="110118991" uid="103253" user="gormur" />
+	<node id="354354712" lat="58.965874" lon="5.7358642" version="7" timestamp="2021-12-09T12:16:00Z" changeset="114741775" uid="14599610" user="Anne Mette">
+		<tag k="crossing" v="unmarked" />
+		<tag k="highway" v="crossing" />
+	</node>
 	<node id="354354717" lat="58.9657099" lon="5.7360926" version="7" timestamp="2021-08-23T13:52:47Z" changeset="110118991" uid="103253" user="gormur">
 		<tag k="barrier" v="gate" />
 	</node>
@@ -3756,12 +3759,18 @@
 		<nd ref="1125512456" />
 		<nd ref="1125514106" />
 	</way>
-	<way id="136355092" version="3" timestamp="2018-07-15T11:56:46Z" changeset="60730131" uid="103253" user="gormur">
+	<way id="136355092" version="8" timestamp="2021-11-27T17:04:47Z" changeset="114301139" uid="13780485" user="murzel1001">
+		<tag k="handrail" v="yes" />
 		<tag k="highway" v="steps" />
 		<tag k="incline" v="up" />
+		<tag k="lit" v="yes" />
 		<tag k="name" v="Paradistrappa" />
 		<tag k="place" v="locality" />
+		<tag k="ramp" v="yes" />
+		<tag k="ramp:bicycle" v="yes" />
 		<tag k="ssr:stedsnr" v="980230" />
+		<tag k="step_count" v="63" />
+		<tag k="surface" v="sett" />
 		<nd ref="1331125151" />
 		<nd ref="1331125249" />
 	</way>

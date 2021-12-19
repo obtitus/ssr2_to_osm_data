@@ -1,9 +1,3 @@
-utility_to_osm - ERROR - ERROR, no ending in ssr2_to_osm_data/data/5417/5417-ssr.xml? Trying to re-download "/app:Skrivemåte>
-          </app:skrivemåte>
-        </app:Stedsnavn>
-      </app:stedsnavn>
-    </app:Sted>
-  </wfs:member"
 utility_to_osm - WARNING - ssr:stedsnr = 18801 has multiple (2) positions, using the first one!
 utility_to_osm - WARNING - ssr:stedsnr = 18806 has multiple (2) positions, using the first one!
 utility_to_osm - WARNING - ssr:stedsnr = 18787 has multiple (2) positions, using the first one!
@@ -506,8 +500,8 @@ utility_to_osm - WARNING - ssr:stedsnr = 1010353: No priority spelling found for
 utility_to_osm - ERROR - ssr:stedsnr = 1010353. No positions found, skipping
 utility_to_osm - WARNING - ssr:stedsnr = 1010355: No priority spelling found for lang = no, using alt_name to get "[('no', 'Sandberganveien')]"
 utility_to_osm - ERROR - ssr:stedsnr = 1010355. No positions found, skipping
-utility_to_osm - WARNING - ssr:stedsnr = 1073694: No priority spelling found for lang = fkv, using alt_name to get "[('fkv', 'Tromssan ja Finmarkun fylkki')]"
-utility_to_osm - WARNING - ssr:stedsnr = 1073694: No priority spelling found for lang = fkv, using alt_name to get "[('se', 'Romssa ja Finnmárkku fylka'), ('fkv', 'Tromssan ja Finmarkun fylkki')]"
+utility_to_osm - WARNING - ssr:stedsnr = 1073694: No priority spelling found for lang = se, using alt_name to get "[('se', 'Romssa ja Finnmárkku fylka')]"
+utility_to_osm - WARNING - ssr:stedsnr = 1073694: No priority spelling found for lang = se, using alt_name to get "[('no', 'Troms og Finnmark'), ('no', 'Troms og Finnmark fylke'), ('se', 'Romssa ja Finnmárkku fylka')]"
 utility_to_osm - WARNING - ssr:stedsnr = 1073694: No priority spelling found for lang = fkv, using alt_name to get "[('no', 'Troms og Finnmark'), ('no', 'Troms og Finnmark fylke'), ('se', 'Romssa ja Finnmárkku fylka'), ('fkv', 'Tromssan ja Finmarkun fylkki')]"
 utility_to_osm - ERROR - ssr:stedsnr = 1073694: Adding multiple names to name tag, this is not OK! name = "Troms og Finnmark;Troms og Finnmark fylke"
 utility_to_osm - WARNING - ssr:stedsnr = 1075695: No priority spelling found for lang = no, using alt_name to get "[('no', 'Ishavsbyen videregående skole')]"
