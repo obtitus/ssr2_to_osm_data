@@ -1,5 +1,4 @@
-utility_to_osm - ERROR - Did not find 3018 in dict_keys([])
-utility_to_osm.file_util - INFO - file_age(ssr2_to_osm_data/data/3018/3018-ssr.xml) -> 9.6 days
+utility_to_osm.file_util - INFO - file_age(ssr2_to_osm_data/data/3018/3018-ssr.xml) -> 0.9 days
 utility_to_osm - INFO - ssr:stedsnr = 2331: No name found
 utility_to_osm - INFO - ssr:stedsnr = 2331: Adding multiple names to name tag, this is not OK! name = "Sjursbråtatjerna;Tostentjern"
 utility_to_osm - INFO - ssr:stedsnr = 2334: No name found
@@ -961,7 +960,13 @@ utility_to_osm - INFO - ssr:stedsnr = 937376: No name found
 utility_to_osm - INFO - ssr:stedsnr = 951124: No name found
 utility_to_osm - INFO - ssr:stedsnr = 963094: No name found
 utility_to_osm - INFO - ssr:stedsnr = 963681: No name found
-utility_to_osm - INFO - ssr:stedsnr = 972956: No name found
+utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Piperøåsen"
+utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Piperrødåsen"
+utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Piperøåsen"
+utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Piperrødåsen"
+utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Piperøåsen"
+utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Piperrødåsen"
+utility_to_osm - INFO - ssr:stedsnr = 972956: No priority spelling found for lang = no, using alt_name to get "[('no', 'Piperødåsen')]"
 utility_to_osm - INFO - ssr:stedsnr = 1062436: No priority spelling found for lang = no, using alt_name to get "[('no', 'Mortetjernet')]"
 utility_to_osm - INFO - ssr:stedsnr = 1062438: No priority spelling found for lang = no, using alt_name to get "[('no', 'Kreierten')]"
 utility_to_osm - INFO - ssr:stedsnr = 1062440: No name found

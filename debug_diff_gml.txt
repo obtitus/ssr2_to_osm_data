@@ -1,0 +1,59 @@
+
+1) Missing prioritertSkrivemåte, now using annanSkrivemåte
+
+<app:langnavn>Vestre Sandnes</app:langnavn>
+<app:oppdateringsdato>2018-03-08T13:01:31.023</app:oppdateringsdato>
+<app:registreringsdato>2016-05-10T18:27:12.344</app:registreringsdato>
+<app:skrivemåtenummer>2</app:skrivemåtenummer>
+<app:skrivemåtestatus>historisk</app:skrivemåtestatus>
+<app:prioritertSkrivemåte>true</app:prioritertSkrivemåte>
+<app:rekkefølge>V-K</app:rekkefølge>
+<app:statusdato>2018-03-08</app:statusdato>
+...
+<app:langnavn>Sandnes, vestre</app:langnavn>
+<app:oppdateringsdato>2018-03-08T13:01:31.023</app:oppdateringsdato>
+<app:registreringsdato>2016-05-10T18:27:12.344</app:registreringsdato>
+<app:skrivemåtenummer>1</app:skrivemåtenummer>
+<app:skrivemåtestatus>historisk</app:skrivemåtestatus>
+<app:prioritertSkrivemåte>false</app:prioritertSkrivemåte>
+<app:rekkefølge>K-V</app:rekkefølge>
+<app:statusdato>2018-03-08</app:statusdato>
+
+languages ['nor']
+lang_keys ['no']
+language_priority nor-sme-smj-sma-fkv
+parsed_names_locale []
+names_dct defaultdict(<class 'list'>, {'name:no': [], 'name:se': [], 'name:smj': [], 'name:sma': [], 'name:fkv': []})
+old_names_dct defaultdict(<class 'list'>, {'old_name:no': [{'name:language_priority': 'nor-sme-smj-sma-fkv', 'name': 'Sandnes, vestre', 'name:date': '2018-03-08', 'name:language': 'nor', 'name:name_status': 'historisk', 'name:name_status_num': 5, 'name:eksonym': 'false', 'name:stedsnavnnummer': '1', 'name:order_spelling': 1, 'name:priority_spelling': False, 'name:spelling_status': 'historisk', 'added_to_lang_dct': True}, {'name:language_priority': 'nor-sme-smj-sma-fkv', 'name': 'Vestre Sandnes', 'name:date': '2018-03-08', 'name:language': 'nor', 'name:name_status': 'historisk', 'name:name_status_num': 5, 'name:eksonym': 'false', 'name:stedsnavnnummer': '1', 'name:order_spelling': 2, 'name:priority_spelling': True, 'name:spelling_status': 'historisk', 'added_to_lang_dct': True}]})
+loc_names_dct defaultdict(<class 'list'>, {})
+names []
+alt_names []
+
+gml format:
+
+					<app:skrivemåte>
+						<app:Skrivemåte>
+							<app:komplettskrivemåte>Vestre Sandnes</app:komplettskrivemåte>
+							<app:skrivemåtestatus>historisk</app:skrivemåtestatus>
+							<app:statusdato>2018-03-08</app:statusdato>
+							<app:skrivemåtenummer>2</app:skrivemåtenummer>
+						</app:Skrivemåte>
+					</app:skrivemåte>
+					<app:annenSkrivemåte>
+						<app:Skrivemåte>
+							<app:komplettskrivemåte>Sandnes, vestre</app:komplettskrivemåte>
+							<app:skrivemåtestatus>historisk</app:skrivemåtestatus>
+							<app:statusdato>2018-03-08</app:statusdato>
+							<app:skrivemåtenummer>1</app:skrivemåtenummer>
+						</app:Skrivemåte>
+					</app:annenSkrivemåte>
+
+languages ['norsk']
+lang_keys ['no']
+language_priority norsk-nordsamisk-lulesamisk-sørsamisk-kvensk
+parsed_names_locale []
+names_dct defaultdict(<class 'list'>, {'name:no': [], 'name:se': [], 'name:smj': [], 'name:sma': [], 'name:fkv': []})
+old_names_dct defaultdict(<class 'list'>, {'old_name:no': [{'name:language_priority': 'norsk-nordsamisk-lulesamisk-sørsamisk-kvensk', 'name': 'Vestre Sandnes', 'name:date': '2018-03-08', 'name:language': 'norsk', 'name:name_status': 'historisk', 'name:name_status_num': 5, 'name:eksonym': '', 'name:stedsnavnnummer': '1', 'name:order_spelling': 2, 'name:priority_spelling': True, 'name:spelling_status': 'historisk', 'added_to_lang_dct': True}]})
+loc_names_dct defaultdict(<class 'list'>, {})
+names []
+alt_names []

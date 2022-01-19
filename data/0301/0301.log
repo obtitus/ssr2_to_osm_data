@@ -1,5 +1,4 @@
-utility_to_osm - ERROR - Did not find 0301 in dict_keys([])
-utility_to_osm.file_util - INFO - file_age(ssr2_to_osm_data/data/0301/0301-ssr.xml) -> 9.7 days
+utility_to_osm.file_util - INFO - file_age(ssr2_to_osm_data/data/0301/0301-ssr.xml) -> 0.9 days
 utility_to_osm - INFO - ssr:stedsnr = 229854: No name found
 utility_to_osm - INFO - ssr:stedsnr = 4102: No name found
 utility_to_osm - INFO - ssr:stedsnr = 4128: No name found
@@ -78,8 +77,9 @@ utility_to_osm - INFO - ssr:stedsnr = 24727: No name found
 utility_to_osm - INFO - ssr:stedsnr = 24981: No name found
 utility_to_osm - INFO - ssr:stedsnr = 25005: No priority spelling found for lang = no, using alt_name to get "[('no', 'Romeriksporten')]"
 utility_to_osm - INFO - ssr:stedsnr = 25005 has multiple (15) positions, using the first one!
-utility_to_osm - INFO - ssr:stedsnr = 26330: No priority spelling found for lang = sma, using alt_name to get "[]"
-utility_to_osm - INFO - ssr:stedsnr = 26330: No priority spelling found for lang = sma, using alt_name to get "[('no', 'Noreg'), ('no', 'Norge')]"
+utility_to_osm - INFO - ssr:stedsnr = 26330: No priority spelling found for lang = no, using alt_name to get "[('no', 'Noreg'), ('no', 'Norge')]"
+utility_to_osm - WARNING - language missing from language priority en
+utility_to_osm - INFO - ssr:stedsnr = 26330: No priority spelling found for lang = en, using alt_name to get "[('no', 'Noreg'), ('no', 'Norge')]"
 utility_to_osm - WARNING - language missing from language priority en
 utility_to_osm - INFO - ssr:stedsnr = 26330: No priority spelling found for lang = en, using alt_name to get "[('no', 'Noreg'), ('no', 'Norge')]"
 utility_to_osm - WARNING - language missing from language priority en
@@ -4194,7 +4194,6 @@ utility_to_osm - INFO - ssr:stedsnr = 551248: No name found
 utility_to_osm - INFO - ssr:stedsnr = 551256: No name found
 utility_to_osm - INFO - ssr:stedsnr = 551256 has multiple (2) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 550925: No name found
-utility_to_osm - INFO - ssr:stedsnr = 550925 has multiple (2) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 550982: No name found
 utility_to_osm - INFO - ssr:stedsnr = 550982 has multiple (2) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 551141: No name found
@@ -4462,7 +4461,7 @@ utility_to_osm - INFO - ssr:stedsnr = 722138: No name found
 utility_to_osm - INFO - ssr:stedsnr = 722268: No name found
 utility_to_osm - INFO - ssr:stedsnr = 725059: No name found
 utility_to_osm - INFO - ssr:stedsnr = 725868: No name found
-utility_to_osm - INFO - ssr:stedsnr = 726797: No name found
+utility_to_osm - INFO - ssr:stedsnr = 726797 not active = "relikt". Skipping...
 utility_to_osm - INFO - ssr:stedsnr = 726799: No name found
 utility_to_osm - INFO - ssr:stedsnr = 726801: No name found
 utility_to_osm - INFO - ssr:stedsnr = 727417: No name found
@@ -4600,7 +4599,6 @@ utility_to_osm - INFO - ssr:stedsnr = 793187 has multiple (4) positions, using t
 utility_to_osm - INFO - ssr:stedsnr = 793194: No name found
 utility_to_osm - INFO - ssr:stedsnr = 793194 has multiple (3) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 793200: No name found
-utility_to_osm - INFO - ssr:stedsnr = 793200 has multiple (3) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 793202: No name found
 utility_to_osm - INFO - ssr:stedsnr = 793202 has multiple (4) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 793217: No name found
@@ -8913,12 +8911,9 @@ utility_to_osm - INFO - ssr:stedsnr = 1071921: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1072159: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1072407: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1072408: No name found
-utility_to_osm - ERROR - invalid name_status = "avslått navnevalg"
-utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Hengsåsen naturreservat"
-utility_to_osm - ERROR - invalid name_status = "avslått navnevalg"
-utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Hengsåsen naturreservat"
-utility_to_osm - ERROR - invalid name_status = "avslått navnevalg"
-utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Hengsåsen naturreservat"
+utility_to_osm - INFO - Skipping name_status = "avslått navnevalg"
+utility_to_osm - INFO - Skipping name_status = "avslått navnevalg"
+utility_to_osm - INFO - Skipping name_status = "avslått navnevalg"
 utility_to_osm - INFO - ssr:stedsnr = 1072610: No priority spelling found for lang = no, using alt_name to get "[('no', 'Prinsesseåsen naturreservat')]"
 utility_to_osm - INFO - ssr:stedsnr = 1073322: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1073202: No name found
@@ -8950,6 +8945,10 @@ utility_to_osm - INFO - ssr:stedsnr = 1082438: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1082442: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1082543: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1082683: No priority spelling found for lang = no, using alt_name to get "[('no', 'Tomines vei')]"
+utility_to_osm - INFO - ssr:stedsnr = 1083334: No priority spelling found for lang = no, using alt_name to get "[('no', 'Skjennungsåsen friluftslivsområde')]"
+utility_to_osm - INFO - ssr:stedsnr = 1083336: No priority spelling found for lang = no, using alt_name to get "[('no', 'Godbekken friluftslivsområde')]"
+utility_to_osm - INFO - ssr:stedsnr = 1083338: No priority spelling found for lang = no, using alt_name to get "[('no', 'Hauktjern friluftslivsområde')]"
+utility_to_osm - INFO - ssr:stedsnr = 1083339: No priority spelling found for lang = no, using alt_name to get "[('no', 'Spinneren friluftslivsområde')]"
 utility_to_osm.ssr2.ssr2_tags - INFO - ssr:type = fyrstasjon found in conversion table, but without tags
 utility_to_osm.ssr2.ssr2_tags - INFO - ssr:type = administrativBydel found in conversion table, but without tags
 utility_to_osm.ssr2.ssr2_tags - INFO - ssr:type = nasjon found in conversion table, but without tags

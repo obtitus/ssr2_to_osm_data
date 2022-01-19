@@ -1,5 +1,5 @@
-utility_to_osm - ERROR - Did not find 5027 in dict_keys([])
-utility_to_osm.file_util - INFO - file_age(ssr2_to_osm_data/data/5027/5027-ssr.xml) -> 8.5 days
+utility_to_osm.file_util - INFO - file_age(ssr2_to_osm_data/data/5027/5027-ssr.xml) -> 30.7 days
+utility_to_osm.gentle_requests - INFO - requested http://wfs.geonorge.no/skwms1/wfs.stedsnavn50?VERSION=2.0.0&SERVICE=WFS&srsName=EPSG:25832&REQUEST=GetFeature&TYPENAME=Sted&resultType=results&Filter=%3CFilter%3E%20%3CPropertyIsEqualTo%3E%20%3CValueReference%20xmlns:app=%22http://skjema.geonorge.no/SOSI/produktspesifikasjon/Stedsnavn/5.0%22%3Eapp:kommune/app:Kommune/app:kommunenummer%3C/ValueReference%3E%20%3CLiteral%3E5027%3C/Literal%3E%20%3C/PropertyIsEqualTo%3E%20%3C/Filter%3E" --header "Content-Type:text/xml" ssr2_to_osm_data/data/5027/5027-ssr.xml, got <Response [200]>
 utility_to_osm - INFO - ssr:stedsnr = 11001: No name found
 utility_to_osm - INFO - ssr:stedsnr = 11001 has multiple (2) positions, using the first one!
 utility_to_osm - INFO - ignoring non approved status = "avslåttNavneledd" name = "Håmmårtjørna"
@@ -310,7 +310,6 @@ utility_to_osm - INFO - ssr:stedsnr = 132412: No name found
 utility_to_osm - INFO - ssr:stedsnr = 132412 has multiple (6) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 132403: No name found
 utility_to_osm - INFO - ssr:stedsnr = 132403: Adding multiple names to name tag, this is not OK! name = "Brandeggvoll;Brandeggvola"
-utility_to_osm - INFO - ssr:stedsnr = 132403 has multiple (3) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 133106: No name found
 utility_to_osm - INFO - ssr:stedsnr = 133106 has multiple (4) positions, using the first one!
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Egganvollen"
@@ -1539,7 +1538,6 @@ utility_to_osm - INFO - ssr:stedsnr = 436358: No name found
 utility_to_osm - INFO - ssr:stedsnr = 436359: No name found
 utility_to_osm - INFO - ssr:stedsnr = 436359 has multiple (3) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 436365: No name found
-utility_to_osm - INFO - ssr:stedsnr = 436365 has multiple (3) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 436367: No name found
 utility_to_osm - INFO - ssr:stedsnr = 436367: Adding multiple names to name tag, this is not OK! name = "Enmovollan;Nordenmovollen"
 utility_to_osm - INFO - ssr:stedsnr = 436367 has multiple (2) positions, using the first one!
@@ -1804,7 +1802,6 @@ utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Sørli
 utility_to_osm - INFO - ssr:stedsnr = 679298: No priority spelling found for lang = no, using alt_name to get "[('no', 'Sørlivollen')]"
 utility_to_osm - INFO - ssr:stedsnr = 679298 has multiple (4) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 679386: No name found
-utility_to_osm - INFO - ssr:stedsnr = 679386 has multiple (3) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 679419: No name found
 utility_to_osm - INFO - ssr:stedsnr = 679419 has multiple (2) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 679428: No name found
@@ -2612,7 +2609,6 @@ utility_to_osm - INFO - ssr:stedsnr = 619424 has multiple (3) positions, using t
 utility_to_osm - INFO - ssr:stedsnr = 619303: No priority spelling found for lang = no, using alt_name to get "[('no', 'Moavollen')]"
 utility_to_osm - INFO - ssr:stedsnr = 619303 has multiple (2) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 619317: No name found
-utility_to_osm - INFO - ssr:stedsnr = 619317 has multiple (3) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 619672: No name found
 utility_to_osm - INFO - ssr:stedsnr = 619672 has multiple (3) positions, using the first one!
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Nordlisætra"

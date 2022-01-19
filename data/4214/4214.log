@@ -1,5 +1,5 @@
-utility_to_osm - ERROR - Did not find 4214 in dict_keys([])
-utility_to_osm.file_util - INFO - file_age(ssr2_to_osm_data/data/4214/4214-ssr.xml) -> 8.5 days
+utility_to_osm.file_util - INFO - file_age(ssr2_to_osm_data/data/4214/4214-ssr.xml) -> 30.7 days
+utility_to_osm.gentle_requests - INFO - requested http://wfs.geonorge.no/skwms1/wfs.stedsnavn50?VERSION=2.0.0&SERVICE=WFS&srsName=EPSG:25832&REQUEST=GetFeature&TYPENAME=Sted&resultType=results&Filter=%3CFilter%3E%20%3CPropertyIsEqualTo%3E%20%3CValueReference%20xmlns:app=%22http://skjema.geonorge.no/SOSI/produktspesifikasjon/Stedsnavn/5.0%22%3Eapp:kommune/app:Kommune/app:kommunenummer%3C/ValueReference%3E%20%3CLiteral%3E4214%3C/Literal%3E%20%3C/PropertyIsEqualTo%3E%20%3C/Filter%3E" --header "Content-Type:text/xml" ssr2_to_osm_data/data/4214/4214-ssr.xml, got <Response [200]>
 utility_to_osm - INFO - ssr:stedsnr = 307: No name found
 utility_to_osm - INFO - ssr:stedsnr = 307 has multiple (3) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 309: No name found
@@ -505,12 +505,9 @@ utility_to_osm - INFO - ssr:stedsnr = 173213: No name found
 utility_to_osm - INFO - ssr:stedsnr = 173219: No name found
 utility_to_osm - INFO - ssr:stedsnr = 173358: No name found
 utility_to_osm - INFO - ssr:stedsnr = 173361: No name found
-utility_to_osm - ERROR - invalid name_status = "avslått navnevalg"
-utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Tveitåsen"
-utility_to_osm - ERROR - invalid name_status = "avslått navnevalg"
-utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Tveitåsen"
-utility_to_osm - ERROR - invalid name_status = "avslått navnevalg"
-utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Tveitåsen"
+utility_to_osm - INFO - Skipping name_status = "avslått navnevalg"
+utility_to_osm - INFO - Skipping name_status = "avslått navnevalg"
+utility_to_osm - INFO - Skipping name_status = "avslått navnevalg"
 utility_to_osm - INFO - ssr:stedsnr = 173609: No priority spelling found for lang = no, using alt_name to get "[('no', 'Austre Tveiteråsen')]"
 utility_to_osm - INFO - ssr:stedsnr = 173620: No name found
 utility_to_osm - INFO - ssr:stedsnr = 173670: No name found

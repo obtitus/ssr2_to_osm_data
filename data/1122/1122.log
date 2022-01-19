@@ -1,5 +1,4 @@
-utility_to_osm - ERROR - Did not find 1122 in dict_keys([])
-utility_to_osm.file_util - INFO - file_age(ssr2_to_osm_data/data/1122/1122-ssr.xml) -> 12.5 days
+utility_to_osm.file_util - INFO - file_age(ssr2_to_osm_data/data/1122/1122-ssr.xml) -> 0.9 days
 utility_to_osm - INFO - ssr:stedsnr = 229628: No name found
 utility_to_osm - INFO - ssr:stedsnr = 525: No name found
 utility_to_osm - INFO - ssr:stedsnr = 525 has multiple (4) positions, using the first one!
@@ -65,12 +64,9 @@ utility_to_osm - INFO - ssr:stedsnr = 41981: No name found
 utility_to_osm - INFO - ssr:stedsnr = 41982: No name found
 utility_to_osm - INFO - ssr:stedsnr = 237685: No name found
 utility_to_osm - INFO - ssr:stedsnr = 237685 has multiple (2) positions, using the first one!
-utility_to_osm - ERROR - invalid name_status = "avslått navnevalg"
-utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Nordre Skreåhei"
-utility_to_osm - ERROR - invalid name_status = "avslått navnevalg"
-utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Nordre Skreåhei"
-utility_to_osm - ERROR - invalid name_status = "avslått navnevalg"
-utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Nordre Skreåhei"
+utility_to_osm - INFO - Skipping name_status = "avslått navnevalg"
+utility_to_osm - INFO - Skipping name_status = "avslått navnevalg"
+utility_to_osm - INFO - Skipping name_status = "avslått navnevalg"
 utility_to_osm - INFO - ssr:stedsnr = 44773: No priority spelling found for lang = no, using alt_name to get "[('no', 'Skreåheie')]"
 utility_to_osm - INFO - ssr:stedsnr = 239646: No name found
 utility_to_osm - INFO - ssr:stedsnr = 239674: No name found
@@ -2953,7 +2949,6 @@ utility_to_osm - INFO - ssr:stedsnr = 768461: No name found
 utility_to_osm - INFO - ssr:stedsnr = 768463: No name found
 utility_to_osm - INFO - ssr:stedsnr = 768469: No name found
 utility_to_osm - INFO - ssr:stedsnr = 768478: No name found
-utility_to_osm - INFO - ssr:stedsnr = 768478 has multiple (2) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 768571: No name found
 utility_to_osm - INFO - ssr:stedsnr = 768737: No name found
 utility_to_osm - INFO - ssr:stedsnr = 768738: No name found

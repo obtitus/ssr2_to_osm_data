@@ -1,5 +1,5 @@
-utility_to_osm - ERROR - Did not find 3825 in dict_keys([])
-utility_to_osm.file_util - INFO - file_age(ssr2_to_osm_data/data/3825/3825-ssr.xml) -> 8.5 days
+utility_to_osm.file_util - INFO - file_age(ssr2_to_osm_data/data/3825/3825-ssr.xml) -> 30.7 days
+utility_to_osm.gentle_requests - INFO - requested http://wfs.geonorge.no/skwms1/wfs.stedsnavn50?VERSION=2.0.0&SERVICE=WFS&srsName=EPSG:25832&REQUEST=GetFeature&TYPENAME=Sted&resultType=results&Filter=%3CFilter%3E%20%3CPropertyIsEqualTo%3E%20%3CValueReference%20xmlns:app=%22http://skjema.geonorge.no/SOSI/produktspesifikasjon/Stedsnavn/5.0%22%3Eapp:kommune/app:Kommune/app:kommunenummer%3C/ValueReference%3E%20%3CLiteral%3E3825%3C/Literal%3E%20%3C/PropertyIsEqualTo%3E%20%3C/Filter%3E" --header "Content-Type:text/xml" ssr2_to_osm_data/data/3825/3825-ssr.xml, got <Response [200]>
 utility_to_osm - INFO - ssr:stedsnr = 3105: No name found
 utility_to_osm - INFO - ssr:stedsnr = 3105 has multiple (3) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 3374: No name found
@@ -340,7 +340,6 @@ utility_to_osm - INFO - ssr:stedsnr = 245342: No name found
 utility_to_osm - INFO - ssr:stedsnr = 245342 has multiple (2) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 245367: No name found
 utility_to_osm - INFO - ssr:stedsnr = 245515: No name found
-utility_to_osm - INFO - ssr:stedsnr = 245515 has multiple (2) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 245531: No name found
 utility_to_osm - INFO - ssr:stedsnr = 245531 has multiple (4) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 245540: No name found
@@ -1009,7 +1008,6 @@ utility_to_osm - INFO - ssr:stedsnr = 452256 has multiple (2) positions, using t
 utility_to_osm - INFO - ssr:stedsnr = 452329: No name found
 utility_to_osm - INFO - ssr:stedsnr = 452329 has multiple (2) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 245608: No name found
-utility_to_osm - INFO - ssr:stedsnr = 245608 has multiple (2) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 245403: No name found
 utility_to_osm - INFO - ssr:stedsnr = 452355: No name found
 utility_to_osm - INFO - ssr:stedsnr = 452360: No name found
@@ -2277,7 +2275,6 @@ utility_to_osm - INFO - ssr:stedsnr = 535316: No name found
 utility_to_osm - INFO - ssr:stedsnr = 535381: No name found
 utility_to_osm - INFO - ssr:stedsnr = 535522: No name found
 utility_to_osm - INFO - ssr:stedsnr = 535916: No name found
-utility_to_osm - INFO - ssr:stedsnr = 537972: No name found
 utility_to_osm - INFO - ignoring non approved status = "avslåttNavneledd" name = "Torstjørnnutan"
 utility_to_osm - INFO - ignoring non approved status = "avslåttNavneledd" name = "Torstjørnnutan"
 utility_to_osm - INFO - ignoring non approved status = "avslåttNavneledd" name = "Torstjørnnutan"
@@ -3558,7 +3555,6 @@ utility_to_osm - INFO - ssr:stedsnr = 846612: No name found
 utility_to_osm - INFO - ssr:stedsnr = 846909: No name found
 utility_to_osm - INFO - ssr:stedsnr = 852004: No name found
 utility_to_osm - INFO - ssr:stedsnr = 852007: No name found
-utility_to_osm - INFO - ssr:stedsnr = 852007 has multiple (4) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 852012: No name found
 utility_to_osm - INFO - ssr:stedsnr = 852012 has multiple (4) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 852104: No name found
@@ -8754,6 +8750,8 @@ utility_to_osm - INFO - ssr:stedsnr = 1083137: No priority spelling found for la
 utility_to_osm - INFO - ssr:stedsnr = 1083138: No priority spelling found for lang = no, using alt_name to get "[('no', 'Mårvegen')]"
 utility_to_osm - INFO - ssr:stedsnr = 1083139: No priority spelling found for lang = no, using alt_name to get "[('no', 'Elgtrakket')]"
 utility_to_osm - INFO - ssr:stedsnr = 1083140: No priority spelling found for lang = no, using alt_name to get "[('no', 'Jasalabben')]"
+utility_to_osm - INFO - ssr:stedsnr = 1083356: No name found
+utility_to_osm - INFO - ssr:stedsnr = 1083357: No name found
 utility_to_osm.ssr2.ssr2_tags - INFO - ssr:type = adressenavn found in conversion table, but without tags
 utility_to_osm.ssr2.ssr2_tags - INFO - ssr:type = adressenavn found in conversion table, but without tags
 utility_to_osm.ssr2.ssr2_tags - INFO - ssr:type = adressenavn found in conversion table, but without tags
@@ -9163,6 +9161,8 @@ utility_to_osm.ssr2.ssr2_tags - INFO - ssr:type = adressenavn found in conversio
 utility_to_osm.ssr2.ssr2_tags - INFO - ssr:type = adressenavn found in conversion table, but without tags
 utility_to_osm.ssr2.ssr2_tags - INFO - ssr:type = adressenavn found in conversion table, but without tags
 utility_to_osm.ssr2.ssr2_tags - INFO - ssr:type = fylke found in conversion table, but without tags
+utility_to_osm.ssr2.ssr2_tags - INFO - ssr:type = adressenavn found in conversion table, but without tags
+utility_to_osm.ssr2.ssr2_tags - INFO - ssr:type = adressenavn found in conversion table, but without tags
 utility_to_osm.ssr2.ssr2_tags - INFO - ssr:type = adressenavn found in conversion table, but without tags
 utility_to_osm.ssr2.ssr2_tags - INFO - ssr:type = adressenavn found in conversion table, but without tags
 utility_to_osm.ssr2.ssr2_tags - INFO - ssr:type = adressenavn found in conversion table, but without tags

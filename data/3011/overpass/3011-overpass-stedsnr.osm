@@ -25,9 +25,9 @@
 		<tag k="place" v="farm" />
 		<tag k="ssr:stedsnr" v="964567" />
 	</node>
-	<node id="6253542549" lat="59.0790667" lon="10.9398805" version="1" timestamp="2019-02-02T11:34:32Z" changeset="66853759" uid="633013" user="Honning">
-		<tag k="building" v="commercial" />
+	<node id="6253542549" lat="59.0792252" lon="10.9401407" version="2" timestamp="2022-01-02T07:42:37Z" changeset="115659622" uid="3497659" user="NKA">
 		<tag k="name" v="Nordre Rød" />
+		<tag k="place" v="locality" />
 		<tag k="ssr:stedsnr" v="478980" />
 	</node>
 	<node id="6253542550" lat="59.1010972" lon="10.9257056" version="1" timestamp="2019-02-02T11:34:32Z" changeset="66853759" uid="633013" user="Honning">
@@ -1522,18 +1522,20 @@
 		<tag k="place" v="islet" />
 		<tag k="ssr:stedsnr" v="365571" />
 	</node>
-	<node id="5554394007" lat="59.042101" lon="11.031707" version="1" timestamp="2018-04-15T11:29:54Z" changeset="58107984" uid="3095942" user="Øystein Bjørndal_import" />
-	<node id="5554394008" lat="59.0420195" lon="11.0318224" version="1" timestamp="2018-04-15T11:29:54Z" changeset="58107984" uid="3095942" user="Øystein Bjørndal_import" />
-	<node id="5554394009" lat="59.0419648" lon="11.0316762" version="1" timestamp="2018-04-15T11:29:54Z" changeset="58107984" uid="3095942" user="Øystein Bjørndal_import" />
-	<node id="5554394010" lat="59.0420462" lon="11.0315609" version="1" timestamp="2018-04-15T11:29:54Z" changeset="58107984" uid="3095942" user="Øystein Bjørndal_import" />
-	<way id="580130411" version="1" timestamp="2018-04-15T11:29:54Z" changeset="58107984" uid="3095942" user="Øystein Bjørndal_import">
+	<node id="9385254214" lat="59.0421067" lon="11.0316954" version="1" timestamp="2022-01-02T07:42:37Z" changeset="115659622" uid="3497659" user="NKA" />
+	<node id="9385254215" lat="59.0420251" lon="11.0318238" version="1" timestamp="2022-01-02T07:42:37Z" changeset="115659622" uid="3497659" user="NKA" />
+	<node id="9385254216" lat="59.0419703" lon="11.0316921" version="1" timestamp="2022-01-02T07:42:37Z" changeset="115659622" uid="3497659" user="NKA" />
+	<node id="9385254217" lat="59.0420519" lon="11.0315637" version="1" timestamp="2022-01-02T07:42:37Z" changeset="115659622" uid="3497659" user="NKA" />
+	<way id="580130411" version="2" timestamp="2022-01-02T07:42:37Z" changeset="115659622" uid="3497659" user="NKA">
 		<tag k="building" v="house" />
+		<tag k="building:levels" v="2" />
 		<tag k="name" v="Brekke" />
+		<tag k="ref:bygningsnr" v="146807615" />
 		<tag k="ssr:stedsnr" v="184622" />
-		<nd ref="5554394010" />
-		<nd ref="5554394009" />
-		<nd ref="5554394008" />
-		<nd ref="5554394007" />
-		<nd ref="5554394010" />
+		<nd ref="9385254217" />
+		<nd ref="9385254216" />
+		<nd ref="9385254215" />
+		<nd ref="9385254214" />
+		<nd ref="9385254217" />
 	</way>
 </osm>

@@ -1,5 +1,4 @@
-utility_to_osm - ERROR - Did not find 1573 in dict_keys([])
-utility_to_osm.file_util - INFO - file_age(ssr2_to_osm_data/data/1573/1573-ssr.xml) -> 11.5 days
+utility_to_osm.file_util - INFO - file_age(ssr2_to_osm_data/data/1573/1573-ssr.xml) -> 0.9 days
 utility_to_osm - INFO - ssr:stedsnr = 12521: No name found
 utility_to_osm - INFO - ssr:stedsnr = 12521 has multiple (2) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 12522: No name found
@@ -409,12 +408,9 @@ utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Karisk
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Kariskjeret"
 utility_to_osm - INFO - ssr:stedsnr = 255946: No priority spelling found for lang = no, using alt_name to get "[('no', 'Kariskjæret')]"
 utility_to_osm - INFO - ssr:stedsnr = 255946 has multiple (2) positions, using the first one!
-utility_to_osm - ERROR - invalid name_status = "avslått navnevalg"
-utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Bukkholmen"
-utility_to_osm - ERROR - invalid name_status = "avslått navnevalg"
-utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Bukkholmen"
-utility_to_osm - ERROR - invalid name_status = "avslått navnevalg"
-utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Bukkholmen"
+utility_to_osm - INFO - Skipping name_status = "avslått navnevalg"
+utility_to_osm - INFO - Skipping name_status = "avslått navnevalg"
+utility_to_osm - INFO - Skipping name_status = "avslått navnevalg"
 utility_to_osm - INFO - ssr:stedsnr = 255951: No priority spelling found for lang = no, using alt_name to get "[('no', 'Indre Revholmen')]"
 utility_to_osm - INFO - ssr:stedsnr = 255951 has multiple (2) positions, using the first one!
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Brønnsværøya"
@@ -583,12 +579,9 @@ utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Hopelv
 utility_to_osm - INFO - ssr:stedsnr = 255772: No priority spelling found for lang = no, using alt_name to get "[('no', 'Hopaelva')]"
 utility_to_osm - INFO - ssr:stedsnr = 255772 has multiple (2) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 255774: No name found
-utility_to_osm - ERROR - invalid name_status = "avslått navnevalg"
-utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Kalvøya"
-utility_to_osm - ERROR - invalid name_status = "avslått navnevalg"
-utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Kalvøya"
-utility_to_osm - ERROR - invalid name_status = "avslått navnevalg"
-utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Kalvøya"
+utility_to_osm - INFO - Skipping name_status = "avslått navnevalg"
+utility_to_osm - INFO - Skipping name_status = "avslått navnevalg"
+utility_to_osm - INFO - Skipping name_status = "avslått navnevalg"
 utility_to_osm - INFO - ssr:stedsnr = 255962: No priority spelling found for lang = no, using alt_name to get "[('no', 'Lamholmen')]"
 utility_to_osm - INFO - ssr:stedsnr = 255962 has multiple (2) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 255982: No name found
@@ -2474,15 +2467,9 @@ utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Flatsk
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Flatskjeret"
 utility_to_osm - INFO - ssr:stedsnr = 73939: No priority spelling found for lang = no, using alt_name to get "[('no', 'Flatskjæret')]"
 utility_to_osm - INFO - ssr:stedsnr = 73939 has multiple (2) positions, using the first one!
-utility_to_osm - ERROR - invalid name_status = "avslått navnevalg"
-utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Synnholmen"
-utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Sundholmen"
-utility_to_osm - ERROR - invalid name_status = "avslått navnevalg"
-utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Synnholmen"
-utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Sundholmen"
-utility_to_osm - ERROR - invalid name_status = "avslått navnevalg"
-utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Synnholmen"
-utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Sundholmen"
+utility_to_osm - INFO - Skipping name_status = "avslått navnevalg"
+utility_to_osm - INFO - Skipping name_status = "avslått navnevalg"
+utility_to_osm - INFO - Skipping name_status = "avslått navnevalg"
 utility_to_osm - INFO - ssr:stedsnr = 73940: No priority spelling found for lang = no, using alt_name to get "[('no', 'Ytre Revholmen')]"
 utility_to_osm - INFO - ssr:stedsnr = 73940 has multiple (2) positions, using the first one!
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Furøya"
@@ -3637,7 +3624,6 @@ utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Skarpn
 utility_to_osm - INFO - ssr:stedsnr = 497638: No priority spelling found for lang = no, using alt_name to get "[('no', 'Skarpneset')]"
 utility_to_osm - INFO - ssr:stedsnr = 497638 has multiple (2) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 497639: No name found
-utility_to_osm - INFO - ssr:stedsnr = 497639 has multiple (4) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 497877: No name found
 utility_to_osm - INFO - ssr:stedsnr = 497877 has multiple (2) positions, using the first one!
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Store Svinøya"
@@ -4098,12 +4084,9 @@ utility_to_osm - INFO - ssr:stedsnr = 619861: No name found
 utility_to_osm - INFO - ssr:stedsnr = 619861 has multiple (3) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 619863: No name found
 utility_to_osm - INFO - ssr:stedsnr = 619863 has multiple (2) positions, using the first one!
-utility_to_osm - ERROR - invalid name_status = "avslått navnevalg"
-utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Kuliøya"
-utility_to_osm - ERROR - invalid name_status = "avslått navnevalg"
-utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Kuliøya"
-utility_to_osm - ERROR - invalid name_status = "avslått navnevalg"
-utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Kuliøya"
+utility_to_osm - INFO - Skipping name_status = "avslått navnevalg"
+utility_to_osm - INFO - Skipping name_status = "avslått navnevalg"
+utility_to_osm - INFO - Skipping name_status = "avslått navnevalg"
 utility_to_osm - INFO - ssr:stedsnr = 619970: No priority spelling found for lang = no, using alt_name to get "[('no', 'Eilertholmen')]"
 utility_to_osm - INFO - ssr:stedsnr = 619970 has multiple (2) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 619972: No priority spelling found for lang = no, using alt_name to get "[('no', 'Kuli')]"

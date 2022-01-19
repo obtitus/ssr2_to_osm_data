@@ -1,5 +1,4 @@
-utility_to_osm - ERROR - Did not find 1511 in dict_keys([])
-utility_to_osm.file_util - INFO - file_age(ssr2_to_osm_data/data/1511/1511-ssr.xml) -> 12.5 days
+utility_to_osm.file_util - INFO - file_age(ssr2_to_osm_data/data/1511/1511-ssr.xml) -> 0.9 days
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Sætra"
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Sætra"
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Sætra"
@@ -260,18 +259,9 @@ utility_to_osm - INFO - ssr:stedsnr = 253910: No name found
 utility_to_osm - INFO - ssr:stedsnr = 253910 has multiple (2) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 254043: No name found
 utility_to_osm - INFO - ssr:stedsnr = 254043 has multiple (2) positions, using the first one!
-utility_to_osm - ERROR - invalid name_status = "avslått navnevalg"
-utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Ripsdalsvatnet"
-utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Røvsdalsvatnet"
-utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Røfsdalsvatnet"
-utility_to_osm - ERROR - invalid name_status = "avslått navnevalg"
-utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Ripsdalsvatnet"
-utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Røvsdalsvatnet"
-utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Røfsdalsvatnet"
-utility_to_osm - ERROR - invalid name_status = "avslått navnevalg"
-utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Ripsdalsvatnet"
-utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Røvsdalsvatnet"
-utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Røfsdalsvatnet"
+utility_to_osm - INFO - Skipping name_status = "avslått navnevalg"
+utility_to_osm - INFO - Skipping name_status = "avslått navnevalg"
+utility_to_osm - INFO - Skipping name_status = "avslått navnevalg"
 utility_to_osm - INFO - ssr:stedsnr = 254960: No priority spelling found for lang = no, using alt_name to get "[('no', 'Lisje Røfsdalsvatnet')]"
 utility_to_osm - INFO - ssr:stedsnr = 145583: No name found
 utility_to_osm - INFO - ssr:stedsnr = 146912: No name found
@@ -2076,12 +2066,9 @@ utility_to_osm - INFO - ssr:stedsnr = 220940: No name found
 utility_to_osm - INFO - ssr:stedsnr = 220947: No name found
 utility_to_osm - INFO - ssr:stedsnr = 220961: No name found
 utility_to_osm - INFO - ssr:stedsnr = 220969: No name found
-utility_to_osm - ERROR - invalid name_status = "avslått navnevalg"
-utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Skoravika"
-utility_to_osm - ERROR - invalid name_status = "avslått navnevalg"
-utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Skoravika"
-utility_to_osm - ERROR - invalid name_status = "avslått navnevalg"
-utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Skoravika"
+utility_to_osm - INFO - Skipping name_status = "avslått navnevalg"
+utility_to_osm - INFO - Skipping name_status = "avslått navnevalg"
+utility_to_osm - INFO - Skipping name_status = "avslått navnevalg"
 utility_to_osm - INFO - ssr:stedsnr = 221062: No priority spelling found for lang = no, using alt_name to get "[('no', 'Uravika')]"
 utility_to_osm - INFO - ssr:stedsnr = 222566: No name found
 utility_to_osm - INFO - ssr:stedsnr = 273201: No name found
@@ -3354,6 +3341,7 @@ utility_to_osm - INFO - ssr:stedsnr = 1082096: No priority spelling found for la
 utility_to_osm - INFO - ssr:stedsnr = 1082112: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1082166: No priority spelling found for lang = no, using alt_name to get "[('no', 'Lynget'), ('no', 'Fagerhol')]"
 utility_to_osm - INFO - ssr:stedsnr = 1082166: Adding multiple names to name tag, this is not OK! name = "Lynget;Fagerhol"
+utility_to_osm - INFO - ssr:stedsnr = 1083370: No priority spelling found for lang = no, using alt_name to get "[('no', 'Skåraura naturreservat')]"
 utility_to_osm.ssr2.ssr2_tags - INFO - ssr:type = fyrlykt found in conversion table, but without tags
 utility_to_osm.ssr2.ssr2_tags - INFO - ssr:type = fylke found in conversion table, but without tags
 utility_to_osm.ssr2.ssr2_tags - INFO - ssr:type = lysbøye found in conversion table, but without tags

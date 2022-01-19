@@ -1,5 +1,4 @@
-utility_to_osm - ERROR - Did not find 3003 in dict_keys([])
-utility_to_osm.file_util - INFO - file_age(ssr2_to_osm_data/data/3003/3003-ssr.xml) -> 9.6 days
+utility_to_osm.file_util - INFO - file_age(ssr2_to_osm_data/data/3003/3003-ssr.xml) -> 0.9 days
 utility_to_osm - INFO - ssr:stedsnr = 1592: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1891: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1891 has multiple (2) positions, using the first one!
@@ -4695,12 +4694,9 @@ utility_to_osm - INFO - ssr:stedsnr = 1071861: No priority spelling found for la
 utility_to_osm - INFO - ssr:stedsnr = 1071861 has multiple (8) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 1071871: No priority spelling found for lang = no, using alt_name to get "[('no', 'Grenaderveien')]"
 utility_to_osm - INFO - ssr:stedsnr = 1071871 has multiple (11) positions, using the first one!
-utility_to_osm - ERROR - invalid name_status = "avslått navnevalg"
-utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Sagåsen naturreservat"
-utility_to_osm - ERROR - invalid name_status = "avslått navnevalg"
-utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Sagåsen naturreservat"
-utility_to_osm - ERROR - invalid name_status = "avslått navnevalg"
-utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Sagåsen naturreservat"
+utility_to_osm - INFO - Skipping name_status = "avslått navnevalg"
+utility_to_osm - INFO - Skipping name_status = "avslått navnevalg"
+utility_to_osm - INFO - Skipping name_status = "avslått navnevalg"
 utility_to_osm - INFO - ssr:stedsnr = 1072099: No priority spelling found for lang = no, using alt_name to get "[('no', 'Sagåsen og Stueåsen  naturreservat')]"
 utility_to_osm - INFO - ssr:stedsnr = 1071828: No priority spelling found for lang = no, using alt_name to get "[('no', 'Grenseveien')]"
 utility_to_osm - INFO - ssr:stedsnr = 1071828 has multiple (2) positions, using the first one!

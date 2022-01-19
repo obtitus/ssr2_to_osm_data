@@ -1,5 +1,5 @@
-utility_to_osm - ERROR - Did not find 4222 in dict_keys([])
-utility_to_osm.file_util - INFO - file_age(ssr2_to_osm_data/data/4222/4222-ssr.xml) -> 8.5 days
+utility_to_osm.file_util - INFO - file_age(ssr2_to_osm_data/data/4222/4222-ssr.xml) -> 30.7 days
+utility_to_osm.gentle_requests - INFO - requested http://wfs.geonorge.no/skwms1/wfs.stedsnavn50?VERSION=2.0.0&SERVICE=WFS&srsName=EPSG:25832&REQUEST=GetFeature&TYPENAME=Sted&resultType=results&Filter=%3CFilter%3E%20%3CPropertyIsEqualTo%3E%20%3CValueReference%20xmlns:app=%22http://skjema.geonorge.no/SOSI/produktspesifikasjon/Stedsnavn/5.0%22%3Eapp:kommune/app:Kommune/app:kommunenummer%3C/ValueReference%3E%20%3CLiteral%3E4222%3C/Literal%3E%20%3C/PropertyIsEqualTo%3E%20%3C/Filter%3E" --header "Content-Type:text/xml" ssr2_to_osm_data/data/4222/4222-ssr.xml, got <Response [200]>
 utility_to_osm - INFO - ssr:stedsnr = 1235: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1235 has multiple (2) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 2135: No name found
@@ -545,7 +545,6 @@ utility_to_osm - INFO - ssr:stedsnr = 245503 has multiple (3) positions, using t
 utility_to_osm - INFO - ssr:stedsnr = 245504: No name found
 utility_to_osm - INFO - ssr:stedsnr = 245504 has multiple (4) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 245515: No name found
-utility_to_osm - INFO - ssr:stedsnr = 245515 has multiple (2) positions, using the first one!
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Byklestølane"
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Byklestøylan"
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Bygdestøylane"
@@ -723,7 +722,6 @@ utility_to_osm - INFO - ssr:stedsnr = 114724: No name found
 utility_to_osm - INFO - ssr:stedsnr = 114602: No name found
 utility_to_osm - INFO - ssr:stedsnr = 114673: No name found
 utility_to_osm - INFO - ssr:stedsnr = 114683: No name found
-utility_to_osm - INFO - ssr:stedsnr = 114684: No name found
 utility_to_osm - INFO - ssr:stedsnr = 114688: No name found
 utility_to_osm - INFO - ssr:stedsnr = 114803: No name found
 utility_to_osm - INFO - ssr:stedsnr = 114819: No name found

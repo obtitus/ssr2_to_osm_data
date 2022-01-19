@@ -1,5 +1,4 @@
-utility_to_osm - ERROR - Did not find 4639 in dict_keys([])
-utility_to_osm.file_util - INFO - file_age(ssr2_to_osm_data/data/4639/4639-ssr.xml) -> 9.1 days
+utility_to_osm.file_util - INFO - file_age(ssr2_to_osm_data/data/4639/4639-ssr.xml) -> 0.9 days
 utility_to_osm - INFO - ssr:stedsnr = 8649: No name found
 utility_to_osm - INFO - ssr:stedsnr = 8649 has multiple (3) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 8653: No name found
@@ -430,7 +429,13 @@ utility_to_osm - INFO - ssr:stedsnr = 277180: No name found
 utility_to_osm - INFO - ssr:stedsnr = 228534: No name found
 utility_to_osm - INFO - ssr:stedsnr = 494831: No name found
 utility_to_osm - INFO - ssr:stedsnr = 494831 has multiple (3) positions, using the first one!
-utility_to_osm - INFO - ssr:stedsnr = 449641: No name found
+utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Vikjafjellet"
+utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Vikafjell"
+utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Vikjafjellet"
+utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Vikafjell"
+utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Vikjafjellet"
+utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Vikafjell"
+utility_to_osm - INFO - ssr:stedsnr = 449641: No priority spelling found for lang = no, using alt_name to get "[('no', 'Vikafjellet')]"
 utility_to_osm - INFO - ssr:stedsnr = 236679: No name found
 utility_to_osm - INFO - ssr:stedsnr = 242207: No priority spelling found for lang = no, using alt_name to get "[('no', 'Prestgarden')]"
 utility_to_osm - INFO - ssr:stedsnr = 242207 has multiple (14) positions, using the first one!
@@ -2942,6 +2947,13 @@ utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Bårlo
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Bårlogskroken"
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Bårlogskroken"
 utility_to_osm - INFO - ssr:stedsnr = 1082690: No priority spelling found for lang = no, using alt_name to get "[('no', 'Borlaugskroken')]"
+utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Vikafjell"
+utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Vikjafjellet"
+utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Vikafjell"
+utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Vikjafjellet"
+utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Vikafjell"
+utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Vikjafjellet"
+utility_to_osm - INFO - ssr:stedsnr = 1083365: No priority spelling found for lang = no, using alt_name to get "[('no', 'Vikafjellet')]"
 utility_to_osm.ssr2.ssr2_tags - INFO - ssr:type = adressenavn found in conversion table, but without tags
 utility_to_osm.ssr2.ssr2_tags - INFO - ssr:type = adressenavn found in conversion table, but without tags
 utility_to_osm.ssr2.ssr2_tags - INFO - ssr:type = adressenavn found in conversion table, but without tags

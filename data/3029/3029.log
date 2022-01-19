@@ -1,5 +1,4 @@
-utility_to_osm - ERROR - Did not find 3029 in dict_keys([])
-utility_to_osm.file_util - INFO - file_age(ssr2_to_osm_data/data/3029/3029-ssr.xml) -> 9.6 days
+utility_to_osm.file_util - INFO - file_age(ssr2_to_osm_data/data/3029/3029-ssr.xml) -> 0.9 days
 utility_to_osm - INFO - ssr:stedsnr = 4018: No name found
 utility_to_osm - INFO - ssr:stedsnr = 4203: No name found
 utility_to_osm - INFO - ssr:stedsnr = 4203 has multiple (2) positions, using the first one!
@@ -394,12 +393,9 @@ utility_to_osm - INFO - ssr:stedsnr = 934951: No name found
 utility_to_osm - INFO - ssr:stedsnr = 951035: No priority spelling found for lang = no, using alt_name to get "[('no', 'Skårer')]"
 utility_to_osm - INFO - ssr:stedsnr = 956028: No name found
 utility_to_osm - INFO - ssr:stedsnr = 956029: No name found
-utility_to_osm - ERROR - invalid name_status = "avslått navnevalg"
-utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Ødegården"
-utility_to_osm - ERROR - invalid name_status = "avslått navnevalg"
-utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Ødegården"
-utility_to_osm - ERROR - invalid name_status = "avslått navnevalg"
-utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Ødegården"
+utility_to_osm - INFO - Skipping name_status = "avslått navnevalg"
+utility_to_osm - INFO - Skipping name_status = "avslått navnevalg"
+utility_to_osm - INFO - Skipping name_status = "avslått navnevalg"
 utility_to_osm - INFO - ssr:stedsnr = 968134: No priority spelling found for lang = no, using alt_name to get "[('no', 'Skåreødegården')]"
 utility_to_osm - INFO - ssr:stedsnr = 972728: No name found
 utility_to_osm - INFO - ssr:stedsnr = 991340: No name found

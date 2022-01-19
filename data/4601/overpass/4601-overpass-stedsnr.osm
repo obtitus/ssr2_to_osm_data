@@ -34,6 +34,13 @@
 		<tag k="ssr:stedsnr" v="916679" />
 		<tag k="wikidata" v="Q2930257" />
 	</node>
+	<node id="280493324" lat="60.3952176" lon="5.3220095" version="7" timestamp="2021-12-29T20:31:09Z" changeset="115536700" uid="4361277" user="Mathias Haugsbø">
+		<tag k="ferry" v="yes" />
+		<tag k="name" v="Strandterminalen" />
+		<tag k="public_transport" v="station" />
+		<tag k="source" v="local_knowledge" />
+		<tag k="ssr:stedsnr" v="991159" />
+	</node>
 	<node id="290529990" lat="60.2834577" lon="5.252868" version="2" timestamp="2018-04-08T22:12:05Z" changeset="57924300" uid="1965308" user="FredrikLindseth">
 		<tag k="name" v="Blomsterdalen" />
 		<tag k="place" v="village" />
@@ -381,11 +388,6 @@
 		<tag k="name" v="Nordås" />
 		<tag k="place" v="farm" />
 		<tag k="ssr:stedsnr" v="490843" />
-	</node>
-	<node id="5538715537" lat="60.3014745" lon="5.310805" version="1" timestamp="2018-04-08T21:08:38Z" changeset="57923365" uid="1965308" user="FredrikLindseth">
-		<tag k="name" v="Fagerheim" />
-		<tag k="place" v="farm" />
-		<tag k="ssr:stedsnr" v="974230" />
 	</node>
 	<node id="5538715538" lat="60.2272556" lon="5.3709583" version="1" timestamp="2018-04-08T21:08:38Z" changeset="57923365" uid="1965308" user="FredrikLindseth">
 		<tag k="name" v="Djupvik" />
@@ -1065,9 +1067,9 @@
 		<tag k="place" v="farm" />
 		<tag k="ssr:stedsnr" v="672722" />
 	</node>
-	<node id="5538716086" lat="60.3831889" lon="5.3654111" version="2" timestamp="2018-04-08T21:40:43Z" changeset="57923909" uid="1965308" user="FredrikLindseth">
+	<node id="5538716086" lat="60.3831889" lon="5.3654111" version="3" timestamp="2021-12-29T20:31:09Z" changeset="115536700" uid="4361277" user="Mathias Haugsbø">
 		<tag k="name" v="Lappen" />
-		<tag k="place" v="isolated_dwelling" />
+		<tag k="place" v="neighbourhood" />
 		<tag k="ssr:stedsnr" v="672729" />
 	</node>
 	<node id="5538716087" lat="60.2932079" lon="5.2113211" version="2" timestamp="2018-11-08T16:16:14Z" changeset="64297793" uid="102162" user="-WI-">
@@ -1533,11 +1535,6 @@
 		<tag k="name" v="Sætre" />
 		<tag k="place" v="farm" />
 		<tag k="ssr:stedsnr" v="141383" />
-	</node>
-	<node id="5538716390" lat="60.3421944" lon="5.3100611" version="1" timestamp="2018-04-08T21:08:54Z" changeset="57923365" uid="1965308" user="FredrikLindseth">
-		<tag k="name" v="Gullstølen" />
-		<tag k="place" v="farm" />
-		<tag k="ssr:stedsnr" v="141536" />
 	</node>
 	<node id="5538716391" lat="60.3395444" lon="5.276875" version="1" timestamp="2018-04-08T21:08:54Z" changeset="57923365" uid="1965308" user="FredrikLindseth">
 		<tag k="name" v="Sælehaugen" />
@@ -2330,8 +2327,8 @@
 		<tag k="place" v="farm" />
 		<tag k="ssr:stedsnr" v="612418" />
 	</node>
-	<node id="5538716578" lat="60.2680139" lon="5.367325" version="1" timestamp="2018-04-08T21:09:06Z" changeset="57923365" uid="1965308" user="FredrikLindseth">
-		<tag k="name" v="Åsnes" />
+	<node id="5538716578" lat="60.2680139" lon="5.367325" version="2" timestamp="2022-01-12T14:53:22Z" changeset="116070386" uid="346410" user="berland">
+		<tag k="name" v="Ånes" />
 		<tag k="place" v="farm" />
 		<tag k="ssr:stedsnr" v="203679" />
 	</node>
@@ -2502,11 +2499,32 @@
 		<tag k="place" v="locality" />
 		<tag k="ssr:stedsnr" v="384253" />
 	</node>
+	<node id="6655298791" lat="60.4057228" lon="5.3218406" version="2" timestamp="2021-12-29T20:31:09Z" changeset="115536700" uid="4361277" user="Mathias Haugsbø">
+		<tag k="amenity" v="public_bath" />
+		<tag k="fee" v="no" />
+		<tag k="name" v="Gamle Slaktehuskaien" />
+		<tag k="outdoor" v="yes" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="991164" />
+		<tag k="supervised" v="no" />
+	</node>
 	<node id="8992452291" lat="60.3702315" lon="5.1913202" version="1" timestamp="2021-08-09T09:26:12Z" changeset="109392571" uid="4361277" user="Mathias Haugsbø">
 		<tag k="ele" v="90.1" />
 		<tag k="name" v="Alvehaugen" />
 		<tag k="natural" v="peak" />
 		<tag k="ssr:stedsnr" v="81042" />
+	</node>
+	<node id="9377272482" lat="60.4109904" lon="5.3222912" version="1" timestamp="2021-12-29T20:31:09Z" changeset="115536700" uid="4361277" user="Mathias Haugsbø">
+		<tag k="man_made" v="quay" />
+		<tag k="name" v="Ludebryggen" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="210036" />
+	</node>
+	<node id="9377272483" lat="60.402675" lon="5.3205383" version="1" timestamp="2021-12-29T20:31:09Z" changeset="115536700" uid="4361277" user="Mathias Haugsbø">
+		<tag k="man_made" v="quay" />
+		<tag k="name" v="Skuteviksbryggen" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="991163" />
 	</node>
 	<node id="3463821640" lat="60.2544599" lon="5.2031216" version="1" timestamp="2015-04-18T18:21:05Z" changeset="30313037" uid="2836853" user="frokor_import" />
 	<node id="3463821641" lat="60.254467" lon="5.2033706" version="1" timestamp="2015-04-18T18:21:05Z" changeset="30313037" uid="2836853" user="frokor_import" />
@@ -3800,6 +3818,8 @@
 	<node id="4352300594" lat="60.3646899" lon="5.2321875" version="1" timestamp="2016-08-16T08:24:24Z" changeset="41484319" uid="1965308" user="FredrikLindseth" />
 	<node id="4352300597" lat="60.3647966" lon="5.2322016" version="1" timestamp="2016-08-16T08:24:24Z" changeset="41484319" uid="1965308" user="FredrikLindseth" />
 	<node id="4352300616" lat="60.3656016" lon="5.2318151" version="1" timestamp="2016-08-16T08:24:24Z" changeset="41484319" uid="1965308" user="FredrikLindseth" />
+	<node id="9402592025" lat="60.3627454" lon="5.2346089" version="1" timestamp="2022-01-08T14:58:16Z" changeset="115913018" uid="12645669" user="Kokosnøtt" />
+	<node id="9402592030" lat="60.3629209" lon="5.2345791" version="1" timestamp="2022-01-08T14:58:16Z" changeset="115913018" uid="12645669" user="Kokosnøtt" />
 	<node id="4352300746" lat="60.3705584" lon="5.2305147" version="1" timestamp="2016-08-16T08:24:26Z" changeset="41484319" uid="1965308" user="FredrikLindseth" />
 	<node id="4352300752" lat="60.3709058" lon="5.2312641" version="1" timestamp="2016-08-16T08:24:26Z" changeset="41484319" uid="1965308" user="FredrikLindseth" />
 	<node id="4352300756" lat="60.3711665" lon="5.2314493" version="1" timestamp="2016-08-16T08:24:26Z" changeset="41484319" uid="1965308" user="FredrikLindseth" />
@@ -4371,6 +4391,30 @@
 	<node id="4351601251" lat="60.3798706" lon="5.3214209" version="1" timestamp="2016-08-15T19:16:18Z" changeset="41474484" uid="1965308" user="FredrikLindseth" />
 	<node id="4351601255" lat="60.3799068" lon="5.3214486" version="1" timestamp="2016-08-15T19:16:18Z" changeset="41474484" uid="1965308" user="FredrikLindseth" />
 	<node id="5320049203" lat="60.3799393" lon="5.3214886" version="2" timestamp="2018-01-04T13:24:55Z" changeset="55157732" uid="3547905" user="xqus" />
+	<node id="16465722" lat="60.3828139" lon="5.3153123" version="7" timestamp="2010-08-17T09:46:42Z" changeset="5516068" uid="114230" user="danerikk" />
+	<node id="16465723" lat="60.3857111" lon="5.3194274" version="6" timestamp="2016-01-13T19:36:36Z" changeset="36557447" uid="2114448" user="FredrikLindseth_import">
+		<tag k="source" v="local_knowledge" />
+	</node>
+	<node id="17388500" lat="60.3854809" lon="5.3193751" version="7" timestamp="2016-01-13T19:36:37Z" changeset="36557447" uid="2114448" user="FredrikLindseth_import" />
+	<node id="23984590" lat="60.3839199" lon="5.317432" version="6" timestamp="2012-02-14T20:51:35Z" changeset="10687128" uid="53579" user="Dabbi">
+		<tag k="source" v="PGS(could be inacurately)" />
+	</node>
+	<node id="23985180" lat="60.3841385" lon="5.3169385" version="8" timestamp="2016-06-23T01:14:10Z" changeset="40217297" uid="103253" user="gormur">
+		<tag k="source" v="PGS(could be inacurately)" />
+	</node>
+	<node id="31027250" lat="60.3845221" lon="5.3175673" version="1" timestamp="2007-09-03T21:50:58Z" changeset="310088" uid="1694" user="M E Menk">
+		<tag k="created_by" v="JOSM" />
+	</node>
+	<node id="40067599" lat="60.3830969" lon="5.3214628" version="3" timestamp="2013-07-20T08:00:19Z" changeset="17020488" uid="49894" user="PiRK" />
+	<node id="672968158" lat="60.3827547" lon="5.315527" version="2" timestamp="2010-08-17T09:45:45Z" changeset="5516068" uid="114230" user="danerikk" />
+	<node id="864586609" lat="60.3854186" lon="5.3192727" version="1" timestamp="2010-08-17T09:45:26Z" changeset="5516068" uid="114230" user="danerikk" />
+	<node id="3462357116" lat="60.38327" lon="5.3198232" version="1" timestamp="2015-04-17T22:00:48Z" changeset="30296828" uid="2836853" user="frokor_import">
+		<tag k="source" v="PGS(could be inacurately)" />
+	</node>
+	<node id="3462357128" lat="60.3840471" lon="5.3176326" version="1" timestamp="2015-04-17T22:00:48Z" changeset="30296828" uid="2836853" user="frokor_import">
+		<tag k="source" v="PGS(could be inacurately)" />
+	</node>
+	<node id="3944739764" lat="60.385646" lon="5.3193168" version="1" timestamp="2016-01-13T19:35:10Z" changeset="36557447" uid="2114448" user="FredrikLindseth_import" />
 	<node id="4351538816" lat="60.382829" lon="5.3189705" version="1" timestamp="2016-08-15T18:09:13Z" changeset="41472931" uid="1965308" user="FredrikLindseth" />
 	<node id="4351538819" lat="60.3836606" lon="5.3166423" version="2" timestamp="2021-03-09T20:52:50Z" changeset="100733016" uid="519916" user="googlenaut" />
 	<node id="4351538999" lat="60.3855719" lon="5.3192215" version="2" timestamp="2021-03-09T20:52:50Z" changeset="100733016" uid="519916" user="googlenaut" />
@@ -4539,6 +4583,15 @@
 	<node id="5321658129" lat="60.3795986" lon="5.3218452" version="1" timestamp="2018-01-05T08:53:19Z" changeset="55180610" uid="3547905" user="xqus" />
 	<node id="5321658133" lat="60.3799655" lon="5.3218422" version="1" timestamp="2018-01-05T08:53:19Z" changeset="55180610" uid="3547905" user="xqus" />
 	<node id="5370238937" lat="60.3792294" lon="5.3226241" version="1" timestamp="2018-01-29T12:40:02Z" changeset="55858439" uid="3547905" user="xqus" />
+	<node id="5442821109" lat="60.3808069" lon="5.3257714" version="2" timestamp="2019-09-02T14:08:15Z" changeset="74002577" uid="3610826" user="km2bp" />
+	<node id="5442821110" lat="60.3813174" lon="5.3252886" version="1" timestamp="2018-02-28T12:38:11Z" changeset="56754915" uid="1965308" user="FredrikLindseth" />
+	<node id="5442821111" lat="60.3811773" lon="5.3251077" version="2" timestamp="2019-09-02T14:08:15Z" changeset="74002577" uid="3610826" user="km2bp" />
+	<node id="5442821112" lat="60.3800513" lon="5.3248614" version="2" timestamp="2019-09-02T14:08:15Z" changeset="74002577" uid="3610826" user="km2bp" />
+	<node id="5442821113" lat="60.3800785" lon="5.3247788" version="2" timestamp="2019-09-02T14:08:15Z" changeset="74002577" uid="3610826" user="km2bp" />
+	<node id="5442821114" lat="60.3807863" lon="5.3256149" version="2" timestamp="2019-09-02T14:08:15Z" changeset="74002577" uid="3610826" user="km2bp" />
+	<node id="5442821115" lat="60.3811771" lon="5.3249897" version="2" timestamp="2019-09-02T14:08:15Z" changeset="74002577" uid="3610826" user="km2bp" />
+	<node id="5442821116" lat="60.3813435" lon="5.325209" version="1" timestamp="2018-02-28T12:38:11Z" changeset="56754915" uid="1965308" user="FredrikLindseth" />
+	<node id="8715097363" lat="60.3800571" lon="5.3248437" version="1" timestamp="2021-05-09T16:12:33Z" changeset="104402453" uid="12645669" user="Kokosnøtt" />
 	<node id="9072143000" lat="60.3755367" lon="5.3280586" version="1" timestamp="2021-09-07T21:44:59Z" changeset="110880713" uid="4361277" user="Mathias Haugsbø" />
 	<node id="4351538800" lat="60.3799722" lon="5.3320202" version="1" timestamp="2016-08-15T18:09:13Z" changeset="41472931" uid="1965308" user="FredrikLindseth" />
 	<node id="4351538804" lat="60.3807618" lon="5.3339" version="2" timestamp="2021-08-19T22:14:55Z" changeset="109956063" uid="2677992" user="mikkolukas" />
@@ -4547,8 +4600,13 @@
 	<node id="9021354676" lat="60.38087" lon="5.3337287" version="1" timestamp="2021-08-19T22:14:55Z" changeset="109956063" uid="2677992" user="mikkolukas" />
 	<node id="9021354682" lat="60.3809485" lon="5.3336224" version="1" timestamp="2021-08-19T22:14:55Z" changeset="109956063" uid="2677992" user="mikkolukas" />
 	<node id="9021354683" lat="60.3810618" lon="5.3334965" version="1" timestamp="2021-08-19T22:14:55Z" changeset="109956063" uid="2677992" user="mikkolukas" />
+	<node id="23985170" lat="60.3824082" lon="5.3220493" version="6" timestamp="2012-02-14T20:51:34Z" changeset="10687128" uid="53579" user="Dabbi">
+		<tag k="source" v="PGS(could be inacurately)" />
+	</node>
+	<node id="31027249" lat="60.383047" lon="5.3219646" version="2" timestamp="2010-08-17T09:46:42Z" changeset="5516068" uid="114230" user="danerikk" />
 	<node id="40065537" lat="60.3827209" lon="5.3273948" version="4" timestamp="2019-11-01T11:57:22Z" changeset="76492009" uid="715936" user="Gazer75" />
 	<node id="2049580254" lat="60.3862351" lon="5.3245336" version="2" timestamp="2019-11-01T11:57:22Z" changeset="76492009" uid="715936" user="Gazer75" />
+	<node id="2390328757" lat="60.3827726" lon="5.3228564" version="2" timestamp="2018-03-05T17:19:37Z" changeset="56909847" uid="1965308" user="FredrikLindseth" />
 	<node id="4351538807" lat="60.3816188" lon="5.322443" version="1" timestamp="2016-08-15T18:09:13Z" changeset="41472931" uid="1965308" user="FredrikLindseth" />
 	<node id="4351538814" lat="60.3825981" lon="5.3274982" version="1" timestamp="2016-08-15T18:09:13Z" changeset="41472931" uid="1965308" user="FredrikLindseth" />
 	<node id="4351538817" lat="60.3831156" lon="5.3270017" version="1" timestamp="2016-08-15T18:09:13Z" changeset="41472931" uid="1965308" user="FredrikLindseth" />
@@ -4563,6 +4621,7 @@
 		<tag k="access" v="no" />
 		<tag k="barrier" v="gate" />
 	</node>
+	<node id="5457410062" lat="60.3823654" lon="5.3221748" version="1" timestamp="2018-03-05T17:19:35Z" changeset="56909847" uid="1965308" user="FredrikLindseth" />
 	<node id="5538716067" lat="60.3863815" lon="5.3220081" version="3" timestamp="2018-04-08T22:12:06Z" changeset="57924300" uid="1965308" user="FredrikLindseth" />
 	<node id="5538716584" lat="60.3846485" lon="5.325372" version="2" timestamp="2018-04-08T22:12:06Z" changeset="57924300" uid="1965308" user="FredrikLindseth" />
 	<node id="5864233219" lat="60.384991" lon="5.3244166" version="2" timestamp="2020-08-13T18:27:04Z" changeset="89370512" uid="4361277" user="Mathias Haugsbø">
@@ -4570,6 +4629,7 @@
 		<tag k="highway" v="crossing" />
 		<tag k="tactile_paving" v="no" />
 	</node>
+	<node id="6130237958" lat="60.3823684" lon="5.3221659" version="1" timestamp="2018-12-11T09:18:36Z" changeset="65369062" uid="1965308" user="FredrikLindseth" />
 	<node id="6937067533" lat="60.3861838" lon="5.325017" version="1" timestamp="2019-11-01T11:57:22Z" changeset="76492009" uid="715936" user="Gazer75" />
 	<node id="6937067534" lat="60.3862401" lon="5.3245651" version="1" timestamp="2019-11-01T11:57:22Z" changeset="76492009" uid="715936" user="Gazer75" />
 	<node id="6937067535" lat="60.3861891" lon="5.3249446" version="1" timestamp="2019-11-01T11:57:22Z" changeset="76492009" uid="715936" user="Gazer75" />
@@ -4744,9 +4804,34 @@
 	<node id="9021354764" lat="60.3825032" lon="5.3326808" version="1" timestamp="2021-08-19T22:14:55Z" changeset="109956063" uid="2677992" user="mikkolukas" />
 	<node id="9021354765" lat="60.3826198" lon="5.3325561" version="1" timestamp="2021-08-19T22:14:55Z" changeset="109956063" uid="2677992" user="mikkolukas" />
 	<node id="9021354766" lat="60.3826308" lon="5.3324293" version="1" timestamp="2021-08-19T22:14:55Z" changeset="109956063" uid="2677992" user="mikkolukas" />
+	<node id="769352706" lat="60.37636" lon="5.3383683" version="2" timestamp="2015-11-04T09:33:38Z" changeset="35074216" uid="715936" user="Gazer75" />
+	<node id="769352719" lat="60.3763377" lon="5.3386802" version="4" timestamp="2019-11-12T08:08:37Z" changeset="76945867" uid="715936" user="Gazer75" />
+	<node id="769352729" lat="60.3765887" lon="5.3390433" version="3" timestamp="2021-08-19T22:14:55Z" changeset="109956063" uid="2677992" user="mikkolukas" />
+	<node id="2730179207" lat="60.3766805" lon="5.3389688" version="2" timestamp="2019-03-18T17:27:45Z" changeset="68266260" uid="9143438" user="hrek" />
+	<node id="3816764175" lat="60.3764709" lon="5.3382787" version="1" timestamp="2015-11-04T09:32:03Z" changeset="35074216" uid="715936" user="Gazer75" />
 	<node id="4351538801" lat="60.3800809" lon="5.3350596" version="2" timestamp="2016-08-15T18:46:03Z" changeset="41473885" uid="1965308" user="FredrikLindseth" />
 	<node id="4351574296" lat="60.3764653" lon="5.3386927" version="1" timestamp="2016-08-15T18:46:01Z" changeset="41473885" uid="1965308" user="FredrikLindseth" />
 	<node id="4351574297" lat="60.378252" lon="5.3368102" version="1" timestamp="2016-08-15T18:46:01Z" changeset="41473885" uid="1965308" user="FredrikLindseth" />
+	<node id="8221499474" lat="60.3765638" lon="5.3390678" version="1" timestamp="2020-12-12T07:36:14Z" changeset="95713784" uid="1694" user="M E Menk" />
+	<node id="8221499475" lat="60.3765366" lon="5.3389786" version="1" timestamp="2020-12-12T07:36:14Z" changeset="95713784" uid="1694" user="M E Menk" />
+	<node id="8221499476" lat="60.3763789" lon="5.3388607" version="1" timestamp="2020-12-12T07:36:14Z" changeset="95713784" uid="1694" user="M E Menk" />
+	<node id="8221499477" lat="60.3764266" lon="5.3390691" version="1" timestamp="2020-12-12T07:36:14Z" changeset="95713784" uid="1694" user="M E Menk" />
+	<node id="8221499478" lat="60.3763523" lon="5.3384522" version="1" timestamp="2020-12-12T07:36:14Z" changeset="95713784" uid="1694" user="M E Menk" />
+	<node id="8221499479" lat="60.3763467" lon="5.3385193" version="1" timestamp="2020-12-12T07:36:14Z" changeset="95713784" uid="1694" user="M E Menk" />
+	<node id="8221499480" lat="60.3763142" lon="5.3386031" version="1" timestamp="2020-12-12T07:36:14Z" changeset="95713784" uid="1694" user="M E Menk" />
+	<node id="8221499481" lat="60.3767964" lon="5.3384692" version="1" timestamp="2020-12-12T07:36:14Z" changeset="95713784" uid="1694" user="M E Menk" />
+	<node id="8221499482" lat="60.3768193" lon="5.3385602" version="1" timestamp="2020-12-12T07:36:14Z" changeset="95713784" uid="1694" user="M E Menk" />
+	<node id="8221499483" lat="60.3767166" lon="5.3381512" version="1" timestamp="2020-12-12T07:36:14Z" changeset="95713784" uid="1694" user="M E Menk" />
+	<node id="8221499484" lat="60.3765794" lon="5.3382799" version="1" timestamp="2020-12-12T07:36:14Z" changeset="95713784" uid="1694" user="M E Menk" />
+	<node id="8221499485" lat="60.3767431" lon="5.3382571" version="1" timestamp="2020-12-12T07:36:14Z" changeset="95713784" uid="1694" user="M E Menk" />
+	<node id="8221499486" lat="60.3764058" lon="5.3383313" version="1" timestamp="2020-12-12T07:36:14Z" changeset="95713784" uid="1694" user="M E Menk" />
+	<node id="8221499487" lat="60.3763427" lon="5.3383818" version="1" timestamp="2020-12-12T07:36:14Z" changeset="95713784" uid="1694" user="M E Menk" />
+	<node id="8221499488" lat="60.3767119" lon="5.3389518" version="1" timestamp="2020-12-12T07:36:14Z" changeset="95713784" uid="1694" user="M E Menk" />
+	<node id="8221499489" lat="60.3765303" lon="5.3382732" version="1" timestamp="2020-12-12T07:36:14Z" changeset="95713784" uid="1694" user="M E Menk" />
+	<node id="8221499490" lat="60.3765018" lon="5.3382397" version="1" timestamp="2020-12-12T07:36:14Z" changeset="95713784" uid="1694" user="M E Menk" />
+	<node id="8221499491" lat="60.3767166" lon="5.3387272" version="1" timestamp="2020-12-12T07:41:27Z" changeset="95713854" uid="1694" user="M E Menk" />
+	<node id="8221499492" lat="60.3767066" lon="5.3388298" version="1" timestamp="2020-12-12T07:41:27Z" changeset="95713854" uid="1694" user="M E Menk" />
+	<node id="8221499493" lat="60.3767414" lon="5.3386427" version="1" timestamp="2020-12-12T07:41:27Z" changeset="95713854" uid="1694" user="M E Menk" />
 	<node id="378192876" lat="60.3806957" lon="5.3419101" version="4" timestamp="2017-09-08T19:08:36Z" changeset="51858540" uid="3842253" user="NKA_import" />
 	<node id="4351538805" lat="60.3811048" lon="5.343786" version="1" timestamp="2016-08-15T18:09:13Z" changeset="41472931" uid="1965308" user="FredrikLindseth" />
 	<node id="4351566556" lat="60.3775346" lon="5.3472751" version="2" timestamp="2017-09-08T19:08:38Z" changeset="51858540" uid="3842253" user="NKA_import" />
@@ -4781,23 +4866,219 @@
 	<node id="4351539010" lat="60.3864825" lon="5.3358245" version="1" timestamp="2016-08-15T18:09:14Z" changeset="41472931" uid="1965308" user="FredrikLindseth" />
 	<node id="4351539017" lat="60.3866768" lon="5.3355383" version="1" timestamp="2016-08-15T18:09:14Z" changeset="41472931" uid="1965308" user="FredrikLindseth" />
 	<node id="4351539026" lat="60.387198" lon="5.3362962" version="1" timestamp="2016-08-15T18:09:14Z" changeset="41472931" uid="1965308" user="FredrikLindseth" />
+	<node id="863715653" lat="60.3924273" lon="5.3141154" version="3" timestamp="2018-11-12T18:21:53Z" changeset="64416719" uid="1965308" user="FredrikLindseth" />
+	<node id="863715856" lat="60.3936608" lon="5.3123365" version="4" timestamp="2015-09-22T11:02:08Z" changeset="34180559" uid="3252623" user="Alex_K_B" />
+	<node id="863716381" lat="60.3927094" lon="5.3137969" version="2" timestamp="2011-03-13T18:27:46Z" changeset="7548537" uid="7645" user="Karl Ove Hufthammer" />
+	<node id="863716387" lat="60.3924858" lon="5.3136733" version="3" timestamp="2018-11-12T18:21:54Z" changeset="64416719" uid="1965308" user="FredrikLindseth" />
+	<node id="1200546374" lat="60.3925971" lon="5.314246" version="2" timestamp="2015-09-22T11:02:08Z" changeset="34180559" uid="3252623" user="Alex_K_B" />
+	<node id="1200546383" lat="60.3926385" lon="5.3142808" version="1" timestamp="2011-03-13T18:27:45Z" changeset="7548537" uid="7645" user="Karl Ove Hufthammer" />
+	<node id="1387107461" lat="60.3932358" lon="5.3114645" version="4" timestamp="2015-09-22T11:02:08Z" changeset="34180559" uid="3252623" user="Alex_K_B" />
+	<node id="1642517145" lat="60.3934024" lon="5.3098537" version="4" timestamp="2015-09-22T11:02:08Z" changeset="34180559" uid="3252623" user="Alex_K_B" />
+	<node id="1642517151" lat="60.3934942" lon="5.309646" version="3" timestamp="2015-09-22T11:02:08Z" changeset="34180559" uid="3252623" user="Alex_K_B" />
+	<node id="1642517175" lat="60.3936559" lon="5.3099303" version="5" timestamp="2015-09-22T11:02:08Z" changeset="34180559" uid="3252623" user="Alex_K_B" />
+	<node id="3462357681" lat="60.3935317" lon="5.3111218" version="1" timestamp="2015-04-17T22:00:54Z" changeset="30296828" uid="2836853" user="frokor_import" />
+	<node id="3462357685" lat="60.3935516" lon="5.3111995" version="1" timestamp="2015-04-17T22:00:54Z" changeset="30296828" uid="2836853" user="frokor_import" />
+	<node id="3462357687" lat="60.3935665" lon="5.3101507" version="1" timestamp="2015-04-17T22:00:54Z" changeset="30296828" uid="2836853" user="frokor_import" />
+	<node id="3462357691" lat="60.3935915" lon="5.3101964" version="1" timestamp="2015-04-17T22:00:55Z" changeset="30296828" uid="2836853" user="frokor_import" />
+	<node id="3462357719" lat="60.3938914" lon="5.3113835" version="1" timestamp="2015-04-17T22:00:55Z" changeset="30296828" uid="2836853" user="frokor_import" />
+	<node id="3462357730" lat="60.3940553" lon="5.3107934" version="1" timestamp="2015-04-17T22:00:55Z" changeset="30296828" uid="2836853" user="frokor_import" />
+	<node id="3462357736" lat="60.3940929" lon="5.3106763" version="1" timestamp="2015-04-17T22:00:55Z" changeset="30296828" uid="2836853" user="frokor_import" />
+	<node id="3462357738" lat="60.3941197" lon="5.310407" version="1" timestamp="2015-04-17T22:00:55Z" changeset="30296828" uid="2836853" user="frokor_import" />
+	<node id="3462357739" lat="60.3941415" lon="5.3105248" version="1" timestamp="2015-04-17T22:00:55Z" changeset="30296828" uid="2836853" user="frokor_import" />
+	<node id="3462357740" lat="60.3941673" lon="5.3104664" version="1" timestamp="2015-04-17T22:00:55Z" changeset="30296828" uid="2836853" user="frokor_import" />
+	<node id="3462357746" lat="60.3943065" lon="5.3097858" version="1" timestamp="2015-04-17T22:00:55Z" changeset="30296828" uid="2836853" user="frokor_import" />
+	<node id="3462357777" lat="60.3947132" lon="5.3102942" version="1" timestamp="2015-04-17T22:00:56Z" changeset="30296828" uid="2836853" user="frokor_import" />
+	<node id="3754275763" lat="60.3936042" lon="5.3122182" version="1" timestamp="2015-09-22T11:02:04Z" changeset="34180559" uid="3252623" user="Alex_K_B" />
+	<node id="3754275772" lat="60.3933498" lon="5.3097774" version="1" timestamp="2015-09-22T11:02:04Z" changeset="34180559" uid="3252623" user="Alex_K_B" />
+	<node id="3754275778" lat="60.3938825" lon="5.311376" version="1" timestamp="2015-09-22T11:02:04Z" changeset="34180559" uid="3252623" user="Alex_K_B" />
+	<node id="733846538" lat="60.3936257" lon="5.319553" version="6" timestamp="2016-01-13T17:00:50Z" changeset="36554023" uid="2114448" user="FredrikLindseth_import" />
+	<node id="733846544" lat="60.3935611" lon="5.3198466" version="4" timestamp="2016-01-13T17:00:50Z" changeset="36554023" uid="2114448" user="FredrikLindseth_import" />
+	<node id="1480940385" lat="60.3935043" lon="5.3197702" version="2" timestamp="2012-12-07T17:44:16Z" changeset="14190859" uid="715936" user="Gazer75" />
+	<node id="2932499241" lat="60.3936842" lon="5.3196405" version="2" timestamp="2016-02-09T10:20:30Z" changeset="37097944" uid="1965308" user="FredrikLindseth" />
+	<node id="4183985803" lat="60.3936503" lon="5.31982" version="3" timestamp="2017-07-19T05:23:01Z" changeset="50395111" uid="1965308" user="FredrikLindseth">
+		<tag k="artist_name" v="Bernhard Greve" />
+		<tag k="artwork_subject" v="Amaltheia" />
+		<tag k="artwork_type" v="relief" />
+		<tag k="description" v="Relieff av nymfen Amaltheia" />
+		<tag k="name" v="Amaltheia" />
+		<tag k="tourism" v="artwork" />
+	</node>
+	<node id="4183985804" lat="60.393517" lon="5.3196956" version="2" timestamp="2017-07-19T05:23:01Z" changeset="50395111" uid="1965308" user="FredrikLindseth">
+		<tag k="artist_name" v="Arne Rygvold" />
+		<tag k="artwork_type" v="sculpture" />
+		<tag k="name" v="Smørbroen" />
+		<tag k="tourism" v="artwork" />
+	</node>
+	<node id="4978691859" lat="60.3936351" lon="5.3199054" version="1" timestamp="2017-07-19T05:23:01Z" changeset="50395111" uid="1965308" user="FredrikLindseth" />
+	<node id="6968240323" lat="60.3935567" lon="5.3194969" version="1" timestamp="2019-11-12T06:43:15Z" changeset="76941924" uid="715936" user="Gazer75" />
+	<node id="9311086947" lat="60.3936789" lon="5.3196688" version="1" timestamp="2021-12-04T19:12:22Z" changeset="114563881" uid="12645669" user="Kokosnøtt" />
+	<node id="23984361" lat="60.3973678" lon="5.3147023" version="6" timestamp="2016-01-24T08:25:13Z" changeset="36771354" uid="1965308" user="FredrikLindseth">
+		<tag k="source" v="PGS(could be inacurately)" />
+	</node>
+	<node id="863715648" lat="60.3975669" lon="5.3132881" version="3" timestamp="2016-01-24T08:25:14Z" changeset="36771354" uid="1965308" user="FredrikLindseth" />
+	<node id="863716067" lat="60.400838" lon="5.3143116" version="4" timestamp="2015-04-17T22:03:08Z" changeset="30296828" uid="2836853" user="frokor_import" />
+	<node id="3462357780" lat="60.3947372" lon="5.3102978" version="2" timestamp="2019-09-05T12:06:57Z" changeset="74130483" uid="1965308" user="FredrikLindseth" />
+	<node id="3462357781" lat="60.3947562" lon="5.3102453" version="1" timestamp="2015-04-17T22:00:56Z" changeset="30296828" uid="2836853" user="frokor_import" />
+	<node id="3462357791" lat="60.3948671" lon="5.3104171" version="2" timestamp="2019-09-05T12:06:57Z" changeset="74130483" uid="1965308" user="FredrikLindseth" />
+	<node id="3462357813" lat="60.395165" lon="5.3107901" version="1" timestamp="2015-04-17T22:00:56Z" changeset="30296828" uid="2836853" user="frokor_import" />
+	<node id="3462357827" lat="60.3952887" lon="5.3109635" version="1" timestamp="2015-04-17T22:00:57Z" changeset="30296828" uid="2836853" user="frokor_import" />
+	<node id="3462358023" lat="60.3974063" lon="5.3146836" version="1" timestamp="2015-04-17T22:00:58Z" changeset="30296828" uid="2836853" user="frokor_import" />
+	<node id="3462358044" lat="60.3977283" lon="5.3141739" version="1" timestamp="2015-04-17T22:00:59Z" changeset="30296828" uid="2836853" user="frokor_import" />
+	<node id="3462358045" lat="60.3977377" lon="5.3141124" version="1" timestamp="2015-04-17T22:00:59Z" changeset="30296828" uid="2836853" user="frokor_import" />
+	<node id="3462358050" lat="60.3977966" lon="5.3143006" version="1" timestamp="2015-04-17T22:00:59Z" changeset="30296828" uid="2836853" user="frokor_import" />
+	<node id="3462358052" lat="60.3978652" lon="5.313808" version="1" timestamp="2015-04-17T22:00:59Z" changeset="30296828" uid="2836853" user="frokor_import" />
+	<node id="3462358070" lat="60.3981672" lon="5.3147628" version="1" timestamp="2015-04-17T22:00:59Z" changeset="30296828" uid="2836853" user="frokor_import" />
+	<node id="3462358074" lat="60.3981971" lon="5.3145322" version="1" timestamp="2015-04-17T22:00:59Z" changeset="30296828" uid="2836853" user="frokor_import" />
+	<node id="3462358077" lat="60.3982328" lon="5.3140134" version="1" timestamp="2015-04-17T22:00:59Z" changeset="30296828" uid="2836853" user="frokor_import" />
+	<node id="3462358078" lat="60.398244" lon="5.313998" version="1" timestamp="2015-04-17T22:00:59Z" changeset="30296828" uid="2836853" user="frokor_import" />
+	<node id="3462358082" lat="60.3982995" lon="5.3137964" version="1" timestamp="2015-04-17T22:00:59Z" changeset="30296828" uid="2836853" user="frokor_import" />
+	<node id="3462358084" lat="60.3983035" lon="5.3137807" version="2" timestamp="2019-08-31T21:21:12Z" changeset="73958410" uid="3610826" user="km2bp" />
+	<node id="3462358085" lat="60.3983047" lon="5.313726" version="1" timestamp="2015-04-17T22:00:59Z" changeset="30296828" uid="2836853" user="frokor_import" />
+	<node id="3462358102" lat="60.3986586" lon="5.3115304" version="1" timestamp="2015-04-17T22:01:00Z" changeset="30296828" uid="2836853" user="frokor_import" />
+	<node id="3462358104" lat="60.3987213" lon="5.3125083" version="1" timestamp="2015-04-17T22:01:00Z" changeset="30296828" uid="2836853" user="frokor_import" />
+	<node id="3462358107" lat="60.3989021" lon="5.3121415" version="1" timestamp="2015-04-17T22:01:00Z" changeset="30296828" uid="2836853" user="frokor_import" />
+	<node id="3462358108" lat="60.3989028" lon="5.3121566" version="1" timestamp="2015-04-17T22:01:00Z" changeset="30296828" uid="2836853" user="frokor_import" />
+	<node id="3462358109" lat="60.3989037" lon="5.312177" version="1" timestamp="2015-04-17T22:01:00Z" changeset="30296828" uid="2836853" user="frokor_import" />
+	<node id="3462358110" lat="60.3989042" lon="5.3121888" version="1" timestamp="2015-04-17T22:01:00Z" changeset="30296828" uid="2836853" user="frokor_import" />
+	<node id="3462358111" lat="60.3989475" lon="5.3113432" version="2" timestamp="2017-05-28T17:51:19Z" changeset="49051158" uid="1965308" user="FredrikLindseth" />
+	<node id="3462358115" lat="60.3990155" lon="5.3131998" version="1" timestamp="2015-04-17T22:01:00Z" changeset="30296828" uid="2836853" user="frokor_import" />
+	<node id="3462358117" lat="60.3990795" lon="5.3110992" version="1" timestamp="2015-04-17T22:01:00Z" changeset="30296828" uid="2836853" user="frokor_import" />
+	<node id="3462358118" lat="60.3991127" lon="5.31119" version="1" timestamp="2015-04-17T22:01:00Z" changeset="30296828" uid="2836853" user="frokor_import" />
+	<node id="3462358120" lat="60.3994219" lon="5.3125028" version="1" timestamp="2015-04-17T22:01:00Z" changeset="30296828" uid="2836853" user="frokor_import" />
+	<node id="3462358123" lat="60.3995841" lon="5.3122113" version="1" timestamp="2015-04-17T22:01:00Z" changeset="30296828" uid="2836853" user="frokor_import" />
+	<node id="3462358124" lat="60.3995877" lon="5.3122192" version="1" timestamp="2015-04-17T22:01:00Z" changeset="30296828" uid="2836853" user="frokor_import" />
+	<node id="3462358127" lat="60.399664" lon="5.3097791" version="1" timestamp="2015-04-17T22:01:00Z" changeset="30296828" uid="2836853" user="frokor_import" />
+	<node id="3462358133" lat="60.3997022" lon="5.3120232" version="1" timestamp="2015-04-17T22:01:00Z" changeset="30296828" uid="2836853" user="frokor_import" />
+	<node id="3462358134" lat="60.3997024" lon="5.3099226" version="1" timestamp="2015-04-17T22:01:00Z" changeset="30296828" uid="2836853" user="frokor_import" />
+	<node id="3462358136" lat="60.3997039" lon="5.3120172" version="1" timestamp="2015-04-17T22:01:00Z" changeset="30296828" uid="2836853" user="frokor_import" />
+	<node id="3462358141" lat="60.3997647" lon="5.3117975" version="1" timestamp="2015-04-17T22:01:00Z" changeset="30296828" uid="2836853" user="frokor_import" />
+	<node id="3462358145" lat="60.3998052" lon="5.3102302" version="1" timestamp="2015-04-17T22:01:00Z" changeset="30296828" uid="2836853" user="frokor_import" />
+	<node id="3462358152" lat="60.3998842" lon="5.3104246" version="1" timestamp="2015-04-17T22:01:00Z" changeset="30296828" uid="2836853" user="frokor_import" />
+	<node id="3462358157" lat="60.3999079" lon="5.3103901" version="1" timestamp="2015-04-17T22:01:00Z" changeset="30296828" uid="2836853" user="frokor_import" />
+	<node id="3462358163" lat="60.3999777" lon="5.3104625" version="1" timestamp="2015-04-17T22:01:00Z" changeset="30296828" uid="2836853" user="frokor_import" />
+	<node id="3462358168" lat="60.3999999" lon="5.3109479" version="1" timestamp="2015-04-17T22:01:01Z" changeset="30296828" uid="2836853" user="frokor_import" />
+	<node id="3462358173" lat="60.4" lon="5.3104855" version="1" timestamp="2015-04-17T22:01:01Z" changeset="30296828" uid="2836853" user="frokor_import" />
+	<node id="3462358175" lat="60.4000374" lon="5.3108123" version="1" timestamp="2015-04-17T22:01:01Z" changeset="30296828" uid="2836853" user="frokor_import" />
+	<node id="3462358187" lat="60.4000994" lon="5.3105885" version="1" timestamp="2015-04-17T22:01:01Z" changeset="30296828" uid="2836853" user="frokor_import" />
+	<node id="4881960039" lat="60.3990071" lon="5.3112195" version="1" timestamp="2017-05-28T17:51:16Z" changeset="49051158" uid="1965308" user="FredrikLindseth" />
+	<node id="4881960040" lat="60.3989733" lon="5.3112842" version="1" timestamp="2017-05-28T17:51:16Z" changeset="49051158" uid="1965308" user="FredrikLindseth" />
+	<node id="6762535723" lat="60.3974929" lon="5.3147328" version="1" timestamp="2019-08-31T21:21:12Z" changeset="73958410" uid="3610826" user="km2bp" />
+	<node id="6762623235" lat="60.3980493" lon="5.3144467" version="1" timestamp="2019-08-31T22:31:24Z" changeset="73959467" uid="3610826" user="km2bp" />
+	<node id="6762623236" lat="60.3978776" lon="5.3143475" version="1" timestamp="2019-08-31T22:31:24Z" changeset="73959467" uid="3610826" user="km2bp" />
+	<node id="6774491269" lat="60.3948551" lon="5.3103715" version="1" timestamp="2019-09-05T12:06:57Z" changeset="74130483" uid="1965308" user="FredrikLindseth" />
+	<node id="6774491270" lat="60.3949207" lon="5.3104882" version="1" timestamp="2019-09-05T12:06:57Z" changeset="74130483" uid="1965308" user="FredrikLindseth" />
+	<node id="6774491271" lat="60.39493" lon="5.3104641" version="1" timestamp="2019-09-05T12:06:57Z" changeset="74130483" uid="1965308" user="FredrikLindseth" />
 	<node id="129963677" lat="60.4010676" lon="5.321424" version="5" timestamp="2021-03-13T20:19:11Z" changeset="100968124" uid="519916" user="googlenaut">
 		<tag k="access" v="conditional" />
 		<tag k="access:conditional" v="yes @ (Mo-Su 06:30-23:00)" />
 		<tag k="barrier" v="gate" />
 	</node>
 	<node id="129963706" lat="60.4011007" lon="5.321361" version="3" timestamp="2017-06-25T17:48:00Z" changeset="49819465" uid="992708" user="Christian Madsen" />
+	<node id="1784816859" lat="60.3956158" lon="5.3207257" version="6" timestamp="2021-09-29T14:29:52Z" changeset="111870517" uid="8734690" user="Diana_Wildschut">
+		<tag k="amenity" v="ferry_terminal" />
+		<tag k="cargo" v="passengers" />
+		<tag k="ferry" v="yes" />
+		<tag k="name" v="Strandkaiterminalen, båt Askøy" />
+		<tag k="public_transport" v="stop_position" />
+		<tag k="wheelchair" v="yes" />
+	</node>
+	<node id="3462357872" lat="60.3956829" lon="5.3207778" version="1" timestamp="2015-04-17T22:00:57Z" changeset="30296828" uid="2836853" user="frokor_import" />
+	<node id="3462357890" lat="60.3964964" lon="5.3176997" version="1" timestamp="2015-04-17T22:00:58Z" changeset="30296828" uid="2836853" user="frokor_import" />
+	<node id="3462357999" lat="60.3967513" lon="5.3161607" version="1" timestamp="2015-04-17T22:00:58Z" changeset="30296828" uid="2836853" user="frokor_import" />
+	<node id="3462358002" lat="60.3968683" lon="5.3180309" version="1" timestamp="2015-04-17T22:00:58Z" changeset="30296828" uid="2836853" user="frokor_import" />
+	<node id="3462358004" lat="60.3968852" lon="5.3156584" version="1" timestamp="2015-04-17T22:00:58Z" changeset="30296828" uid="2836853" user="frokor_import" />
+	<node id="3462358017" lat="60.3971529" lon="5.3170216" version="1" timestamp="2015-04-17T22:00:58Z" changeset="30296828" uid="2836853" user="frokor_import" />
+	<node id="3462358019" lat="60.3971618" lon="5.3170478" version="1" timestamp="2015-04-17T22:00:58Z" changeset="30296828" uid="2836853" user="frokor_import" />
+	<node id="3462358021" lat="60.397351" lon="5.3163973" version="1" timestamp="2015-04-17T22:00:58Z" changeset="30296828" uid="2836853" user="frokor_import" />
+	<node id="3462358024" lat="60.3974158" lon="5.3164228" version="1" timestamp="2015-04-17T22:00:58Z" changeset="30296828" uid="2836853" user="frokor_import" />
+	<node id="3462358034" lat="60.3976337" lon="5.3159571" version="1" timestamp="2015-04-17T22:00:59Z" changeset="30296828" uid="2836853" user="frokor_import" />
+	<node id="3462358035" lat="60.3976654" lon="5.3161061" version="1" timestamp="2015-04-17T22:00:59Z" changeset="30296828" uid="2836853" user="frokor_import" />
+	<node id="3462358037" lat="60.3976663" lon="5.3159706" version="2" timestamp="2019-08-31T21:21:12Z" changeset="73958410" uid="3610826" user="km2bp" />
+	<node id="3462358039" lat="60.3976711" lon="5.3160949" version="1" timestamp="2015-04-17T22:00:59Z" changeset="30296828" uid="2836853" user="frokor_import" />
+	<node id="3462358040" lat="60.3976837" lon="5.3160025" version="1" timestamp="2015-04-17T22:00:59Z" changeset="30296828" uid="2836853" user="frokor_import" />
+	<node id="3462358041" lat="60.3976872" lon="5.3160087" version="1" timestamp="2015-04-17T22:00:59Z" changeset="30296828" uid="2836853" user="frokor_import" />
+	<node id="3462358042" lat="60.3976897" lon="5.3160584" version="1" timestamp="2015-04-17T22:00:59Z" changeset="30296828" uid="2836853" user="frokor_import" />
+	<node id="3462358057" lat="60.3979352" lon="5.3149842" version="1" timestamp="2015-04-17T22:00:59Z" changeset="30296828" uid="2836853" user="frokor_import" />
+	<node id="3462358058" lat="60.3979776" lon="5.31895" version="1" timestamp="2015-04-17T22:00:59Z" changeset="30296828" uid="2836853" user="frokor_import" />
+	<node id="3462358059" lat="60.3979781" lon="5.3189647" version="1" timestamp="2015-04-17T22:00:59Z" changeset="30296828" uid="2836853" user="frokor_import" />
+	<node id="3462358064" lat="60.3980308" lon="5.3204803" version="1" timestamp="2015-04-17T22:00:59Z" changeset="30296828" uid="2836853" user="frokor_import" />
+	<node id="3462358066" lat="60.3980636" lon="5.3205201" version="1" timestamp="2015-04-17T22:00:59Z" changeset="30296828" uid="2836853" user="frokor_import" />
+	<node id="3462358067" lat="60.3980785" lon="5.3204926" version="1" timestamp="2015-04-17T22:00:59Z" changeset="30296828" uid="2836853" user="frokor_import" />
+	<node id="3462358068" lat="60.3980883" lon="5.3205092" version="1" timestamp="2015-04-17T22:00:59Z" changeset="30296828" uid="2836853" user="frokor_import" />
+	<node id="3462358071" lat="60.3981718" lon="5.3184622" version="1" timestamp="2015-04-17T22:00:59Z" changeset="30296828" uid="2836853" user="frokor_import" />
+	<node id="3462358072" lat="60.3981788" lon="5.3184605" version="1" timestamp="2015-04-17T22:00:59Z" changeset="30296828" uid="2836853" user="frokor_import" />
+	<node id="3462358073" lat="60.398195" lon="5.3184565" version="1" timestamp="2015-04-17T22:00:59Z" changeset="30296828" uid="2836853" user="frokor_import" />
+	<node id="3462358075" lat="60.3982004" lon="5.3184552" version="1" timestamp="2015-04-17T22:00:59Z" changeset="30296828" uid="2836853" user="frokor_import" />
+	<node id="3462358079" lat="60.3982824" lon="5.3195886" version="1" timestamp="2015-04-17T22:00:59Z" changeset="30296828" uid="2836853" user="frokor_import" />
+	<node id="3462358080" lat="60.3982826" lon="5.3195902" version="1" timestamp="2015-04-17T22:00:59Z" changeset="30296828" uid="2836853" user="frokor_import" />
+	<node id="3462358081" lat="60.3982886" lon="5.31961" version="1" timestamp="2015-04-17T22:00:59Z" changeset="30296828" uid="2836853" user="frokor_import" />
+	<node id="3462358093" lat="60.3984837" lon="5.3197444" version="1" timestamp="2015-04-17T22:00:59Z" changeset="30296828" uid="2836853" user="frokor_import" />
 	<node id="3473556641" lat="60.4011833" lon="5.3198004" version="4" timestamp="2021-03-13T20:19:11Z" changeset="100968124" uid="519916" user="googlenaut" />
 	<node id="3682528977" lat="60.400682" lon="5.3211916" version="2" timestamp="2021-03-13T20:19:11Z" changeset="100968124" uid="519916" user="googlenaut" />
 	<node id="3682528978" lat="60.4009125" lon="5.3205639" version="2" timestamp="2021-03-13T20:19:11Z" changeset="100968124" uid="519916" user="googlenaut" />
 	<node id="3682528979" lat="60.4009973" lon="5.3203198" version="2" timestamp="2021-03-13T20:19:11Z" changeset="100968124" uid="519916" user="googlenaut" />
+	<node id="4183496937" lat="60.3974914" lon="5.3163268" version="1" timestamp="2016-05-13T13:37:14Z" changeset="39292025" uid="1965308" user="FredrikLindseth" />
+	<node id="4185028682" lat="60.3954879" lon="5.3206255" version="1" timestamp="2016-05-14T08:31:33Z" changeset="39306539" uid="1965308" user="FredrikLindseth" />
+	<node id="6762535715" lat="60.396678" lon="5.3168022" version="1" timestamp="2019-08-31T21:21:12Z" changeset="73958410" uid="3610826" user="km2bp" />
+	<node id="6762535716" lat="60.3970495" lon="5.3169739" version="1" timestamp="2019-08-31T21:21:12Z" changeset="73958410" uid="3610826" user="km2bp" />
+	<node id="6762535719" lat="60.3967785" lon="5.3161699" version="1" timestamp="2019-08-31T21:21:12Z" changeset="73958410" uid="3610826" user="km2bp" />
+	<node id="6762535720" lat="60.3970177" lon="5.3162649" version="1" timestamp="2019-08-31T21:21:12Z" changeset="73958410" uid="3610826" user="km2bp" />
 	<node id="8515152992" lat="60.4010555" lon="5.3214457" version="1" timestamp="2021-03-13T20:19:11Z" changeset="100968124" uid="519916" user="googlenaut" />
+	<node id="258308431" lat="60.4016287" lon="5.3083603" version="2" timestamp="2015-04-17T22:02:47Z" changeset="30296828" uid="2836853" user="frokor_import" />
+	<node id="863716291" lat="60.4016792" lon="5.3083908" version="2" timestamp="2015-04-17T22:03:08Z" changeset="30296828" uid="2836853" user="frokor_import" />
 	<node id="4351540046" lat="60.4140504" lon="5.3053067" version="1" timestamp="2016-08-15T18:09:25Z" changeset="41472931" uid="1965308" user="FredrikLindseth" />
+	<node id="23984255" lat="60.4016977" lon="5.3103629" version="7" timestamp="2015-04-17T22:02:41Z" changeset="30296828" uid="2836853" user="frokor_import">
+		<tag k="source" v="PGS(could be inacurately)" />
+	</node>
+	<node id="23984257" lat="60.4024702" lon="5.3144614" version="6" timestamp="2015-04-17T22:02:41Z" changeset="30296828" uid="2836853" user="frokor_import">
+		<tag k="source" v="PGS(could be inacurately)" />
+	</node>
+	<node id="23984270" lat="60.4024687" lon="5.3144536" version="7" timestamp="2015-04-17T22:02:41Z" changeset="30296828" uid="2836853" user="frokor_import">
+		<tag k="source" v="PGS(could be inacurately)" />
+	</node>
+	<node id="23984273" lat="60.4024562" lon="5.3144325" version="6" timestamp="2015-04-17T22:02:41Z" changeset="30296828" uid="2836853" user="frokor_import">
+		<tag k="source" v="PGS(could be inacurately)" />
+	</node>
+	<node id="23984381" lat="60.4015202" lon="5.3143441" version="6" timestamp="2015-04-17T22:02:41Z" changeset="30296828" uid="2836853" user="frokor_import">
+		<tag k="source" v="PGS(could be inacurately)" />
+	</node>
+	<node id="23984386" lat="60.4024524" lon="5.3144321" version="6" timestamp="2015-04-17T22:02:41Z" changeset="30296828" uid="2836853" user="frokor_import">
+		<tag k="source" v="PGS(could be inacurately)" />
+	</node>
+	<node id="23984391" lat="60.4015811" lon="5.3116377" version="6" timestamp="2015-04-17T22:02:41Z" changeset="30296828" uid="2836853" user="frokor_import">
+		<tag k="source" v="PGS(could be inacurately)" />
+	</node>
+	<node id="23984399" lat="60.4017958" lon="5.3094695" version="5" timestamp="2015-04-17T22:02:41Z" changeset="30296828" uid="2836853" user="frokor_import">
+		<tag k="source" v="PGS(could be inacurately)" />
+	</node>
+	<node id="23984401" lat="60.4018895" lon="5.3085358" version="4" timestamp="2015-04-17T22:02:41Z" changeset="30296828" uid="2836853" user="frokor_import">
+		<tag k="source" v="PGS(could be inacurately)" />
+	</node>
+	<node id="30753603" lat="60.4015881" lon="5.3114985" version="5" timestamp="2015-04-17T22:02:48Z" changeset="30296828" uid="2836853" user="frokor_import" />
+	<node id="258308428" lat="60.4018855" lon="5.3085156" version="3" timestamp="2015-04-17T22:02:47Z" changeset="30296828" uid="2836853" user="frokor_import" />
+	<node id="258308444" lat="60.4018806" lon="5.3085127" version="2" timestamp="2015-04-17T22:02:47Z" changeset="30296828" uid="2836853" user="frokor_import" />
+	<node id="863715902" lat="60.4016005" lon="5.3112487" version="4" timestamp="2015-04-17T22:03:08Z" changeset="30296828" uid="2836853" user="frokor_import" />
+	<node id="863715970" lat="60.4015483" lon="5.3089039" version="3" timestamp="2015-04-17T22:03:08Z" changeset="30296828" uid="2836853" user="frokor_import" />
+	<node id="2045088877" lat="60.4013563" lon="5.3103653" version="2" timestamp="2015-04-17T22:02:31Z" changeset="30296828" uid="2836853" user="frokor_import" />
+	<node id="2045088878" lat="60.4015906" lon="5.3114462" version="3" timestamp="2015-04-17T22:02:31Z" changeset="30296828" uid="2836853" user="frokor_import" />
+	<node id="23984277" lat="60.4028694" lon="5.3166332" version="7" timestamp="2015-04-17T22:02:41Z" changeset="30296828" uid="2836853" user="frokor_import">
+		<tag k="source" v="PGS(could be inacurately)" />
+	</node>
+	<node id="23984282" lat="60.4028713" lon="5.3166436" version="7" timestamp="2015-04-17T22:02:41Z" changeset="30296828" uid="2836853" user="frokor_import">
+		<tag k="source" v="PGS(could be inacurately)" />
+	</node>
+	<node id="29948203" lat="60.4022897" lon="5.3191286" version="5" timestamp="2015-04-17T22:02:48Z" changeset="30296828" uid="2836853" user="frokor_import" />
+	<node id="29948205" lat="60.402211" lon="5.3192195" version="5" timestamp="2015-04-17T22:02:48Z" changeset="30296828" uid="2836853" user="frokor_import" />
+	<node id="60405859" lat="60.4021993" lon="5.3193022" version="5" timestamp="2015-04-17T22:02:59Z" changeset="30296828" uid="2836853" user="frokor_import" />
 	<node id="129963696" lat="60.4015319" lon="5.320744" version="3" timestamp="2017-06-25T17:48:00Z" changeset="49819465" uid="992708" user="Christian Madsen" />
 	<node id="129963698" lat="60.4015273" lon="5.3209707" version="3" timestamp="2017-06-25T17:48:00Z" changeset="49819465" uid="992708" user="Christian Madsen" />
 	<node id="129963699" lat="60.401463" lon="5.3209962" version="3" timestamp="2017-06-25T17:48:00Z" changeset="49819465" uid="992708" user="Christian Madsen" />
 	<node id="129963701" lat="60.4013909" lon="5.3213636" version="3" timestamp="2017-06-25T17:48:00Z" changeset="49819465" uid="992708" user="Christian Madsen" />
 	<node id="129963709" lat="60.4012795" lon="5.321255" version="3" timestamp="2017-06-25T17:48:00Z" changeset="49819465" uid="992708" user="Christian Madsen" />
+	<node id="1769514075" lat="60.4035557" lon="5.3213725" version="3" timestamp="2016-01-14T08:51:50Z" changeset="36565637" uid="2114448" user="FredrikLindseth_import" />
+	<node id="1769514107" lat="60.4036788" lon="5.3214234" version="2" timestamp="2016-01-14T08:51:50Z" changeset="36565637" uid="2114448" user="FredrikLindseth_import" />
+	<node id="1769514114" lat="60.4036189" lon="5.3213829" version="2" timestamp="2016-01-14T08:51:50Z" changeset="36565637" uid="2114448" user="FredrikLindseth_import" />
+	<node id="3462358428" lat="60.4021656" lon="5.3195407" version="1" timestamp="2015-04-17T22:01:02Z" changeset="30296828" uid="2836853" user="frokor_import" />
 	<node id="4351539642" lat="60.4027602" lon="5.3208312" version="1" timestamp="2016-08-15T18:09:22Z" changeset="41472931" uid="1965308" user="FredrikLindseth" />
 	<node id="4351539647" lat="60.4027918" lon="5.3209795" version="1" timestamp="2016-08-15T18:09:22Z" changeset="41472931" uid="1965308" user="FredrikLindseth" />
 	<node id="4351539648" lat="60.4028225" lon="5.3211157" version="1" timestamp="2016-08-15T18:09:22Z" changeset="41472931" uid="1965308" user="FredrikLindseth" />
@@ -4818,6 +5099,10 @@
 		<tag k="access" v="private" />
 		<tag k="barrier" v="gate" />
 	</node>
+	<node id="9377272484" lat="60.4020879" lon="5.3191799" version="1" timestamp="2021-12-29T20:31:09Z" changeset="115536700" uid="4361277" user="Mathias Haugsbø" />
+	<node id="9377272485" lat="60.4020879" lon="5.3183752" version="1" timestamp="2021-12-29T20:31:09Z" changeset="115536700" uid="4361277" user="Mathias Haugsbø" />
+	<node id="9377272486" lat="60.4016666" lon="5.3169268" version="1" timestamp="2021-12-29T20:31:09Z" changeset="115536700" uid="4361277" user="Mathias Haugsbø" />
+	<node id="9377272487" lat="60.4014771" lon="5.3151405" version="1" timestamp="2021-12-29T20:31:09Z" changeset="115536700" uid="4361277" user="Mathias Haugsbø" />
 	<node id="4351539049" lat="60.3884486" lon="5.3239941" version="1" timestamp="2016-08-15T18:09:14Z" changeset="41472931" uid="1965308" user="FredrikLindseth" />
 	<node id="4351539058" lat="60.3887562" lon="5.3228083" version="1" timestamp="2016-08-15T18:09:15Z" changeset="41472931" uid="1965308" user="FredrikLindseth" />
 	<node id="4351539067" lat="60.3894337" lon="5.323591" version="2" timestamp="2021-09-07T22:22:40Z" changeset="110881520" uid="4361277" user="Mathias Haugsbø" />
@@ -4825,6 +5110,48 @@
 	<node id="4351539097" lat="60.3906255" lon="5.3248518" version="2" timestamp="2021-09-07T22:22:40Z" changeset="110881520" uid="4361277" user="Mathias Haugsbø" />
 	<node id="4351539126" lat="60.3912134" lon="5.325417" version="1" timestamp="2016-08-15T18:09:15Z" changeset="41472931" uid="1965308" user="FredrikLindseth" />
 	<node id="7094312151" lat="60.3906417" lon="5.3277436" version="1" timestamp="2019-12-30T00:38:12Z" changeset="78993008" uid="10415019" user="MarlinMr" />
+	<node id="33793218" lat="60.3907067" lon="5.3332199" version="7" timestamp="2017-06-10T15:10:18Z" changeset="49422773" uid="1965308" user="FredrikLindseth" />
+	<node id="33793219" lat="60.3902986" lon="5.3325408" version="9" timestamp="2017-06-13T11:17:25Z" changeset="49496622" uid="1965308" user="FredrikLindseth" />
+	<node id="33793220" lat="60.3896364" lon="5.3341722" version="8" timestamp="2017-06-13T11:17:25Z" changeset="49496622" uid="1965308" user="FredrikLindseth" />
+	<node id="33793221" lat="60.3897241" lon="5.3343181" version="7" timestamp="2017-06-13T11:17:25Z" changeset="49496622" uid="1965308" user="FredrikLindseth" />
+	<node id="33793367" lat="60.390405" lon="5.3336491" version="8" timestamp="2017-06-13T11:17:25Z" changeset="49496622" uid="1965308" user="FredrikLindseth" />
+	<node id="33793368" lat="60.3902317" lon="5.3340762" version="8" timestamp="2017-06-13T11:17:25Z" changeset="49496622" uid="1965308" user="FredrikLindseth" />
+	<node id="33793407" lat="60.3903256" lon="5.3342323" version="8" timestamp="2017-06-13T11:17:25Z" changeset="49496622" uid="1965308" user="FredrikLindseth" />
+	<node id="33793565" lat="60.3896762" lon="5.3340742" version="9" timestamp="2017-06-13T11:17:25Z" changeset="49496622" uid="1965308" user="FredrikLindseth">
+		<tag k="entrance" v="yes" />
+		<tag k="level" v="1" />
+	</node>
+	<node id="1000196636" lat="60.3896684" lon="5.3342263" version="2" timestamp="2018-10-11T18:51:14Z" changeset="63430907" uid="1965308" user="FredrikLindseth" />
+	<node id="1857393516" lat="60.390461" lon="5.3328108" version="8" timestamp="2017-06-13T11:17:25Z" changeset="49496622" uid="1965308" user="FredrikLindseth">
+		<tag k="amenity" v="post_box" />
+		<tag k="level" v="0" />
+	</node>
+	<node id="2052812251" lat="60.3901046" lon="5.3330188" version="9" timestamp="2017-06-13T11:17:25Z" changeset="49496622" uid="1965308" user="FredrikLindseth">
+		<tag k="barrier" v="gate" />
+		<tag k="entrance" v="yes" />
+		<tag k="level" v="0" />
+		<tag k="opening_hours" v="Mo-Su 06:00-00:30" />
+		<tag k="wheelchair" v="yes" />
+	</node>
+	<node id="2052812255" lat="60.3901986" lon="5.3333059" version="6" timestamp="2017-06-13T11:17:25Z" changeset="49496622" uid="1965308" user="FredrikLindseth" />
+	<node id="2052812261" lat="60.3902342" lon="5.333365" version="6" timestamp="2017-06-13T11:17:25Z" changeset="49496622" uid="1965308" user="FredrikLindseth" />
+	<node id="2052812283" lat="60.3903076" lon="5.333487" version="5" timestamp="2017-06-13T11:17:25Z" changeset="49496622" uid="1965308" user="FredrikLindseth" />
+	<node id="2052812291" lat="60.3903439" lon="5.3335474" version="6" timestamp="2017-06-13T11:17:25Z" changeset="49496622" uid="1965308" user="FredrikLindseth" />
+	<node id="2052812304" lat="60.3904984" lon="5.332873" version="9" timestamp="2017-06-13T11:17:25Z" changeset="49496622" uid="1965308" user="FredrikLindseth">
+		<tag k="entrance" v="main" />
+		<tag k="level" v="0" />
+		<tag k="opening_hours" v="Mo-Su 06:00-00:30" />
+		<tag k="wheelchair" v="no" />
+	</node>
+	<node id="2052812306" lat="60.3905131" lon="5.3336979" version="9" timestamp="2017-06-13T11:17:26Z" changeset="49496622" uid="1965308" user="FredrikLindseth">
+		<tag k="barrier" v="gate" />
+		<tag k="entrance" v="yes" />
+		<tag k="level" v="0" />
+		<tag k="opening_hours" v="Mo-Su 06:00-00:30" />
+		<tag k="wheelchair" v="yes" />
+	</node>
+	<node id="3793019712" lat="60.3896612" lon="5.3341112" version="7" timestamp="2017-06-13T11:17:26Z" changeset="49496622" uid="1965308" user="FredrikLindseth" />
+	<node id="3793019718" lat="60.3896897" lon="5.334041" version="7" timestamp="2017-06-13T11:17:26Z" changeset="49496622" uid="1965308" user="FredrikLindseth" />
 	<node id="4351539069" lat="60.3895696" lon="5.3309284" version="1" timestamp="2016-08-15T18:09:15Z" changeset="41472931" uid="1965308" user="FredrikLindseth" />
 	<node id="4351539085" lat="60.3902987" lon="5.3291393" version="1" timestamp="2016-08-15T18:09:15Z" changeset="41472931" uid="1965308" user="FredrikLindseth" />
 	<node id="4351539252" lat="60.3942941" lon="5.3333208" version="1" timestamp="2016-08-15T18:09:17Z" changeset="41472931" uid="1965308" user="FredrikLindseth" />
@@ -4842,8 +5169,144 @@
 	<node id="4351539279" lat="60.3945788" lon="5.3330126" version="2" timestamp="2021-09-07T22:22:40Z" changeset="110881520" uid="4361277" user="Mathias Haugsbø" />
 	<node id="4351539280" lat="60.394582" lon="5.3319258" version="2" timestamp="2021-09-07T22:22:40Z" changeset="110881520" uid="4361277" user="Mathias Haugsbø" />
 	<node id="4351539283" lat="60.394704" lon="5.3317718" version="2" timestamp="2021-09-07T22:22:40Z" changeset="110881520" uid="4361277" user="Mathias Haugsbø" />
+	<node id="4454695231" lat="60.3903247" lon="5.3335155" version="7" timestamp="2017-06-13T11:17:26Z" changeset="49496622" uid="1965308" user="FredrikLindseth" />
+	<node id="4454695233" lat="60.3905218" lon="5.3329119" version="7" timestamp="2017-06-13T11:17:26Z" changeset="49496622" uid="1965308" user="FredrikLindseth">
+		<tag k="amenity" v="waste_basket" />
+	</node>
+	<node id="4533915469" lat="60.3905997" lon="5.3330415" version="7" timestamp="2017-06-13T11:17:26Z" changeset="49496622" uid="1965308" user="FredrikLindseth">
+		<tag k="amenity" v="bicycle_parking" />
+		<tag k="bicycle_parking" v="stands" />
+		<tag k="capacity" v="6" />
+		<tag k="covered" v="no" />
+		<tag k="level" v="0" />
+	</node>
+	<node id="4816709995" lat="60.3896929" lon="5.3342662" version="6" timestamp="2017-06-13T11:17:26Z" changeset="49496622" uid="1965308" user="FredrikLindseth" />
+	<node id="4816735235" lat="60.3897998" lon="5.3342884" version="5" timestamp="2017-06-13T11:17:26Z" changeset="49496622" uid="1965308" user="FredrikLindseth" />
+	<node id="4816735236" lat="60.3898354" lon="5.3343475" version="4" timestamp="2017-06-13T11:17:26Z" changeset="49496622" uid="1965308" user="FredrikLindseth" />
+	<node id="4816735237" lat="60.3899077" lon="5.3344685" version="4" timestamp="2017-06-13T11:17:26Z" changeset="49496622" uid="1965308" user="FredrikLindseth" />
+	<node id="4816735238" lat="60.389944" lon="5.334529" version="6" timestamp="2017-06-13T11:17:26Z" changeset="49496622" uid="1965308" user="FredrikLindseth" />
+	<node id="4816735239" lat="60.3903767" lon="5.333602" version="6" timestamp="2017-06-13T11:17:26Z" changeset="49496622" uid="1965308" user="FredrikLindseth" />
+	<node id="4816735240" lat="60.3899777" lon="5.3345849" version="6" timestamp="2017-06-13T11:17:26Z" changeset="49496622" uid="1965308" user="FredrikLindseth" />
+	<node id="4816735241" lat="60.3897618" lon="5.3342252" version="6" timestamp="2017-06-13T11:17:26Z" changeset="49496622" uid="1965308" user="FredrikLindseth" />
+	<node id="4818155909" lat="60.3903884" lon="5.3340777" version="5" timestamp="2017-06-13T11:17:26Z" changeset="49496622" uid="1965308" user="FredrikLindseth">
+		<tag k="entrance" v="yes" />
+		<tag k="level" v="0" />
+	</node>
+	<node id="4818155911" lat="60.3904166" lon="5.3340081" version="5" timestamp="2017-06-13T11:17:27Z" changeset="49496622" uid="1965308" user="FredrikLindseth" />
+	<node id="4818155912" lat="60.390433" lon="5.3340353" version="5" timestamp="2017-06-13T11:17:27Z" changeset="49496622" uid="1965308" user="FredrikLindseth" />
+	<node id="4818155913" lat="60.3904675" lon="5.3339503" version="5" timestamp="2017-06-13T11:17:27Z" changeset="49496622" uid="1965308" user="FredrikLindseth" />
+	<node id="4818155914" lat="60.3904549" lon="5.3339296" version="5" timestamp="2017-06-13T11:17:27Z" changeset="49496622" uid="1965308" user="FredrikLindseth" />
+	<node id="4818156426" lat="60.3904946" lon="5.3328666" version="5" timestamp="2017-06-13T11:17:27Z" changeset="49496622" uid="1965308" user="FredrikLindseth">
+		<tag k="amenity" v="clock" />
+		<tag k="display" v="analog" />
+		<tag k="support" v="wall_mounted" />
+		<tag k="visibility" v="area" />
+	</node>
+	<node id="4818156429" lat="60.3904814" lon="5.333776" version="5" timestamp="2017-06-13T11:17:27Z" changeset="49496622" uid="1965308" user="FredrikLindseth" />
+	<node id="4818156430" lat="60.3900729" lon="5.3330969" version="5" timestamp="2017-06-13T11:17:28Z" changeset="49496622" uid="1965308" user="FredrikLindseth" />
+	<node id="4818156431" lat="60.3906308" lon="5.3330931" version="5" timestamp="2017-06-13T11:17:28Z" changeset="49496622" uid="1965308" user="FredrikLindseth" />
+	<node id="4818156432" lat="60.3906232" lon="5.3334253" version="5" timestamp="2017-06-13T11:17:28Z" changeset="49496622" uid="1965308" user="FredrikLindseth" />
+	<node id="4818156433" lat="60.3903864" lon="5.3326867" version="5" timestamp="2017-06-13T11:17:28Z" changeset="49496622" uid="1965308" user="FredrikLindseth" />
+	<node id="4818156434" lat="60.3902151" lon="5.3327467" version="5" timestamp="2017-06-13T11:17:28Z" changeset="49496622" uid="1965308" user="FredrikLindseth" />
+	<node id="4878688689" lat="60.3900092" lon="5.3337179" version="6" timestamp="2019-06-05T10:25:53Z" changeset="70950511" uid="715936" user="Gazer75">
+		<tag k="level" v="0" />
+		<tag k="local_ref" v="1" />
+		<tag k="name" v="Bergen" />
+		<tag k="public_transport" v="stop_position" />
+		<tag k="railway" v="stop" />
+		<tag k="railway:position" v="471.25" />
+		<tag k="train" v="yes" />
+	</node>
+	<node id="4878688690" lat="60.3902204" lon="5.333472" version="5" timestamp="2018-05-03T14:13:58Z" changeset="58649357" uid="3842253" user="NKA_import">
+		<tag k="level" v="0" />
+		<tag k="local_ref" v="2" />
+		<tag k="name" v="Bergen" />
+		<tag k="public_transport" v="stop_position" />
+		<tag k="railway" v="stop" />
+		<tag k="railway:position" v="471.25" />
+		<tag k="train" v="yes" />
+	</node>
+	<node id="4878688691" lat="60.3902618" lon="5.333543" version="5" timestamp="2018-05-03T14:13:58Z" changeset="58649357" uid="3842253" user="NKA_import">
+		<tag k="level" v="0" />
+		<tag k="local_ref" v="3" />
+		<tag k="name" v="Bergen" />
+		<tag k="public_transport" v="stop_position" />
+		<tag k="railway" v="stop" />
+		<tag k="railway:position" v="471.25" />
+		<tag k="train" v="yes" />
+	</node>
+	<node id="4878688692" lat="60.3903229" lon="5.3336476" version="5" timestamp="2018-05-03T14:13:58Z" changeset="58649357" uid="3842253" user="NKA_import">
+		<tag k="level" v="0" />
+		<tag k="local_ref" v="4" />
+		<tag k="name" v="Bergen" />
+		<tag k="public_transport" v="stop_position" />
+		<tag k="railway" v="stop" />
+		<tag k="railway:position" v="471.25" />
+		<tag k="train" v="yes" />
+	</node>
+	<node id="4885633142" lat="60.3897019" lon="5.3342439" version="2" timestamp="2017-06-13T11:17:28Z" changeset="49496622" uid="1965308" user="FredrikLindseth" />
+	<node id="4885633143" lat="60.3897315" lon="5.3342999" version="2" timestamp="2017-06-13T11:17:28Z" changeset="49496622" uid="1965308" user="FredrikLindseth" />
+	<node id="4907717243" lat="60.3902265" lon="5.3327185" version="2" timestamp="2017-06-13T11:17:28Z" changeset="49496622" uid="1965308" user="FredrikLindseth">
+		<tag k="entrance" v="yes" />
+	</node>
+	<node id="4907717247" lat="60.3900693" lon="5.3331058" version="2" timestamp="2017-06-13T11:17:28Z" changeset="49496622" uid="1965308" user="FredrikLindseth" />
+	<node id="4907717256" lat="60.3899789" lon="5.333627" version="2" timestamp="2017-06-13T11:17:28Z" changeset="49496622" uid="1965308" user="FredrikLindseth" />
+	<node id="4907717258" lat="60.3899943" lon="5.3336525" version="2" timestamp="2017-06-13T11:17:28Z" changeset="49496622" uid="1965308" user="FredrikLindseth" />
+	<node id="4907717259" lat="60.3899631" lon="5.3336006" version="2" timestamp="2017-06-13T11:17:28Z" changeset="49496622" uid="1965308" user="FredrikLindseth" />
+	<node id="4907717261" lat="60.3901744" lon="5.3328469" version="2" timestamp="2017-06-13T11:17:28Z" changeset="49496622" uid="1965308" user="FredrikLindseth" />
+	<node id="4907717264" lat="60.3905928" lon="5.3335016" version="2" timestamp="2017-06-13T11:17:28Z" changeset="49496622" uid="1965308" user="FredrikLindseth" />
+	<node id="4907717266" lat="60.3905948" lon="5.3330334" version="2" timestamp="2017-06-13T11:17:28Z" changeset="49496622" uid="1965308" user="FredrikLindseth" />
+	<node id="4907717288" lat="60.3899257" lon="5.3344984" version="2" timestamp="2017-06-13T11:17:29Z" changeset="49496622" uid="1965308" user="FredrikLindseth" />
+	<node id="4907717289" lat="60.3898195" lon="5.3343212" version="2" timestamp="2017-06-13T11:17:29Z" changeset="49496622" uid="1965308" user="FredrikLindseth" />
+	<node id="4907717296" lat="60.3900795" lon="5.3330807" version="2" timestamp="2017-06-13T11:17:29Z" changeset="49496622" uid="1965308" user="FredrikLindseth">
+		<tag k="access" v="private" />
+		<tag k="entrance" v="yes" />
+		<tag k="level" v="0" />
+	</node>
+	<node id="4912558322" lat="60.3904239" lon="5.3327491" version="1" timestamp="2017-06-13T11:17:21Z" changeset="49496622" uid="1965308" user="FredrikLindseth" />
+	<node id="4912558330" lat="60.3904432" lon="5.33401" version="1" timestamp="2017-06-13T11:17:21Z" changeset="49496622" uid="1965308" user="FredrikLindseth">
+		<tag k="access" v="private" />
+		<tag k="entrance" v="yes" />
+		<tag k="level" v="0" />
+	</node>
+	<node id="4912558331" lat="60.3904598" lon="5.3339692" version="1" timestamp="2017-06-13T11:17:21Z" changeset="49496622" uid="1965308" user="FredrikLindseth">
+		<tag k="access" v="private" />
+		<tag k="entrance" v="yes" />
+		<tag k="level" v="0" />
+	</node>
+	<node id="4912558334" lat="60.3905028" lon="5.3338117" version="1" timestamp="2017-06-13T11:17:21Z" changeset="49496622" uid="1965308" user="FredrikLindseth" />
+	<node id="4912558342" lat="60.3904842" lon="5.3328494" version="1" timestamp="2017-06-13T11:17:22Z" changeset="49496622" uid="1965308" user="FredrikLindseth">
+		<tag k="entrance" v="yes" />
+	</node>
+	<node id="4912558343" lat="60.3905119" lon="5.3328954" version="1" timestamp="2017-06-13T11:17:22Z" changeset="49496622" uid="1965308" user="FredrikLindseth">
+		<tag k="entrance" v="yes" />
+	</node>
+	<node id="4912558348" lat="60.3904922" lon="5.3338378" version="1" timestamp="2017-06-13T11:17:22Z" changeset="49496622" uid="1965308" user="FredrikLindseth" />
+	<node id="4912558352" lat="60.3903227" lon="5.3338519" version="1" timestamp="2017-06-13T11:17:22Z" changeset="49496622" uid="1965308" user="FredrikLindseth" />
+	<node id="4919366664" lat="60.390279" lon="5.3333972" version="4" timestamp="2021-08-06T11:57:23Z" changeset="109258269" uid="10472364" user="RudiEn">
+		<tag k="name" v="Bergen" />
+		<tag k="official_name" v="Bergen stasjon" />
+		<tag k="operator" v="Bane NOR" />
+		<tag k="railway" v="station" />
+		<tag k="railway:traffic_mode" v="mixed" />
+		<tag k="start_date" v="1913-05-26" />
+		<tag k="train" v="yes" />
+		<tag k="wheelchair" v="yes" />
+	</node>
+	<node id="8290023049" lat="60.3897939" lon="5.334303" version="1" timestamp="2021-01-04T15:46:15Z" changeset="96919662" uid="12400936" user="LMadeleine" />
 	<node id="9072143728" lat="60.3945361" lon="5.3339562" version="1" timestamp="2021-09-07T21:44:59Z" changeset="110880713" uid="4361277" user="Mathias Haugsbø" />
 	<node id="129963703" lat="60.4011556" lon="5.321538" version="3" timestamp="2017-06-25T17:48:00Z" changeset="49819465" uid="992708" user="Christian Madsen" />
+	<node id="1784820247" lat="60.3953301" lon="5.3218743" version="4" timestamp="2021-01-07T20:45:30Z" changeset="97129785" uid="1965308" user="FredrikLindseth">
+		<tag k="amenity" v="ferry_terminal" />
+		<tag k="cargo" v="passengers" />
+		<tag k="ferry" v="yes" />
+		<tag k="name" v="Strandkaiterminalen båtkai" />
+		<tag k="public_transport" v="stop_position" />
+	</node>
+	<node id="3462357785" lat="60.3947964" lon="5.322788" version="2" timestamp="2016-01-30T19:44:34Z" changeset="36904613" uid="1836293" user="Jojons" />
+	<node id="3462357800" lat="60.3949664" lon="5.322999" version="1" timestamp="2015-04-17T22:00:56Z" changeset="30296828" uid="2836853" user="frokor_import" />
+	<node id="3462357801" lat="60.3949708" lon="5.3229852" version="1" timestamp="2015-04-17T22:00:56Z" changeset="30296828" uid="2836853" user="frokor_import" />
+	<node id="3462357844" lat="60.395349" lon="5.3218129" version="1" timestamp="2015-04-17T22:00:57Z" changeset="30296828" uid="2836853" user="frokor_import" />
 	<node id="3682309595" lat="60.4008272" lon="5.3222546" version="1" timestamp="2015-08-05T12:20:54Z" changeset="33126418" uid="992708" user="Christian Madsen" />
 	<node id="3682309597" lat="60.4006913" lon="5.3223563" version="4" timestamp="2021-03-13T20:19:11Z" changeset="100968124" uid="519916" user="googlenaut" />
 	<node id="3682309598" lat="60.4004825" lon="5.3223969" version="3" timestamp="2021-03-13T20:19:11Z" changeset="100968124" uid="519916" user="googlenaut" />
@@ -4855,12 +5318,76 @@
 		<tag k="access:conditional" v="yes @ (Mo-Su 06:30-23:00)" />
 		<tag k="barrier" v="gate" />
 	</node>
+	<node id="3963345610" lat="60.3951043" lon="5.3250737" version="3" timestamp="2021-09-19T16:02:27Z" changeset="111415157" uid="4361277" user="Mathias Haugsbø" />
+	<node id="3963345611" lat="60.395144" lon="5.325263" version="3" timestamp="2021-09-19T16:02:27Z" changeset="111415157" uid="4361277" user="Mathias Haugsbø" />
+	<node id="3963345612" lat="60.3951703" lon="5.3251511" version="3" timestamp="2021-09-19T16:02:27Z" changeset="111415157" uid="4361277" user="Mathias Haugsbø" />
+	<node id="3963345613" lat="60.395213" lon="5.32457" version="3" timestamp="2021-09-19T16:02:27Z" changeset="111415157" uid="4361277" user="Mathias Haugsbø" />
+	<node id="3963345614" lat="60.395327" lon="5.325453" version="3" timestamp="2021-09-19T16:02:27Z" changeset="111415157" uid="4361277" user="Mathias Haugsbø" />
+	<node id="3963345615" lat="60.395505" lon="5.324782" version="3" timestamp="2021-09-19T16:02:27Z" changeset="111415157" uid="4361277" user="Mathias Haugsbø" />
+	<node id="3988480613" lat="60.3948224" lon="5.3228202" version="1" timestamp="2016-02-04T18:22:20Z" changeset="37004187" uid="1965308" user="FredrikLindseth" />
+	<node id="4185028614" lat="60.395121" lon="5.325087" version="2" timestamp="2021-09-19T16:02:27Z" changeset="111415157" uid="4361277" user="Mathias Haugsbø" />
+	<node id="4185028616" lat="60.3951046" lon="5.3249906" version="3" timestamp="2021-11-17T16:31:04Z" changeset="113905510" uid="5198133" user="Wulfmorn" />
+	<node id="4185028618" lat="60.3951188" lon="5.3250026" version="3" timestamp="2021-11-17T16:31:04Z" changeset="113905510" uid="5198133" user="Wulfmorn" />
+	<node id="4185028619" lat="60.3951132" lon="5.32503" version="2" timestamp="2021-09-19T16:02:27Z" changeset="111415157" uid="4361277" user="Mathias Haugsbø">
+		<tag k="entrance" v="yes" />
+		<tag k="level" v="2" />
+	</node>
+	<node id="4185028621" lat="60.39512" lon="5.325112" version="2" timestamp="2021-09-19T16:02:27Z" changeset="111415157" uid="4361277" user="Mathias Haugsbø" />
+	<node id="4185028626" lat="60.3951527" lon="5.3252709" version="2" timestamp="2021-09-19T16:02:27Z" changeset="111415157" uid="4361277" user="Mathias Haugsbø" />
+	<node id="4185028629" lat="60.3951644" lon="5.3251467" version="2" timestamp="2021-09-19T16:02:27Z" changeset="111415157" uid="4361277" user="Mathias Haugsbø" />
+	<node id="4185028630" lat="60.395155" lon="5.3247473" version="3" timestamp="2021-11-17T16:31:04Z" changeset="113905510" uid="5198133" user="Wulfmorn" />
+	<node id="4185028631" lat="60.3951731" lon="5.3247626" version="3" timestamp="2021-11-17T16:31:04Z" changeset="113905510" uid="5198133" user="Wulfmorn" />
+	<node id="4185028633" lat="60.3951861" lon="5.3252996" version="2" timestamp="2021-09-19T16:02:27Z" changeset="111415157" uid="4361277" user="Mathias Haugsbø">
+		<tag k="artwork_type" v="sculpture" />
+		<tag k="description" v="En galleonsfigur av en fiskermann som holder en fisk. Henger på veggen" />
+		<tag k="tourism" v="artwork" />
+	</node>
+	<node id="4185028635" lat="60.395204" lon="5.325359" version="2" timestamp="2021-09-19T16:02:27Z" changeset="111415157" uid="4361277" user="Mathias Haugsbø" />
+	<node id="4185028636" lat="60.3952125" lon="5.3253237" version="3" timestamp="2021-10-22T20:22:12Z" changeset="112855401" uid="13753595" user="VLD182" />
+	<node id="4185028643" lat="60.39525" lon="5.325402" version="2" timestamp="2021-09-19T16:02:27Z" changeset="111415157" uid="4361277" user="Mathias Haugsbø" />
+	<node id="4185028644" lat="60.395255" lon="5.325377" version="2" timestamp="2021-09-19T16:02:27Z" changeset="111415157" uid="4361277" user="Mathias Haugsbø" />
+	<node id="4185028652" lat="60.3952873" lon="5.3245777" version="2" timestamp="2021-09-19T16:02:27Z" changeset="111415157" uid="4361277" user="Mathias Haugsbø" />
+	<node id="4185028656" lat="60.395292" lon="5.324569" version="2" timestamp="2021-09-19T16:02:27Z" changeset="111415157" uid="4361277" user="Mathias Haugsbø" />
+	<node id="4185028657" lat="60.3953005" lon="5.3254249" version="2" timestamp="2021-09-19T16:02:27Z" changeset="111415157" uid="4361277" user="Mathias Haugsbø">
+		<tag k="entrance" v="yes" />
+	</node>
+	<node id="4185028665" lat="60.3953697" lon="5.3253437" version="3" timestamp="2021-09-19T16:02:27Z" changeset="111415157" uid="4361277" user="Mathias Haugsbø">
+		<tag k="entrance" v="yes" />
+		<tag k="opening_hours" v="Mo-Fr 16:00-23:00; Sa 11:00-23:00; Su off" />
+	</node>
+	<node id="4185028666" lat="60.395362" lon="5.32463" version="2" timestamp="2021-09-19T16:02:27Z" changeset="111415157" uid="4361277" user="Mathias Haugsbø" />
+	<node id="4185028667" lat="60.39537" lon="5.324599" version="2" timestamp="2021-09-19T16:02:27Z" changeset="111415157" uid="4361277" user="Mathias Haugsbø" />
+	<node id="4185028669" lat="60.395382" lon="5.325255" version="2" timestamp="2021-09-19T16:02:27Z" changeset="111415157" uid="4361277" user="Mathias Haugsbø" />
+	<node id="4185028670" lat="60.39539" lon="5.325264" version="2" timestamp="2021-09-19T16:02:27Z" changeset="111415157" uid="4361277" user="Mathias Haugsbø" />
+	<node id="4185028673" lat="60.3954111" lon="5.3251851" version="2" timestamp="2021-09-19T16:02:27Z" changeset="111415157" uid="4361277" user="Mathias Haugsbø">
+		<tag k="entrance" v="yes" />
+	</node>
+	<node id="4185028675" lat="60.395432" lon="5.324701" version="2" timestamp="2021-09-19T16:02:27Z" changeset="111415157" uid="4361277" user="Mathias Haugsbø" />
+	<node id="4185028677" lat="60.39544" lon="5.324667" version="2" timestamp="2021-09-19T16:02:27Z" changeset="111415157" uid="4361277" user="Mathias Haugsbø" />
+	<node id="4185028678" lat="60.395453" lon="5.325028" version="2" timestamp="2021-09-19T16:02:27Z" changeset="111415157" uid="4361277" user="Mathias Haugsbø" />
+	<node id="4185028679" lat="60.3954489" lon="5.325053" version="2" timestamp="2021-09-19T16:02:27Z" changeset="111415157" uid="4361277" user="Mathias Haugsbø" />
 	<node id="4802320984" lat="60.4009368" lon="5.3220659" version="1" timestamp="2017-04-18T19:47:48Z" changeset="47917106" uid="1965308" user="FredrikLindseth" />
 	<node id="4802320985" lat="60.4010309" lon="5.3219103" version="1" timestamp="2017-04-18T19:47:48Z" changeset="47917106" uid="1965308" user="FredrikLindseth" />
 	<node id="4940348722" lat="60.4005683" lon="5.3223523" version="2" timestamp="2021-03-13T20:19:11Z" changeset="100968124" uid="519916" user="googlenaut" />
 	<node id="8515152989" lat="60.4007826" lon="5.3223006" version="1" timestamp="2021-03-13T20:19:11Z" changeset="100968124" uid="519916" user="googlenaut" />
 	<node id="8515152990" lat="60.4007243" lon="5.3223442" version="1" timestamp="2021-03-13T20:19:11Z" changeset="100968124" uid="519916" user="googlenaut" />
 	<node id="8515152991" lat="60.4005233" lon="5.3223684" version="1" timestamp="2021-03-13T20:19:11Z" changeset="100968124" uid="519916" user="googlenaut" />
+	<node id="9105714491" lat="60.395117" lon="5.325105" version="1" timestamp="2021-09-19T16:02:17Z" changeset="111415150" uid="4361277" user="Mathias Haugsbø" />
+	<node id="9105714496" lat="60.395366" lon="5.325311" version="1" timestamp="2021-09-19T16:02:17Z" changeset="111415150" uid="4361277" user="Mathias Haugsbø" />
+	<node id="9105714497" lat="60.395467" lon="5.324976" version="1" timestamp="2021-09-19T16:02:17Z" changeset="111415150" uid="4361277" user="Mathias Haugsbø" />
+	<node id="9105714498" lat="60.395479" lon="5.324929" version="1" timestamp="2021-09-19T16:02:17Z" changeset="111415150" uid="4361277" user="Mathias Haugsbø" />
+	<node id="9105714499" lat="60.395457" lon="5.324965" version="1" timestamp="2021-09-19T16:02:17Z" changeset="111415150" uid="4361277" user="Mathias Haugsbø" />
+	<node id="9105714500" lat="60.395479" lon="5.324754" version="1" timestamp="2021-09-19T16:02:17Z" changeset="111415150" uid="4361277" user="Mathias Haugsbø" />
+	<node id="9105714501" lat="60.395266" lon="5.32456" version="1" timestamp="2021-09-19T16:02:17Z" changeset="111415150" uid="4361277" user="Mathias Haugsbø" />
+	<node id="9105714502" lat="60.395256" lon="5.32461" version="1" timestamp="2021-09-19T16:02:17Z" changeset="111415150" uid="4361277" user="Mathias Haugsbø" />
+	<node id="9105722769" lat="60.395458" lon="5.324728" version="1" timestamp="2021-09-19T16:02:18Z" changeset="111415150" uid="4361277" user="Mathias Haugsbø" />
+	<node id="9105722770" lat="60.39546" lon="5.324721" version="1" timestamp="2021-09-19T16:02:18Z" changeset="111415150" uid="4361277" user="Mathias Haugsbø" />
+	<node id="9105722771" lat="60.39548" lon="5.324747" version="1" timestamp="2021-09-19T16:02:18Z" changeset="111415150" uid="4361277" user="Mathias Haugsbø" />
+	<node id="9105722772" lat="60.395469" lon="5.324918" version="1" timestamp="2021-09-19T16:02:18Z" changeset="111415150" uid="4361277" user="Mathias Haugsbø" />
+	<node id="9105722773" lat="60.395443" lon="5.325017" version="1" timestamp="2021-09-19T16:02:18Z" changeset="111415150" uid="4361277" user="Mathias Haugsbø" />
+	<node id="9105722774" lat="60.395376" lon="5.325322" version="1" timestamp="2021-09-19T16:02:18Z" changeset="111415150" uid="4361277" user="Mathias Haugsbø" />
+	<node id="9105722775" lat="60.395363" lon="5.325362" version="1" timestamp="2021-09-19T16:02:18Z" changeset="111415150" uid="4361277" user="Mathias Haugsbø" />
+	<node id="9105722776" lat="60.395355" lon="5.325353" version="1" timestamp="2021-09-19T16:02:18Z" changeset="111415150" uid="4361277" user="Mathias Haugsbø" />
 	<node id="4351538905" lat="60.397287" lon="5.334628" version="1" timestamp="2016-08-15T18:09:19Z" changeset="41472931" uid="1965308" user="FredrikLindseth" />
 	<node id="4351538913" lat="60.3973567" lon="5.3344077" version="2" timestamp="2021-09-07T22:22:40Z" changeset="110881520" uid="4361277" user="Mathias Haugsbø" />
 	<node id="4351538914" lat="60.3973749" lon="5.3343641" version="1" timestamp="2016-08-15T18:09:20Z" changeset="41472931" uid="1965308" user="FredrikLindseth" />
@@ -4947,6 +5474,11 @@
 	<node id="9072143765" lat="60.3948819" lon="5.3345826" version="1" timestamp="2021-09-07T21:44:59Z" changeset="110880713" uid="4361277" user="Mathias Haugsbø" />
 	<node id="9072143869" lat="60.3948511" lon="5.3345201" version="1" timestamp="2021-09-07T21:44:59Z" changeset="110880713" uid="4361277" user="Mathias Haugsbø" />
 	<node id="9072143870" lat="60.3948779" lon="5.3345068" version="1" timestamp="2021-09-07T21:44:59Z" changeset="110880713" uid="4361277" user="Mathias Haugsbø" />
+	<node id="645664" lat="60.388993" lon="5.33993" version="4" timestamp="2022-01-10T16:49:48Z" changeset="115989888" uid="3497659" user="NKA" />
+	<node id="2052812239" lat="60.3892822" lon="5.3355634" version="3" timestamp="2017-06-13T11:17:25Z" changeset="49496622" uid="1965308" user="FredrikLindseth" />
+	<node id="2052812240" lat="60.3893178" lon="5.3356225" version="3" timestamp="2017-06-13T11:17:25Z" changeset="49496622" uid="1965308" user="FredrikLindseth" />
+	<node id="2052812241" lat="60.3893787" lon="5.3357534" version="2" timestamp="2017-04-25T21:41:40Z" changeset="48143084" uid="1965308" user="FredrikLindseth" />
+	<node id="2052812242" lat="60.3894149" lon="5.3358143" version="2" timestamp="2017-04-25T21:41:40Z" changeset="48143084" uid="1965308" user="FredrikLindseth" />
 	<node id="4351539062" lat="60.3890935" lon="5.341083" version="2" timestamp="2021-09-07T22:22:40Z" changeset="110881520" uid="4361277" user="Mathias Haugsbø" />
 	<node id="4351539063" lat="60.3891394" lon="5.3410576" version="2" timestamp="2021-09-07T22:22:40Z" changeset="110881520" uid="4361277" user="Mathias Haugsbø" />
 	<node id="4351539064" lat="60.3891662" lon="5.3410615" version="2" timestamp="2021-09-07T22:22:40Z" changeset="110881520" uid="4361277" user="Mathias Haugsbø" />
@@ -4954,6 +5486,14 @@
 	<node id="4351539261" lat="60.3943806" lon="5.3411305" version="1" timestamp="2016-08-15T18:09:17Z" changeset="41472931" uid="1965308" user="FredrikLindseth" />
 	<node id="4351539268" lat="60.3944449" lon="5.3410623" version="2" timestamp="2021-09-07T22:22:40Z" changeset="110881520" uid="4361277" user="Mathias Haugsbø" />
 	<node id="4351539277" lat="60.3945287" lon="5.3409449" version="2" timestamp="2021-09-07T22:22:40Z" changeset="110881520" uid="4361277" user="Mathias Haugsbø" />
+	<node id="4885633138" lat="60.389406" lon="5.3356869" version="1" timestamp="2017-05-30T13:11:00Z" changeset="49103807" uid="1965308" user="FredrikLindseth" />
+	<node id="4885633139" lat="60.389434" lon="5.3357678" version="1" timestamp="2017-05-30T13:11:00Z" changeset="49103807" uid="1965308" user="FredrikLindseth" />
+	<node id="4885633140" lat="60.3893041" lon="5.3355096" version="2" timestamp="2017-06-13T11:17:28Z" changeset="49496622" uid="1965308" user="FredrikLindseth" />
+	<node id="4885633141" lat="60.3893372" lon="5.3355747" version="2" timestamp="2017-06-13T11:17:28Z" changeset="49496622" uid="1965308" user="FredrikLindseth" />
+	<node id="5976257289" lat="60.3889872" lon="5.336334" version="1" timestamp="2018-10-11T18:51:11Z" changeset="63430907" uid="1965308" user="FredrikLindseth" />
+	<node id="5976257290" lat="60.3890084" lon="5.3363722" version="1" timestamp="2018-10-11T18:51:11Z" changeset="63430907" uid="1965308" user="FredrikLindseth" />
+	<node id="5976257291" lat="60.388537" lon="5.3378192" version="1" timestamp="2018-10-11T18:51:11Z" changeset="63430907" uid="1965308" user="FredrikLindseth" />
+	<node id="5976257292" lat="60.3885645" lon="5.3378782" version="1" timestamp="2018-10-11T18:51:12Z" changeset="63430907" uid="1965308" user="FredrikLindseth" />
 	<node id="9072143777" lat="60.3945501" lon="5.3409083" version="1" timestamp="2021-09-07T21:44:59Z" changeset="110880713" uid="4361277" user="Mathias Haugsbø" />
 	<node id="9072143779" lat="60.3944993" lon="5.340989" version="1" timestamp="2021-09-07T21:44:59Z" changeset="110880713" uid="4361277" user="Mathias Haugsbø" />
 	<node id="9072143781" lat="60.3944065" lon="5.341103" version="1" timestamp="2021-09-07T21:44:59Z" changeset="110880713" uid="4361277" user="Mathias Haugsbø" />
@@ -4991,6 +5531,21 @@
 	<node id="9072143866" lat="60.394358" lon="5.3347001" version="1" timestamp="2021-09-07T21:44:59Z" changeset="110880713" uid="4361277" user="Mathias Haugsbø" />
 	<node id="9072143867" lat="60.3944559" lon="5.3349824" version="1" timestamp="2021-09-07T21:44:59Z" changeset="110880713" uid="4361277" user="Mathias Haugsbø" />
 	<node id="9072143868" lat="60.394595" lon="5.334807" version="1" timestamp="2021-09-07T21:44:59Z" changeset="110880713" uid="4361277" user="Mathias Haugsbø" />
+	<node id="9407970225" lat="60.389823" lon="5.341161" version="1" timestamp="2022-01-10T16:49:48Z" changeset="115989888" uid="3497659" user="NKA" />
+	<node id="9407970226" lat="60.389556" lon="5.340772" version="1" timestamp="2022-01-10T16:49:48Z" changeset="115989888" uid="3497659" user="NKA" />
+	<node id="9407970227" lat="60.389121" lon="5.340117" version="1" timestamp="2022-01-10T16:49:48Z" changeset="115989888" uid="3497659" user="NKA" />
+	<node id="645665" lat="60.3931" lon="5.343105" version="6" timestamp="2022-01-10T16:49:48Z" changeset="115989888" uid="3497659" user="NKA" />
+	<node id="26408159" lat="60.389998" lon="5.341398" version="6" timestamp="2022-01-10T16:49:48Z" changeset="115989888" uid="3497659" user="NKA" />
+	<node id="457003743" lat="60.392663" lon="5.343106" version="6" timestamp="2022-01-10T16:49:48Z" changeset="115989888" uid="3497659" user="NKA" />
+	<node id="457003986" lat="60.391175" lon="5.342542" version="5" timestamp="2022-01-10T16:49:48Z" changeset="115989888" uid="3497659" user="NKA" />
+	<node id="457003987" lat="60.391594" lon="5.342791" version="5" timestamp="2022-01-10T16:49:48Z" changeset="115989888" uid="3497659" user="NKA" />
+	<node id="457003989" lat="60.39223" lon="5.343031" version="5" timestamp="2022-01-10T16:49:48Z" changeset="115989888" uid="3497659" user="NKA" />
+	<node id="457004657" lat="60.39353" lon="5.343037" version="5" timestamp="2022-01-10T16:49:48Z" changeset="115989888" uid="3497659" user="NKA" />
+	<node id="457004658" lat="60.394685" lon="5.3425" version="5" timestamp="2022-01-10T16:49:48Z" changeset="115989888" uid="3497659" user="NKA" />
+	<node id="3374443407" lat="60.39067" lon="5.342137" version="2" timestamp="2022-01-10T16:49:48Z" changeset="115989888" uid="3497659" user="NKA" />
+	<node id="3374443440" lat="60.393954" lon="5.342898" version="2" timestamp="2022-01-10T16:49:48Z" changeset="115989888" uid="3497659" user="NKA" />
+	<node id="3374443441" lat="60.394169" lon="5.342804" version="2" timestamp="2022-01-10T16:49:48Z" changeset="115989888" uid="3497659" user="NKA" />
+	<node id="3374443443" lat="60.394488" lon="5.342628" version="2" timestamp="2022-01-10T16:49:48Z" changeset="115989888" uid="3497659" user="NKA" />
 	<node id="4351539051" lat="60.3884774" lon="5.3416972" version="2" timestamp="2021-09-07T22:22:40Z" changeset="110881520" uid="4361277" user="Mathias Haugsbø" />
 	<node id="4351539052" lat="60.3885116" lon="5.3417389" version="1" timestamp="2016-08-15T18:09:15Z" changeset="41472931" uid="1965308" user="FredrikLindseth" />
 	<node id="4351539055" lat="60.3885774" lon="5.3417653" version="1" timestamp="2016-08-15T18:09:15Z" changeset="41472931" uid="1965308" user="FredrikLindseth" />
@@ -5111,6 +5666,31 @@
 	<node id="9072143833" lat="60.3916995" lon="5.3420917" version="1" timestamp="2021-09-07T21:44:59Z" changeset="110880713" uid="4361277" user="Mathias Haugsbø" />
 	<node id="9072143834" lat="60.39185" lon="5.3416759" version="1" timestamp="2021-09-07T21:44:59Z" changeset="110880713" uid="4361277" user="Mathias Haugsbø" />
 	<node id="9072143835" lat="60.3920383" lon="5.3412157" version="1" timestamp="2021-09-07T21:44:59Z" changeset="110880713" uid="4361277" user="Mathias Haugsbø" />
+	<node id="9407961208" lat="60.394271" lon="5.342753" version="1" timestamp="2022-01-10T16:49:48Z" changeset="115989888" uid="3497659" user="NKA" />
+	<node id="9407961209" lat="60.393724" lon="5.342982" version="1" timestamp="2022-01-10T16:49:48Z" changeset="115989888" uid="3497659" user="NKA" />
+	<node id="9407961210" lat="60.393638" lon="5.343008" version="1" timestamp="2022-01-10T16:49:48Z" changeset="115989888" uid="3497659" user="NKA" />
+	<node id="9407961211" lat="60.393319" lon="5.343078" version="1" timestamp="2022-01-10T16:49:48Z" changeset="115989888" uid="3497659" user="NKA" />
+	<node id="9407961212" lat="60.392992" lon="5.343112" version="1" timestamp="2022-01-10T16:49:48Z" changeset="115989888" uid="3497659" user="NKA" />
+	<node id="9407961213" lat="60.392858" lon="5.343114" version="1" timestamp="2022-01-10T16:49:48Z" changeset="115989888" uid="3497659" user="NKA" />
+	<node id="9407961214" lat="60.39245" lon="5.343078" version="1" timestamp="2022-01-10T16:49:48Z" changeset="115989888" uid="3497659" user="NKA" />
+	<node id="9407961215" lat="60.392341" lon="5.343056" version="1" timestamp="2022-01-10T16:49:48Z" changeset="115989888" uid="3497659" user="NKA" />
+	<node id="9407961216" lat="60.392019" lon="5.342967" version="1" timestamp="2022-01-10T16:49:48Z" changeset="115989888" uid="3497659" user="NKA" />
+	<node id="9407970217" lat="60.391779" lon="5.342877" version="1" timestamp="2022-01-10T16:49:48Z" changeset="115989888" uid="3497659" user="NKA" />
+	<node id="9407970218" lat="60.391689" lon="5.342837" version="1" timestamp="2022-01-10T16:49:48Z" changeset="115989888" uid="3497659" user="NKA" />
+	<node id="9407970219" lat="60.391381" lon="5.342675" version="1" timestamp="2022-01-10T16:49:48Z" changeset="115989888" uid="3497659" user="NKA" />
+	<node id="9407970220" lat="60.391068" lon="5.342466" version="1" timestamp="2022-01-10T16:49:48Z" changeset="115989888" uid="3497659" user="NKA" />
+	<node id="9407970221" lat="60.390771" lon="5.342227" version="1" timestamp="2022-01-10T16:49:48Z" changeset="115989888" uid="3497659" user="NKA" />
+	<node id="9407970222" lat="60.390469" lon="5.341942" version="1" timestamp="2022-01-10T16:49:48Z" changeset="115989888" uid="3497659" user="NKA" />
+	<node id="9407970223" lat="60.390283" lon="5.341743" version="1" timestamp="2022-01-10T16:49:48Z" changeset="115989888" uid="3497659" user="NKA" />
+	<node id="9407970224" lat="60.390188" lon="5.341634" version="1" timestamp="2022-01-10T16:49:48Z" changeset="115989888" uid="3497659" user="NKA" />
+	<node id="3374443446" lat="60.399285" lon="5.339397" version="3" timestamp="2022-01-10T16:49:48Z" changeset="115989888" uid="3497659" user="NKA">
+		<tag k="description" v="Fløyfjell Nord" />
+		<tag k="highway" v="speed_camera" />
+		<tag k="layer" v="-1" />
+		<tag k="maxspeed" v="80" />
+		<tag k="ref:atk" v="1241016" />
+		<tag k="tunnel" v="yes" />
+	</node>
 	<node id="4351538901" lat="60.3972449" lon="5.3347408" version="2" timestamp="2021-09-07T22:22:40Z" changeset="110881520" uid="4361277" user="Mathias Haugsbø" />
 	<node id="4351539288" lat="60.3948019" lon="5.3404956" version="2" timestamp="2021-09-07T22:22:40Z" changeset="110881520" uid="4361277" user="Mathias Haugsbø" />
 	<node id="4351539302" lat="60.3951206" lon="5.3399206" version="1" timestamp="2016-08-15T18:09:18Z" changeset="41472931" uid="1965308" user="FredrikLindseth" />
@@ -5158,6 +5738,13 @@
 	<node id="9072143772" lat="60.395414" lon="5.3356104" version="1" timestamp="2021-09-07T21:44:59Z" changeset="110880713" uid="4361277" user="Mathias Haugsbø" />
 	<node id="9072143773" lat="60.3953619" lon="5.3375173" version="1" timestamp="2021-09-07T21:44:59Z" changeset="110880713" uid="4361277" user="Mathias Haugsbø" />
 	<node id="9072143774" lat="60.3953135" lon="5.3386053" version="1" timestamp="2021-09-07T21:44:59Z" changeset="110880713" uid="4361277" user="Mathias Haugsbø" />
+	<node id="9407961207" lat="60.39696" lon="5.340968" version="1" timestamp="2022-01-10T16:49:48Z" changeset="115989888" uid="3497659" user="NKA" />
+	<node id="1769514093" lat="60.4040005" lon="5.3218132" version="2" timestamp="2016-01-14T08:51:50Z" changeset="36565637" uid="2114448" user="FredrikLindseth_import" />
+	<node id="1769514105" lat="60.404177" lon="5.3220238" version="2" timestamp="2016-01-14T08:51:50Z" changeset="36565637" uid="2114448" user="FredrikLindseth_import" />
+	<node id="1769514113" lat="60.403783" lon="5.3215368" version="2" timestamp="2016-01-14T08:51:50Z" changeset="36565637" uid="2114448" user="FredrikLindseth_import" />
+	<node id="1769514119" lat="60.4050534" lon="5.3230701" version="2" timestamp="2016-01-14T08:51:50Z" changeset="36565637" uid="2114448" user="FredrikLindseth_import" />
+	<node id="3945415178" lat="60.4043747" lon="5.32229" version="1" timestamp="2016-01-14T08:49:11Z" changeset="36565637" uid="2114448" user="FredrikLindseth_import" />
+	<node id="3945415246" lat="60.4048041" lon="5.3227667" version="1" timestamp="2016-01-14T08:49:12Z" changeset="36565637" uid="2114448" user="FredrikLindseth_import" />
 	<node id="4351539662" lat="60.4030392" lon="5.3216894" version="1" timestamp="2016-08-15T18:09:23Z" changeset="41472931" uid="1965308" user="FredrikLindseth" />
 	<node id="4351539666" lat="60.4034894" lon="5.3215559" version="1" timestamp="2016-08-15T18:09:23Z" changeset="41472931" uid="1965308" user="FredrikLindseth" />
 	<node id="4351539826" lat="60.4046376" lon="5.3218168" version="1" timestamp="2016-08-15T18:09:23Z" changeset="41472931" uid="1965308" user="FredrikLindseth" />
@@ -5180,6 +5767,14 @@
 	<node id="4351539884" lat="60.4062472" lon="5.3273435" version="1" timestamp="2016-08-15T18:09:24Z" changeset="41472931" uid="1965308" user="FredrikLindseth" />
 	<node id="4351539885" lat="60.4062727" lon="5.327353" version="1" timestamp="2016-08-15T18:09:24Z" changeset="41472931" uid="1965308" user="FredrikLindseth" />
 	<node id="5538716034" lat="60.4052535" lon="5.3244701" version="2" timestamp="2018-04-08T22:12:06Z" changeset="57924300" uid="1965308" user="FredrikLindseth" />
+	<node id="645686" lat="60.406997" lon="5.334195" version="7" timestamp="2022-01-10T16:49:48Z" changeset="115989888" uid="3497659" user="NKA">
+		<tag k="description" v="Fløyfjell Nord 2" />
+		<tag k="highway" v="speed_camera" />
+		<tag k="layer" v="-1" />
+		<tag k="maxspeed" v="80" />
+		<tag k="ref:atk" v="1241018" />
+		<tag k="tunnel" v="yes" />
+	</node>
 	<node id="3466226828" lat="60.4045833" lon="5.3338696" version="3" timestamp="2017-02-14T10:20:13Z" changeset="46074653" uid="992708" user="Christian Madsen" />
 	<node id="3466226832" lat="60.4046479" lon="5.3334138" version="1" timestamp="2015-04-19T20:46:19Z" changeset="30341260" uid="2836853" user="frokor_import" />
 	<node id="3466226840" lat="60.4047313" lon="5.3330791" version="3" timestamp="2018-11-15T19:01:19Z" changeset="64540801" uid="1965308" user="FredrikLindseth" />
@@ -5256,7 +5851,16 @@
 	<node id="4684997845" lat="60.4044908" lon="5.3342592" version="1" timestamp="2017-02-14T10:20:12Z" changeset="46074653" uid="992708" user="Christian Madsen" />
 	<node id="4684997846" lat="60.4044459" lon="5.3344081" version="2" timestamp="2018-11-15T19:01:19Z" changeset="64540801" uid="1965308" user="FredrikLindseth" />
 	<node id="4684997847" lat="60.4044008" lon="5.3346025" version="1" timestamp="2017-02-14T10:20:12Z" changeset="46074653" uid="992708" user="Christian Madsen" />
+	<node id="457006247" lat="60.41412" lon="5.327636" version="5" timestamp="2022-01-10T16:49:48Z" changeset="115989888" uid="3497659" user="NKA" />
 	<node id="4351540044" lat="60.4139093" lon="5.3280241" version="1" timestamp="2016-08-15T18:09:25Z" changeset="41472931" uid="1965308" user="FredrikLindseth" />
+	<node id="9407961197" lat="60.414255" lon="5.327378" version="1" timestamp="2022-01-10T16:49:48Z" changeset="115989888" uid="3497659" user="NKA" />
+	<node id="9407961198" lat="60.413906" lon="5.328029" version="1" timestamp="2022-01-10T16:49:48Z" changeset="115989888" uid="3497659" user="NKA" />
+	<node id="457005525" lat="60.411416" lon="5.331156" version="5" timestamp="2022-01-10T16:49:48Z" changeset="115989888" uid="3497659" user="NKA" />
+	<node id="457005526" lat="60.412665" lon="5.329875" version="6" timestamp="2022-01-10T16:49:48Z" changeset="115989888" uid="3497659" user="NKA" />
+	<node id="457006245" lat="60.413311" lon="5.328997" version="5" timestamp="2022-01-10T16:49:48Z" changeset="115989888" uid="3497659" user="NKA" />
+	<node id="3374443448" lat="60.4104" lon="5.331897" version="2" timestamp="2022-01-10T16:49:48Z" changeset="115989888" uid="3497659" user="NKA" />
+	<node id="3374443449" lat="60.411103" lon="5.331402" version="2" timestamp="2022-01-10T16:49:48Z" changeset="115989888" uid="3497659" user="NKA" />
+	<node id="3374443452" lat="60.411799" lon="5.330814" version="2" timestamp="2022-01-10T16:49:48Z" changeset="115989888" uid="3497659" user="NKA" />
 	<node id="4351540018" lat="60.408369" lon="5.332808" version="1" timestamp="2016-08-15T18:09:25Z" changeset="41472931" uid="1965308" user="FredrikLindseth" />
 	<node id="4351540020" lat="60.4087631" lon="5.3321333" version="1" timestamp="2016-08-15T18:09:25Z" changeset="41472931" uid="1965308" user="FredrikLindseth" />
 	<node id="4351540022" lat="60.409464" lon="5.3313782" version="1" timestamp="2016-08-15T18:09:25Z" changeset="41472931" uid="1965308" user="FredrikLindseth" />
@@ -5279,6 +5883,14 @@
 	<node id="4351540042" lat="60.4133575" lon="5.3298639" version="1" timestamp="2016-08-15T18:09:25Z" changeset="41472931" uid="1965308" user="FredrikLindseth" />
 	<node id="4351540043" lat="60.4137181" lon="5.3297822" version="1" timestamp="2016-08-15T18:09:25Z" changeset="41472931" uid="1965308" user="FredrikLindseth" />
 	<node id="4351540045" lat="60.4139305" lon="5.3297722" version="1" timestamp="2016-08-15T18:09:25Z" changeset="41472931" uid="1965308" user="FredrikLindseth" />
+	<node id="9407961199" lat="60.413755" lon="5.328292" version="1" timestamp="2022-01-10T16:49:48Z" changeset="115989888" uid="3497659" user="NKA" />
+	<node id="9407961200" lat="60.41355" lon="5.328629" version="1" timestamp="2022-01-10T16:49:48Z" changeset="115989888" uid="3497659" user="NKA" />
+	<node id="9407961201" lat="60.413159" lon="5.329219" version="1" timestamp="2022-01-10T16:49:48Z" changeset="115989888" uid="3497659" user="NKA" />
+	<node id="9407961202" lat="60.412919" lon="5.32955" version="1" timestamp="2022-01-10T16:49:48Z" changeset="115989888" uid="3497659" user="NKA" />
+	<node id="9407961203" lat="60.412412" lon="5.330177" version="1" timestamp="2022-01-10T16:49:48Z" changeset="115989888" uid="3497659" user="NKA" />
+	<node id="9407961204" lat="60.412051" lon="5.330565" version="1" timestamp="2022-01-10T16:49:48Z" changeset="115989888" uid="3497659" user="NKA" />
+	<node id="9407961205" lat="60.411586" lon="5.331008" version="1" timestamp="2022-01-10T16:49:48Z" changeset="115989888" uid="3497659" user="NKA" />
+	<node id="9407961206" lat="60.410733" lon="5.331668" version="1" timestamp="2022-01-10T16:49:48Z" changeset="115989888" uid="3497659" user="NKA" />
 	<node id="3466226789" lat="60.4040031" lon="5.3358923" version="3" timestamp="2018-11-15T19:01:19Z" changeset="64540801" uid="1965308" user="FredrikLindseth" />
 	<node id="3466226791" lat="60.4040261" lon="5.3357989" version="2" timestamp="2018-11-15T19:01:19Z" changeset="64540801" uid="1965308" user="FredrikLindseth" />
 	<node id="3466226797" lat="60.4040374" lon="5.3356976" version="3" timestamp="2018-11-15T19:01:19Z" changeset="64540801" uid="1965308" user="FredrikLindseth" />
@@ -5489,6 +6101,7 @@
 	<node id="4352513401" lat="60.3548717" lon="5.3495278" version="1" timestamp="2016-08-16T11:41:08Z" changeset="41487878" uid="1965308" user="FredrikLindseth" />
 	<node id="4352513406" lat="60.3549955" lon="5.3537113" version="1" timestamp="2016-08-16T11:41:08Z" changeset="41487878" uid="1965308" user="FredrikLindseth" />
 	<node id="4352513410" lat="60.3552561" lon="5.3499692" version="1" timestamp="2016-08-16T11:41:08Z" changeset="41487878" uid="1965308" user="FredrikLindseth" />
+	<node id="30228613" lat="60.3501478" lon="5.3597363" version="3" timestamp="2022-01-03T19:06:57Z" changeset="115724894" uid="14195527" user="oiaeqrifs" />
 	<node id="4352512839" lat="60.3520985" lon="5.3585226" version="1" timestamp="2016-08-16T11:41:07Z" changeset="41487878" uid="1965308" user="FredrikLindseth" />
 	<node id="4352512855" lat="60.3524869" lon="5.3581619" version="1" timestamp="2016-08-16T11:41:07Z" changeset="41487878" uid="1965308" user="FredrikLindseth" />
 	<node id="4352512863" lat="60.3527601" lon="5.3579971" version="1" timestamp="2016-08-16T11:41:08Z" changeset="41487878" uid="1965308" user="FredrikLindseth" />
@@ -5893,7 +6506,7 @@
 	<node id="4352513574" lat="60.3633508" lon="5.3557302" version="1" timestamp="2016-08-16T11:41:10Z" changeset="41487878" uid="1965308" user="FredrikLindseth" />
 	<node id="4352513579" lat="60.3634358" lon="5.3559592" version="1" timestamp="2016-08-16T11:41:10Z" changeset="41487878" uid="1965308" user="FredrikLindseth" />
 	<node id="4352513580" lat="60.363436" lon="5.3557474" version="1" timestamp="2016-08-16T11:41:10Z" changeset="41487878" uid="1965308" user="FredrikLindseth" />
-	<node id="4352513581" lat="60.363485" lon="5.357534" version="1" timestamp="2016-08-16T11:41:10Z" changeset="41487878" uid="1965308" user="FredrikLindseth" />
+	<node id="4352513581" lat="60.3634621" lon="5.3575494" version="2" timestamp="2022-01-12T19:06:16Z" changeset="116079228" uid="14195527" user="oiaeqrifs" />
 	<node id="4352513582" lat="60.3635035" lon="5.3560362" version="1" timestamp="2016-08-16T11:41:10Z" changeset="41487878" uid="1965308" user="FredrikLindseth" />
 	<node id="4352513583" lat="60.3635124" lon="5.3570122" version="1" timestamp="2016-08-16T11:41:10Z" changeset="41487878" uid="1965308" user="FredrikLindseth" />
 	<node id="4352513585" lat="60.3635169" lon="5.3557974" version="1" timestamp="2016-08-16T11:41:10Z" changeset="41487878" uid="1965308" user="FredrikLindseth" />
@@ -6824,7 +7437,7 @@
 	<node id="2376823461" lat="60.3898366" lon="5.384312" version="2" timestamp="2013-11-12T10:49:24Z" changeset="18852510" uid="122014" user="Bård Aase" />
 	<node id="2376823463" lat="60.3903804" lon="5.3811022" version="3" timestamp="2018-10-13T09:44:00Z" changeset="63481081" uid="1965308" user="FredrikLindseth" />
 	<node id="2376823466" lat="60.3905885" lon="5.3809899" version="2" timestamp="2018-10-13T09:44:00Z" changeset="63481081" uid="1965308" user="FredrikLindseth" />
-	<node id="2529049858" lat="60.3896646" lon="5.3822097" version="3" timestamp="2018-10-13T09:44:01Z" changeset="63481081" uid="1965308" user="FredrikLindseth" />
+	<node id="2529049858" lat="60.3896506" lon="5.382238" version="4" timestamp="2022-01-05T15:18:33Z" changeset="115801909" uid="346410" user="berland" />
 	<node id="2529059162" lat="60.3897121" lon="5.3829943" version="2" timestamp="2018-10-13T09:44:01Z" changeset="63481081" uid="1965308" user="FredrikLindseth" />
 	<node id="2529059166" lat="60.3898719" lon="5.3833717" version="1" timestamp="2013-11-12T10:49:22Z" changeset="18852510" uid="122014" user="Bård Aase" />
 	<node id="3466226246" lat="60.3912494" lon="5.3863692" version="2" timestamp="2018-10-13T09:44:01Z" changeset="63481081" uid="1965308" user="FredrikLindseth" />
@@ -6960,6 +7573,7 @@
 	<node id="5543935502" lat="60.4182886" lon="5.3107544" version="1" timestamp="2018-04-10T22:19:06Z" changeset="57986711" uid="1965308" user="FredrikLindseth" />
 	<node id="5543935503" lat="60.41842" lon="5.3100325" version="1" timestamp="2018-04-10T22:19:06Z" changeset="57986711" uid="1965308" user="FredrikLindseth" />
 	<node id="8754471835" lat="60.4171184" lon="5.3119543" version="1" timestamp="2021-05-22T00:57:01Z" changeset="105115779" uid="12645669" user="Kokosnøtt" />
+	<node id="457008458" lat="60.416349" lon="5.321034" version="6" timestamp="2022-01-10T16:49:48Z" changeset="115989888" uid="3497659" user="NKA" />
 	<node id="4351540057" lat="60.416442" lon="5.3206524" version="1" timestamp="2016-08-15T18:09:25Z" changeset="41472931" uid="1965308" user="FredrikLindseth" />
 	<node id="4351540058" lat="60.4165846" lon="5.3203493" version="1" timestamp="2016-08-15T18:09:25Z" changeset="41472931" uid="1965308" user="FredrikLindseth" />
 	<node id="4351540060" lat="60.4168786" lon="5.3199615" version="1" timestamp="2016-08-15T18:09:25Z" changeset="41472931" uid="1965308" user="FredrikLindseth" />
@@ -6975,6 +7589,7 @@
 	<node id="4351540093" lat="60.4189027" lon="5.3191532" version="1" timestamp="2016-08-15T18:09:26Z" changeset="41472931" uid="1965308" user="FredrikLindseth" />
 	<node id="4351540094" lat="60.419025" lon="5.320167" version="1" timestamp="2016-08-15T18:09:26Z" changeset="41472931" uid="1965308" user="FredrikLindseth" />
 	<node id="4351540096" lat="60.419075" lon="5.3211098" version="1" timestamp="2016-08-15T18:09:27Z" changeset="41472931" uid="1965308" user="FredrikLindseth" />
+	<node id="9407961191" lat="60.4170991" lon="5.3173924" version="1" timestamp="2022-01-10T16:49:48Z" changeset="115989888" uid="3497659" user="NKA" />
 	<node id="3946483586" lat="60.4310808" lon="5.3080516" version="2" timestamp="2017-09-08T19:08:37Z" changeset="51858540" uid="3842253" user="NKA_import" />
 	<node id="3946483587" lat="60.4342306" lon="5.3002867" version="2" timestamp="2017-09-08T19:08:37Z" changeset="51858540" uid="3842253" user="NKA_import" />
 	<node id="3946483588" lat="60.4342689" lon="5.2967945" version="2" timestamp="2017-09-08T19:08:37Z" changeset="51858540" uid="3842253" user="NKA_import" />
@@ -6992,6 +7607,13 @@
 	<node id="4351637994" lat="60.4336935" lon="5.3211538" version="1" timestamp="2016-08-15T19:48:12Z" changeset="41475162" uid="1965308" user="FredrikLindseth" />
 	<node id="4351637995" lat="60.4342269" lon="5.3214666" version="1" timestamp="2016-08-15T19:48:12Z" changeset="41475162" uid="1965308" user="FredrikLindseth" />
 	<node id="4351637997" lat="60.4342738" lon="5.3214553" version="1" timestamp="2016-08-15T19:48:12Z" changeset="41475162" uid="1965308" user="FredrikLindseth" />
+	<node id="645688" lat="60.415277" lon="5.32498" version="7" timestamp="2022-01-10T16:49:48Z" changeset="115989888" uid="3497659" user="NKA" />
+	<node id="457006251" lat="60.415655" lon="5.323826" version="5" timestamp="2022-01-10T16:49:48Z" changeset="115989888" uid="3497659" user="NKA" />
+	<node id="457006254" lat="60.415802" lon="5.323321" version="5" timestamp="2022-01-10T16:49:48Z" changeset="115989888" uid="3497659" user="NKA" />
+	<node id="457006255" lat="60.416077" lon="5.322257" version="6" timestamp="2022-01-10T16:49:48Z" changeset="115989888" uid="3497659" user="NKA" />
+	<node id="457008457" lat="60.416238" lon="5.321553" version="5" timestamp="2022-01-10T16:49:48Z" changeset="115989888" uid="3497659" user="NKA" />
+	<node id="3374443467" lat="60.4147561" lon="5.326307" version="2" timestamp="2022-01-10T16:49:48Z" changeset="115989888" uid="3497659" user="NKA" />
+	<node id="3851220259" lat="60.415944" lon="5.322792" version="2" timestamp="2022-01-10T16:49:48Z" changeset="115989888" uid="3497659" user="NKA" />
 	<node id="4351540047" lat="60.4144177" lon="5.3277849" version="1" timestamp="2016-08-15T18:09:25Z" changeset="41472931" uid="1965308" user="FredrikLindseth" />
 	<node id="4351540051" lat="60.414924" lon="5.3268481" version="1" timestamp="2016-08-15T18:09:25Z" changeset="41472931" uid="1965308" user="FredrikLindseth" />
 	<node id="4351540053" lat="60.4153288" lon="5.3253689" version="1" timestamp="2016-08-15T18:09:25Z" changeset="41472931" uid="1965308" user="FredrikLindseth" />
@@ -7001,6 +7623,11 @@
 	<node id="4351540090" lat="60.4186601" lon="5.3223535" version="1" timestamp="2016-08-15T18:09:26Z" changeset="41472931" uid="1965308" user="FredrikLindseth" />
 	<node id="4351540095" lat="60.419064" lon="5.3223807" version="1" timestamp="2016-08-15T18:09:26Z" changeset="41472931" uid="1965308" user="FredrikLindseth" />
 	<node id="9235961280" lat="60.4152045" lon="5.3258231" version="1" timestamp="2021-11-08T17:43:46Z" changeset="113532104" uid="7150395" user="jjankoc" />
+	<node id="9407961192" lat="60.4154491" lon="5.3244775" version="1" timestamp="2022-01-10T16:49:48Z" changeset="115989888" uid="3497659" user="NKA" />
+	<node id="9407961193" lat="60.415041" lon="5.325618" version="1" timestamp="2022-01-10T16:49:48Z" changeset="115989888" uid="3497659" user="NKA" />
+	<node id="9407961194" lat="60.414918" lon="5.325922" version="1" timestamp="2022-01-10T16:49:48Z" changeset="115989888" uid="3497659" user="NKA" />
+	<node id="9407961195" lat="60.414654" lon="5.326542" version="1" timestamp="2022-01-10T16:49:48Z" changeset="115989888" uid="3497659" user="NKA" />
+	<node id="9407961196" lat="60.41446" lon="5.326961" version="1" timestamp="2022-01-10T16:49:48Z" changeset="115989888" uid="3497659" user="NKA" />
 	<node id="4351540050" lat="60.4145941" lon="5.329928" version="1" timestamp="2016-08-15T18:09:25Z" changeset="41472931" uid="1965308" user="FredrikLindseth" />
 	<node id="4352213131" lat="60.4238389" lon="5.3406972" version="2" timestamp="2017-09-08T19:08:39Z" changeset="51858540" uid="3842253" user="NKA_import" />
 	<node id="4351637882" lat="60.430522" lon="5.3215312" version="1" timestamp="2016-08-15T19:48:12Z" changeset="41475162" uid="1965308" user="FredrikLindseth" />
@@ -7296,6 +7923,274 @@
 	<node id="5965427705" lat="60.4851759" lon="5.3898092" version="1" timestamp="2018-10-08T03:56:09Z" changeset="63294906" uid="715936" user="Gazer75" />
 	<node id="5965427706" lat="60.4850536" lon="5.3897394" version="1" timestamp="2018-10-08T03:56:09Z" changeset="63294906" uid="715936" user="Gazer75" />
 	<node id="3471902705" lat="60.4866148" lon="5.3879477" version="2" timestamp="2018-10-08T03:56:19Z" changeset="63294906" uid="715936" user="Gazer75" />
+	<node id="10387715" lat="60.4230422" lon="5.5376176" version="5" timestamp="2020-07-06T16:46:44Z" changeset="87611565" uid="715936" user="Gazer75" />
+	<node id="508549192" lat="60.4226547" lon="5.5377109" version="5" timestamp="2020-07-06T16:46:44Z" changeset="87611565" uid="715936" user="Gazer75" />
+	<node id="508549194" lat="60.4225851" lon="5.5377152" version="4" timestamp="2015-06-17T22:37:57Z" changeset="32040002" uid="715936" user="Gazer75" />
+	<node id="508549196" lat="60.4223623" lon="5.5375899" version="4" timestamp="2015-06-17T22:37:57Z" changeset="32040002" uid="715936" user="Gazer75" />
+	<node id="508549198" lat="60.4222962" lon="5.5374908" version="4" timestamp="2015-06-17T22:37:57Z" changeset="32040002" uid="715936" user="Gazer75" />
+	<node id="508556373" lat="60.422194" lon="5.5372716" version="4" timestamp="2020-07-06T16:46:44Z" changeset="87611565" uid="715936" user="Gazer75" />
+	<node id="2642739464" lat="60.4229554" lon="5.5377618" version="2" timestamp="2020-07-06T16:46:44Z" changeset="87611565" uid="715936" user="Gazer75" />
+	<node id="3601402289" lat="60.4222485" lon="5.5374049" version="2" timestamp="2020-07-06T16:46:44Z" changeset="87611565" uid="715936" user="Gazer75" />
+	<node id="3601402291" lat="60.4224317" lon="5.5376569" version="1" timestamp="2015-06-17T22:37:47Z" changeset="32040002" uid="715936" user="Gazer75" />
+	<node id="3601402994" lat="60.422506" lon="5.5376946" version="1" timestamp="2015-06-17T22:37:47Z" changeset="32040002" uid="715936" user="Gazer75" />
+	<node id="3601402997" lat="60.4263674" lon="5.5357085" version="3" timestamp="2020-07-06T16:46:44Z" changeset="87611565" uid="715936" user="Gazer75" />
+	<node id="4155736689" lat="60.4263798" lon="5.5358243" version="2" timestamp="2020-07-06T16:46:44Z" changeset="87611565" uid="715936" user="Gazer75" />
+	<node id="7688274967" lat="60.422852" lon="5.5376445" version="1" timestamp="2020-07-06T16:46:44Z" changeset="87611565" uid="715936" user="Gazer75" />
+	<node id="7688274968" lat="60.4227845" lon="5.5376753" version="1" timestamp="2020-07-06T16:46:44Z" changeset="87611565" uid="715936" user="Gazer75" />
+	<node id="7688274969" lat="60.4227173" lon="5.5376968" version="1" timestamp="2020-07-06T16:46:44Z" changeset="87611565" uid="715936" user="Gazer75" />
+	<node id="7688274970" lat="60.4229648" lon="5.5375855" version="1" timestamp="2020-07-06T16:46:44Z" changeset="87611565" uid="715936" user="Gazer75" />
+	<node id="7688389495" lat="60.4229586" lon="5.537786" version="1" timestamp="2020-07-06T16:46:44Z" changeset="87611565" uid="715936" user="Gazer75" />
+	<node id="7688389512" lat="60.421956" lon="5.5377223" version="1" timestamp="2020-07-06T16:46:44Z" changeset="87611565" uid="715936" user="Gazer75" />
+	<node id="7688389513" lat="60.4220073" lon="5.5377806" version="1" timestamp="2020-07-06T16:46:44Z" changeset="87611565" uid="715936" user="Gazer75" />
+	<node id="7688389523" lat="60.4226226" lon="5.5377772" version="1" timestamp="2020-07-06T16:46:44Z" changeset="87611565" uid="715936" user="Gazer75" />
+	<node id="7688389524" lat="60.4225478" lon="5.5377712" version="1" timestamp="2020-07-06T16:46:44Z" changeset="87611565" uid="715936" user="Gazer75" />
+	<node id="7688389525" lat="60.4225011" lon="5.5377598" version="1" timestamp="2020-07-06T16:46:44Z" changeset="87611565" uid="715936" user="Gazer75" />
+	<node id="7688389526" lat="60.4224479" lon="5.5377323" version="1" timestamp="2020-07-06T16:46:44Z" changeset="87611565" uid="715936" user="Gazer75" />
+	<node id="7688389527" lat="60.4224061" lon="5.5377028" version="1" timestamp="2020-07-06T16:46:44Z" changeset="87611565" uid="715936" user="Gazer75" />
+	<node id="7688389528" lat="60.4223555" lon="5.5376512" version="1" timestamp="2020-07-06T16:46:44Z" changeset="87611565" uid="715936" user="Gazer75" />
+	<node id="7688389529" lat="60.4223059" lon="5.5375908" version="1" timestamp="2020-07-06T16:46:44Z" changeset="87611565" uid="715936" user="Gazer75" />
+	<node id="7688389530" lat="60.4222291" lon="5.537452" version="1" timestamp="2020-07-06T16:46:44Z" changeset="87611565" uid="715936" user="Gazer75" />
+	<node id="7688389531" lat="60.4221738" lon="5.5373032" version="1" timestamp="2020-07-06T16:46:44Z" changeset="87611565" uid="715936" user="Gazer75" />
+	<node id="7688389532" lat="60.4222172" lon="5.5372415" version="1" timestamp="2020-07-06T16:46:44Z" changeset="87611565" uid="715936" user="Gazer75" />
+	<node id="7688389533" lat="60.4222681" lon="5.5373709" version="1" timestamp="2020-07-06T16:46:44Z" changeset="87611565" uid="715936" user="Gazer75" />
+	<node id="7688389534" lat="60.422328" lon="5.5374862" version="1" timestamp="2020-07-06T16:46:44Z" changeset="87611565" uid="715936" user="Gazer75" />
+	<node id="7688389535" lat="60.4223701" lon="5.5375385" version="1" timestamp="2020-07-06T16:46:44Z" changeset="87611565" uid="715936" user="Gazer75" />
+	<node id="7688389536" lat="60.4224095" lon="5.5375814" version="1" timestamp="2020-07-06T16:46:44Z" changeset="87611565" uid="715936" user="Gazer75" />
+	<node id="7688389537" lat="60.4224475" lon="5.5376123" version="1" timestamp="2020-07-06T16:46:44Z" changeset="87611565" uid="715936" user="Gazer75" />
+	<node id="7688389538" lat="60.4225048" lon="5.5376451" version="1" timestamp="2020-07-06T16:46:44Z" changeset="87611565" uid="715936" user="Gazer75" />
+	<node id="7688389539" lat="60.4225505" lon="5.5376586" version="1" timestamp="2020-07-06T16:46:44Z" changeset="87611565" uid="715936" user="Gazer75" />
+	<node id="7688389540" lat="60.4226097" lon="5.5376679" version="1" timestamp="2020-07-06T16:46:44Z" changeset="87611565" uid="715936" user="Gazer75" />
+	<node id="7688389541" lat="60.4226729" lon="5.5376646" version="1" timestamp="2020-07-06T16:46:44Z" changeset="87611565" uid="715936" user="Gazer75" />
+	<node id="7688389542" lat="60.4227153" lon="5.5376552" version="1" timestamp="2020-07-06T16:46:44Z" changeset="87611565" uid="715936" user="Gazer75" />
+	<node id="7688389543" lat="60.4227729" lon="5.5376371" version="1" timestamp="2020-07-06T16:46:44Z" changeset="87611565" uid="715936" user="Gazer75" />
+	<node id="7688389544" lat="60.422849" lon="5.5376056" version="1" timestamp="2020-07-06T16:46:44Z" changeset="87611565" uid="715936" user="Gazer75" />
+	<node id="7688389545" lat="60.4229278" lon="5.53756" version="1" timestamp="2020-07-06T16:46:44Z" changeset="87611565" uid="715936" user="Gazer75" />
+	<node id="9317852884" lat="60.422015" lon="5.5377866" version="1" timestamp="2021-12-07T11:08:50Z" changeset="114655938" uid="12645669" user="Kokosnøtt" />
+	<node id="25290870" lat="60.4222138" lon="5.5379704" version="7" timestamp="2020-07-06T16:46:44Z" changeset="87611565" uid="715936" user="Gazer75" />
+	<node id="417204765" lat="60.4219622" lon="5.5378258" version="6" timestamp="2020-07-06T16:46:44Z" changeset="87611565" uid="715936" user="Gazer75" />
+	<node id="508550841" lat="60.4222494" lon="5.539867" version="4" timestamp="2020-07-06T16:46:44Z" changeset="87611565" uid="715936" user="Gazer75" />
+	<node id="508550890" lat="60.4224014" lon="5.537953" version="5" timestamp="2015-06-17T22:37:57Z" changeset="32040002" uid="715936" user="Gazer75" />
+	<node id="508554502" lat="60.4219067" lon="5.5378923" version="5" timestamp="2015-06-17T22:37:57Z" changeset="32040002" uid="715936" user="Gazer75" />
+	<node id="2527902062" lat="60.4220841" lon="5.5379254" version="3" timestamp="2020-07-06T16:46:44Z" changeset="87611565" uid="715936" user="Gazer75" />
+	<node id="2642739461" lat="60.4220614" lon="5.5380198" version="3" timestamp="2020-07-06T16:46:44Z" changeset="87611565" uid="715936" user="Gazer75" />
+	<node id="2642739462" lat="60.4223042" lon="5.5380723" version="3" timestamp="2020-07-06T16:46:44Z" changeset="87611565" uid="715936" user="Gazer75" />
+	<node id="2642739463" lat="60.4223575" lon="5.5380649" version="3" timestamp="2020-07-06T16:46:44Z" changeset="87611565" uid="715936" user="Gazer75" />
+	<node id="3601402286" lat="60.4220301" lon="5.5378825" version="2" timestamp="2020-07-06T16:46:44Z" changeset="87611565" uid="715936" user="Gazer75" />
+	<node id="3601402288" lat="60.4221599" lon="5.5380689" version="2" timestamp="2020-07-06T16:46:44Z" changeset="87611565" uid="715936" user="Gazer75" />
+	<node id="3601402290" lat="60.4222996" lon="5.5379717" version="2" timestamp="2020-07-06T16:46:44Z" changeset="87611565" uid="715936" user="Gazer75" />
+	<node id="3601402292" lat="60.4224887" lon="5.5380154" version="1" timestamp="2015-06-17T22:37:47Z" changeset="32040002" uid="715936" user="Gazer75" />
+	<node id="3601402993" lat="60.4224951" lon="5.5379218" version="1" timestamp="2015-06-17T22:37:47Z" changeset="32040002" uid="715936" user="Gazer75" />
+	<node id="3601402995" lat="60.4226673" lon="5.5378355" version="1" timestamp="2015-06-17T22:37:47Z" changeset="32040002" uid="715936" user="Gazer75" />
+	<node id="3601402996" lat="60.4226745" lon="5.5379292" version="1" timestamp="2015-06-17T22:37:48Z" changeset="32040002" uid="715936" user="Gazer75" />
+	<node id="7688274972" lat="60.4221615" lon="5.537959" version="1" timestamp="2020-07-06T16:46:44Z" changeset="87611565" uid="715936" user="Gazer75" />
+	<node id="7688274973" lat="60.4222175" lon="5.5380783" version="1" timestamp="2020-07-06T16:46:44Z" changeset="87611565" uid="715936" user="Gazer75" />
+	<node id="7688274974" lat="60.4221069" lon="5.5380481" version="1" timestamp="2020-07-06T16:46:44Z" changeset="87611565" uid="715936" user="Gazer75" />
+	<node id="7688274975" lat="60.4220153" lon="5.5379871" version="1" timestamp="2020-07-06T16:46:44Z" changeset="87611565" uid="715936" user="Gazer75" />
+	<node id="7688274976" lat="60.4219669" lon="5.5379502" version="1" timestamp="2020-07-06T16:46:44Z" changeset="87611565" uid="715936" user="Gazer75" />
+	<node id="7688274977" lat="60.4223072" lon="5.5381152" version="1" timestamp="2020-07-06T16:46:44Z" changeset="87611565" uid="715936" user="Gazer75" />
+	<node id="7688274978" lat="60.4223711" lon="5.5381702" version="1" timestamp="2020-07-06T16:46:44Z" changeset="87611565" uid="715936" user="Gazer75" />
+	<node id="7688274979" lat="60.4223873" lon="5.5381132" version="1" timestamp="2020-07-06T16:46:44Z" changeset="87611565" uid="715936" user="Gazer75" />
+	<node id="7688389496" lat="60.4227083" lon="5.5379315" version="1" timestamp="2020-07-06T16:46:44Z" changeset="87611565" uid="715936" user="Gazer75" />
+	<node id="7688389497" lat="60.4225763" lon="5.5380052" version="1" timestamp="2020-07-06T16:46:44Z" changeset="87611565" uid="715936" user="Gazer75" />
+	<node id="7688389498" lat="60.4224955" lon="5.5380508" version="1" timestamp="2020-07-06T16:46:44Z" changeset="87611565" uid="715936" user="Gazer75" />
+	<node id="7688389499" lat="60.4223992" lon="5.538084" version="1" timestamp="2020-07-06T16:46:44Z" changeset="87611565" uid="715936" user="Gazer75" />
+	<node id="7688389500" lat="60.4223545" lon="5.5382513" version="1" timestamp="2020-07-06T16:46:44Z" changeset="87611565" uid="715936" user="Gazer75" />
+	<node id="7688389501" lat="60.4223433" lon="5.5383526" version="1" timestamp="2020-07-06T16:46:44Z" changeset="87611565" uid="715936" user="Gazer75" />
+	<node id="7688389502" lat="60.4222741" lon="5.5398727" version="1" timestamp="2020-07-06T16:46:44Z" changeset="87611565" uid="715936" user="Gazer75" />
+	<node id="7688389503" lat="60.4222248" lon="5.539862" version="1" timestamp="2020-07-06T16:46:44Z" changeset="87611565" uid="715936" user="Gazer75" />
+	<node id="7688389504" lat="60.4223012" lon="5.538256" version="1" timestamp="2020-07-06T16:46:44Z" changeset="87611565" uid="715936" user="Gazer75" />
+	<node id="7688389505" lat="60.4223019" lon="5.5381058" version="1" timestamp="2020-07-06T16:46:44Z" changeset="87611565" uid="715936" user="Gazer75" />
+	<node id="7688389506" lat="60.4222195" lon="5.5381092" version="1" timestamp="2020-07-06T16:46:44Z" changeset="87611565" uid="715936" user="Gazer75" />
+	<node id="7688389507" lat="60.4221596" lon="5.5380998" version="1" timestamp="2020-07-06T16:46:44Z" changeset="87611565" uid="715936" user="Gazer75" />
+	<node id="7688389508" lat="60.422105" lon="5.5380837" version="1" timestamp="2020-07-06T16:46:44Z" changeset="87611565" uid="715936" user="Gazer75" />
+	<node id="7688389509" lat="60.4220536" lon="5.5380562" version="1" timestamp="2020-07-06T16:46:44Z" changeset="87611565" uid="715936" user="Gazer75" />
+	<node id="7688389510" lat="60.422009" lon="5.5380247" version="1" timestamp="2020-07-06T16:46:44Z" changeset="87611565" uid="715936" user="Gazer75" />
+	<node id="7688389511" lat="60.4219673" lon="5.5379912" version="1" timestamp="2020-07-06T16:46:44Z" changeset="87611565" uid="715936" user="Gazer75" />
+	<node id="7688389514" lat="60.4220388" lon="5.5378054" version="1" timestamp="2020-07-06T16:46:44Z" changeset="87611565" uid="715936" user="Gazer75" />
+	<node id="7688389515" lat="60.4220897" lon="5.5378396" version="1" timestamp="2020-07-06T16:46:44Z" changeset="87611565" uid="715936" user="Gazer75" />
+	<node id="7688389516" lat="60.422152" lon="5.5378705" version="1" timestamp="2020-07-06T16:46:44Z" changeset="87611565" uid="715936" user="Gazer75" />
+	<node id="7688389517" lat="60.4222132" lon="5.5378859" version="1" timestamp="2020-07-06T16:46:44Z" changeset="87611565" uid="715936" user="Gazer75" />
+	<node id="7688389518" lat="60.422289" lon="5.5378919" version="1" timestamp="2020-07-06T16:46:44Z" changeset="87611565" uid="715936" user="Gazer75" />
+	<node id="7688389519" lat="60.4223403" lon="5.5378879" version="1" timestamp="2020-07-06T16:46:44Z" changeset="87611565" uid="715936" user="Gazer75" />
+	<node id="7688389520" lat="60.4224022" lon="5.5378772" version="1" timestamp="2020-07-06T16:46:44Z" changeset="87611565" uid="715936" user="Gazer75" />
+	<node id="7688389521" lat="60.4224654" lon="5.5378577" version="1" timestamp="2020-07-06T16:46:44Z" changeset="87611565" uid="715936" user="Gazer75" />
+	<node id="7688389522" lat="60.4225505" lon="5.5378215" version="1" timestamp="2020-07-06T16:46:44Z" changeset="87611565" uid="715936" user="Gazer75" />
+	<node id="9317852880" lat="60.4222405" lon="5.5378881" version="1" timestamp="2021-12-07T11:08:50Z" changeset="114655938" uid="12645669" user="Kokosnøtt" />
+	<node id="9317852881" lat="60.4222748" lon="5.5378908" version="1" timestamp="2021-12-07T11:08:50Z" changeset="114655938" uid="12645669" user="Kokosnøtt" />
+	<node id="9317852904" lat="60.4220273" lon="5.5377964" version="1" timestamp="2021-12-07T11:08:50Z" changeset="114655938" uid="12645669" user="Kokosnøtt" />
+	<node id="314997686" lat="60.4299103" lon="5.5345808" version="8" timestamp="2020-07-06T16:46:44Z" changeset="87611565" uid="715936" user="Gazer75" />
+	<node id="417204770" lat="60.4292327" lon="5.5343507" version="9" timestamp="2020-07-06T16:46:44Z" changeset="87611565" uid="715936" user="Gazer75" />
+	<node id="508540629" lat="60.4297731" lon="5.5344419" version="6" timestamp="2020-07-06T16:46:44Z" changeset="87611565" uid="715936" user="Gazer75" />
+	<node id="508540693" lat="60.4295583" lon="5.5344768" version="6" timestamp="2020-07-06T16:46:44Z" changeset="87611565" uid="715936" user="Gazer75" />
+	<node id="2642739475" lat="60.4298879" lon="5.5346685" version="5" timestamp="2020-07-06T16:46:44Z" changeset="87611565" uid="715936" user="Gazer75" />
+	<node id="3601403002" lat="60.4288981" lon="5.534401" version="3" timestamp="2020-07-06T16:46:44Z" changeset="87611565" uid="715936" user="Gazer75" />
+	<node id="3601403004" lat="60.429091" lon="5.5343507" version="3" timestamp="2020-07-06T16:46:44Z" changeset="87611565" uid="715936" user="Gazer75" />
+	<node id="3601403008" lat="60.4290278" lon="5.5343601" version="3" timestamp="2020-07-06T16:46:44Z" changeset="87611565" uid="715936" user="Gazer75" />
+	<node id="3601403010" lat="60.4296705" lon="5.5345968" version="3" timestamp="2020-07-06T16:46:44Z" changeset="87611565" uid="715936" user="Gazer75" />
+	<node id="3601403012" lat="60.4297499" lon="5.5345304" version="4" timestamp="2020-07-06T16:46:44Z" changeset="87611565" uid="715936" user="Gazer75" />
+	<node id="3601403014" lat="60.4298532" lon="5.5345211" version="4" timestamp="2020-07-06T16:46:44Z" changeset="87611565" uid="715936" user="Gazer75" />
+	<node id="4155736691" lat="60.4287975" lon="5.5343313" version="2" timestamp="2020-07-06T16:46:44Z" changeset="87611565" uid="715936" user="Gazer75" />
+	<node id="4155736692" lat="60.4289716" lon="5.5342656" version="3" timestamp="2020-07-06T16:46:44Z" changeset="87611565" uid="715936" user="Gazer75" />
+	<node id="4155736693" lat="60.4290589" lon="5.5342428" version="3" timestamp="2020-07-06T16:46:44Z" changeset="87611565" uid="715936" user="Gazer75" />
+	<node id="4155736694" lat="60.4292175" lon="5.5342273" version="3" timestamp="2020-07-06T16:46:44Z" changeset="87611565" uid="715936" user="Gazer75" />
+	<node id="4155736701" lat="60.42941" lon="5.5342709" version="3" timestamp="2020-07-06T16:46:44Z" changeset="87611565" uid="715936" user="Gazer75" />
+	<node id="4155736706" lat="60.4296827" lon="5.5344184" version="3" timestamp="2020-07-06T16:46:44Z" changeset="87611565" uid="715936" user="Gazer75" />
+	<node id="4155736713" lat="60.4299312" lon="5.5349236" version="2" timestamp="2020-07-06T16:46:44Z" changeset="87611565" uid="715936" user="Gazer75" />
+	<node id="4155736714" lat="60.4299759" lon="5.5347673" version="2" timestamp="2020-07-06T16:46:44Z" changeset="87611565" uid="715936" user="Gazer75" />
+	<node id="4155736715" lat="60.4300005" lon="5.5346813" version="2" timestamp="2020-07-06T16:46:44Z" changeset="87611565" uid="715936" user="Gazer75" />
+	<node id="6665891933" lat="60.4295533" lon="5.5343353" version="2" timestamp="2020-07-06T16:46:44Z" changeset="87611565" uid="715936" user="Gazer75" />
+	<node id="6665891934" lat="60.429324" lon="5.5342441" version="2" timestamp="2020-07-06T16:46:44Z" changeset="87611565" uid="715936" user="Gazer75" />
+	<node id="7688274980" lat="60.4290308" lon="5.5344003" version="1" timestamp="2020-07-06T16:46:44Z" changeset="87611565" uid="715936" user="Gazer75" />
+	<node id="7688274981" lat="60.4295973" lon="5.5345532" version="1" timestamp="2020-07-06T16:46:44Z" changeset="87611565" uid="715936" user="Gazer75" />
+	<node id="7688274982" lat="60.4297479" lon="5.5347376" version="1" timestamp="2020-07-06T16:46:44Z" changeset="87611565" uid="715936" user="Gazer75" />
+	<node id="7688274983" lat="60.4296629" lon="5.5346297" version="1" timestamp="2020-07-06T16:46:44Z" changeset="87611565" uid="715936" user="Gazer75" />
+	<node id="7688274984" lat="60.429555" lon="5.534514" version="1" timestamp="2020-07-06T16:46:44Z" changeset="87611565" uid="715936" user="Gazer75" />
+	<node id="7688389485" lat="60.4294984" lon="5.5344728" version="1" timestamp="2020-07-06T16:46:44Z" changeset="87611565" uid="715936" user="Gazer75" />
+	<node id="7688389486" lat="60.4294014" lon="5.5344238" version="1" timestamp="2020-07-06T16:46:44Z" changeset="87611565" uid="715936" user="Gazer75" />
+	<node id="7688389487" lat="60.4293184" lon="5.534401" version="1" timestamp="2020-07-06T16:46:44Z" changeset="87611565" uid="715936" user="Gazer75" />
+	<node id="7688389488" lat="60.429232" lon="5.5343896" version="1" timestamp="2020-07-06T16:46:44Z" changeset="87611565" uid="715936" user="Gazer75" />
+	<node id="7688389489" lat="60.4291519" lon="5.5343869" version="1" timestamp="2020-07-06T16:46:44Z" changeset="87611565" uid="715936" user="Gazer75" />
+	<node id="7688389490" lat="60.4290937" lon="5.5343903" version="1" timestamp="2020-07-06T16:46:44Z" changeset="87611565" uid="715936" user="Gazer75" />
+	<node id="7688389491" lat="60.4289808" lon="5.5344097" version="1" timestamp="2020-07-06T16:46:44Z" changeset="87611565" uid="715936" user="Gazer75" />
+	<node id="7688389492" lat="60.4289061" lon="5.5344352" version="1" timestamp="2020-07-06T16:46:44Z" changeset="87611565" uid="715936" user="Gazer75" />
+	<node id="7688389493" lat="60.4288124" lon="5.5344835" version="1" timestamp="2020-07-06T16:46:44Z" changeset="87611565" uid="715936" user="Gazer75" />
+	<node id="7688389494" lat="60.4286992" lon="5.5345479" version="1" timestamp="2020-07-06T16:46:44Z" changeset="87611565" uid="715936" user="Gazer75" />
+	<node id="7688389546" lat="60.4286843" lon="5.5343252" version="1" timestamp="2020-07-06T16:46:44Z" changeset="87611565" uid="715936" user="Gazer75" />
+	<node id="7688389547" lat="60.4287978" lon="5.5342636" version="1" timestamp="2020-07-06T16:46:44Z" changeset="87611565" uid="715936" user="Gazer75" />
+	<node id="7688389548" lat="60.4288693" lon="5.534228" version="1" timestamp="2020-07-06T16:46:44Z" changeset="87611565" uid="715936" user="Gazer75" />
+	<node id="7688389549" lat="60.4289617" lon="5.5341905" version="1" timestamp="2020-07-06T16:46:44Z" changeset="87611565" uid="715936" user="Gazer75" />
+	<node id="7688389550" lat="60.4290533" lon="5.5341616" version="1" timestamp="2020-07-06T16:46:44Z" changeset="87611565" uid="715936" user="Gazer75" />
+	<node id="7688389551" lat="60.4291516" lon="5.5341449" version="1" timestamp="2020-07-06T16:46:44Z" changeset="87611565" uid="715936" user="Gazer75" />
+	<node id="7688389552" lat="60.4292267" lon="5.5341415" version="1" timestamp="2020-07-06T16:46:44Z" changeset="87611565" uid="715936" user="Gazer75" />
+	<node id="7688389553" lat="60.4293372" lon="5.5341589" version="1" timestamp="2020-07-06T16:46:44Z" changeset="87611565" uid="715936" user="Gazer75" />
+	<node id="7688389554" lat="60.4294276" lon="5.5341824" version="1" timestamp="2020-07-06T16:46:44Z" changeset="87611565" uid="715936" user="Gazer75" />
+	<node id="7688389555" lat="60.42951" lon="5.5342139" version="1" timestamp="2020-07-06T16:46:44Z" changeset="87611565" uid="715936" user="Gazer75" />
+	<node id="7688389556" lat="60.429599" lon="5.5342582" version="1" timestamp="2020-07-06T16:46:44Z" changeset="87611565" uid="715936" user="Gazer75" />
+	<node id="7688389557" lat="60.4296675" lon="5.5343031" version="1" timestamp="2020-07-06T16:46:44Z" changeset="87611565" uid="715936" user="Gazer75" />
+	<node id="7688389558" lat="60.4297429" lon="5.5343621" version="1" timestamp="2020-07-06T16:46:44Z" changeset="87611565" uid="715936" user="Gazer75" />
+	<node id="7688389559" lat="60.4298144" lon="5.5344205" version="1" timestamp="2020-07-06T16:46:44Z" changeset="87611565" uid="715936" user="Gazer75" />
+	<node id="7688389560" lat="60.4298743" lon="5.5344795" version="1" timestamp="2020-07-06T16:46:44Z" changeset="87611565" uid="715936" user="Gazer75" />
+	<node id="7688389561" lat="60.4299283" lon="5.5345338" version="1" timestamp="2020-07-06T16:46:44Z" changeset="87611565" uid="715936" user="Gazer75" />
+	<node id="7688389562" lat="60.4300133" lon="5.5346364" version="1" timestamp="2020-07-06T16:46:44Z" changeset="87611565" uid="715936" user="Gazer75" />
+	<node id="7688389563" lat="60.4299213" lon="5.5349582" version="1" timestamp="2020-07-06T16:46:44Z" changeset="87611565" uid="715936" user="Gazer75" />
+	<node id="7688389564" lat="60.4296218" lon="5.5343775" version="1" timestamp="2020-07-06T16:46:44Z" changeset="87611565" uid="715936" user="Gazer75" />
+	<node id="7688389575" lat="60.42983" lon="5.5346089" version="1" timestamp="2020-07-06T16:46:44Z" changeset="87611565" uid="715936" user="Gazer75" />
+	<node id="7688389576" lat="60.4294928" lon="5.5343038" version="1" timestamp="2020-07-06T16:46:44Z" changeset="87611565" uid="715936" user="Gazer75" />
+	<node id="7688389577" lat="60.4291447" lon="5.53423" version="1" timestamp="2020-07-06T16:46:44Z" changeset="87611565" uid="715936" user="Gazer75" />
+	<node id="7688389578" lat="60.4288786" lon="5.5342957" version="1" timestamp="2020-07-06T16:46:44Z" changeset="87611565" uid="715936" user="Gazer75" />
+	<node id="7688389579" lat="60.4286969" lon="5.5343883" version="1" timestamp="2020-07-06T16:46:44Z" changeset="87611565" uid="715936" user="Gazer75" />
+	<node id="7688389580" lat="60.4287148" lon="5.5344956" version="1" timestamp="2020-07-06T16:46:44Z" changeset="87611565" uid="715936" user="Gazer75" />
+	<node id="7688389581" lat="60.4288061" lon="5.5344459" version="1" timestamp="2020-07-06T16:46:44Z" changeset="87611565" uid="715936" user="Gazer75" />
+	<node id="7688389582" lat="60.4289746" lon="5.5343749" version="1" timestamp="2020-07-06T16:46:44Z" changeset="87611565" uid="715936" user="Gazer75" />
+	<node id="7688389583" lat="60.429146" lon="5.5343474" version="1" timestamp="2020-07-06T16:46:44Z" changeset="87611565" uid="715936" user="Gazer75" />
+	<node id="7688389584" lat="60.4293217" lon="5.5343615" version="1" timestamp="2020-07-06T16:46:44Z" changeset="87611565" uid="715936" user="Gazer75" />
+	<node id="7688389585" lat="60.4294061" lon="5.5343883" version="1" timestamp="2020-07-06T16:46:44Z" changeset="87611565" uid="715936" user="Gazer75" />
+	<node id="7688389586" lat="60.4294838" lon="5.5344258" version="1" timestamp="2020-07-06T16:46:44Z" changeset="87611565" uid="715936" user="Gazer75" />
+	<node id="7688389587" lat="60.4296063" lon="5.5345204" version="1" timestamp="2020-07-06T16:46:44Z" changeset="87611565" uid="715936" user="Gazer75" />
+	<way id="3507499" version="12" timestamp="2021-12-29T20:31:09Z" changeset="115536700" uid="4361277" user="Mathias Haugsbø">
+		<tag k="bridge" v="yes" />
+		<tag k="highway" v="trunk" />
+		<tag k="lanes" v="3" />
+		<tag k="layer" v="1" />
+		<tag k="maxspeed" v="60" />
+		<tag k="maxweight:signed" v="no" />
+		<tag k="name" v="Puddefjordsbroen" />
+		<tag k="oneway" v="yes" />
+		<tag k="ref" v="555" />
+		<tag k="ssr:stedsnr" v="991141" />
+		<nd ref="16465723" />
+		<nd ref="3944739764" />
+		<nd ref="16465722" />
+	</way>
+	<way id="3630282" version="31" timestamp="2022-01-10T16:49:48Z" changeset="115989888" uid="3497659" user="NKA">
+		<tag k="bicycle" v="no" />
+		<tag k="foot" v="no" />
+		<tag k="highway" v="trunk" />
+		<tag k="int_ref" v="E 16;E 39" />
+		<tag k="lanes" v="2" />
+		<tag k="layer" v="-1" />
+		<tag k="lit" v="yes" />
+		<tag k="loc_name" v="Fløyfjellstunnellen" />
+		<tag k="maxheight" v="4.5" />
+		<tag k="maxspeed" v="80" />
+		<tag k="moped" v="no" />
+		<tag k="name" v="Fløyfjelltunnelen" />
+		<tag k="oneway" v="yes" />
+		<tag k="ref" v="E 16;E 39" />
+		<tag k="ssr:stedsnr" v="324347" />
+		<tag k="surface" v="asphalt" />
+		<tag k="tunnel" v="yes" />
+		<tag k="tunnel:description" v="Fløyfjellstunnelen N" />
+		<tag k="tunnel:name" v="Fløyfjelltunnellen" />
+		<tag k="wikidata" v="Q4587241" />
+		<nd ref="645664" />
+		<nd ref="9407970227" />
+		<nd ref="9407970226" />
+		<nd ref="9407970225" />
+		<nd ref="26408159" />
+		<nd ref="9407970224" />
+		<nd ref="9407970223" />
+		<nd ref="9407970222" />
+		<nd ref="3374443407" />
+		<nd ref="9407970221" />
+		<nd ref="9407970220" />
+		<nd ref="457003986" />
+		<nd ref="9407970219" />
+		<nd ref="457003987" />
+		<nd ref="9407970218" />
+		<nd ref="9407970217" />
+		<nd ref="9407961216" />
+		<nd ref="457003989" />
+		<nd ref="9407961215" />
+		<nd ref="9407961214" />
+		<nd ref="457003743" />
+		<nd ref="9407961213" />
+		<nd ref="9407961212" />
+		<nd ref="645665" />
+		<nd ref="9407961211" />
+		<nd ref="457004657" />
+		<nd ref="9407961210" />
+		<nd ref="9407961209" />
+		<nd ref="3374443440" />
+		<nd ref="3374443441" />
+		<nd ref="9407961208" />
+		<nd ref="3374443443" />
+		<nd ref="457004658" />
+		<nd ref="9407961207" />
+		<nd ref="3374443446" />
+		<nd ref="645686" />
+		<nd ref="3374443448" />
+		<nd ref="9407961206" />
+		<nd ref="3374443449" />
+		<nd ref="457005525" />
+		<nd ref="9407961205" />
+		<nd ref="3374443452" />
+		<nd ref="9407961204" />
+		<nd ref="9407961203" />
+		<nd ref="457005526" />
+		<nd ref="9407961202" />
+		<nd ref="9407961201" />
+		<nd ref="457006245" />
+		<nd ref="9407961200" />
+		<nd ref="9407961199" />
+		<nd ref="9407961198" />
+		<nd ref="457006247" />
+		<nd ref="9407961197" />
+		<nd ref="9407961196" />
+		<nd ref="9407961195" />
+		<nd ref="3374443467" />
+		<nd ref="9407961194" />
+		<nd ref="9407961193" />
+		<nd ref="645688" />
+		<nd ref="9407961192" />
+		<nd ref="457006251" />
+		<nd ref="457006254" />
+		<nd ref="3851220259" />
+		<nd ref="457006255" />
+		<nd ref="457008457" />
+		<nd ref="457008458" />
+		<nd ref="9407961191" />
+	</way>
 	<way id="4167729" version="5" timestamp="2018-10-03T13:22:03Z" changeset="63160134" uid="1965308" user="FredrikLindseth">
 		<tag k="name" v="Litle Løholmen" />
 		<tag k="natural" v="coastline" />
@@ -8070,6 +8965,40 @@
 		<nd ref="299508133" />
 		<nd ref="273092502" />
 	</way>
+	<way id="53185056" version="7" timestamp="2021-12-29T20:31:09Z" changeset="115536700" uid="4361277" user="Mathias Haugsbø">
+		<tag k="bridge" v="yes" />
+		<tag k="highway" v="trunk" />
+		<tag k="lanes" v="3" />
+		<tag k="layer" v="1" />
+		<tag k="maxspeed" v="60" />
+		<tag k="maxweight:signed" v="no" />
+		<tag k="name" v="Puddefjordsbroen" />
+		<tag k="oneway" v="yes" />
+		<tag k="ref" v="555" />
+		<tag k="ssr:stedsnr" v="991141" />
+		<nd ref="672968158" />
+		<nd ref="864586609" />
+		<nd ref="17388500" />
+	</way>
+	<way id="59172068" version="16" timestamp="2021-12-29T20:31:09Z" changeset="115536700" uid="4361277" user="Mathias Haugsbø">
+		<tag k="alt_name" v="Smørsbru" />
+		<tag k="bridge" v="yes" />
+		<tag k="cycleway:both" v="no" />
+		<tag k="highway" v="secondary" />
+		<tag k="lane_markings" v="no" />
+		<tag k="layer" v="1" />
+		<tag k="loc_name" v="Smørsbroen" />
+		<tag k="maxweight:signed" v="no" />
+		<tag k="name" v="Smørs bru" />
+		<tag k="old_name" v="Smørsbru" />
+		<tag k="old_ref" v="270" />
+		<tag k="ref" v="5348" />
+		<tag k="sidewalk" v="both" />
+		<tag k="ssr:stedsnr" v="775899" />
+		<tag k="surface" v="paving_stones" />
+		<nd ref="733846544" />
+		<nd ref="733846538" />
+	</way>
 	<way id="80748627" version="3" timestamp="2018-10-03T13:22:05Z" changeset="63160134" uid="1965308" user="FredrikLindseth">
 		<tag k="name" v="Litle Grunnasundholmen" />
 		<tag k="natural" v="coastline" />
@@ -8097,6 +9026,27 @@
 		<nd ref="941663322" />
 		<nd ref="941663316" />
 		<nd ref="3463822460" />
+	</way>
+	<way id="165401810" version="7" timestamp="2021-12-29T20:31:09Z" changeset="115536700" uid="4361277" user="Mathias Haugsbø">
+		<tag k="foot" v="no" />
+		<tag k="highway" v="cycleway" />
+		<tag k="layer" v="-1" />
+		<tag k="loc_name" v="Rotthaugstunnelen" />
+		<tag k="name" v="Rothaugen tunnelen" />
+		<tag k="nvdb:date" v="2005-07-11" />
+		<tag k="nvdb:id" v="145987845" />
+		<tag k="railway" v="abandoned" />
+		<tag k="ssr:stedsnr" v="347386" />
+		<tag k="tunnel" v="yes" />
+		<nd ref="1769514075" />
+		<nd ref="1769514114" />
+		<nd ref="1769514107" />
+		<nd ref="1769514113" />
+		<nd ref="1769514093" />
+		<nd ref="1769514105" />
+		<nd ref="3945415178" />
+		<nd ref="3945415246" />
+		<nd ref="1769514119" />
 	</way>
 	<way id="339199546" version="2" timestamp="2018-10-03T13:22:05Z" changeset="63160134" uid="1965308" user="FredrikLindseth">
 		<tag k="fixme" v="consider seamark:type=rock or natural=shoal" />
@@ -8492,6 +9442,97 @@
 		<nd ref="4967078816" />
 		<nd ref="5543935503" />
 		<nd ref="4967078807" />
+	</way>
+	<way id="508587017" version="6" timestamp="2021-12-29T20:31:09Z" changeset="115536700" uid="4361277" user="Mathias Haugsbø">
+		<tag k="alt_name" v="Smørsbru" />
+		<tag k="bridge" v="yes" />
+		<tag k="bridge:structure" v="arch" />
+		<tag k="layer" v="1" />
+		<tag k="level" v="1" />
+		<tag k="loc_name" v="Smørsbroen" />
+		<tag k="name" v="Smørs bru" />
+		<tag k="old_name" v="Smørsbru" />
+		<tag k="ssr:stedsnr" v="775899" />
+		<tag k="start_date" v="1923" />
+		<tag k="wikidata" v="Q19389412" />
+		<tag k="wikipedia" v="no:Smørsbroen" />
+		<nd ref="4183985804" />
+		<nd ref="1480940385" />
+		<nd ref="4978691859" />
+		<nd ref="4183985803" />
+		<nd ref="9311086947" />
+		<nd ref="2932499241" />
+		<nd ref="6968240323" />
+		<nd ref="4183985804" />
+	</way>
+	<way id="565039943" version="6" timestamp="2021-12-29T20:31:09Z" changeset="115536700" uid="4361277" user="Mathias Haugsbø">
+		<tag k="bridge" v="movable" />
+		<tag k="bridge:structure" v="beam" />
+		<tag k="layer" v="1" />
+		<tag k="man_made" v="bridge" />
+		<tag k="name" v="Småpudden" />
+		<tag k="seamark:bridge:category" v="bascule" />
+		<tag k="seamark:bridge:clearance_height_closed" v="4.5" />
+		<tag k="seamark:bridge:clearance_height_open" v="default" />
+		<tag k="seamark:bridge:clearance_width" v="20" />
+		<tag k="seamark:type" v="bridge" />
+		<tag k="ssr:stedsnr" v="972343" />
+		<nd ref="5442821116" />
+		<nd ref="5442821115" />
+		<nd ref="5442821114" />
+		<nd ref="5442821113" />
+		<nd ref="8715097363" />
+		<nd ref="5442821112" />
+		<nd ref="5442821109" />
+		<nd ref="5442821111" />
+		<nd ref="5442821110" />
+		<nd ref="5442821116" />
+	</way>
+	<way id="603659430" version="3" timestamp="2021-12-29T20:31:09Z" changeset="115536700" uid="4361277" user="Mathias Haugsbø">
+		<tag k="area" v="yes" />
+		<tag k="man_made" v="quay" />
+		<tag k="name" v="Sukkerhusbryggen" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="991150" />
+		<nd ref="863716381" />
+		<nd ref="1200546383" />
+		<nd ref="1200546374" />
+		<nd ref="863715653" />
+		<nd ref="863716387" />
+		<nd ref="863716381" />
+	</way>
+	<way id="884022217" version="4" timestamp="2021-12-29T20:31:09Z" changeset="115536700" uid="4361277" user="Mathias Haugsbø">
+		<tag k="area" v="yes" />
+		<tag k="junction" v="yes" />
+		<tag k="name" v="Danmarks plass" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="971363" />
+		<nd ref="8221499490" />
+		<nd ref="8221499489" />
+		<nd ref="8221499484" />
+		<nd ref="8221499483" />
+		<nd ref="8221499485" />
+		<nd ref="8221499481" />
+		<nd ref="8221499482" />
+		<nd ref="8221499493" />
+		<nd ref="8221499491" />
+		<nd ref="8221499492" />
+		<nd ref="8221499488" />
+		<nd ref="2730179207" />
+		<nd ref="769352729" />
+		<nd ref="8221499474" />
+		<nd ref="8221499475" />
+		<nd ref="8221499477" />
+		<nd ref="8221499476" />
+		<nd ref="769352719" />
+		<nd ref="8221499480" />
+		<nd ref="8221499479" />
+		<nd ref="8221499478" />
+		<nd ref="8221499487" />
+		<nd ref="769352706" />
+		<nd ref="8221499486" />
+		<nd ref="3816764175" />
+		<nd ref="8221499490" />
 	</way>
 	<way id="923743081" version="2" timestamp="2021-07-04T18:28:59Z" changeset="107402177" uid="4361277" user="Mathias Haugsbø">
 		<tag k="building" v="hotel" />
@@ -9522,7 +10563,7 @@
 		<nd ref="4352300428" />
 		<nd ref="4352300399" />
 	</way>
-	<way id="437415676" version="4" timestamp="2017-12-13T18:03:12Z" changeset="54603368" uid="6004737" user="Tjomsas">
+	<way id="437415676" version="5" timestamp="2022-01-08T14:58:16Z" changeset="115913018" uid="12645669" user="Kokosnøtt">
 		<nd ref="4352300721" />
 		<nd ref="256042277" />
 		<nd ref="4352300714" />
@@ -9551,6 +10592,8 @@
 		<nd ref="4352300580" />
 		<nd ref="4352300581" />
 		<nd ref="4352300576" />
+		<nd ref="9402592030" />
+		<nd ref="9402592025" />
 		<nd ref="4352300574" />
 		<nd ref="4352300572" />
 		<nd ref="4352300569" />
@@ -10931,6 +11974,24 @@
 		<nd ref="4351601216" />
 		<nd ref="4351601217" />
 	</way>
+	<way id="426697773" version="3" timestamp="2018-03-05T17:19:40Z" changeset="56909847" uid="1965308" user="FredrikLindseth">
+		<nd ref="2390328757" />
+		<nd ref="31027249" />
+		<nd ref="40067599" />
+		<nd ref="31027250" />
+	</way>
+	<way id="426697775" version="3" timestamp="2018-12-11T09:18:52Z" changeset="65369062" uid="1965308" user="FredrikLindseth">
+		<tag k="natural" v="coastline" />
+		<tag k="source" v="Kartverket N50" />
+		<tag k="source:date" v="2009-06-24;2006-04-05" />
+		<nd ref="23985180" />
+		<nd ref="23984590" />
+		<nd ref="3462357128" />
+		<nd ref="3462357116" />
+		<nd ref="23985170" />
+		<nd ref="6130237958" />
+		<nd ref="5457410062" />
+	</way>
 	<way id="437343608" version="2" timestamp="2021-03-09T20:52:59Z" changeset="100733016" uid="519916" user="googlenaut">
 		<nd ref="4351539012" />
 		<nd ref="4351539024" />
@@ -11021,6 +12082,12 @@
 		<nd ref="4351601269" />
 		<nd ref="4763867687" />
 		<nd ref="4351538803" />
+	</way>
+	<way id="426697766" version="1" timestamp="2016-06-23T01:13:22Z" changeset="40217297" uid="103253" user="gormur">
+		<tag k="barrier" v="fence" />
+		<tag k="isps" v="yes" />
+		<nd ref="31027250" />
+		<nd ref="23985180" />
 	</way>
 	<way id="437346779" version="6" timestamp="2021-09-07T22:22:40Z" changeset="110881520" uid="4361277" user="Mathias Haugsbø">
 		<tag k="admin_level" v="9" />
@@ -11416,6 +12483,10 @@
 		<nd ref="4351538800" />
 		<nd ref="4351538801" />
 	</way>
+	<way id="566764467" version="1" timestamp="2018-03-05T17:19:37Z" changeset="56909847" uid="1965308" user="FredrikLindseth">
+		<nd ref="2390328757" />
+		<nd ref="5457410062" />
+	</way>
 	<way id="566764460" version="1" timestamp="2018-03-05T17:19:36Z" changeset="56909847" uid="1965308" user="FredrikLindseth">
 		<tag k="landuse" v="residential" />
 		<nd ref="5457410054" />
@@ -11446,6 +12517,47 @@
 		<nd ref="4351538801" />
 		<nd ref="378192876" />
 		<nd ref="4351538805" />
+	</way>
+	<way id="393140768" version="1" timestamp="2016-01-24T08:25:01Z" changeset="36771354" uid="1965308" user="FredrikLindseth">
+		<tag k="natural" v="coastline" />
+		<tag k="source" v="Kartverket N50" />
+		<tag k="source:date" v="2006-04-05" />
+		<nd ref="258308431" />
+		<nd ref="863715970" />
+		<nd ref="2045088877" />
+		<nd ref="863716067" />
+	</way>
+	<way id="5547185" version="27" timestamp="2016-01-13T17:00:19Z" changeset="36554023" uid="2114448" user="FredrikLindseth_import">
+		<tag k="natural" v="coastline" />
+		<tag k="source" v="Kartverket N50" />
+		<tag k="source:date" v="2009-06-24;2006-04-05" />
+		<nd ref="3462357736" />
+		<nd ref="3462357730" />
+		<nd ref="3462357719" />
+		<nd ref="3754275778" />
+		<nd ref="3462357685" />
+		<nd ref="3462357681" />
+		<nd ref="3462357691" />
+		<nd ref="3462357687" />
+		<nd ref="1642517175" />
+		<nd ref="1642517151" />
+		<nd ref="1642517145" />
+	</way>
+	<way id="371878930" version="1" timestamp="2015-09-22T11:02:05Z" changeset="34180559" uid="3252623" user="Alex_K_B">
+		<tag k="natural" v="coastline" />
+		<tag k="source" v="Kartverket N50" />
+		<tag k="source:date" v="2009-06-24;2006-04-05" />
+		<nd ref="1642517145" />
+		<nd ref="3754275772" />
+	</way>
+	<way id="1016670535" version="1" timestamp="2021-12-29T20:31:09Z" changeset="115536700" uid="4361277" user="Mathias Haugsbø">
+		<tag k="natural" v="coastline" />
+		<tag k="source" v="Kartverket N50" />
+		<tag k="source:date" v="2009-06-24;2006-04-05" />
+		<nd ref="3754275772" />
+		<nd ref="1387107461" />
+		<nd ref="3754275763" />
+		<nd ref="863715856" />
 	</way>
 	<way id="364158483" version="7" timestamp="2021-03-13T20:19:11Z" changeset="100968124" uid="519916" user="googlenaut">
 		<tag k="barrier" v="fence" />
@@ -11484,6 +12596,271 @@
 		<nd ref="3682528976" />
 		<nd ref="3682528975" />
 	</way>
+	<way id="393140729" version="1" timestamp="2016-01-24T08:24:59Z" changeset="36771354" uid="1965308" user="FredrikLindseth">
+		<nd ref="23984381" />
+		<nd ref="863716067" />
+	</way>
+	<way id="418043450" version="1" timestamp="2016-05-14T08:31:34Z" changeset="39306539" uid="1965308" user="FredrikLindseth">
+		<nd ref="3462357785" />
+		<nd ref="4185028682" />
+	</way>
+	<way id="418043494" version="2" timestamp="2017-05-09T16:30:45Z" changeset="48536652" uid="1965308" user="FredrikLindseth">
+		<tag k="natural" v="coastline" />
+		<tag k="source" v="Kartverket N50" />
+		<tag k="source:date" v="2006-04-05" />
+		<nd ref="3462357785" />
+		<nd ref="3988480613" />
+		<nd ref="3462357800" />
+		<nd ref="3462357801" />
+		<nd ref="1784820247" />
+		<nd ref="3462357844" />
+		<nd ref="3462357872" />
+		<nd ref="1784816859" />
+		<nd ref="4185028682" />
+	</way>
+	<way id="720618183" version="1" timestamp="2019-08-31T21:21:12Z" changeset="73958410" uid="3610826" user="km2bp">
+		<tag k="image" v="https://images.mapillary.com/si6RN8TacGm4hiHKYyEoqQ/thumb-2048.jpg" />
+		<tag k="mapillary" v="https://www.mapillary.com/map/im/si6RN8TacGm4hiHKYyEoqQ" />
+		<tag k="natural" v="coastline" />
+		<tag k="source" v="Kartverket N50" />
+		<tag k="source:date" v="2006-04-05" />
+		<nd ref="6762535723" />
+		<nd ref="3462358057" />
+	</way>
+	<way id="720618184" version="2" timestamp="2019-08-31T22:31:24Z" changeset="73959467" uid="3610826" user="km2bp">
+		<tag k="natural" v="coastline" />
+		<tag k="source" v="Kartverket N50" />
+		<tag k="source:date" v="2006-04-05" />
+		<nd ref="3462358057" />
+		<nd ref="3462358070" />
+		<nd ref="3462358074" />
+		<nd ref="6762623235" />
+	</way>
+	<way id="1016670533" version="1" timestamp="2021-12-29T20:31:09Z" changeset="115536700" uid="4361277" user="Mathias Haugsbø">
+		<nd ref="3462357827" />
+		<nd ref="863715856" />
+	</way>
+	<way id="1016670534" version="1" timestamp="2021-12-29T20:31:09Z" changeset="115536700" uid="4361277" user="Mathias Haugsbø">
+		<tag k="natural" v="coastline" />
+		<tag k="source" v="Kartverket N50" />
+		<tag k="source:date" v="2006-04-05" />
+		<nd ref="3462357827" />
+		<nd ref="3462357813" />
+		<nd ref="6774491271" />
+		<nd ref="6774491270" />
+		<nd ref="3462357791" />
+		<nd ref="6774491269" />
+		<nd ref="3462357781" />
+		<nd ref="3462357780" />
+		<nd ref="3462357777" />
+		<nd ref="3462357746" />
+		<nd ref="3462357738" />
+		<nd ref="3462357740" />
+		<nd ref="3462357739" />
+		<nd ref="3462357736" />
+	</way>
+	<way id="339045039" version="3" timestamp="2016-01-24T08:25:08Z" changeset="36771354" uid="1965308" user="FredrikLindseth">
+		<tag k="natural" v="coastline" />
+		<tag k="source" v="Kartverket N50" />
+		<tag k="source:date" v="2006-04-05" />
+		<nd ref="3462358173" />
+		<nd ref="3462358163" />
+		<nd ref="3462358157" />
+		<nd ref="3462358152" />
+		<nd ref="3462358145" />
+		<nd ref="3462358134" />
+		<nd ref="3462358127" />
+	</way>
+	<way id="339045271" version="2" timestamp="2016-01-13T17:00:18Z" changeset="36554023" uid="2114448" user="FredrikLindseth_import">
+		<tag k="natural" v="coastline" />
+		<tag k="source" v="Kartverket N50" />
+		<tag k="source:date" v="2006-04-05" />
+		<nd ref="3462358168" />
+		<nd ref="3462358175" />
+		<nd ref="3462358187" />
+		<nd ref="3462358173" />
+	</way>
+	<way id="393140713" version="2" timestamp="2019-08-31T21:21:12Z" changeset="73958410" uid="3610826" user="km2bp">
+		<tag k="natural" v="coastline" />
+		<tag k="source" v="Kartverket N50" />
+		<tag k="source:date" v="2006-04-05" />
+		<nd ref="23984361" />
+		<nd ref="3462358023" />
+		<nd ref="6762535723" />
+	</way>
+	<way id="393140728" version="1" timestamp="2016-01-24T08:24:59Z" changeset="36771354" uid="1965308" user="FredrikLindseth">
+		<nd ref="23984361" />
+		<nd ref="863715648" />
+	</way>
+	<way id="393140733" version="1" timestamp="2016-01-24T08:24:59Z" changeset="36771354" uid="1965308" user="FredrikLindseth">
+		<nd ref="3462358102" />
+		<nd ref="3462358127" />
+	</way>
+	<way id="393140744" version="3" timestamp="2017-05-28T17:51:20Z" changeset="49051158" uid="1965308" user="FredrikLindseth">
+		<tag k="natural" v="coastline" />
+		<tag k="source" v="Kartverket N50" />
+		<tag k="source:date" v="2006-04-05" />
+		<nd ref="3462358102" />
+		<nd ref="3462358107" />
+		<nd ref="3462358108" />
+		<nd ref="3462358109" />
+		<nd ref="3462358110" />
+		<nd ref="3462358104" />
+		<nd ref="3462358115" />
+		<nd ref="3462358120" />
+		<nd ref="3462358111" />
+		<nd ref="4881960040" />
+		<nd ref="4881960039" />
+		<nd ref="3462358117" />
+		<nd ref="3462358118" />
+		<nd ref="3462358123" />
+		<nd ref="3462358124" />
+		<nd ref="3462358133" />
+		<nd ref="3462358136" />
+		<nd ref="3462358141" />
+		<nd ref="3462358168" />
+	</way>
+	<way id="720633491" version="1" timestamp="2019-08-31T22:31:24Z" changeset="73959467" uid="3610826" user="km2bp">
+		<tag k="image" v="https://images.mapillary.com/RzN1webcOO41VyCvVaed0Q/thumb-2048.jpg" />
+		<tag k="mapillary" v="https://www.mapillary.com/map/im/RzN1webcOO41VyCvVaed0Q" />
+		<tag k="natural" v="coastline" />
+		<tag k="source" v="Kartverket N50" />
+		<tag k="source:date" v="2006-04-05" />
+		<nd ref="6762623235" />
+		<nd ref="6762623236" />
+	</way>
+	<way id="720633492" version="1" timestamp="2019-08-31T22:31:24Z" changeset="73959467" uid="3610826" user="km2bp">
+		<tag k="natural" v="coastline" />
+		<tag k="source" v="Kartverket N50" />
+		<tag k="source:date" v="2006-04-05" />
+		<nd ref="6762623236" />
+		<nd ref="3462358050" />
+		<nd ref="3462358044" />
+		<nd ref="3462358045" />
+		<nd ref="3462358052" />
+		<nd ref="3462358077" />
+		<nd ref="3462358078" />
+		<nd ref="3462358082" />
+		<nd ref="3462358084" />
+		<nd ref="3462358085" />
+		<nd ref="863715648" />
+	</way>
+	<way id="393140709" version="3" timestamp="2019-08-31T21:21:12Z" changeset="73958410" uid="3610826" user="km2bp">
+		<tag k="natural" v="coastline" />
+		<tag k="source" v="Kartverket N50" />
+		<tag k="source:date" v="2006-04-05" />
+		<nd ref="3462357999" />
+		<nd ref="6762535719" />
+	</way>
+	<way id="393140710" version="1" timestamp="2016-01-24T08:24:57Z" changeset="36771354" uid="1965308" user="FredrikLindseth">
+		<tag k="natural" v="coastline" />
+		<tag k="source" v="Kartverket N50" />
+		<tag k="source:date" v="2006-04-05" />
+		<nd ref="3462358093" />
+		<nd ref="3462358081" />
+		<nd ref="3462358080" />
+		<nd ref="3462358079" />
+		<nd ref="3462358075" />
+		<nd ref="3462358073" />
+		<nd ref="3462358072" />
+		<nd ref="3462358071" />
+		<nd ref="3462358058" />
+		<nd ref="3462358059" />
+		<nd ref="3462358064" />
+		<nd ref="3462358066" />
+		<nd ref="3462358067" />
+		<nd ref="3462358068" />
+	</way>
+	<way id="393140727" version="1" timestamp="2016-01-24T08:24:59Z" changeset="36771354" uid="1965308" user="FredrikLindseth">
+		<nd ref="3462358093" />
+		<nd ref="3462358068" />
+	</way>
+	<way id="393140737" version="1" timestamp="2016-01-24T08:24:59Z" changeset="36771354" uid="1965308" user="FredrikLindseth">
+		<nd ref="3462358004" />
+		<nd ref="3462357999" />
+	</way>
+	<way id="720618176" version="1" timestamp="2019-08-31T21:21:12Z" changeset="73958410" uid="3610826" user="km2bp">
+		<tag k="image" v="https://images.mapillary.com/qKku8IcIRp3Qp2E7VZELPw/thumb-2048.jpg" />
+		<tag k="mapillary" v="https://www.mapillary.com/map/im/qKku8IcIRp3Qp2E7VZELPw" />
+		<tag k="natural" v="coastline" />
+		<tag k="source" v="Kartverket N50" />
+		<tag k="source:date" v="2006-04-05" />
+		<nd ref="6762535716" />
+		<nd ref="6762535715" />
+	</way>
+	<way id="720618179" version="1" timestamp="2019-08-31T21:21:12Z" changeset="73958410" uid="3610826" user="km2bp">
+		<tag k="image" v="https://images.mapillary.com/MsJVq2YwIk_sE7sb74hFXQ/thumb-2048.jpg" />
+		<tag k="mapillary" v="https://www.mapillary.com/map/im/MsJVq2YwIk_sE7sb74hFXQ" />
+		<tag k="natural" v="coastline" />
+		<tag k="source" v="Kartverket N50" />
+		<tag k="source:date" v="2006-04-05" />
+		<nd ref="6762535719" />
+		<nd ref="6762535720" />
+	</way>
+	<way id="720618180" version="1" timestamp="2019-08-31T21:21:12Z" changeset="73958410" uid="3610826" user="km2bp">
+		<tag k="natural" v="coastline" />
+		<tag k="source" v="Kartverket N50" />
+		<tag k="source:date" v="2006-04-05" />
+		<nd ref="6762535720" />
+		<nd ref="3462358021" />
+		<nd ref="3462358024" />
+		<nd ref="4183496937" />
+		<nd ref="3462358035" />
+		<nd ref="3462358039" />
+		<nd ref="3462358042" />
+		<nd ref="3462358041" />
+		<nd ref="3462358040" />
+		<nd ref="3462358037" />
+		<nd ref="3462358034" />
+		<nd ref="3462358004" />
+	</way>
+	<way id="1016670537" version="1" timestamp="2021-12-29T20:31:09Z" changeset="115536700" uid="4361277" user="Mathias Haugsbø">
+		<nd ref="6762535715" />
+		<nd ref="3462357890" />
+	</way>
+	<way id="1016670538" version="1" timestamp="2021-12-29T20:31:09Z" changeset="115536700" uid="4361277" user="Mathias Haugsbø">
+		<tag k="natural" v="coastline" />
+		<tag k="source" v="Kartverket N50" />
+		<tag k="source:date" v="2006-04-05" />
+		<nd ref="3462357890" />
+		<nd ref="3462358002" />
+		<nd ref="3462358019" />
+		<nd ref="3462358017" />
+		<nd ref="6762535716" />
+	</way>
+	<way id="393140707" version="1" timestamp="2016-01-24T08:24:57Z" changeset="36771354" uid="1965308" user="FredrikLindseth">
+		<tag k="natural" v="coastline" />
+		<tag k="source" v="Kartverket N50" />
+		<tag k="source:date" v="2006-04-05" />
+		<nd ref="23984381" />
+		<nd ref="23984391" />
+		<nd ref="30753603" />
+		<nd ref="2045088878" />
+		<nd ref="863715902" />
+		<nd ref="23984255" />
+		<nd ref="23984399" />
+		<nd ref="23984401" />
+		<nd ref="258308428" />
+		<nd ref="258308444" />
+		<nd ref="863716291" />
+		<nd ref="258308431" />
+	</way>
+	<way id="4182676" version="23" timestamp="2016-01-24T08:25:11Z" changeset="36771354" uid="1965308" user="FredrikLindseth">
+		<tag k="natural" v="coastline" />
+		<tag k="source" v="Kartverket N50" />
+		<tag k="source:date" v="2006-04-05" />
+		<nd ref="3462358428" />
+		<nd ref="60405859" />
+		<nd ref="29948205" />
+		<nd ref="29948203" />
+		<nd ref="23984282" />
+		<nd ref="23984277" />
+		<nd ref="23984257" />
+		<nd ref="23984270" />
+		<nd ref="23984273" />
+		<nd ref="23984386" />
+		<nd ref="23984381" />
+	</way>
 	<way id="437343599" version="2" timestamp="2018-04-08T22:12:07Z" changeset="57924300" uid="1965308" user="FredrikLindseth">
 		<nd ref="4351539851" />
 		<nd ref="4351539840" />
@@ -11498,15 +12875,314 @@
 		<nd ref="4351539666" />
 		<nd ref="4351539662" />
 	</way>
+	<way id="1016670536" version="1" timestamp="2021-12-29T20:31:09Z" changeset="115536700" uid="4361277" user="Mathias Haugsbø">
+		<nd ref="23984381" />
+		<nd ref="9377272487" />
+		<nd ref="9377272486" />
+		<nd ref="9377272485" />
+		<nd ref="9377272484" />
+		<nd ref="3462358428" />
+	</way>
 	<way id="437343634" version="1" timestamp="2016-08-15T18:09:30Z" changeset="41472931" uid="1965308" user="FredrikLindseth">
 		<nd ref="4351539126" />
 		<nd ref="4351539097" />
 		<nd ref="4351539084" />
 		<nd ref="4351539067" />
 	</way>
+	<way id="5046930" version="20" timestamp="2018-10-11T18:51:16Z" changeset="63430907" uid="1965308" user="FredrikLindseth">
+		<nd ref="4818156430" />
+		<nd ref="4907717247" />
+		<nd ref="3793019718" />
+		<nd ref="33793565" />
+		<nd ref="3793019712" />
+		<nd ref="33793220" />
+		<nd ref="1000196636" />
+		<nd ref="4816709995" />
+	</way>
+	<way id="489437738" version="3" timestamp="2017-05-30T13:11:02Z" changeset="49103807" uid="1965308" user="FredrikLindseth">
+		<nd ref="4816709995" />
+		<nd ref="33793221" />
+		<nd ref="4885633143" />
+		<nd ref="4816735241" />
+	</way>
+	<way id="489440439" version="1" timestamp="2017-04-25T21:59:38Z" changeset="48143491" uid="1965308" user="FredrikLindseth">
+		<nd ref="4816735236" />
+		<nd ref="4816735237" />
+	</way>
+	<way id="489440440" version="2" timestamp="2017-06-10T15:10:21Z" changeset="49422773" uid="1965308" user="FredrikLindseth">
+		<nd ref="4816735235" />
+		<nd ref="4907717289" />
+		<nd ref="4816735236" />
+	</way>
+	<way id="489440441" version="2" timestamp="2017-05-30T13:22:10Z" changeset="49104173" uid="1965308" user="FredrikLindseth">
+		<nd ref="4816735235" />
+		<nd ref="2052812255" />
+	</way>
+	<way id="489440442" version="2" timestamp="2017-06-10T15:10:21Z" changeset="49422773" uid="1965308" user="FredrikLindseth">
+		<nd ref="4816735237" />
+		<nd ref="4907717288" />
+		<nd ref="4816735238" />
+	</way>
+	<way id="489440443" version="1" timestamp="2017-04-25T21:59:38Z" changeset="48143491" uid="1965308" user="FredrikLindseth">
+		<nd ref="4816735241" />
+		<nd ref="4816735235" />
+	</way>
+	<way id="489440444" version="2" timestamp="2017-05-30T13:22:10Z" changeset="49104173" uid="1965308" user="FredrikLindseth">
+		<nd ref="4816735237" />
+		<nd ref="2052812283" />
+	</way>
+	<way id="489440447" version="1" timestamp="2017-04-25T21:59:38Z" changeset="48143491" uid="1965308" user="FredrikLindseth">
+		<nd ref="4816735238" />
+		<nd ref="4816735240" />
+		<nd ref="4816735239" />
+	</way>
+	<way id="489583501" version="2" timestamp="2017-06-10T15:10:21Z" changeset="49422773" uid="1965308" user="FredrikLindseth">
+		<nd ref="2052812306" />
+		<nd ref="4907717264" />
+	</way>
+	<way id="489583507" version="3" timestamp="2017-06-13T11:17:31Z" changeset="49496622" uid="1965308" user="FredrikLindseth">
+		<nd ref="4907717261" />
+		<nd ref="2052812251" />
+		<nd ref="4907717296" />
+		<nd ref="4818156430" />
+	</way>
+	<way id="489583509" version="3" timestamp="2017-06-13T11:17:31Z" changeset="49496622" uid="1965308" user="FredrikLindseth">
+		<nd ref="4818156433" />
+		<nd ref="33793219" />
+		<nd ref="4907717243" />
+		<nd ref="4818156434" />
+	</way>
+	<way id="489583510" version="3" timestamp="2017-06-13T11:17:31Z" changeset="49496622" uid="1965308" user="FredrikLindseth">
+		<nd ref="4907717266" />
+		<nd ref="4454695233" />
+		<nd ref="4912558343" />
+		<nd ref="2052812304" />
+		<nd ref="4818156426" />
+		<nd ref="4912558342" />
+		<nd ref="1857393516" />
+		<nd ref="4912558322" />
+	</way>
+	<way id="489583511" version="1" timestamp="2017-04-26T13:03:33Z" changeset="48162731" uid="1965308" user="FredrikLindseth">
+		<nd ref="4818156432" />
+		<nd ref="33793218" />
+		<nd ref="4818156431" />
+	</way>
+	<way id="489583512" version="2" timestamp="2017-06-13T11:17:31Z" changeset="49496622" uid="1965308" user="FredrikLindseth">
+		<nd ref="4818155911" />
+		<nd ref="4818155912" />
+		<nd ref="4912558330" />
+		<nd ref="4912558331" />
+		<nd ref="4818155913" />
+		<nd ref="4818155914" />
+	</way>
+	<way id="489583513" version="1" timestamp="2017-04-26T13:03:33Z" changeset="48162731" uid="1965308" user="FredrikLindseth">
+		<nd ref="4816735239" />
+		<nd ref="33793367" />
+	</way>
+	<way id="496917641" version="1" timestamp="2017-05-30T13:22:10Z" changeset="49104173" uid="1965308" user="FredrikLindseth">
+		<nd ref="2052812261" />
+		<nd ref="4816735236" />
+	</way>
+	<way id="496917642" version="1" timestamp="2017-05-30T13:22:10Z" changeset="49104173" uid="1965308" user="FredrikLindseth">
+		<nd ref="2052812291" />
+		<nd ref="4816735238" />
+	</way>
+	<way id="496917643" version="1" timestamp="2017-05-30T13:22:10Z" changeset="49104173" uid="1965308" user="FredrikLindseth">
+		<nd ref="2052812283" />
+		<nd ref="4454695231" />
+		<nd ref="2052812291" />
+	</way>
+	<way id="499503287" version="1" timestamp="2017-06-10T15:10:15Z" changeset="49422773" uid="1965308" user="FredrikLindseth">
+		<nd ref="4907717264" />
+		<nd ref="4818156432" />
+	</way>
+	<way id="499503288" version="1" timestamp="2017-06-10T15:10:15Z" changeset="49422773" uid="1965308" user="FredrikLindseth">
+		<nd ref="4818156429" />
+		<nd ref="2052812306" />
+	</way>
+	<way id="499503292" version="1" timestamp="2017-06-10T15:10:15Z" changeset="49422773" uid="1965308" user="FredrikLindseth">
+		<nd ref="4818156431" />
+		<nd ref="4533915469" />
+		<nd ref="4907717266" />
+	</way>
+	<way id="499503296" version="1" timestamp="2017-06-10T15:10:15Z" changeset="49422773" uid="1965308" user="FredrikLindseth">
+		<nd ref="4816735241" />
+		<nd ref="4907717258" />
+	</way>
+	<way id="499503297" version="1" timestamp="2017-06-10T15:10:15Z" changeset="49422773" uid="1965308" user="FredrikLindseth">
+		<nd ref="4816709995" />
+		<nd ref="4885633142" />
+		<nd ref="4907717259" />
+	</way>
+	<way id="499503298" version="1" timestamp="2017-06-10T15:10:15Z" changeset="49422773" uid="1965308" user="FredrikLindseth">
+		<nd ref="4907717259" />
+		<nd ref="4907717256" />
+		<nd ref="4907717258" />
+	</way>
+	<way id="500116190" version="1" timestamp="2017-06-13T11:17:22Z" changeset="49496622" uid="1965308" user="FredrikLindseth">
+		<nd ref="4818155914" />
+		<nd ref="4912558348" />
+	</way>
+	<way id="500116207" version="1" timestamp="2017-06-13T11:17:22Z" changeset="49496622" uid="1965308" user="FredrikLindseth">
+		<nd ref="4912558322" />
+		<nd ref="4818156433" />
+	</way>
+	<way id="500116211" version="1" timestamp="2017-06-13T11:17:23Z" changeset="49496622" uid="1965308" user="FredrikLindseth">
+		<nd ref="4818156434" />
+		<nd ref="4907717261" />
+	</way>
+	<way id="500116221" version="1" timestamp="2017-06-13T11:17:23Z" changeset="49496622" uid="1965308" user="FredrikLindseth">
+		<nd ref="4912558348" />
+		<nd ref="4912558334" />
+		<nd ref="4818156429" />
+	</way>
+	<way id="500116222" version="1" timestamp="2017-06-13T11:17:23Z" changeset="49496622" uid="1965308" user="FredrikLindseth">
+		<nd ref="33793407" />
+		<nd ref="4818155909" />
+		<nd ref="4818155911" />
+	</way>
+	<way id="500116228" version="1" timestamp="2017-06-13T11:17:23Z" changeset="49496622" uid="1965308" user="FredrikLindseth">
+		<nd ref="33793367" />
+		<nd ref="4912558352" />
+		<nd ref="33793368" />
+		<nd ref="33793407" />
+	</way>
+	<way id="194777613" version="5" timestamp="2021-01-04T15:46:15Z" changeset="96919662" uid="12400936" user="LMadeleine">
+		<nd ref="4816735236" />
+		<nd ref="4885633141" />
+		<nd ref="2052812240" />
+		<nd ref="5976257290" />
+		<nd ref="5976257289" />
+		<nd ref="2052812239" />
+		<nd ref="4885633140" />
+		<nd ref="8290023049" />
+		<nd ref="4816735235" />
+	</way>
+	<way id="194777614" version="4" timestamp="2018-10-11T18:51:16Z" changeset="63430907" uid="1965308" user="FredrikLindseth">
+		<nd ref="4816735238" />
+		<nd ref="4885633139" />
+		<nd ref="2052812242" />
+		<nd ref="5976257292" />
+		<nd ref="5976257291" />
+		<nd ref="2052812241" />
+		<nd ref="4885633138" />
+		<nd ref="4816735237" />
+	</way>
+	<way id="393121707" version="4" timestamp="2021-09-19T16:02:28Z" changeset="111415157" uid="4361277" user="Mathias Haugsbø">
+		<nd ref="4185028644" />
+		<nd ref="4185028657" />
+		<nd ref="3963345614" />
+		<nd ref="9105722776" />
+		<nd ref="9105722775" />
+		<nd ref="4185028665" />
+		<nd ref="9105722774" />
+		<nd ref="9105714496" />
+		<nd ref="4185028669" />
+	</way>
+	<way id="418043448" version="1" timestamp="2016-05-14T08:31:34Z" changeset="39306539" uid="1965308" user="FredrikLindseth">
+		<nd ref="3963345612" />
+		<nd ref="3963345611" />
+	</way>
+	<way id="418043449" version="1" timestamp="2016-05-14T08:31:34Z" changeset="39306539" uid="1965308" user="FredrikLindseth">
+		<nd ref="4185028679" />
+		<nd ref="4185028678" />
+	</way>
+	<way id="418043452" version="1" timestamp="2016-05-14T08:31:34Z" changeset="39306539" uid="1965308" user="FredrikLindseth">
+		<nd ref="4185028629" />
+		<nd ref="3963345612" />
+	</way>
+	<way id="418043454" version="2" timestamp="2021-09-19T16:02:28Z" changeset="111415157" uid="4361277" user="Mathias Haugsbø">
+		<nd ref="3963345615" />
+		<nd ref="9105714500" />
+		<nd ref="9105722771" />
+		<nd ref="9105722770" />
+		<nd ref="9105722769" />
+		<nd ref="4185028675" />
+	</way>
+	<way id="418043458" version="2" timestamp="2021-09-19T16:02:28Z" changeset="111415157" uid="4361277" user="Mathias Haugsbø">
+		<nd ref="4185028678" />
+		<nd ref="9105722773" />
+		<nd ref="9105714499" />
+		<nd ref="9105714497" />
+		<nd ref="9105714498" />
+		<nd ref="9105722772" />
+		<nd ref="3963345615" />
+	</way>
+	<way id="418043459" version="1" timestamp="2016-05-14T08:31:35Z" changeset="39306539" uid="1965308" user="FredrikLindseth">
+		<nd ref="4185028621" />
+		<nd ref="4185028629" />
+	</way>
+	<way id="418043461" version="2" timestamp="2021-09-19T16:02:28Z" changeset="111415157" uid="4361277" user="Mathias Haugsbø">
+		<nd ref="4185028618" />
+		<nd ref="4185028619" />
+		<nd ref="3963345610" />
+	</way>
+	<way id="418043463" version="2" timestamp="2021-09-19T16:02:28Z" changeset="111415157" uid="4361277" user="Mathias Haugsbø">
+		<nd ref="4185028652" />
+		<nd ref="9105714501" />
+		<nd ref="9105714502" />
+		<nd ref="3963345613" />
+	</way>
+	<way id="418043465" version="1" timestamp="2016-05-14T08:31:35Z" changeset="39306539" uid="1965308" user="FredrikLindseth">
+		<nd ref="4185028667" />
+		<nd ref="4185028666" />
+	</way>
+	<way id="418043466" version="1" timestamp="2016-05-14T08:31:35Z" changeset="39306539" uid="1965308" user="FredrikLindseth">
+		<nd ref="4185028669" />
+		<nd ref="4185028670" />
+	</way>
+	<way id="418043467" version="1" timestamp="2016-05-14T08:31:35Z" changeset="39306539" uid="1965308" user="FredrikLindseth">
+		<nd ref="4185028677" />
+		<nd ref="4185028667" />
+	</way>
+	<way id="418043473" version="1" timestamp="2016-05-14T08:31:35Z" changeset="39306539" uid="1965308" user="FredrikLindseth">
+		<nd ref="4185028677" />
+		<nd ref="4185028675" />
+	</way>
+	<way id="418043475" version="1" timestamp="2016-05-14T08:31:35Z" changeset="39306539" uid="1965308" user="FredrikLindseth">
+		<nd ref="3963345613" />
+		<nd ref="4185028631" />
+	</way>
+	<way id="418043476" version="1" timestamp="2016-05-14T08:31:35Z" changeset="39306539" uid="1965308" user="FredrikLindseth">
+		<nd ref="4185028670" />
+		<nd ref="4185028673" />
+		<nd ref="4185028679" />
+	</way>
+	<way id="418043477" version="1" timestamp="2016-05-14T08:31:35Z" changeset="39306539" uid="1965308" user="FredrikLindseth">
+		<nd ref="4185028666" />
+		<nd ref="4185028656" />
+		<nd ref="4185028652" />
+	</way>
+	<way id="418043479" version="2" timestamp="2021-09-19T16:02:28Z" changeset="111415157" uid="4361277" user="Mathias Haugsbø">
+		<nd ref="3963345610" />
+		<nd ref="4185028614" />
+		<nd ref="9105714491" />
+		<nd ref="4185028621" />
+	</way>
+	<way id="418043484" version="1" timestamp="2016-05-14T08:31:35Z" changeset="39306539" uid="1965308" user="FredrikLindseth">
+		<nd ref="4185028631" />
+		<nd ref="4185028630" />
+		<nd ref="4185028616" />
+		<nd ref="4185028618" />
+	</way>
+	<way id="418043486" version="2" timestamp="2017-04-22T14:19:10Z" changeset="48034610" uid="1965308" user="FredrikLindseth">
+		<nd ref="4185028626" />
+		<nd ref="4185028633" />
+		<nd ref="4185028636" />
+	</way>
+	<way id="418043491" version="2" timestamp="2021-09-19T16:02:28Z" changeset="111415157" uid="4361277" user="Mathias Haugsbø">
+		<nd ref="4185028636" />
+		<nd ref="4185028635" />
+		<nd ref="4185028643" />
+		<nd ref="4185028644" />
+	</way>
 	<way id="487825395" version="1" timestamp="2017-04-18T20:08:17Z" changeset="47917662" uid="1965308" user="FredrikLindseth">
 		<nd ref="3682309599" />
 		<nd ref="3682528975" />
+	</way>
+	<way id="488690107" version="1" timestamp="2017-04-22T14:19:06Z" changeset="48034610" uid="1965308" user="FredrikLindseth">
+		<nd ref="3963345611" />
+		<nd ref="4185028626" />
 	</way>
 	<way id="437343596" version="1" timestamp="2016-08-15T18:09:28Z" changeset="41472931" uid="1965308" user="FredrikLindseth">
 		<nd ref="4351539173" />
@@ -11617,7 +13293,7 @@
 		<nd ref="4351539849" />
 		<nd ref="4351539851" />
 	</way>
-	<way id="437436582" version="2" timestamp="2018-04-08T22:12:10Z" changeset="57924300" uid="1965308" user="FredrikLindseth">
+	<way id="437436582" version="3" timestamp="2022-01-03T19:06:57Z" changeset="115724894" uid="14195527" user="oiaeqrifs">
 		<nd ref="4352513092" />
 		<nd ref="4352513090" />
 		<nd ref="4352513088" />
@@ -11651,6 +13327,7 @@
 		<nd ref="4352513157" />
 		<nd ref="4352513167" />
 		<nd ref="4352513220" />
+		<nd ref="30228613" />
 		<nd ref="4352513237" />
 		<nd ref="4352513266" />
 		<nd ref="4352512839" />
@@ -12769,6 +14446,269 @@
 		<nd ref="5965427653" />
 		<nd ref="3471902943" />
 	</way>
+	<way id="35597006" version="12" timestamp="2021-02-16T15:26:27Z" changeset="99391773" uid="10233897" user="harahu">
+		<tag k="bicycle" v="designated" />
+		<tag k="bridge" v="yes" />
+		<tag k="foot" v="designated" />
+		<tag k="highway" v="cycleway" />
+		<tag k="layer" v="1" />
+		<tag k="surface" v="asphalt" />
+		<nd ref="4155736689" />
+		<nd ref="7688389580" />
+		<nd ref="7688389581" />
+		<nd ref="3601403002" />
+		<nd ref="7688389582" />
+		<nd ref="3601403008" />
+		<nd ref="3601403004" />
+		<nd ref="7688389583" />
+		<nd ref="417204770" />
+		<nd ref="7688389584" />
+		<nd ref="7688389585" />
+		<nd ref="7688389586" />
+		<nd ref="508540693" />
+		<nd ref="7688389587" />
+		<nd ref="3601403010" />
+		<nd ref="4155736713" />
+	</way>
+	<way id="41526192" version="13" timestamp="2021-11-08T13:02:20Z" changeset="113521876" uid="715936" user="Gazer75">
+		<tag k="bridge" v="yes" />
+		<tag k="highway" v="primary" />
+		<tag k="layer" v="1" />
+		<tag k="lit" v="yes" />
+		<tag k="maxspeed" v="60" />
+		<tag k="name" v="Osterøybrua" />
+		<tag k="ref" v="566" />
+		<tag k="seamark:bridge:clearance_height" v="53" />
+		<tag k="seamark:type" v="bridge" />
+		<tag k="surface" v="asphalt" />
+		<nd ref="3601402997" />
+		<nd ref="10387715" />
+		<nd ref="3601402995" />
+		<nd ref="3601402993" />
+		<nd ref="508550890" />
+	</way>
+	<way id="258971938" version="7" timestamp="2021-02-16T15:26:27Z" changeset="99391773" uid="10233897" user="harahu">
+		<tag k="bridge" v="yes" />
+		<tag k="foot" v="yes" />
+		<tag k="highway" v="cycleway" />
+		<tag k="layer" v="1" />
+		<tag k="lit" v="yes" />
+		<tag k="name" v="Osterøybrua" />
+		<tag k="surface" v="asphalt" />
+		<nd ref="4155736689" />
+		<nd ref="2642739464" />
+		<nd ref="3601402996" />
+		<nd ref="3601402292" />
+		<nd ref="2642739463" />
+		<nd ref="2642739462" />
+		<nd ref="7688274973" />
+		<nd ref="3601402288" />
+		<nd ref="7688274974" />
+		<nd ref="2642739461" />
+		<nd ref="7688274975" />
+		<nd ref="7688274976" />
+		<nd ref="508554502" />
+	</way>
+	<way id="414427211" version="7" timestamp="2021-11-08T13:02:20Z" changeset="113521876" uid="715936" user="Gazer75">
+		<tag k="bridge" v="yes" />
+		<tag k="highway" v="primary" />
+		<tag k="layer" v="1" />
+		<tag k="lit" v="yes" />
+		<tag k="maxspeed" v="60" />
+		<tag k="name" v="Osterøybrua" />
+		<tag k="ref" v="566" />
+		<tag k="seamark:bridge:clearance_height" v="53" />
+		<tag k="seamark:type" v="bridge" />
+		<tag k="surface" v="asphalt" />
+		<nd ref="3601402997" />
+		<nd ref="7688389579" />
+		<nd ref="4155736691" />
+		<nd ref="7688389578" />
+		<nd ref="4155736692" />
+		<nd ref="4155736693" />
+		<nd ref="7688389577" />
+		<nd ref="4155736694" />
+		<nd ref="6665891934" />
+		<nd ref="4155736701" />
+		<nd ref="7688389576" />
+		<nd ref="6665891933" />
+		<nd ref="7688389564" />
+		<nd ref="4155736706" />
+	</way>
+	<way id="823516929" version="3" timestamp="2021-12-07T11:08:50Z" changeset="114655938" uid="12645669" user="Kokosnøtt">
+		<tag k="layer" v="1" />
+		<tag k="man_made" v="bridge" />
+		<nd ref="7688389563" />
+		<nd ref="4155736713" />
+		<nd ref="4155736714" />
+		<nd ref="4155736715" />
+		<nd ref="7688389562" />
+		<nd ref="7688389561" />
+		<nd ref="7688389560" />
+		<nd ref="7688389559" />
+		<nd ref="7688389558" />
+		<nd ref="7688389557" />
+		<nd ref="7688389556" />
+		<nd ref="7688389555" />
+		<nd ref="7688389554" />
+		<nd ref="7688389553" />
+		<nd ref="7688389552" />
+		<nd ref="7688389551" />
+		<nd ref="7688389550" />
+		<nd ref="7688389549" />
+		<nd ref="7688389548" />
+		<nd ref="7688389547" />
+		<nd ref="7688389546" />
+		<nd ref="7688389545" />
+		<nd ref="7688389544" />
+		<nd ref="7688389543" />
+		<nd ref="7688389542" />
+		<nd ref="7688389541" />
+		<nd ref="7688389540" />
+		<nd ref="7688389539" />
+		<nd ref="7688389538" />
+		<nd ref="7688389537" />
+		<nd ref="7688389536" />
+		<nd ref="7688389535" />
+		<nd ref="7688389534" />
+		<nd ref="7688389533" />
+		<nd ref="7688389532" />
+		<nd ref="508556373" />
+		<nd ref="7688389531" />
+		<nd ref="7688389530" />
+		<nd ref="7688389529" />
+		<nd ref="7688389528" />
+		<nd ref="7688389527" />
+		<nd ref="7688389526" />
+		<nd ref="7688389525" />
+		<nd ref="7688389524" />
+		<nd ref="7688389523" />
+		<nd ref="7688389522" />
+		<nd ref="7688389521" />
+		<nd ref="7688389520" />
+		<nd ref="7688389519" />
+		<nd ref="7688389518" />
+		<nd ref="9317852881" />
+		<nd ref="9317852880" />
+		<nd ref="7688389517" />
+		<nd ref="7688389516" />
+		<nd ref="7688389515" />
+		<nd ref="7688389514" />
+		<nd ref="9317852904" />
+		<nd ref="9317852884" />
+		<nd ref="7688389513" />
+		<nd ref="7688389512" />
+		<nd ref="417204765" />
+		<nd ref="7688274976" />
+		<nd ref="7688389511" />
+		<nd ref="7688389510" />
+		<nd ref="7688389509" />
+		<nd ref="7688389508" />
+		<nd ref="7688389507" />
+		<nd ref="7688389506" />
+		<nd ref="7688389505" />
+		<nd ref="7688274977" />
+		<nd ref="7688389504" />
+		<nd ref="7688389503" />
+		<nd ref="508550841" />
+		<nd ref="7688389502" />
+		<nd ref="7688389501" />
+		<nd ref="7688389500" />
+		<nd ref="7688274978" />
+		<nd ref="7688274979" />
+		<nd ref="7688389499" />
+		<nd ref="7688389498" />
+		<nd ref="7688389497" />
+		<nd ref="7688389496" />
+		<nd ref="7688389495" />
+		<nd ref="7688389494" />
+		<nd ref="7688389493" />
+		<nd ref="7688389492" />
+		<nd ref="7688389491" />
+		<nd ref="7688274980" />
+		<nd ref="7688389490" />
+		<nd ref="7688389489" />
+		<nd ref="7688389488" />
+		<nd ref="7688389487" />
+		<nd ref="7688389486" />
+		<nd ref="7688389485" />
+		<nd ref="7688274984" />
+		<nd ref="7688274981" />
+		<nd ref="7688274983" />
+		<nd ref="7688274982" />
+		<nd ref="7688389563" />
+	</way>
+	<way id="4236282" version="11" timestamp="2021-02-16T15:26:27Z" changeset="99391773" uid="10233897" user="harahu">
+		<tag k="bridge" v="yes" />
+		<tag k="highway" v="trunk_link" />
+		<tag k="layer" v="1" />
+		<tag k="lit" v="yes" />
+		<tag k="maxspeed" v="60" />
+		<tag k="name" v="Hardangervegen" />
+		<tag k="oneway" v="yes" />
+		<tag k="ref" v="E 16" />
+		<tag k="surface" v="asphalt" />
+		<nd ref="10387715" />
+		<nd ref="7688274970" />
+		<nd ref="7688274967" />
+		<nd ref="7688274968" />
+		<nd ref="7688274969" />
+		<nd ref="508549192" />
+		<nd ref="508549194" />
+		<nd ref="3601402994" />
+		<nd ref="3601402291" />
+		<nd ref="508549196" />
+		<nd ref="508549198" />
+		<nd ref="3601402289" />
+		<nd ref="508556373" />
+	</way>
+	<way id="339318802" version="4" timestamp="2021-02-16T15:26:27Z" changeset="99391773" uid="10233897" user="harahu">
+		<tag k="bridge" v="yes" />
+		<tag k="highway" v="primary" />
+		<tag k="layer" v="1" />
+		<tag k="lit" v="yes" />
+		<tag k="maxspeed" v="60" />
+		<tag k="name" v="Osterøybrua" />
+		<tag k="ref" v="566" />
+		<tag k="surface" v="asphalt" />
+		<nd ref="508550890" />
+		<nd ref="3601402290" />
+		<nd ref="25290870" />
+		<nd ref="7688274972" />
+		<nd ref="2527902062" />
+		<nd ref="3601402286" />
+		<nd ref="417204765" />
+	</way>
+	<way id="258971960" version="4" timestamp="2021-02-16T15:26:27Z" changeset="99391773" uid="10233897" user="harahu">
+		<tag k="bridge" v="yes" />
+		<tag k="highway" v="primary" />
+		<tag k="layer" v="1" />
+		<tag k="lit" v="yes" />
+		<tag k="maxspeed" v="60" />
+		<tag k="oneway" v="yes" />
+		<tag k="ref" v="566" />
+		<tag k="surface" v="asphalt" />
+		<nd ref="4155736715" />
+		<nd ref="314997686" />
+		<nd ref="3601403014" />
+		<nd ref="508540629" />
+		<nd ref="4155736706" />
+	</way>
+	<way id="258971962" version="5" timestamp="2021-02-16T15:26:27Z" changeset="99391773" uid="10233897" user="harahu">
+		<tag k="bridge" v="yes" />
+		<tag k="highway" v="primary" />
+		<tag k="layer" v="1" />
+		<tag k="lit" v="yes" />
+		<tag k="maxspeed" v="60" />
+		<tag k="oneway" v="yes" />
+		<tag k="ref" v="566" />
+		<tag k="surface" v="asphalt" />
+		<nd ref="4155736706" />
+		<nd ref="3601403012" />
+		<nd ref="7688389575" />
+		<nd ref="2642739475" />
+		<nd ref="4155736714" />
+	</way>
 	<relation id="4821019" version="4" timestamp="2018-04-23T10:05:08Z" changeset="58334357" uid="7223593" user="hros">
 		<tag k="highway" v="raceway" />
 		<tag k="horse" v="yes" />
@@ -12781,6 +14721,118 @@
 		<member type="way" ref="339991852" role="outer" />
 		<member type="way" ref="339992099" role="inner" />
 		<member type="way" ref="339991391" role="inner" />
+	</relation>
+	<relation id="5899022" version="2" timestamp="2021-12-29T20:31:09Z" changeset="115536700" uid="4361277" user="Mathias Haugsbø">
+		<tag k="man_made" v="pier" />
+		<tag k="name" v="Bradbenken" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="696049" />
+		<tag k="type" v="multipolygon" />
+		<member type="way" ref="393140727" role="outer" />
+		<member type="way" ref="393140710" role="outer" />
+	</relation>
+	<relation id="5899028" version="3" timestamp="2021-12-29T20:31:09Z" changeset="115536700" uid="4361277" user="Mathias Haugsbø">
+		<tag k="man_made" v="pier" />
+		<tag k="name" v="Munkebryggen" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="938038" />
+		<tag k="type" v="multipolygon" />
+		<member type="way" ref="393140709" role="outer" />
+		<member type="way" ref="720618179" role="outer" />
+		<member type="way" ref="720618180" role="outer" />
+		<member type="way" ref="393140737" role="outer" />
+	</relation>
+	<relation id="5899032" version="4" timestamp="2021-12-29T20:31:09Z" changeset="115536700" uid="4361277" user="Mathias Haugsbø">
+		<tag k="man_made" v="quay" />
+		<tag k="name" v="Nykirkekaien" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="938041" />
+		<tag k="type" v="multipolygon" />
+		<member type="way" ref="393140728" role="outer" />
+		<member type="way" ref="720633492" role="outer" />
+		<member type="way" ref="720633491" role="outer" />
+		<member type="way" ref="720618184" role="outer" />
+		<member type="way" ref="720618183" role="outer" />
+		<member type="way" ref="393140713" role="outer" />
+	</relation>
+	<relation id="5899038" version="3" timestamp="2021-12-29T20:31:09Z" changeset="115536700" uid="4361277" user="Mathias Haugsbø">
+		<tag k="man_made" v="quay" />
+		<tag k="name" v="Skoltegrunnskaien" />
+		<tag k="name:ko" v="스콜트그룬스카이엔(부두)" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="634041" />
+		<tag k="type" v="multipolygon" />
+		<tag k="wikidata" v="Q12001161" />
+		<tag k="wikipedia" v="no:Skoltegrunnskaien" />
+		<member type="way" ref="393140729" role="outer" />
+		<member type="way" ref="393140707" role="outer" />
+		<member type="way" ref="393140768" role="outer" />
+	</relation>
+	<relation id="5899043" version="4" timestamp="2021-12-29T20:31:09Z" changeset="115536700" uid="4361277" user="Mathias Haugsbø">
+		<tag k="man_made" v="quay" />
+		<tag k="name" v="Tollbodkaiene" />
+		<tag k="name:ko" v="톨보드카이에느(부두)" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="89051" />
+		<tag k="type" v="multipolygon" />
+		<member type="way" ref="393140733" role="outer" />
+		<member type="way" ref="339045039" role="outer" />
+		<member type="way" ref="339045271" role="outer" />
+		<member type="way" ref="393140744" role="outer" />
+	</relation>
+	<relation id="6213474" version="2" timestamp="2021-12-29T20:31:09Z" changeset="115536700" uid="4361277" user="Mathias Haugsbø">
+		<tag k="man_made" v="quay" />
+		<tag k="name" v="Strandkaien" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="392053" />
+		<tag k="type" v="multipolygon" />
+		<member type="way" ref="418043494" role="outer" />
+		<member type="way" ref="418043450" role="outer" />
+	</relation>
+	<relation id="6213475" version="7" timestamp="2021-12-29T20:31:09Z" changeset="115536700" uid="4361277" user="Mathias Haugsbø">
+		<tag k="building" v="yes" />
+		<tag k="loc_name" v="Zachen" />
+		<tag k="name" v="Zachariasbryggen" />
+		<tag k="name:ko" v="자카리아스브리겐" />
+		<tag k="ref:bygningsnr" v="9483136" />
+		<tag k="ssr:stedsnr" v="991143" />
+		<tag k="type" v="multipolygon" />
+		<tag k="website" v="http://www.zabr.no/" />
+		<tag k="wheelchair" v="yes" />
+		<member type="way" ref="418043465" role="outer" />
+		<member type="way" ref="418043477" role="outer" />
+		<member type="way" ref="418043463" role="outer" />
+		<member type="way" ref="418043475" role="outer" />
+		<member type="way" ref="418043484" role="outer" />
+		<member type="way" ref="418043461" role="outer" />
+		<member type="way" ref="418043479" role="outer" />
+		<member type="way" ref="418043459" role="outer" />
+		<member type="way" ref="418043452" role="outer" />
+		<member type="way" ref="418043448" role="outer" />
+		<member type="way" ref="488690107" role="outer" />
+		<member type="way" ref="418043486" role="outer" />
+		<member type="way" ref="418043491" role="outer" />
+		<member type="way" ref="393121707" role="outer" />
+		<member type="way" ref="418043466" role="outer" />
+		<member type="way" ref="418043476" role="outer" />
+		<member type="way" ref="418043449" role="outer" />
+		<member type="way" ref="418043458" role="outer" />
+		<member type="way" ref="418043454" role="outer" />
+		<member type="way" ref="418043473" role="outer" />
+		<member type="way" ref="418043467" role="outer" />
+	</relation>
+	<relation id="6345523" version="3" timestamp="2021-12-29T20:31:09Z" changeset="115536700" uid="4361277" user="Mathias Haugsbø">
+		<tag k="industrial" v="harbour" />
+		<tag k="landuse" v="industrial" />
+		<tag k="man_made" v="quay" />
+		<tag k="name" v="Møhlenpriskaien" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="991148" />
+		<tag k="type" v="multipolygon" />
+		<member type="way" ref="426697775" role="outer" />
+		<member type="way" ref="566764467" role="outer" />
+		<member type="way" ref="426697773" role="outer" />
+		<member type="way" ref="426697766" role="outer" />
 	</relation>
 	<relation id="6492166" version="6" timestamp="2018-04-08T22:12:11Z" changeset="57924300" uid="1965308" user="FredrikLindseth">
 		<tag k="name" v="Kalfaret" />
@@ -13119,6 +15171,53 @@
 		<member type="way" ref="487825395" role="outer" />
 		<member type="way" ref="364158483" role="outer" />
 	</relation>
+	<relation id="7290974" version="7" timestamp="2021-12-29T20:31:09Z" changeset="115536700" uid="4361277" user="Mathias Haugsbø">
+		<tag k="alt_name" v="Bergen sentralstasjon" />
+		<tag k="loc_name" v="Bergen Jernbanestasjon" />
+		<tag k="name" v="Bergen stasjon" />
+		<tag k="public_transport" v="stop_area" />
+		<tag k="ssr:stedsnr" v="973420" />
+		<tag k="type" v="public_transport" />
+		<member type="way" ref="489440443" role="building" />
+		<member type="way" ref="489440440" role="building" />
+		<member type="way" ref="489440439" role="building" />
+		<member type="way" ref="489440442" role="building" />
+		<member type="way" ref="489440447" role="building" />
+		<member type="way" ref="489583513" role="building" />
+		<member type="way" ref="500116228" role="building" />
+		<member type="way" ref="500116222" role="building" />
+		<member type="way" ref="489583512" role="building" />
+		<member type="way" ref="500116190" role="building" />
+		<member type="way" ref="500116221" role="building" />
+		<member type="way" ref="499503288" role="building" />
+		<member type="way" ref="489583501" role="building" />
+		<member type="way" ref="499503287" role="building" />
+		<member type="way" ref="489583511" role="building" />
+		<member type="way" ref="499503292" role="building" />
+		<member type="way" ref="489583510" role="building" />
+		<member type="way" ref="500116207" role="building" />
+		<member type="way" ref="489583509" role="building" />
+		<member type="way" ref="500116211" role="building" />
+		<member type="way" ref="489583507" role="building" />
+		<member type="way" ref="5046930" role="building" />
+		<member type="way" ref="489437738" role="building" />
+		<member type="node" ref="4878688692" role="stop" />
+		<member type="node" ref="4878688691" role="stop" />
+		<member type="node" ref="4878688690" role="stop" />
+		<member type="node" ref="4878688689" role="stop" />
+		<member type="way" ref="496917642" role="platform" />
+		<member type="way" ref="496917643" role="platform" />
+		<member type="way" ref="489440444" role="platform" />
+		<member type="way" ref="194777614" role="platform" />
+		<member type="way" ref="194777613" role="platform" />
+		<member type="way" ref="489440441" role="platform" />
+		<member type="way" ref="496917641" role="platform" />
+		<member type="way" ref="499503296" role="platform" />
+		<member type="way" ref="489437738" role="platform" />
+		<member type="way" ref="499503297" role="platform" />
+		<member type="way" ref="499503298" role="platform" />
+		<member type="node" ref="4919366664" role="" />
+	</relation>
 	<relation id="8081915" version="2" timestamp="2018-04-08T21:09:13Z" changeset="57923365" uid="1965308" user="FredrikLindseth">
 		<tag k="leisure" v="park" />
 		<tag k="name" v="Nygårdsparken" />
@@ -13128,5 +15227,52 @@
 		<tag k="wikipedia" v="no:Nygårdsparken" />
 		<member type="way" ref="566764460" role="inner" />
 		<member type="way" ref="4271142" role="outer" />
+	</relation>
+	<relation id="10776547" version="3" timestamp="2021-12-30T02:39:51Z" changeset="115544560" uid="14343746" user="harahu_import">
+		<tag k="name" v="Osterøybrua" />
+		<tag k="ssr:stedsnr" v="570470" />
+		<tag k="type" v="bridge" />
+		<tag k="wikidata" v="Q4587270" />
+		<tag k="wikipedia" v="no:Osterøybrua" />
+		<member type="way" ref="4236282" role="across" />
+		<member type="way" ref="339318802" role="across" />
+		<member type="way" ref="258971938" role="across" />
+		<member type="way" ref="41526192" role="across" />
+		<member type="way" ref="414427211" role="across" />
+		<member type="way" ref="35597006" role="across" />
+		<member type="way" ref="258971962" role="across" />
+		<member type="way" ref="258971960" role="across" />
+		<member type="way" ref="823516929" role="outline" />
+	</relation>
+	<relation id="13612628" version="1" timestamp="2021-12-29T20:31:09Z" changeset="115536700" uid="4361277" user="Mathias Haugsbø">
+		<tag k="man_made" v="quay" />
+		<tag k="name" v="Nøstekaien" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="991155" />
+		<tag k="type" v="multipolygon" />
+		<member type="way" ref="371878930" role="outer" />
+		<member type="way" ref="1016670533" role="outer" />
+		<member type="way" ref="1016670535" role="outer" />
+		<member type="way" ref="5547185" role="outer" />
+		<member type="way" ref="1016670534" role="outer" />
+	</relation>
+	<relation id="13612629" version="1" timestamp="2021-12-29T20:31:09Z" changeset="115536700" uid="4361277" user="Mathias Haugsbø">
+		<tag k="man_made" v="quay" />
+		<tag k="name" v="Bontelabo" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="991162" />
+		<tag k="type" v="multipolygon" />
+		<member type="way" ref="1016670536" role="outer" />
+		<member type="way" ref="4182676" role="outer" />
+	</relation>
+	<relation id="13612630" version="1" timestamp="2021-12-29T20:31:09Z" changeset="115536700" uid="4361277" user="Mathias Haugsbø">
+		<tag k="man_made" v="pier" />
+		<tag k="name" v="Holbergskaien" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="991158" />
+		<tag k="type" v="multipolygon" />
+		<member type="way" ref="1016670538" role="outer" />
+		<member type="way" ref="720618176" role="outer" />
+		<member type="way" ref="1016670537" role="outer" />
 	</relation>
 </osm>
