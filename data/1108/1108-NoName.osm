@@ -1,5 +1,489 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <osm version="0.6" generator="osmapis">
+	<node lat="58.99851666279732" lon="6.476174992535952" id="-862">
+		<tag k="natural" v="cape" />
+		<tag k="ssr:date" v="2021-06-08" />
+		<tag k="ssr:gruppe" v="ferskvannskontur" />
+		<tag k="ssr:hovedgruppe" v="ferskvann" />
+		<tag k="ssr:stedsnr" v="507" />
+		<tag k="ssr:type" v="nes" />
+	</node>
+	<node lat="58.94993888643823" lon="5.937652785689517" id="-864">
+		<tag k="natural" v="bay" />
+		<tag k="ssr:date" v="2021-06-08" />
+		<tag k="ssr:gruppe" v="kystkontur" />
+		<tag k="ssr:hovedgruppe" v="sjø" />
+		<tag k="ssr:stedsnr" v="798" />
+		<tag k="ssr:type" v="vikISjø" />
+	</node>
+	<node lat="58.93672499952882" lon="6.401486106202175" id="-870">
+		<tag k="natural" v="slope" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2021-06-08" />
+		<tag k="ssr:gruppe" v="skråninger" />
+		<tag k="ssr:hovedgruppe" v="terreng" />
+		<tag k="ssr:stedsnr" v="1563" />
+		<tag k="ssr:type" v="li" />
+	</node>
+	<node lat="58.93343055423789" lon="6.274174996106974" id="-883">
+		<tag k="natural" v="valley" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2021-06-08" />
+		<tag k="ssr:gruppe" v="senkninger" />
+		<tag k="ssr:hovedgruppe" v="terreng" />
+		<tag k="ssr:stedsnr" v="1698" />
+		<tag k="ssr:type" v="skar" />
+	</node>
+	<node lat="58.95032777891874" lon="5.934727784605609" id="-891">
+		<tag k="natural" v="bay" />
+		<tag k="ssr:date" v="2021-06-08" />
+		<tag k="ssr:gruppe" v="kystkontur" />
+		<tag k="ssr:hovedgruppe" v="sjø" />
+		<tag k="ssr:stedsnr" v="23135" />
+		<tag k="ssr:type" v="vikISjø" />
+	</node>
+	<node lat="58.844916668691845" lon="5.721191663472848" id="-909">
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2021-06-08" />
+		<tag k="ssr:gruppe" v="gardsbebyggelse" />
+		<tag k="ssr:hovedgruppe" v="bebyggelse" />
+		<tag k="ssr:stedsnr" v="26099" />
+		<tag k="ssr:type" v="bruk" />
+	</node>
+	<node lat="58.918075455006424" lon="6.001348261633681" id="-910">
+		<tag k="natural" v="bay" />
+		<tag k="ssr:date" v="2021-06-08" />
+		<tag k="ssr:gruppe" v="kystkontur" />
+		<tag k="ssr:hovedgruppe" v="sjø" />
+		<tag k="ssr:stedsnr" v="26615" />
+		<tag k="ssr:type" v="vikISjø" />
+	</node>
+	<node lat="59.17380833175229" lon="7.342336115303057" id="-940">
+		<tag k="fixme" v="consider boundary=protected_area and relevant protect_class if not nature reserve" />
+		<tag k="leisure" v="nature_reserve" />
+		<tag k="ssr:date" v="2021-06-08" />
+		<tag k="ssr:gruppe" v="verne-OgBruksområder" />
+		<tag k="ssr:hovedgruppe" v="offentligAdministrasjon" />
+		<tag k="ssr:stedsnr" v="60524" />
+		<tag k="ssr:type" v="verneområde" />
+	</node>
+	<node lat="58.90184027125872" lon="5.843829118518688" id="-941">
+		<tag k="fixme" v="consider place=hamlet" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2021-06-08" />
+		<tag k="ssr:gruppe" v="gardsbebyggelse" />
+		<tag k="ssr:hovedgruppe" v="bebyggelse" />
+		<tag k="ssr:stedsnr" v="61222" />
+		<tag k="ssr:type" v="gard" />
+	</node>
+	<node lat="58.995997223370296" lon="6.338572219620715" id="-943">
+		<tag k="fixme" v="consider natural=peak for the most distinct mountains in the district" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2021-06-08" />
+		<tag k="ssr:gruppe" v="høyder" />
+		<tag k="ssr:hovedgruppe" v="terreng" />
+		<tag k="ssr:stedsnr" v="61483" />
+		<tag k="ssr:type" v="ås" />
+	</node>
+	<node lat="58.95250555779235" lon="6.29405833537449" id="-948">
+		<tag k="fixme" v="consider natural=peak for the most distinct mountains in the district" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2021-06-08" />
+		<tag k="ssr:gruppe" v="høyder" />
+		<tag k="ssr:hovedgruppe" v="terreng" />
+		<tag k="ssr:stedsnr" v="61512" />
+		<tag k="ssr:type" v="ås" />
+	</node>
+	<node lat="58.84102698287755" lon="5.765740294081571" id="-959">
+		<tag k="fixme" v="consider place=hamlet" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2021-06-08" />
+		<tag k="ssr:gruppe" v="gardsbebyggelse" />
+		<tag k="ssr:hovedgruppe" v="bebyggelse" />
+		<tag k="ssr:stedsnr" v="61892" />
+		<tag k="ssr:type" v="gard" />
+	</node>
+	<node lat="58.93144862810842" lon="5.786775078837785" id="-985">
+		<tag k="natural" v="bay" />
+		<tag k="ssr:date" v="2021-06-08" />
+		<tag k="ssr:gruppe" v="kystkontur" />
+		<tag k="ssr:hovedgruppe" v="sjø" />
+		<tag k="ssr:stedsnr" v="243006" />
+		<tag k="ssr:type" v="vikISjø" />
+	</node>
+	<node lat="58.98388611016367" lon="6.448891660868534" id="-987">
+		<tag k="fixme" v="consider natural=peak for the most distinct mountains in the district" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2021-06-08" />
+		<tag k="ssr:gruppe" v="høyder" />
+		<tag k="ssr:hovedgruppe" v="terreng" />
+		<tag k="ssr:stedsnr" v="243513" />
+		<tag k="ssr:type" v="ås" />
+	</node>
+	<node lat="58.986164144451116" lon="6.29260722248727" id="-988">
+		<tag k="fixme" v="consider natural=peak for the most distinct mountains in the district" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2021-06-08" />
+		<tag k="ssr:gruppe" v="høyder" />
+		<tag k="ssr:hovedgruppe" v="terreng" />
+		<tag k="ssr:stedsnr" v="243520" />
+		<tag k="ssr:type" v="fjell" />
+	</node>
+	<node lat="58.865955557220964" lon="6.228008336463088" id="-990">
+		<tag k="historic" v="shieling" />
+		<tag k="place" v="isolated_dwelling" />
+		<tag k="ssr:date" v="2021-06-08" />
+		<tag k="ssr:gruppe" v="gardsbebyggelse" />
+		<tag k="ssr:hovedgruppe" v="bebyggelse" />
+		<tag k="ssr:stedsnr" v="243665" />
+		<tag k="ssr:type" v="seterStøl" />
+	</node>
+	<node lat="58.95551944178487" lon="5.91728056128947" id="-998">
+		<tag k="place" v="islet" />
+		<tag k="ssr:date" v="2021-06-08" />
+		<tag k="ssr:gruppe" v="kystkontur" />
+		<tag k="ssr:hovedgruppe" v="sjø" />
+		<tag k="ssr:stedsnr" v="243807" />
+		<tag k="ssr:type" v="holmeISjø" />
+	</node>
+	<node lat="58.91834166395072" lon="5.969636103917631" id="-1008">
+		<tag k="place" v="islet" />
+		<tag k="ssr:date" v="2021-06-08" />
+		<tag k="ssr:gruppe" v="kystkontur" />
+		<tag k="ssr:hovedgruppe" v="sjø" />
+		<tag k="ssr:stedsnr" v="244738" />
+		<tag k="ssr:type" v="holmegruppeISjø" />
+	</node>
+	<node lat="58.9527093699915" lon="5.805158265686657" id="-1032">
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2021-06-08" />
+		<tag k="ssr:gruppe" v="høyder" />
+		<tag k="ssr:hovedgruppe" v="terreng" />
+		<tag k="ssr:stedsnr" v="84008" />
+		<tag k="ssr:type" v="berg" />
+	</node>
+	<node lat="58.93794867087547" lon="5.8260548575140065" id="-1033">
+		<tag k="natural" v="cape" />
+		<tag k="ssr:date" v="2021-06-08" />
+		<tag k="ssr:gruppe" v="kystkontur" />
+		<tag k="ssr:hovedgruppe" v="sjø" />
+		<tag k="ssr:stedsnr" v="84204" />
+		<tag k="ssr:type" v="nesISjø" />
+	</node>
+	<node lat="59.02506666875279" lon="6.527016660181116" id="-1035">
+		<tag k="natural" v="valley" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2021-06-08" />
+		<tag k="ssr:gruppe" v="senkninger" />
+		<tag k="ssr:hovedgruppe" v="terreng" />
+		<tag k="ssr:stedsnr" v="245181" />
+		<tag k="ssr:type" v="skar" />
+	</node>
+	<node lat="58.948561108681886" lon="5.810900000121527" id="-1051">
+		<tag k="natural" v="bay" />
+		<tag k="ssr:date" v="2021-06-08" />
+		<tag k="ssr:gruppe" v="kystkontur" />
+		<tag k="ssr:hovedgruppe" v="sjø" />
+		<tag k="ssr:stedsnr" v="86625" />
+		<tag k="ssr:type" v="vikISjø" />
+	</node>
+	<node lat="58.842775509938505" lon="5.767551423421194" id="-1052">
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2021-06-08" />
+		<tag k="ssr:gruppe" v="gardsbebyggelse" />
+		<tag k="ssr:hovedgruppe" v="bebyggelse" />
+		<tag k="ssr:stedsnr" v="87116" />
+		<tag k="ssr:type" v="bruk" />
+	</node>
+	<node lat="58.967655554615554" lon="6.308986111801958" id="-1079">
+		<tag k="natural" v="water" />
+		<tag k="ssr:date" v="2021-06-08" />
+		<tag k="ssr:gruppe" v="stilleståendeVann" />
+		<tag k="ssr:hovedgruppe" v="ferskvann" />
+		<tag k="ssr:stedsnr" v="122502" />
+		<tag k="ssr:type" v="tjern" />
+	</node>
+	<node lat="59.02551388872952" lon="6.5495527820728965" id="-1092">
+		<tag k="natural" v="valley" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2021-06-08" />
+		<tag k="ssr:gruppe" v="senkninger" />
+		<tag k="ssr:hovedgruppe" v="terreng" />
+		<tag k="ssr:stedsnr" v="123211" />
+		<tag k="ssr:type" v="skar" />
+	</node>
+	<node lat="59.013908103536586" lon="6.426185232931243" id="-1093">
+		<tag k="fixme" v="consider place=hamlet" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2021-08-16" />
+		<tag k="ssr:gruppe" v="gardsbebyggelse" />
+		<tag k="ssr:hovedgruppe" v="bebyggelse" />
+		<tag k="ssr:stedsnr" v="123219" />
+		<tag k="ssr:type" v="gard" />
+	</node>
+	<node lat="59.097822224040655" lon="6.575011112600243" id="-1094">
+		<tag k="natural" v="valley" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2021-06-08" />
+		<tag k="ssr:gruppe" v="senkninger" />
+		<tag k="ssr:hovedgruppe" v="terreng" />
+		<tag k="ssr:stedsnr" v="123105" />
+		<tag k="ssr:type" v="skar" />
+	</node>
+	<node lat="58.89913333564997" lon="5.856047217942275" id="-1104">
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:date" v="2021-06-08" />
+		<tag k="ssr:gruppe" v="våtmark" />
+		<tag k="ssr:hovedgruppe" v="markslag" />
+		<tag k="ssr:stedsnr" v="144215" />
+		<tag k="ssr:type" v="myr" />
+	</node>
+	<node lat="58.84291111430056" lon="5.767958330788872" id="-1114">
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2021-06-08" />
+		<tag k="ssr:gruppe" v="gardsbebyggelse" />
+		<tag k="ssr:hovedgruppe" v="bebyggelse" />
+		<tag k="ssr:stedsnr" v="147067" />
+		<tag k="ssr:type" v="bruk" />
+	</node>
+	<node lat="59.030305993369225" lon="6.39669385631189" id="-1115">
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2021-06-08" />
+		<tag k="ssr:gruppe" v="høyder" />
+		<tag k="ssr:hovedgruppe" v="terreng" />
+		<tag k="ssr:stedsnr" v="153751" />
+		<tag k="ssr:type" v="høyde" />
+	</node>
+	<node lat="58.95269166918816" lon="5.9253555620587255" id="-1151">
+		<tag k="natural" v="bay" />
+		<tag k="ssr:date" v="2021-06-08" />
+		<tag k="ssr:gruppe" v="kystkontur" />
+		<tag k="ssr:hovedgruppe" v="sjø" />
+		<tag k="ssr:stedsnr" v="183214" />
+		<tag k="ssr:type" v="vikISjø" />
+	</node>
+	<node lat="58.95567499594676" lon="6.235091674686388" id="-1154">
+		<tag k="fixme" v="consider natural=peak for the most distinct mountains in the district" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2021-06-08" />
+		<tag k="ssr:gruppe" v="høyder" />
+		<tag k="ssr:hovedgruppe" v="terreng" />
+		<tag k="ssr:stedsnr" v="183496" />
+		<tag k="ssr:type" v="ås" />
+	</node>
+	<node lat="58.954238890733116" lon="6.303469448924385" id="-1155">
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2021-06-08" />
+		<tag k="ssr:gruppe" v="høyder" />
+		<tag k="ssr:hovedgruppe" v="terreng" />
+		<tag k="ssr:stedsnr" v="183508" />
+		<tag k="ssr:type" v="haug" />
+	</node>
+	<node lat="58.945330556399355" lon="6.279750001132974" id="-1156">
+		<tag k="natural" v="water" />
+		<tag k="ssr:date" v="2021-06-08" />
+		<tag k="ssr:gruppe" v="stilleståendeVann" />
+		<tag k="ssr:hovedgruppe" v="ferskvann" />
+		<tag k="ssr:stedsnr" v="183513" />
+		<tag k="ssr:type" v="tjern" />
+	</node>
+	<node lat="58.924488890195576" lon="5.997844440060572" id="-1164">
+		<tag k="natural" v="bay" />
+		<tag k="ssr:date" v="2021-06-08" />
+		<tag k="ssr:gruppe" v="kystkontur" />
+		<tag k="ssr:hovedgruppe" v="sjø" />
+		<tag k="ssr:stedsnr" v="183711" />
+		<tag k="ssr:type" v="vikISjø" />
+	</node>
+	<node lat="58.92407221960339" lon="5.975211112930389" id="-1206">
+		<tag k="place" v="islet" />
+		<tag k="ssr:date" v="2021-06-08" />
+		<tag k="ssr:gruppe" v="kystkontur" />
+		<tag k="ssr:hovedgruppe" v="sjø" />
+		<tag k="ssr:stedsnr" v="205041" />
+		<tag k="ssr:type" v="holmeISjø" />
+	</node>
+	<node lat="58.952766662795746" lon="5.835733331747431" id="-1232">
+		<tag k="natural" v="bay" />
+		<tag k="ssr:date" v="2021-06-08" />
+		<tag k="ssr:gruppe" v="kystkontur" />
+		<tag k="ssr:hovedgruppe" v="sjø" />
+		<tag k="ssr:stedsnr" v="268638" />
+		<tag k="ssr:type" v="vikISjø" />
+	</node>
+	<node lat="58.89878888704948" lon="6.003049995028343" id="-1233">
+		<tag k="natural" v="bay" />
+		<tag k="ssr:date" v="2021-06-08" />
+		<tag k="ssr:gruppe" v="kystkontur" />
+		<tag k="ssr:hovedgruppe" v="sjø" />
+		<tag k="ssr:stedsnr" v="207610" />
+		<tag k="ssr:type" v="vikISjø" />
+	</node>
+	<node lat="58.95818888835862" lon="5.836977785400194" id="-1234">
+		<tag k="natural" v="bay" />
+		<tag k="ssr:date" v="2021-06-08" />
+		<tag k="ssr:gruppe" v="kystkontur" />
+		<tag k="ssr:hovedgruppe" v="sjø" />
+		<tag k="ssr:stedsnr" v="207615" />
+		<tag k="ssr:type" v="vikISjø" />
+	</node>
+	<node lat="58.848300003372685" lon="5.738066667861421" id="-1235">
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2021-06-08" />
+		<tag k="ssr:gruppe" v="gardsbebyggelse" />
+		<tag k="ssr:hovedgruppe" v="bebyggelse" />
+		<tag k="ssr:stedsnr" v="208037" />
+		<tag k="ssr:type" v="bruk" />
+	</node>
+	<node lat="58.84438055923087" lon="5.708811103419334" id="-1236">
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2021-06-08" />
+		<tag k="ssr:gruppe" v="gardsbebyggelse" />
+		<tag k="ssr:hovedgruppe" v="bebyggelse" />
+		<tag k="ssr:stedsnr" v="208038" />
+		<tag k="ssr:type" v="bruk" />
+	</node>
+	<node lat="58.846830559615086" lon="5.732413881401923" id="-1237">
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2021-06-08" />
+		<tag k="ssr:gruppe" v="gardsbebyggelse" />
+		<tag k="ssr:hovedgruppe" v="bebyggelse" />
+		<tag k="ssr:stedsnr" v="208083" />
+		<tag k="ssr:type" v="bruk" />
+	</node>
+	<node lat="58.84670277785649" lon="5.724447220798764" id="-1238">
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2021-06-08" />
+		<tag k="ssr:gruppe" v="gardsbebyggelse" />
+		<tag k="ssr:hovedgruppe" v="bebyggelse" />
+		<tag k="ssr:stedsnr" v="208086" />
+		<tag k="ssr:type" v="bruk" />
+	</node>
+	<node lat="58.84504444625187" lon="5.708580550944685" id="-1240">
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2021-06-08" />
+		<tag k="ssr:gruppe" v="gardsbebyggelse" />
+		<tag k="ssr:hovedgruppe" v="bebyggelse" />
+		<tag k="ssr:stedsnr" v="269098" />
+		<tag k="ssr:type" v="bruk" />
+	</node>
+	<node lat="58.84179167031271" lon="5.710222216972419" id="-1241">
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2021-06-08" />
+		<tag k="ssr:gruppe" v="gardsbebyggelse" />
+		<tag k="ssr:hovedgruppe" v="bebyggelse" />
+		<tag k="ssr:stedsnr" v="269104" />
+		<tag k="ssr:type" v="bruk" />
+	</node>
+	<node lat="58.84142222259284" lon="5.7103305524923025" id="-1242">
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2021-06-08" />
+		<tag k="ssr:gruppe" v="gardsbebyggelse" />
+		<tag k="ssr:hovedgruppe" v="bebyggelse" />
+		<tag k="ssr:stedsnr" v="269106" />
+		<tag k="ssr:type" v="bruk" />
+	</node>
+	<node lat="58.90091388501306" lon="6.005472226985023" id="-1260">
+		<tag k="natural" v="cape" />
+		<tag k="ssr:date" v="2021-06-08" />
+		<tag k="ssr:gruppe" v="kystkontur" />
+		<tag k="ssr:hovedgruppe" v="sjø" />
+		<tag k="ssr:stedsnr" v="450649" />
+		<tag k="ssr:type" v="nesISjø" />
+	</node>
+	<node lat="58.84749166427889" lon="5.731386109380375" id="-1264">
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2021-06-08" />
+		<tag k="ssr:gruppe" v="gardsbebyggelse" />
+		<tag k="ssr:hovedgruppe" v="bebyggelse" />
+		<tag k="ssr:stedsnr" v="451053" />
+		<tag k="ssr:type" v="bruk" />
+	</node>
+	<node lat="58.84265277930024" lon="5.768427782803178" id="-1265">
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2021-06-08" />
+		<tag k="ssr:gruppe" v="gardsbebyggelse" />
+		<tag k="ssr:hovedgruppe" v="bebyggelse" />
+		<tag k="ssr:stedsnr" v="451146" />
+		<tag k="ssr:type" v="bruk" />
+	</node>
+	<node lat="58.92129721885908" lon="5.985458326826273" id="-1285">
+		<tag k="place" v="locality" />
+		<tag k="seamark:type" v="rock" />
+		<tag k="ssr:date" v="2021-06-08" />
+		<tag k="ssr:gruppe" v="grunnerISjø" />
+		<tag k="ssr:hovedgruppe" v="sjø" />
+		<tag k="ssr:stedsnr" v="451642" />
+		<tag k="ssr:type" v="båeISjø" />
+	</node>
+	<node lat="58.969075002401716" lon="6.272044437413898" id="-1287">
+		<tag k="natural" v="slope" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2021-06-08" />
+		<tag k="ssr:gruppe" v="skråninger" />
+		<tag k="ssr:hovedgruppe" v="terreng" />
+		<tag k="ssr:stedsnr" v="243533" />
+		<tag k="ssr:type" v="li" />
+	</node>
+	<node lat="58.9497138875405" lon="5.823002780577816" id="-1294">
+		<tag k="place" v="island" />
+		<tag k="ssr:date" v="2021-06-08" />
+		<tag k="ssr:gruppe" v="kystkontur" />
+		<tag k="ssr:hovedgruppe" v="sjø" />
+		<tag k="ssr:stedsnr" v="244050" />
+		<tag k="ssr:type" v="øyISjø" />
+	</node>
+	<node lat="58.94752619681954" lon="5.895784723801225" id="-1298">
+		<tag k="fixme" v="consider place=hamlet" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2021-06-08" />
+		<tag k="ssr:gruppe" v="gardsbebyggelse" />
+		<tag k="ssr:hovedgruppe" v="bebyggelse" />
+		<tag k="ssr:stedsnr" v="243786" />
+		<tag k="ssr:type" v="gard" />
+	</node>
+	<node lat="58.935199999445466" lon="6.3347861109356485" id="-1302">
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2021-06-08" />
+		<tag k="ssr:gruppe" v="høyder" />
+		<tag k="ssr:hovedgruppe" v="terreng" />
+		<tag k="ssr:stedsnr" v="244604" />
+		<tag k="ssr:type" v="hei" />
+	</node>
+	<node lat="59.012226907023766" lon="6.718499171514568" id="-1307">
+		<tag k="natural" v="water" />
+		<tag k="ssr:date" v="2021-06-08" />
+		<tag k="ssr:gruppe" v="stilleståendeVann" />
+		<tag k="ssr:hovedgruppe" v="ferskvann" />
+		<tag k="ssr:stedsnr" v="244777" />
+		<tag k="ssr:type" v="tjern" />
+	</node>
+	<node lat="59.02964166349995" lon="6.414105557509128" id="-1314">
+		<tag k="natural" v="slope" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2021-06-08" />
+		<tag k="ssr:gruppe" v="skråninger" />
+		<tag k="ssr:hovedgruppe" v="terreng" />
+		<tag k="ssr:stedsnr" v="456729" />
+		<tag k="ssr:type" v="li" />
+	</node>
+	<node lat="58.95825833270775" lon="5.902933333154305" id="-1315">
+		<tag k="natural" v="bay" />
+		<tag k="ssr:date" v="2021-06-08" />
+		<tag k="ssr:gruppe" v="kystkontur" />
+		<tag k="ssr:hovedgruppe" v="sjø" />
+		<tag k="ssr:stedsnr" v="265004" />
+		<tag k="ssr:type" v="vikISjø" />
+	</node>
 	<node lat="58.86731389129225" lon="5.972374996706781" id="-1376">
 		<tag k="loc_name" v="Lammahola" />
 		<tag k="natural" v="bay" />
@@ -8,6 +492,75 @@
 		<tag k="ssr:hovedgruppe" v="ferskvann" />
 		<tag k="ssr:stedsnr" v="303889" />
 		<tag k="ssr:type" v="vik" />
+	</node>
+	<node lat="58.94385277856558" lon="6.491625007930106" id="-1386">
+		<tag k="natural" v="water" />
+		<tag k="ssr:date" v="2021-06-08" />
+		<tag k="ssr:gruppe" v="stilleståendeVann" />
+		<tag k="ssr:hovedgruppe" v="ferskvann" />
+		<tag k="ssr:stedsnr" v="304716" />
+		<tag k="ssr:type" v="tjern" />
+	</node>
+	<node lat="59.24859999703415" lon="6.806783328633947" id="-1412">
+		<tag k="natural" v="mountain_range" />
+		<tag k="ssr:date" v="2021-06-08" />
+		<tag k="ssr:gruppe" v="terrengområder" />
+		<tag k="ssr:hovedgruppe" v="terreng" />
+		<tag k="ssr:stedsnr" v="326179" />
+		<tag k="ssr:type" v="fjellområde" />
+	</node>
+	<node lat="58.98873203031245" lon="6.342424760163559" id="-1443">
+		<tag k="natural" v="water" />
+		<tag k="ssr:date" v="2021-06-08" />
+		<tag k="ssr:gruppe" v="stilleståendeVann" />
+		<tag k="ssr:hovedgruppe" v="ferskvann" />
+		<tag k="ssr:stedsnr" v="364511" />
+		<tag k="ssr:type" v="tjern" />
+	</node>
+	<node lat="58.99469139932184" lon="6.287115649714736" id="-1444">
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2021-08-16" />
+		<tag k="ssr:gruppe" v="terrengdetaljer" />
+		<tag k="ssr:hovedgruppe" v="terreng" />
+		<tag k="ssr:stedsnr" v="364514" />
+		<tag k="ssr:type" v="hylle" />
+	</node>
+	<node lat="58.987030554215" lon="6.4818361080471485" id="-1445">
+		<tag k="natural" v="valley" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2021-06-08" />
+		<tag k="ssr:gruppe" v="senkninger" />
+		<tag k="ssr:hovedgruppe" v="terreng" />
+		<tag k="ssr:stedsnr" v="364517" />
+		<tag k="ssr:type" v="dal" />
+	</node>
+	<node lat="58.97801666495568" lon="6.23801110801308" id="-1448">
+		<tag k="fixme" v="consider natural=peak for the most distinct mountains in the district" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2021-06-08" />
+		<tag k="ssr:gruppe" v="høyder" />
+		<tag k="ssr:hovedgruppe" v="terreng" />
+		<tag k="ssr:stedsnr" v="364523" />
+		<tag k="ssr:type" v="ås" />
+	</node>
+	<node lat="59.04915833157263" lon="6.570941666318192" id="-1455">
+		<tag k="natural" v="valley" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2021-06-08" />
+		<tag k="ssr:gruppe" v="senkninger" />
+		<tag k="ssr:hovedgruppe" v="terreng" />
+		<tag k="ssr:stedsnr" v="365061" />
+		<tag k="ssr:type" v="skar" />
+	</node>
+	<node lat="59.00201666793461" lon="6.363672220754808" id="-1473">
+		<tag k="natural" v="valley" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2021-06-08" />
+		<tag k="ssr:gruppe" v="senkninger" />
+		<tag k="ssr:hovedgruppe" v="terreng" />
+		<tag k="ssr:stedsnr" v="366190" />
+		<tag k="ssr:type" v="skar" />
 	</node>
 	<node lat="58.86728055340445" lon="5.940869445662544" id="-1475">
 		<tag k="loc_name" v="Skulehusbakken" />
@@ -19,6 +572,212 @@
 		<tag k="ssr:stedsnr" v="485893" />
 		<tag k="ssr:type" v="bakke" />
 	</node>
+	<node lat="58.905113890421575" lon="5.966027783011046" id="-1514">
+		<tag k="natural" v="bay" />
+		<tag k="ssr:date" v="2021-06-08" />
+		<tag k="ssr:gruppe" v="kystkontur" />
+		<tag k="ssr:hovedgruppe" v="sjø" />
+		<tag k="ssr:stedsnr" v="388598" />
+		<tag k="ssr:type" v="vikISjø" />
+	</node>
+	<node lat="58.936688887754855" lon="5.850019451317778" id="-1515">
+		<tag k="place" v="locality" />
+		<tag k="seamark:type" v="rock" />
+		<tag k="ssr:date" v="2021-06-08" />
+		<tag k="ssr:gruppe" v="grunnerISjø" />
+		<tag k="ssr:hovedgruppe" v="sjø" />
+		<tag k="ssr:stedsnr" v="388601" />
+		<tag k="ssr:type" v="båeISjø" />
+	</node>
+	<node lat="58.84139444499009" lon="5.709811115931838" id="-1522">
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2021-06-08" />
+		<tag k="ssr:gruppe" v="gardsbebyggelse" />
+		<tag k="ssr:hovedgruppe" v="bebyggelse" />
+		<tag k="ssr:stedsnr" v="390103" />
+		<tag k="ssr:type" v="bruk" />
+	</node>
+	<node lat="58.84102499774609" lon="5.708930563147073" id="-1524">
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2021-06-08" />
+		<tag k="ssr:gruppe" v="gardsbebyggelse" />
+		<tag k="ssr:hovedgruppe" v="bebyggelse" />
+		<tag k="ssr:stedsnr" v="390043" />
+		<tag k="ssr:type" v="bruk" />
+	</node>
+	<node lat="58.848177773766054" lon="5.729299996255268" id="-1525">
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2021-06-08" />
+		<tag k="ssr:gruppe" v="gardsbebyggelse" />
+		<tag k="ssr:hovedgruppe" v="bebyggelse" />
+		<tag k="ssr:stedsnr" v="390095" />
+		<tag k="ssr:type" v="bruk" />
+	</node>
+	<node lat="58.910327773576235" lon="5.99683889045633" id="-1526">
+		<tag k="place" v="islet" />
+		<tag k="ssr:date" v="2021-06-08" />
+		<tag k="ssr:gruppe" v="kystkontur" />
+		<tag k="ssr:hovedgruppe" v="sjø" />
+		<tag k="ssr:stedsnr" v="390618" />
+		<tag k="ssr:type" v="holmeISjø" />
+	</node>
+	<node lat="59.001405552101126" lon="6.475080548648271" id="-1542">
+		<tag k="natural" v="water" />
+		<tag k="ssr:date" v="2021-06-08" />
+		<tag k="ssr:gruppe" v="stilleståendeVann" />
+		<tag k="ssr:hovedgruppe" v="ferskvann" />
+		<tag k="ssr:stedsnr" v="486251" />
+		<tag k="ssr:type" v="vann" />
+		<tag k="water" v="lake" />
+	</node>
+	<node lat="58.97433888491931" lon="6.528663883508064" id="-1551">
+		<tag k="natural" v="water" />
+		<tag k="ssr:date" v="2021-06-08" />
+		<tag k="ssr:gruppe" v="stilleståendeVann" />
+		<tag k="ssr:hovedgruppe" v="ferskvann" />
+		<tag k="ssr:stedsnr" v="486544" />
+		<tag k="ssr:type" v="vann" />
+		<tag k="water" v="lake" />
+	</node>
+	<node lat="58.937424998248666" lon="5.976741673613175" id="-1564">
+		<tag k="natural" v="cape" />
+		<tag k="ssr:date" v="2021-06-08" />
+		<tag k="ssr:gruppe" v="kystkontur" />
+		<tag k="ssr:hovedgruppe" v="sjø" />
+		<tag k="ssr:stedsnr" v="486791" />
+		<tag k="ssr:type" v="nesISjø" />
+	</node>
+	<node lat="58.92282777416427" lon="6.403474992512532" id="-1570">
+		<tag k="ssr:date" v="2021-06-08" />
+		<tag k="ssr:gruppe" v="rennendeVann" />
+		<tag k="ssr:hovedgruppe" v="ferskvann" />
+		<tag k="ssr:stedsnr" v="486731" />
+		<tag k="ssr:type" v="bekk" />
+		<tag k="waterway" v="stream" />
+	</node>
+	<node lat="58.89979722220982" lon="6.3375305529164185" id="-1571">
+		<tag k="natural" v="stone" />
+		<tag k="ssr:date" v="2021-06-08" />
+		<tag k="ssr:gruppe" v="løsmasseavsetninger" />
+		<tag k="ssr:hovedgruppe" v="markslag" />
+		<tag k="ssr:stedsnr" v="486742" />
+		<tag k="ssr:type" v="stein" />
+	</node>
+	<node lat="58.91341111017187" lon="6.346644448679405" id="-1573">
+		<tag k="natural" v="water" />
+		<tag k="ssr:date" v="2021-06-08" />
+		<tag k="ssr:gruppe" v="stilleståendeVann" />
+		<tag k="ssr:hovedgruppe" v="ferskvann" />
+		<tag k="ssr:stedsnr" v="486747" />
+		<tag k="ssr:type" v="tjern" />
+	</node>
+	<node lat="58.81590150579662" lon="5.724385048237216" id="-1576">
+		<tag k="fixme" v="consider place=hamlet" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2021-06-08" />
+		<tag k="ssr:gruppe" v="gardsbebyggelse" />
+		<tag k="ssr:hovedgruppe" v="bebyggelse" />
+		<tag k="ssr:stedsnr" v="486933" />
+		<tag k="ssr:type" v="gard" />
+	</node>
+	<node lat="59.06099444609292" lon="6.412627780083443" id="-1606">
+		<tag k="historic" v="shieling" />
+		<tag k="place" v="isolated_dwelling" />
+		<tag k="ssr:date" v="2021-06-08" />
+		<tag k="ssr:gruppe" v="gardsbebyggelse" />
+		<tag k="ssr:hovedgruppe" v="bebyggelse" />
+		<tag k="ssr:stedsnr" v="426049" />
+		<tag k="ssr:type" v="seterStøl" />
+	</node>
+	<node lat="59.01074444454988" lon="6.497961105561288" id="-1623">
+		<tag k="natural" v="valley" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2021-06-08" />
+		<tag k="ssr:gruppe" v="senkninger" />
+		<tag k="ssr:hovedgruppe" v="terreng" />
+		<tag k="ssr:stedsnr" v="427215" />
+		<tag k="ssr:type" v="dal" />
+	</node>
+	<node lat="59.08810833431948" lon="6.691602782694878" id="-1629">
+		<tag k="natural" v="valley" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2021-06-08" />
+		<tag k="ssr:gruppe" v="senkninger" />
+		<tag k="ssr:hovedgruppe" v="terreng" />
+		<tag k="ssr:stedsnr" v="427194" />
+		<tag k="ssr:type" v="skar" />
+	</node>
+	<node lat="59.02434784455107" lon="6.390372553674369" id="-1666">
+		<tag k="natural" v="cape" />
+		<tag k="ssr:date" v="2021-06-08" />
+		<tag k="ssr:gruppe" v="kystkontur" />
+		<tag k="ssr:hovedgruppe" v="sjø" />
+		<tag k="ssr:stedsnr" v="479922" />
+		<tag k="ssr:type" v="nesISjø" />
+	</node>
+	<node lat="58.942272221329226" lon="6.256333334694747" id="-1694">
+		<tag k="natural" v="water" />
+		<tag k="ssr:date" v="2021-06-08" />
+		<tag k="ssr:gruppe" v="stilleståendeVann" />
+		<tag k="ssr:hovedgruppe" v="ferskvann" />
+		<tag k="ssr:stedsnr" v="486557" />
+		<tag k="ssr:type" v="vann" />
+		<tag k="water" v="lake" />
+	</node>
+	<node lat="58.9628652472697" lon="5.866010233099182" id="-1697">
+		<tag k="natural" v="bay" />
+		<tag k="ssr:date" v="2021-06-08" />
+		<tag k="ssr:gruppe" v="kystkontur" />
+		<tag k="ssr:hovedgruppe" v="sjø" />
+		<tag k="ssr:stedsnr" v="486768" />
+		<tag k="ssr:type" v="vikISjø" />
+	</node>
+	<node lat="58.92937777531671" lon="6.229250003370495" id="-1711">
+		<tag k="fixme" v="consider natural=peak for the most distinct mountains in the district" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2021-06-08" />
+		<tag k="ssr:gruppe" v="høyder" />
+		<tag k="ssr:hovedgruppe" v="terreng" />
+		<tag k="ssr:stedsnr" v="506066" />
+		<tag k="ssr:type" v="fjell" />
+	</node>
+	<node lat="58.84352067356779" lon="5.7304520666637995" id="-1731">
+		<tag k="fixme" v="consider place=hamlet" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2021-06-08" />
+		<tag k="ssr:gruppe" v="gardsbebyggelse" />
+		<tag k="ssr:hovedgruppe" v="bebyggelse" />
+		<tag k="ssr:stedsnr" v="509626" />
+		<tag k="ssr:type" v="gard" />
+	</node>
+	<node lat="58.89873333120992" lon="5.981347220924079" id="-1735">
+		<tag k="natural" v="slope" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2021-06-08" />
+		<tag k="ssr:gruppe" v="skråninger" />
+		<tag k="ssr:hovedgruppe" v="terreng" />
+		<tag k="ssr:stedsnr" v="510653" />
+		<tag k="ssr:type" v="li" />
+	</node>
+	<node lat="58.896988884649424" lon="6.022308328546989" id="-1736">
+		<tag k="natural" v="bay" />
+		<tag k="ssr:date" v="2021-06-08" />
+		<tag k="ssr:gruppe" v="kystkontur" />
+		<tag k="ssr:hovedgruppe" v="sjø" />
+		<tag k="ssr:stedsnr" v="510655" />
+		<tag k="ssr:type" v="vikISjø" />
+	</node>
+	<node lat="58.98325555445432" lon="6.482611111786573" id="-1759">
+		<tag k="fixme" v="consider natural=peak for the most distinct mountains in the district" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2021-06-08" />
+		<tag k="ssr:gruppe" v="høyder" />
+		<tag k="ssr:hovedgruppe" v="terreng" />
+		<tag k="ssr:stedsnr" v="546472" />
+		<tag k="ssr:type" v="ås" />
+	</node>
 	<node lat="58.86353611509256" lon="5.9699972237008785" id="-1768">
 		<tag k="loc_name" v="Fiskaberget;Fiskeberget" />
 		<tag k="natural" v="cape" />
@@ -27,6 +786,98 @@
 		<tag k="ssr:hovedgruppe" v="ferskvann" />
 		<tag k="ssr:stedsnr" v="546882" />
 		<tag k="ssr:type" v="nes" />
+	</node>
+	<node lat="58.97762520811806" lon="6.501465010656569" id="-1776">
+		<tag k="natural" v="water" />
+		<tag k="ssr:date" v="2021-06-08" />
+		<tag k="ssr:gruppe" v="stilleståendeVann" />
+		<tag k="ssr:hovedgruppe" v="ferskvann" />
+		<tag k="ssr:stedsnr" v="547568" />
+		<tag k="ssr:type" v="vann" />
+		<tag k="water" v="lake" />
+	</node>
+	<node lat="58.94298889010879" lon="6.251094452145611" id="-1778">
+		<tag k="historic" v="shieling" />
+		<tag k="place" v="isolated_dwelling" />
+		<tag k="ssr:date" v="2021-06-08" />
+		<tag k="ssr:gruppe" v="gardsbebyggelse" />
+		<tag k="ssr:hovedgruppe" v="bebyggelse" />
+		<tag k="ssr:stedsnr" v="547582" />
+		<tag k="ssr:type" v="seterStøl" />
+	</node>
+	<node lat="59.025222218870944" lon="6.512508336497147" id="-1790">
+		<tag k="natural" v="valley" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2021-06-08" />
+		<tag k="ssr:gruppe" v="senkninger" />
+		<tag k="ssr:hovedgruppe" v="terreng" />
+		<tag k="ssr:stedsnr" v="548205" />
+		<tag k="ssr:type" v="skar" />
+	</node>
+	<node lat="58.84528473081491" lon="5.720248702092423" id="-1809">
+		<tag k="fixme" v="consider place=hamlet" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2021-06-08" />
+		<tag k="ssr:gruppe" v="gardsbebyggelse" />
+		<tag k="ssr:hovedgruppe" v="bebyggelse" />
+		<tag k="ssr:stedsnr" v="691323" />
+		<tag k="ssr:type" v="gard" />
+	</node>
+	<node lat="58.84809166521852" lon="5.737600008179544" id="-1817">
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2021-06-08" />
+		<tag k="ssr:gruppe" v="gardsbebyggelse" />
+		<tag k="ssr:hovedgruppe" v="bebyggelse" />
+		<tag k="ssr:stedsnr" v="693039" />
+		<tag k="ssr:type" v="bruk" />
+	</node>
+	<node lat="58.841652777058485" lon="5.709255557024591" id="-1818">
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2021-06-08" />
+		<tag k="ssr:gruppe" v="gardsbebyggelse" />
+		<tag k="ssr:hovedgruppe" v="bebyggelse" />
+		<tag k="ssr:stedsnr" v="693041" />
+		<tag k="ssr:type" v="bruk" />
+	</node>
+	<node lat="58.847324996571054" lon="5.725811107058562" id="-1821">
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2021-06-08" />
+		<tag k="ssr:gruppe" v="gardsbebyggelse" />
+		<tag k="ssr:hovedgruppe" v="bebyggelse" />
+		<tag k="ssr:stedsnr" v="693092" />
+		<tag k="ssr:type" v="bruk" />
+	</node>
+	<node lat="58.842308329520804" lon="5.712088894773224" id="-1835">
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2021-06-08" />
+		<tag k="ssr:gruppe" v="gardsbebyggelse" />
+		<tag k="ssr:hovedgruppe" v="bebyggelse" />
+		<tag k="ssr:stedsnr" v="693101" />
+		<tag k="ssr:type" v="bruk" />
+	</node>
+	<node lat="58.83394444507554" lon="5.768844450706828" id="-1836">
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2021-06-08" />
+		<tag k="ssr:gruppe" v="gardsbebyggelse" />
+		<tag k="ssr:hovedgruppe" v="bebyggelse" />
+		<tag k="ssr:stedsnr" v="693143" />
+		<tag k="ssr:type" v="bruk" />
+	</node>
+	<node lat="58.846483331263144" lon="5.725697218357061" id="-1848">
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2021-06-08" />
+		<tag k="ssr:gruppe" v="gardsbebyggelse" />
+		<tag k="ssr:hovedgruppe" v="bebyggelse" />
+		<tag k="ssr:stedsnr" v="572106" />
+		<tag k="ssr:type" v="bruk" />
+	</node>
+	<node lat="58.84686110667313" lon="5.726108330369047" id="-1849">
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2021-06-08" />
+		<tag k="ssr:gruppe" v="gardsbebyggelse" />
+		<tag k="ssr:hovedgruppe" v="bebyggelse" />
+		<tag k="ssr:stedsnr" v="572109" />
+		<tag k="ssr:type" v="bruk" />
 	</node>
 	<node lat="59.05490153345035" lon="6.648614502403439" id="-1850">
 		<tag k="fixme" v="consider tourism=alpine_hut or tourism=chalet" />
@@ -38,6 +889,187 @@
 		<tag k="ssr:type" v="turisthytte" />
 		<tag k="tourism" v="wilderness_hut" />
 	</node>
+	<node lat="58.83151666585517" lon="5.663302772805221" id="-1866">
+		<tag k="fixme" v="consider place=hamlet" />
+		<tag k="place" v="village" />
+		<tag k="ssr:date" v="2021-06-08" />
+		<tag k="ssr:gruppe" v="bebyggelsesområder" />
+		<tag k="ssr:hovedgruppe" v="bebyggelse" />
+		<tag k="ssr:stedsnr" v="601197" />
+		<tag k="ssr:type" v="bygdelagBygd" />
+	</node>
+	<node lat="58.985130553453665" lon="6.428744440643665" id="-1887">
+		<tag k="natural" v="water" />
+		<tag k="ssr:date" v="2021-06-08" />
+		<tag k="ssr:gruppe" v="stilleståendeVann" />
+		<tag k="ssr:hovedgruppe" v="ferskvann" />
+		<tag k="ssr:stedsnr" v="607503" />
+		<tag k="ssr:type" v="tjern" />
+	</node>
+	<node lat="58.908830557281924" lon="6.222005553782062" id="-1898">
+		<tag k="natural" v="valley" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2021-06-08" />
+		<tag k="ssr:gruppe" v="senkninger" />
+		<tag k="ssr:hovedgruppe" v="terreng" />
+		<tag k="ssr:stedsnr" v="607707" />
+		<tag k="ssr:type" v="skar" />
+	</node>
+	<node lat="58.92037499886442" lon="6.27593055162219" id="-1900">
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2021-06-08" />
+		<tag k="ssr:gruppe" v="gardsbebyggelse" />
+		<tag k="ssr:hovedgruppe" v="bebyggelse" />
+		<tag k="ssr:stedsnr" v="607712" />
+		<tag k="ssr:type" v="bruk" />
+	</node>
+	<node lat="58.89454444822821" lon="6.2501500077297125" id="-1906">
+		<tag k="natural" v="valley" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2021-06-08" />
+		<tag k="ssr:gruppe" v="senkninger" />
+		<tag k="ssr:hovedgruppe" v="terreng" />
+		<tag k="ssr:stedsnr" v="607751" />
+		<tag k="ssr:type" v="skar" />
+	</node>
+	<node lat="58.88967499765596" lon="6.247044438727265" id="-1908">
+		<tag k="fixme" v="consider natural=peak for the most distinct mountains in the district" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2021-06-08" />
+		<tag k="ssr:gruppe" v="høyder" />
+		<tag k="ssr:hovedgruppe" v="terreng" />
+		<tag k="ssr:stedsnr" v="607753" />
+		<tag k="ssr:type" v="ås" />
+	</node>
+	<node lat="58.84695277407057" lon="5.7344916728625" id="-1951">
+		<tag k="railway" v="station" />
+		<tag k="ssr:date" v="2021-06-08" />
+		<tag k="ssr:gruppe" v="bane" />
+		<tag k="ssr:hovedgruppe" v="infrastruktur" />
+		<tag k="ssr:stedsnr" v="632043" />
+		<tag k="ssr:type" v="stasjon" />
+		<tag k="train" v="yes" />
+	</node>
+	<node lat="58.84727222354696" lon="5.7262611112925175" id="-1952">
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2021-06-08" />
+		<tag k="ssr:gruppe" v="gardsbebyggelse" />
+		<tag k="ssr:hovedgruppe" v="bebyggelse" />
+		<tag k="ssr:stedsnr" v="632105" />
+		<tag k="ssr:type" v="bruk" />
+	</node>
+	<node lat="58.84256110979002" lon="5.709833331985669" id="-1953">
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2021-06-08" />
+		<tag k="ssr:gruppe" v="gardsbebyggelse" />
+		<tag k="ssr:hovedgruppe" v="bebyggelse" />
+		<tag k="ssr:stedsnr" v="632114" />
+		<tag k="ssr:type" v="bruk" />
+	</node>
+	<node lat="58.867230555190616" lon="5.8645638923056165" id="-1954">
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2021-06-08" />
+		<tag k="ssr:gruppe" v="gardsbebyggelse" />
+		<tag k="ssr:hovedgruppe" v="bebyggelse" />
+		<tag k="ssr:stedsnr" v="634222" />
+		<tag k="ssr:type" v="bruk" />
+	</node>
+	<node lat="58.994850001536285" lon="6.443161113940149" id="-1987">
+		<tag k="loc_name" v="Flørliåna" />
+		<tag k="ssr:date" v="2021-06-08" />
+		<tag k="ssr:gruppe" v="rennendeVann" />
+		<tag k="ssr:hovedgruppe" v="ferskvann" />
+		<tag k="ssr:stedsnr" v="668509" />
+		<tag k="ssr:type" v="elv" />
+		<tag k="waterway" v="river" />
+	</node>
+	<node lat="58.964580558121284" lon="6.2594999984211155" id="-1988">
+		<tag k="ssr:date" v="2021-06-08" />
+		<tag k="ssr:gruppe" v="rennendeVann" />
+		<tag k="ssr:hovedgruppe" v="ferskvann" />
+		<tag k="ssr:stedsnr" v="668536" />
+		<tag k="ssr:type" v="bekk" />
+		<tag k="waterway" v="stream" />
+	</node>
+	<node lat="58.95611666365988" lon="5.909627775827908" id="-1993">
+		<tag k="place" v="islet" />
+		<tag k="ssr:date" v="2021-06-08" />
+		<tag k="ssr:gruppe" v="kystkontur" />
+		<tag k="ssr:hovedgruppe" v="sjø" />
+		<tag k="ssr:stedsnr" v="668819" />
+		<tag k="ssr:type" v="holmeISjø" />
+	</node>
+	<node lat="58.90532499652272" lon="6.266591670757393" id="-1995">
+		<tag k="natural" v="valley" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2021-06-08" />
+		<tag k="ssr:gruppe" v="senkninger" />
+		<tag k="ssr:hovedgruppe" v="terreng" />
+		<tag k="ssr:stedsnr" v="668729" />
+		<tag k="ssr:type" v="dal" />
+	</node>
+	<node lat="58.91822500216002" lon="6.268175004520041" id="-1996">
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2021-06-08" />
+		<tag k="ssr:gruppe" v="gardsbebyggelse" />
+		<tag k="ssr:hovedgruppe" v="bebyggelse" />
+		<tag k="ssr:stedsnr" v="668733" />
+		<tag k="ssr:type" v="bruk" />
+	</node>
+	<node lat="58.9216722260147" lon="6.366377779804737" id="-1997">
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2021-06-08" />
+		<tag k="ssr:gruppe" v="høyder" />
+		<tag k="ssr:hovedgruppe" v="terreng" />
+		<tag k="ssr:stedsnr" v="668739" />
+		<tag k="ssr:type" v="høyde" />
+	</node>
+	<node lat="58.967883332576285" lon="5.870905560608224" id="-1998">
+		<tag k="place" v="islet" />
+		<tag k="ssr:date" v="2021-06-08" />
+		<tag k="ssr:gruppe" v="kystkontur" />
+		<tag k="ssr:hovedgruppe" v="sjø" />
+		<tag k="ssr:stedsnr" v="668783" />
+		<tag k="ssr:type" v="holmeISjø" />
+	</node>
+	<node lat="59.07362222033949" lon="6.569494438559653" id="-2003">
+		<tag k="natural" v="valley" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2021-06-08" />
+		<tag k="ssr:gruppe" v="senkninger" />
+		<tag k="ssr:hovedgruppe" v="terreng" />
+		<tag k="ssr:stedsnr" v="669009" />
+		<tag k="ssr:type" v="skar" />
+	</node>
+	<node lat="59.033087286188966" lon="6.39785105683344" id="-2006">
+		<tag k="fixme" v="consider place=hamlet" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2021-06-08" />
+		<tag k="ssr:gruppe" v="gardsbebyggelse" />
+		<tag k="ssr:hovedgruppe" v="bebyggelse" />
+		<tag k="ssr:stedsnr" v="669028" />
+		<tag k="ssr:type" v="gard" />
+	</node>
+	<node lat="58.95302778104978" lon="5.840094437632812" id="-2014">
+		<tag k="place" v="islet" />
+		<tag k="ssr:date" v="2021-06-08" />
+		<tag k="ssr:gruppe" v="kystkontur" />
+		<tag k="ssr:hovedgruppe" v="sjø" />
+		<tag k="ssr:stedsnr" v="690103" />
+		<tag k="ssr:type" v="holmeISjø" />
+	</node>
+	<node lat="58.94069915350475" lon="5.828283457176722" id="-2058">
+		<tag k="fixme" v="consider place=hamlet" />
+		<tag k="old_name" v="Uskjå" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2021-06-08" />
+		<tag k="ssr:gruppe" v="gardsbebyggelse" />
+		<tag k="ssr:hovedgruppe" v="bebyggelse" />
+		<tag k="ssr:stedsnr" v="728011" />
+		<tag k="ssr:type" v="gard" />
+	</node>
 	<node lat="58.866024995622624" lon="5.973702773453408" id="-2059">
 		<tag k="loc_name" v="Holmen;Storholmen" />
 		<tag k="place" v="islet" />
@@ -46,6 +1078,173 @@
 		<tag k="ssr:hovedgruppe" v="ferskvann" />
 		<tag k="ssr:stedsnr" v="728885" />
 		<tag k="ssr:type" v="holme" />
+	</node>
+	<node lat="58.937641667842115" lon="6.355861113692342" id="-2068">
+		<tag k="fixme" v="consider natural=peak for the most distinct mountains in the district" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2021-06-08" />
+		<tag k="ssr:gruppe" v="høyder" />
+		<tag k="ssr:hovedgruppe" v="terreng" />
+		<tag k="ssr:stedsnr" v="729553" />
+		<tag k="ssr:type" v="ås" />
+	</node>
+	<node lat="58.950198794940654" lon="5.842678682650773" id="-2075">
+		<tag k="natural" v="strait" />
+		<tag k="ssr:date" v="2021-06-08" />
+		<tag k="ssr:gruppe" v="kystkontur" />
+		<tag k="ssr:hovedgruppe" v="sjø" />
+		<tag k="ssr:stedsnr" v="729805" />
+		<tag k="ssr:type" v="sundISjø" />
+	</node>
+	<node lat="58.845258332085116" lon="5.725033326432951" id="-2109">
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2021-06-08" />
+		<tag k="ssr:gruppe" v="gardsbebyggelse" />
+		<tag k="ssr:hovedgruppe" v="bebyggelse" />
+		<tag k="ssr:stedsnr" v="754108" />
+		<tag k="ssr:type" v="bruk" />
+	</node>
+	<node lat="58.84294721882592" lon="5.76764444481159" id="-2110">
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2021-06-08" />
+		<tag k="ssr:gruppe" v="gardsbebyggelse" />
+		<tag k="ssr:hovedgruppe" v="bebyggelse" />
+		<tag k="ssr:stedsnr" v="754152" />
+		<tag k="ssr:type" v="bruk" />
+	</node>
+	<node lat="58.94719166553366" lon="5.8466805580703065" id="-2111">
+		<tag k="loc_name" v="Djubeviga" />
+		<tag k="natural" v="bay" />
+		<tag k="ssr:date" v="2021-06-08" />
+		<tag k="ssr:gruppe" v="kystkontur" />
+		<tag k="ssr:hovedgruppe" v="sjø" />
+		<tag k="ssr:stedsnr" v="754657" />
+		<tag k="ssr:type" v="vikISjø" />
+	</node>
+	<node lat="58.99355000434569" lon="6.356016658254209" id="-2169">
+		<tag k="natural" v="water" />
+		<tag k="ssr:date" v="2021-06-08" />
+		<tag k="ssr:gruppe" v="stilleståendeVann" />
+		<tag k="ssr:hovedgruppe" v="ferskvann" />
+		<tag k="ssr:stedsnr" v="789504" />
+		<tag k="ssr:type" v="tjern" />
+	</node>
+	<node lat="58.975963892801" lon="6.429097219065249" id="-2173">
+		<tag k="natural" v="scree" />
+		<tag k="ssr:date" v="2021-06-08" />
+		<tag k="ssr:gruppe" v="løsmasseavsetninger" />
+		<tag k="ssr:hovedgruppe" v="markslag" />
+		<tag k="ssr:stedsnr" v="911535" />
+		<tag k="ssr:type" v="ur" />
+	</node>
+	<node lat="58.930083331655354" lon="5.994749999898526" id="-2181">
+		<tag k="place" v="island" />
+		<tag k="ssr:date" v="2021-06-08" />
+		<tag k="ssr:gruppe" v="kystkontur" />
+		<tag k="ssr:hovedgruppe" v="sjø" />
+		<tag k="ssr:stedsnr" v="789714" />
+		<tag k="ssr:type" v="øyISjø" />
+	</node>
+	<node lat="58.94642499672816" lon="5.947797230330993" id="-2185">
+		<tag k="fixme" v="consider natural=peak for the most distinct mountains in the district" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2021-06-08" />
+		<tag k="ssr:gruppe" v="høyder" />
+		<tag k="ssr:hovedgruppe" v="terreng" />
+		<tag k="ssr:stedsnr" v="789802" />
+		<tag k="ssr:type" v="ås" />
+	</node>
+	<node lat="59.10609444470475" lon="6.642708327982878" id="-2194">
+		<tag k="fixme" v="consider natural=peak for the most distinct mountains in the district" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2021-06-08" />
+		<tag k="ssr:gruppe" v="høyder" />
+		<tag k="ssr:hovedgruppe" v="terreng" />
+		<tag k="ssr:stedsnr" v="790104" />
+		<tag k="ssr:type" v="fjell" />
+	</node>
+	<node lat="58.88392542536531" lon="6.244727989684131" id="-2201">
+		<tag k="natural" v="water" />
+		<tag k="ssr:date" v="2021-06-08" />
+		<tag k="ssr:gruppe" v="stilleståendeVann" />
+		<tag k="ssr:hovedgruppe" v="ferskvann" />
+		<tag k="ssr:stedsnr" v="911759" />
+		<tag k="ssr:type" v="vann" />
+		<tag k="water" v="lake" />
+	</node>
+	<node lat="58.90121748946947" lon="5.852999987829276" id="-2213">
+		<tag k="fixme" v="consider place=hamlet" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2021-06-08" />
+		<tag k="ssr:gruppe" v="gardsbebyggelse" />
+		<tag k="ssr:hovedgruppe" v="bebyggelse" />
+		<tag k="ssr:stedsnr" v="911645" />
+		<tag k="ssr:type" v="gard" />
+	</node>
+	<node lat="59.03073888900923" lon="6.341097229081031" id="-2223">
+		<tag k="natural" v="valley" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2021-06-08" />
+		<tag k="ssr:gruppe" v="senkninger" />
+		<tag k="ssr:hovedgruppe" v="terreng" />
+		<tag k="ssr:stedsnr" v="912032" />
+		<tag k="ssr:type" v="skar" />
+	</node>
+	<node lat="59.0602712807885" lon="6.418337072201789" id="-2225">
+		<tag k="historic" v="shieling" />
+		<tag k="place" v="isolated_dwelling" />
+		<tag k="ssr:date" v="2021-06-08" />
+		<tag k="ssr:gruppe" v="gardsbebyggelse" />
+		<tag k="ssr:hovedgruppe" v="bebyggelse" />
+		<tag k="ssr:stedsnr" v="912044" />
+		<tag k="ssr:type" v="seterStøl" />
+	</node>
+	<node lat="59.01737635811634" lon="6.323259591327079" id="-2238">
+		<tag k="fixme" v="consider place=hamlet" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2021-06-08" />
+		<tag k="ssr:gruppe" v="gardsbebyggelse" />
+		<tag k="ssr:hovedgruppe" v="bebyggelse" />
+		<tag k="ssr:stedsnr" v="912201" />
+		<tag k="ssr:type" v="gard" />
+	</node>
+	<node lat="58.95924667079424" lon="5.863697465862323" id="-2240">
+		<tag k="natural" v="bay" />
+		<tag k="ssr:date" v="2021-06-08" />
+		<tag k="ssr:gruppe" v="kystkontur" />
+		<tag k="ssr:hovedgruppe" v="sjø" />
+		<tag k="ssr:stedsnr" v="811109" />
+		<tag k="ssr:type" v="vikISjø" />
+	</node>
+	<node lat="58.843019441215596" lon="5.768408341775932" id="-2260">
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2021-06-08" />
+		<tag k="ssr:gruppe" v="gardsbebyggelse" />
+		<tag k="ssr:hovedgruppe" v="bebyggelse" />
+		<tag k="ssr:stedsnr" v="815073" />
+		<tag k="ssr:type" v="bruk" />
+	</node>
+	<node lat="58.84689595948955" lon="5.763495868742522" id="-2261">
+		<tag k="layer" v="-1" />
+		<tag k="old_name" v="Austrått" />
+		<tag k="ssr:date" v="2021-06-08" />
+		<tag k="ssr:gruppe" v="samferdselsanlegg" />
+		<tag k="ssr:hovedgruppe" v="infrastruktur" />
+		<tag k="ssr:stedsnr" v="815252" />
+		<tag k="ssr:type" v="tunnel" />
+		<tag k="tunnel" v="yes" />
+	</node>
+	<node lat="58.91316389137503" lon="5.983561112665984" id="-2262">
+		<tag k="place" v="locality" />
+		<tag k="seamark:type" v="rock" />
+		<tag k="ssr:date" v="2021-06-08" />
+		<tag k="ssr:gruppe" v="grunnerISjø" />
+		<tag k="ssr:hovedgruppe" v="sjø" />
+		<tag k="ssr:stedsnr" v="815605" />
+		<tag k="ssr:type" v="båeISjø" />
 	</node>
 	<node lat="58.85646666301205" lon="5.946022214647465" id="-2297">
 		<tag k="fixme" v="consider natural=peak for the most distinct mountains in the district" />
@@ -58,6 +1257,51 @@
 		<tag k="ssr:stedsnr" v="849898" />
 		<tag k="ssr:type" v="fjell" />
 	</node>
+	<node lat="58.96257777551016" lon="6.237511104680148" id="-2298">
+		<tag k="natural" v="valley" />
+		<tag k="old_name" v="Skrøylå" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2021-06-08" />
+		<tag k="ssr:gruppe" v="senkninger" />
+		<tag k="ssr:hovedgruppe" v="terreng" />
+		<tag k="ssr:stedsnr" v="850532" />
+		<tag k="ssr:type" v="dal" />
+	</node>
+	<node lat="58.895915988201345" lon="6.2386778542239645" id="-2302">
+		<tag k="natural" v="water" />
+		<tag k="ssr:date" v="2021-06-08" />
+		<tag k="ssr:gruppe" v="stilleståendeVann" />
+		<tag k="ssr:hovedgruppe" v="ferskvann" />
+		<tag k="ssr:stedsnr" v="850734" />
+		<tag k="ssr:type" v="tjern" />
+	</node>
+	<node lat="58.947441668303966" lon="6.259852771564539" id="-2307">
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2021-06-08" />
+		<tag k="ssr:gruppe" v="høyder" />
+		<tag k="ssr:hovedgruppe" v="terreng" />
+		<tag k="ssr:stedsnr" v="851527" />
+		<tag k="ssr:type" v="hei" />
+	</node>
+	<node lat="58.91928889283141" lon="6.357872225184292" id="-2309">
+		<tag k="natural" v="valley" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2021-06-08" />
+		<tag k="ssr:gruppe" v="senkninger" />
+		<tag k="ssr:hovedgruppe" v="terreng" />
+		<tag k="ssr:stedsnr" v="851705" />
+		<tag k="ssr:type" v="botn" />
+	</node>
+	<node lat="59.076288890750575" lon="6.756863886419917" id="-2321">
+		<tag k="natural" v="valley" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2021-06-08" />
+		<tag k="ssr:gruppe" v="senkninger" />
+		<tag k="ssr:hovedgruppe" v="terreng" />
+		<tag k="ssr:stedsnr" v="852164" />
+		<tag k="ssr:type" v="skar" />
+	</node>
 	<node lat="58.86121666366277" lon="5.951605551797234" id="-2382">
 		<tag k="loc_name" v="Midtberget" />
 		<tag k="natural" v="hill" />
@@ -68,6 +1312,371 @@
 		<tag k="ssr:stedsnr" v="910903" />
 		<tag k="ssr:type" v="berg" />
 	</node>
+	<node lat="58.93043076860967" lon="5.793212091392021" id="-2384">
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2021-06-08" />
+		<tag k="ssr:gruppe" v="flater" />
+		<tag k="ssr:hovedgruppe" v="terreng" />
+		<tag k="ssr:stedsnr" v="911012" />
+		<tag k="ssr:type" v="slette" />
+	</node>
+	<node lat="58.95459009584152" lon="5.838539330658394" id="-2389">
+		<tag k="natural" v="bay" />
+		<tag k="ssr:date" v="2021-06-08" />
+		<tag k="ssr:gruppe" v="kystkontur" />
+		<tag k="ssr:hovedgruppe" v="sjø" />
+		<tag k="ssr:stedsnr" v="911059" />
+		<tag k="ssr:type" v="vikISjø" />
+	</node>
+	<node lat="58.932427776403514" lon="6.507711112625584" id="-2394">
+		<tag k="natural" v="valley" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2021-06-08" />
+		<tag k="ssr:gruppe" v="senkninger" />
+		<tag k="ssr:hovedgruppe" v="terreng" />
+		<tag k="ssr:stedsnr" v="911706" />
+		<tag k="ssr:type" v="dal" />
+	</node>
+	<node lat="58.91540000325984" lon="6.2702750049258675" id="-2396">
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2021-06-08" />
+		<tag k="ssr:gruppe" v="gardsbebyggelse" />
+		<tag k="ssr:hovedgruppe" v="bebyggelse" />
+		<tag k="ssr:stedsnr" v="911733" />
+		<tag k="ssr:type" v="bruk" />
+	</node>
+	<node lat="58.898849997592656" lon="6.262066665050011" id="-2398">
+		<tag k="fixme" v="consider natural=peak for the most distinct mountains in the district" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2021-06-08" />
+		<tag k="ssr:gruppe" v="høyder" />
+		<tag k="ssr:hovedgruppe" v="terreng" />
+		<tag k="ssr:stedsnr" v="911745" />
+		<tag k="ssr:type" v="ås" />
+	</node>
+	<node lat="58.89426553534404" lon="6.042256108424719" id="-2400">
+		<tag k="natural" v="bay" />
+		<tag k="ssr:date" v="2021-06-08" />
+		<tag k="ssr:gruppe" v="kystkontur" />
+		<tag k="ssr:hovedgruppe" v="sjø" />
+		<tag k="ssr:stedsnr" v="911656" />
+		<tag k="ssr:type" v="vågISjø" />
+	</node>
+	<node lat="59.13941389299418" lon="6.726361112388054" id="-2433">
+		<tag k="natural" v="mountain_range" />
+		<tag k="ssr:date" v="2021-06-08" />
+		<tag k="ssr:gruppe" v="terrengområder" />
+		<tag k="ssr:hovedgruppe" v="terreng" />
+		<tag k="ssr:stedsnr" v="933693" />
+		<tag k="ssr:type" v="fjellområde" />
+	</node>
+	<node lat="58.84497222163277" lon="5.708147219626344" id="-2443">
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2021-06-08" />
+		<tag k="ssr:gruppe" v="gardsbebyggelse" />
+		<tag k="ssr:hovedgruppe" v="bebyggelse" />
+		<tag k="ssr:stedsnr" v="936037" />
+		<tag k="ssr:type" v="bruk" />
+	</node>
+	<node lat="58.84028889272769" lon="5.706133335521657" id="-2444">
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2021-06-08" />
+		<tag k="ssr:gruppe" v="gardsbebyggelse" />
+		<tag k="ssr:hovedgruppe" v="bebyggelse" />
+		<tag k="ssr:stedsnr" v="936086" />
+		<tag k="ssr:type" v="bruk" />
+	</node>
+	<node lat="58.84705277916991" lon="5.731061112462069" id="-2445">
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2021-06-08" />
+		<tag k="ssr:gruppe" v="gardsbebyggelse" />
+		<tag k="ssr:hovedgruppe" v="bebyggelse" />
+		<tag k="ssr:stedsnr" v="936087" />
+		<tag k="ssr:type" v="bruk" />
+	</node>
+	<node lat="58.847467759852684" lon="5.720317142996268" id="-2478">
+		<tag k="amenity" v="school" />
+		<tag k="ssr:date" v="2021-06-08" />
+		<tag k="ssr:gruppe" v="institusjoner" />
+		<tag k="ssr:hovedgruppe" v="bebyggelse" />
+		<tag k="ssr:stedsnr" v="985188" />
+		<tag k="ssr:type" v="skole" />
+	</node>
+	<node lat="58.87216666683244" lon="6.247883335353608" id="-2489">
+		<tag k="natural" v="valley" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2021-06-08" />
+		<tag k="ssr:gruppe" v="senkninger" />
+		<tag k="ssr:hovedgruppe" v="terreng" />
+		<tag k="ssr:stedsnr" v="623" />
+		<tag k="ssr:type" v="dal" />
+	</node>
+	<node lat="58.89883055406174" lon="6.2373750078415995" id="-2496">
+		<tag k="natural" v="water" />
+		<tag k="ssr:date" v="2021-06-08" />
+		<tag k="ssr:gruppe" v="stilleståendeVann" />
+		<tag k="ssr:hovedgruppe" v="ferskvann" />
+		<tag k="ssr:stedsnr" v="722" />
+		<tag k="ssr:type" v="tjern" />
+	</node>
+	<node lat="58.913047222017475" lon="6.412252782705518" id="-2501">
+		<tag k="natural" v="water" />
+		<tag k="ssr:date" v="2021-06-08" />
+		<tag k="ssr:gruppe" v="stilleståendeVann" />
+		<tag k="ssr:hovedgruppe" v="ferskvann" />
+		<tag k="ssr:stedsnr" v="732" />
+		<tag k="ssr:type" v="tjern" />
+	</node>
+	<node lat="58.9691722247839" lon="6.384730563222172" id="-2507">
+		<tag k="fixme" v="consider natural=peak for the most distinct mountains in the district" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2021-06-08" />
+		<tag k="ssr:gruppe" v="høyder" />
+		<tag k="ssr:hovedgruppe" v="terreng" />
+		<tag k="ssr:stedsnr" v="1524" />
+		<tag k="ssr:type" v="ås" />
+	</node>
+	<node lat="59.05495000332369" lon="6.529841661831438" id="-2510">
+		<tag k="natural" v="valley" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2021-06-08" />
+		<tag k="ssr:gruppe" v="senkninger" />
+		<tag k="ssr:hovedgruppe" v="terreng" />
+		<tag k="ssr:stedsnr" v="1081" />
+		<tag k="ssr:type" v="skar" />
+	</node>
+	<node lat="59.01196916052766" lon="6.405802125728366" id="-2513">
+		<tag k="natural" v="cape" />
+		<tag k="ssr:date" v="2021-06-08" />
+		<tag k="ssr:gruppe" v="kystkontur" />
+		<tag k="ssr:hovedgruppe" v="sjø" />
+		<tag k="ssr:stedsnr" v="1279" />
+		<tag k="ssr:type" v="nesISjø" />
+	</node>
+	<node lat="58.96608333174279" lon="6.227338896291766" id="-2515">
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2021-06-08" />
+		<tag k="ssr:gruppe" v="høyder" />
+		<tag k="ssr:hovedgruppe" v="terreng" />
+		<tag k="ssr:stedsnr" v="1544" />
+		<tag k="ssr:type" v="haug" />
+	</node>
+	<node lat="58.962594782993506" lon="5.862941274669476" id="-2527">
+		<tag k="natural" v="cape" />
+		<tag k="ssr:date" v="2021-06-08" />
+		<tag k="ssr:gruppe" v="kystkontur" />
+		<tag k="ssr:hovedgruppe" v="sjø" />
+		<tag k="ssr:stedsnr" v="1758" />
+		<tag k="ssr:type" v="nesISjø" />
+	</node>
+	<node lat="58.995591898459935" lon="6.61907584121373" id="-2530">
+		<tag k="natural" v="water" />
+		<tag k="ssr:date" v="2021-06-08" />
+		<tag k="ssr:gruppe" v="stilleståendeVann" />
+		<tag k="ssr:hovedgruppe" v="ferskvann" />
+		<tag k="ssr:stedsnr" v="1773" />
+		<tag k="ssr:type" v="vann" />
+		<tag k="water" v="lake" />
+	</node>
+	<node lat="58.98257843478391" lon="6.298488391905776" id="-2538">
+		<tag k="fixme" v="consider natural=peak for the most distinct mountains in the district" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2021-06-08" />
+		<tag k="ssr:gruppe" v="høyder" />
+		<tag k="ssr:hovedgruppe" v="terreng" />
+		<tag k="ssr:stedsnr" v="21080" />
+		<tag k="ssr:type" v="fjell" />
+	</node>
+	<node lat="58.956497223491894" lon="5.836719438054359" id="-2551">
+		<tag k="loc_name" v="Varholmen" />
+		<tag k="place" v="islet" />
+		<tag k="ssr:date" v="2021-06-08" />
+		<tag k="ssr:gruppe" v="kystkontur" />
+		<tag k="ssr:hovedgruppe" v="sjø" />
+		<tag k="ssr:stedsnr" v="23125" />
+		<tag k="ssr:type" v="holmeISjø" />
+	</node>
+	<node lat="58.96442222537339" lon="5.836788895204316" id="-2553">
+		<tag k="fixme" v="consider seamark:type=rock or natural=shoal" />
+		<tag k="place" v="islet" />
+		<tag k="ssr:date" v="2021-06-08" />
+		<tag k="ssr:gruppe" v="grunnerISjø" />
+		<tag k="ssr:hovedgruppe" v="sjø" />
+		<tag k="ssr:stedsnr" v="23128" />
+		<tag k="ssr:type" v="skjærISjø" />
+	</node>
+	<node lat="58.84817221901262" lon="5.7378416733321655" id="-2562">
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2021-06-08" />
+		<tag k="ssr:gruppe" v="gardsbebyggelse" />
+		<tag k="ssr:hovedgruppe" v="bebyggelse" />
+		<tag k="ssr:stedsnr" v="26038" />
+		<tag k="ssr:type" v="bruk" />
+	</node>
+	<node lat="58.8415027745066" lon="5.709341668009194" id="-2563">
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2021-06-08" />
+		<tag k="ssr:gruppe" v="gardsbebyggelse" />
+		<tag k="ssr:hovedgruppe" v="bebyggelse" />
+		<tag k="ssr:stedsnr" v="26042" />
+		<tag k="ssr:type" v="bruk" />
+	</node>
+	<node lat="58.847741662163585" lon="5.730691658426782" id="-2564">
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2021-06-08" />
+		<tag k="ssr:gruppe" v="gardsbebyggelse" />
+		<tag k="ssr:hovedgruppe" v="bebyggelse" />
+		<tag k="ssr:stedsnr" v="26045" />
+		<tag k="ssr:type" v="bruk" />
+	</node>
+	<node lat="58.842888891476996" lon="5.770261119354279" id="-2565">
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2021-06-08" />
+		<tag k="ssr:gruppe" v="gardsbebyggelse" />
+		<tag k="ssr:hovedgruppe" v="bebyggelse" />
+		<tag k="ssr:stedsnr" v="26142" />
+		<tag k="ssr:type" v="bruk" />
+	</node>
+	<node lat="58.84271666999058" lon="5.7698111107254775" id="-2566">
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2021-06-08" />
+		<tag k="ssr:gruppe" v="gardsbebyggelse" />
+		<tag k="ssr:hovedgruppe" v="bebyggelse" />
+		<tag k="ssr:stedsnr" v="26143" />
+		<tag k="ssr:type" v="bruk" />
+	</node>
+	<node lat="58.842700002191954" lon="5.770333336920095" id="-2567">
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2021-06-08" />
+		<tag k="ssr:gruppe" v="gardsbebyggelse" />
+		<tag k="ssr:hovedgruppe" v="bebyggelse" />
+		<tag k="ssr:stedsnr" v="26144" />
+		<tag k="ssr:type" v="bruk" />
+	</node>
+	<node lat="58.838711107918165" lon="5.78493055394191" id="-2568">
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2021-06-08" />
+		<tag k="ssr:gruppe" v="gardsbebyggelse" />
+		<tag k="ssr:hovedgruppe" v="bebyggelse" />
+		<tag k="ssr:stedsnr" v="26153" />
+		<tag k="ssr:type" v="bruk" />
+	</node>
+	<node lat="58.907161108556565" lon="6.015350004301706" id="-2569">
+		<tag k="natural" v="bay" />
+		<tag k="ssr:date" v="2021-06-08" />
+		<tag k="ssr:gruppe" v="kystkontur" />
+		<tag k="ssr:hovedgruppe" v="sjø" />
+		<tag k="ssr:stedsnr" v="26619" />
+		<tag k="ssr:type" v="vikISjø" />
+	</node>
+	<node lat="58.86730278095676" lon="5.860897225815901" id="-2570">
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2021-06-08" />
+		<tag k="ssr:gruppe" v="gardsbebyggelse" />
+		<tag k="ssr:hovedgruppe" v="bebyggelse" />
+		<tag k="ssr:stedsnr" v="27211" />
+		<tag k="ssr:type" v="bruk" />
+	</node>
+	<node lat="58.84694166809129" lon="5.719725006103602" id="-2618">
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2021-06-08" />
+		<tag k="ssr:gruppe" v="vegetasjon" />
+		<tag k="ssr:hovedgruppe" v="markslag" />
+		<tag k="ssr:stedsnr" v="59997" />
+		<tag k="ssr:type" v="skog" />
+	</node>
+	<node lat="59.03333889292742" lon="6.403666669410692" id="-2650">
+		<tag k="fixme" v="consider natural=peak for the most distinct mountains in the district" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2021-06-08" />
+		<tag k="ssr:gruppe" v="høyder" />
+		<tag k="ssr:hovedgruppe" v="terreng" />
+		<tag k="ssr:stedsnr" v="62041" />
+		<tag k="ssr:type" v="ås" />
+	</node>
+	<node lat="58.94390450950996" lon="6.240117934154252" id="-2662">
+		<tag k="natural" v="water" />
+		<tag k="ssr:date" v="2021-06-08" />
+		<tag k="ssr:gruppe" v="stilleståendeVann" />
+		<tag k="ssr:hovedgruppe" v="ferskvann" />
+		<tag k="ssr:stedsnr" v="62535" />
+		<tag k="ssr:type" v="vann" />
+		<tag k="water" v="lake" />
+	</node>
+	<node lat="58.941480556539716" lon="6.352888881175202" id="-2665">
+		<tag k="natural" v="valley" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2021-06-08" />
+		<tag k="ssr:gruppe" v="senkninger" />
+		<tag k="ssr:hovedgruppe" v="terreng" />
+		<tag k="ssr:stedsnr" v="62553" />
+		<tag k="ssr:type" v="skar" />
+	</node>
+	<node lat="58.89827298510041" lon="5.855374975195539" id="-2668">
+		<tag k="natural" v="water" />
+		<tag k="ssr:date" v="2021-06-08" />
+		<tag k="ssr:gruppe" v="stilleståendeVann" />
+		<tag k="ssr:hovedgruppe" v="ferskvann" />
+		<tag k="ssr:stedsnr" v="62653" />
+		<tag k="ssr:type" v="tjern" />
+	</node>
+	<node lat="58.96766110757164" lon="5.892130562228481" id="-2675">
+		<tag k="loc_name" v="Store Vierneset" />
+		<tag k="natural" v="cape" />
+		<tag k="ssr:date" v="2021-06-08" />
+		<tag k="ssr:gruppe" v="kystkontur" />
+		<tag k="ssr:hovedgruppe" v="sjø" />
+		<tag k="ssr:stedsnr" v="62764" />
+		<tag k="ssr:type" v="nesISjø" />
+	</node>
+	<node lat="58.899162296750404" lon="6.305613751097449" id="-2684">
+		<tag k="natural" v="water" />
+		<tag k="ssr:date" v="2021-06-08" />
+		<tag k="ssr:gruppe" v="stilleståendeVann" />
+		<tag k="ssr:hovedgruppe" v="ferskvann" />
+		<tag k="ssr:stedsnr" v="81068" />
+		<tag k="ssr:type" v="vann" />
+		<tag k="water" v="lake" />
+	</node>
+	<node lat="58.84306666227412" lon="5.768855554464573" id="-2723">
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2021-06-08" />
+		<tag k="ssr:gruppe" v="gardsbebyggelse" />
+		<tag k="ssr:hovedgruppe" v="bebyggelse" />
+		<tag k="ssr:stedsnr" v="87068" />
+		<tag k="ssr:type" v="bruk" />
+	</node>
+	<node lat="58.92305737492078" lon="6.004312013977567" id="-2724">
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2021-06-08" />
+		<tag k="ssr:gruppe" v="høyder" />
+		<tag k="ssr:hovedgruppe" v="terreng" />
+		<tag k="ssr:stedsnr" v="87633" />
+		<tag k="ssr:type" v="haug" />
+	</node>
+	<node lat="59.03081667030349" lon="6.393916667496461" id="-2725">
+		<tag k="natural" v="water" />
+		<tag k="ssr:date" v="2021-06-08" />
+		<tag k="ssr:gruppe" v="stilleståendeVann" />
+		<tag k="ssr:hovedgruppe" v="ferskvann" />
+		<tag k="ssr:stedsnr" v="92735" />
+		<tag k="ssr:type" v="gruppeAvTjern" />
+		<tag k="water" v="lake" />
+	</node>
+	<node lat="58.9095111078141" lon="5.992586115868648" id="-2764">
+		<tag k="place" v="islet" />
+		<tag k="ssr:date" v="2021-06-08" />
+		<tag k="ssr:gruppe" v="kystkontur" />
+		<tag k="ssr:hovedgruppe" v="sjø" />
+		<tag k="ssr:stedsnr" v="122733" />
+		<tag k="ssr:type" v="holmeISjø" />
+	</node>
 	<node lat="58.86671944443747" lon="5.973866662703903" id="-2766">
 		<tag k="loc_name" v="Holsund" />
 		<tag k="place" v="locality" />
@@ -76,6 +1685,471 @@
 		<tag k="ssr:hovedgruppe" v="bebyggelse" />
 		<tag k="ssr:stedsnr" v="121894" />
 		<tag k="ssr:type" v="gammelBosettingsplass" />
+	</node>
+	<node lat="58.93738889152098" lon="5.80415833111437" id="-2768">
+		<tag k="bay" v="fjord" />
+		<tag k="natural" v="bay" />
+		<tag k="ssr:date" v="2021-06-08" />
+		<tag k="ssr:gruppe" v="farvann" />
+		<tag k="ssr:hovedgruppe" v="sjø" />
+		<tag k="ssr:stedsnr" v="122048" />
+		<tag k="ssr:type" v="fjord" />
+	</node>
+	<node lat="58.938641670599566" lon="6.410874999236253" id="-2775">
+		<tag k="fixme" v="consider natural=peak for the most distinct mountains in the district" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2021-06-08" />
+		<tag k="ssr:gruppe" v="høyder" />
+		<tag k="ssr:hovedgruppe" v="terreng" />
+		<tag k="ssr:stedsnr" v="122537" />
+		<tag k="ssr:type" v="ås" />
+	</node>
+	<node lat="58.920263886853995" lon="6.441699996318108" id="-2786">
+		<tag k="highway" v="path" />
+		<tag k="ssr:date" v="2021-06-08" />
+		<tag k="ssr:gruppe" v="veg" />
+		<tag k="ssr:hovedgruppe" v="infrastruktur" />
+		<tag k="ssr:stedsnr" v="122700" />
+		<tag k="ssr:type" v="sti" />
+	</node>
+	<node lat="58.97407085357124" lon="5.855054003892739" id="-2787">
+		<tag k="place" v="islet" />
+		<tag k="ssr:date" v="2021-06-08" />
+		<tag k="ssr:gruppe" v="kystkontur" />
+		<tag k="ssr:hovedgruppe" v="sjø" />
+		<tag k="ssr:stedsnr" v="122773" />
+		<tag k="ssr:type" v="holmeISjø" />
+	</node>
+	<node lat="58.999677065815995" lon="6.674739361477981" id="-2788">
+		<tag k="natural" v="water" />
+		<tag k="ssr:date" v="2021-06-08" />
+		<tag k="ssr:gruppe" v="stilleståendeVann" />
+		<tag k="ssr:hovedgruppe" v="ferskvann" />
+		<tag k="ssr:stedsnr" v="122776" />
+		<tag k="ssr:type" v="vann" />
+		<tag k="water" v="lake" />
+	</node>
+	<node lat="58.935655557678054" lon="5.970177772416137" id="-2790">
+		<tag k="natural" v="bay" />
+		<tag k="ssr:date" v="2021-06-08" />
+		<tag k="ssr:gruppe" v="kystkontur" />
+		<tag k="ssr:hovedgruppe" v="sjø" />
+		<tag k="ssr:stedsnr" v="122790" />
+		<tag k="ssr:type" v="vikISjø" />
+	</node>
+	<node lat="58.955171876947844" lon="5.861359734972767" id="-2792">
+		<tag k="natural" v="bay" />
+		<tag k="ssr:date" v="2021-06-08" />
+		<tag k="ssr:gruppe" v="kystkontur" />
+		<tag k="ssr:hovedgruppe" v="sjø" />
+		<tag k="ssr:stedsnr" v="122794" />
+		<tag k="ssr:type" v="vikISjø" />
+	</node>
+	<node lat="58.89101110933647" lon="6.326136119238549" id="-2796">
+		<tag k="fixme" v="consider natural=peak for the most distinct mountains in the district" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2021-06-08" />
+		<tag k="ssr:gruppe" v="høyder" />
+		<tag k="ssr:hovedgruppe" v="terreng" />
+		<tag k="ssr:stedsnr" v="122749" />
+		<tag k="ssr:type" v="ås" />
+	</node>
+	<node lat="59.14935277867102" lon="6.6126249939907575" id="-2809">
+		<tag k="natural" v="water" />
+		<tag k="ssr:date" v="2021-06-08" />
+		<tag k="ssr:gruppe" v="stilleståendeVann" />
+		<tag k="ssr:hovedgruppe" v="ferskvann" />
+		<tag k="ssr:stedsnr" v="123153" />
+		<tag k="ssr:type" v="vann" />
+		<tag k="water" v="lake" />
+	</node>
+	<node lat="59.02265277984461" lon="6.320113897433869" id="-2814">
+		<tag k="natural" v="valley" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2021-06-08" />
+		<tag k="ssr:gruppe" v="senkninger" />
+		<tag k="ssr:hovedgruppe" v="terreng" />
+		<tag k="ssr:stedsnr" v="123232" />
+		<tag k="ssr:type" v="skar" />
+	</node>
+	<node lat="58.95617499731568" lon="6.263625000787148" id="-2819">
+		<tag k="natural" v="slope" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2021-06-08" />
+		<tag k="ssr:gruppe" v="skråninger" />
+		<tag k="ssr:hovedgruppe" v="terreng" />
+		<tag k="ssr:stedsnr" v="142079" />
+		<tag k="ssr:type" v="li" />
+	</node>
+	<node lat="58.95333055790617" lon="6.256894439091014" id="-2820">
+		<tag k="natural" v="water" />
+		<tag k="ssr:date" v="2021-06-08" />
+		<tag k="ssr:gruppe" v="stilleståendeVann" />
+		<tag k="ssr:hovedgruppe" v="ferskvann" />
+		<tag k="ssr:stedsnr" v="142080" />
+		<tag k="ssr:type" v="vann" />
+		<tag k="water" v="lake" />
+	</node>
+	<node lat="58.95569285352915" lon="5.847224510298437" id="-2866">
+		<tag k="loc_name" v="Tøkjet;Tøket" />
+		<tag k="natural" v="cape" />
+		<tag k="ssr:date" v="2021-06-08" />
+		<tag k="ssr:gruppe" v="kystkontur" />
+		<tag k="ssr:hovedgruppe" v="sjø" />
+		<tag k="ssr:stedsnr" v="146621" />
+		<tag k="ssr:type" v="nesISjø" />
+	</node>
+	<node lat="58.932198044773294" lon="5.842183266553211" id="-2867">
+		<tag k="natural" v="cape" />
+		<tag k="ssr:date" v="2021-06-08" />
+		<tag k="ssr:gruppe" v="kystkontur" />
+		<tag k="ssr:hovedgruppe" v="sjø" />
+		<tag k="ssr:stedsnr" v="146596" />
+		<tag k="ssr:type" v="nesISjø" />
+	</node>
+	<node lat="58.844447223912375" lon="5.709277782881984" id="-2868">
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2021-06-08" />
+		<tag k="ssr:gruppe" v="gardsbebyggelse" />
+		<tag k="ssr:hovedgruppe" v="bebyggelse" />
+		<tag k="ssr:stedsnr" v="147091" />
+		<tag k="ssr:type" v="bruk" />
+	</node>
+	<node lat="58.842094447590135" lon="5.7090583359867795" id="-2869">
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2021-06-08" />
+		<tag k="ssr:gruppe" v="gardsbebyggelse" />
+		<tag k="ssr:hovedgruppe" v="bebyggelse" />
+		<tag k="ssr:stedsnr" v="147037" />
+		<tag k="ssr:type" v="bruk" />
+	</node>
+	<node lat="58.81784722558385" lon="5.726427772585523" id="-2870">
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2021-06-08" />
+		<tag k="ssr:gruppe" v="gardsbebyggelse" />
+		<tag k="ssr:hovedgruppe" v="bebyggelse" />
+		<tag k="ssr:stedsnr" v="155269" />
+		<tag k="ssr:type" v="bruk" />
+	</node>
+	<node lat="58.94228309291088" lon="5.853697424359571" id="-2915">
+		<tag k="natural" v="bay" />
+		<tag k="ssr:date" v="2021-06-08" />
+		<tag k="ssr:gruppe" v="kystkontur" />
+		<tag k="ssr:hovedgruppe" v="sjø" />
+		<tag k="ssr:stedsnr" v="182780" />
+		<tag k="ssr:type" v="vikISjø" />
+	</node>
+	<node lat="59.05481667072977" lon="6.518616674780636" id="-2919">
+		<tag k="natural" v="valley" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2021-06-08" />
+		<tag k="ssr:gruppe" v="senkninger" />
+		<tag k="ssr:hovedgruppe" v="terreng" />
+		<tag k="ssr:stedsnr" v="183056" />
+		<tag k="ssr:type" v="botn" />
+	</node>
+	<node lat="59.13097777969823" lon="6.604272216770648" id="-2920">
+		<tag k="fixme" v="consider natural=peak for the most distinct mountains in the district" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2021-06-08" />
+		<tag k="ssr:gruppe" v="høyder" />
+		<tag k="ssr:hovedgruppe" v="terreng" />
+		<tag k="ssr:stedsnr" v="183117" />
+		<tag k="ssr:type" v="fjell" />
+	</node>
+	<node lat="58.99822777582399" lon="6.45819721466432" id="-2922">
+		<tag k="fixme" v="consider natural=peak for the most distinct mountains in the district" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2021-06-08" />
+		<tag k="ssr:gruppe" v="høyder" />
+		<tag k="ssr:hovedgruppe" v="terreng" />
+		<tag k="ssr:stedsnr" v="183176" />
+		<tag k="ssr:type" v="ås" />
+	</node>
+	<node lat="58.87696111193454" lon="5.99118333729367" id="-2927">
+		<tag k="natural" v="hill" />
+		<tag k="old_name" v="Bukkaknuten" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2019-12-27" />
+		<tag k="ssr:gruppe" v="høyder" />
+		<tag k="ssr:hovedgruppe" v="terreng" />
+		<tag k="ssr:stedsnr" v="183680" />
+		<tag k="ssr:type" v="haug" />
+	</node>
+	<node lat="58.8955888906314" lon="6.3006277788450795" id="-2941">
+		<tag k="natural" v="valley" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2021-06-08" />
+		<tag k="ssr:gruppe" v="senkninger" />
+		<tag k="ssr:hovedgruppe" v="terreng" />
+		<tag k="ssr:stedsnr" v="183757" />
+		<tag k="ssr:type" v="skar" />
+	</node>
+	<node lat="58.85192222580234" lon="5.734377780053827" id="-2982">
+		<tag k="place" v="square" />
+		<tag k="ssr:date" v="2021-06-08" />
+		<tag k="ssr:gruppe" v="bebyggelsesområder" />
+		<tag k="ssr:hovedgruppe" v="bebyggelse" />
+		<tag k="ssr:stedsnr" v="283131" />
+		<tag k="ssr:type" v="torg" />
+	</node>
+	<node lat="58.96077693049951" lon="5.905729931711559" id="-3016">
+		<tag k="place" v="islet" />
+		<tag k="ssr:date" v="2021-06-08" />
+		<tag k="ssr:gruppe" v="kystkontur" />
+		<tag k="ssr:hovedgruppe" v="sjø" />
+		<tag k="ssr:stedsnr" v="304825" />
+		<tag k="ssr:type" v="holmeISjø" />
+	</node>
+	<node lat="58.93166299861288" lon="5.799418387604903" id="-3019">
+		<tag k="natural" v="bay" />
+		<tag k="ssr:date" v="2021-06-08" />
+		<tag k="ssr:gruppe" v="kystkontur" />
+		<tag k="ssr:hovedgruppe" v="sjø" />
+		<tag k="ssr:stedsnr" v="304007" />
+		<tag k="ssr:type" v="vikISjø" />
+	</node>
+	<node lat="58.93421705707561" lon="5.819834808205257" id="-3020">
+		<tag k="place" v="islet" />
+		<tag k="ssr:date" v="2021-06-08" />
+		<tag k="ssr:gruppe" v="kystkontur" />
+		<tag k="ssr:hovedgruppe" v="sjø" />
+		<tag k="ssr:stedsnr" v="304008" />
+		<tag k="ssr:type" v="holmeISjø" />
+	</node>
+	<node lat="58.99225833641141" lon="6.329336115560612" id="-3022">
+		<tag k="natural" v="water" />
+		<tag k="ssr:date" v="2021-06-08" />
+		<tag k="ssr:gruppe" v="stilleståendeVann" />
+		<tag k="ssr:hovedgruppe" v="ferskvann" />
+		<tag k="ssr:stedsnr" v="304494" />
+		<tag k="ssr:type" v="tjern" />
+	</node>
+	<node lat="58.98714763077243" lon="6.299113559579175" id="-3023">
+		<tag k="natural" v="valley" />
+		<tag k="old_name" v="Mulekosen" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2021-06-08" />
+		<tag k="ssr:gruppe" v="senkninger" />
+		<tag k="ssr:hovedgruppe" v="terreng" />
+		<tag k="ssr:stedsnr" v="304499" />
+		<tag k="ssr:type" v="botn" />
+	</node>
+	<node lat="58.96083333612664" lon="6.303511119221324" id="-3027">
+		<tag k="natural" v="water" />
+		<tag k="ssr:date" v="2021-06-08" />
+		<tag k="ssr:gruppe" v="stilleståendeVann" />
+		<tag k="ssr:hovedgruppe" v="ferskvann" />
+		<tag k="ssr:stedsnr" v="304519" />
+		<tag k="ssr:type" v="tjern" />
+	</node>
+	<node lat="58.9478416640831" lon="6.474330553164472" id="-3032">
+		<tag k="natural" v="water" />
+		<tag k="ssr:date" v="2021-06-08" />
+		<tag k="ssr:gruppe" v="stilleståendeVann" />
+		<tag k="ssr:hovedgruppe" v="ferskvann" />
+		<tag k="ssr:stedsnr" v="304554" />
+		<tag k="ssr:type" v="tjern" />
+	</node>
+	<node lat="58.92490555562289" lon="6.00069165934614" id="-3042">
+		<tag k="natural" v="cape" />
+		<tag k="ssr:date" v="2021-06-08" />
+		<tag k="ssr:gruppe" v="kystkontur" />
+		<tag k="ssr:hovedgruppe" v="sjø" />
+		<tag k="ssr:stedsnr" v="304740" />
+		<tag k="ssr:type" v="nesISjø" />
+	</node>
+	<node lat="58.91720000089725" lon="6.441574999993992" id="-3045">
+		<tag k="natural" v="water" />
+		<tag k="ssr:date" v="2021-06-08" />
+		<tag k="ssr:gruppe" v="stilleståendeVann" />
+		<tag k="ssr:hovedgruppe" v="ferskvann" />
+		<tag k="ssr:stedsnr" v="304748" />
+		<tag k="ssr:type" v="gruppeAvTjern" />
+		<tag k="water" v="lake" />
+	</node>
+	<node lat="58.91095555162752" lon="6.367536106480603" id="-3046">
+		<tag k="fixme" v="consider natural=peak for the most distinct mountains in the district" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2021-06-08" />
+		<tag k="ssr:gruppe" v="høyder" />
+		<tag k="ssr:hovedgruppe" v="terreng" />
+		<tag k="ssr:stedsnr" v="304749" />
+		<tag k="ssr:type" v="ås" />
+	</node>
+	<node lat="58.85818611370957" lon="6.242900002387071" id="-3053">
+		<tag k="ssr:date" v="2021-06-08" />
+		<tag k="ssr:gruppe" v="rennendeVann" />
+		<tag k="ssr:hovedgruppe" v="ferskvann" />
+		<tag k="ssr:stedsnr" v="304656" />
+		<tag k="ssr:type" v="bekk" />
+		<tag k="waterway" v="stream" />
+	</node>
+	<node lat="58.97093059166237" lon="5.858533265547566" id="-3056">
+		<tag k="place" v="islet" />
+		<tag k="ssr:date" v="2021-06-08" />
+		<tag k="ssr:gruppe" v="kystkontur" />
+		<tag k="ssr:hovedgruppe" v="sjø" />
+		<tag k="ssr:stedsnr" v="304788" />
+		<tag k="ssr:type" v="holmeISjø" />
+	</node>
+	<node lat="58.921122226062195" lon="5.878497214979892" id="-3089">
+		<tag k="natural" v="valley" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2021-06-08" />
+		<tag k="ssr:gruppe" v="senkninger" />
+		<tag k="ssr:hovedgruppe" v="terreng" />
+		<tag k="ssr:stedsnr" v="326145" />
+		<tag k="ssr:type" v="dal" />
+	</node>
+	<node lat="58.841350000053815" lon="5.709413892377664" id="-3116">
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2021-06-08" />
+		<tag k="ssr:gruppe" v="gardsbebyggelse" />
+		<tag k="ssr:hovedgruppe" v="bebyggelse" />
+		<tag k="ssr:stedsnr" v="329041" />
+		<tag k="ssr:type" v="bruk" />
+	</node>
+	<node lat="58.842658332195036" lon="5.767213893089482" id="-3117">
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2021-06-08" />
+		<tag k="ssr:gruppe" v="gardsbebyggelse" />
+		<tag k="ssr:hovedgruppe" v="bebyggelse" />
+		<tag k="ssr:stedsnr" v="329135" />
+		<tag k="ssr:type" v="bruk" />
+	</node>
+	<node lat="58.919619443088536" lon="6.101033324990517" id="-3118">
+		<tag k="highway" v="path" />
+		<tag k="ssr:date" v="2021-06-08" />
+		<tag k="ssr:gruppe" v="veg" />
+		<tag k="ssr:hovedgruppe" v="infrastruktur" />
+		<tag k="ssr:stedsnr" v="329561" />
+		<tag k="ssr:type" v="sti" />
+	</node>
+	<node lat="58.9188611129596" lon="6.016080556492922" id="-3119">
+		<tag k="fixme" v="consider natural=peak for the most distinct mountains in the district" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2021-06-08" />
+		<tag k="ssr:gruppe" v="høyder" />
+		<tag k="ssr:hovedgruppe" v="terreng" />
+		<tag k="ssr:stedsnr" v="329601" />
+		<tag k="ssr:type" v="fjell" />
+	</node>
+	<node lat="59.01744376121257" lon="6.302358054709432" id="-3141">
+		<tag k="fixme" v="consider natural=peak for the most distinct mountains in the district" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2021-06-08" />
+		<tag k="ssr:gruppe" v="høyder" />
+		<tag k="ssr:hovedgruppe" v="terreng" />
+		<tag k="ssr:stedsnr" v="360859" />
+		<tag k="ssr:type" v="fjell" />
+	</node>
+	<node lat="58.99383611231074" lon="5.816247213448663" id="-3182">
+		<tag k="bay" v="fjord" />
+		<tag k="natural" v="bay" />
+		<tag k="ssr:date" v="2021-06-08" />
+		<tag k="ssr:gruppe" v="farvann" />
+		<tag k="ssr:hovedgruppe" v="sjø" />
+		<tag k="ssr:stedsnr" v="364128" />
+		<tag k="ssr:type" v="fjord" />
+	</node>
+	<node lat="58.903647223707615" lon="6.4156472249675" id="-3184">
+		<tag k="fixme" v="consider natural=peak for the most distinct mountains in the district" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2021-06-08" />
+		<tag k="ssr:gruppe" v="høyder" />
+		<tag k="ssr:hovedgruppe" v="terreng" />
+		<tag k="ssr:stedsnr" v="364739" />
+		<tag k="ssr:type" v="ås" />
+	</node>
+	<node lat="59.03832222455302" lon="6.687202770188077" id="-3201">
+		<tag k="natural" v="water" />
+		<tag k="ssr:date" v="2021-06-08" />
+		<tag k="ssr:gruppe" v="stilleståendeVann" />
+		<tag k="ssr:hovedgruppe" v="ferskvann" />
+		<tag k="ssr:stedsnr" v="365831" />
+		<tag k="ssr:type" v="tjern" />
+	</node>
+	<node lat="58.9595051925805" lon="5.8120373637759775" id="-3204">
+		<tag k="place" v="islet" />
+		<tag k="ssr:date" v="2021-06-08" />
+		<tag k="ssr:gruppe" v="kystkontur" />
+		<tag k="ssr:hovedgruppe" v="sjø" />
+		<tag k="ssr:stedsnr" v="365106" />
+		<tag k="ssr:type" v="holmeISjø" />
+	</node>
+	<node lat="58.953013002102715" lon="6.513134848674724" id="-3208">
+		<tag k="natural" v="water" />
+		<tag k="ssr:date" v="2021-06-08" />
+		<tag k="ssr:gruppe" v="stilleståendeVann" />
+		<tag k="ssr:hovedgruppe" v="ferskvann" />
+		<tag k="ssr:stedsnr" v="365564" />
+		<tag k="ssr:type" v="vann" />
+		<tag k="water" v="lake" />
+	</node>
+	<node lat="58.93098333705749" lon="5.983752769449071" id="-3222">
+		<tag k="place" v="islet" />
+		<tag k="ssr:date" v="2021-06-08" />
+		<tag k="ssr:gruppe" v="kystkontur" />
+		<tag k="ssr:hovedgruppe" v="sjø" />
+		<tag k="ssr:stedsnr" v="386091" />
+		<tag k="ssr:type" v="holmeISjø" />
+	</node>
+	<node lat="59.72137778106512" lon="6.615819446186849" id="-3225">
+		<tag k="natural" v="mountain_range" />
+		<tag k="ssr:date" v="2021-06-08" />
+		<tag k="ssr:gruppe" v="terrengområder" />
+		<tag k="ssr:hovedgruppe" v="terreng" />
+		<tag k="ssr:stedsnr" v="386635" />
+		<tag k="ssr:type" v="fjellområde" />
+	</node>
+	<node lat="58.90533888898269" lon="6.0259305608453575" id="-3242">
+		<tag k="natural" v="cape" />
+		<tag k="ssr:date" v="2021-06-08" />
+		<tag k="ssr:gruppe" v="kystkontur" />
+		<tag k="ssr:hovedgruppe" v="sjø" />
+		<tag k="ssr:stedsnr" v="389646" />
+		<tag k="ssr:type" v="nesISjø" />
+	</node>
+	<node lat="58.845055558662104" lon="5.725605562548305" id="-3243">
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2021-06-08" />
+		<tag k="ssr:gruppe" v="gardsbebyggelse" />
+		<tag k="ssr:hovedgruppe" v="bebyggelse" />
+		<tag k="ssr:stedsnr" v="390031" />
+		<tag k="ssr:type" v="bruk" />
+	</node>
+	<node lat="58.842716663007494" lon="5.769311106682674" id="-3244">
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2021-06-08" />
+		<tag k="ssr:gruppe" v="gardsbebyggelse" />
+		<tag k="ssr:hovedgruppe" v="bebyggelse" />
+		<tag k="ssr:stedsnr" v="390130" />
+		<tag k="ssr:type" v="bruk" />
+	</node>
+	<node lat="58.84270555208651" lon="5.768825003471758" id="-3245">
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2021-06-08" />
+		<tag k="ssr:gruppe" v="gardsbebyggelse" />
+		<tag k="ssr:hovedgruppe" v="bebyggelse" />
+		<tag k="ssr:stedsnr" v="390131" />
+		<tag k="ssr:type" v="bruk" />
+	</node>
+	<node lat="59.02708700942499" lon="6.4092121179160815" id="-3246">
+		<tag k="natural" v="bay" />
+		<tag k="ssr:date" v="2021-06-08" />
+		<tag k="ssr:gruppe" v="kystkontur" />
+		<tag k="ssr:hovedgruppe" v="sjø" />
+		<tag k="ssr:stedsnr" v="395760" />
+		<tag k="ssr:type" v="vikISjø" />
 	</node>
 	<node lat="58.946265808627786" lon="5.810607963206265" id="-3249">
 		<tag k="loc_name" v="Dikurneset" />
@@ -86,6 +2160,374 @@
 		<tag k="ssr:stedsnr" v="403954" />
 		<tag k="ssr:type" v="nesISjø" />
 	</node>
+	<node lat="58.86743245151057" lon="5.861528042534313" id="-3301">
+		<tag k="fixme" v="consider place=hamlet" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2021-06-08" />
+		<tag k="ssr:gruppe" v="gardsbebyggelse" />
+		<tag k="ssr:hovedgruppe" v="bebyggelse" />
+		<tag k="ssr:stedsnr" v="425683" />
+		<tag k="ssr:type" v="gard" />
+	</node>
+	<node lat="58.99277500153098" lon="6.42323056313223" id="-3305">
+		<tag k="ssr:date" v="2021-06-08" />
+		<tag k="ssr:gruppe" v="rennendeVann" />
+		<tag k="ssr:hovedgruppe" v="ferskvann" />
+		<tag k="ssr:stedsnr" v="425483" />
+		<tag k="ssr:type" v="bekk" />
+		<tag k="waterway" v="stream" />
+	</node>
+	<node lat="58.92370278114893" lon="6.3920805526979425" id="-3312">
+		<tag k="natural" v="valley" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2021-06-08" />
+		<tag k="ssr:gruppe" v="senkninger" />
+		<tag k="ssr:hovedgruppe" v="terreng" />
+		<tag k="ssr:stedsnr" v="426721" />
+		<tag k="ssr:type" v="dal" />
+	</node>
+	<node lat="59.048552778421715" lon="6.290155558023846" id="-3315">
+		<tag k="natural" v="valley" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2021-06-08" />
+		<tag k="ssr:gruppe" v="senkninger" />
+		<tag k="ssr:hovedgruppe" v="terreng" />
+		<tag k="ssr:stedsnr" v="426015" />
+		<tag k="ssr:type" v="botn" />
+	</node>
+	<node lat="58.89518332996149" lon="6.3959638831424925" id="-3331">
+		<tag k="natural" v="cape" />
+		<tag k="ssr:date" v="2021-06-08" />
+		<tag k="ssr:gruppe" v="ferskvannskontur" />
+		<tag k="ssr:hovedgruppe" v="ferskvann" />
+		<tag k="ssr:stedsnr" v="426739" />
+		<tag k="ssr:type" v="nes" />
+	</node>
+	<node lat="59.02009444042121" lon="6.311094452589898" id="-3337">
+		<tag k="natural" v="valley" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2021-06-08" />
+		<tag k="ssr:gruppe" v="senkninger" />
+		<tag k="ssr:hovedgruppe" v="terreng" />
+		<tag k="ssr:stedsnr" v="427220" />
+		<tag k="ssr:type" v="skar" />
+	</node>
+	<node lat="58.92478055546514" lon="5.971736117801505" id="-3347">
+		<tag k="natural" v="bay" />
+		<tag k="ssr:date" v="2021-06-08" />
+		<tag k="ssr:gruppe" v="kystkontur" />
+		<tag k="ssr:hovedgruppe" v="sjø" />
+		<tag k="ssr:stedsnr" v="447035" />
+		<tag k="ssr:type" v="vikISjø" />
+	</node>
+	<node lat="58.944622225153786" lon="5.96157778513492" id="-3362">
+		<tag k="fixme" v="consider natural=peak for the most distinct mountains in the district" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2021-06-08" />
+		<tag k="ssr:gruppe" v="høyder" />
+		<tag k="ssr:hovedgruppe" v="terreng" />
+		<tag k="ssr:stedsnr" v="508081" />
+		<tag k="ssr:type" v="fjell" />
+	</node>
+	<node lat="58.937169440395785" lon="5.851022216022793" id="-3370">
+		<tag k="natural" v="bay" />
+		<tag k="ssr:date" v="2021-06-08" />
+		<tag k="ssr:gruppe" v="kystkontur" />
+		<tag k="ssr:hovedgruppe" v="sjø" />
+		<tag k="ssr:stedsnr" v="508130" />
+		<tag k="ssr:type" v="vikISjø" />
+	</node>
+	<node lat="59.0549395887638" lon="6.6648323015052355" id="-3385">
+		<tag k="layer" v="-1" />
+		<tag k="ssr:date" v="2021-06-08" />
+		<tag k="ssr:gruppe" v="samferdselsanlegg" />
+		<tag k="ssr:hovedgruppe" v="infrastruktur" />
+		<tag k="ssr:stedsnr" v="510625" />
+		<tag k="ssr:type" v="tunnel" />
+		<tag k="tunnel" v="yes" />
+	</node>
+	<node lat="58.90759573066896" lon="6.425423175704116" id="-3428">
+		<tag k="fixme" v="consider natural=peak for the most distinct mountains in the district" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2021-06-08" />
+		<tag k="ssr:gruppe" v="høyder" />
+		<tag k="ssr:hovedgruppe" v="terreng" />
+		<tag k="ssr:stedsnr" v="546694" />
+		<tag k="ssr:type" v="fjell" />
+	</node>
+	<node lat="59.04769721847628" lon="6.305066659481242" id="-3431">
+		<tag k="fixme" v="consider natural=peak for the most distinct mountains in the district" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2021-06-08" />
+		<tag k="ssr:gruppe" v="høyder" />
+		<tag k="ssr:hovedgruppe" v="terreng" />
+		<tag k="ssr:stedsnr" v="547011" />
+		<tag k="ssr:type" v="ås" />
+	</node>
+	<node lat="59.02930278010637" lon="6.359963888135" id="-3439">
+		<tag k="fixme" v="consider natural=peak for the most distinct mountains in the district" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2021-06-08" />
+		<tag k="ssr:gruppe" v="høyder" />
+		<tag k="ssr:hovedgruppe" v="terreng" />
+		<tag k="ssr:stedsnr" v="547053" />
+		<tag k="ssr:type" v="ås" />
+	</node>
+	<node lat="58.94578610740237" lon="6.40258334116544" id="-3442">
+		<tag k="natural" v="water" />
+		<tag k="ssr:date" v="2021-06-08" />
+		<tag k="ssr:gruppe" v="stilleståendeVann" />
+		<tag k="ssr:hovedgruppe" v="ferskvann" />
+		<tag k="ssr:stedsnr" v="547596" />
+		<tag k="ssr:type" v="vann" />
+		<tag k="water" v="lake" />
+	</node>
+	<node lat="58.90747500172441" lon="5.973569445433553" id="-3457">
+		<tag k="natural" v="cape" />
+		<tag k="ssr:date" v="2021-06-08" />
+		<tag k="ssr:gruppe" v="kystkontur" />
+		<tag k="ssr:hovedgruppe" v="sjø" />
+		<tag k="ssr:stedsnr" v="568042" />
+		<tag k="ssr:type" v="nesISjø" />
+	</node>
+	<node lat="58.84211389130912" lon="5.70994166857456" id="-3487">
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2021-06-08" />
+		<tag k="ssr:gruppe" v="gardsbebyggelse" />
+		<tag k="ssr:hovedgruppe" v="bebyggelse" />
+		<tag k="ssr:stedsnr" v="572125" />
+		<tag k="ssr:type" v="bruk" />
+	</node>
+	<node lat="58.92118610945326" lon="6.009727777619505" id="-3499">
+		<tag k="natural" v="bay" />
+		<tag k="ssr:date" v="2021-06-08" />
+		<tag k="ssr:gruppe" v="kystkontur" />
+		<tag k="ssr:hovedgruppe" v="sjø" />
+		<tag k="ssr:stedsnr" v="602730" />
+		<tag k="ssr:type" v="vikISjø" />
+	</node>
+	<node lat="58.82062439529125" lon="5.730442241582076" id="-3530">
+		<tag k="natural" v="water" />
+		<tag k="ssr:date" v="2021-06-08" />
+		<tag k="ssr:gruppe" v="stilleståendeVann" />
+		<tag k="ssr:hovedgruppe" v="ferskvann" />
+		<tag k="ssr:stedsnr" v="607926" />
+		<tag k="ssr:type" v="tjern" />
+	</node>
+	<node lat="58.97944444890976" lon="6.400736119454384" id="-3539">
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2021-06-08" />
+		<tag k="ssr:gruppe" v="terrengdetaljer" />
+		<tag k="ssr:hovedgruppe" v="terreng" />
+		<tag k="ssr:stedsnr" v="607528" />
+		<tag k="ssr:type" v="annenTerrengdetalj" />
+	</node>
+	<node lat="58.93319166399736" lon="6.395152772313232" id="-3554">
+		<tag k="natural" v="gorge" />
+		<tag k="ssr:date" v="2021-06-08" />
+		<tag k="ssr:gruppe" v="senkninger" />
+		<tag k="ssr:hovedgruppe" v="terreng" />
+		<tag k="ssr:stedsnr" v="607690" />
+		<tag k="ssr:type" v="juv" />
+	</node>
+	<node lat="58.93551944202325" lon="6.484722230409197" id="-3567">
+		<tag k="natural" v="slope" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2021-06-08" />
+		<tag k="ssr:gruppe" v="skråninger" />
+		<tag k="ssr:hovedgruppe" v="terreng" />
+		<tag k="ssr:stedsnr" v="607694" />
+		<tag k="ssr:type" v="li" />
+	</node>
+	<node lat="58.91270277973691" lon="6.022094451579429" id="-3571">
+		<tag k="place" v="island" />
+		<tag k="ssr:date" v="2021-06-08" />
+		<tag k="ssr:gruppe" v="kystkontur" />
+		<tag k="ssr:hovedgruppe" v="sjø" />
+		<tag k="ssr:stedsnr" v="607736" />
+		<tag k="ssr:type" v="øyISjø" />
+	</node>
+	<node lat="59.02071944613816" lon="6.5804861135326185" id="-3578">
+		<tag k="fixme" v="consider natural=peak for the most distinct mountains in the district" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2021-06-08" />
+		<tag k="ssr:gruppe" v="høyder" />
+		<tag k="ssr:hovedgruppe" v="terreng" />
+		<tag k="ssr:stedsnr" v="608186" />
+		<tag k="ssr:type" v="fjell" />
+	</node>
+	<node lat="58.938686108736846" lon="6.244149998438453" id="-3584">
+		<tag k="natural" v="water" />
+		<tag k="ssr:date" v="2021-06-08" />
+		<tag k="ssr:gruppe" v="stilleståendeVann" />
+		<tag k="ssr:hovedgruppe" v="ferskvann" />
+		<tag k="ssr:stedsnr" v="627071" />
+		<tag k="ssr:type" v="vann" />
+		<tag k="water" v="lake" />
+	</node>
+	<node lat="58.97199614061901" lon="6.226610767873338" id="-3585">
+		<tag k="natural" v="water" />
+		<tag k="ssr:date" v="2021-06-08" />
+		<tag k="ssr:gruppe" v="stilleståendeVann" />
+		<tag k="ssr:hovedgruppe" v="ferskvann" />
+		<tag k="ssr:stedsnr" v="627075" />
+		<tag k="ssr:type" v="tjern" />
+	</node>
+	<node lat="58.84116944533208" lon="5.708844441466169" id="-3621">
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2021-06-08" />
+		<tag k="ssr:gruppe" v="gardsbebyggelse" />
+		<tag k="ssr:hovedgruppe" v="bebyggelse" />
+		<tag k="ssr:stedsnr" v="632048" />
+		<tag k="ssr:type" v="bruk" />
+	</node>
+	<node lat="58.93897917219828" lon="6.351149984642378" id="-3672">
+		<tag k="natural" v="water" />
+		<tag k="ssr:date" v="2021-06-08" />
+		<tag k="ssr:gruppe" v="stilleståendeVann" />
+		<tag k="ssr:hovedgruppe" v="ferskvann" />
+		<tag k="ssr:stedsnr" v="668569" />
+		<tag k="ssr:type" v="vann" />
+		<tag k="water" v="lake" />
+	</node>
+	<node lat="58.91738013667451" lon="5.88794631956314" id="-3679">
+		<tag k="fixme" v="consider place=hamlet" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2021-06-08" />
+		<tag k="ssr:gruppe" v="gardsbebyggelse" />
+		<tag k="ssr:hovedgruppe" v="bebyggelse" />
+		<tag k="ssr:stedsnr" v="668746" />
+		<tag k="ssr:type" v="gard" />
+	</node>
+	<node lat="58.91542221898287" lon="5.991719437366799" id="-3682">
+		<tag k="place" v="islet" />
+		<tag k="ssr:date" v="2021-06-08" />
+		<tag k="ssr:gruppe" v="kystkontur" />
+		<tag k="ssr:hovedgruppe" v="sjø" />
+		<tag k="ssr:stedsnr" v="668762" />
+		<tag k="ssr:type" v="holmeISjø" />
+	</node>
+	<node lat="59.09903332893469" lon="6.720608334786642" id="-3693">
+		<tag k="natural" v="water" />
+		<tag k="ssr:date" v="2021-06-08" />
+		<tag k="ssr:gruppe" v="stilleståendeVann" />
+		<tag k="ssr:hovedgruppe" v="ferskvann" />
+		<tag k="ssr:stedsnr" v="669160" />
+		<tag k="ssr:type" v="tjern" />
+	</node>
+	<node lat="59.019738886254245" lon="6.484536110794032" id="-3694">
+		<tag k="natural" v="valley" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2021-06-08" />
+		<tag k="ssr:gruppe" v="senkninger" />
+		<tag k="ssr:hovedgruppe" v="terreng" />
+		<tag k="ssr:stedsnr" v="669173" />
+		<tag k="ssr:type" v="skar" />
+	</node>
+	<node lat="58.93538067048698" lon="6.475992337201527" id="-3738">
+		<tag k="natural" v="water" />
+		<tag k="ssr:date" v="2021-06-08" />
+		<tag k="ssr:gruppe" v="stilleståendeVann" />
+		<tag k="ssr:hovedgruppe" v="ferskvann" />
+		<tag k="ssr:stedsnr" v="729713" />
+		<tag k="ssr:type" v="tjern" />
+	</node>
+	<node lat="58.925122226584904" lon="5.981552781713734" id="-3741">
+		<tag k="natural" v="strait" />
+		<tag k="ssr:date" v="2021-06-08" />
+		<tag k="ssr:gruppe" v="kystkontur" />
+		<tag k="ssr:hovedgruppe" v="sjø" />
+		<tag k="ssr:stedsnr" v="729732" />
+		<tag k="ssr:type" v="sundISjø" />
+	</node>
+	<node lat="59.02697924628968" lon="6.408709158601812" id="-3760">
+		<tag k="natural" v="cape" />
+		<tag k="ssr:date" v="2021-06-08" />
+		<tag k="ssr:gruppe" v="kystkontur" />
+		<tag k="ssr:hovedgruppe" v="sjø" />
+		<tag k="ssr:stedsnr" v="730031" />
+		<tag k="ssr:type" v="nesISjø" />
+	</node>
+	<node lat="59.050766664375196" lon="6.3887694504532275" id="-3762">
+		<tag k="natural" v="valley" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2021-06-08" />
+		<tag k="ssr:gruppe" v="senkninger" />
+		<tag k="ssr:hovedgruppe" v="terreng" />
+		<tag k="ssr:stedsnr" v="730042" />
+		<tag k="ssr:type" v="skar" />
+	</node>
+	<node lat="58.94112777623253" lon="5.853072215278686" id="-3778">
+		<tag k="natural" v="bay" />
+		<tag k="ssr:date" v="2021-06-08" />
+		<tag k="ssr:gruppe" v="kystkontur" />
+		<tag k="ssr:hovedgruppe" v="sjø" />
+		<tag k="ssr:stedsnr" v="751141" />
+		<tag k="ssr:type" v="vikISjø" />
+	</node>
+	<node lat="58.92822222201948" lon="5.983488892721991" id="-3787">
+		<tag k="natural" v="cape" />
+		<tag k="ssr:date" v="2021-06-08" />
+		<tag k="ssr:gruppe" v="kystkontur" />
+		<tag k="ssr:hovedgruppe" v="sjø" />
+		<tag k="ssr:stedsnr" v="751095" />
+		<tag k="ssr:type" v="nesISjø" />
+	</node>
+	<node lat="58.97675254250907" lon="5.8505584722716835" id="-3811">
+		<tag k="place" v="locality" />
+		<tag k="seamark:type" v="rock" />
+		<tag k="ssr:date" v="2021-06-08" />
+		<tag k="ssr:gruppe" v="grunnerISjø" />
+		<tag k="ssr:hovedgruppe" v="sjø" />
+		<tag k="ssr:stedsnr" v="753236" />
+		<tag k="ssr:type" v="båeISjø" />
+	</node>
+	<node lat="58.9646361084529" lon="5.843344447035039" id="-3812">
+		<tag k="fixme" v="consider seamark:type=rock or natural=shoal" />
+		<tag k="place" v="islet" />
+		<tag k="ssr:date" v="2021-06-08" />
+		<tag k="ssr:gruppe" v="grunnerISjø" />
+		<tag k="ssr:hovedgruppe" v="sjø" />
+		<tag k="ssr:stedsnr" v="753591" />
+		<tag k="ssr:type" v="skjærISjø" />
+	</node>
+	<node lat="58.84197777559752" lon="5.708991660558798" id="-3813">
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2021-06-08" />
+		<tag k="ssr:gruppe" v="gardsbebyggelse" />
+		<tag k="ssr:hovedgruppe" v="bebyggelse" />
+		<tag k="ssr:stedsnr" v="754045" />
+		<tag k="ssr:type" v="bruk" />
+	</node>
+	<node lat="58.84118888727654" lon="5.7095027730000645" id="-3814">
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2021-06-08" />
+		<tag k="ssr:gruppe" v="gardsbebyggelse" />
+		<tag k="ssr:hovedgruppe" v="bebyggelse" />
+		<tag k="ssr:stedsnr" v="754053" />
+		<tag k="ssr:type" v="bruk" />
+	</node>
+	<node lat="58.91870705980782" lon="5.996289942321664" id="-3815">
+		<tag k="natural" v="bay" />
+		<tag k="ssr:date" v="2021-06-08" />
+		<tag k="ssr:gruppe" v="kystkontur" />
+		<tag k="ssr:hovedgruppe" v="sjø" />
+		<tag k="ssr:stedsnr" v="754634" />
+		<tag k="ssr:type" v="vågISjø" />
+	</node>
+	<node lat="58.96146111544886" lon="5.903816663643747" id="-3824">
+		<tag k="place" v="islet" />
+		<tag k="ssr:date" v="2021-06-08" />
+		<tag k="ssr:gruppe" v="kystkontur" />
+		<tag k="ssr:hovedgruppe" v="sjø" />
+		<tag k="ssr:stedsnr" v="773984" />
+		<tag k="ssr:type" v="holmeISjø" />
+	</node>
 	<node lat="58.856966670114915" lon="5.942872213443301" id="-3858">
 		<tag k="loc_name" v="Torvløene" />
 		<tag k="natural" v="wetland" />
@@ -94,6 +2536,176 @@
 		<tag k="ssr:hovedgruppe" v="markslag" />
 		<tag k="ssr:stedsnr" v="788882" />
 		<tag k="ssr:type" v="myr" />
+	</node>
+	<node lat="58.95259444124704" lon="6.246138888475933" id="-3859">
+		<tag k="historic" v="shieling" />
+		<tag k="place" v="isolated_dwelling" />
+		<tag k="ssr:date" v="2021-06-08" />
+		<tag k="ssr:gruppe" v="gardsbebyggelse" />
+		<tag k="ssr:hovedgruppe" v="bebyggelse" />
+		<tag k="ssr:stedsnr" v="789533" />
+		<tag k="ssr:type" v="seterStøl" />
+	</node>
+	<node lat="59.02099722203692" lon="6.303094443876909" id="-3882">
+		<tag k="fixme" v="consider natural=peak for the most distinct mountains in the district" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2021-06-08" />
+		<tag k="ssr:gruppe" v="høyder" />
+		<tag k="ssr:hovedgruppe" v="terreng" />
+		<tag k="ssr:stedsnr" v="790178" />
+		<tag k="ssr:type" v="ås" />
+	</node>
+	<node lat="58.95861111036528" lon="5.843100000809841" id="-3888">
+		<tag k="place" v="island" />
+		<tag k="ssr:date" v="2021-06-08" />
+		<tag k="ssr:gruppe" v="kystkontur" />
+		<tag k="ssr:hovedgruppe" v="sjø" />
+		<tag k="ssr:stedsnr" v="790773" />
+		<tag k="ssr:type" v="øyISjø" />
+	</node>
+	<node lat="58.96815000157011" lon="6.408824994156237" id="-3898">
+		<tag k="natural" v="water" />
+		<tag k="ssr:date" v="2021-06-08" />
+		<tag k="ssr:gruppe" v="stilleståendeVann" />
+		<tag k="ssr:hovedgruppe" v="ferskvann" />
+		<tag k="ssr:stedsnr" v="809075" />
+		<tag k="ssr:type" v="vann" />
+		<tag k="water" v="lake" />
+	</node>
+	<node lat="58.9025416649578" lon="6.000119437924589" id="-3935">
+		<tag k="place" v="locality" />
+		<tag k="seamark:type" v="rock" />
+		<tag k="ssr:date" v="2021-06-08" />
+		<tag k="ssr:gruppe" v="grunnerISjø" />
+		<tag k="ssr:hovedgruppe" v="sjø" />
+		<tag k="ssr:stedsnr" v="814646" />
+		<tag k="ssr:type" v="båeISjø" />
+	</node>
+	<node lat="58.89445000052239" lon="6.0283777711447835" id="-3936">
+		<tag k="natural" v="valley" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2021-06-08" />
+		<tag k="ssr:gruppe" v="senkninger" />
+		<tag k="ssr:hovedgruppe" v="terreng" />
+		<tag k="ssr:stedsnr" v="814648" />
+		<tag k="ssr:type" v="dal" />
+	</node>
+	<node lat="58.955922218856884" lon="5.8545805570861145" id="-3937">
+		<tag k="natural" v="cape" />
+		<tag k="ssr:date" v="2021-06-08" />
+		<tag k="ssr:gruppe" v="kystkontur" />
+		<tag k="ssr:hovedgruppe" v="sjø" />
+		<tag k="ssr:stedsnr" v="814652" />
+		<tag k="ssr:type" v="nesISjø" />
+	</node>
+	<node lat="58.96664722170575" lon="5.889274996362443" id="-3938">
+		<tag k="natural" v="cape" />
+		<tag k="ssr:date" v="2021-06-08" />
+		<tag k="ssr:gruppe" v="kystkontur" />
+		<tag k="ssr:hovedgruppe" v="sjø" />
+		<tag k="ssr:stedsnr" v="814668" />
+		<tag k="ssr:type" v="nesISjø" />
+	</node>
+	<node lat="58.84835277954656" lon="5.738272223441925" id="-3939">
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2021-06-08" />
+		<tag k="ssr:gruppe" v="gardsbebyggelse" />
+		<tag k="ssr:hovedgruppe" v="bebyggelse" />
+		<tag k="ssr:stedsnr" v="815040" />
+		<tag k="ssr:type" v="bruk" />
+	</node>
+	<node lat="58.84181666676116" lon="5.7091666704636275" id="-3940">
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2021-06-08" />
+		<tag k="ssr:gruppe" v="gardsbebyggelse" />
+		<tag k="ssr:hovedgruppe" v="bebyggelse" />
+		<tag k="ssr:stedsnr" v="815047" />
+		<tag k="ssr:type" v="bruk" />
+	</node>
+	<node lat="58.842330551639876" lon="5.76872500283695" id="-3941">
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2021-06-08" />
+		<tag k="ssr:gruppe" v="gardsbebyggelse" />
+		<tag k="ssr:hovedgruppe" v="bebyggelse" />
+		<tag k="ssr:stedsnr" v="815121" />
+		<tag k="ssr:type" v="bruk" />
+	</node>
+	<node lat="58.84271389316038" lon="5.767924993978115" id="-3942">
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2021-06-08" />
+		<tag k="ssr:gruppe" v="gardsbebyggelse" />
+		<tag k="ssr:hovedgruppe" v="bebyggelse" />
+		<tag k="ssr:stedsnr" v="815125" />
+		<tag k="ssr:type" v="bruk" />
+	</node>
+	<node lat="58.97377222124628" lon="6.324030555303295" id="-3988">
+		<tag k="natural" v="gorge" />
+		<tag k="ssr:date" v="2021-06-08" />
+		<tag k="ssr:gruppe" v="senkninger" />
+		<tag k="ssr:hovedgruppe" v="terreng" />
+		<tag k="ssr:stedsnr" v="850523" />
+		<tag k="ssr:type" v="juv" />
+	</node>
+	<node lat="58.904505555681276" lon="6.009441663345977" id="-3990">
+		<tag k="natural" v="strait" />
+		<tag k="ssr:date" v="2021-06-08" />
+		<tag k="ssr:gruppe" v="kystkontur" />
+		<tag k="ssr:hovedgruppe" v="sjø" />
+		<tag k="ssr:stedsnr" v="850613" />
+		<tag k="ssr:type" v="sundISjø" />
+	</node>
+	<node lat="59.03002594618548" lon="6.405866764648447" id="-4006">
+		<tag k="fixme" v="consider place=hamlet" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2021-06-08" />
+		<tag k="ssr:gruppe" v="gardsbebyggelse" />
+		<tag k="ssr:hovedgruppe" v="bebyggelse" />
+		<tag k="ssr:stedsnr" v="851043" />
+		<tag k="ssr:type" v="gard" />
+	</node>
+	<node lat="58.91966944303968" lon="6.41168611824688" id="-4020">
+		<tag k="highway" v="path" />
+		<tag k="ssr:date" v="2021-06-08" />
+		<tag k="ssr:gruppe" v="veg" />
+		<tag k="ssr:hovedgruppe" v="infrastruktur" />
+		<tag k="ssr:stedsnr" v="851700" />
+		<tag k="ssr:type" v="sti" />
+	</node>
+	<node lat="58.84723333370392" lon="5.7251361187636025" id="-4078">
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2021-06-08" />
+		<tag k="ssr:gruppe" v="gardsbebyggelse" />
+		<tag k="ssr:hovedgruppe" v="bebyggelse" />
+		<tag k="ssr:stedsnr" v="875082" />
+		<tag k="ssr:type" v="bruk" />
+	</node>
+	<node lat="58.93137727929941" lon="5.838126620040699" id="-4079">
+		<tag k="fixme" v="consider seamark:type=rock or natural=shoal" />
+		<tag k="loc_name" v="Breiviksholmen" />
+		<tag k="place" v="islet" />
+		<tag k="ssr:date" v="2021-06-08" />
+		<tag k="ssr:gruppe" v="grunnerISjø" />
+		<tag k="ssr:hovedgruppe" v="sjø" />
+		<tag k="ssr:stedsnr" v="875598" />
+		<tag k="ssr:type" v="skjærISjø" />
+	</node>
+	<node lat="58.84286944025307" lon="5.769291667020529" id="-4084">
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2021-06-08" />
+		<tag k="ssr:gruppe" v="gardsbebyggelse" />
+		<tag k="ssr:hovedgruppe" v="bebyggelse" />
+		<tag k="ssr:stedsnr" v="936068" />
+		<tag k="ssr:type" v="bruk" />
+	</node>
+	<node lat="58.91328611522561" lon="5.988763890457761" id="-4085">
+		<tag k="place" v="locality" />
+		<tag k="seamark:type" v="rock" />
+		<tag k="ssr:date" v="2021-06-08" />
+		<tag k="ssr:gruppe" v="grunnerISjø" />
+		<tag k="ssr:hovedgruppe" v="sjø" />
+		<tag k="ssr:stedsnr" v="936622" />
+		<tag k="ssr:type" v="båeISjø" />
 	</node>
 	<node lat="59.03466492851547" lon="6.584085883974334" id="-4121">
 		<tag k="loc_name" v="Kjeragfossen;Kjeragsfossen" />
@@ -132,6 +2744,15 @@
 		<tag k="ssr:hovedgruppe" v="terreng" />
 		<tag k="ssr:stedsnr" v="987327" />
 		<tag k="ssr:type" v="li" />
+	</node>
+	<node lat="58.91275416590988" lon="6.448559516059366" id="-4993">
+		<tag k="fixme" v="consider boundary=protected_area and relevant protect_class if not nature reserve" />
+		<tag k="leisure" v="nature_reserve" />
+		<tag k="ssr:date" v="2021-06-08" />
+		<tag k="ssr:gruppe" v="verne-OgBruksområder" />
+		<tag k="ssr:hovedgruppe" v="offentligAdministrasjon" />
+		<tag k="ssr:stedsnr" v="1072542" />
+		<tag k="ssr:type" v="verneområde" />
 	</node>
 	<node lat="58.83958119870396" lon="5.810590672904793" id="-4994">
 		<tag k="fixme" v="consider natural=peak for the most distinct mountains in the district" />
@@ -173,6 +2794,15 @@
 		<tag k="ssr:type" v="tunnel" />
 		<tag k="tunnel" v="yes" />
 	</node>
+	<node lat="59.037089627220304" lon="6.319296781029313" id="-5005">
+		<tag k="fixme" v="consider boundary=protected_area and relevant protect_class if not nature reserve" />
+		<tag k="leisure" v="nature_reserve" />
+		<tag k="ssr:date" v="2021-06-08" />
+		<tag k="ssr:gruppe" v="verne-OgBruksområder" />
+		<tag k="ssr:hovedgruppe" v="offentligAdministrasjon" />
+		<tag k="ssr:stedsnr" v="1078021" />
+		<tag k="ssr:type" v="verneområde" />
+	</node>
 	<node lat="58.90636711809775" lon="5.808371417566356" id="-5006">
 		<tag k="fixme" v="consider natural=peak for the most distinct mountains in the district" />
 		<tag k="loc_name" v="Kjerdalstoppen" />
@@ -201,5 +2831,22 @@
 		<tag k="ssr:hovedgruppe" v="terreng" />
 		<tag k="ssr:stedsnr" v="1080165" />
 		<tag k="ssr:type" v="slette" />
+	</node>
+	<node lat="59.01529090225882" lon="6.4314490273968135" id="-5017">
+		<tag k="man_made" v="quay" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2021-08-16" />
+		<tag k="ssr:gruppe" v="sjøfart" />
+		<tag k="ssr:hovedgruppe" v="infrastruktur" />
+		<tag k="ssr:stedsnr" v="1081966" />
+		<tag k="ssr:type" v="kai" />
+	</node>
+	<node lat="58.852044140192454" lon="5.737402071152307" id="-5018">
+		<tag k="leisure" v="park" />
+		<tag k="ssr:date" v="2021-12-14" />
+		<tag k="ssr:gruppe" v="fritidsanlegg" />
+		<tag k="ssr:hovedgruppe" v="bebyggelse" />
+		<tag k="ssr:stedsnr" v="1083217" />
+		<tag k="ssr:type" v="park" />
 	</node>
 </osm>

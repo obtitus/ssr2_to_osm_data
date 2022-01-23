@@ -1,6 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <osm version="0.6" generator="osmapis">
-	<node lat="59.49275000200732" lon="10.921061107038836" id="-19362">
+	<node lat="59.4885972267487" lon="10.868130547628285" id="-27935">
+		<tag k="amenity" v="place_of_worship" />
+		<tag k="denomination" v="lutheran" />
+		<tag k="religion" v="christian" />
+		<tag k="ssr:date" v="2021-06-08" />
+		<tag k="ssr:gruppe" v="kulturinstitusjoner" />
+		<tag k="ssr:hovedgruppe" v="kultur" />
+		<tag k="ssr:stedsnr" v="731675" />
+		<tag k="ssr:type" v="kirke" />
+	</node>
+	<node lat="59.42406666962607" lon="11.016244438527146" id="-28022">
+		<tag k="amenity" v="place_of_worship" />
+		<tag k="denomination" v="lutheran" />
+		<tag k="religion" v="christian" />
+		<tag k="ssr:date" v="2021-06-08" />
+		<tag k="ssr:gruppe" v="kulturinstitusjoner" />
+		<tag k="ssr:hovedgruppe" v="kultur" />
+		<tag k="ssr:stedsnr" v="2364" />
+		<tag k="ssr:type" v="kirke" />
+	</node>
+	<node lat="59.49275000200732" lon="10.921061107038836" id="-28102">
 		<tag k="landuse" v="military" />
 		<tag k="old_name" v="Østfold fjernhjelpskolonne;Østfold sivilforsvarsleir" />
 		<tag k="ssr:date" v="2019-12-27" />
@@ -9,7 +29,17 @@
 		<tag k="ssr:stedsnr" v="204882" />
 		<tag k="ssr:type" v="militærtByggAnlegg" />
 	</node>
-	<node lat="59.39278055081241" lon="11.065166751213335" id="-19740">
+	<node lat="59.39459022590528" lon="10.946056385631055" id="-28326">
+		<tag k="fixme" v="consider natural=peak for the most distinct mountains in the district" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2020-06-09" />
+		<tag k="ssr:gruppe" v="høyder" />
+		<tag k="ssr:hovedgruppe" v="terreng" />
+		<tag k="ssr:stedsnr" v="972956" />
+		<tag k="ssr:type" v="ås" />
+	</node>
+	<node lat="59.39278055081241" lon="11.065166751213335" id="-28480">
 		<tag k="loc_name" v="Sørkomsdalsmyra" />
 		<tag k="natural" v="wetland" />
 		<tag k="ssr:date" v="2019-12-27" />
@@ -17,5 +47,14 @@
 		<tag k="ssr:hovedgruppe" v="markslag" />
 		<tag k="ssr:stedsnr" v="1072475" />
 		<tag k="ssr:type" v="myr" />
+	</node>
+	<node lat="59.3898081331099" lon="11.079693969382284" id="-28482">
+		<tag k="fixme" v="consider boundary=protected_area and relevant protect_class if not nature reserve" />
+		<tag k="leisure" v="nature_reserve" />
+		<tag k="ssr:date" v="2021-06-08" />
+		<tag k="ssr:gruppe" v="verne-OgBruksområder" />
+		<tag k="ssr:hovedgruppe" v="offentligAdministrasjon" />
+		<tag k="ssr:stedsnr" v="1074753" />
+		<tag k="ssr:type" v="verneområde" />
 	</node>
 </osm>

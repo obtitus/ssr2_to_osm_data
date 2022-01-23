@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <osm version="0.6" generator="osmapis">
-	<node lat="60.93548888682102" lon="9.44557500035181" id="-52736">
+	<node lat="60.93548888682102" lon="9.44557500035181" id="-47008">
 		<tag k="natural" v="hill" />
 		<tag k="old_name" v="Storstølknatten" />
 		<tag k="place" v="locality" />
@@ -10,7 +10,15 @@
 		<tag k="ssr:stedsnr" v="240727" />
 		<tag k="ssr:type" v="haug" />
 	</node>
-	<node lat="60.97830915995525" lon="9.269296952798609" id="-52940">
+	<node lat="61.18654301223443" lon="9.302548798791952" id="-47058">
+		<tag k="ssr:date" v="2021-06-08" />
+		<tag k="ssr:gruppe" v="rennendeVann" />
+		<tag k="ssr:hovedgruppe" v="ferskvann" />
+		<tag k="ssr:stedsnr" v="249739" />
+		<tag k="ssr:type" v="elv" />
+		<tag k="waterway" v="river" />
+	</node>
+	<node lat="60.97830915995525" lon="9.269296952798609" id="-47212">
 		<tag k="fixme" v="consider natural=peak for the most distinct mountains in the district" />
 		<tag k="natural" v="hill" />
 		<tag k="old_name" v="Tunelltoppen" />
@@ -21,7 +29,7 @@
 		<tag k="ssr:stedsnr" v="179419" />
 		<tag k="ssr:type" v="topp" />
 	</node>
-	<node lat="60.93934166549133" lon="9.439908332275195" id="-52951">
+	<node lat="60.93934166549133" lon="9.439908332275195" id="-47223">
 		<tag k="natural" v="hill" />
 		<tag k="old_name" v="Fjellstølknatten" />
 		<tag k="place" v="locality" />
@@ -31,7 +39,36 @@
 		<tag k="ssr:stedsnr" v="179716" />
 		<tag k="ssr:type" v="høyde" />
 	</node>
-	<node lat="60.999438886141796" lon="9.070719441236857" id="-53298">
+	<node lat="60.856534180295824" lon="9.508923591592856" id="-47233">
+		<tag k="layer" v="-1" />
+		<tag k="ssr:date" v="2021-06-08" />
+		<tag k="ssr:gruppe" v="samferdselsanlegg" />
+		<tag k="ssr:hovedgruppe" v="infrastruktur" />
+		<tag k="ssr:stedsnr" v="181518" />
+		<tag k="ssr:type" v="tunnel" />
+		<tag k="tunnel" v="yes" />
+	</node>
+	<node lat="61.01200555840565" lon="9.075225005810127" id="-47308">
+		<tag k="fixme" v="consider place=hamlet" />
+		<tag k="loc_name" v="Søre Granheim" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2019-12-27" />
+		<tag k="ssr:gruppe" v="gardsbebyggelse" />
+		<tag k="ssr:hovedgruppe" v="bebyggelse" />
+		<tag k="ssr:stedsnr" v="241827" />
+		<tag k="ssr:type" v="gard" />
+	</node>
+	<node lat="61.01210000328422" lon="9.11931943741816" id="-47359">
+		<tag k="fixme" v="consider highway=path" />
+		<tag k="highway" v="track" />
+		<tag k="old_name" v="Høgvindvegen" />
+		<tag k="ssr:date" v="2019-12-27" />
+		<tag k="ssr:gruppe" v="veg" />
+		<tag k="ssr:hovedgruppe" v="infrastruktur" />
+		<tag k="ssr:stedsnr" v="301228" />
+		<tag k="ssr:type" v="traktorveg" />
+	</node>
+	<node lat="60.999438886141796" lon="9.070719441236857" id="-47570">
 		<tag k="old_name" v="Paulsrud" />
 		<tag k="place" v="farm" />
 		<tag k="ssr:date" v="2019-12-27" />
@@ -40,7 +77,24 @@
 		<tag k="ssr:stedsnr" v="423343" />
 		<tag k="ssr:type" v="bruk" />
 	</node>
-	<node lat="60.99109166786718" lon="9.26016111496236" id="-53461">
+	<node lat="60.80529322308936" lon="9.221935593319744" id="-47584">
+		<tag k="natural" v="water" />
+		<tag k="ssr:date" v="2019-12-27" />
+		<tag k="ssr:gruppe" v="stilleståendeVann" />
+		<tag k="ssr:hovedgruppe" v="ferskvann" />
+		<tag k="ssr:stedsnr" v="433475" />
+		<tag k="ssr:type" v="vann" />
+		<tag k="water" v="lake" />
+	</node>
+	<node lat="60.8245666690834" lon="9.169977772651146" id="-47628">
+		<tag k="ssr:date" v="2021-06-07" />
+		<tag k="ssr:gruppe" v="rennendeVann" />
+		<tag k="ssr:hovedgruppe" v="ferskvann" />
+		<tag k="ssr:stedsnr" v="494422" />
+		<tag k="ssr:type" v="elv" />
+		<tag k="waterway" v="river" />
+	</node>
+	<node lat="60.99109166786718" lon="9.26016111496236" id="-47733">
 		<tag k="fixme" v="consider place=hamlet" />
 		<tag k="loc_name" v="Øvre Ranheim" />
 		<tag k="place" v="farm" />
@@ -50,7 +104,16 @@
 		<tag k="ssr:stedsnr" v="484823" />
 		<tag k="ssr:type" v="gard" />
 	</node>
-	<node lat="60.97277499923374" lon="9.306080546963999" id="-53567">
+	<node lat="61.06329444341377" lon="9.36346388035695" id="-47831">
+		<tag k="historic" v="shieling" />
+		<tag k="place" v="isolated_dwelling" />
+		<tag k="ssr:date" v="2019-12-27" />
+		<tag k="ssr:gruppe" v="gardsbebyggelse" />
+		<tag k="ssr:hovedgruppe" v="bebyggelse" />
+		<tag k="ssr:stedsnr" v="553898" />
+		<tag k="ssr:type" v="seterStøl" />
+	</node>
+	<node lat="60.97277499923374" lon="9.306080546963999" id="-47839">
 		<tag k="old_name" v="Søre Måno;Måno, s" />
 		<tag k="place" v="farm" />
 		<tag k="ssr:date" v="2019-12-27" />
@@ -59,7 +122,60 @@
 		<tag k="ssr:stedsnr" v="555304" />
 		<tag k="ssr:type" v="bruk" />
 	</node>
-	<node lat="60.99359167058906" lon="9.247558324676092" id="-54483">
+	<node lat="60.88172221876899" lon="9.268499996321927" id="-47947">
+		<tag k="fixme" v="consider highway=path" />
+		<tag k="highway" v="track" />
+		<tag k="old_name" v="Lakkergata" />
+		<tag k="ssr:date" v="2019-12-27" />
+		<tag k="ssr:gruppe" v="veg" />
+		<tag k="ssr:hovedgruppe" v="infrastruktur" />
+		<tag k="ssr:stedsnr" v="660232" />
+		<tag k="ssr:type" v="traktorveg" />
+	</node>
+	<node lat="60.94543333185149" lon="9.521519449174347" id="-48098">
+		<tag k="highway" v="path" />
+		<tag k="old_name" v="Preststølvegen" />
+		<tag k="ssr:date" v="2019-12-27" />
+		<tag k="ssr:gruppe" v="veg" />
+		<tag k="ssr:hovedgruppe" v="infrastruktur" />
+		<tag k="ssr:stedsnr" v="904382" />
+		<tag k="ssr:type" v="sti" />
+	</node>
+	<node lat="60.79353055215906" lon="9.24902500311555" id="-48270">
+		<tag k="historic" v="shieling" />
+		<tag k="place" v="isolated_dwelling" />
+		<tag k="ssr:date" v="2019-12-27" />
+		<tag k="ssr:gruppe" v="gardsbebyggelse" />
+		<tag k="ssr:hovedgruppe" v="bebyggelse" />
+		<tag k="ssr:stedsnr" v="919839" />
+		<tag k="ssr:type" v="seterStøl" />
+	</node>
+	<node lat="60.925591663602404" lon="9.366780547174375" id="-48287">
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2019-12-27" />
+		<tag k="ssr:gruppe" v="bolighus" />
+		<tag k="ssr:hovedgruppe" v="bebyggelse" />
+		<tag k="ssr:stedsnr" v="842794" />
+		<tag k="ssr:type" v="gammelBosettingsplass" />
+	</node>
+	<node lat="61.081516176433745" lon="9.389266247060547" id="-48515">
+		<tag k="natural" v="water" />
+		<tag k="ssr:date" v="2019-12-27" />
+		<tag k="ssr:gruppe" v="stilleståendeVann" />
+		<tag k="ssr:hovedgruppe" v="ferskvann" />
+		<tag k="ssr:stedsnr" v="979160" />
+		<tag k="ssr:type" v="tjern" />
+	</node>
+	<node lat="60.79201751895894" lon="9.246931436463893" id="-48518">
+		<tag k="natural" v="valley" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2019-12-27" />
+		<tag k="ssr:gruppe" v="senkninger" />
+		<tag k="ssr:hovedgruppe" v="terreng" />
+		<tag k="ssr:stedsnr" v="982836" />
+		<tag k="ssr:type" v="dal" />
+	</node>
+	<node lat="60.99359167058906" lon="9.247558324676092" id="-48755">
 		<tag k="fixme" v="consider place=hamlet" />
 		<tag k="loc_name" v="Nørdre Ranheim" />
 		<tag k="place" v="farm" />
@@ -69,7 +185,90 @@
 		<tag k="ssr:stedsnr" v="120831" />
 		<tag k="ssr:type" v="gard" />
 	</node>
-	<node lat="60.99193888598506" lon="9.25761944813049" id="-55362">
+	<node lat="60.87997222262592" lon="9.245386120128913" id="-48820">
+		<tag k="fixme" v="consider highway=path" />
+		<tag k="highway" v="track" />
+		<tag k="old_name" v="Dølehusvegen" />
+		<tag k="ssr:date" v="2019-12-27" />
+		<tag k="ssr:gruppe" v="veg" />
+		<tag k="ssr:hovedgruppe" v="infrastruktur" />
+		<tag k="ssr:stedsnr" v="175213" />
+		<tag k="ssr:type" v="traktorveg" />
+	</node>
+	<node lat="60.89580278125673" lon="9.392130549519004" id="-48985">
+		<tag k="fixme" v="consider boundary=protected_area and relevant protect_class if not nature reserve" />
+		<tag k="leisure" v="nature_reserve" />
+		<tag k="ssr:date" v="2021-06-08" />
+		<tag k="ssr:gruppe" v="verne-OgBruksområder" />
+		<tag k="ssr:hovedgruppe" v="offentligAdministrasjon" />
+		<tag k="ssr:stedsnr" v="302488" />
+		<tag k="ssr:type" v="verneområde" />
+	</node>
+	<node lat="60.916988886179" lon="9.422005546663296" id="-48987">
+		<tag k="fixme" v="consider place=hamlet" />
+		<tag k="loc_name" v="Nedre Sørheim" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2019-12-27" />
+		<tag k="ssr:gruppe" v="gardsbebyggelse" />
+		<tag k="ssr:hovedgruppe" v="bebyggelse" />
+		<tag k="ssr:stedsnr" v="302812" />
+		<tag k="ssr:type" v="gard" />
+	</node>
+	<node lat="60.96885277875305" lon="9.137552784249026" id="-49128">
+		<tag k="fixme" v="consider highway=path" />
+		<tag k="highway" v="track" />
+		<tag k="old_name" v="Stokkevegen" />
+		<tag k="ssr:date" v="2019-12-27" />
+		<tag k="ssr:gruppe" v="veg" />
+		<tag k="ssr:hovedgruppe" v="infrastruktur" />
+		<tag k="ssr:stedsnr" v="361633" />
+		<tag k="ssr:type" v="traktorveg" />
+	</node>
+	<node lat="60.84370555221742" lon="9.12207500788035" id="-49202">
+		<tag k="fixme" v="consider highway=path" />
+		<tag k="highway" v="track" />
+		<tag k="old_name" v="Tamburvegen" />
+		<tag k="ssr:date" v="2019-12-27" />
+		<tag k="ssr:gruppe" v="veg" />
+		<tag k="ssr:hovedgruppe" v="infrastruktur" />
+		<tag k="ssr:stedsnr" v="418099" />
+		<tag k="ssr:type" v="traktorveg" />
+	</node>
+	<node lat="60.81175899827467" lon="9.209798659804084" id="-49260">
+		<tag k="historic" v="shieling" />
+		<tag k="place" v="isolated_dwelling" />
+		<tag k="ssr:date" v="2019-12-27" />
+		<tag k="ssr:gruppe" v="gardsbebyggelse" />
+		<tag k="ssr:hovedgruppe" v="bebyggelse" />
+		<tag k="ssr:stedsnr" v="433482" />
+		<tag k="ssr:type" v="seterStøl" />
+	</node>
+	<node lat="61.03950000425472" lon="9.307469437749958" id="-49343">
+		<tag k="old_name" v="Døvrehøgda" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2020-03-31" />
+		<tag k="ssr:gruppe" v="kulturminner" />
+		<tag k="ssr:hovedgruppe" v="kultur" />
+		<tag k="ssr:stedsnr" v="543329" />
+		<tag k="ssr:type" v="annenKulturdetalj" />
+	</node>
+	<node lat="60.79885269191779" lon="9.236873220998694" id="-49492">
+		<tag k="ssr:date" v="2021-10-21" />
+		<tag k="ssr:gruppe" v="rennendeVann" />
+		<tag k="ssr:hovedgruppe" v="ferskvann" />
+		<tag k="ssr:stedsnr" v="615825" />
+		<tag k="ssr:type" v="elv" />
+		<tag k="waterway" v="river" />
+	</node>
+	<node lat="61.11257500007473" lon="9.641355558036357" id="-49584">
+		<tag k="ssr:date" v="2019-12-27" />
+		<tag k="ssr:gruppe" v="rennendeVann" />
+		<tag k="ssr:hovedgruppe" v="ferskvann" />
+		<tag k="ssr:stedsnr" v="720655" />
+		<tag k="ssr:type" v="elv" />
+		<tag k="waterway" v="river" />
+	</node>
+	<node lat="60.99193888598506" lon="9.25761944813049" id="-49634">
 		<tag k="fixme" v="consider place=hamlet" />
 		<tag k="loc_name" v="Midtre Ranheim" />
 		<tag k="place" v="farm" />
@@ -79,7 +278,35 @@
 		<tag k="ssr:stedsnr" v="727831" />
 		<tag k="ssr:type" v="gard" />
 	</node>
-	<node lat="61.01197861458765" lon="9.258845710839504" id="-56132">
+	<node lat="60.88138055982853" lon="8.916500007664478" id="-49692">
+		<tag k="fixme" v="consider highway=path" />
+		<tag k="highway" v="track" />
+		<tag k="old_name" v="Sløafetvegen" />
+		<tag k="ssr:date" v="2019-12-27" />
+		<tag k="ssr:gruppe" v="veg" />
+		<tag k="ssr:hovedgruppe" v="infrastruktur" />
+		<tag k="ssr:stedsnr" v="781989" />
+		<tag k="ssr:type" v="traktorveg" />
+	</node>
+	<node lat="60.81144505140969" lon="9.192796077641013" id="-49749">
+		<tag k="historic" v="shieling" />
+		<tag k="place" v="isolated_dwelling" />
+		<tag k="ssr:date" v="2019-12-27" />
+		<tag k="ssr:gruppe" v="gardsbebyggelse" />
+		<tag k="ssr:hovedgruppe" v="bebyggelse" />
+		<tag k="ssr:stedsnr" v="797480" />
+		<tag k="ssr:type" v="seterStøl" />
+	</node>
+	<node lat="60.88202396163919" lon="9.547366396507147" id="-49980">
+		<tag k="fixme" v="consider boundary=protected_area and relevant protect_class if not nature reserve" />
+		<tag k="leisure" v="nature_reserve" />
+		<tag k="ssr:date" v="2021-06-08" />
+		<tag k="ssr:gruppe" v="verne-OgBruksområder" />
+		<tag k="ssr:hovedgruppe" v="offentligAdministrasjon" />
+		<tag k="ssr:stedsnr" v="981222" />
+		<tag k="ssr:type" v="verneområde" />
+	</node>
+	<node lat="61.01197861458765" lon="9.258845710839504" id="-50404">
 		<tag k="loc_name" v="Kveldsbeitmyre" />
 		<tag k="natural" v="wetland" />
 		<tag k="ssr:date" v="2020-02-27" />
@@ -88,7 +315,7 @@
 		<tag k="ssr:stedsnr" v="1075698" />
 		<tag k="ssr:type" v="myr" />
 	</node>
-	<node lat="61.12132121594677" lon="9.437746808230665" id="-56139">
+	<node lat="61.12132121594677" lon="9.437746808230665" id="-50411">
 		<tag k="loc_name" v="Nerre Nisetjednet;Nedre Nisetjernet" />
 		<tag k="natural" v="water" />
 		<tag k="ssr:date" v="2020-08-05" />
