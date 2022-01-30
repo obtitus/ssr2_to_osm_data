@@ -450,7 +450,6 @@
 	</node>
 	<node lat="59.13206310941209" lon="5.925943057106616" id="-2957">
 		<tag k="junction" v="yes" />
-		<tag k="loc_name" v="Runestadsvingen" />
 		<tag k="name" v="Runastadsvingen" />
 		<tag k="place" v="locality" />
 		<tag k="ssr:stedsnr" v="903302" />
@@ -734,9 +733,9 @@
 		<tag k="ssr:stedsnr" v="290439" />
 	</node>
 	<node lat="59.23498614243848" lon="5.9383416053111375" id="-4008">
+		<tag k="alt_name" v="Eidssund" />
 		<tag k="amenity" v="ferry_terminal" />
-		<tag k="fixme" v="multiple name tags, choose one and add the other to alt_name" />
-		<tag k="name" v="Eidssund ferjekai;Eidssund" />
+		<tag k="name" v="Eidssund ferjekai" />
 		<tag k="ssr:stedsnr" v="305999" />
 	</node>
 	<node lat="58.95161394665629" lon="5.732036391629599" id="-4071">
@@ -1199,5 +1198,10 @@
 		<tag k="monitoring:water_Level" v="yes" />
 		<tag k="name" v="Stavanger vannstandsmåler" />
 		<tag k="ssr:stedsnr" v="1082307" />
+	</node>
+	<node lat="59.22902132180716" lon="5.810482942436564" id="-6088">
+		<tag k="amenity" v="parking" />
+		<tag k="name" v="Marmorplassen" />
+		<tag k="ssr:stedsnr" v="1083522" />
 	</node>
 </osm>

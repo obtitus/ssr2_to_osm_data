@@ -1,4 +1,5 @@
-utility_to_osm.file_util - INFO - file_age(ssr2_to_osm_data/data/3803/3803-ssr.xml) -> 26.5 days
+utility_to_osm.file_util - INFO - file_age(ssr2_to_osm_data/data/3803/3803-ssr.xml) -> 33.5 days
+utility_to_osm.gentle_requests - INFO - requested http://wfs.geonorge.no/skwms1/wfs.stedsnavn50?VERSION=2.0.0&SERVICE=WFS&srsName=EPSG:25832&REQUEST=GetFeature&TYPENAME=Sted&resultType=results&Filter=%3CFilter%3E%20%3CPropertyIsEqualTo%3E%20%3CValueReference%20xmlns:app=%22http://skjema.geonorge.no/SOSI/produktspesifikasjon/Stedsnavn/5.0%22%3Eapp:kommune/app:Kommune/app:kommunenummer%3C/ValueReference%3E%20%3CLiteral%3E3803%3C/Literal%3E%20%3C/PropertyIsEqualTo%3E%20%3C/Filter%3E" --header "Content-Type:text/xml" ssr2_to_osm_data/data/3803/3803-ssr.xml, got <Response [200]>
 utility_to_osm - INFO - ssr:stedsnr = 2076: No name found
 utility_to_osm - INFO - ssr:stedsnr = 2076 has multiple (4) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 2201: No name found
@@ -29,13 +30,13 @@ utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Fresti
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Freste, s"
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Fresti, s"
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Freste, s"
-utility_to_osm - INFO - ssr:stedsnr = 3782: No priority spelling found for lang = no, using alt_name to get "[('no', 'Søndre Freste')]"
-utility_to_osm - INFO - ssr:stedsnr = 21049: No priority spelling found for lang = no, using alt_name to get "[('no', 'Basbergrønningen')]"
+utility_to_osm - INFO - ssr:stedsnr = 3782: No name found
+utility_to_osm - INFO - ssr:stedsnr = 21049: No name found
 utility_to_osm - INFO - ssr:stedsnr = 21049 has multiple (2) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 25802: No name found
 utility_to_osm - INFO - ssr:stedsnr = 25985: No name found
 utility_to_osm - INFO - ssr:stedsnr = 25988: No name found
-utility_to_osm - INFO - ssr:stedsnr = 26708: No priority spelling found for lang = no, using alt_name to get "[('no', 'Fossan')]"
+utility_to_osm - INFO - ssr:stedsnr = 26708: No name found
 utility_to_osm - INFO - ssr:stedsnr = 27003: No name found
 utility_to_osm - INFO - ssr:stedsnr = 27007: No name found
 utility_to_osm - INFO - ssr:stedsnr = 27009: No name found
@@ -59,9 +60,9 @@ utility_to_osm - INFO - ssr:stedsnr = 27779: No name found
 utility_to_osm - INFO - ssr:stedsnr = 27868: No name found
 utility_to_osm - INFO - ssr:stedsnr = 28409: No name found
 utility_to_osm - INFO - ssr:stedsnr = 28409 has multiple (3) positions, using the first one!
-utility_to_osm - INFO - ssr:stedsnr = 32816: No priority spelling found for lang = no, using alt_name to get "[('no', 'Døvleveien')]"
+utility_to_osm - INFO - ssr:stedsnr = 32816: No name found
 utility_to_osm - INFO - ssr:stedsnr = 32816 has multiple (16) positions, using the first one!
-utility_to_osm - INFO - ssr:stedsnr = 32979: No priority spelling found for lang = no, using alt_name to get "[('no', 'Jarlsberggata')]"
+utility_to_osm - INFO - ssr:stedsnr = 32979: No name found
 utility_to_osm - INFO - ssr:stedsnr = 32979 has multiple (20) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 46694: No name found
 utility_to_osm - INFO - ssr:stedsnr = 46694 has multiple (2) positions, using the first one!
@@ -82,7 +83,7 @@ utility_to_osm - INFO - ssr:stedsnr = 63172 has multiple (2) positions, using th
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Saltkoppskjeret"
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Saltkoppskjeret"
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Saltkoppskjeret"
-utility_to_osm - INFO - ssr:stedsnr = 63602: No priority spelling found for lang = no, using alt_name to get "[('no', 'Saltkoppskjæret')]"
+utility_to_osm - INFO - ssr:stedsnr = 63602: No name found
 utility_to_osm - INFO - ssr:stedsnr = 63602 has multiple (4) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 63607: No name found
 utility_to_osm - INFO - ssr:stedsnr = 63607 has multiple (3) positions, using the first one!
@@ -91,16 +92,16 @@ utility_to_osm - INFO - ssr:stedsnr = 63624 has multiple (3) positions, using th
 utility_to_osm - INFO - ssr:stedsnr = 63625: No name found
 utility_to_osm - INFO - ssr:stedsnr = 63625 has multiple (5) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 63772: No name found
-utility_to_osm - INFO - ssr:stedsnr = 245062: No priority spelling found for lang = no, using alt_name to get "[('no', 'Ryksåsen')]"
+utility_to_osm - INFO - ssr:stedsnr = 245062: No name found
 utility_to_osm - INFO - ssr:stedsnr = 245064: No name found
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Årvold"
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Årvold"
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Årvold"
-utility_to_osm - INFO - ssr:stedsnr = 245067: No priority spelling found for lang = no, using alt_name to get "[('no', 'Orrevål')]"
+utility_to_osm - INFO - ssr:stedsnr = 245067: No name found
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Fjæreklepp"
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Fjæreklepp"
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Fjæreklepp"
-utility_to_osm - INFO - ssr:stedsnr = 245177: No priority spelling found for lang = no, using alt_name to get "[('no', 'Fjærklepp')]"
+utility_to_osm - INFO - ssr:stedsnr = 245177: No name found
 utility_to_osm - INFO - ssr:stedsnr = 245137: No name found
 utility_to_osm - INFO - ssr:stedsnr = 245137 has multiple (4) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 245157: No name found
@@ -157,11 +158,11 @@ utility_to_osm - INFO - ssr:stedsnr = 246651: No name found
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Valløybukta"
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Valløybukta"
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Valløybukta"
-utility_to_osm - INFO - ssr:stedsnr = 246653: No priority spelling found for lang = no, using alt_name to get "[('no', 'Valløbukta')]"
+utility_to_osm - INFO - ssr:stedsnr = 246653: No name found
 utility_to_osm - INFO - ssr:stedsnr = 246653 has multiple (4) positions, using the first one!
-utility_to_osm - INFO - ssr:stedsnr = 92803: No priority spelling found for lang = no, using alt_name to get "[('no', 'Brekketoppen')]"
+utility_to_osm - INFO - ssr:stedsnr = 92803: No name found
 utility_to_osm - INFO - ssr:stedsnr = 92803 has multiple (5) positions, using the first one!
-utility_to_osm - INFO - ssr:stedsnr = 92815: No priority spelling found for lang = no, using alt_name to get "[('no', 'Undrumveien')]"
+utility_to_osm - INFO - ssr:stedsnr = 92815: No name found
 utility_to_osm - INFO - ssr:stedsnr = 92815 has multiple (31) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 105127: No name found
 utility_to_osm - INFO - ssr:stedsnr = 105127 has multiple (3) positions, using the first one!
@@ -184,7 +185,7 @@ utility_to_osm - INFO - ssr:stedsnr = 124704: No name found
 utility_to_osm - INFO - ssr:stedsnr = 124606: No name found
 utility_to_osm - INFO - ssr:stedsnr = 124606 has multiple (4) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 124608: No name found
-utility_to_osm - INFO - ssr:stedsnr = 124618: No priority spelling found for lang = no, using alt_name to get "[('no', 'Nordre Nes')]"
+utility_to_osm - INFO - ssr:stedsnr = 124618: No name found
 utility_to_osm - INFO - ssr:stedsnr = 124619: No name found
 utility_to_osm - INFO - ssr:stedsnr = 124619 has multiple (4) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 252629: No name found
@@ -238,7 +239,7 @@ utility_to_osm - INFO - ssr:stedsnr = 184193: No name found
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Kaltvet"
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Kaltvet"
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Kaltvet"
-utility_to_osm - INFO - ssr:stedsnr = 184607: No priority spelling found for lang = no, using alt_name to get "[('no', 'Kaltvedt')]"
+utility_to_osm - INFO - ssr:stedsnr = 184607: No name found
 utility_to_osm - INFO - ssr:stedsnr = 184607 has multiple (3) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 184609: No name found
 utility_to_osm - INFO - ssr:stedsnr = 184609 has multiple (3) positions, using the first one!
@@ -251,20 +252,20 @@ utility_to_osm - INFO - ssr:stedsnr = 184740: No name found
 utility_to_osm - INFO - ssr:stedsnr = 184740 has multiple (2) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 184793: No name found
 utility_to_osm - INFO - ssr:stedsnr = 184793 has multiple (2) positions, using the first one!
-utility_to_osm - INFO - ssr:stedsnr = 184631: No priority spelling found for lang = no, using alt_name to get "[('no', 'Fyllpå')]"
+utility_to_osm - INFO - ssr:stedsnr = 184631: No name found
 utility_to_osm - INFO - ssr:stedsnr = 184631 has multiple (3) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 184634: No name found
 utility_to_osm - INFO - ssr:stedsnr = 184634 has multiple (3) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 185613: No name found
 utility_to_osm - INFO - ssr:stedsnr = 185613 has multiple (2) positions, using the first one!
-utility_to_osm - INFO - ssr:stedsnr = 263013: No priority spelling found for lang = no, using alt_name to get "[('no', 'Robergåsen')]"
+utility_to_osm - INFO - ssr:stedsnr = 263013: No name found
 utility_to_osm - INFO - ssr:stedsnr = 263013 has multiple (2) positions, using the first one!
-utility_to_osm - INFO - ssr:stedsnr = 203054: No priority spelling found for lang = no, using alt_name to get "[('no', 'Nordre Karlsvika')]"
+utility_to_osm - INFO - ssr:stedsnr = 203054: No name found
 utility_to_osm - INFO - ssr:stedsnr = 203054 has multiple (2) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 267746: No name found
 utility_to_osm - INFO - ssr:stedsnr = 267750: No name found
 utility_to_osm - INFO - ssr:stedsnr = 267769: No name found
-utility_to_osm - INFO - ssr:stedsnr = 267776: No priority spelling found for lang = no, using alt_name to get "[('no', 'Eik skole')]"
+utility_to_osm - INFO - ssr:stedsnr = 267776: No name found
 utility_to_osm - INFO - ssr:stedsnr = 207387: No name found
 utility_to_osm - INFO - ssr:stedsnr = 268820: No name found
 utility_to_osm - INFO - ssr:stedsnr = 209006: No name found
@@ -293,7 +294,7 @@ utility_to_osm - INFO - ssr:stedsnr = 210107: No name found
 utility_to_osm - INFO - ssr:stedsnr = 210108: No name found
 utility_to_osm - INFO - ssr:stedsnr = 210119: No name found
 utility_to_osm - INFO - ssr:stedsnr = 270392: No name found
-utility_to_osm - INFO - ssr:stedsnr = 214916: No priority spelling found for lang = no, using alt_name to get "[('no', 'Broen')]"
+utility_to_osm - INFO - ssr:stedsnr = 214916: No name found
 utility_to_osm - INFO - ssr:stedsnr = 214916 has multiple (38) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 270016: No name found
 utility_to_osm - INFO - ssr:stedsnr = 270020: No name found
@@ -378,7 +379,7 @@ utility_to_osm - INFO - ssr:stedsnr = 245612 has multiple (3) positions, using t
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Tverrved"
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Tverrved"
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Tverrved"
-utility_to_osm - INFO - ssr:stedsnr = 245615: No priority spelling found for lang = no, using alt_name to get "[('no', 'Tverved')]"
+utility_to_osm - INFO - ssr:stedsnr = 245615: No name found
 utility_to_osm - INFO - ssr:stedsnr = 245615 has multiple (4) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 245620: No name found
 utility_to_osm - INFO - ssr:stedsnr = 245620 has multiple (3) positions, using the first one!
@@ -397,7 +398,7 @@ utility_to_osm - INFO - ssr:stedsnr = 245577: No name found
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Høyfot"
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Høyfot"
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Høyfot"
-utility_to_osm - INFO - ssr:stedsnr = 245579: No priority spelling found for lang = no, using alt_name to get "[('no', 'Høifødt')]"
+utility_to_osm - INFO - ssr:stedsnr = 245579: No name found
 utility_to_osm - INFO - ssr:stedsnr = 245579 has multiple (3) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 245581: No name found
 utility_to_osm - INFO - ssr:stedsnr = 245745: No name found
@@ -429,7 +430,7 @@ utility_to_osm - INFO - ssr:stedsnr = 452829: No name found
 utility_to_osm - INFO - ssr:stedsnr = 452832: No name found
 utility_to_osm - INFO - ssr:stedsnr = 452834: No name found
 utility_to_osm - INFO - ssr:stedsnr = 452837: No name found
-utility_to_osm - INFO - ssr:stedsnr = 457799: No priority spelling found for lang = no, using alt_name to get "[('no', 'Feskjærveien')]"
+utility_to_osm - INFO - ssr:stedsnr = 457799: No name found
 utility_to_osm - INFO - ssr:stedsnr = 457799 has multiple (8) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 267721: No name found
 utility_to_osm - INFO - ssr:stedsnr = 267781: No name found
@@ -443,7 +444,7 @@ utility_to_osm - INFO - ssr:stedsnr = 268430 has multiple (2) positions, using t
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Lønn"
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Lønn"
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Lønn"
-utility_to_osm - INFO - ssr:stedsnr = 269372: No priority spelling found for lang = no, using alt_name to get "[('no', 'Løn')]"
+utility_to_osm - INFO - ssr:stedsnr = 269372: No name found
 utility_to_osm - INFO - ssr:stedsnr = 270002: No name found
 utility_to_osm - INFO - ssr:stedsnr = 270011: No name found
 utility_to_osm - INFO - ssr:stedsnr = 270013: No name found
@@ -472,9 +473,9 @@ utility_to_osm - INFO - ssr:stedsnr = 270892: No name found
 utility_to_osm - INFO - ssr:stedsnr = 270760: No name found
 utility_to_osm - INFO - ssr:stedsnr = 270773: No name found
 utility_to_osm - INFO - ssr:stedsnr = 270783: No name found
-utility_to_osm - INFO - ssr:stedsnr = 274772: No priority spelling found for lang = no, using alt_name to get "[('no', 'Meteorveien')]"
+utility_to_osm - INFO - ssr:stedsnr = 274772: No name found
 utility_to_osm - INFO - ssr:stedsnr = 274772 has multiple (9) positions, using the first one!
-utility_to_osm - INFO - ssr:stedsnr = 274775: No priority spelling found for lang = no, using alt_name to get "[('no', 'Ariels vei')]"
+utility_to_osm - INFO - ssr:stedsnr = 274775: No name found
 utility_to_osm - INFO - ssr:stedsnr = 274775 has multiple (2) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 282514: No name found
 utility_to_osm - INFO - ssr:stedsnr = 462045: No name found
@@ -534,7 +535,7 @@ utility_to_osm - INFO - ssr:stedsnr = 359913: No name found
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Nes"
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Nes"
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Nes"
-utility_to_osm - INFO - ssr:stedsnr = 365005: No priority spelling found for lang = no, using alt_name to get "[('no', 'Søndre Nes')]"
+utility_to_osm - INFO - ssr:stedsnr = 365005: No name found
 utility_to_osm - INFO - ssr:stedsnr = 365005 has multiple (4) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 366182: No name found
 utility_to_osm - INFO - ssr:stedsnr = 366182 has multiple (2) positions, using the first one!
@@ -543,13 +544,13 @@ utility_to_osm - INFO - ssr:stedsnr = 366191: No name found
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Revatal"
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Revatal"
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Revatal"
-utility_to_osm - INFO - ssr:stedsnr = 366194: No priority spelling found for lang = no, using alt_name to get "[('no', 'Revetal')]"
+utility_to_osm - INFO - ssr:stedsnr = 366194: No name found
 utility_to_osm - INFO - ssr:stedsnr = 366196: No name found
 utility_to_osm - INFO - ssr:stedsnr = 366232: No name found
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Småskjeret"
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Småskjeret"
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Småskjeret"
-utility_to_osm - INFO - ssr:stedsnr = 366602: No priority spelling found for lang = no, using alt_name to get "[('no', 'Småskjæret')]"
+utility_to_osm - INFO - ssr:stedsnr = 366602: No name found
 utility_to_osm - INFO - ssr:stedsnr = 366602 has multiple (4) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 366537: No name found
 utility_to_osm - INFO - ssr:stedsnr = 366590: No name found
@@ -559,6 +560,7 @@ utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Reer"
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Reer"
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Reer"
 utility_to_osm - INFO - ssr:stedsnr = 366785: No name found
+utility_to_osm - INFO - ssr:stedsnr = 366785: Adding multiple names to name tag, this is not OK! name = "Ramnes prestegård;Re"
 utility_to_osm - INFO - ssr:stedsnr = 367619: No name found
 utility_to_osm - INFO - ssr:stedsnr = 367619 has multiple (4) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 367621: No name found
@@ -569,12 +571,12 @@ utility_to_osm - INFO - ssr:stedsnr = 367882: No name found
 utility_to_osm - INFO - ssr:stedsnr = 367882 has multiple (2) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 480540: No name found
 utility_to_osm - INFO - ssr:stedsnr = 480838: No name found
-utility_to_osm - INFO - ssr:stedsnr = 384054: No priority spelling found for lang = no, using alt_name to get "[('no', 'Vearåsen')]"
+utility_to_osm - INFO - ssr:stedsnr = 384054: No name found
 utility_to_osm - INFO - ssr:stedsnr = 384054 has multiple (3) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 388751: No name found
 utility_to_osm - INFO - ssr:stedsnr = 388757: No name found
 utility_to_osm - INFO - ssr:stedsnr = 389754: No name found
-utility_to_osm - INFO - ssr:stedsnr = 390348: No priority spelling found for lang = no, using alt_name to get "[('no', 'Bergsåsen')]"
+utility_to_osm - INFO - ssr:stedsnr = 390348: No name found
 utility_to_osm - INFO - ssr:stedsnr = 391003: No name found
 utility_to_osm - INFO - ssr:stedsnr = 391013: No name found
 utility_to_osm - INFO - ssr:stedsnr = 391102: No name found
@@ -603,7 +605,7 @@ utility_to_osm - INFO - ssr:stedsnr = 391887: No name found
 utility_to_osm - INFO - ssr:stedsnr = 391896: No name found
 utility_to_osm - INFO - ssr:stedsnr = 392040: No name found
 utility_to_osm - INFO - ssr:stedsnr = 392991: No name found
-utility_to_osm - INFO - ssr:stedsnr = 396802: No priority spelling found for lang = no, using alt_name to get "[('no', 'Dekksguttveien')]"
+utility_to_osm - INFO - ssr:stedsnr = 396802: No name found
 utility_to_osm - INFO - ssr:stedsnr = 396802 has multiple (6) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 403491: No name found
 utility_to_osm - INFO - ssr:stedsnr = 487061: No name found
@@ -614,7 +616,7 @@ utility_to_osm - INFO - ssr:stedsnr = 487189: No name found
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Bjørke"
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Bjørke"
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Bjørke"
-utility_to_osm - INFO - ssr:stedsnr = 487195: No priority spelling found for lang = no, using alt_name to get "[('no', 'Bjerke')]"
+utility_to_osm - INFO - ssr:stedsnr = 487195: No name found
 utility_to_osm - INFO - ssr:stedsnr = 487243: No name found
 utility_to_osm - INFO - ssr:stedsnr = 487246: No name found
 utility_to_osm - INFO - ssr:stedsnr = 487641: No name found
@@ -699,7 +701,7 @@ utility_to_osm - INFO - ssr:stedsnr = 487008 has multiple (2) positions, using t
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Svartbekk"
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Svartbekk"
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Svartbekk"
-utility_to_osm - INFO - ssr:stedsnr = 487158: No priority spelling found for lang = no, using alt_name to get "[('no', 'Svartebekk')]"
+utility_to_osm - INFO - ssr:stedsnr = 487158: No name found
 utility_to_osm - INFO - ssr:stedsnr = 487158 has multiple (4) positions, using the first one!
 utility_to_osm - INFO - ignoring non approved status = "avslåttNavneledd" name = "Myresætra"
 utility_to_osm - INFO - ignoring non approved status = "avslåttNavneledd" name = "Myresætra"
@@ -723,7 +725,7 @@ utility_to_osm - INFO - ssr:stedsnr = 488119: No name found
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Holmene"
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Holmene"
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Holmene"
-utility_to_osm - INFO - ssr:stedsnr = 488191: No priority spelling found for lang = no, using alt_name to get "[('no', 'Holmane')]"
+utility_to_osm - INFO - ssr:stedsnr = 488191: No name found
 utility_to_osm - INFO - ssr:stedsnr = 488191 has multiple (3) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 488603: No name found
 utility_to_osm - INFO - ssr:stedsnr = 488603 has multiple (2) positions, using the first one!
@@ -770,17 +772,17 @@ utility_to_osm - INFO - ssr:stedsnr = 513118: No name found
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Karlsrudbekken"
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Karlsrudbekken"
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Karlsrudbekken"
-utility_to_osm - INFO - ssr:stedsnr = 513571: No priority spelling found for lang = no, using alt_name to get "[('no', 'Kalsrudbekken')]"
+utility_to_osm - INFO - ssr:stedsnr = 513571: No name found
 utility_to_osm - INFO - ssr:stedsnr = 513673: No name found
 utility_to_osm - INFO - ssr:stedsnr = 513675: No name found
 utility_to_osm - INFO - ssr:stedsnr = 513717: No name found
 utility_to_osm - INFO - ssr:stedsnr = 513719: No name found
 utility_to_osm - INFO - ssr:stedsnr = 513914: No name found
-utility_to_osm - INFO - ssr:stedsnr = 517666: No priority spelling found for lang = no, using alt_name to get "[('no', 'Jarlsberglinna')]"
+utility_to_osm - INFO - ssr:stedsnr = 517666: No name found
 utility_to_osm - INFO - ssr:stedsnr = 517666 has multiple (46) positions, using the first one!
-utility_to_osm - INFO - ssr:stedsnr = 517845: No priority spelling found for lang = no, using alt_name to get "[('no', 'Skogstien')]"
+utility_to_osm - INFO - ssr:stedsnr = 517845: No name found
 utility_to_osm - INFO - ssr:stedsnr = 517845 has multiple (18) positions, using the first one!
-utility_to_osm - INFO - ssr:stedsnr = 517917: No priority spelling found for lang = no, using alt_name to get "[('no', 'Slottsfjelltunnelen')]"
+utility_to_osm - INFO - ssr:stedsnr = 517917: No name found
 utility_to_osm - INFO - ssr:stedsnr = 517917 has multiple (3) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 532728: No name found
 utility_to_osm - INFO - ssr:stedsnr = 541326: No name found
@@ -843,7 +845,7 @@ utility_to_osm - INFO - ssr:stedsnr = 573664: No name found
 utility_to_osm - INFO - ssr:stedsnr = 573699: No name found
 utility_to_osm - INFO - ssr:stedsnr = 574124: No name found
 utility_to_osm - INFO - ssr:stedsnr = 574124 has multiple (2) positions, using the first one!
-utility_to_osm - INFO - ssr:stedsnr = 577507: No priority spelling found for lang = no, using alt_name to get "[('no', 'Vear')]"
+utility_to_osm - INFO - ssr:stedsnr = 577507: No name found
 utility_to_osm - INFO - ssr:stedsnr = 695084: No name found
 utility_to_osm - INFO - ssr:stedsnr = 695095: No name found
 utility_to_osm - INFO - ssr:stedsnr = 695097: No name found
@@ -864,15 +866,15 @@ utility_to_osm - INFO - ssr:stedsnr = 695308: No name found
 utility_to_osm - INFO - ssr:stedsnr = 695575: No name found
 utility_to_osm - INFO - ssr:stedsnr = 695750: No name found
 utility_to_osm - INFO - ssr:stedsnr = 695754: No name found
-utility_to_osm - INFO - ssr:stedsnr = 699800: No priority spelling found for lang = no, using alt_name to get "[('no', 'Pegasus vei')]"
+utility_to_osm - INFO - ssr:stedsnr = 699800: No name found
 utility_to_osm - INFO - ssr:stedsnr = 699800 has multiple (8) positions, using the first one!
-utility_to_osm - INFO - ssr:stedsnr = 699804: No priority spelling found for lang = no, using alt_name to get "[('no', 'Solkilen')]"
+utility_to_osm - INFO - ssr:stedsnr = 699804: No name found
 utility_to_osm - INFO - ssr:stedsnr = 699804 has multiple (4) positions, using the first one!
-utility_to_osm - INFO - ssr:stedsnr = 699805: No priority spelling found for lang = no, using alt_name to get "[('no', 'Åkersvingen')]"
+utility_to_osm - INFO - ssr:stedsnr = 699805: No name found
 utility_to_osm - INFO - ssr:stedsnr = 699805 has multiple (8) positions, using the first one!
-utility_to_osm - INFO - ssr:stedsnr = 699905: No priority spelling found for lang = no, using alt_name to get "[('no', 'Husøystrand')]"
+utility_to_osm - INFO - ssr:stedsnr = 699905: No name found
 utility_to_osm - INFO - ssr:stedsnr = 699905 has multiple (20) positions, using the first one!
-utility_to_osm - INFO - ssr:stedsnr = 699908: No priority spelling found for lang = no, using alt_name to get "[('no', 'Emblas vei')]"
+utility_to_osm - INFO - ssr:stedsnr = 699908: No name found
 utility_to_osm - INFO - ssr:stedsnr = 699908 has multiple (2) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 608056: No name found
 utility_to_osm - INFO - ssr:stedsnr = 608189: No name found
@@ -1028,7 +1030,7 @@ utility_to_osm - INFO - ssr:stedsnr = 774568: No name found
 utility_to_osm - INFO - ssr:stedsnr = 775702: No name found
 utility_to_osm - INFO - ssr:stedsnr = 909029: No name found
 utility_to_osm - INFO - ssr:stedsnr = 912597: No name found
-utility_to_osm - INFO - ssr:stedsnr = 788914: No priority spelling found for lang = no, using alt_name to get "[('no', 'Ryggsåsen naturreservat')]"
+utility_to_osm - INFO - ssr:stedsnr = 788914: No name found
 utility_to_osm - INFO - ssr:stedsnr = 791088: No name found
 utility_to_osm - INFO - ssr:stedsnr = 791203: No name found
 utility_to_osm - INFO - ssr:stedsnr = 791237: No name found
@@ -1041,7 +1043,7 @@ utility_to_osm - INFO - ssr:stedsnr = 791619 has multiple (2) positions, using t
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Brua"
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Brua"
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Brua"
-utility_to_osm - INFO - ssr:stedsnr = 791641: No priority spelling found for lang = no, using alt_name to get "[('no', 'Broen')]"
+utility_to_osm - INFO - ssr:stedsnr = 791641: No name found
 utility_to_osm - INFO - ssr:stedsnr = 791641 has multiple (3) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 791646: No name found
 utility_to_osm - INFO - ssr:stedsnr = 791602: No name found
@@ -1072,7 +1074,7 @@ utility_to_osm - INFO - ssr:stedsnr = 913133 has multiple (2) positions, using t
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Øgården"
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Øgården"
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Øgården"
-utility_to_osm - INFO - ssr:stedsnr = 913194: No priority spelling found for lang = no, using alt_name to get "[('no', 'Ødegården')]"
+utility_to_osm - INFO - ssr:stedsnr = 913194: No name found
 utility_to_osm - INFO - ssr:stedsnr = 913175: No name found
 utility_to_osm - INFO - ssr:stedsnr = 913589: No name found
 utility_to_osm - INFO - ssr:stedsnr = 913589 has multiple (3) positions, using the first one!
@@ -1158,9 +1160,9 @@ utility_to_osm - INFO - ssr:stedsnr = 877803: No name found
 utility_to_osm - INFO - ssr:stedsnr = 877900: No name found
 utility_to_osm - INFO - ssr:stedsnr = 877902: No name found
 utility_to_osm - INFO - ssr:stedsnr = 878453: No name found
-utility_to_osm - INFO - ssr:stedsnr = 881803: No priority spelling found for lang = no, using alt_name to get "[('no', 'Vestre Ekeberg')]"
+utility_to_osm - INFO - ssr:stedsnr = 881803: No name found
 utility_to_osm - INFO - ssr:stedsnr = 881803 has multiple (10) positions, using the first one!
-utility_to_osm - INFO - ssr:stedsnr = 881809: No priority spelling found for lang = no, using alt_name to get "[('no', 'Wirgenes vei')]"
+utility_to_osm - INFO - ssr:stedsnr = 881809: No name found
 utility_to_osm - INFO - ssr:stedsnr = 881809 has multiple (4) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 935387: No name found
 utility_to_osm - INFO - ssr:stedsnr = 935406: No name found
@@ -1183,7 +1185,7 @@ utility_to_osm - INFO - ssr:stedsnr = 913587: No name found
 utility_to_osm - INFO - ssr:stedsnr = 913587 has multiple (4) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 913782: No name found
 utility_to_osm - INFO - ssr:stedsnr = 913782 has multiple (2) positions, using the first one!
-utility_to_osm - INFO - ssr:stedsnr = 931044: No priority spelling found for lang = no, using alt_name to get "[('no', 'Vallø')]"
+utility_to_osm - INFO - ssr:stedsnr = 931044: No name found
 utility_to_osm - INFO - ssr:stedsnr = 935744: No name found
 utility_to_osm - INFO - ssr:stedsnr = 935804: No name found
 utility_to_osm - INFO - ssr:stedsnr = 935821: No name found
@@ -1192,7 +1194,7 @@ utility_to_osm - INFO - ssr:stedsnr = 935788: No name found
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Ouff"
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Ouff"
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Ouff"
-utility_to_osm - INFO - ssr:stedsnr = 936339: No priority spelling found for lang = no, using alt_name to get "[('no', 'O')]"
+utility_to_osm - INFO - ssr:stedsnr = 936339: No name found
 utility_to_osm - INFO - ssr:stedsnr = 937006: No name found
 utility_to_osm - INFO - ssr:stedsnr = 937007: No name found
 utility_to_osm - INFO - ssr:stedsnr = 937132: No name found
@@ -1265,7 +1267,7 @@ utility_to_osm - INFO - ssr:stedsnr = 2115: No name found
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Grytemark"
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Grytemark"
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Grytemark"
-utility_to_osm - INFO - ssr:stedsnr = 2116: No priority spelling found for lang = no, using alt_name to get "[('no', 'Grytemørk')]"
+utility_to_osm - INFO - ssr:stedsnr = 2116: No name found
 utility_to_osm - INFO - ssr:stedsnr = 2122: No name found
 utility_to_osm - INFO - ssr:stedsnr = 2156: No name found
 utility_to_osm - INFO - ssr:stedsnr = 2171: No name found
@@ -1273,7 +1275,7 @@ utility_to_osm - INFO - ssr:stedsnr = 2246: No name found
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Bjørkeskog"
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Bjørkeskog"
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Bjørkeskog"
-utility_to_osm - INFO - ssr:stedsnr = 2247: No priority spelling found for lang = no, using alt_name to get "[('no', 'Bjerkeskau')]"
+utility_to_osm - INFO - ssr:stedsnr = 2247: No name found
 utility_to_osm - INFO - ssr:stedsnr = 2572: No name found
 utility_to_osm - INFO - ssr:stedsnr = 2618: No name found
 utility_to_osm - INFO - ssr:stedsnr = 2618 has multiple (3) positions, using the first one!
@@ -1286,11 +1288,11 @@ utility_to_osm - INFO - ssr:stedsnr = 2649 has multiple (3) positions, using the
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Gulåsen"
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Gulåsen"
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Gulåsen"
-utility_to_osm - INFO - ssr:stedsnr = 2793: No priority spelling found for lang = no, using alt_name to get "[('no', 'Gullås')]"
+utility_to_osm - INFO - ssr:stedsnr = 2793: No name found
 utility_to_osm - INFO - ssr:stedsnr = 2793 has multiple (5) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 3825: No name found
 utility_to_osm - INFO - ssr:stedsnr = 3825 has multiple (2) positions, using the first one!
-utility_to_osm - INFO - ssr:stedsnr = 3854: No priority spelling found for lang = no, using alt_name to get "[('no', 'Sem')]"
+utility_to_osm - INFO - ssr:stedsnr = 3854: No name found
 utility_to_osm - INFO - ssr:stedsnr = 3857: No name found
 utility_to_osm - INFO - ssr:stedsnr = 3857 has multiple (2) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 10916: No name found
@@ -1310,7 +1312,7 @@ utility_to_osm - INFO - ssr:stedsnr = 25788: No name found
 utility_to_osm - INFO - ssr:stedsnr = 25794: No name found
 utility_to_osm - INFO - ssr:stedsnr = 25764: No name found
 utility_to_osm - INFO - ssr:stedsnr = 25822: No name found
-utility_to_osm - INFO - ssr:stedsnr = 26359: No priority spelling found for lang = no, using alt_name to get "[('no', 'Tinghaug')]"
+utility_to_osm - INFO - ssr:stedsnr = 26359: No name found
 utility_to_osm - INFO - ssr:stedsnr = 27812: No name found
 utility_to_osm - INFO - ssr:stedsnr = 27817: No name found
 utility_to_osm - INFO - ssr:stedsnr = 27878: No name found
@@ -1355,7 +1357,7 @@ utility_to_osm - INFO - ssr:stedsnr = 46567: No name found
 utility_to_osm - INFO - ssr:stedsnr = 53560: No name found
 utility_to_osm - INFO - ssr:stedsnr = 53560 has multiple (3) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 56219: No name found
-utility_to_osm - INFO - ssr:stedsnr = 63086: No priority spelling found for lang = no, using alt_name to get "[('no', 'Lønskollen')]"
+utility_to_osm - INFO - ssr:stedsnr = 63086: No name found
 utility_to_osm - INFO - ssr:stedsnr = 63086 has multiple (4) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 63091: No name found
 utility_to_osm - INFO - ssr:stedsnr = 63096: No name found
@@ -1371,7 +1373,7 @@ utility_to_osm - INFO - ssr:stedsnr = 63142: No name found
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Elgsætra"
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Elgsætra"
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Elgsætra"
-utility_to_osm - INFO - ssr:stedsnr = 63148: No priority spelling found for lang = no, using alt_name to get "[('no', 'Elgseter')]"
+utility_to_osm - INFO - ssr:stedsnr = 63148: No name found
 utility_to_osm - INFO - ssr:stedsnr = 63148 has multiple (3) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 63151: No name found
 utility_to_osm - INFO - ssr:stedsnr = 63156: No name found
@@ -1404,7 +1406,7 @@ utility_to_osm - INFO - ssr:stedsnr = 86733: No name found
 utility_to_osm - INFO - ssr:stedsnr = 86757: No name found
 utility_to_osm - INFO - ssr:stedsnr = 86761: No name found
 utility_to_osm - INFO - ssr:stedsnr = 86794: No name found
-utility_to_osm - INFO - ssr:stedsnr = 87351: No priority spelling found for lang = no, using alt_name to get "[('no', 'Kirkeåsen')]"
+utility_to_osm - INFO - ssr:stedsnr = 87351: No name found
 utility_to_osm - INFO - ssr:stedsnr = 87351 has multiple (3) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 88493: No name found
 utility_to_osm - INFO - ssr:stedsnr = 88496: No name found
@@ -1447,7 +1449,7 @@ utility_to_osm - INFO - ssr:stedsnr = 89420: No name found
 utility_to_osm - INFO - ssr:stedsnr = 89140: No name found
 utility_to_osm - INFO - ssr:stedsnr = 89427: No name found
 utility_to_osm - INFO - ssr:stedsnr = 89796: No name found
-utility_to_osm - INFO - ssr:stedsnr = 92799: No priority spelling found for lang = no, using alt_name to get "[('no', 'Husøytoppen')]"
+utility_to_osm - INFO - ssr:stedsnr = 92799: No name found
 utility_to_osm - INFO - ssr:stedsnr = 92799 has multiple (10) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 101987: No name found
 utility_to_osm - INFO - ssr:stedsnr = 107758: No name found
@@ -1489,7 +1491,7 @@ utility_to_osm - INFO - ssr:stedsnr = 146753: No name found
 utility_to_osm - INFO - ssr:stedsnr = 146756: No name found
 utility_to_osm - INFO - ssr:stedsnr = 146764: No name found
 utility_to_osm - INFO - ssr:stedsnr = 146775: No name found
-utility_to_osm - INFO - ssr:stedsnr = 147369: No priority spelling found for lang = no, using alt_name to get "[('no', 'Sjøssfjell')]"
+utility_to_osm - INFO - ssr:stedsnr = 147369: No name found
 utility_to_osm - INFO - ssr:stedsnr = 147369 has multiple (2) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 148115: No name found
 utility_to_osm - INFO - ssr:stedsnr = 148068: No name found
@@ -1525,7 +1527,7 @@ utility_to_osm - INFO - ssr:stedsnr = 148654: No name found
 utility_to_osm - INFO - ssr:stedsnr = 148786: No name found
 utility_to_osm - INFO - ssr:stedsnr = 148790: No name found
 utility_to_osm - INFO - ssr:stedsnr = 149050: No name found
-utility_to_osm - INFO - ssr:stedsnr = 153930: No priority spelling found for lang = no, using alt_name to get "[('no', 'Tønsberg fyllplass')]"
+utility_to_osm - INFO - ssr:stedsnr = 153930: No name found
 utility_to_osm - INFO - ssr:stedsnr = 153930 has multiple (2) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 167663: No name found
 utility_to_osm - INFO - ssr:stedsnr = 167667: No name found
@@ -1621,12 +1623,12 @@ utility_to_osm - INFO - ssr:stedsnr = 209787: No name found
 utility_to_osm - INFO - ssr:stedsnr = 209801: No name found
 utility_to_osm - INFO - ssr:stedsnr = 209817: No name found
 utility_to_osm - INFO - ssr:stedsnr = 209878: No name found
-utility_to_osm - INFO - ssr:stedsnr = 214841: No priority spelling found for lang = no, using alt_name to get "[('no', 'Larissas vei')]"
+utility_to_osm - INFO - ssr:stedsnr = 214841: No name found
 utility_to_osm - INFO - ssr:stedsnr = 214841 has multiple (2) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 220044: No name found
 utility_to_osm - INFO - ssr:stedsnr = 223991: No name found
 utility_to_osm - INFO - ssr:stedsnr = 228573: No name found
-utility_to_osm - INFO - ssr:stedsnr = 274776: No priority spelling found for lang = no, using alt_name to get "[('no', 'Morildveien')]"
+utility_to_osm - INFO - ssr:stedsnr = 274776: No name found
 utility_to_osm - INFO - ssr:stedsnr = 274776 has multiple (2) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 289546: No name found
 utility_to_osm - INFO - ssr:stedsnr = 293118: No name found
@@ -1645,7 +1647,7 @@ utility_to_osm - INFO - ssr:stedsnr = 305164: No name found
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Lundteigen"
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Lundteigen"
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Lundteigen"
-utility_to_osm - INFO - ssr:stedsnr = 305186: No priority spelling found for lang = no, using alt_name to get "[('no', 'Lunnteigen')]"
+utility_to_osm - INFO - ssr:stedsnr = 305186: No name found
 utility_to_osm - INFO - ssr:stedsnr = 305190: No name found
 utility_to_osm - INFO - ssr:stedsnr = 305192: No name found
 utility_to_osm - INFO - ssr:stedsnr = 305628: No name found
@@ -1658,14 +1660,14 @@ utility_to_osm - INFO - ssr:stedsnr = 306128 has multiple (2) positions, using t
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Sanda"
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Sanda"
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Sanda"
-utility_to_osm - INFO - ssr:stedsnr = 306139: No priority spelling found for lang = no, using alt_name to get "[('no', 'Sando')]"
+utility_to_osm - INFO - ssr:stedsnr = 306139: No name found
 utility_to_osm - INFO - ssr:stedsnr = 306139 has multiple (3) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 306165: No name found
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Rånerud"
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Rånerud"
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Rånerud"
-utility_to_osm - INFO - ssr:stedsnr = 306177: No priority spelling found for lang = no, using alt_name to get "[('no', 'Rånarud')]"
-utility_to_osm - INFO - ssr:stedsnr = 306588: No priority spelling found for lang = no, using alt_name to get "[('no', 'Aulilund')]"
+utility_to_osm - INFO - ssr:stedsnr = 306177: No name found
+utility_to_osm - INFO - ssr:stedsnr = 306588: No name found
 utility_to_osm - INFO - ssr:stedsnr = 306588 has multiple (3) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 306597: No name found
 utility_to_osm - INFO - ssr:stedsnr = 306597 has multiple (5) positions, using the first one!
@@ -1674,7 +1676,7 @@ utility_to_osm - INFO - ignoring non approved status = "avslåttNavneledd" name 
 utility_to_osm - INFO - ignoring non approved status = "avslåttNavneledd" name = "Grorødvatnet"
 utility_to_osm - INFO - ssr:stedsnr = 306828: No name found
 utility_to_osm - INFO - ssr:stedsnr = 306828 has multiple (4) positions, using the first one!
-utility_to_osm - INFO - ssr:stedsnr = 324028: No priority spelling found for lang = no, using alt_name to get "[('no', 'Nordre Eik')]"
+utility_to_osm - INFO - ssr:stedsnr = 324028: No name found
 utility_to_osm - INFO - ssr:stedsnr = 324028 has multiple (2) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 328734: No name found
 utility_to_osm - INFO - ssr:stedsnr = 328734 has multiple (3) positions, using the first one!
@@ -1713,7 +1715,7 @@ utility_to_osm - INFO - ssr:stedsnr = 330896: No name found
 utility_to_osm - INFO - ssr:stedsnr = 330739: No name found
 utility_to_osm - INFO - ssr:stedsnr = 330741: No name found
 utility_to_osm - INFO - ssr:stedsnr = 330786: No name found
-utility_to_osm - INFO - ssr:stedsnr = 330792: No priority spelling found for lang = no, using alt_name to get "[('no', 'Skalberg')]"
+utility_to_osm - INFO - ssr:stedsnr = 330792: No name found
 utility_to_osm - INFO - ssr:stedsnr = 331383: No name found
 utility_to_osm - INFO - ssr:stedsnr = 331050: No name found
 utility_to_osm - INFO - ssr:stedsnr = 331098: No name found
@@ -1723,13 +1725,13 @@ utility_to_osm - INFO - ssr:stedsnr = 331548: No name found
 utility_to_osm - INFO - ssr:stedsnr = 331635: No name found
 utility_to_osm - INFO - ssr:stedsnr = 331646: No name found
 utility_to_osm - INFO - ssr:stedsnr = 331649: No name found
-utility_to_osm - INFO - ssr:stedsnr = 335834: No priority spelling found for lang = no, using alt_name to get "[('no', "Bjønner'n")]"
+utility_to_osm - INFO - ssr:stedsnr = 335834: No name found
 utility_to_osm - INFO - ssr:stedsnr = 335834 has multiple (14) positions, using the first one!
-utility_to_osm - INFO - ssr:stedsnr = 335835: No priority spelling found for lang = no, using alt_name to get "[('no', 'Askelysveien')]"
+utility_to_osm - INFO - ssr:stedsnr = 335835: No name found
 utility_to_osm - INFO - ssr:stedsnr = 335835 has multiple (16) positions, using the first one!
-utility_to_osm - INFO - ssr:stedsnr = 335913: No priority spelling found for lang = no, using alt_name to get "[('no', 'Tveitenveien')]"
+utility_to_osm - INFO - ssr:stedsnr = 335913: No name found
 utility_to_osm - INFO - ssr:stedsnr = 335913 has multiple (8) positions, using the first one!
-utility_to_osm - INFO - ssr:stedsnr = 335917: No priority spelling found for lang = no, using alt_name to get "[('no', 'Gårdsveien')]"
+utility_to_osm - INFO - ssr:stedsnr = 335917: No name found
 utility_to_osm - INFO - ssr:stedsnr = 335917 has multiple (9) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 349565: No name found
 utility_to_osm - INFO - ssr:stedsnr = 350717: No name found
@@ -1766,7 +1768,7 @@ utility_to_osm - INFO - ssr:stedsnr = 388760: No name found
 utility_to_osm - INFO - ssr:stedsnr = 388771: No name found
 utility_to_osm - INFO - ssr:stedsnr = 389421: No name found
 utility_to_osm - INFO - ssr:stedsnr = 389817: No name found
-utility_to_osm - INFO - ssr:stedsnr = 390729: No priority spelling found for lang = no, using alt_name to get "[('no', 'Haug')]"
+utility_to_osm - INFO - ssr:stedsnr = 390729: No name found
 utility_to_osm - INFO - ssr:stedsnr = 392125: No name found
 utility_to_osm - INFO - ssr:stedsnr = 391032: No name found
 utility_to_osm - INFO - ssr:stedsnr = 391099: No name found
@@ -1835,13 +1837,13 @@ utility_to_osm - INFO - ssr:stedsnr = 670656 has multiple (3) positions, using t
 utility_to_osm - INFO - ssr:stedsnr = 670787: No name found
 utility_to_osm - INFO - ssr:stedsnr = 510829: No name found
 utility_to_osm - INFO - ssr:stedsnr = 510831: No name found
-utility_to_osm - INFO - ssr:stedsnr = 506039: No priority spelling found for lang = no, using alt_name to get "[('no', 'Søndre Karlsvika')]"
+utility_to_osm - INFO - ssr:stedsnr = 506039: No name found
 utility_to_osm - INFO - ssr:stedsnr = 506039 has multiple (2) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 510379: No name found
 utility_to_osm - INFO - ssr:stedsnr = 510795: No name found
 utility_to_osm - INFO - ssr:stedsnr = 510797: No name found
 utility_to_osm - INFO - ssr:stedsnr = 511000: No name found
-utility_to_osm - INFO - ssr:stedsnr = 511335: No priority spelling found for lang = no, using alt_name to get "[('no', 'Hette')]"
+utility_to_osm - INFO - ssr:stedsnr = 511335: No name found
 utility_to_osm - INFO - ssr:stedsnr = 512337: No name found
 utility_to_osm - INFO - ssr:stedsnr = 512363: No name found
 utility_to_osm - INFO - ssr:stedsnr = 512090: No name found
@@ -1878,7 +1880,7 @@ utility_to_osm - INFO - ssr:stedsnr = 513593: No name found
 utility_to_osm - INFO - ssr:stedsnr = 513790: No name found
 utility_to_osm - INFO - ssr:stedsnr = 513799: No name found
 utility_to_osm - INFO - ssr:stedsnr = 513992: No name found
-utility_to_osm - INFO - ssr:stedsnr = 517909: No priority spelling found for lang = no, using alt_name to get "[('no', 'Mistelteinen')]"
+utility_to_osm - INFO - ssr:stedsnr = 517909: No name found
 utility_to_osm - INFO - ssr:stedsnr = 517909 has multiple (5) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 531667: No name found
 utility_to_osm - INFO - ssr:stedsnr = 532705: No name found
@@ -1905,7 +1907,7 @@ utility_to_osm - INFO - ssr:stedsnr = 548234 has multiple (2) positions, using t
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Heggerstad"
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Heggerstad"
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Heggerstad"
-utility_to_osm - INFO - ssr:stedsnr = 548238: No priority spelling found for lang = no, using alt_name to get "[('no', 'Heierstad')]"
+utility_to_osm - INFO - ssr:stedsnr = 548238: No name found
 utility_to_osm - INFO - ssr:stedsnr = 548240: No name found
 utility_to_osm - INFO - ssr:stedsnr = 548240 has multiple (2) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 548585: No name found
@@ -1917,7 +1919,7 @@ utility_to_osm - INFO - ssr:stedsnr = 549773 has multiple (2) positions, using t
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Frestiåsen"
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Frestiåsen"
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Frestiåsen"
-utility_to_osm - INFO - ssr:stedsnr = 549783: No priority spelling found for lang = no, using alt_name to get "[('no', 'Fresteåsen')]"
+utility_to_osm - INFO - ssr:stedsnr = 549783: No name found
 utility_to_osm - INFO - ssr:stedsnr = 549783 has multiple (3) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 549817: No name found
 utility_to_osm - INFO - ssr:stedsnr = 549817 has multiple (2) positions, using the first one!
@@ -1927,10 +1929,10 @@ utility_to_osm - INFO - ssr:stedsnr = 549842: No name found
 utility_to_osm - INFO - ssr:stedsnr = 549895: No name found
 utility_to_osm - INFO - ssr:stedsnr = 549895 has multiple (3) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 570740: No name found
-utility_to_osm - INFO - ssr:stedsnr = 570984: No priority spelling found for lang = no, using alt_name to get "[('no', 'Greveskogen videregående skole')]"
+utility_to_osm - INFO - ssr:stedsnr = 570984: No name found
 utility_to_osm - INFO - ssr:stedsnr = 570986: No name found
 utility_to_osm - INFO - ssr:stedsnr = 572225: No name found
-utility_to_osm - INFO - ssr:stedsnr = 572387: No priority spelling found for lang = no, using alt_name to get "[('no', 'Jarberg')]"
+utility_to_osm - INFO - ssr:stedsnr = 572387: No name found
 utility_to_osm - INFO - ssr:stedsnr = 573511: No name found
 utility_to_osm - INFO - ssr:stedsnr = 573058: No name found
 utility_to_osm - INFO - ssr:stedsnr = 573068: No name found
@@ -1965,10 +1967,10 @@ utility_to_osm - INFO - ssr:stedsnr = 573811: No name found
 utility_to_osm - INFO - ssr:stedsnr = 573862: No name found
 utility_to_osm - INFO - ssr:stedsnr = 573869: No name found
 utility_to_osm - INFO - ssr:stedsnr = 574432: No name found
-utility_to_osm - INFO - ssr:stedsnr = 577834: No priority spelling found for lang = no, using alt_name to get "[('no', 'Fresjestien')]"
+utility_to_osm - INFO - ssr:stedsnr = 577834: No name found
 utility_to_osm - INFO - ssr:stedsnr = 577834 has multiple (9) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 578613: No name found
-utility_to_osm - INFO - ssr:stedsnr = 578872: No priority spelling found for lang = no, using alt_name to get "[('no', 'Nannas vei')]"
+utility_to_osm - INFO - ssr:stedsnr = 578872: No name found
 utility_to_osm - INFO - ssr:stedsnr = 578872 has multiple (3) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 670823: No name found
 utility_to_osm - INFO - ssr:stedsnr = 670823 has multiple (2) positions, using the first one!
@@ -2000,9 +2002,9 @@ utility_to_osm - INFO - ssr:stedsnr = 609565 has multiple (3) positions, using t
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Stusrød"
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Stusrød"
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Stusrød"
-utility_to_osm - INFO - ssr:stedsnr = 609576: No priority spelling found for lang = no, using alt_name to get "[('no', 'Studsrød')]"
+utility_to_osm - INFO - ssr:stedsnr = 609576: No name found
 utility_to_osm - INFO - ssr:stedsnr = 609623: No name found
-utility_to_osm - INFO - ssr:stedsnr = 609629: No priority spelling found for lang = no, using alt_name to get "[('no', 'Hogsnes')]"
+utility_to_osm - INFO - ssr:stedsnr = 609629: No name found
 utility_to_osm - INFO - ssr:stedsnr = 609629 has multiple (2) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 609764: No name found
 utility_to_osm - INFO - ssr:stedsnr = 609768: No name found
@@ -2057,7 +2059,7 @@ utility_to_osm - INFO - ssr:stedsnr = 669018: No name found
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Karlsrud"
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Karlsrud"
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Karlsrud"
-utility_to_osm - INFO - ssr:stedsnr = 669048: No priority spelling found for lang = no, using alt_name to get "[('no', 'Kalsrud')]"
+utility_to_osm - INFO - ssr:stedsnr = 669048: No name found
 utility_to_osm - INFO - ssr:stedsnr = 669555: No name found
 utility_to_osm - INFO - ssr:stedsnr = 669555 has multiple (2) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 669572: No name found
@@ -2083,18 +2085,18 @@ utility_to_osm - INFO - ssr:stedsnr = 670153 has multiple (2) positions, using t
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Lislebo"
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Lislebo"
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Lislebo"
-utility_to_osm - INFO - ssr:stedsnr = 670155: No priority spelling found for lang = no, using alt_name to get "[('no', 'Lislebø')]"
+utility_to_osm - INFO - ssr:stedsnr = 670155: No name found
 utility_to_osm - INFO - ssr:stedsnr = 670578: No name found
 utility_to_osm - INFO - ssr:stedsnr = 670578 has multiple (3) positions, using the first one!
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Ekeberg"
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Ekeberg"
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Ekeberg"
-utility_to_osm - INFO - ssr:stedsnr = 670587: No priority spelling found for lang = no, using alt_name to get "[('no', 'Eikeberg')]"
+utility_to_osm - INFO - ssr:stedsnr = 670587: No name found
 utility_to_osm - INFO - ssr:stedsnr = 670587 has multiple (4) positions, using the first one!
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Fresje"
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Fresje"
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Fresje"
-utility_to_osm - INFO - ssr:stedsnr = 670588: No priority spelling found for lang = no, using alt_name to get "[('no', 'Fritsø')]"
+utility_to_osm - INFO - ssr:stedsnr = 670588: No name found
 utility_to_osm - INFO - ssr:stedsnr = 670588 has multiple (3) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 670552: No name found
 utility_to_osm - INFO - ssr:stedsnr = 670552 has multiple (3) positions, using the first one!
@@ -2102,7 +2104,7 @@ utility_to_osm - INFO - ssr:stedsnr = 714716: No name found
 utility_to_osm - INFO - ssr:stedsnr = 714717: No name found
 utility_to_osm - INFO - ssr:stedsnr = 723362: No name found
 utility_to_osm - INFO - ssr:stedsnr = 723799: No name found
-utility_to_osm - INFO - ssr:stedsnr = 730025: No priority spelling found for lang = no, using alt_name to get "[('no', 'Husøy')]"
+utility_to_osm - INFO - ssr:stedsnr = 730025: No name found
 utility_to_osm - INFO - ssr:stedsnr = 730025 has multiple (5) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 730684: No name found
 utility_to_osm - INFO - ssr:stedsnr = 730684 has multiple (6) positions, using the first one!
@@ -2111,7 +2113,7 @@ utility_to_osm - INFO - ssr:stedsnr = 730093 has multiple (2) positions, using t
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Kilsbrattås"
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Kilsbrattås"
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Kilsbrattås"
-utility_to_osm - INFO - ssr:stedsnr = 730193: No priority spelling found for lang = no, using alt_name to get "[('no', 'Brattås')]"
+utility_to_osm - INFO - ssr:stedsnr = 730193: No name found
 utility_to_osm - INFO - ssr:stedsnr = 730193 has multiple (3) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 730133: No name found
 utility_to_osm - INFO - ssr:stedsnr = 730133 has multiple (3) positions, using the first one!
@@ -2134,7 +2136,7 @@ utility_to_osm - INFO - ssr:stedsnr = 731818: No name found
 utility_to_osm - INFO - ssr:stedsnr = 731818 has multiple (3) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 731838: No name found
 utility_to_osm - INFO - ssr:stedsnr = 731838 has multiple (2) positions, using the first one!
-utility_to_osm - INFO - ssr:stedsnr = 748039: No priority spelling found for lang = no, using alt_name to get "[('no', 'Klopp')]"
+utility_to_osm - INFO - ssr:stedsnr = 748039: No name found
 utility_to_osm - INFO - ssr:stedsnr = 748039 has multiple (3) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 753347: No name found
 utility_to_osm - INFO - ssr:stedsnr = 753712: No name found
@@ -2163,7 +2165,7 @@ utility_to_osm - INFO - ssr:stedsnr = 755535: No name found
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Karlsrudåsen"
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Karlsrudåsen"
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Karlsrudåsen"
-utility_to_osm - INFO - ssr:stedsnr = 755544: No priority spelling found for lang = no, using alt_name to get "[('no', 'Kalsrudåsen')]"
+utility_to_osm - INFO - ssr:stedsnr = 755544: No name found
 utility_to_osm - INFO - ssr:stedsnr = 755545: No name found
 utility_to_osm - INFO - ssr:stedsnr = 755611: No name found
 utility_to_osm - INFO - ssr:stedsnr = 755627: No name found
@@ -2185,7 +2187,7 @@ utility_to_osm - INFO - ssr:stedsnr = 791129: No name found
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Nyrød"
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Nyrød"
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Nyrød"
-utility_to_osm - INFO - ssr:stedsnr = 791512: No priority spelling found for lang = no, using alt_name to get "[('no', 'Nyerrød')]"
+utility_to_osm - INFO - ssr:stedsnr = 791512: No name found
 utility_to_osm - INFO - ssr:stedsnr = 791167: No name found
 utility_to_osm - INFO - ssr:stedsnr = 791167 has multiple (2) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 791176: No name found
@@ -2205,7 +2207,7 @@ utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Gurisk
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Feskjær"
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Guriskjeret"
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Feskjær"
-utility_to_osm - INFO - ssr:stedsnr = 791576: No priority spelling found for lang = no, using alt_name to get "[('no', 'Guriskjæret')]"
+utility_to_osm - INFO - ssr:stedsnr = 791576: No name found
 utility_to_osm - INFO - ssr:stedsnr = 791576 has multiple (5) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 791628: No name found
 utility_to_osm - INFO - ssr:stedsnr = 791749: No name found
@@ -2230,7 +2232,7 @@ utility_to_osm - INFO - ssr:stedsnr = 814853: No name found
 utility_to_osm - INFO - ssr:stedsnr = 814853 has multiple (2) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 815199: No name found
 utility_to_osm - INFO - ssr:stedsnr = 815199 has multiple (2) positions, using the first one!
-utility_to_osm - INFO - ssr:stedsnr = 815359: No priority spelling found for lang = no, using alt_name to get "[('no', 'Valleåsen')]"
+utility_to_osm - INFO - ssr:stedsnr = 815359: No name found
 utility_to_osm - INFO - ssr:stedsnr = 816091: No name found
 utility_to_osm - INFO - ssr:stedsnr = 816092: No name found
 utility_to_osm - INFO - ssr:stedsnr = 816038: No name found
@@ -2268,12 +2270,12 @@ utility_to_osm - INFO - ssr:stedsnr = 849049: No name found
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Torgersøy"
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Torgersøy"
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Torgersøy"
-utility_to_osm - INFO - ssr:stedsnr = 851003: No priority spelling found for lang = no, using alt_name to get "[('no', 'Torgersøya')]"
+utility_to_osm - INFO - ssr:stedsnr = 851003: No name found
 utility_to_osm - INFO - ssr:stedsnr = 851003 has multiple (5) positions, using the first one!
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Jersøy"
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Jersøy"
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Jersøy"
-utility_to_osm - INFO - ssr:stedsnr = 851009: No priority spelling found for lang = no, using alt_name to get "[('no', 'Jarlsø')]"
+utility_to_osm - INFO - ssr:stedsnr = 851009: No name found
 utility_to_osm - INFO - ssr:stedsnr = 851009 has multiple (6) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 852193: No name found
 utility_to_osm - INFO - ssr:stedsnr = 852200: No name found
@@ -2324,7 +2326,7 @@ utility_to_osm - INFO - ssr:stedsnr = 874945: No name found
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Jersøysundet"
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Jersøysundet"
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Jersøysundet"
-utility_to_osm - INFO - ssr:stedsnr = 874999: No priority spelling found for lang = no, using alt_name to get "[('no', 'Jarlsøsundet')]"
+utility_to_osm - INFO - ssr:stedsnr = 874999: No name found
 utility_to_osm - INFO - ssr:stedsnr = 875406: No name found
 utility_to_osm - INFO - ssr:stedsnr = 875398: No name found
 utility_to_osm - INFO - ssr:stedsnr = 875409: No name found
@@ -2371,7 +2373,7 @@ utility_to_osm - INFO - ssr:stedsnr = 877895: No name found
 utility_to_osm - INFO - ssr:stedsnr = 877897: No name found
 utility_to_osm - INFO - ssr:stedsnr = 935775: No name found
 utility_to_osm - INFO - ssr:stedsnr = 935779: No name found
-utility_to_osm - INFO - ssr:stedsnr = 936344: No priority spelling found for lang = no, using alt_name to get "[('no', 'Brekkeåsen')]"
+utility_to_osm - INFO - ssr:stedsnr = 936344: No name found
 utility_to_osm - INFO - ssr:stedsnr = 936390: No name found
 utility_to_osm - INFO - ssr:stedsnr = 937020: No name found
 utility_to_osm - INFO - ssr:stedsnr = 937029: No name found
@@ -2418,11 +2420,11 @@ utility_to_osm - INFO - ssr:stedsnr = 938693: No name found
 utility_to_osm - INFO - ssr:stedsnr = 938791: No name found
 utility_to_osm - INFO - ssr:stedsnr = 938897: No name found
 utility_to_osm - INFO - ssr:stedsnr = 938897 has multiple (2) positions, using the first one!
-utility_to_osm - INFO - ssr:stedsnr = 942727: No priority spelling found for lang = no, using alt_name to get "[('no', 'Melsomvikveien')]"
+utility_to_osm - INFO - ssr:stedsnr = 942727: No name found
 utility_to_osm - INFO - ssr:stedsnr = 942727 has multiple (19) positions, using the first one!
-utility_to_osm - INFO - ssr:stedsnr = 942807: No priority spelling found for lang = no, using alt_name to get "[('no', 'Solvindveien')]"
+utility_to_osm - INFO - ssr:stedsnr = 942807: No name found
 utility_to_osm - INFO - ssr:stedsnr = 942807 has multiple (12) positions, using the first one!
-utility_to_osm - INFO - ssr:stedsnr = 942816: No priority spelling found for lang = no, using alt_name to get "[('no', 'Rønningmyra')]"
+utility_to_osm - INFO - ssr:stedsnr = 942816: No name found
 utility_to_osm - INFO - ssr:stedsnr = 942816 has multiple (9) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 949667: No name found
 utility_to_osm - INFO - ssr:stedsnr = 956675: No name found
@@ -2462,23 +2464,23 @@ utility_to_osm - INFO - ssr:stedsnr = 1041962: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1041962 has multiple (5) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 1041964: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1041964 has multiple (4) positions, using the first one!
-utility_to_osm - INFO - ssr:stedsnr = 1041967: No priority spelling found for lang = no, using alt_name to get "[('no', 'Bekkeveien')]"
+utility_to_osm - INFO - ssr:stedsnr = 1041967: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1041967 has multiple (28) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 1041968: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1041968 has multiple (9) positions, using the first one!
-utility_to_osm - INFO - ssr:stedsnr = 1041970: No priority spelling found for lang = no, using alt_name to get "[('no', 'Bekkeløkka')]"
+utility_to_osm - INFO - ssr:stedsnr = 1041970: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1041970 has multiple (10) positions, using the first one!
-utility_to_osm - INFO - ssr:stedsnr = 1041971: No priority spelling found for lang = no, using alt_name to get "[('no', 'Bekketjønnveien')]"
+utility_to_osm - INFO - ssr:stedsnr = 1041971: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1041971 has multiple (4) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 1041972: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1041972 has multiple (3) positions, using the first one!
-utility_to_osm - INFO - ssr:stedsnr = 1041973: No priority spelling found for lang = no, using alt_name to get "[('no', 'Bekkejordet')]"
+utility_to_osm - INFO - ssr:stedsnr = 1041973: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1041973 has multiple (8) positions, using the first one!
-utility_to_osm - INFO - ssr:stedsnr = 1041974: No priority spelling found for lang = no, using alt_name to get "[('no', 'Bekkeskogen')]"
+utility_to_osm - INFO - ssr:stedsnr = 1041974: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1041974 has multiple (22) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 1041916: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1041916 has multiple (3) positions, using the first one!
-utility_to_osm - INFO - ssr:stedsnr = 1041920: No priority spelling found for lang = no, using alt_name to get "[('no', 'Anders Skjolds vei')]"
+utility_to_osm - INFO - ssr:stedsnr = 1041920: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1041921: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1041921 has multiple (9) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 1041923: No name found
@@ -2487,7 +2489,7 @@ utility_to_osm - INFO - ssr:stedsnr = 1041927: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1041927 has multiple (4) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 1041931: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1041931 has multiple (2) positions, using the first one!
-utility_to_osm - INFO - ssr:stedsnr = 1041933: No priority spelling found for lang = no, using alt_name to get "[('no', 'Akerveien')]"
+utility_to_osm - INFO - ssr:stedsnr = 1041933: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1041933 has multiple (31) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 1042142: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1042142 has multiple (3) positions, using the first one!
@@ -2501,7 +2503,7 @@ utility_to_osm - INFO - ssr:stedsnr = 1042165: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1042165 has multiple (2) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 1042169: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1042169 has multiple (2) positions, using the first one!
-utility_to_osm - INFO - ssr:stedsnr = 1042173: No priority spelling found for lang = no, using alt_name to get "[('no', 'Halvdan Kvitbeins vei')]"
+utility_to_osm - INFO - ssr:stedsnr = 1042173: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1042173 has multiple (18) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 1042177: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1042177 has multiple (5) positions, using the first one!
@@ -2509,7 +2511,7 @@ utility_to_osm - INFO - ssr:stedsnr = 1041934: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1041934 has multiple (10) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 1041986: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1041986 has multiple (17) positions, using the first one!
-utility_to_osm - INFO - ssr:stedsnr = 1041987: No priority spelling found for lang = no, using alt_name to get "[('no', 'Blåkollveien')]"
+utility_to_osm - INFO - ssr:stedsnr = 1041987: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1041987 has multiple (8) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 1041988: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1041988 has multiple (5) positions, using the first one!
@@ -2533,7 +2535,7 @@ utility_to_osm - INFO - ssr:stedsnr = 1042010: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1042010 has multiple (4) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 1042013: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1042013 has multiple (6) positions, using the first one!
-utility_to_osm - INFO - ssr:stedsnr = 1042016: No priority spelling found for lang = no, using alt_name to get "[('no', 'Askeladden')]"
+utility_to_osm - INFO - ssr:stedsnr = 1042016: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1042017: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1042017 has multiple (5) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 1042021: No name found
@@ -2558,7 +2560,7 @@ utility_to_osm - INFO - ssr:stedsnr = 1042042: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1042042 has multiple (3) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 1042044: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1042044 has multiple (3) positions, using the first one!
-utility_to_osm - INFO - ssr:stedsnr = 1042046: No priority spelling found for lang = no, using alt_name to get "[('no', 'Bakkenveien')]"
+utility_to_osm - INFO - ssr:stedsnr = 1042046: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1042046 has multiple (4) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 1042047: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1042047 has multiple (3) positions, using the first one!
@@ -2570,11 +2572,11 @@ utility_to_osm - INFO - ssr:stedsnr = 1042687: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1042687 has multiple (20) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 1042689: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1042689 has multiple (4) positions, using the first one!
-utility_to_osm - INFO - ssr:stedsnr = 1042691: No priority spelling found for lang = no, using alt_name to get "[('no', 'Gamle Ramnesvei')]"
+utility_to_osm - INFO - ssr:stedsnr = 1042691: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1042691 has multiple (7) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 1042694: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1042694 has multiple (12) positions, using the first one!
-utility_to_osm - INFO - ssr:stedsnr = 1042697: No priority spelling found for lang = no, using alt_name to get "[('no', 'Gamle Bjellandvei')]"
+utility_to_osm - INFO - ssr:stedsnr = 1042697: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1042697 has multiple (8) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 1042699: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1042699 has multiple (3) positions, using the first one!
@@ -2588,7 +2590,7 @@ utility_to_osm - INFO - ssr:stedsnr = 1042710: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1042710 has multiple (7) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 1042712: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1042712 has multiple (3) positions, using the first one!
-utility_to_osm - INFO - ssr:stedsnr = 1042716: No priority spelling found for lang = no, using alt_name to get "[('no', 'Golfbaneveien')]"
+utility_to_osm - INFO - ssr:stedsnr = 1042716: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1042716 has multiple (20) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 1042186: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1042186 has multiple (5) positions, using the first one!
@@ -2622,9 +2624,9 @@ utility_to_osm - INFO - ssr:stedsnr = 1042229: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1042229 has multiple (6) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 1042230: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1042230 has multiple (3) positions, using the first one!
-utility_to_osm - INFO - ssr:stedsnr = 1042231: No priority spelling found for lang = no, using alt_name to get "[('no', 'Leikvollveien')]"
+utility_to_osm - INFO - ssr:stedsnr = 1042231: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1042231 has multiple (4) positions, using the first one!
-utility_to_osm - INFO - ssr:stedsnr = 1042232: No priority spelling found for lang = no, using alt_name to get "[('no', 'Kløvåsen')]"
+utility_to_osm - INFO - ssr:stedsnr = 1042232: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1042232 has multiple (7) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 1042235: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1042235 has multiple (3) positions, using the first one!
@@ -2644,7 +2646,7 @@ utility_to_osm - INFO - ssr:stedsnr = 1042308: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1042308 has multiple (2) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 1042309: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1042309 has multiple (6) positions, using the first one!
-utility_to_osm - INFO - ssr:stedsnr = 1042311: No priority spelling found for lang = no, using alt_name to get "[('no', 'Gulliveien')]"
+utility_to_osm - INFO - ssr:stedsnr = 1042311: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1042311 has multiple (27) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 1042312: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1042312 has multiple (4) positions, using the first one!
@@ -2674,7 +2676,7 @@ utility_to_osm - INFO - ssr:stedsnr = 1042248: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1042248 has multiple (2) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 1042253: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1042253 has multiple (8) positions, using the first one!
-utility_to_osm - INFO - ssr:stedsnr = 1042261: No priority spelling found for lang = no, using alt_name to get "[('no', 'Greinveien')]"
+utility_to_osm - INFO - ssr:stedsnr = 1042261: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1042261 has multiple (4) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 1042264: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1042264 has multiple (8) positions, using the first one!
@@ -2700,7 +2702,7 @@ utility_to_osm - INFO - ssr:stedsnr = 1042473: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1042473 has multiple (6) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 1042474: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1042474 has multiple (12) positions, using the first one!
-utility_to_osm - INFO - ssr:stedsnr = 1042475: No priority spelling found for lang = no, using alt_name to get "[('no', 'Hesbyveien')]"
+utility_to_osm - INFO - ssr:stedsnr = 1042475: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1042475 has multiple (29) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 1042341: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1042341 has multiple (14) positions, using the first one!
@@ -2708,9 +2710,9 @@ utility_to_osm - INFO - ssr:stedsnr = 1042348: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1042348 has multiple (11) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 1042356: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1042356 has multiple (6) positions, using the first one!
-utility_to_osm - INFO - ssr:stedsnr = 1042358: No priority spelling found for lang = no, using alt_name to get "[('no', 'Olgar Dahls vei')]"
+utility_to_osm - INFO - ssr:stedsnr = 1042358: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1042358 has multiple (6) positions, using the first one!
-utility_to_osm - INFO - ssr:stedsnr = 1042359: No priority spelling found for lang = no, using alt_name to get "[('no', 'Harald Heggestads vei')]"
+utility_to_osm - INFO - ssr:stedsnr = 1042359: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1042359 has multiple (8) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 1042360: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1042360 has multiple (8) positions, using the first one!
@@ -2729,7 +2731,7 @@ utility_to_osm - INFO - ssr:stedsnr = 1042378 has multiple (19) positions, using
 utility_to_osm - INFO - Skipping name_status = "avslått navnevalg"
 utility_to_osm - INFO - Skipping name_status = "avslått navnevalg"
 utility_to_osm - INFO - Skipping name_status = "avslått navnevalg"
-utility_to_osm - INFO - ssr:stedsnr = 1042380: No priority spelling found for lang = no, using alt_name to get "[('no', 'Bergskollen')]"
+utility_to_osm - INFO - ssr:stedsnr = 1042380: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1042380 has multiple (10) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 1042381: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1042381 has multiple (57) positions, using the first one!
@@ -2743,7 +2745,7 @@ utility_to_osm - INFO - ssr:stedsnr = 1042398: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1042398 has multiple (8) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 1042403: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1042403 has multiple (2) positions, using the first one!
-utility_to_osm - INFO - ssr:stedsnr = 1042408: No priority spelling found for lang = no, using alt_name to get "[('no', 'Johan Wesmanns vei')]"
+utility_to_osm - INFO - ssr:stedsnr = 1042408: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1042408 has multiple (2) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 1042410: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1042410 has multiple (8) positions, using the first one!
@@ -2765,18 +2767,18 @@ utility_to_osm - INFO - ssr:stedsnr = 1042582: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1042582 has multiple (4) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 1042636: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1042636 has multiple (2) positions, using the first one!
-utility_to_osm - INFO - ssr:stedsnr = 1042638: No priority spelling found for lang = no, using alt_name to get "[('no', 'Bruaåsen')]"
+utility_to_osm - INFO - ssr:stedsnr = 1042638: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1042638 has multiple (3) positions, using the first one!
-utility_to_osm - INFO - ssr:stedsnr = 1042640: No priority spelling found for lang = no, using alt_name to get "[('no', 'Bruksbakken')]"
+utility_to_osm - INFO - ssr:stedsnr = 1042640: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1042640 has multiple (2) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 1042642: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1042642 has multiple (3) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 1042643: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1042643 has multiple (8) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 1042644 not active = "relikt". Skipping...
-utility_to_osm - INFO - ssr:stedsnr = 1042646: No priority spelling found for lang = no, using alt_name to get "[('no', 'Brekkelia')]"
+utility_to_osm - INFO - ssr:stedsnr = 1042646: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1042646 has multiple (17) positions, using the first one!
-utility_to_osm - INFO - ssr:stedsnr = 1042647: No priority spelling found for lang = no, using alt_name to get "[('no', 'Brekkemyra')]"
+utility_to_osm - INFO - ssr:stedsnr = 1042647: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1042647 has multiple (6) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 1042650: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1042650 has multiple (4) positions, using the first one!
@@ -2786,13 +2788,13 @@ utility_to_osm - INFO - ssr:stedsnr = 1042653: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1042653 has multiple (8) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 1042654: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1042654 has multiple (2) positions, using the first one!
-utility_to_osm - INFO - ssr:stedsnr = 1042655: No priority spelling found for lang = no, using alt_name to get "[('no', 'Bragerlia')]"
+utility_to_osm - INFO - ssr:stedsnr = 1042655: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1042655 has multiple (3) positions, using the first one!
-utility_to_osm - INFO - ssr:stedsnr = 1042657: No priority spelling found for lang = no, using alt_name to get "[('no', 'Bollerødveien')]"
+utility_to_osm - INFO - ssr:stedsnr = 1042657: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1042657 has multiple (16) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 1042660: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1042660 has multiple (4) positions, using the first one!
-utility_to_osm - INFO - ssr:stedsnr = 1042661: No priority spelling found for lang = no, using alt_name to get "[('no', 'Diones vei')]"
+utility_to_osm - INFO - ssr:stedsnr = 1042661: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1042661 has multiple (4) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 1042662: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1042662 has multiple (5) positions, using the first one!
@@ -2820,11 +2822,11 @@ utility_to_osm - INFO - ssr:stedsnr = 1042592: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1042592 has multiple (39) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 1042598: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1042598 has multiple (2) positions, using the first one!
-utility_to_osm - INFO - ssr:stedsnr = 1042603: No priority spelling found for lang = no, using alt_name to get "[('no', 'Døsserødveien')]"
+utility_to_osm - INFO - ssr:stedsnr = 1042603: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1042603 has multiple (5) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 1042605: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1042605 has multiple (2) positions, using the first one!
-utility_to_osm - INFO - ssr:stedsnr = 1042607: No priority spelling found for lang = no, using alt_name to get "[('no', 'Døsserødsvingen')]"
+utility_to_osm - INFO - ssr:stedsnr = 1042607: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1042607 has multiple (9) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 1042611: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1042611 has multiple (8) positions, using the first one!
@@ -2846,9 +2848,9 @@ utility_to_osm - INFO - ssr:stedsnr = 1042737: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1042737 has multiple (6) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 1042680: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1042680 has multiple (12) positions, using the first one!
-utility_to_osm - INFO - ssr:stedsnr = 1042683: No priority spelling found for lang = no, using alt_name to get "[('no', 'Glanutveien')]"
+utility_to_osm - INFO - ssr:stedsnr = 1042683: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1042683 has multiple (9) positions, using the first one!
-utility_to_osm - INFO - ssr:stedsnr = 1042685: No priority spelling found for lang = no, using alt_name to get "[('no', 'Geitekleiva')]"
+utility_to_osm - INFO - ssr:stedsnr = 1042685: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1042685 has multiple (8) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 1043543: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1043543 has multiple (2) positions, using the first one!
@@ -2860,7 +2862,7 @@ utility_to_osm - INFO - ssr:stedsnr = 1043557: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1043557 has multiple (18) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 1043562: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1043562 has multiple (7) positions, using the first one!
-utility_to_osm - INFO - ssr:stedsnr = 1043567: No priority spelling found for lang = no, using alt_name to get "[('no', 'Sven Jørgensens vei')]"
+utility_to_osm - INFO - ssr:stedsnr = 1043567: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1043567 has multiple (11) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 1043643: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1043643 has multiple (2) positions, using the first one!
@@ -2870,28 +2872,28 @@ utility_to_osm - INFO - ssr:stedsnr = 1043648: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1043648 has multiple (12) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 1043652: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1043652 has multiple (4) positions, using the first one!
-utility_to_osm - INFO - ssr:stedsnr = 1043655: No priority spelling found for lang = no, using alt_name to get "[('no', 'Opprannveien')]"
+utility_to_osm - INFO - ssr:stedsnr = 1043655: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1043655 has multiple (23) positions, using the first one!
-utility_to_osm - INFO - ssr:stedsnr = 1043657: No priority spelling found for lang = no, using alt_name to get "[('no', 'Prestegårdsveien')]"
+utility_to_osm - INFO - ssr:stedsnr = 1043657: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1043657 has multiple (36) positions, using the first one!
-utility_to_osm - INFO - ssr:stedsnr = 1043659: No priority spelling found for lang = no, using alt_name to get "[('no', 'Stasjonsveien')]"
+utility_to_osm - INFO - ssr:stedsnr = 1043659: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1043659 has multiple (11) positions, using the first one!
-utility_to_osm - INFO - ssr:stedsnr = 1043660: No priority spelling found for lang = no, using alt_name to get "[('no', 'Brårveien')]"
+utility_to_osm - INFO - ssr:stedsnr = 1043660: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1043660 has multiple (28) positions, using the first one!
-utility_to_osm - INFO - ssr:stedsnr = 1043663: No priority spelling found for lang = no, using alt_name to get "[('no', 'Himbergveien')]"
+utility_to_osm - INFO - ssr:stedsnr = 1043663: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1043663 has multiple (16) positions, using the first one!
-utility_to_osm - INFO - ssr:stedsnr = 1043665: No priority spelling found for lang = no, using alt_name to get "[('no', 'Åsveien')]"
+utility_to_osm - INFO - ssr:stedsnr = 1043665: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1043665 has multiple (17) positions, using the first one!
-utility_to_osm - INFO - ssr:stedsnr = 1043668: No priority spelling found for lang = no, using alt_name to get "[('no', 'Vestre Hole')]"
+utility_to_osm - INFO - ssr:stedsnr = 1043668: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1043668 has multiple (12) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 1043670 not active = "relikt". Skipping...
-utility_to_osm - INFO - ssr:stedsnr = 1043672: No priority spelling found for lang = no, using alt_name to get "[('no', 'Reineveien')]"
+utility_to_osm - INFO - ssr:stedsnr = 1043672: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1043672 has multiple (12) positions, using the first one!
-utility_to_osm - INFO - ssr:stedsnr = 1043673: No priority spelling found for lang = no, using alt_name to get "[('no', 'Østre Hole')]"
+utility_to_osm - INFO - ssr:stedsnr = 1043673: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1043673 has multiple (19) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 1043674: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1043674 has multiple (2) positions, using the first one!
-utility_to_osm - INFO - ssr:stedsnr = 1043675: No priority spelling found for lang = no, using alt_name to get "[('no', 'Bjunegrenda')]"
+utility_to_osm - INFO - ssr:stedsnr = 1043675: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1043675 has multiple (44) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 1042718: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1042718 has multiple (2) positions, using the first one!
@@ -2905,19 +2907,19 @@ utility_to_osm - INFO - ssr:stedsnr = 1042731: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1042731 has multiple (2) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 1042732: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1042732 has multiple (6) positions, using the first one!
-utility_to_osm - INFO - ssr:stedsnr = 1042787: No priority spelling found for lang = no, using alt_name to get "[('no', 'Olsrødsvingen')]"
+utility_to_osm - INFO - ssr:stedsnr = 1042787: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1042787 has multiple (9) positions, using the first one!
-utility_to_osm - INFO - ssr:stedsnr = 1042789: No priority spelling found for lang = no, using alt_name to get "[('no', 'Olsrødtunet')]"
+utility_to_osm - INFO - ssr:stedsnr = 1042789: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1042789 has multiple (4) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 1042790: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1042790 has multiple (43) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 1042791: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1042791 has multiple (4) positions, using the first one!
-utility_to_osm - INFO - ssr:stedsnr = 1042794: No priority spelling found for lang = no, using alt_name to get "[('no', 'Firingveien')]"
+utility_to_osm - INFO - ssr:stedsnr = 1042794: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1042794 has multiple (5) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 1042795: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1042795 has multiple (20) positions, using the first one!
-utility_to_osm - INFO - ssr:stedsnr = 1042797: No priority spelling found for lang = no, using alt_name to get "[('no', 'Olav Digres vei')]"
+utility_to_osm - INFO - ssr:stedsnr = 1042797: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1042797 has multiple (12) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 1042798: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1042798 has multiple (8) positions, using the first one!
@@ -2934,14 +2936,14 @@ utility_to_osm - INFO - ssr:stedsnr = 1042810 has multiple (3) positions, using 
 utility_to_osm - INFO - Skipping name_status = "avslått navnevalg"
 utility_to_osm - INFO - Skipping name_status = "avslått navnevalg"
 utility_to_osm - INFO - Skipping name_status = "avslått navnevalg"
-utility_to_osm - INFO - ssr:stedsnr = 1042813: No priority spelling found for lang = no, using alt_name to get "[('no', 'Røråsbakken')]"
+utility_to_osm - INFO - ssr:stedsnr = 1042813: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1042813 has multiple (7) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 1042814: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1042814 has multiple (3) positions, using the first one!
 utility_to_osm - INFO - Skipping name_status = "avslått navnevalg"
 utility_to_osm - INFO - Skipping name_status = "avslått navnevalg"
 utility_to_osm - INFO - Skipping name_status = "avslått navnevalg"
-utility_to_osm - INFO - ssr:stedsnr = 1042822: No priority spelling found for lang = no, using alt_name to get "[('no', 'Sirkelveien')]"
+utility_to_osm - INFO - ssr:stedsnr = 1042822: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1042822 has multiple (9) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 1042823: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1042823 has multiple (7) positions, using the first one!
@@ -2975,7 +2977,7 @@ utility_to_osm - INFO - ssr:stedsnr = 1042740: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1042740 has multiple (3) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 1042742: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1042742 has multiple (3) positions, using the first one!
-utility_to_osm - INFO - ssr:stedsnr = 1042746: No priority spelling found for lang = no, using alt_name to get "[('no', 'Fenris vei')]"
+utility_to_osm - INFO - ssr:stedsnr = 1042746: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1042746 has multiple (21) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 1042748: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1042748 has multiple (7) positions, using the first one!
@@ -2985,7 +2987,7 @@ utility_to_osm - INFO - ssr:stedsnr = 1042753: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1042753 has multiple (5) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 1042756: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1042756 has multiple (5) positions, using the first one!
-utility_to_osm - INFO - ssr:stedsnr = 1042760: No priority spelling found for lang = no, using alt_name to get "[('no', 'Fritsøveien')]"
+utility_to_osm - INFO - ssr:stedsnr = 1042760: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1042760 has multiple (4) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 1042764: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1042764 has multiple (2) positions, using the first one!
@@ -2994,7 +2996,7 @@ utility_to_osm - INFO - ssr:stedsnr = 1042770: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1042770 has multiple (7) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 1042773: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1042773 has multiple (3) positions, using the first one!
-utility_to_osm - INFO - ssr:stedsnr = 1042775: No priority spelling found for lang = no, using alt_name to get "[('no', 'Flyplassveien')]"
+utility_to_osm - INFO - ssr:stedsnr = 1042775: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1042775 has multiple (18) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 1042778: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1042778 has multiple (4) positions, using the first one!
@@ -3004,15 +3006,15 @@ utility_to_osm - INFO - ssr:stedsnr = 1042785: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1042785 has multiple (2) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 1042886: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1042886 has multiple (7) positions, using the first one!
-utility_to_osm - INFO - ssr:stedsnr = 1042892: No priority spelling found for lang = no, using alt_name to get "[('no', 'Myrløkka')]"
+utility_to_osm - INFO - ssr:stedsnr = 1042892: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1042892 has multiple (3) positions, using the first one!
-utility_to_osm - INFO - ssr:stedsnr = 1042897: No priority spelling found for lang = no, using alt_name to get "[('no', 'Myrhamna')]"
+utility_to_osm - INFO - ssr:stedsnr = 1042897: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1042897 has multiple (8) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 1042900: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1042900 has multiple (2) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 1042904: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1042904 has multiple (7) positions, using the first one!
-utility_to_osm - INFO - ssr:stedsnr = 1042905: No priority spelling found for lang = no, using alt_name to get "[('no', 'Nordre Rakkås vei')]"
+utility_to_osm - INFO - ssr:stedsnr = 1042905: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1042905 has multiple (12) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 1042909: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1042909 has multiple (7) positions, using the first one!
@@ -3022,35 +3024,35 @@ utility_to_osm - INFO - ssr:stedsnr = 1042912: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1042912 has multiple (3) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 1042915: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1042915 has multiple (2) positions, using the first one!
-utility_to_osm - INFO - ssr:stedsnr = 1042916: No priority spelling found for lang = no, using alt_name to get "[('no', 'Neverveien')]"
+utility_to_osm - INFO - ssr:stedsnr = 1042916: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1042916 has multiple (6) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 1042917: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1042917 has multiple (7) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 1042921: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1042921 has multiple (5) positions, using the first one!
-utility_to_osm - INFO - ssr:stedsnr = 1042925: No priority spelling found for lang = no, using alt_name to get "[('no', 'Ola Skomakers vei')]"
+utility_to_osm - INFO - ssr:stedsnr = 1042925: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1042925 has multiple (2) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 1042927: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1042927 has multiple (8) positions, using the first one!
-utility_to_osm - INFO - ssr:stedsnr = 1042929: No priority spelling found for lang = no, using alt_name to get "[('no', 'Tuftegata')]"
+utility_to_osm - INFO - ssr:stedsnr = 1042929: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1042929 has multiple (17) positions, using the first one!
-utility_to_osm - INFO - ssr:stedsnr = 1042930: No priority spelling found for lang = no, using alt_name to get "[('no', 'Birkebeinerstien')]"
+utility_to_osm - INFO - ssr:stedsnr = 1042930: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1042930 has multiple (3) positions, using the first one!
-utility_to_osm - INFO - ssr:stedsnr = 1042931: No priority spelling found for lang = no, using alt_name to get "[('no', 'Roberglia')]"
+utility_to_osm - INFO - ssr:stedsnr = 1042931: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1042931 has multiple (5) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 1042934: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1042934 has multiple (2) positions, using the first one!
-utility_to_osm - INFO - ssr:stedsnr = 1043037: No priority spelling found for lang = no, using alt_name to get "[('no', 'Poppelveien')]"
+utility_to_osm - INFO - ssr:stedsnr = 1043037: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1043037 has multiple (4) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 1042874: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1042874 has multiple (4) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 1042948: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1042948 has multiple (33) positions, using the first one!
-utility_to_osm - INFO - ssr:stedsnr = 1042949: No priority spelling found for lang = no, using alt_name to get "[('no', 'Ringshaughøyden')]"
+utility_to_osm - INFO - ssr:stedsnr = 1042949: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1042949 has multiple (6) positions, using the first one!
-utility_to_osm - INFO - ssr:stedsnr = 1042950: No priority spelling found for lang = no, using alt_name to get "[('no', 'Ringshaugtunet')]"
+utility_to_osm - INFO - ssr:stedsnr = 1042950: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1042950 has multiple (3) positions, using the first one!
-utility_to_osm - INFO - ssr:stedsnr = 1042951: No priority spelling found for lang = no, using alt_name to get "[('no', 'Rikkes vei')]"
+utility_to_osm - INFO - ssr:stedsnr = 1042951: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1042951 has multiple (22) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 1042953: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1042953 has multiple (8) positions, using the first one!
@@ -3072,7 +3074,7 @@ utility_to_osm - INFO - ssr:stedsnr = 1042988: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1042988 has multiple (55) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 1042992: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1042992 has multiple (6) positions, using the first one!
-utility_to_osm - INFO - ssr:stedsnr = 1042994: No priority spelling found for lang = no, using alt_name to get "[('no', 'Robergåsen')]"
+utility_to_osm - INFO - ssr:stedsnr = 1042994: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1042994 has multiple (6) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 1042995: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1042995 has multiple (27) positions, using the first one!
@@ -3089,7 +3091,7 @@ utility_to_osm - INFO - ssr:stedsnr = 1043024: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1043024 has multiple (2) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 1043030: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1043030 has multiple (2) positions, using the first one!
-utility_to_osm - INFO - ssr:stedsnr = 1043089: No priority spelling found for lang = no, using alt_name to get "[('no', 'Korniveien')]"
+utility_to_osm - INFO - ssr:stedsnr = 1043089: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1043089 has multiple (12) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 1043092: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1043092 has multiple (2) positions, using the first one!
@@ -3099,13 +3101,13 @@ utility_to_osm - INFO - ssr:stedsnr = 1043098: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1043098 has multiple (17) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 1043100: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1043100 has multiple (2) positions, using the first one!
-utility_to_osm - INFO - ssr:stedsnr = 1043101: No priority spelling found for lang = no, using alt_name to get "[('no', 'Liaveien')]"
+utility_to_osm - INFO - ssr:stedsnr = 1043101: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1043101 has multiple (8) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 1043103: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1043103 has multiple (15) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 1043107: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1043107 has multiple (4) positions, using the first one!
-utility_to_osm - INFO - ssr:stedsnr = 1043108: No priority spelling found for lang = no, using alt_name to get "[('no', 'Langemyrveien')]"
+utility_to_osm - INFO - ssr:stedsnr = 1043108: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1043108 has multiple (13) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 1043109: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1043109 has multiple (10) positions, using the first one!
@@ -3123,7 +3125,7 @@ utility_to_osm - INFO - ssr:stedsnr = 1043121: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1043121 has multiple (2) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 1043124: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1043124 has multiple (2) positions, using the first one!
-utility_to_osm - INFO - ssr:stedsnr = 1043125: No priority spelling found for lang = no, using alt_name to get "[('no', 'Kreppeløkka')]"
+utility_to_osm - INFO - ssr:stedsnr = 1043125: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1043125 has multiple (2) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 1043132: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1043132 has multiple (6) positions, using the first one!
@@ -3147,7 +3149,7 @@ utility_to_osm - INFO - ssr:stedsnr = 1043311: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1043311 has multiple (2) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 1043045: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1043045 has multiple (126) positions, using the first one!
-utility_to_osm - INFO - ssr:stedsnr = 1043050: No priority spelling found for lang = no, using alt_name to get "[('no', 'Rakkevikveien')]"
+utility_to_osm - INFO - ssr:stedsnr = 1043050: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1043050 has multiple (16) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 1043055: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1043055 has multiple (2) positions, using the first one!
@@ -3161,7 +3163,7 @@ utility_to_osm - INFO - ssr:stedsnr = 1043073: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1043073 has multiple (7) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 1043076: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1043076 has multiple (2) positions, using the first one!
-utility_to_osm - INFO - ssr:stedsnr = 1043078: No priority spelling found for lang = no, using alt_name to get "[('no', 'Kjerkelegda')]"
+utility_to_osm - INFO - ssr:stedsnr = 1043078: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1043078 has multiple (5) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 1043079: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1043079 has multiple (9) positions, using the first one!
@@ -3181,7 +3183,7 @@ utility_to_osm - INFO - ssr:stedsnr = 1043184: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1043184 has multiple (12) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 1043198: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1043198 has multiple (6) positions, using the first one!
-utility_to_osm - INFO - ssr:stedsnr = 1043207: No priority spelling found for lang = no, using alt_name to get "[('no', 'Kongsåsveien')]"
+utility_to_osm - INFO - ssr:stedsnr = 1043207: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1043207 has multiple (8) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 1043208: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1043208 has multiple (8) positions, using the first one!
@@ -3193,7 +3195,7 @@ utility_to_osm - INFO - ssr:stedsnr = 1043214: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1043214 has multiple (3) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 1043223: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1043223 has multiple (5) positions, using the first one!
-utility_to_osm - INFO - ssr:stedsnr = 1043236: No priority spelling found for lang = no, using alt_name to get "[('no', 'Solbakken')]"
+utility_to_osm - INFO - ssr:stedsnr = 1043236: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1043236 has multiple (7) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 1043252: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1043252 has multiple (12) positions, using the first one!
@@ -3225,11 +3227,11 @@ utility_to_osm - INFO - ssr:stedsnr = 1043323: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1043323 has multiple (2) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 1043333: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1043333 has multiple (3) positions, using the first one!
-utility_to_osm - INFO - ssr:stedsnr = 1043335: No priority spelling found for lang = no, using alt_name to get "[('no', 'Skjeggestadveien')]"
+utility_to_osm - INFO - ssr:stedsnr = 1043335: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1043335 has multiple (9) positions, using the first one!
-utility_to_osm - INFO - ssr:stedsnr = 1043388: No priority spelling found for lang = no, using alt_name to get "[('no', 'Låhneveien')]"
+utility_to_osm - INFO - ssr:stedsnr = 1043388: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1043388 has multiple (7) positions, using the first one!
-utility_to_osm - INFO - ssr:stedsnr = 1043391: No priority spelling found for lang = no, using alt_name to get "[('no', 'Løvveien')]"
+utility_to_osm - INFO - ssr:stedsnr = 1043391: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1043391 has multiple (7) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 1043392: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1043392 has multiple (9) positions, using the first one!
@@ -3239,7 +3241,7 @@ utility_to_osm - INFO - ssr:stedsnr = 1043395: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1043395 has multiple (3) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 1043398: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1043398 has multiple (5) positions, using the first one!
-utility_to_osm - INFO - ssr:stedsnr = 1043402: No priority spelling found for lang = no, using alt_name to get "[('no', 'Lyngåsveien')]"
+utility_to_osm - INFO - ssr:stedsnr = 1043402: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1043402 has multiple (2) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 1043404: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1043404 has multiple (11) positions, using the first one!
@@ -3272,7 +3274,7 @@ utility_to_osm - INFO - ssr:stedsnr = 1043491 has multiple (8) positions, using 
 utility_to_osm - INFO - Skipping name_status = "avslått navnevalg"
 utility_to_osm - INFO - Skipping name_status = "avslått navnevalg"
 utility_to_osm - INFO - Skipping name_status = "avslått navnevalg"
-utility_to_osm - INFO - ssr:stedsnr = 1043494: No priority spelling found for lang = no, using alt_name to get "[('no', 'Åslystien')]"
+utility_to_osm - INFO - ssr:stedsnr = 1043494: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1043494 has multiple (3) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 1043495: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1043495 has multiple (4) positions, using the first one!
@@ -3282,7 +3284,7 @@ utility_to_osm - INFO - ssr:stedsnr = 1043499: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1043499 has multiple (2) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 1043500: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1043500 has multiple (2) positions, using the first one!
-utility_to_osm - INFO - ssr:stedsnr = 1043503: No priority spelling found for lang = no, using alt_name to get "[('no', 'Temsengen')]"
+utility_to_osm - INFO - ssr:stedsnr = 1043503: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1043503 has multiple (5) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 1043506: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1043506 has multiple (5) positions, using the first one!
@@ -3296,27 +3298,27 @@ utility_to_osm - INFO - ssr:stedsnr = 1043359: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1043359 has multiple (11) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 1043362: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1043362 has multiple (3) positions, using the first one!
-utility_to_osm - INFO - ssr:stedsnr = 1043365: No priority spelling found for lang = no, using alt_name to get "[('no', 'Lindeveien')]"
+utility_to_osm - INFO - ssr:stedsnr = 1043365: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1043365 has multiple (7) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 1043367: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1043367 has multiple (5) positions, using the first one!
-utility_to_osm - INFO - ssr:stedsnr = 1043369: No priority spelling found for lang = no, using alt_name to get "[('no', 'Lille Lunden')]"
+utility_to_osm - INFO - ssr:stedsnr = 1043369: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1043369 has multiple (6) positions, using the first one!
-utility_to_osm - INFO - ssr:stedsnr = 1043371: No priority spelling found for lang = no, using alt_name to get "[('no', 'Gulsrødsvingen')]"
+utility_to_osm - INFO - ssr:stedsnr = 1043371: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1043371 has multiple (9) positions, using the first one!
-utility_to_osm - INFO - ssr:stedsnr = 1043372: No priority spelling found for lang = no, using alt_name to get "[('no', 'Jarbergsvingen')]"
+utility_to_osm - INFO - ssr:stedsnr = 1043372: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1043372 has multiple (7) positions, using the first one!
-utility_to_osm - INFO - ssr:stedsnr = 1043374: No priority spelling found for lang = no, using alt_name to get "[('no', 'Jarestien')]"
+utility_to_osm - INFO - ssr:stedsnr = 1043374: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1043374 has multiple (3) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 1043375: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1043375 has multiple (17) positions, using the first one!
-utility_to_osm - INFO - ssr:stedsnr = 1043376: No priority spelling found for lang = no, using alt_name to get "[('no', 'Skalbergveien')]"
+utility_to_osm - INFO - ssr:stedsnr = 1043376: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1043376 has multiple (6) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 1043378: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1043378 has multiple (11) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 1043379: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1043379 has multiple (6) positions, using the first one!
-utility_to_osm - INFO - ssr:stedsnr = 1043383: No priority spelling found for lang = no, using alt_name to get "[('no', 'Magnus Barfots vei')]"
+utility_to_osm - INFO - ssr:stedsnr = 1043383: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1043383 has multiple (3) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 1043385: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1043385 has multiple (2) positions, using the first one!
@@ -3326,17 +3328,17 @@ utility_to_osm - INFO - ssr:stedsnr = 1043440: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1043440 has multiple (5) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 1043444: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1043444 has multiple (10) positions, using the first one!
-utility_to_osm - INFO - ssr:stedsnr = 1043445: No priority spelling found for lang = no, using alt_name to get "[('no', 'Søndre berg')]"
+utility_to_osm - INFO - ssr:stedsnr = 1043445: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1043445 has multiple (22) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 1043446: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1043446 has multiple (3) positions, using the first one!
-utility_to_osm - INFO - ssr:stedsnr = 1043447: No priority spelling found for lang = no, using alt_name to get "[('no', 'Elgstien')]"
+utility_to_osm - INFO - ssr:stedsnr = 1043447: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1043447 has multiple (5) positions, using the first one!
-utility_to_osm - INFO - ssr:stedsnr = 1043450: No priority spelling found for lang = no, using alt_name to get "[('no', 'Rådyrstien')]"
+utility_to_osm - INFO - ssr:stedsnr = 1043450: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1043450 has multiple (4) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 1043454: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1043454 has multiple (10) positions, using the first one!
-utility_to_osm - INFO - ssr:stedsnr = 1043455: No priority spelling found for lang = no, using alt_name to get "[('no', 'Sagatun')]"
+utility_to_osm - INFO - ssr:stedsnr = 1043455: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1043455 has multiple (4) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 1043456: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1043456 has multiple (5) positions, using the first one!
@@ -3388,9 +3390,9 @@ utility_to_osm - INFO - ssr:stedsnr = 1043606: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1043606 has multiple (11) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 1043612: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1043612 has multiple (3) positions, using the first one!
-utility_to_osm - INFO - ssr:stedsnr = 1043613: No priority spelling found for lang = no, using alt_name to get "[('no', 'Skjoldveien')]"
+utility_to_osm - INFO - ssr:stedsnr = 1043613: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1043613 has multiple (4) positions, using the first one!
-utility_to_osm - INFO - ssr:stedsnr = 1043616: No priority spelling found for lang = no, using alt_name to get "[('no', 'Valmestadrød')]"
+utility_to_osm - INFO - ssr:stedsnr = 1043616: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1043616 has multiple (9) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 1043619: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1043619 has multiple (43) positions, using the first one!
@@ -3398,227 +3400,227 @@ utility_to_osm - INFO - ssr:stedsnr = 1043630: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1043630 has multiple (6) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 1043635: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1043635 has multiple (2) positions, using the first one!
-utility_to_osm - INFO - ssr:stedsnr = 1043687: No priority spelling found for lang = no, using alt_name to get "[('no', 'Grettebakken')]"
+utility_to_osm - INFO - ssr:stedsnr = 1043687: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1043687 has multiple (3) positions, using the first one!
-utility_to_osm - INFO - ssr:stedsnr = 1043689: No priority spelling found for lang = no, using alt_name to get "[('no', 'Ruteigveien')]"
+utility_to_osm - INFO - ssr:stedsnr = 1043689: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1043689 has multiple (6) positions, using the first one!
-utility_to_osm - INFO - ssr:stedsnr = 1043691: No priority spelling found for lang = no, using alt_name to get "[('no', 'Knapstadlia')]"
+utility_to_osm - INFO - ssr:stedsnr = 1043691: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1043691 has multiple (6) positions, using the first one!
-utility_to_osm - INFO - ssr:stedsnr = 1043692: No priority spelling found for lang = no, using alt_name to get "[('no', 'Grettestien')]"
+utility_to_osm - INFO - ssr:stedsnr = 1043692: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1043692 has multiple (4) positions, using the first one!
-utility_to_osm - INFO - ssr:stedsnr = 1043694: No priority spelling found for lang = no, using alt_name to get "[('no', 'Revetalgata')]"
+utility_to_osm - INFO - ssr:stedsnr = 1043694: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1043694 has multiple (5) positions, using the first one!
-utility_to_osm - INFO - ssr:stedsnr = 1043696: No priority spelling found for lang = no, using alt_name to get "[('no', 'Grøtåslia')]"
+utility_to_osm - INFO - ssr:stedsnr = 1043696: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1043696 has multiple (6) positions, using the first one!
-utility_to_osm - INFO - ssr:stedsnr = 1043699: No priority spelling found for lang = no, using alt_name to get "[('no', 'Gamleveien')]"
+utility_to_osm - INFO - ssr:stedsnr = 1043699: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1043699 has multiple (2) positions, using the first one!
-utility_to_osm - INFO - ssr:stedsnr = 1043701: No priority spelling found for lang = no, using alt_name to get "[('no', 'Skoleveien')]"
+utility_to_osm - INFO - ssr:stedsnr = 1043701: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1043701 has multiple (3) positions, using the first one!
-utility_to_osm - INFO - ssr:stedsnr = 1043705: No priority spelling found for lang = no, using alt_name to get "[('no', 'Våleveien')]"
+utility_to_osm - INFO - ssr:stedsnr = 1043705: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1043705 has multiple (22) positions, using the first one!
-utility_to_osm - INFO - ssr:stedsnr = 1043706: No priority spelling found for lang = no, using alt_name to get "[('no', 'Industriveien')]"
+utility_to_osm - INFO - ssr:stedsnr = 1043706: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1043706 has multiple (2) positions, using the first one!
-utility_to_osm - INFO - ssr:stedsnr = 1043707: No priority spelling found for lang = no, using alt_name to get "[('no', 'Sørbyveien')]"
+utility_to_osm - INFO - ssr:stedsnr = 1043707: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1043707 has multiple (82) positions, using the first one!
-utility_to_osm - INFO - ssr:stedsnr = 1043708: No priority spelling found for lang = no, using alt_name to get "[('no', 'Undrumsdalveien')]"
+utility_to_osm - INFO - ssr:stedsnr = 1043708: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1043708 has multiple (22) positions, using the first one!
-utility_to_osm - INFO - ssr:stedsnr = 1043676: No priority spelling found for lang = no, using alt_name to get "[('no', 'Heianveien')]"
+utility_to_osm - INFO - ssr:stedsnr = 1043676: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1043676 has multiple (37) positions, using the first one!
-utility_to_osm - INFO - ssr:stedsnr = 1043677: No priority spelling found for lang = no, using alt_name to get "[('no', 'Førumveien')]"
+utility_to_osm - INFO - ssr:stedsnr = 1043677: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1043677 has multiple (24) positions, using the first one!
-utility_to_osm - INFO - ssr:stedsnr = 1043678: No priority spelling found for lang = no, using alt_name to get "[('no', 'Bjuneveien')]"
+utility_to_osm - INFO - ssr:stedsnr = 1043678: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1043678 has multiple (50) positions, using the first one!
-utility_to_osm - INFO - ssr:stedsnr = 1043679: No priority spelling found for lang = no, using alt_name to get "[('no', 'Kileveien')]"
+utility_to_osm - INFO - ssr:stedsnr = 1043679: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1043679 has multiple (17) positions, using the first one!
-utility_to_osm - INFO - ssr:stedsnr = 1043682: No priority spelling found for lang = no, using alt_name to get "[('no', 'Fresteveien')]"
+utility_to_osm - INFO - ssr:stedsnr = 1043682: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1043682 has multiple (39) positions, using the first one!
-utility_to_osm - INFO - ssr:stedsnr = 1043685: No priority spelling found for lang = no, using alt_name to get "[('no', 'Bedriftsveien')]"
+utility_to_osm - INFO - ssr:stedsnr = 1043685: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1043685 has multiple (4) positions, using the first one!
-utility_to_osm - INFO - ssr:stedsnr = 1043736: No priority spelling found for lang = no, using alt_name to get "[('no', 'Holtungveien')]"
+utility_to_osm - INFO - ssr:stedsnr = 1043736: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1043736 has multiple (81) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 1043739: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1043739 has multiple (2) positions, using the first one!
-utility_to_osm - INFO - ssr:stedsnr = 1043741: No priority spelling found for lang = no, using alt_name to get "[('no', 'Grøumveien')]"
+utility_to_osm - INFO - ssr:stedsnr = 1043741: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1043741 has multiple (41) positions, using the first one!
-utility_to_osm - INFO - ssr:stedsnr = 1043743: No priority spelling found for lang = no, using alt_name to get "[('no', 'Fossanveien')]"
+utility_to_osm - INFO - ssr:stedsnr = 1043743: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1043743 has multiple (97) positions, using the first one!
-utility_to_osm - INFO - ssr:stedsnr = 1043744: No priority spelling found for lang = no, using alt_name to get "[('no', 'Torgersøya')]"
-utility_to_osm - INFO - ssr:stedsnr = 1043745: No priority spelling found for lang = no, using alt_name to get "[('no', 'Hauganveien')]"
+utility_to_osm - INFO - ssr:stedsnr = 1043744: No name found
+utility_to_osm - INFO - ssr:stedsnr = 1043745: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1043745 has multiple (26) positions, using the first one!
-utility_to_osm - INFO - ssr:stedsnr = 1043747: No priority spelling found for lang = no, using alt_name to get "[('no', 'Bruserudveien')]"
+utility_to_osm - INFO - ssr:stedsnr = 1043747: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1043747 has multiple (36) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 1043749: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1043749 has multiple (13) positions, using the first one!
-utility_to_osm - INFO - ssr:stedsnr = 1043750: No priority spelling found for lang = no, using alt_name to get "[('no', 'Burmaveien')]"
+utility_to_osm - INFO - ssr:stedsnr = 1043750: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1043750 has multiple (10) positions, using the first one!
-utility_to_osm - INFO - ssr:stedsnr = 1043752: No priority spelling found for lang = no, using alt_name to get "[('no', 'Skinneneveien')]"
+utility_to_osm - INFO - ssr:stedsnr = 1043752: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1043752 has multiple (28) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 1043753: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1043753 has multiple (5) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 1043754 not active = "relikt". Skipping...
-utility_to_osm - INFO - ssr:stedsnr = 1043755: No priority spelling found for lang = no, using alt_name to get "[('no', 'Tomsbakken')]"
+utility_to_osm - INFO - ssr:stedsnr = 1043755: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1043755 has multiple (4) positions, using the first one!
-utility_to_osm - INFO - ssr:stedsnr = 1043756: No priority spelling found for lang = no, using alt_name to get "[('no', 'Grevlingstien')]"
+utility_to_osm - INFO - ssr:stedsnr = 1043756: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1043756 has multiple (8) positions, using the first one!
-utility_to_osm - INFO - ssr:stedsnr = 1043757: No priority spelling found for lang = no, using alt_name to get "[('no', 'Røyskattlia')]"
+utility_to_osm - INFO - ssr:stedsnr = 1043757: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1043757 has multiple (5) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 1043759: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1043759 has multiple (2) positions, using the first one!
-utility_to_osm - INFO - ssr:stedsnr = 1043760: No priority spelling found for lang = no, using alt_name to get "[('no', 'Solerødveien')]"
+utility_to_osm - INFO - ssr:stedsnr = 1043760: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1043760 has multiple (22) positions, using the first one!
-utility_to_osm - INFO - ssr:stedsnr = 1043761: No priority spelling found for lang = no, using alt_name to get "[('no', 'Pauliveien')]"
+utility_to_osm - INFO - ssr:stedsnr = 1043761: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1043761 has multiple (6) positions, using the first one!
-utility_to_osm - INFO - ssr:stedsnr = 1043762: No priority spelling found for lang = no, using alt_name to get "[('no', 'Lukeveien')]"
+utility_to_osm - INFO - ssr:stedsnr = 1043762: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1043762 has multiple (9) positions, using the first one!
-utility_to_osm - INFO - ssr:stedsnr = 1043763: No priority spelling found for lang = no, using alt_name to get "[('no', 'Luketoppen')]"
+utility_to_osm - INFO - ssr:stedsnr = 1043763: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1043763 has multiple (16) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 1043765: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1043765 has multiple (3) positions, using the first one!
-utility_to_osm - INFO - ssr:stedsnr = 1043766: No priority spelling found for lang = no, using alt_name to get "[('no', 'Baglerkollen')]"
+utility_to_osm - INFO - ssr:stedsnr = 1043766: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1043766 has multiple (5) positions, using the first one!
-utility_to_osm - INFO - ssr:stedsnr = 1043768: No priority spelling found for lang = no, using alt_name to get "[('no', 'Heimskringla')]"
+utility_to_osm - INFO - ssr:stedsnr = 1043768: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1043768 has multiple (5) positions, using the first one!
-utility_to_osm - INFO - ssr:stedsnr = 1043770: No priority spelling found for lang = no, using alt_name to get "[('no', 'Pilveien')]"
+utility_to_osm - INFO - ssr:stedsnr = 1043770: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1043770 has multiple (3) positions, using the first one!
-utility_to_osm - INFO - ssr:stedsnr = 1043774: No priority spelling found for lang = no, using alt_name to get "[('no', 'Fagerskinna')]"
+utility_to_osm - INFO - ssr:stedsnr = 1043774: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1043774 has multiple (12) positions, using the first one!
-utility_to_osm - INFO - ssr:stedsnr = 1043775: No priority spelling found for lang = no, using alt_name to get "[('no', 'Fylkingen')]"
+utility_to_osm - INFO - ssr:stedsnr = 1043775: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1043775 has multiple (11) positions, using the first one!
-utility_to_osm - INFO - ssr:stedsnr = 1043776: No priority spelling found for lang = no, using alt_name to get "[('no', 'Bueveien')]"
+utility_to_osm - INFO - ssr:stedsnr = 1043776: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1043776 has multiple (4) positions, using the first one!
-utility_to_osm - INFO - ssr:stedsnr = 1043778: No priority spelling found for lang = no, using alt_name to get "[('no', 'Øystein Møylas vei')]"
+utility_to_osm - INFO - ssr:stedsnr = 1043778: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1043778 has multiple (12) positions, using the first one!
-utility_to_osm - INFO - ssr:stedsnr = 1043780: No priority spelling found for lang = no, using alt_name to get "[('no', 'Sigurd Jarls vei')]"
+utility_to_osm - INFO - ssr:stedsnr = 1043780: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1043780 has multiple (16) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 1043781: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1043781 has multiple (4) positions, using the first one!
-utility_to_osm - INFO - ssr:stedsnr = 1043783: No priority spelling found for lang = no, using alt_name to get "[('no', 'Mor Kristins vei')]"
+utility_to_osm - INFO - ssr:stedsnr = 1043783: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1043783 has multiple (10) positions, using the first one!
-utility_to_osm - INFO - ssr:stedsnr = 1043836: No priority spelling found for lang = no, using alt_name to get "[('no', 'Myreveien')]"
+utility_to_osm - INFO - ssr:stedsnr = 1043836: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1043836 has multiple (65) positions, using the first one!
-utility_to_osm - INFO - ssr:stedsnr = 1043839: No priority spelling found for lang = no, using alt_name to get "[('no', 'Forpakterveien')]"
+utility_to_osm - INFO - ssr:stedsnr = 1043839: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1043839 has multiple (7) positions, using the first one!
-utility_to_osm - INFO - ssr:stedsnr = 1043840: No priority spelling found for lang = no, using alt_name to get "[('no', 'Kapellanveien')]"
+utility_to_osm - INFO - ssr:stedsnr = 1043840: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1043840 has multiple (7) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 1043843: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1043843 has multiple (2) positions, using the first one!
-utility_to_osm - INFO - ssr:stedsnr = 1043844: No priority spelling found for lang = no, using alt_name to get "[('no', 'Torggata')]"
+utility_to_osm - INFO - ssr:stedsnr = 1043844: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1043844 has multiple (3) positions, using the first one!
-utility_to_osm - INFO - ssr:stedsnr = 1043846: No priority spelling found for lang = no, using alt_name to get "[('no', 'Sagabakken')]"
+utility_to_osm - INFO - ssr:stedsnr = 1043846: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1043846 has multiple (7) positions, using the first one!
-utility_to_osm - INFO - ssr:stedsnr = 1043847: No priority spelling found for lang = no, using alt_name to get "[('no', 'Valmestadveien')]"
+utility_to_osm - INFO - ssr:stedsnr = 1043847: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1043847 has multiple (18) positions, using the first one!
-utility_to_osm - INFO - ssr:stedsnr = 1043849: No priority spelling found for lang = no, using alt_name to get "[('no', 'Regata')]"
+utility_to_osm - INFO - ssr:stedsnr = 1043849: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1043849 has multiple (2) positions, using the first one!
-utility_to_osm - INFO - ssr:stedsnr = 1043850: No priority spelling found for lang = no, using alt_name to get "[('no', 'Vestbygdveien')]"
+utility_to_osm - INFO - ssr:stedsnr = 1043850: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1043850 has multiple (44) positions, using the first one!
-utility_to_osm - INFO - ssr:stedsnr = 1043852: No priority spelling found for lang = no, using alt_name to get "[('no', 'Merkedamsveien')]"
+utility_to_osm - INFO - ssr:stedsnr = 1043852: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1043852 has multiple (88) positions, using the first one!
-utility_to_osm - INFO - ssr:stedsnr = 1043854: No priority spelling found for lang = no, using alt_name to get "[('no', 'Vivestadlinna')]"
+utility_to_osm - INFO - ssr:stedsnr = 1043854: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1043854 has multiple (32) positions, using the first one!
-utility_to_osm - INFO - ssr:stedsnr = 1043855: No priority spelling found for lang = no, using alt_name to get "[('no', 'Damtjernveien')]"
+utility_to_osm - INFO - ssr:stedsnr = 1043855: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1043855 has multiple (35) positions, using the first one!
-utility_to_osm - INFO - ssr:stedsnr = 1043856: No priority spelling found for lang = no, using alt_name to get "[('no', 'Langeliveien')]"
+utility_to_osm - INFO - ssr:stedsnr = 1043856: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1043856 has multiple (18) positions, using the first one!
-utility_to_osm - INFO - ssr:stedsnr = 1043857: No priority spelling found for lang = no, using alt_name to get "[('no', 'Vivestadåsen')]"
+utility_to_osm - INFO - ssr:stedsnr = 1043857: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1043857 has multiple (84) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 1043859: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1043859 has multiple (17) positions, using the first one!
 utility_to_osm - INFO - Skipping name_status = "avslått navnevalg"
 utility_to_osm - INFO - Skipping name_status = "avslått navnevalg"
 utility_to_osm - INFO - Skipping name_status = "avslått navnevalg"
-utility_to_osm - INFO - ssr:stedsnr = 1043860: No priority spelling found for lang = no, using alt_name to get "[('no', 'Kamfjordstien')]"
+utility_to_osm - INFO - ssr:stedsnr = 1043860: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1043860 has multiple (4) positions, using the first one!
-utility_to_osm - INFO - ssr:stedsnr = 1043862: No priority spelling found for lang = no, using alt_name to get "[('no', 'Sørby Allé')]"
+utility_to_osm - INFO - ssr:stedsnr = 1043862: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1043862 has multiple (3) positions, using the first one!
-utility_to_osm - INFO - ssr:stedsnr = 1043863: No priority spelling found for lang = no, using alt_name to get "[('no', 'Kjønnerødveien')]"
+utility_to_osm - INFO - ssr:stedsnr = 1043863: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1043863 has multiple (39) positions, using the first one!
-utility_to_osm - INFO - ssr:stedsnr = 1043865: No priority spelling found for lang = no, using alt_name to get "[('no', 'Røssedalsveien')]"
+utility_to_osm - INFO - ssr:stedsnr = 1043865: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1043865 has multiple (11) positions, using the first one!
-utility_to_osm - INFO - ssr:stedsnr = 1043868: No priority spelling found for lang = no, using alt_name to get "[('no', 'Hanedalsveien')]"
+utility_to_osm - INFO - ssr:stedsnr = 1043868: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1043868 has multiple (19) positions, using the first one!
-utility_to_osm - INFO - ssr:stedsnr = 1043870: No priority spelling found for lang = no, using alt_name to get "[('no', 'Tinghaugveien')]"
+utility_to_osm - INFO - ssr:stedsnr = 1043870: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1043870 has multiple (118) positions, using the first one!
-utility_to_osm - INFO - ssr:stedsnr = 1043872: No priority spelling found for lang = no, using alt_name to get "[('no', 'Mørkenveien')]"
+utility_to_osm - INFO - ssr:stedsnr = 1043872: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1043872 has multiple (45) positions, using the first one!
-utility_to_osm - INFO - ssr:stedsnr = 1043710: No priority spelling found for lang = no, using alt_name to get "[('no', 'Fonsveien')]"
+utility_to_osm - INFO - ssr:stedsnr = 1043710: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1043710 has multiple (98) positions, using the first one!
-utility_to_osm - INFO - ssr:stedsnr = 1043712: No priority spelling found for lang = no, using alt_name to get "[('no', 'Bettumveien')]"
+utility_to_osm - INFO - ssr:stedsnr = 1043712: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1043712 has multiple (23) positions, using the first one!
-utility_to_osm - INFO - ssr:stedsnr = 1043714: No priority spelling found for lang = no, using alt_name to get "[('no', 'Siltvedtveien')]"
+utility_to_osm - INFO - ssr:stedsnr = 1043714: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1043714 has multiple (22) positions, using the first one!
-utility_to_osm - INFO - ssr:stedsnr = 1043718: No priority spelling found for lang = no, using alt_name to get "[('no', 'Hvitsteinveien')]"
+utility_to_osm - INFO - ssr:stedsnr = 1043718: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1043718 has multiple (27) positions, using the first one!
 utility_to_osm - INFO - Skipping name_status = "avslått navnevalg"
 utility_to_osm - INFO - Skipping name_status = "avslått navnevalg"
 utility_to_osm - INFO - Skipping name_status = "avslått navnevalg"
-utility_to_osm - INFO - ssr:stedsnr = 1043719: No priority spelling found for lang = no, using alt_name to get "[('no', 'Bakkemyrveien')]"
+utility_to_osm - INFO - ssr:stedsnr = 1043719: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1043719 has multiple (17) positions, using the first one!
-utility_to_osm - INFO - ssr:stedsnr = 1043720: No priority spelling found for lang = no, using alt_name to get "[('no', 'Sørumveien')]"
+utility_to_osm - INFO - ssr:stedsnr = 1043720: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1043720 has multiple (19) positions, using the first one!
-utility_to_osm - INFO - ssr:stedsnr = 1043721: No priority spelling found for lang = no, using alt_name to get "[('no', 'Løvalddalsveien')]"
+utility_to_osm - INFO - ssr:stedsnr = 1043721: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1043721 has multiple (7) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 1043722: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1043722 has multiple (2) positions, using the first one!
-utility_to_osm - INFO - ssr:stedsnr = 1043723: No priority spelling found for lang = no, using alt_name to get "[('no', 'Kåpeveien')]"
+utility_to_osm - INFO - ssr:stedsnr = 1043723: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1043723 has multiple (111) positions, using the first one!
-utility_to_osm - INFO - ssr:stedsnr = 1043724: No priority spelling found for lang = no, using alt_name to get "[('no', 'Lofstadveien')]"
+utility_to_osm - INFO - ssr:stedsnr = 1043724: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1043724 has multiple (24) positions, using the first one!
-utility_to_osm - INFO - ssr:stedsnr = 1043725: No priority spelling found for lang = no, using alt_name to get "[('no', 'Korsgårdsveien')]"
+utility_to_osm - INFO - ssr:stedsnr = 1043725: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1043725 has multiple (12) positions, using the first one!
-utility_to_osm - INFO - ssr:stedsnr = 1043726: No priority spelling found for lang = no, using alt_name to get "[('no', 'Kopstadveien')]"
+utility_to_osm - INFO - ssr:stedsnr = 1043726: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1043726 has multiple (64) positions, using the first one!
-utility_to_osm - INFO - ssr:stedsnr = 1043727: No priority spelling found for lang = no, using alt_name to get "[('no', 'Knudstadveien')]"
+utility_to_osm - INFO - ssr:stedsnr = 1043727: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1043727 has multiple (15) positions, using the first one!
-utility_to_osm - INFO - ssr:stedsnr = 1043729: No priority spelling found for lang = no, using alt_name to get "[('no', 'Hengsrudveien')]"
+utility_to_osm - INFO - ssr:stedsnr = 1043729: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1043729 has multiple (70) positions, using the first one!
-utility_to_osm - INFO - ssr:stedsnr = 1043732: No priority spelling found for lang = no, using alt_name to get "[('no', 'Kleiva')]"
+utility_to_osm - INFO - ssr:stedsnr = 1043732: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1043732 has multiple (12) positions, using the first one!
-utility_to_osm - INFO - ssr:stedsnr = 1043733: No priority spelling found for lang = no, using alt_name to get "[('no', 'Kleivaveien')]"
+utility_to_osm - INFO - ssr:stedsnr = 1043733: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1043733 has multiple (70) positions, using the first one!
-utility_to_osm - INFO - ssr:stedsnr = 1043786: No priority spelling found for lang = no, using alt_name to get "[('no', 'Midtåsveien')]"
+utility_to_osm - INFO - ssr:stedsnr = 1043786: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1043786 has multiple (2) positions, using the first one!
-utility_to_osm - INFO - ssr:stedsnr = 1043787: No priority spelling found for lang = no, using alt_name to get "[('no', "Kong Magnus' vei")]"
+utility_to_osm - INFO - ssr:stedsnr = 1043787: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1043787 has multiple (12) positions, using the first one!
-utility_to_osm - INFO - ssr:stedsnr = 1043791: No priority spelling found for lang = no, using alt_name to get "[('no', 'Kleivakollen')]"
+utility_to_osm - INFO - ssr:stedsnr = 1043791: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1043793: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1043793 has multiple (3) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 1043795: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1043795 has multiple (15) positions, using the first one!
-utility_to_osm - INFO - ssr:stedsnr = 1043797: No priority spelling found for lang = no, using alt_name to get "[('no', 'Ravneveien')]"
+utility_to_osm - INFO - ssr:stedsnr = 1043797: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1043797 has multiple (4) positions, using the first one!
-utility_to_osm - INFO - ssr:stedsnr = 1043799: No priority spelling found for lang = no, using alt_name to get "[('no', 'Kjettorpveien')]"
+utility_to_osm - INFO - ssr:stedsnr = 1043799: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1043799 has multiple (14) positions, using the first one!
-utility_to_osm - INFO - ssr:stedsnr = 1043801: No priority spelling found for lang = no, using alt_name to get "[('no', 'Solbergtoppen')]"
+utility_to_osm - INFO - ssr:stedsnr = 1043801: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1043801 has multiple (7) positions, using the first one!
-utility_to_osm - INFO - ssr:stedsnr = 1043803: No priority spelling found for lang = no, using alt_name to get "[('no', 'Elgtråkket')]"
+utility_to_osm - INFO - ssr:stedsnr = 1043803: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1043803 has multiple (5) positions, using the first one!
-utility_to_osm - INFO - ssr:stedsnr = 1043806: No priority spelling found for lang = no, using alt_name to get "[('no', 'Hjortefaret')]"
+utility_to_osm - INFO - ssr:stedsnr = 1043806: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1043806 has multiple (4) positions, using the first one!
-utility_to_osm - INFO - ssr:stedsnr = 1043811: No priority spelling found for lang = no, using alt_name to get "[('no', 'Skotvedtveien')]"
+utility_to_osm - INFO - ssr:stedsnr = 1043811: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1043811 has multiple (32) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 1043813: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1043813 has multiple (2) positions, using the first one!
-utility_to_osm - INFO - ssr:stedsnr = 1043815: No priority spelling found for lang = no, using alt_name to get "[('no', 'Rødsåsveien')]"
+utility_to_osm - INFO - ssr:stedsnr = 1043815: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1043815 has multiple (13) positions, using the first one!
-utility_to_osm - INFO - ssr:stedsnr = 1043818: No priority spelling found for lang = no, using alt_name to get "[('no', 'Lundteigveien')]"
+utility_to_osm - INFO - ssr:stedsnr = 1043818: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1043818 has multiple (5) positions, using the first one!
-utility_to_osm - INFO - ssr:stedsnr = 1043820: No priority spelling found for lang = no, using alt_name to get "[('no', 'Grorudveien')]"
+utility_to_osm - INFO - ssr:stedsnr = 1043820: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1043820 has multiple (37) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 1043822: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1043822 has multiple (7) positions, using the first one!
-utility_to_osm - INFO - ssr:stedsnr = 1043824: No priority spelling found for lang = no, using alt_name to get "[('no', 'Hengsrudkollen')]"
+utility_to_osm - INFO - ssr:stedsnr = 1043824: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1043824 has multiple (6) positions, using the first one!
-utility_to_osm - INFO - ssr:stedsnr = 1043826: No priority spelling found for lang = no, using alt_name to get "[('no', 'Haukeveien')]"
+utility_to_osm - INFO - ssr:stedsnr = 1043826: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1043826 has multiple (10) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 1043829 not active = "relikt". Skipping...
-utility_to_osm - INFO - ssr:stedsnr = 1043830: No priority spelling found for lang = no, using alt_name to get "[('no', 'Kringlevannsveien')]"
+utility_to_osm - INFO - ssr:stedsnr = 1043830: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1043830 has multiple (9) positions, using the first one!
-utility_to_osm - INFO - ssr:stedsnr = 1043833: No priority spelling found for lang = no, using alt_name to get "[('no', 'Revestien')]"
+utility_to_osm - INFO - ssr:stedsnr = 1043833: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1043833 has multiple (2) positions, using the first one!
-utility_to_osm - INFO - ssr:stedsnr = 1043835: No priority spelling found for lang = no, using alt_name to get "[('no', 'Langevannsveien')]"
+utility_to_osm - INFO - ssr:stedsnr = 1043835: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1043835 has multiple (22) positions, using the first one!
-utility_to_osm - INFO - ssr:stedsnr = 1043887: No priority spelling found for lang = no, using alt_name to get "[('no', 'Semsbyveien')]"
+utility_to_osm - INFO - ssr:stedsnr = 1043887: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1043887 has multiple (39) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 1043890: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1043890 has multiple (4) positions, using the first one!
@@ -3630,11 +3632,11 @@ utility_to_osm - INFO - ssr:stedsnr = 1043874: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1043874 has multiple (4) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 1043877: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1043877 has multiple (2) positions, using the first one!
-utility_to_osm - INFO - ssr:stedsnr = 1043879: No priority spelling found for lang = no, using alt_name to get "[('no', 'Sevjeveien')]"
+utility_to_osm - INFO - ssr:stedsnr = 1043879: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1043879 has multiple (3) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 1043882: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1043882 has multiple (6) positions, using the first one!
-utility_to_osm - INFO - ssr:stedsnr = 1043884: No priority spelling found for lang = no, using alt_name to get "[('no', 'Semslinna')]"
+utility_to_osm - INFO - ssr:stedsnr = 1043884: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1043884 has multiple (29) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 1043938: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1043938 has multiple (3) positions, using the first one!
@@ -3642,11 +3644,11 @@ utility_to_osm - INFO - ssr:stedsnr = 1043941: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1043941 has multiple (12) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 1043945: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1043945 has multiple (15) positions, using the first one!
-utility_to_osm - INFO - ssr:stedsnr = 1043948: No priority spelling found for lang = no, using alt_name to get "[('no', 'Rønninglia')]"
+utility_to_osm - INFO - ssr:stedsnr = 1043948: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1043948 has multiple (19) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 1043953: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1043953 has multiple (6) positions, using the first one!
-utility_to_osm - INFO - ssr:stedsnr = 1043957: No priority spelling found for lang = no, using alt_name to get "[('no', 'Rødskrubben')]"
+utility_to_osm - INFO - ssr:stedsnr = 1043957: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1043957 has multiple (8) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 1043959: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1043959 has multiple (4) positions, using the first one!
@@ -3666,7 +3668,7 @@ utility_to_osm - INFO - ssr:stedsnr = 1044044: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1044044 has multiple (11) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 1044050: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1044050 has multiple (6) positions, using the first one!
-utility_to_osm - INFO - ssr:stedsnr = 1044053: No priority spelling found for lang = no, using alt_name to get "[('no', 'Strandenglia')]"
+utility_to_osm - INFO - ssr:stedsnr = 1044053: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1044053 has multiple (13) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 1044054: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1044054 has multiple (16) positions, using the first one!
@@ -3674,7 +3676,7 @@ utility_to_osm - INFO - ssr:stedsnr = 1044055: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1044055 has multiple (5) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 1044064: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1044064 has multiple (2) positions, using the first one!
-utility_to_osm - INFO - ssr:stedsnr = 1044067: No priority spelling found for lang = no, using alt_name to get "[('no', 'Steinbruddveien')]"
+utility_to_osm - INFO - ssr:stedsnr = 1044067: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1044067 has multiple (27) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 1044068: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1044068 has multiple (6) positions, using the first one!
@@ -3682,11 +3684,11 @@ utility_to_osm - INFO - ssr:stedsnr = 1043907: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1043907 has multiple (4) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 1043909: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1043909 has multiple (19) positions, using the first one!
-utility_to_osm - INFO - ssr:stedsnr = 1043910: No priority spelling found for lang = no, using alt_name to get "[('no', 'Sjuestokkåsen')]"
+utility_to_osm - INFO - ssr:stedsnr = 1043910: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1043910 has multiple (5) positions, using the first one!
-utility_to_osm - INFO - ssr:stedsnr = 1043913: No priority spelling found for lang = no, using alt_name to get "[('no', 'Sjuestokkstranda')]"
+utility_to_osm - INFO - ssr:stedsnr = 1043913: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1043913 has multiple (9) positions, using the first one!
-utility_to_osm - INFO - ssr:stedsnr = 1043914: No priority spelling found for lang = no, using alt_name to get "[('no', 'Sjuestokktoppen')]"
+utility_to_osm - INFO - ssr:stedsnr = 1043914: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1043914 has multiple (15) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 1043918: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1043918 has multiple (3) positions, using the first one!
@@ -3700,15 +3702,15 @@ utility_to_osm - INFO - ssr:stedsnr = 1043996: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1043996 has multiple (3) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 1043998: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1043998 has multiple (2) positions, using the first one!
-utility_to_osm - INFO - ssr:stedsnr = 1044001: No priority spelling found for lang = no, using alt_name to get "[('no', 'Røsslyngveien')]"
+utility_to_osm - INFO - ssr:stedsnr = 1044001: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1044001 has multiple (7) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 1044004: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1044004 has multiple (25) positions, using the first one!
-utility_to_osm - INFO - ssr:stedsnr = 1044012: No priority spelling found for lang = no, using alt_name to get "[('no', 'Sporveien')]"
+utility_to_osm - INFO - ssr:stedsnr = 1044012: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1044012 has multiple (12) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 1044019: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1044019 has multiple (3) positions, using the first one!
-utility_to_osm - INFO - ssr:stedsnr = 1044022: No priority spelling found for lang = no, using alt_name to get "[('no', 'Spettåsveien')]"
+utility_to_osm - INFO - ssr:stedsnr = 1044022: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1044022 has multiple (8) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 1044023: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1044023 has multiple (2) positions, using the first one!
@@ -3728,7 +3730,7 @@ utility_to_osm - INFO - ssr:stedsnr = 1044081: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1044081 has multiple (3) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 1044089: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1044089 has multiple (22) positions, using the first one!
-utility_to_osm - INFO - ssr:stedsnr = 1044094: No priority spelling found for lang = no, using alt_name to get "[('no', 'Smiløkka')]"
+utility_to_osm - INFO - ssr:stedsnr = 1044094: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1044094 has multiple (5) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 1044095: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1044095 has multiple (2) positions, using the first one!
@@ -3738,7 +3740,7 @@ utility_to_osm - INFO - ssr:stedsnr = 1044103: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1044103 has multiple (2) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 1044106: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1044106 has multiple (10) positions, using the first one!
-utility_to_osm - INFO - ssr:stedsnr = 1044111: No priority spelling found for lang = no, using alt_name to get "[('no', 'Skogroveien')]"
+utility_to_osm - INFO - ssr:stedsnr = 1044111: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1044111 has multiple (8) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 1044115: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1044115 has multiple (5) positions, using the first one!
@@ -3748,11 +3750,11 @@ utility_to_osm - INFO - ssr:stedsnr = 1044124: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1044124 has multiple (33) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 1044131: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1044131 has multiple (2) positions, using the first one!
-utility_to_osm - INFO - ssr:stedsnr = 1044238: No priority spelling found for lang = no, using alt_name to get "[('no', 'Zakarines vei')]"
+utility_to_osm - INFO - ssr:stedsnr = 1044238: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1044238 has multiple (2) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 1044239: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1044239 has multiple (9) positions, using the first one!
-utility_to_osm - INFO - ssr:stedsnr = 1044244: No priority spelling found for lang = no, using alt_name to get "[('no', 'Vårflueveien')]"
+utility_to_osm - INFO - ssr:stedsnr = 1044244: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1044245: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1044245 has multiple (2) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 1044249: No name found
@@ -3761,9 +3763,9 @@ utility_to_osm - INFO - ssr:stedsnr = 1044257: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1044257 has multiple (6) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 1044261: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1044261 has multiple (2) positions, using the first one!
-utility_to_osm - INFO - ssr:stedsnr = 1044267: No priority spelling found for lang = no, using alt_name to get "[('no', 'Åskollen')]"
+utility_to_osm - INFO - ssr:stedsnr = 1044267: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1044267 has multiple (11) positions, using the first one!
-utility_to_osm - INFO - ssr:stedsnr = 1044272: No priority spelling found for lang = no, using alt_name to get "[('no', 'Åshaugveien')]"
+utility_to_osm - INFO - ssr:stedsnr = 1044272: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1044272 has multiple (35) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 1044235: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1044235 has multiple (6) positions, using the first one!
@@ -3771,13 +3773,13 @@ utility_to_osm - INFO - ssr:stedsnr = 1044289: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1044289 has multiple (9) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 1044293: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1044293 has multiple (3) positions, using the first one!
-utility_to_osm - INFO - ssr:stedsnr = 1044297: No priority spelling found for lang = no, using alt_name to get "[('no', 'Åkerveien')]"
+utility_to_osm - INFO - ssr:stedsnr = 1044297: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1044297 has multiple (6) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 1044276: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1044276 has multiple (60) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 1044280: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1044280 has multiple (4) positions, using the first one!
-utility_to_osm - INFO - ssr:stedsnr = 1044337: No priority spelling found for lang = no, using alt_name to get "[('no', 'Vestbakken')]"
+utility_to_osm - INFO - ssr:stedsnr = 1044337: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1044337 has multiple (6) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 1044338: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1044338 has multiple (3) positions, using the first one!
@@ -3785,25 +3787,25 @@ utility_to_osm - INFO - ssr:stedsnr = 1044345: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1044345 has multiple (2) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 1044360: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1044360 has multiple (32) positions, using the first one!
-utility_to_osm - INFO - ssr:stedsnr = 1044364: No priority spelling found for lang = no, using alt_name to get "[('no', 'Vearåsen')]"
+utility_to_osm - INFO - ssr:stedsnr = 1044364: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1044364 has multiple (19) positions, using the first one!
-utility_to_osm - INFO - ssr:stedsnr = 1044367: No priority spelling found for lang = no, using alt_name to get "[('no', 'Vearveien')]"
+utility_to_osm - INFO - ssr:stedsnr = 1044367: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1044367 has multiple (12) positions, using the first one!
-utility_to_osm - INFO - ssr:stedsnr = 1044369: No priority spelling found for lang = no, using alt_name to get "[('no', 'Vearskogen')]"
+utility_to_osm - INFO - ssr:stedsnr = 1044369: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1044369 has multiple (6) positions, using the first one!
-utility_to_osm - INFO - ssr:stedsnr = 1044371: No priority spelling found for lang = no, using alt_name to get "[('no', 'Vearløkka')]"
+utility_to_osm - INFO - ssr:stedsnr = 1044371: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1044371 has multiple (4) positions, using the first one!
-utility_to_osm - INFO - ssr:stedsnr = 1044373: No priority spelling found for lang = no, using alt_name to get "[('no', 'Vearlia')]"
+utility_to_osm - INFO - ssr:stedsnr = 1044373: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1044373 has multiple (23) positions, using the first one!
-utility_to_osm - INFO - ssr:stedsnr = 1044375: No priority spelling found for lang = no, using alt_name to get "[('no', 'Vearkollen')]"
+utility_to_osm - INFO - ssr:stedsnr = 1044375: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1044375 has multiple (11) positions, using the first one!
-utility_to_osm - INFO - ssr:stedsnr = 1044378: No priority spelling found for lang = no, using alt_name to get "[('no', 'Vearkleiva')]"
+utility_to_osm - INFO - ssr:stedsnr = 1044378: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1044378 has multiple (8) positions, using the first one!
-utility_to_osm - INFO - ssr:stedsnr = 1044381: No priority spelling found for lang = no, using alt_name to get "[('no', 'Vatninga')]"
+utility_to_osm - INFO - ssr:stedsnr = 1044381: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1044381 has multiple (3) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 1044384: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1044384 has multiple (6) positions, using the first one!
-utility_to_osm - INFO - ssr:stedsnr = 1044387: No priority spelling found for lang = no, using alt_name to get "[('no', 'Vangveien')]"
+utility_to_osm - INFO - ssr:stedsnr = 1044387: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1044387 has multiple (12) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 1044389: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1044389 has multiple (2) positions, using the first one!
@@ -3831,7 +3833,7 @@ utility_to_osm - INFO - ssr:stedsnr = 1044332: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1044332 has multiple (5) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 1044421: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1044421 has multiple (5) positions, using the first one!
-utility_to_osm - INFO - ssr:stedsnr = 1044422: No priority spelling found for lang = no, using alt_name to get "[('no', 'Vestsolveien')]"
+utility_to_osm - INFO - ssr:stedsnr = 1044422: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1044422 has multiple (10) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 1044423: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1044423 has multiple (5) positions, using the first one!
@@ -3841,7 +3843,7 @@ utility_to_osm - INFO - ssr:stedsnr = 1045791: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1045791 has multiple (12) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 1045796: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1045796 has multiple (5) positions, using the first one!
-utility_to_osm - INFO - ssr:stedsnr = 1045798: No priority spelling found for lang = no, using alt_name to get "[('no', 'Anton Jenssens gate')]"
+utility_to_osm - INFO - ssr:stedsnr = 1045798: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1045798 has multiple (6) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 1045800: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1045800 has multiple (5) positions, using the first one!
@@ -3877,7 +3879,7 @@ utility_to_osm - INFO - ssr:stedsnr = 1045594: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1045594 has multiple (3) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 1045637: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1045637 has multiple (3) positions, using the first one!
-utility_to_osm - INFO - ssr:stedsnr = 1045640: No priority spelling found for lang = no, using alt_name to get "[('no', 'Biskopstien')]"
+utility_to_osm - INFO - ssr:stedsnr = 1045640: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1045640 has multiple (2) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 1045642: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1045642 has multiple (2) positions, using the first one!
@@ -3891,11 +3893,11 @@ utility_to_osm - INFO - ssr:stedsnr = 1045655: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1045655 has multiple (5) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 1045656: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1045656 has multiple (5) positions, using the first one!
-utility_to_osm - INFO - ssr:stedsnr = 1045661: No priority spelling found for lang = no, using alt_name to get "[('no', 'Bødtkers gate')]"
+utility_to_osm - INFO - ssr:stedsnr = 1045661: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1045661 has multiple (3) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 1045664: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1045664 has multiple (2) positions, using the first one!
-utility_to_osm - INFO - ssr:stedsnr = 1045667: No priority spelling found for lang = no, using alt_name to get "[('no', 'Burmastien')]"
+utility_to_osm - INFO - ssr:stedsnr = 1045667: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1045667 has multiple (3) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 1045668: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1045668 has multiple (2) positions, using the first one!
@@ -3903,7 +3905,7 @@ utility_to_osm - INFO - ssr:stedsnr = 1045671: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1045671 has multiple (2) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 1045673: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1045673 has multiple (2) positions, using the first one!
-utility_to_osm - INFO - ssr:stedsnr = 1045677: No priority spelling found for lang = no, using alt_name to get "[('no', 'Halfdan Wilhelmsens alle')]"
+utility_to_osm - INFO - ssr:stedsnr = 1045677: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1045677 has multiple (38) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 1045682: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1045682 has multiple (6) positions, using the first one!
@@ -3917,9 +3919,9 @@ utility_to_osm - INFO - ssr:stedsnr = 1045742: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1045742 has multiple (6) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 1045743: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1045743 has multiple (5) positions, using the first one!
-utility_to_osm - INFO - ssr:stedsnr = 1045745: No priority spelling found for lang = no, using alt_name to get "[('no', 'Gierløw Meyers gate')]"
+utility_to_osm - INFO - ssr:stedsnr = 1045745: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1045745 has multiple (2) positions, using the first one!
-utility_to_osm - INFO - ssr:stedsnr = 1045748: No priority spelling found for lang = no, using alt_name to get "[('no', 'Georg Martinsens vei')]"
+utility_to_osm - INFO - ssr:stedsnr = 1045748: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1045748 has multiple (3) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 1045603: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1045603 has multiple (2) positions, using the first one!
@@ -3957,7 +3959,7 @@ utility_to_osm - INFO - ssr:stedsnr = 1045702: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1045702 has multiple (2) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 1045704: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1045704 has multiple (7) positions, using the first one!
-utility_to_osm - INFO - ssr:stedsnr = 1045705: No priority spelling found for lang = no, using alt_name to get "[('no', 'Hasselstien')]"
+utility_to_osm - INFO - ssr:stedsnr = 1045705: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1045705 has multiple (3) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 1045710: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1045710 has multiple (4) positions, using the first one!
@@ -3971,7 +3973,7 @@ utility_to_osm - INFO - Skipping name_status = "avslått navnevalg"
 utility_to_osm - INFO - Skipping name_status = "avslått navnevalg"
 utility_to_osm - INFO - Skipping name_status = "avslått navnevalg"
 utility_to_osm - INFO - Skipping name_status = "avslått navnevalg"
-utility_to_osm - INFO - ssr:stedsnr = 1045723: No priority spelling found for lang = no, using alt_name to get "[('no', 'Furulia')]"
+utility_to_osm - INFO - ssr:stedsnr = 1045723: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1045723 has multiple (3) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 1045725: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1045725 has multiple (6) positions, using the first one!
@@ -3997,7 +3999,7 @@ utility_to_osm - INFO - ssr:stedsnr = 1045841: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1045841 has multiple (6) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 1045842: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1045842 has multiple (2) positions, using the first one!
-utility_to_osm - INFO - ssr:stedsnr = 1045844: No priority spelling found for lang = no, using alt_name to get "[('no', 'St Hallvards gate')]"
+utility_to_osm - INFO - ssr:stedsnr = 1045844: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1045844 has multiple (2) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 1045845: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1045845 has multiple (13) positions, using the first one!
@@ -4053,13 +4055,13 @@ utility_to_osm - INFO - ssr:stedsnr = 1045929: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1045929 has multiple (36) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 1045932: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1045932 has multiple (2) positions, using the first one!
-utility_to_osm - INFO - ssr:stedsnr = 1045934: No priority spelling found for lang = no, using alt_name to get "[('no', 'Jens Müllers gate')]"
+utility_to_osm - INFO - ssr:stedsnr = 1045934: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1045934 has multiple (3) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 1046041: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1046041 has multiple (2) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 1046050: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1046050 has multiple (13) positions, using the first one!
-utility_to_osm - INFO - ssr:stedsnr = 1046052: No priority spelling found for lang = no, using alt_name to get "[('no', 'Prost Knudsens vei')]"
+utility_to_osm - INFO - ssr:stedsnr = 1046052: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1046052 has multiple (2) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 1046053: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1046053 has multiple (4) positions, using the first one!
@@ -4075,7 +4077,7 @@ utility_to_osm - INFO - ssr:stedsnr = 1046058: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1046058 has multiple (8) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 1046059: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1046059 has multiple (7) positions, using the first one!
-utility_to_osm - INFO - ssr:stedsnr = 1046060: No priority spelling found for lang = no, using alt_name to get "[('no', 'Rodes gate')]"
+utility_to_osm - INFO - ssr:stedsnr = 1046060: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1046060 has multiple (2) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 1046061: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1046061 has multiple (51) positions, using the first one!
@@ -4191,28 +4193,28 @@ utility_to_osm - INFO - ssr:stedsnr = 1045958: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1045958 has multiple (2) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 1045969: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1045969 has multiple (3) positions, using the first one!
-utility_to_osm - INFO - ssr:stedsnr = 1045983: No priority spelling found for lang = no, using alt_name to get "[('no', 'Holmestrandgaten')]"
+utility_to_osm - INFO - ssr:stedsnr = 1045983: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1045983 has multiple (6) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 1045984: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1045984 has multiple (2) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 1046020: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1046020 has multiple (2) positions, using the first one!
-utility_to_osm - INFO - ssr:stedsnr = 1046030: No priority spelling found for lang = no, using alt_name to get "[('no', 'Kaldnesgaten')]"
+utility_to_osm - INFO - ssr:stedsnr = 1046030: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1046030 has multiple (15) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 1046081: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1046081 has multiple (4) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 1072963: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1072963 has multiple (6) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 1074516: No name found
-utility_to_osm - INFO - ssr:stedsnr = 1073927: No priority spelling found for lang = no, using alt_name to get "[('no', 'Vestfold og Telemark fylke')]"
-utility_to_osm - INFO - ssr:stedsnr = 1074456: No priority spelling found for lang = no, using alt_name to get "[('no', 'Hauganveien')]"
+utility_to_osm - INFO - ssr:stedsnr = 1073927: No name found
+utility_to_osm - INFO - ssr:stedsnr = 1074456: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1074456 has multiple (20) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 1074475: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1077798: No name found
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Karlsrud"
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Karlsrud"
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Karlsrud"
-utility_to_osm - INFO - ssr:stedsnr = 1077918: No priority spelling found for lang = no, using alt_name to get "[('no', 'Kalsrud')]"
+utility_to_osm - INFO - ssr:stedsnr = 1077918: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1079728: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1079729: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1079730: No name found
@@ -4245,8 +4247,8 @@ utility_to_osm - INFO - ssr:stedsnr = 1079659: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1079812: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1079777: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1079778: No name found
-utility_to_osm - INFO - ssr:stedsnr = 1080276: No priority spelling found for lang = no, using alt_name to get "[('no', 'Firenga-1630')]"
-utility_to_osm - INFO - ssr:stedsnr = 1080459: No priority spelling found for lang = no, using alt_name to get "[('no', 'Skaugholtet-18005')]"
+utility_to_osm - INFO - ssr:stedsnr = 1080276: No name found
+utility_to_osm - INFO - ssr:stedsnr = 1080459: No name found
 utility_to_osm.ssr2.ssr2_tags - INFO - ssr:type = annenAdministrativInndeling found in conversion table, but without tags
 utility_to_osm.ssr2.ssr2_tags - INFO - ssr:type = annenAdministrativInndeling found in conversion table, but without tags
 utility_to_osm.ssr2.ssr2_tags - INFO - ssr:type = adressenavn found in conversion table, but without tags

@@ -1,4 +1,5 @@
-utility_to_osm.file_util - INFO - file_age(ssr2_to_osm_data/data/ZZ/ZZ-ssr.xml) -> 26.9 days
+utility_to_osm.file_util - INFO - file_age(ssr2_to_osm_data/data/ZZ/ZZ-ssr.xml) -> 33.9 days
+utility_to_osm.gentle_requests - INFO - requested http://wfs.geonorge.no/skwms1/wfs.stedsnavn50?VERSION=2.0.0&SERVICE=WFS&srsName=EPSG:25832&REQUEST=GetFeature&TYPENAME=Sted&resultType=results&Filter=%3CFilter%3E%20%3CPropertyIsEqualTo%3E%20%3CValueReference%20xmlns:app=%22http://skjema.geonorge.no/SOSI/produktspesifikasjon/Stedsnavn/5.0%22%3Eapp:land/app:Land/app:landnummer%3C/ValueReference%3E%20%3CLiteral%3EZZ%3C/Literal%3E%20%3C/PropertyIsEqualTo%3E%20%3C/Filter%3E" --header "Content-Type:text/xml" ssr2_to_osm_data/data/ZZ/ZZ-ssr.xml, got <Response [200]>
 utility_to_osm - ERROR - language priorty missing from file, inventing language_priority = nor-dan-dansk-deu-eng-engelsk-fin-finsk-fkv-grønlandsk-isl-islandsk-kal-kvensk-lulesamisk-nordsamisk-norsk-rus-russisk-skoltesamisk-sma-sme-smj-sms-svensk-swe-sørsamisk-tysk
 utility_to_osm - ERROR - language priorty missing from file, inventing language_priority = nor-dan-dansk-deu-eng-engelsk-fin-finsk-fkv-grønlandsk-isl-islandsk-kal-kvensk-lulesamisk-nordsamisk-norsk-rus-russisk-skoltesamisk-sma-sme-smj-sms-svensk-swe-sørsamisk-tysk
 utility_to_osm - ERROR - language priorty missing from file, inventing language_priority = nor-dan-dansk-deu-eng-engelsk-fin-finsk-fkv-grønlandsk-isl-islandsk-kal-kvensk-lulesamisk-nordsamisk-norsk-rus-russisk-skoltesamisk-sma-sme-smj-sms-svensk-swe-sørsamisk-tysk
@@ -1105,7 +1106,7 @@ utility_to_osm - INFO - ssr:stedsnr = 526985 has multiple (4) positions, using t
 utility_to_osm - ERROR - language priorty missing from file, inventing language_priority = nor-dan-dansk-deu-eng-engelsk-fin-finsk-fkv-grønlandsk-isl-islandsk-kal-kvensk-lulesamisk-nordsamisk-norsk-rus-russisk-skoltesamisk-sma-sme-smj-sms-svensk-swe-sørsamisk-tysk
 utility_to_osm - ERROR - language priorty missing from file, inventing language_priority = nor-dan-dansk-deu-eng-engelsk-fin-finsk-fkv-grønlandsk-isl-islandsk-kal-kvensk-lulesamisk-nordsamisk-norsk-rus-russisk-skoltesamisk-sma-sme-smj-sms-svensk-swe-sørsamisk-tysk
 utility_to_osm - ERROR - language priorty missing from file, inventing language_priority = nor-dan-dansk-deu-eng-engelsk-fin-finsk-fkv-grønlandsk-isl-islandsk-kal-kvensk-lulesamisk-nordsamisk-norsk-rus-russisk-skoltesamisk-sma-sme-smj-sms-svensk-swe-sørsamisk-tysk
-utility_to_osm - INFO - ssr:stedsnr = 570840: No priority spelling found for lang = no, using alt_name to get "[('no', 'Nysleppen'), ('no', 'Nysleppen')]"
+utility_to_osm - INFO - ssr:stedsnr = 570840: No name found
 utility_to_osm - INFO - ssr:stedsnr = 570840: Adding multiple names to name tag, this is not OK! name = "Nysleppen;Nysleppen"
 utility_to_osm - INFO - ssr:stedsnr = 570840 has multiple (2) positions, using the first one!
 utility_to_osm - ERROR - language priorty missing from file, inventing language_priority = nor-dan-dansk-deu-eng-engelsk-fin-finsk-fkv-grønlandsk-isl-islandsk-kal-kvensk-lulesamisk-nordsamisk-norsk-rus-russisk-skoltesamisk-sma-sme-smj-sms-svensk-swe-sørsamisk-tysk

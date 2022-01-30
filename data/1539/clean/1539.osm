@@ -7100,8 +7100,8 @@
 		<tag k="waterway" v="stream" />
 	</node>
 	<node lat="62.411580555167" lon="7.488441661783688" id="-9719">
-		<tag k="alt_name" v="Gjølbottstinden" />
-		<tag k="name" v="Litlehesten" />
+		<tag k="fixme" v="multiple name tags, choose one and add the other to alt_name" />
+		<tag k="name" v="Litlehesten;Gjølbottstinden" />
 		<tag k="natural" v="hill" />
 		<tag k="place" v="locality" />
 		<tag k="ssr:stedsnr" v="738951" />
@@ -7982,8 +7982,9 @@
 		<tag k="ssr:stedsnr" v="921081" />
 	</node>
 	<node lat="62.5489476390509" lon="7.88071201189744" id="-9876">
-		<tag k="fixme" v="multiple name tags, choose one and add the other to alt_name; consider place=hamlet" />
-		<tag k="name" v="Røysan;Gyldenskog" />
+		<tag k="alt_name" v="Gyldenskog" />
+		<tag k="fixme" v="consider place=hamlet" />
+		<tag k="name" v="Røysan" />
 		<tag k="place" v="farm" />
 		<tag k="ssr:stedsnr" v="921143" />
 	</node>
@@ -19810,8 +19811,8 @@
 		<tag k="ssr:stedsnr" v="1072268" />
 	</node>
 	<node lat="62.532891459886834" lon="7.469944206233871" id="-12195">
-		<tag k="fixme" v="multiple name tags, choose one and add the other to alt_name" />
-		<tag k="name" v="Oterholm;Haugly" />
+		<tag k="alt_name" v="Haugly" />
+		<tag k="name" v="Oterholm" />
 		<tag k="place" v="farm" />
 		<tag k="ssr:stedsnr" v="1074737" />
 	</node>
