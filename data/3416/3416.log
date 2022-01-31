@@ -1,5 +1,4 @@
-utility_to_osm.file_util - INFO - file_age(ssr2_to_osm_data/data/3416/3416-ssr.xml) -> 33.5 days
-utility_to_osm.gentle_requests - INFO - requested http://wfs.geonorge.no/skwms1/wfs.stedsnavn50?VERSION=2.0.0&SERVICE=WFS&srsName=EPSG:25832&REQUEST=GetFeature&TYPENAME=Sted&resultType=results&Filter=%3CFilter%3E%20%3CPropertyIsEqualTo%3E%20%3CValueReference%20xmlns:app=%22http://skjema.geonorge.no/SOSI/produktspesifikasjon/Stedsnavn/5.0%22%3Eapp:kommune/app:Kommune/app:kommunenummer%3C/ValueReference%3E%20%3CLiteral%3E3416%3C/Literal%3E%20%3C/PropertyIsEqualTo%3E%20%3C/Filter%3E" --header "Content-Type:text/xml" ssr2_to_osm_data/data/3416/3416-ssr.xml, got <Response [200]>
+utility_to_osm.file_util - INFO - file_age(ssr2_to_osm_data/data/3416/3416-ssr.xml) -> 0.5 days
 utility_to_osm - INFO - ssr:stedsnr = 230615: No name found
 utility_to_osm - INFO - ssr:stedsnr = 230617: No name found
 utility_to_osm - INFO - ssr:stedsnr = 229905: No name found
@@ -289,7 +288,7 @@ utility_to_osm - INFO - ssr:stedsnr = 248644 has multiple (2) positions, using t
 utility_to_osm - INFO - ssr:stedsnr = 248728: No name found
 utility_to_osm - INFO - ssr:stedsnr = 102412: No name found
 utility_to_osm - INFO - ssr:stedsnr = 102412 has multiple (14) positions, using the first one!
-utility_to_osm - INFO - ssr:stedsnr = 248687: No priority spelling found for lang = no, using alt_name to get "[('no', 'Sandtjernlia')]"
+utility_to_osm - INFO - ssr:stedsnr = 248687: No name found
 utility_to_osm - INFO - ignoring non approved status = "avslåttNavneledd" name = "Gjeddetjern, store"
 utility_to_osm - INFO - ignoring non approved status = "avslåttNavneledd" name = "Gjeddetjern, store"
 utility_to_osm - INFO - ignoring non approved status = "avslåttNavneledd" name = "Gjeddetjern, store"

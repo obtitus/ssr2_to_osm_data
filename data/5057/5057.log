@@ -1,5 +1,4 @@
-utility_to_osm.file_util - INFO - file_age(ssr2_to_osm_data/data/5057/5057-ssr.xml) -> 33.5 days
-utility_to_osm.gentle_requests - INFO - requested http://wfs.geonorge.no/skwms1/wfs.stedsnavn50?VERSION=2.0.0&SERVICE=WFS&srsName=EPSG:25832&REQUEST=GetFeature&TYPENAME=Sted&resultType=results&Filter=%3CFilter%3E%20%3CPropertyIsEqualTo%3E%20%3CValueReference%20xmlns:app=%22http://skjema.geonorge.no/SOSI/produktspesifikasjon/Stedsnavn/5.0%22%3Eapp:kommune/app:Kommune/app:kommunenummer%3C/ValueReference%3E%20%3CLiteral%3E5057%3C/Literal%3E%20%3C/PropertyIsEqualTo%3E%20%3C/Filter%3E" --header "Content-Type:text/xml" ssr2_to_osm_data/data/5057/5057-ssr.xml, got <Response [200]>
+utility_to_osm.file_util - INFO - file_age(ssr2_to_osm_data/data/5057/5057-ssr.xml) -> 0.5 days
 utility_to_osm - INFO - ssr:stedsnr = 13001: No name found
 utility_to_osm - INFO - ssr:stedsnr = 13001 has multiple (3) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 13003: No name found
@@ -6108,9 +6107,9 @@ utility_to_osm - INFO - ssr:stedsnr = 965862 has multiple (7) positions, using t
 utility_to_osm - INFO - ssr:stedsnr = 969015: No name found
 utility_to_osm - INFO - ssr:stedsnr = 969116: No name found
 utility_to_osm - INFO - ssr:stedsnr = 969865: No name found
-utility_to_osm - INFO - ssr:stedsnr = 971016: No priority spelling found for lang = no, using alt_name to get "[('no', 'Kråkvåg')]"
-utility_to_osm - INFO - ssr:stedsnr = 971017: No priority spelling found for lang = no, using alt_name to get "[('no', 'Storfosna')]"
-utility_to_osm - INFO - ssr:stedsnr = 971018: No priority spelling found for lang = no, using alt_name to get "[('no', 'Garten')]"
+utility_to_osm - INFO - ssr:stedsnr = 971016: No name found
+utility_to_osm - INFO - ssr:stedsnr = 971017: No name found
+utility_to_osm - INFO - ssr:stedsnr = 971018: No name found
 utility_to_osm - INFO - ssr:stedsnr = 973933: No name found
 utility_to_osm - INFO - ssr:stedsnr = 980645: No name found
 utility_to_osm - INFO - ssr:stedsnr = 980645: No name found

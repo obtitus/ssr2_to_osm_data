@@ -1,5 +1,4 @@
-utility_to_osm.file_util - INFO - file_age(ssr2_to_osm_data/data/5028/5028-ssr.xml) -> 33.4 days
-utility_to_osm.gentle_requests - INFO - requested http://wfs.geonorge.no/skwms1/wfs.stedsnavn50?VERSION=2.0.0&SERVICE=WFS&srsName=EPSG:25832&REQUEST=GetFeature&TYPENAME=Sted&resultType=results&Filter=%3CFilter%3E%20%3CPropertyIsEqualTo%3E%20%3CValueReference%20xmlns:app=%22http://skjema.geonorge.no/SOSI/produktspesifikasjon/Stedsnavn/5.0%22%3Eapp:kommune/app:Kommune/app:kommunenummer%3C/ValueReference%3E%20%3CLiteral%3E5028%3C/Literal%3E%20%3C/PropertyIsEqualTo%3E%20%3C/Filter%3E" --header "Content-Type:text/xml" ssr2_to_osm_data/data/5028/5028-ssr.xml, got <Response [200]>
+utility_to_osm.file_util - INFO - file_age(ssr2_to_osm_data/data/5028/5028-ssr.xml) -> 0.5 days
 utility_to_osm - INFO - ssr:stedsnr = 12011: No name found
 utility_to_osm - INFO - ssr:stedsnr = 12013: No name found
 utility_to_osm - INFO - ssr:stedsnr = 12013 has multiple (2) positions, using the first one!
@@ -372,7 +371,7 @@ utility_to_osm - INFO - ssr:stedsnr = 134219: No name found
 utility_to_osm - INFO - ssr:stedsnr = 134219 has multiple (2) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 134916: No name found
 utility_to_osm - INFO - ssr:stedsnr = 134916 has multiple (2) positions, using the first one!
-utility_to_osm - INFO - ssr:stedsnr = 134811: No priority spelling found for lang = no, using alt_name to get "[('no', 'Meegga')]"
+utility_to_osm - INFO - ssr:stedsnr = 134811: No name found
 utility_to_osm - INFO - ssr:stedsnr = 134811 has multiple (2) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 134819: No name found
 utility_to_osm - INFO - ssr:stedsnr = 134871: No name found
@@ -6193,7 +6192,7 @@ utility_to_osm - INFO - ssr:stedsnr = 970510: No name found
 utility_to_osm - INFO - ssr:stedsnr = 970681: No name found
 utility_to_osm - INFO - ssr:stedsnr = 970523: No name found
 utility_to_osm - INFO - ssr:stedsnr = 970523 has multiple (38) positions, using the first one!
-utility_to_osm - INFO - ssr:stedsnr = 971890: No priority spelling found for lang = no, using alt_name to get "[('no', 'Berg')]"
+utility_to_osm - INFO - ssr:stedsnr = 971890: No name found
 utility_to_osm - INFO - ssr:stedsnr = 971811: No name found
 utility_to_osm - INFO - ssr:stedsnr = 973531: No name found
 utility_to_osm - INFO - ssr:stedsnr = 973531 has multiple (2) positions, using the first one!
@@ -6289,6 +6288,7 @@ utility_to_osm - INFO - ssr:stedsnr = 1081983: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1081984: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1081985: No name found
 utility_to_osm.ssr2.ssr2_tags - INFO - ssr:type = vegstrekning found in conversion table, but without tags
+utility_to_osm.ssr2.ssr2_tags - INFO - ssr:type = adressetilleggsnavn found in conversion table, but without tags
 utility_to_osm.ssr2.ssr2_tags - INFO - ssr:type = vegstrekning found in conversion table, but without tags
 utility_to_osm.ssr2.ssr2_tags - INFO - ssr:type = adressenavn found in conversion table, but without tags
 utility_to_osm.ssr2.ssr2_tags - INFO - ssr:type = adressenavn found in conversion table, but without tags
@@ -6577,7 +6577,6 @@ utility_to_osm.ssr2.ssr2_tags - INFO - ssr:type = adressenavn found in conversio
 utility_to_osm.ssr2.ssr2_tags - INFO - ssr:type = adressenavn found in conversion table, but without tags
 utility_to_osm.ssr2.ssr2_tags - INFO - ssr:type = adressenavn found in conversion table, but without tags
 utility_to_osm.ssr2.ssr2_tags - INFO - ssr:type = adressenavn found in conversion table, but without tags
-utility_to_osm.ssr2.ssr2_tags - INFO - ssr:type = adressetilleggsnavn found in conversion table, but without tags
 utility_to_osm.ssr2.ssr2_tags - INFO - ssr:type = adressenavn found in conversion table, but without tags
 utility_to_osm.ssr2.ssr2_tags - INFO - ssr:type = adressenavn found in conversion table, but without tags
 utility_to_osm.ssr2.ssr2_tags - INFO - ssr:type = adressenavn found in conversion table, but without tags

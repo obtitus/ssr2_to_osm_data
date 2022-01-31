@@ -1,5 +1,4 @@
-utility_to_osm.file_util - INFO - file_age(ssr2_to_osm_data/data/5022/5022-ssr.xml) -> 33.4 days
-utility_to_osm.gentle_requests - INFO - requested http://wfs.geonorge.no/skwms1/wfs.stedsnavn50?VERSION=2.0.0&SERVICE=WFS&srsName=EPSG:25832&REQUEST=GetFeature&TYPENAME=Sted&resultType=results&Filter=%3CFilter%3E%20%3CPropertyIsEqualTo%3E%20%3CValueReference%20xmlns:app=%22http://skjema.geonorge.no/SOSI/produktspesifikasjon/Stedsnavn/5.0%22%3Eapp:kommune/app:Kommune/app:kommunenummer%3C/ValueReference%3E%20%3CLiteral%3E5022%3C/Literal%3E%20%3C/PropertyIsEqualTo%3E%20%3C/Filter%3E" --header "Content-Type:text/xml" ssr2_to_osm_data/data/5022/5022-ssr.xml, got <Response [200]>
+utility_to_osm.file_util - INFO - file_age(ssr2_to_osm_data/data/5022/5022-ssr.xml) -> 0.5 days
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Reitsætrin"
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Retsætrin"
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Reitsætrin"
@@ -4367,7 +4366,7 @@ utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Røås
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Røåsen"
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Røåsen"
 utility_to_osm - INFO - ssr:stedsnr = 952334: No name found
-utility_to_osm - INFO - ssr:stedsnr = 972899: No priority spelling found for lang = no, using alt_name to get "[('no', 'Herrem')]"
+utility_to_osm - INFO - ssr:stedsnr = 972899: No name found
 utility_to_osm - INFO - ssr:stedsnr = 972925 not active = "relikt". Skipping...
 utility_to_osm - INFO - ssr:stedsnr = 972926: No name found
 utility_to_osm - INFO - ssr:stedsnr = 972928: No name found
@@ -4376,8 +4375,8 @@ utility_to_osm - INFO - ssr:stedsnr = 973488: No name found
 utility_to_osm - INFO - ssr:stedsnr = 973414: No name found
 utility_to_osm - INFO - ssr:stedsnr = 973418: No name found
 utility_to_osm - INFO - ssr:stedsnr = 976097: No name found
-utility_to_osm - INFO - ssr:stedsnr = 980984: No priority spelling found for lang = no, using alt_name to get "[('no', 'Røravasstuggu')]"
-utility_to_osm - INFO - ssr:stedsnr = 980985: No priority spelling found for lang = no, using alt_name to get "[('no', 'Slyngvadkloppa')]"
+utility_to_osm - INFO - ssr:stedsnr = 980984: No name found
+utility_to_osm - INFO - ssr:stedsnr = 980985: No name found
 utility_to_osm - INFO - ssr:stedsnr = 981578: No name found
 utility_to_osm - INFO - ssr:stedsnr = 981579: No name found
 utility_to_osm - INFO - ssr:stedsnr = 981580: No name found

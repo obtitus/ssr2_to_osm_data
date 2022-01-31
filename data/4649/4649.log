@@ -1,5 +1,4 @@
-utility_to_osm.file_util - INFO - file_age(ssr2_to_osm_data/data/4649/4649-ssr.xml) -> 33.5 days
-utility_to_osm.gentle_requests - INFO - requested http://wfs.geonorge.no/skwms1/wfs.stedsnavn50?VERSION=2.0.0&SERVICE=WFS&srsName=EPSG:25832&REQUEST=GetFeature&TYPENAME=Sted&resultType=results&Filter=%3CFilter%3E%20%3CPropertyIsEqualTo%3E%20%3CValueReference%20xmlns:app=%22http://skjema.geonorge.no/SOSI/produktspesifikasjon/Stedsnavn/5.0%22%3Eapp:kommune/app:Kommune/app:kommunenummer%3C/ValueReference%3E%20%3CLiteral%3E4649%3C/Literal%3E%20%3C/PropertyIsEqualTo%3E%20%3C/Filter%3E" --header "Content-Type:text/xml" ssr2_to_osm_data/data/4649/4649-ssr.xml, got <Response [200]>
+utility_to_osm.file_util - INFO - file_age(ssr2_to_osm_data/data/4649/4649-ssr.xml) -> 0.5 days
 utility_to_osm - INFO - ssr:stedsnr = 229620: No name found
 utility_to_osm - INFO - ssr:stedsnr = 229760: No name found
 utility_to_osm - INFO - ssr:stedsnr = 229761: No name found
@@ -3998,8 +3997,7 @@ utility_to_osm - INFO - ssr:stedsnr = 132544: No name found
 utility_to_osm - INFO - ssr:stedsnr = 132544 has multiple (2) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 141552: No name found
 utility_to_osm - INFO - ssr:stedsnr = 141552 has multiple (2) positions, using the first one!
-utility_to_osm - INFO - ssr:stedsnr = 141513: No priority spelling found for lang = no, using alt_name to get "[('no', 'Skorgedalen'), ('no', 'Skorgedalen')]"
-utility_to_osm - INFO - ssr:stedsnr = 141513: Adding multiple names to name tag, this is not OK! name = "Skorgedalen;Skorgedalen"
+utility_to_osm - INFO - ssr:stedsnr = 141513: No name found
 utility_to_osm - INFO - ssr:stedsnr = 141513 has multiple (6) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 141711: No name found
 utility_to_osm - INFO - ssr:stedsnr = 141711 has multiple (3) positions, using the first one!
@@ -5977,8 +5975,7 @@ utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Sørla
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Sørlandsætra"
 utility_to_osm - INFO - ssr:stedsnr = 738386: No name found
 utility_to_osm - INFO - ssr:stedsnr = 738386 has multiple (3) positions, using the first one!
-utility_to_osm - INFO - ssr:stedsnr = 738387: No priority spelling found for lang = no, using alt_name to get "[('no', 'Skaret'), ('no', 'Skareide')]"
-utility_to_osm - INFO - ssr:stedsnr = 738387: Adding multiple names to name tag, this is not OK! name = "Skaret;Skareide"
+utility_to_osm - INFO - ssr:stedsnr = 738387: No name found
 utility_to_osm - INFO - ssr:stedsnr = 738396: No name found
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Rørabogneset"
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Røyrbogeneset"

@@ -1,5 +1,4 @@
-utility_to_osm.file_util - INFO - file_age(ssr2_to_osm_data/data/5413/5413-ssr.xml) -> 33.5 days
-utility_to_osm.gentle_requests - INFO - requested http://wfs.geonorge.no/skwms1/wfs.stedsnavn50?VERSION=2.0.0&SERVICE=WFS&srsName=EPSG:25832&REQUEST=GetFeature&TYPENAME=Sted&resultType=results&Filter=%3CFilter%3E%20%3CPropertyIsEqualTo%3E%20%3CValueReference%20xmlns:app=%22http://skjema.geonorge.no/SOSI/produktspesifikasjon/Stedsnavn/5.0%22%3Eapp:kommune/app:Kommune/app:kommunenummer%3C/ValueReference%3E%20%3CLiteral%3E5413%3C/Literal%3E%20%3C/PropertyIsEqualTo%3E%20%3C/Filter%3E" --header "Content-Type:text/xml" ssr2_to_osm_data/data/5413/5413-ssr.xml, got <Response [200]>
+utility_to_osm.file_util - INFO - file_age(ssr2_to_osm_data/data/5413/5413-ssr.xml) -> 0.5 days
 utility_to_osm - INFO - ssr:stedsnr = 230842: No name found
 utility_to_osm - INFO - ssr:stedsnr = 230814: No name found
 utility_to_osm - INFO - ssr:stedsnr = 230825: No name found
@@ -782,9 +781,9 @@ utility_to_osm - INFO - ssr:stedsnr = 960273: No name found
 utility_to_osm - INFO - ssr:stedsnr = 973999: No name found
 utility_to_osm - INFO - ssr:stedsnr = 974045: No name found
 utility_to_osm - INFO - ssr:stedsnr = 989924: No name found
-utility_to_osm - INFO - ssr:stedsnr = 989924: No priority spelling found for lang = se, using alt_name to get "[('no', 'Forså')]"
+utility_to_osm - INFO - ssr:stedsnr = 989924: No name found
 utility_to_osm - INFO - ssr:stedsnr = 989929: No name found
-utility_to_osm - INFO - ssr:stedsnr = 989929: No priority spelling found for lang = se, using alt_name to get "[('no', 'Indre Forså')]"
+utility_to_osm - INFO - ssr:stedsnr = 989929: No name found
 utility_to_osm - INFO - ssr:stedsnr = 989969: No name found
 utility_to_osm - INFO - ssr:stedsnr = 18136: No name found
 utility_to_osm - INFO - ssr:stedsnr = 18136 has multiple (2) positions, using the first one!
@@ -809,7 +808,7 @@ utility_to_osm - INFO - ssr:stedsnr = 18184 has multiple (2) positions, using th
 utility_to_osm - INFO - ssr:stedsnr = 18264: No name found
 utility_to_osm - INFO - ssr:stedsnr = 18264 has multiple (2) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 18763: No name found
-utility_to_osm - INFO - ssr:stedsnr = 18763: No priority spelling found for lang = se, using alt_name to get "[('no', 'Vågsfjorden')]"
+utility_to_osm - INFO - ssr:stedsnr = 18763: No name found
 utility_to_osm - INFO - ssr:stedsnr = 18763 has multiple (42) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 18872: No name found
 utility_to_osm - INFO - ssr:stedsnr = 18872: No name found
@@ -1386,7 +1385,7 @@ utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Rognvi
 utility_to_osm - INFO - ssr:stedsnr = 563915: No name found
 utility_to_osm - INFO - ssr:stedsnr = 563915 has multiple (2) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 563969: No name found
-utility_to_osm - INFO - ssr:stedsnr = 563969: No priority spelling found for lang = se, using alt_name to get "[('no', 'Astafjorden')]"
+utility_to_osm - INFO - ssr:stedsnr = 563969: No name found
 utility_to_osm - INFO - ssr:stedsnr = 563969 has multiple (23) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 563971: No name found
 utility_to_osm - INFO - ssr:stedsnr = 563971 has multiple (2) positions, using the first one!
@@ -1761,7 +1760,7 @@ utility_to_osm - INFO - ssr:stedsnr = 989991: No name found
 utility_to_osm - INFO - ssr:stedsnr = 989994: No name found
 utility_to_osm - INFO - ssr:stedsnr = 989995: No name found
 utility_to_osm - INFO - ssr:stedsnr = 989963: No name found
-utility_to_osm - INFO - ssr:stedsnr = 989963: No priority spelling found for lang = se, using alt_name to get "[('no', 'Ytre Forså')]"
+utility_to_osm - INFO - ssr:stedsnr = 989963: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1009736: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1009736 has multiple (15) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 1009675: No name found

@@ -1,5 +1,4 @@
-utility_to_osm.file_util - INFO - file_age(ssr2_to_osm_data/data/4635/4635-ssr.xml) -> 33.5 days
-utility_to_osm.gentle_requests - INFO - requested http://wfs.geonorge.no/skwms1/wfs.stedsnavn50?VERSION=2.0.0&SERVICE=WFS&srsName=EPSG:25832&REQUEST=GetFeature&TYPENAME=Sted&resultType=results&Filter=%3CFilter%3E%20%3CPropertyIsEqualTo%3E%20%3CValueReference%20xmlns:app=%22http://skjema.geonorge.no/SOSI/produktspesifikasjon/Stedsnavn/5.0%22%3Eapp:kommune/app:Kommune/app:kommunenummer%3C/ValueReference%3E%20%3CLiteral%3E4635%3C/Literal%3E%20%3C/PropertyIsEqualTo%3E%20%3C/Filter%3E" --header "Content-Type:text/xml" ssr2_to_osm_data/data/4635/4635-ssr.xml, got <Response [200]>
+utility_to_osm.file_util - INFO - file_age(ssr2_to_osm_data/data/4635/4635-ssr.xml) -> 0.5 days
 utility_to_osm - INFO - ssr:stedsnr = 7298: No name found
 utility_to_osm - INFO - ssr:stedsnr = 7306: No name found
 utility_to_osm - INFO - ssr:stedsnr = 7306 has multiple (3) positions, using the first one!
@@ -1025,8 +1024,7 @@ utility_to_osm - INFO - ssr:stedsnr = 312866: No name found
 utility_to_osm - INFO - ssr:stedsnr = 312873: No name found
 utility_to_osm - INFO - ssr:stedsnr = 313011: No name found
 utility_to_osm - INFO - ssr:stedsnr = 313014: No name found
-utility_to_osm - INFO - ssr:stedsnr = 313271: No priority spelling found for lang = no, using alt_name to get "[('no', 'Sygnefestberget'), ('no', 'Sygnefest')]"
-utility_to_osm - INFO - ssr:stedsnr = 313271: Adding multiple names to name tag, this is not OK! name = "Sygnefestberget;Sygnefest"
+utility_to_osm - INFO - ssr:stedsnr = 313271: No name found
 utility_to_osm - INFO - ssr:stedsnr = 313272: No name found
 utility_to_osm - INFO - ssr:stedsnr = 313272 has multiple (4) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 313425: No name found

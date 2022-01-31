@@ -1,5 +1,4 @@
-utility_to_osm.file_util - INFO - file_age(ssr2_to_osm_data/data/3447/3447-ssr.xml) -> 33.5 days
-utility_to_osm.gentle_requests - INFO - requested http://wfs.geonorge.no/skwms1/wfs.stedsnavn50?VERSION=2.0.0&SERVICE=WFS&srsName=EPSG:25832&REQUEST=GetFeature&TYPENAME=Sted&resultType=results&Filter=%3CFilter%3E%20%3CPropertyIsEqualTo%3E%20%3CValueReference%20xmlns:app=%22http://skjema.geonorge.no/SOSI/produktspesifikasjon/Stedsnavn/5.0%22%3Eapp:kommune/app:Kommune/app:kommunenummer%3C/ValueReference%3E%20%3CLiteral%3E3447%3C/Literal%3E%20%3C/PropertyIsEqualTo%3E%20%3C/Filter%3E" --header "Content-Type:text/xml" ssr2_to_osm_data/data/3447/3447-ssr.xml, got <Response [200]>
+utility_to_osm.file_util - INFO - file_age(ssr2_to_osm_data/data/3447/3447-ssr.xml) -> 0.5 days
 utility_to_osm - INFO - ssr:stedsnr = 7254: No name found
 utility_to_osm - INFO - ssr:stedsnr = 7256: No name found
 utility_to_osm - INFO - ssr:stedsnr = 7409: No name found
@@ -1017,7 +1016,7 @@ utility_to_osm - INFO - ssr:stedsnr = 601411: No name found
 utility_to_osm - INFO - ssr:stedsnr = 601350: No name found
 utility_to_osm - INFO - ssr:stedsnr = 601366: No name found
 utility_to_osm - INFO - ssr:stedsnr = 601517: No name found
-utility_to_osm - INFO - ssr:stedsnr = 601826: No priority spelling found for lang = no, using alt_name to get "[('no', 'Fluberg Skytebane')]"
+utility_to_osm - INFO - ssr:stedsnr = 601826: No name found
 utility_to_osm - INFO - ssr:stedsnr = 601797: No name found
 utility_to_osm - INFO - ssr:stedsnr = 601915: No name found
 utility_to_osm - INFO - ssr:stedsnr = 602298: No name found

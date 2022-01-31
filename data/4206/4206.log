@@ -1,5 +1,4 @@
-utility_to_osm.file_util - INFO - file_age(ssr2_to_osm_data/data/4206/4206-ssr.xml) -> 33.5 days
-utility_to_osm.gentle_requests - INFO - requested http://wfs.geonorge.no/skwms1/wfs.stedsnavn50?VERSION=2.0.0&SERVICE=WFS&srsName=EPSG:25832&REQUEST=GetFeature&TYPENAME=Sted&resultType=results&Filter=%3CFilter%3E%20%3CPropertyIsEqualTo%3E%20%3CValueReference%20xmlns:app=%22http://skjema.geonorge.no/SOSI/produktspesifikasjon/Stedsnavn/5.0%22%3Eapp:kommune/app:Kommune/app:kommunenummer%3C/ValueReference%3E%20%3CLiteral%3E4206%3C/Literal%3E%20%3C/PropertyIsEqualTo%3E%20%3C/Filter%3E" --header "Content-Type:text/xml" ssr2_to_osm_data/data/4206/4206-ssr.xml, got <Response [200]>
+utility_to_osm.file_util - INFO - file_age(ssr2_to_osm_data/data/4206/4206-ssr.xml) -> 0.5 days
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Eikeland"
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Eigeland"
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Eikeland"
@@ -2032,8 +2031,7 @@ utility_to_osm - INFO - ssr:stedsnr = 182240: No name found
 utility_to_osm - INFO - ssr:stedsnr = 182240 has multiple (2) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 182243: No name found
 utility_to_osm - INFO - ssr:stedsnr = 182243 has multiple (2) positions, using the first one!
-utility_to_osm - WARNING - language missing from language priority en
-utility_to_osm - INFO - ssr:stedsnr = 182096: No priority spelling found for lang = en, using alt_name to get "[('no', 'Nordsjøen')]"
+utility_to_osm - INFO - ssr:stedsnr = 182096: No name found
 utility_to_osm - INFO - ssr:stedsnr = 182096: No name found
 utility_to_osm - INFO - ssr:stedsnr = 182096 has multiple (72) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 182133: No name found

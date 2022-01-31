@@ -1,5 +1,4 @@
-utility_to_osm.file_util - INFO - file_age(ssr2_to_osm_data/data/4205/4205-ssr.xml) -> 33.5 days
-utility_to_osm.gentle_requests - INFO - requested http://wfs.geonorge.no/skwms1/wfs.stedsnavn50?VERSION=2.0.0&SERVICE=WFS&srsName=EPSG:25832&REQUEST=GetFeature&TYPENAME=Sted&resultType=results&Filter=%3CFilter%3E%20%3CPropertyIsEqualTo%3E%20%3CValueReference%20xmlns:app=%22http://skjema.geonorge.no/SOSI/produktspesifikasjon/Stedsnavn/5.0%22%3Eapp:kommune/app:Kommune/app:kommunenummer%3C/ValueReference%3E%20%3CLiteral%3E4205%3C/Literal%3E%20%3C/PropertyIsEqualTo%3E%20%3C/Filter%3E" --header "Content-Type:text/xml" ssr2_to_osm_data/data/4205/4205-ssr.xml, got <Response [200]>
+utility_to_osm.file_util - INFO - file_age(ssr2_to_osm_data/data/4205/4205-ssr.xml) -> 0.5 days
 utility_to_osm - INFO - ssr:stedsnr = 50: No name found
 utility_to_osm - INFO - ssr:stedsnr = 50 has multiple (2) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 59: No name found
@@ -6290,7 +6289,7 @@ utility_to_osm - INFO - ssr:stedsnr = 979203: No name found
 utility_to_osm - INFO - ssr:stedsnr = 979204: No name found
 utility_to_osm - INFO - ssr:stedsnr = 979205: No name found
 utility_to_osm - INFO - ssr:stedsnr = 979225: No name found
-utility_to_osm - INFO - ssr:stedsnr = 979256: No priority spelling found for lang = no, using alt_name to get "[('no', 'Foss')]"
+utility_to_osm - INFO - ssr:stedsnr = 979256: No name found
 utility_to_osm - INFO - ssr:stedsnr = 979257: No name found
 utility_to_osm - INFO - ssr:stedsnr = 979258: No name found
 utility_to_osm - INFO - ssr:stedsnr = 979260: No name found
@@ -10521,7 +10520,7 @@ utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Egelan
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Engeland ytre"
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Egeland ytre"
 utility_to_osm - INFO - ssr:stedsnr = 602796: No name found
-utility_to_osm - INFO - ssr:stedsnr = 601140: No priority spelling found for lang = no, using alt_name to get "[('no', 'Bjørneskjær')]"
+utility_to_osm - INFO - ssr:stedsnr = 601140: No name found
 utility_to_osm - INFO - ssr:stedsnr = 601036: No name found
 utility_to_osm - INFO - ssr:stedsnr = 601038: No name found
 utility_to_osm - INFO - ssr:stedsnr = 601740: No name found
@@ -12876,7 +12875,7 @@ utility_to_osm - INFO - ssr:stedsnr = 978904: No name found
 utility_to_osm - INFO - ssr:stedsnr = 978905: No name found
 utility_to_osm - INFO - ssr:stedsnr = 978906: No name found
 utility_to_osm - INFO - ssr:stedsnr = 978910: No name found
-utility_to_osm - INFO - ssr:stedsnr = 979194: No priority spelling found for lang = no, using alt_name to get "[('no', 'Øvre Eikeland')]"
+utility_to_osm - INFO - ssr:stedsnr = 979194: No name found
 utility_to_osm - INFO - ssr:stedsnr = 979281: No name found
 utility_to_osm - INFO - ssr:stedsnr = 979100: No name found
 utility_to_osm - INFO - ssr:stedsnr = 979125: No name found
@@ -12884,7 +12883,7 @@ utility_to_osm - INFO - ssr:stedsnr = 979126: No name found
 utility_to_osm - INFO - ssr:stedsnr = 979127: No name found
 utility_to_osm - INFO - ssr:stedsnr = 979138: No name found
 utility_to_osm - INFO - ssr:stedsnr = 979140: No name found
-utility_to_osm - INFO - ssr:stedsnr = 979240: No priority spelling found for lang = no, using alt_name to get "[('no', 'Rauberg')]"
+utility_to_osm - INFO - ssr:stedsnr = 979240: No name found
 utility_to_osm - INFO - ssr:stedsnr = 979241: No name found
 utility_to_osm - INFO - ssr:stedsnr = 979243: No name found
 utility_to_osm - INFO - ssr:stedsnr = 979244: No name found
@@ -13579,6 +13578,7 @@ utility_to_osm.ssr2.ssr2_tags - INFO - ssr:type = annenAdministrativInndeling fo
 utility_to_osm.ssr2.ssr2_tags - INFO - ssr:type = sjødetalj found in conversion table, but without tags
 utility_to_osm.ssr2.ssr2_tags - INFO - ssr:type = sjøvarde found in conversion table, but without tags
 utility_to_osm.ssr2.ssr2_tags - INFO - ssr:type = vegstrekning found in conversion table, but without tags
+utility_to_osm.ssr2.ssr2_tags - INFO - ssr:type = lanterne found in conversion table, but without tags
 utility_to_osm.ssr2.ssr2_tags - INFO - ssr:type = vegstrekning found in conversion table, but without tags
 utility_to_osm.ssr2.ssr2_tags - INFO - ssr:type = vegstrekning found in conversion table, but without tags
 utility_to_osm.ssr2.ssr2_tags - INFO - ssr:type = sjøvarde found in conversion table, but without tags
@@ -13950,7 +13950,6 @@ utility_to_osm.ssr2.ssr2_tags - INFO - ssr:type = lanterne found in conversion t
 utility_to_osm.ssr2.ssr2_tags - INFO - ssr:type = vegstrekning found in conversion table, but without tags
 utility_to_osm.ssr2.ssr2_tags - INFO - ssr:type = lanterne found in conversion table, but without tags
 utility_to_osm.ssr2.ssr2_tags - INFO - ssr:type = fyrlykt found in conversion table, but without tags
-utility_to_osm.ssr2.ssr2_tags - INFO - ssr:type = lanterne found in conversion table, but without tags
 utility_to_osm.ssr2.ssr2_tags - INFO - ssr:type = fyrlykt found in conversion table, but without tags
 utility_to_osm.ssr2.ssr2_tags - INFO - ssr:type = havdyp found in conversion table, but without tags
 utility_to_osm.ssr2.ssr2_tags - INFO - ssr:type = kommune found in conversion table, but without tags

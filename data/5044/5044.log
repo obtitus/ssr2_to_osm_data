@@ -1,5 +1,4 @@
-utility_to_osm.file_util - INFO - file_age(ssr2_to_osm_data/data/5044/5044-ssr.xml) -> 33.5 days
-utility_to_osm.gentle_requests - INFO - requested http://wfs.geonorge.no/skwms1/wfs.stedsnavn50?VERSION=2.0.0&SERVICE=WFS&srsName=EPSG:25832&REQUEST=GetFeature&TYPENAME=Sted&resultType=results&Filter=%3CFilter%3E%20%3CPropertyIsEqualTo%3E%20%3CValueReference%20xmlns:app=%22http://skjema.geonorge.no/SOSI/produktspesifikasjon/Stedsnavn/5.0%22%3Eapp:kommune/app:Kommune/app:kommunenummer%3C/ValueReference%3E%20%3CLiteral%3E5044%3C/Literal%3E%20%3C/PropertyIsEqualTo%3E%20%3C/Filter%3E" --header "Content-Type:text/xml" ssr2_to_osm_data/data/5044/5044-ssr.xml, got <Response [200]>
+utility_to_osm.file_util - INFO - file_age(ssr2_to_osm_data/data/5044/5044-ssr.xml) -> 0.5 days
 utility_to_osm - INFO - ssr:stedsnr = 229619: No name found
 utility_to_osm - INFO - ssr:stedsnr = 230013: No name found
 utility_to_osm - INFO - ssr:stedsnr = 230045: No name found
@@ -3154,10 +3153,10 @@ utility_to_osm - INFO - ssr:stedsnr = 965175: No name found
 utility_to_osm - INFO - ssr:stedsnr = 965848: No name found
 utility_to_osm - INFO - ssr:stedsnr = 965849: No name found
 utility_to_osm - INFO - ssr:stedsnr = 970175: No name found
-utility_to_osm - INFO - ssr:stedsnr = 971308: No priority spelling found for lang = no, using alt_name to get "[('no', 'Trones')]"
-utility_to_osm - INFO - ssr:stedsnr = 971309: No priority spelling found for lang = no, using alt_name to get "[('no', 'Finnvollan')]"
+utility_to_osm - INFO - ssr:stedsnr = 971308: No name found
+utility_to_osm - INFO - ssr:stedsnr = 971309: No name found
 utility_to_osm - INFO - ssr:stedsnr = 971312: No name found
-utility_to_osm - INFO - ssr:stedsnr = 971313: No priority spelling found for lang = no, using alt_name to get "[('no', 'Mellingen')]"
+utility_to_osm - INFO - ssr:stedsnr = 971313: No name found
 utility_to_osm - INFO - ssr:stedsnr = 973406: No name found
 utility_to_osm - INFO - ssr:stedsnr = 975857: No name found
 utility_to_osm - INFO - ssr:stedsnr = 975858: No name found

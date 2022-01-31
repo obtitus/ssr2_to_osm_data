@@ -1,5 +1,4 @@
-utility_to_osm.file_util - INFO - file_age(ssr2_to_osm_data/data/5055/5055-ssr.xml) -> 33.5 days
-utility_to_osm.gentle_requests - INFO - requested http://wfs.geonorge.no/skwms1/wfs.stedsnavn50?VERSION=2.0.0&SERVICE=WFS&srsName=EPSG:25832&REQUEST=GetFeature&TYPENAME=Sted&resultType=results&Filter=%3CFilter%3E%20%3CPropertyIsEqualTo%3E%20%3CValueReference%20xmlns:app=%22http://skjema.geonorge.no/SOSI/produktspesifikasjon/Stedsnavn/5.0%22%3Eapp:kommune/app:Kommune/app:kommunenummer%3C/ValueReference%3E%20%3CLiteral%3E5055%3C/Literal%3E%20%3C/PropertyIsEqualTo%3E%20%3C/Filter%3E" --header "Content-Type:text/xml" ssr2_to_osm_data/data/5055/5055-ssr.xml, got <Response [200]>
+utility_to_osm.file_util - INFO - file_age(ssr2_to_osm_data/data/5055/5055-ssr.xml) -> 0.5 days
 utility_to_osm - INFO - ssr:stedsnr = 229622: No name found
 utility_to_osm - INFO - ssr:stedsnr = 229744: No name found
 utility_to_osm - INFO - ssr:stedsnr = 229746: No name found
@@ -23,7 +22,7 @@ utility_to_osm - INFO - ssr:stedsnr = 230293: No name found
 utility_to_osm - INFO - ssr:stedsnr = 230294: No name found
 utility_to_osm - INFO - ssr:stedsnr = 230244: No name found
 utility_to_osm - INFO - ssr:stedsnr = 230256: No name found
-utility_to_osm - INFO - ssr:stedsnr = 230271: No priority spelling found for lang = no, using alt_name to get "[('no', 'Ytter setran')]"
+utility_to_osm - INFO - ssr:stedsnr = 230271: No name found
 utility_to_osm - INFO - ssr:stedsnr = 230273: No name found
 utility_to_osm - INFO - ssr:stedsnr = 230462: No name found
 utility_to_osm - INFO - ssr:stedsnr = 230464: No name found
@@ -1823,7 +1822,7 @@ utility_to_osm - INFO - ssr:stedsnr = 471476: No name found
 utility_to_osm - INFO - ssr:stedsnr = 471573: No name found
 utility_to_osm - INFO - ssr:stedsnr = 471611: No name found
 utility_to_osm - INFO - ssr:stedsnr = 471672: No name found
-utility_to_osm - INFO - ssr:stedsnr = 472063: No priority spelling found for lang = no, using alt_name to get "[('no', 'Ytter Vågland')]"
+utility_to_osm - INFO - ssr:stedsnr = 472063: No name found
 utility_to_osm - INFO - ssr:stedsnr = 472069: No name found
 utility_to_osm - INFO - ssr:stedsnr = 472269: No name found
 utility_to_osm - INFO - ssr:stedsnr = 472271: No name found
@@ -3719,14 +3718,14 @@ utility_to_osm - INFO - ssr:stedsnr = 970312 has multiple (336) positions, using
 utility_to_osm - INFO - ssr:stedsnr = 970247: No name found
 utility_to_osm - INFO - ssr:stedsnr = 970247 has multiple (57) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 971108: No name found
-utility_to_osm - INFO - ssr:stedsnr = 971109: No priority spelling found for lang = no, using alt_name to get "[('no', 'Setervika')]"
-utility_to_osm - INFO - ssr:stedsnr = 971110: No priority spelling found for lang = no, using alt_name to get "[('no', 'Stamnes')]"
-utility_to_osm - INFO - ssr:stedsnr = 971111: No priority spelling found for lang = no, using alt_name to get "[('no', 'Røstlia')]"
+utility_to_osm - INFO - ssr:stedsnr = 971109: No name found
+utility_to_osm - INFO - ssr:stedsnr = 971110: No name found
+utility_to_osm - INFO - ssr:stedsnr = 971111: No name found
 utility_to_osm - INFO - ssr:stedsnr = 971112: No name found
-utility_to_osm - INFO - ssr:stedsnr = 971113: No priority spelling found for lang = no, using alt_name to get "[('no', 'Næløya')]"
-utility_to_osm - INFO - ssr:stedsnr = 971115: No priority spelling found for lang = no, using alt_name to get "[('no', 'Lenes')]"
-utility_to_osm - INFO - ssr:stedsnr = 971116: No priority spelling found for lang = no, using alt_name to get "[('no', 'Bølia')]"
-utility_to_osm - INFO - ssr:stedsnr = 971117: No priority spelling found for lang = no, using alt_name to get "[('no', 'Vasslia')]"
+utility_to_osm - INFO - ssr:stedsnr = 971113: No name found
+utility_to_osm - INFO - ssr:stedsnr = 971115: No name found
+utility_to_osm - INFO - ssr:stedsnr = 971116: No name found
+utility_to_osm - INFO - ssr:stedsnr = 971117: No name found
 utility_to_osm - INFO - ssr:stedsnr = 976113: No name found
 utility_to_osm - INFO - ssr:stedsnr = 976124: No name found
 utility_to_osm - INFO - ssr:stedsnr = 977668: No name found

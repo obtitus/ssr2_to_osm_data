@@ -1,5 +1,4 @@
-utility_to_osm.file_util - INFO - file_age(ssr2_to_osm_data/data/3823/3823-ssr.xml) -> 33.5 days
-utility_to_osm.gentle_requests - INFO - requested http://wfs.geonorge.no/skwms1/wfs.stedsnavn50?VERSION=2.0.0&SERVICE=WFS&srsName=EPSG:25832&REQUEST=GetFeature&TYPENAME=Sted&resultType=results&Filter=%3CFilter%3E%20%3CPropertyIsEqualTo%3E%20%3CValueReference%20xmlns:app=%22http://skjema.geonorge.no/SOSI/produktspesifikasjon/Stedsnavn/5.0%22%3Eapp:kommune/app:Kommune/app:kommunenummer%3C/ValueReference%3E%20%3CLiteral%3E3823%3C/Literal%3E%20%3C/PropertyIsEqualTo%3E%20%3C/Filter%3E" --header "Content-Type:text/xml" ssr2_to_osm_data/data/3823/3823-ssr.xml, got <Response [200]>
+utility_to_osm.file_util - INFO - file_age(ssr2_to_osm_data/data/3823/3823-ssr.xml) -> 0.5 days
 utility_to_osm - INFO - ssr:stedsnr = 229751: No name found
 utility_to_osm - INFO - ssr:stedsnr = 229752: No name found
 utility_to_osm - INFO - ssr:stedsnr = 229752 has multiple (2) positions, using the first one!
@@ -2837,7 +2836,7 @@ utility_to_osm - INFO - ssr:stedsnr = 884351 has multiple (2) positions, using t
 utility_to_osm - INFO - ssr:stedsnr = 884353: No name found
 utility_to_osm - INFO - ssr:stedsnr = 884356: No name found
 utility_to_osm - INFO - ssr:stedsnr = 884498: No name found
-utility_to_osm - INFO - ssr:stedsnr = 885005: No priority spelling found for lang = no, using alt_name to get "[('no', 'Sveigstøyl')]"
+utility_to_osm - INFO - ssr:stedsnr = 885005: No name found
 utility_to_osm - INFO - ssr:stedsnr = 885012: No name found
 utility_to_osm - INFO - ssr:stedsnr = 885316: No name found
 utility_to_osm - INFO - ssr:stedsnr = 885396: No name found

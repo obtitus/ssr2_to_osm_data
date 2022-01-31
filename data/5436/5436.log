@@ -1,5 +1,4 @@
-utility_to_osm.file_util - INFO - file_age(ssr2_to_osm_data/data/5436/5436-ssr.xml) -> 33.5 days
-utility_to_osm.gentle_requests - INFO - requested http://wfs.geonorge.no/skwms1/wfs.stedsnavn50?VERSION=2.0.0&SERVICE=WFS&srsName=EPSG:25832&REQUEST=GetFeature&TYPENAME=Sted&resultType=results&Filter=%3CFilter%3E%20%3CPropertyIsEqualTo%3E%20%3CValueReference%20xmlns:app=%22http://skjema.geonorge.no/SOSI/produktspesifikasjon/Stedsnavn/5.0%22%3Eapp:kommune/app:Kommune/app:kommunenummer%3C/ValueReference%3E%20%3CLiteral%3E5436%3C/Literal%3E%20%3C/PropertyIsEqualTo%3E%20%3C/Filter%3E" --header "Content-Type:text/xml" ssr2_to_osm_data/data/5436/5436-ssr.xml, got <Response [200]>
+utility_to_osm.file_util - INFO - file_age(ssr2_to_osm_data/data/5436/5436-ssr.xml) -> 0.5 days
 utility_to_osm - INFO - ssr:stedsnr = 229791: No name found
 utility_to_osm - INFO - ssr:stedsnr = 230387: No name found
 utility_to_osm - INFO - ssr:stedsnr = 230554: No name found
@@ -191,7 +190,7 @@ utility_to_osm - INFO - ssr:stedsnr = 21589: No name found
 utility_to_osm - INFO - ssr:stedsnr = 21818: No name found
 utility_to_osm - INFO - ssr:stedsnr = 21904: No name found
 utility_to_osm - INFO - ssr:stedsnr = 21904: No name found
-utility_to_osm - INFO - ssr:stedsnr = 21904: No priority spelling found for lang = fkv, using alt_name to get "[('no', 'Sommerdalen'), ('fkv', 'Kesäsijankuru')]"
+utility_to_osm - INFO - ssr:stedsnr = 21904: No name found
 utility_to_osm - INFO - ssr:stedsnr = 21904: Multi-language name tag = Sommerdalen - Kesäsijankuru
 utility_to_osm - INFO - ssr:stedsnr = 21904 has multiple (2) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 25278: No name found
@@ -203,10 +202,10 @@ utility_to_osm - INFO - ssr:stedsnr = 29375: No name found
 utility_to_osm - INFO - ssr:stedsnr = 29408: No name found
 utility_to_osm - INFO - ssr:stedsnr = 31121: No name found
 utility_to_osm - INFO - ssr:stedsnr = 31403: No name found
-utility_to_osm - INFO - ssr:stedsnr = 31403: No priority spelling found for lang = fkv, using alt_name to get "[('fkv', 'Alainen Pahđannenä')]"
+utility_to_osm - INFO - ssr:stedsnr = 31403: No name found
 utility_to_osm - INFO - ssr:stedsnr = 31363: No name found
 utility_to_osm - INFO - ssr:stedsnr = 31366: No name found
-utility_to_osm - INFO - ssr:stedsnr = 31366: No priority spelling found for lang = fkv, using alt_name to get "[('fkv', 'Soronpäälysjärvi')]"
+utility_to_osm - INFO - ssr:stedsnr = 31366: No name found
 utility_to_osm - INFO - ssr:stedsnr = 31369: No name found
 utility_to_osm - INFO - ssr:stedsnr = 31462: No name found
 utility_to_osm - INFO - ssr:stedsnr = 31667: No name found
@@ -221,7 +220,7 @@ utility_to_osm - INFO - ssr:stedsnr = 32482: No name found
 utility_to_osm - INFO - ssr:stedsnr = 32484: No name found
 utility_to_osm - INFO - ssr:stedsnr = 32489: No name found
 utility_to_osm - INFO - ssr:stedsnr = 32904: No name found
-utility_to_osm - INFO - ssr:stedsnr = 32904: No priority spelling found for lang = fkv, using alt_name to get "[('fkv', 'Laurinpahtasuvanto')]"
+utility_to_osm - INFO - ssr:stedsnr = 32904: No name found
 utility_to_osm - INFO - ssr:stedsnr = 55223: No name found
 utility_to_osm - INFO - ssr:stedsnr = 55681: No name found
 utility_to_osm - INFO - ssr:stedsnr = 79204: No name found
@@ -406,7 +405,7 @@ utility_to_osm - INFO - ssr:stedsnr = 92481: No name found
 utility_to_osm - INFO - ssr:stedsnr = 92612: No name found
 utility_to_osm - INFO - ssr:stedsnr = 92615: No name found
 utility_to_osm - INFO - ssr:stedsnr = 92617: No name found
-utility_to_osm - INFO - ssr:stedsnr = 92617: No priority spelling found for lang = fkv, using alt_name to get "[('fkv', 'Kotasuvanto')]"
+utility_to_osm - INFO - ssr:stedsnr = 92617: No name found
 utility_to_osm - INFO - ssr:stedsnr = 92622: No name found
 utility_to_osm - INFO - ssr:stedsnr = 92369: No name found
 utility_to_osm - INFO - ssr:stedsnr = 92523: No name found
@@ -757,7 +756,7 @@ utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Raigaj
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Raigaja"
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Raigaja"
 utility_to_osm - INFO - ssr:stedsnr = 262042: No name found
-utility_to_osm - INFO - ssr:stedsnr = 262042: No priority spelling found for lang = fkv, using alt_name to get "[('se', 'Ráigeája'), ('fkv', 'Reikälähđet')]"
+utility_to_osm - INFO - ssr:stedsnr = 262042: No name found
 utility_to_osm - INFO - ssr:stedsnr = 262042: No name found
 utility_to_osm - INFO - ssr:stedsnr = 262042: Multi-language name tag = Ráigeája - Reikälähđet
 utility_to_osm - INFO - ssr:stedsnr = 262042 has multiple (4) positions, using the first one!
@@ -1026,7 +1025,7 @@ utility_to_osm - INFO - ssr:stedsnr = 262605: No name found
 utility_to_osm - INFO - ssr:stedsnr = 262605 has multiple (2) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 262555: No name found
 utility_to_osm - INFO - ssr:stedsnr = 262555 has multiple (3) positions, using the first one!
-utility_to_osm - INFO - ssr:stedsnr = 262558: No priority spelling found for lang = no, using alt_name to get "[('se', 'Stuorra Juovssajávri')]"
+utility_to_osm - INFO - ssr:stedsnr = 262558: No name found
 utility_to_osm - INFO - ssr:stedsnr = 262558: No name found
 utility_to_osm - INFO - ssr:stedsnr = 262558 has multiple (2) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 262566: No name found
@@ -1272,7 +1271,7 @@ utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Gaddar
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Gaddjariegadanoaivi, ucca"
 utility_to_osm - INFO - ssr:stedsnr = 201996: No name found
 utility_to_osm - INFO - ssr:stedsnr = 201996 has multiple (4) positions, using the first one!
-utility_to_osm - INFO - ssr:stedsnr = 201997: No priority spelling found for lang = no, using alt_name to get "[('se', 'Duolljeluhččenjávri')]"
+utility_to_osm - INFO - ssr:stedsnr = 201997: No name found
 utility_to_osm - INFO - ssr:stedsnr = 201997: No name found
 utility_to_osm - INFO - ssr:stedsnr = 201997 has multiple (3) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 202490: No name found
@@ -1284,7 +1283,7 @@ utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Gesæs
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Gesæsianjænkæ"
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Gesæsianjænkæ"
 utility_to_osm - INFO - ssr:stedsnr = 202494: No name found
-utility_to_osm - INFO - ssr:stedsnr = 202494: No priority spelling found for lang = fkv, using alt_name to get "[('fkv', 'Kesäsijanjänkkä')]"
+utility_to_osm - INFO - ssr:stedsnr = 202494: No name found
 utility_to_osm - INFO - ssr:stedsnr = 202494 has multiple (2) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 202496: No name found
 utility_to_osm - INFO - ssr:stedsnr = 202496 has multiple (3) positions, using the first one!
@@ -1401,7 +1400,7 @@ utility_to_osm - INFO - ssr:stedsnr = 456123: No name found
 utility_to_osm - INFO - ssr:stedsnr = 456124: No name found
 utility_to_osm - INFO - ssr:stedsnr = 456300: No name found
 utility_to_osm - INFO - ssr:stedsnr = 456382: No name found
-utility_to_osm - INFO - ssr:stedsnr = 456382: No priority spelling found for lang = fkv, using alt_name to get "[('fkv', 'Järvikkäisensokka')]"
+utility_to_osm - INFO - ssr:stedsnr = 456382: No name found
 utility_to_osm - INFO - ssr:stedsnr = 456384: No name found
 utility_to_osm - INFO - ssr:stedsnr = 456387: No name found
 utility_to_osm - INFO - ssr:stedsnr = 456436: No name found
@@ -1639,7 +1638,7 @@ utility_to_osm - INFO - ssr:stedsnr = 264906: Multi-language name tag = Heastanj
 utility_to_osm - INFO - ssr:stedsnr = 264906 has multiple (4) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 266925: No name found
 utility_to_osm - INFO - ssr:stedsnr = 269787: No name found
-utility_to_osm - INFO - ssr:stedsnr = 269787: No priority spelling found for lang = no, using alt_name to get "[('no', 'Porsanger')]"
+utility_to_osm - INFO - ssr:stedsnr = 269787: No name found
 utility_to_osm - INFO - ssr:stedsnr = 269787 has multiple (2) positions, using the first one!
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Biesseoalgi"
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Biesseoalgi"
@@ -1664,7 +1663,7 @@ utility_to_osm - INFO - ssr:stedsnr = 274672: No name found
 utility_to_osm - INFO - ssr:stedsnr = 274803: No name found
 utility_to_osm - INFO - ssr:stedsnr = 274808: No name found
 utility_to_osm - INFO - ssr:stedsnr = 274873: No name found
-utility_to_osm - INFO - ssr:stedsnr = 274873: No priority spelling found for lang = fkv, using alt_name to get "[('fkv', 'Vieksajoensuu')]"
+utility_to_osm - INFO - ssr:stedsnr = 274873: No name found
 utility_to_osm - INFO - ssr:stedsnr = 274876: No name found
 utility_to_osm - INFO - ssr:stedsnr = 275219: No name found
 utility_to_osm - INFO - ssr:stedsnr = 275219 has multiple (2) positions, using the first one!
@@ -1877,9 +1876,9 @@ utility_to_osm - INFO - ssr:stedsnr = 333361: No name found
 utility_to_osm - INFO - ssr:stedsnr = 333405: No name found
 utility_to_osm - INFO - ssr:stedsnr = 333454: No name found
 utility_to_osm - INFO - ssr:stedsnr = 335403: No name found
-utility_to_osm - INFO - ssr:stedsnr = 335403: No priority spelling found for lang = fkv, using alt_name to get "[('fkv', 'Kirkonmaa')]"
+utility_to_osm - INFO - ssr:stedsnr = 335403: No name found
 utility_to_osm - INFO - ssr:stedsnr = 335408: No name found
-utility_to_osm - INFO - ssr:stedsnr = 335408: No priority spelling found for lang = fkv, using alt_name to get "[('fkv', 'Kotakentänsokka')]"
+utility_to_osm - INFO - ssr:stedsnr = 335408: No name found
 utility_to_osm - INFO - ssr:stedsnr = 335352: No name found
 utility_to_osm - INFO - ssr:stedsnr = 335355: No name found
 utility_to_osm - INFO - ssr:stedsnr = 335364: No name found
@@ -1968,12 +1967,12 @@ utility_to_osm - INFO - ssr:stedsnr = 383560: No name found
 utility_to_osm - INFO - ssr:stedsnr = 383560 has multiple (4) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 383460: No name found
 utility_to_osm - INFO - ssr:stedsnr = 383460: No name found
-utility_to_osm - INFO - ssr:stedsnr = 383460: No priority spelling found for lang = fkv, using alt_name to get "[('no', 'Seljeenga'), ('fkv', 'Juntintörmä')]"
+utility_to_osm - INFO - ssr:stedsnr = 383460: No name found
 utility_to_osm - INFO - ssr:stedsnr = 383460: Multi-language name tag = Seljeenga - Juntintörmä
 utility_to_osm - INFO - ssr:stedsnr = 383460 has multiple (3) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 383607: No name found
 utility_to_osm - INFO - ssr:stedsnr = 383607 has multiple (2) positions, using the first one!
-utility_to_osm - INFO - ssr:stedsnr = 383612: No priority spelling found for lang = fkv, using alt_name to get "[('se', 'Skuvvanvárri')]"
+utility_to_osm - INFO - ssr:stedsnr = 383612: No name found
 utility_to_osm - INFO - ssr:stedsnr = 383612: No name found
 utility_to_osm - INFO - ssr:stedsnr = 383612 has multiple (3) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 383599: No name found
@@ -2031,9 +2030,9 @@ utility_to_osm - INFO - ssr:stedsnr = 393400: No name found
 utility_to_osm - INFO - ssr:stedsnr = 393434: No name found
 utility_to_osm - INFO - ssr:stedsnr = 395011: No name found
 utility_to_osm - INFO - ssr:stedsnr = 395408: No name found
-utility_to_osm - INFO - ssr:stedsnr = 395408: No priority spelling found for lang = fkv, using alt_name to get "[('fkv', 'Äijänsokka')]"
+utility_to_osm - INFO - ssr:stedsnr = 395408: No name found
 utility_to_osm - INFO - ssr:stedsnr = 395411: No name found
-utility_to_osm - INFO - ssr:stedsnr = 395411: No priority spelling found for lang = fkv, using alt_name to get "[('fkv', 'Käyräjärvenluokka')]"
+utility_to_osm - INFO - ssr:stedsnr = 395411: No name found
 utility_to_osm - INFO - ssr:stedsnr = 395505: No name found
 utility_to_osm - INFO - ssr:stedsnr = 395581: No name found
 utility_to_osm - INFO - ssr:stedsnr = 395595: No name found
@@ -2052,7 +2051,7 @@ utility_to_osm - INFO - ssr:stedsnr = 396586: No name found
 utility_to_osm - INFO - ssr:stedsnr = 396586: No name found
 utility_to_osm - INFO - ssr:stedsnr = 396586: Multi-language name tag = Branneng - Palanheenkannonruto
 utility_to_osm - INFO - ssr:stedsnr = 396590: No name found
-utility_to_osm - INFO - ssr:stedsnr = 396590: No priority spelling found for lang = fkv, using alt_name to get "[('fkv', 'Pikkukivisuvanto')]"
+utility_to_osm - INFO - ssr:stedsnr = 396590: No name found
 utility_to_osm - INFO - ssr:stedsnr = 396777: No name found
 utility_to_osm - INFO - ssr:stedsnr = 396778: No name found
 utility_to_osm - INFO - ssr:stedsnr = 396840: No name found
@@ -2281,7 +2280,7 @@ utility_to_osm - INFO - ssr:stedsnr = 504602: No name found
 utility_to_osm - INFO - ssr:stedsnr = 504602 has multiple (7) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 504519: No name found
 utility_to_osm - INFO - ssr:stedsnr = 504519 has multiple (3) positions, using the first one!
-utility_to_osm - INFO - ssr:stedsnr = 504567: No priority spelling found for lang = no, using alt_name to get "[('se', 'Stuorra Ruššojávri')]"
+utility_to_osm - INFO - ssr:stedsnr = 504567: No name found
 utility_to_osm - INFO - ssr:stedsnr = 504567: No name found
 utility_to_osm - INFO - ssr:stedsnr = 504567 has multiple (4) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 504668: No name found
@@ -2532,7 +2531,7 @@ utility_to_osm - INFO - ssr:stedsnr = 686525 has multiple (5) positions, using t
 utility_to_osm - INFO - ssr:stedsnr = 686526: No name found
 utility_to_osm - INFO - ssr:stedsnr = 686526 has multiple (2) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 686556: No name found
-utility_to_osm - INFO - ssr:stedsnr = 686559: No priority spelling found for lang = no, using alt_name to get "[('se', 'Dápmotjávri')]"
+utility_to_osm - INFO - ssr:stedsnr = 686559: No name found
 utility_to_osm - INFO - ssr:stedsnr = 686559: No name found
 utility_to_osm - INFO - ssr:stedsnr = 686559 has multiple (2) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 686562: No name found
@@ -2820,7 +2819,7 @@ utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Raksev
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Raksevarri, davimus"
 utility_to_osm - INFO - ssr:stedsnr = 687759: No name found
 utility_to_osm - INFO - ssr:stedsnr = 687759 has multiple (3) positions, using the first one!
-utility_to_osm - INFO - ssr:stedsnr = 687901: No priority spelling found for lang = no, using alt_name to get "[('se', 'Juovvajávri')]"
+utility_to_osm - INFO - ssr:stedsnr = 687901: No name found
 utility_to_osm - INFO - ssr:stedsnr = 687901: No name found
 utility_to_osm - INFO - ssr:stedsnr = 687901 has multiple (3) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 687913: No name found
@@ -2983,7 +2982,7 @@ utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Goakkg
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Goakkgieddvarri"
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Goakkgieddvarri"
 utility_to_osm - INFO - ssr:stedsnr = 565726: No name found
-utility_to_osm - INFO - ssr:stedsnr = 565893: No priority spelling found for lang = no, using alt_name to get "[('se', 'Rievssatjávri')]"
+utility_to_osm - INFO - ssr:stedsnr = 565893: No name found
 utility_to_osm - INFO - ssr:stedsnr = 565893: No name found
 utility_to_osm - INFO - ssr:stedsnr = 565893 has multiple (2) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 565908: No name found
@@ -3060,21 +3059,21 @@ utility_to_osm - INFO - ssr:stedsnr = 577015: No name found
 utility_to_osm - INFO - ssr:stedsnr = 577015 has multiple (2) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 577404: No name found
 utility_to_osm - INFO - ssr:stedsnr = 577408: No name found
-utility_to_osm - INFO - ssr:stedsnr = 577408: No priority spelling found for lang = fkv, using alt_name to get "[('fkv', 'Kotakentänruto')]"
+utility_to_osm - INFO - ssr:stedsnr = 577408: No name found
 utility_to_osm - INFO - ssr:stedsnr = 577413: No name found
 utility_to_osm - INFO - ssr:stedsnr = 577414: No name found
 utility_to_osm - INFO - ssr:stedsnr = 577416: No name found
 utility_to_osm - INFO - ssr:stedsnr = 577447: No name found
 utility_to_osm - INFO - ssr:stedsnr = 577351: No name found
 utility_to_osm - INFO - ssr:stedsnr = 577395: No name found
-utility_to_osm - INFO - ssr:stedsnr = 577395: No priority spelling found for lang = fkv, using alt_name to get "[('fkv', 'Syyrykopanjänkkä')]"
+utility_to_osm - INFO - ssr:stedsnr = 577395: No name found
 utility_to_osm - INFO - ssr:stedsnr = 577396: No name found
-utility_to_osm - INFO - ssr:stedsnr = 577396: No priority spelling found for lang = fkv, using alt_name to get "[('fkv', 'Leppäruđonoja'), ('fkv', 'Lottifielmanoja')]"
+utility_to_osm - INFO - ssr:stedsnr = 577396: No name found
 utility_to_osm - INFO - ssr:stedsnr = 577396: Adding multiple names to name tag, this is not OK! name = "Leppäruđonoja;Lottifielmanoja"
 utility_to_osm - INFO - ssr:stedsnr = 577502: No name found
 utility_to_osm - INFO - ssr:stedsnr = 577501: No name found
 utility_to_osm - INFO - ssr:stedsnr = 577603: No name found
-utility_to_osm - INFO - ssr:stedsnr = 577603: No priority spelling found for lang = fkv, using alt_name to get "[('fkv', 'Kiksiniemenvaara')]"
+utility_to_osm - INFO - ssr:stedsnr = 577603: No name found
 utility_to_osm - INFO - ssr:stedsnr = 577655: No name found
 utility_to_osm - INFO - ssr:stedsnr = 577694: No name found
 utility_to_osm - INFO - ssr:stedsnr = 577703: No name found
@@ -3084,9 +3083,9 @@ utility_to_osm - INFO - ssr:stedsnr = 577996: No name found
 utility_to_osm - INFO - ssr:stedsnr = 578141: No name found
 utility_to_osm - INFO - ssr:stedsnr = 578141 has multiple (2) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 578603: No name found
-utility_to_osm - INFO - ssr:stedsnr = 578603: No priority spelling found for lang = fkv, using alt_name to get "[('fkv', 'Savimellansuvanto')]"
+utility_to_osm - INFO - ssr:stedsnr = 578603: No name found
 utility_to_osm - INFO - ssr:stedsnr = 578601: No name found
-utility_to_osm - INFO - ssr:stedsnr = 578601: No priority spelling found for lang = fkv, using alt_name to get "[('fkv', 'Liiskopahđansuvanto')]"
+utility_to_osm - INFO - ssr:stedsnr = 578601: No name found
 utility_to_osm - INFO - ssr:stedsnr = 578826: No name found
 utility_to_osm - INFO - ssr:stedsnr = 585904: No name found
 utility_to_osm - INFO - ssr:stedsnr = 585906: No name found
@@ -3103,7 +3102,7 @@ utility_to_osm - INFO - ssr:stedsnr = 697431: No name found
 utility_to_osm - INFO - ssr:stedsnr = 594550: No name found
 utility_to_osm - INFO - ssr:stedsnr = 699590: No name found
 utility_to_osm - INFO - ssr:stedsnr = 699593: No name found
-utility_to_osm - INFO - ssr:stedsnr = 699593: No priority spelling found for lang = fkv, using alt_name to get "[('fkv', 'Koirakuoppa')]"
+utility_to_osm - INFO - ssr:stedsnr = 699593: No name found
 utility_to_osm - INFO - ssr:stedsnr = 699113: No name found
 utility_to_osm - INFO - ssr:stedsnr = 699137: No name found
 utility_to_osm - INFO - ssr:stedsnr = 699139: No name found
@@ -3111,7 +3110,7 @@ utility_to_osm - INFO - ssr:stedsnr = 699240: No name found
 utility_to_osm - INFO - ssr:stedsnr = 699250: No name found
 utility_to_osm - INFO - ssr:stedsnr = 699252: No name found
 utility_to_osm - INFO - ssr:stedsnr = 699426: No name found
-utility_to_osm - INFO - ssr:stedsnr = 699426: No priority spelling found for lang = fkv, using alt_name to get "[('fkv', 'Kenttäsillanalus')]"
+utility_to_osm - INFO - ssr:stedsnr = 699426: No name found
 utility_to_osm - INFO - ssr:stedsnr = 699329: No name found
 utility_to_osm - INFO - ssr:stedsnr = 699338: No name found
 utility_to_osm - INFO - ssr:stedsnr = 699348: No name found
@@ -3120,7 +3119,7 @@ utility_to_osm - INFO - ssr:stedsnr = 699351: No name found
 utility_to_osm - INFO - ssr:stedsnr = 699358: No name found
 utility_to_osm - INFO - ssr:stedsnr = 699385: No name found
 utility_to_osm - INFO - ssr:stedsnr = 699386: No name found
-utility_to_osm - INFO - ssr:stedsnr = 699386: No priority spelling found for lang = fkv, using alt_name to get "[('fkv', 'Alkanjoki')]"
+utility_to_osm - INFO - ssr:stedsnr = 699386: No name found
 utility_to_osm - INFO - ssr:stedsnr = 699387: No name found
 utility_to_osm - INFO - ignoring non approved status = "avslåttNavneledd" name = "3.Porsvatn"
 utility_to_osm - INFO - ignoring non approved status = "avslåttNavneledd" name = "3.Porsvatn"
@@ -3128,7 +3127,7 @@ utility_to_osm - INFO - ignoring non approved status = "avslåttNavneledd" name 
 utility_to_osm - INFO - ssr:stedsnr = 699389: No name found
 utility_to_osm - INFO - ssr:stedsnr = 699398: No name found
 utility_to_osm - INFO - ssr:stedsnr = 699401: No name found
-utility_to_osm - INFO - ssr:stedsnr = 699401: No priority spelling found for lang = fkv, using alt_name to get "[('fkv', 'Hormaluokka')]"
+utility_to_osm - INFO - ssr:stedsnr = 699401: No name found
 utility_to_osm - INFO - ignoring non approved status = "avslåttNavneledd" name = "Nedre Grunnvågvatnet"
 utility_to_osm - INFO - ignoring non approved status = "avslåttNavneledd" name = "Nedre Grunnvågvatnet"
 utility_to_osm - INFO - ignoring non approved status = "avslåttNavneledd" name = "Nedre Grunnvågvatnet"
@@ -3154,7 +3153,7 @@ utility_to_osm - INFO - ssr:stedsnr = 699747 has multiple (3) positions, using t
 utility_to_osm - INFO - ssr:stedsnr = 699838: No name found
 utility_to_osm - INFO - ssr:stedsnr = 699861: No name found
 utility_to_osm - INFO - ssr:stedsnr = 699894: No name found
-utility_to_osm - INFO - ssr:stedsnr = 699894: No priority spelling found for lang = fkv, using alt_name to get "[('fkv', 'Pitkänniemensuvanto')]"
+utility_to_osm - INFO - ssr:stedsnr = 699894: No name found
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Varregoađenjarga"
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Varregoađenjarga"
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Varregoađenjarga"
@@ -3298,7 +3297,7 @@ utility_to_osm - INFO - ssr:stedsnr = 627657: No name found
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Galdujavri"
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Galdujavri"
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Galdujavri"
-utility_to_osm - INFO - ssr:stedsnr = 627399: No priority spelling found for lang = no, using alt_name to get "[('se', 'Gáldojávri')]"
+utility_to_osm - INFO - ssr:stedsnr = 627399: No name found
 utility_to_osm - INFO - ssr:stedsnr = 627399: No name found
 utility_to_osm - INFO - ssr:stedsnr = 627399 has multiple (3) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 627602: No name found
@@ -3346,9 +3345,9 @@ utility_to_osm - INFO - ssr:stedsnr = 638528: No name found
 utility_to_osm - INFO - ssr:stedsnr = 638591: No name found
 utility_to_osm - INFO - ssr:stedsnr = 638592: No name found
 utility_to_osm - INFO - ssr:stedsnr = 638594: No name found
-utility_to_osm - INFO - ssr:stedsnr = 638594: No priority spelling found for lang = fkv, using alt_name to get "[('fkv', 'Praamasuvanto')]"
+utility_to_osm - INFO - ssr:stedsnr = 638594: No name found
 utility_to_osm - INFO - ssr:stedsnr = 638887: No name found
-utility_to_osm - INFO - ssr:stedsnr = 638887: No priority spelling found for lang = fkv, using alt_name to get "[('fkv', 'Louhikko')]"
+utility_to_osm - INFO - ssr:stedsnr = 638887: No name found
 utility_to_osm - INFO - ssr:stedsnr = 638891: No name found
 utility_to_osm - INFO - ssr:stedsnr = 652024: No name found
 utility_to_osm - INFO - ssr:stedsnr = 652024 has multiple (2) positions, using the first one!
@@ -3761,7 +3760,7 @@ utility_to_osm - INFO - ssr:stedsnr = 808512: No name found
 utility_to_osm - INFO - ssr:stedsnr = 808512 has multiple (2) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 808514: No name found
 utility_to_osm - INFO - ssr:stedsnr = 808514 has multiple (2) positions, using the first one!
-utility_to_osm - INFO - ssr:stedsnr = 808517: No priority spelling found for lang = fkv, using alt_name to get "[('se', 'Skuvvanvárri'), ('no', 'Skoganvarre')]"
+utility_to_osm - INFO - ssr:stedsnr = 808517: No name found
 utility_to_osm - INFO - ssr:stedsnr = 808517: No name found
 utility_to_osm - INFO - ssr:stedsnr = 808517: No name found
 utility_to_osm - INFO - ssr:stedsnr = 808517: Multi-language name tag = Skuvvanvárri - Skoganvarre
@@ -3893,7 +3892,7 @@ utility_to_osm - INFO - ssr:stedsnr = 820571: No name found
 utility_to_osm - INFO - ssr:stedsnr = 820623: No name found
 utility_to_osm - INFO - ssr:stedsnr = 820680: No name found
 utility_to_osm - INFO - ssr:stedsnr = 821618: No name found
-utility_to_osm - INFO - ssr:stedsnr = 821618: No priority spelling found for lang = fkv, using alt_name to get "[('fkv', 'Kouttansuvanto')]"
+utility_to_osm - INFO - ssr:stedsnr = 821618: No name found
 utility_to_osm - INFO - ssr:stedsnr = 821843: No name found
 utility_to_osm - INFO - ssr:stedsnr = 821845: No name found
 utility_to_osm - INFO - ssr:stedsnr = 821786: No name found
@@ -3938,7 +3937,7 @@ utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Kalluk
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Gallokka"
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Kallukkaniemi"
 utility_to_osm - INFO - ssr:stedsnr = 929192: No name found
-utility_to_osm - INFO - ssr:stedsnr = 929192: No priority spelling found for lang = fkv, using alt_name to get "[('fkv', 'Kallokka')]"
+utility_to_osm - INFO - ssr:stedsnr = 929192: No name found
 utility_to_osm - INFO - ssr:stedsnr = 929192 has multiple (3) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 929323: No name found
 utility_to_osm - INFO - ssr:stedsnr = 929323: No name found
@@ -3987,7 +3986,7 @@ utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Oppard
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Åbbardatjåkka"
 utility_to_osm - INFO - ssr:stedsnr = 929517: No name found
 utility_to_osm - INFO - ssr:stedsnr = 929517 has multiple (10) positions, using the first one!
-utility_to_osm - INFO - ssr:stedsnr = 929535: No priority spelling found for lang = no, using alt_name to get "[('se', 'Ládjojávri')]"
+utility_to_osm - INFO - ssr:stedsnr = 929535: No name found
 utility_to_osm - INFO - ssr:stedsnr = 929535: No name found
 utility_to_osm - INFO - ssr:stedsnr = 929535 has multiple (2) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 929545: No name found
@@ -4144,9 +4143,9 @@ utility_to_osm - INFO - ssr:stedsnr = 869508: No name found
 utility_to_osm - INFO - ssr:stedsnr = 869508: No name found
 utility_to_osm - INFO - ssr:stedsnr = 869508: Multi-language name tag = Jámešvárri - Jaamisvaara
 utility_to_osm - INFO - ssr:stedsnr = 869508 has multiple (2) positions, using the first one!
-utility_to_osm - INFO - ssr:stedsnr = 869512: No priority spelling found for lang = fkv, using alt_name to get "[('no', 'Krokmyra')]"
 utility_to_osm - INFO - ssr:stedsnr = 869512: No name found
-utility_to_osm - INFO - ssr:stedsnr = 869512: No priority spelling found for lang = fkv, using alt_name to get "[('no', 'Krokmyra')]"
+utility_to_osm - INFO - ssr:stedsnr = 869512: No name found
+utility_to_osm - INFO - ssr:stedsnr = 869512: No name found
 utility_to_osm - INFO - ssr:stedsnr = 869512 has multiple (2) positions, using the first one!
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Silfarvarri"
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Silfarvarri"
@@ -4245,7 +4244,7 @@ utility_to_osm - INFO - ssr:stedsnr = 930278: No name found
 utility_to_osm - INFO - ssr:stedsnr = 930278: Multi-language name tag = Goržžajeaggi - Kurkkionjänkkä
 utility_to_osm - INFO - ssr:stedsnr = 930278 has multiple (3) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 870714: No name found
-utility_to_osm - INFO - ssr:stedsnr = 870714: No priority spelling found for lang = fkv, using alt_name to get "[('fkv', 'Isomella')]"
+utility_to_osm - INFO - ssr:stedsnr = 870714: No name found
 utility_to_osm - INFO - ssr:stedsnr = 870714 has multiple (2) positions, using the first one!
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Indre Lamholmen"
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Indre Lamholmen"
@@ -4312,7 +4311,7 @@ utility_to_osm - INFO - ssr:stedsnr = 930441: No name found
 utility_to_osm - INFO - ssr:stedsnr = 930441: Multi-language name tag = Goarahat - Gåradak - Kuoratakka
 utility_to_osm - INFO - ssr:stedsnr = 930441 has multiple (2) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 930468: No name found
-utility_to_osm - INFO - ssr:stedsnr = 930468: No priority spelling found for lang = fkv, using alt_name to get "[('fkv', 'Etelänpuoli')]"
+utility_to_osm - INFO - ssr:stedsnr = 930468: No name found
 utility_to_osm - INFO - ssr:stedsnr = 930468 has multiple (2) positions, using the first one!
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Suvragåppenjarga"
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Suvragåppenjarga"
@@ -4437,7 +4436,7 @@ utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Bædna
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Bædnatjavri"
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Bædnatjavri"
 utility_to_osm - INFO - ssr:stedsnr = 930539: No name found
-utility_to_osm - INFO - ssr:stedsnr = 930539: No priority spelling found for lang = fkv, using alt_name to get "[('se', 'Beatnatjávri'), ('fkv', 'Koirajärvi')]"
+utility_to_osm - INFO - ssr:stedsnr = 930539: No name found
 utility_to_osm - INFO - ssr:stedsnr = 930539: No name found
 utility_to_osm - INFO - ssr:stedsnr = 930539: Multi-language name tag = Beatnatjávri - Koirajärvi
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Aitenjarga"
@@ -4484,7 +4483,7 @@ utility_to_osm - INFO - ssr:stedsnr = 930775: No name found
 utility_to_osm - INFO - ssr:stedsnr = 930775: No name found
 utility_to_osm - INFO - ssr:stedsnr = 930775: Multi-language name tag = Smiervuonjohka - Smørfjordelva - Smervuononjoki
 utility_to_osm - INFO - ssr:stedsnr = 930775 has multiple (7) positions, using the first one!
-utility_to_osm - INFO - ssr:stedsnr = 930910: No priority spelling found for lang = no, using alt_name to get "[('se', 'Suolojávri')]"
+utility_to_osm - INFO - ssr:stedsnr = 930910: No name found
 utility_to_osm - INFO - ssr:stedsnr = 930910: No name found
 utility_to_osm - INFO - ssr:stedsnr = 930910 has multiple (3) positions, using the first one!
 utility_to_osm - INFO - ignoring non approved status = "avslåttNavneledd" name = "Nedre Molvikvatnet"
@@ -4510,7 +4509,7 @@ utility_to_osm - INFO - ssr:stedsnr = 931066: No name found
 utility_to_osm - INFO - ssr:stedsnr = 931066 has multiple (3) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 931718: No name found
 utility_to_osm - INFO - ssr:stedsnr = 931737: No name found
-utility_to_osm - INFO - ssr:stedsnr = 931737: No priority spelling found for lang = fkv, using alt_name to get "[('fkv', 'Pikkujärvi')]"
+utility_to_osm - INFO - ssr:stedsnr = 931737: No name found
 utility_to_osm - INFO - ssr:stedsnr = 931917: No name found
 utility_to_osm - INFO - ssr:stedsnr = 931917: No name found
 utility_to_osm - INFO - ssr:stedsnr = 931917: Multi-language name tag = Muotkejohka - Eidelva
@@ -5216,7 +5215,7 @@ utility_to_osm - INFO - ssr:stedsnr = 31357: No name found
 utility_to_osm - INFO - ssr:stedsnr = 31428: No name found
 utility_to_osm - INFO - ssr:stedsnr = 31435: No name found
 utility_to_osm - INFO - ssr:stedsnr = 31459: No name found
-utility_to_osm - INFO - ssr:stedsnr = 31459: No priority spelling found for lang = fkv, using alt_name to get "[('fkv', 'Vierimenkuru')]"
+utility_to_osm - INFO - ssr:stedsnr = 31459: No name found
 utility_to_osm - INFO - ssr:stedsnr = 31461: No name found
 utility_to_osm - INFO - ssr:stedsnr = 31554: No name found
 utility_to_osm - INFO - ssr:stedsnr = 31554: No name found
@@ -5234,7 +5233,7 @@ utility_to_osm - INFO - ssr:stedsnr = 32583: No name found
 utility_to_osm - INFO - ssr:stedsnr = 32583: No name found
 utility_to_osm - INFO - ssr:stedsnr = 32583: Multi-language name tag = Nedre Myrskog - Alainen Kaiskiruto
 utility_to_osm - INFO - ssr:stedsnr = 32588: No name found
-utility_to_osm - INFO - ssr:stedsnr = 32588: No priority spelling found for lang = fkv, using alt_name to get "[('fkv', 'Joenhaara')]"
+utility_to_osm - INFO - ssr:stedsnr = 32588: No name found
 utility_to_osm - INFO - ssr:stedsnr = 32800: No name found
 utility_to_osm - INFO - ssr:stedsnr = 40927: No name found
 utility_to_osm - INFO - ssr:stedsnr = 46049: No name found
@@ -5269,7 +5268,7 @@ utility_to_osm - INFO - ssr:stedsnr = 79326: No name found
 utility_to_osm - INFO - ssr:stedsnr = 79326: No name found
 utility_to_osm - INFO - ssr:stedsnr = 79326: Multi-language name tag = Suolojávri - Suolujärvi
 utility_to_osm - INFO - ssr:stedsnr = 79326 has multiple (3) positions, using the first one!
-utility_to_osm - INFO - ssr:stedsnr = 79375: No priority spelling found for lang = no, using alt_name to get "[('se', 'Geađgejohka')]"
+utility_to_osm - INFO - ssr:stedsnr = 79375: No name found
 utility_to_osm - INFO - ssr:stedsnr = 79375: No name found
 utility_to_osm - INFO - ssr:stedsnr = 79375 has multiple (9) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 79379: No name found
@@ -5424,7 +5423,7 @@ utility_to_osm - INFO - ssr:stedsnr = 80371 has multiple (2) positions, using th
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Diggaljåkka"
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Diggaljåkka"
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Diggaljåkka"
-utility_to_osm - INFO - ssr:stedsnr = 80372: No priority spelling found for lang = fkv, using alt_name to get "[('se', 'Dikkaljohka')]"
+utility_to_osm - INFO - ssr:stedsnr = 80372: No name found
 utility_to_osm - INFO - ssr:stedsnr = 80372: No name found
 utility_to_osm - INFO - ssr:stedsnr = 80372 has multiple (3) positions, using the first one!
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Bissujåkka"
@@ -5622,7 +5621,7 @@ utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Hestne
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Hestneset"
 utility_to_osm - INFO - ssr:stedsnr = 81477: No name found
 utility_to_osm - INFO - ssr:stedsnr = 81477: No name found
-utility_to_osm - INFO - ssr:stedsnr = 81477: No priority spelling found for lang = fkv, using alt_name to get "[('no', 'Hestnes'), ('fkv', 'Hesteniemi')]"
+utility_to_osm - INFO - ssr:stedsnr = 81477: No name found
 utility_to_osm - INFO - ssr:stedsnr = 81477: Multi-language name tag = Hestnes - Hesteniemi
 utility_to_osm - INFO - ssr:stedsnr = 81478: No name found
 utility_to_osm - INFO - ssr:stedsnr = 81478 has multiple (3) positions, using the first one!
@@ -5658,7 +5657,7 @@ utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Æjjæ
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Æjjænjænkæ"
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Æjjænjænkæ"
 utility_to_osm - INFO - ssr:stedsnr = 81512: No name found
-utility_to_osm - INFO - ssr:stedsnr = 81512: No priority spelling found for lang = fkv, using alt_name to get "[('fkv', 'Äijänjänkkä')]"
+utility_to_osm - INFO - ssr:stedsnr = 81512: No name found
 utility_to_osm - INFO - ssr:stedsnr = 81512 has multiple (2) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 81562: No name found
 utility_to_osm - INFO - ssr:stedsnr = 81562: No name found
@@ -5678,7 +5677,7 @@ utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Stuorr
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Stuorrajavri"
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Stuorrajavri"
 utility_to_osm - INFO - ssr:stedsnr = 81574: No name found
-utility_to_osm - INFO - ssr:stedsnr = 81574: No priority spelling found for lang = fkv, using alt_name to get "[('se', 'Ráksavárjávri'), ('se', 'Stuorrajávri'), ('fkv', 'Isojärvi')]"
+utility_to_osm - INFO - ssr:stedsnr = 81574: No name found
 utility_to_osm - INFO - ssr:stedsnr = 81574: No name found
 utility_to_osm - INFO - ssr:stedsnr = 81574: Adding multiple names to name tag, this is not OK! name = "Ráksavárjávri;Stuorrajávri"
 utility_to_osm - INFO - ssr:stedsnr = 81574: Multi-language name tag = Ráksavárjávri;Stuorrajávri - Isojärvi
@@ -5724,7 +5723,7 @@ utility_to_osm - INFO - ssr:stedsnr = 92384: No name found
 utility_to_osm - INFO - ssr:stedsnr = 92388: No name found
 utility_to_osm - INFO - ssr:stedsnr = 92392: No name found
 utility_to_osm - INFO - ssr:stedsnr = 92406: No name found
-utility_to_osm - INFO - ssr:stedsnr = 92406: No priority spelling found for lang = fkv, using alt_name to get "[('fkv', 'Hannu Niileksen oja')]"
+utility_to_osm - INFO - ssr:stedsnr = 92406: No name found
 utility_to_osm - INFO - ssr:stedsnr = 92490: No name found
 utility_to_osm - INFO - ssr:stedsnr = 92345: No name found
 utility_to_osm - INFO - ignoring non approved status = "avslåttNavneledd" name = "Brønnvatn"
@@ -5742,7 +5741,7 @@ utility_to_osm - INFO - ssr:stedsnr = 92557: No name found
 utility_to_osm - INFO - ssr:stedsnr = 92558: No name found
 utility_to_osm - INFO - ssr:stedsnr = 92562: No name found
 utility_to_osm - INFO - ssr:stedsnr = 92631: No name found
-utility_to_osm - INFO - ssr:stedsnr = 92631: No priority spelling found for lang = fkv, using alt_name to get "[('fkv', 'Päsket')]"
+utility_to_osm - INFO - ssr:stedsnr = 92631: No name found
 utility_to_osm - INFO - ssr:stedsnr = 92659: No name found
 utility_to_osm - INFO - ssr:stedsnr = 92828: No name found
 utility_to_osm - INFO - ssr:stedsnr = 92992: No name found
@@ -6204,9 +6203,9 @@ utility_to_osm - INFO - ssr:stedsnr = 153263: No name found
 utility_to_osm - INFO - ssr:stedsnr = 152426: No name found
 utility_to_osm - INFO - ssr:stedsnr = 152437: No name found
 utility_to_osm - INFO - ssr:stedsnr = 152439: No name found
-utility_to_osm - INFO - ssr:stedsnr = 152439: No priority spelling found for lang = fkv, using alt_name to get "[('fkv', 'Kukkujänkänsokka')]"
+utility_to_osm - INFO - ssr:stedsnr = 152439: No name found
 utility_to_osm - INFO - ssr:stedsnr = 152442: No name found
-utility_to_osm - INFO - ssr:stedsnr = 152442: No priority spelling found for lang = fkv, using alt_name to get "[('fkv', 'Marastonrinnet')]"
+utility_to_osm - INFO - ssr:stedsnr = 152442: No name found
 utility_to_osm - INFO - ssr:stedsnr = 152443: No name found
 utility_to_osm - INFO - ssr:stedsnr = 152522: No name found
 utility_to_osm - INFO - ssr:stedsnr = 152523: No name found
@@ -6619,14 +6618,14 @@ utility_to_osm - INFO - ssr:stedsnr = 202480 has multiple (2) positions, using t
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Vieksajåkka"
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Vieksajåkka"
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Vieksajåkka"
-utility_to_osm - INFO - ssr:stedsnr = 202481: No priority spelling found for lang = fkv, using alt_name to get "[('se', 'Vieksajohka')]"
+utility_to_osm - INFO - ssr:stedsnr = 202481: No name found
 utility_to_osm - INFO - ssr:stedsnr = 202481: No name found
 utility_to_osm - INFO - ssr:stedsnr = 202481 has multiple (4) positions, using the first one!
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Čađajavri"
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Čađajavri"
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Čađajavri"
 utility_to_osm - INFO - ssr:stedsnr = 202559: No name found
-utility_to_osm - INFO - ssr:stedsnr = 202559: No priority spelling found for lang = fkv, using alt_name to get "[('se', 'Čađaoaijávri'), ('fkv', 'Pitkäjärvi')]"
+utility_to_osm - INFO - ssr:stedsnr = 202559: No name found
 utility_to_osm - INFO - ssr:stedsnr = 202559: No name found
 utility_to_osm - INFO - ssr:stedsnr = 202559: Multi-language name tag = Čađaoaijávri - Pitkäjärvi
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Buoidejåkka"
@@ -6815,7 +6814,7 @@ utility_to_osm - INFO - ssr:stedsnr = 214801: Multi-language name tag = Kalkfjel
 utility_to_osm - INFO - ssr:stedsnr = 214145: No name found
 utility_to_osm - INFO - ssr:stedsnr = 214535: No name found
 utility_to_osm - INFO - ssr:stedsnr = 214639: No name found
-utility_to_osm - INFO - ssr:stedsnr = 214639: No priority spelling found for lang = fkv, using alt_name to get "[('fkv', 'Yli-Karhakkasuvanto')]"
+utility_to_osm - INFO - ssr:stedsnr = 214639: No name found
 utility_to_osm - INFO - ssr:stedsnr = 214771: No name found
 utility_to_osm - INFO - ssr:stedsnr = 214865: No name found
 utility_to_osm - INFO - ssr:stedsnr = 214941: No name found
@@ -7067,7 +7066,7 @@ utility_to_osm - INFO - ssr:stedsnr = 323319: No name found
 utility_to_osm - INFO - ssr:stedsnr = 323319: No name found
 utility_to_osm - INFO - ssr:stedsnr = 323319: Multi-language name tag = Stuorra Guovžajohka - Store Bjørnelva - Iso Karhujoki
 utility_to_osm - INFO - ssr:stedsnr = 323319 has multiple (5) positions, using the first one!
-utility_to_osm - INFO - ssr:stedsnr = 323344: No priority spelling found for lang = fkv, using alt_name to get "[('se', 'Ullogahpirjávri')]"
+utility_to_osm - INFO - ssr:stedsnr = 323344: No name found
 utility_to_osm - INFO - ssr:stedsnr = 323344: No name found
 utility_to_osm - INFO - ssr:stedsnr = 323344 has multiple (3) positions, using the first one!
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Vuođđuvarri"
@@ -7117,7 +7116,7 @@ utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Billas
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Billasuolo"
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Billasuolo"
 utility_to_osm - INFO - ssr:stedsnr = 323545: No name found
-utility_to_osm - INFO - ssr:stedsnr = 323545: No priority spelling found for lang = fkv, using alt_name to get "[('se', 'Billásullot'), ('fkv', 'Pillasaari')]"
+utility_to_osm - INFO - ssr:stedsnr = 323545: No name found
 utility_to_osm - INFO - ssr:stedsnr = 323545: No name found
 utility_to_osm - INFO - ssr:stedsnr = 323545: Multi-language name tag = Billásullot - Pillasaari
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Boaimašavži"
@@ -7317,15 +7316,15 @@ utility_to_osm - INFO - ssr:stedsnr = 335477: No name found
 utility_to_osm - INFO - ssr:stedsnr = 335632: No name found
 utility_to_osm - INFO - ssr:stedsnr = 335632: No name found
 utility_to_osm - INFO - ssr:stedsnr = 335636: No name found
-utility_to_osm - INFO - ssr:stedsnr = 335636: No priority spelling found for lang = fkv, using alt_name to get "[('fkv', 'Raasimellansuvanto')]"
+utility_to_osm - INFO - ssr:stedsnr = 335636: No name found
 utility_to_osm - INFO - ssr:stedsnr = 335861: No name found
 utility_to_osm - INFO - ssr:stedsnr = 335863: No name found
 utility_to_osm - INFO - ssr:stedsnr = 335869: No name found
 utility_to_osm - INFO - ssr:stedsnr = 335871: No name found
 utility_to_osm - INFO - ssr:stedsnr = 335908: No name found
-utility_to_osm - INFO - ssr:stedsnr = 335908: No priority spelling found for lang = fkv, using alt_name to get "[('fkv', 'Kurkkionväli')]"
+utility_to_osm - INFO - ssr:stedsnr = 335908: No name found
 utility_to_osm - INFO - ssr:stedsnr = 335920: No name found
-utility_to_osm - INFO - ssr:stedsnr = 335920: No priority spelling found for lang = fkv, using alt_name to get "[('fkv', 'Fielmanoja')]"
+utility_to_osm - INFO - ssr:stedsnr = 335920: No name found
 utility_to_osm - INFO - ssr:stedsnr = 349051: No name found
 utility_to_osm - INFO - ssr:stedsnr = 351385: No name found
 utility_to_osm - INFO - ssr:stedsnr = 351745: No name found
@@ -7546,7 +7545,7 @@ utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Duolba
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Duolbarašša"
 utility_to_osm - INFO - ssr:stedsnr = 383562: No name found
 utility_to_osm - INFO - ssr:stedsnr = 383562 has multiple (5) positions, using the first one!
-utility_to_osm - INFO - ssr:stedsnr = 383574: No priority spelling found for lang = no, using alt_name to get "[('se', 'Stohpojávri')]"
+utility_to_osm - INFO - ssr:stedsnr = 383574: No name found
 utility_to_osm - INFO - ssr:stedsnr = 383574: No name found
 utility_to_osm - INFO - ssr:stedsnr = 383574 has multiple (2) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 383580: No name found
@@ -7641,7 +7640,7 @@ utility_to_osm - INFO - ssr:stedsnr = 384557 has multiple (2) positions, using t
 utility_to_osm - INFO - ssr:stedsnr = 384559: No name found
 utility_to_osm - INFO - ssr:stedsnr = 384559 has multiple (3) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 384573: No name found
-utility_to_osm - INFO - ssr:stedsnr = 384920: No priority spelling found for lang = no, using alt_name to get "[('se', 'Gárjilluoppal')]"
+utility_to_osm - INFO - ssr:stedsnr = 384920: No name found
 utility_to_osm - INFO - ssr:stedsnr = 384920: No name found
 utility_to_osm - INFO - ssr:stedsnr = 384936: No name found
 utility_to_osm - INFO - ssr:stedsnr = 384936 has multiple (2) positions, using the first one!
@@ -7894,7 +7893,7 @@ utility_to_osm - INFO - ssr:stedsnr = 444418 has multiple (3) positions, using t
 utility_to_osm - INFO - ssr:stedsnr = 444486: No name found
 utility_to_osm - INFO - ssr:stedsnr = 444486 has multiple (2) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 444490: No name found
-utility_to_osm - INFO - ssr:stedsnr = 444490: No priority spelling found for lang = no, using alt_name to get "[('no', 'Porsangmoen')]"
+utility_to_osm - INFO - ssr:stedsnr = 444490: No name found
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Brenna, indre"
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Indre Brenna"
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Brenna, indre"
@@ -7914,7 +7913,7 @@ utility_to_osm - INFO - ssr:stedsnr = 444521: No name found
 utility_to_osm - INFO - ssr:stedsnr = 444521 has multiple (2) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 444524: No name found
 utility_to_osm - INFO - ssr:stedsnr = 444524 has multiple (2) positions, using the first one!
-utility_to_osm - INFO - ssr:stedsnr = 444526: No priority spelling found for lang = no, using alt_name to get "[('se', 'Loktajávri')]"
+utility_to_osm - INFO - ssr:stedsnr = 444526: No name found
 utility_to_osm - INFO - ssr:stedsnr = 444526: No name found
 utility_to_osm - INFO - ssr:stedsnr = 444526 has multiple (2) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 444540: No name found
@@ -7942,7 +7941,7 @@ utility_to_osm - INFO - ssr:stedsnr = 444565: No name found
 utility_to_osm - INFO - ssr:stedsnr = 444565 has multiple (2) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 444566: No name found
 utility_to_osm - INFO - ssr:stedsnr = 444566 has multiple (2) positions, using the first one!
-utility_to_osm - INFO - ssr:stedsnr = 444573: No priority spelling found for lang = fkv, using alt_name to get "[('se', 'Hálkavárri')]"
+utility_to_osm - INFO - ssr:stedsnr = 444573: No name found
 utility_to_osm - INFO - ssr:stedsnr = 444573: No name found
 utility_to_osm - INFO - ssr:stedsnr = 444573 has multiple (3) positions, using the first one!
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Luomečåkkat"
@@ -8220,7 +8219,7 @@ utility_to_osm - INFO - ssr:stedsnr = 504254: No name found
 utility_to_osm - INFO - ssr:stedsnr = 504254: No name found
 utility_to_osm - INFO - ssr:stedsnr = 504254: Multi-language name tag = Báđirleahki - Pattarliekinautsi
 utility_to_osm - INFO - ssr:stedsnr = 504254 has multiple (3) positions, using the first one!
-utility_to_osm - INFO - ssr:stedsnr = 504324: No priority spelling found for lang = fkv, using alt_name to get "[('se', 'Bátnesatgorži')]"
+utility_to_osm - INFO - ssr:stedsnr = 504324: No name found
 utility_to_osm - INFO - ssr:stedsnr = 504324: No name found
 utility_to_osm - INFO - ssr:stedsnr = 504324 has multiple (2) positions, using the first one!
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Njargajavri"
@@ -8517,7 +8516,7 @@ utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Njarga
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Suolujavri"
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Njargajavri"
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Suolujavri"
-utility_to_osm - INFO - ssr:stedsnr = 505559: No priority spelling found for lang = no, using alt_name to get "[('se', 'Njárgajávri'), ('se', 'Suolojávri')]"
+utility_to_osm - INFO - ssr:stedsnr = 505559: No name found
 utility_to_osm - INFO - ssr:stedsnr = 505559: No name found
 utility_to_osm - INFO - ssr:stedsnr = 505559: Adding multiple names to name tag, this is not OK! name = "Njárgajávri;Suolojávri"
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Gårbuvuodna"
@@ -8659,9 +8658,9 @@ utility_to_osm - INFO - ssr:stedsnr = 517224: No name found
 utility_to_osm - INFO - ssr:stedsnr = 517360: No name found
 utility_to_osm - INFO - ssr:stedsnr = 517366: No name found
 utility_to_osm - INFO - ssr:stedsnr = 517379: No name found
-utility_to_osm - INFO - ssr:stedsnr = 517379: No priority spelling found for lang = fkv, using alt_name to get "[('fkv', 'Pounujänkkä')]"
+utility_to_osm - INFO - ssr:stedsnr = 517379: No name found
 utility_to_osm - INFO - ssr:stedsnr = 517388: No name found
-utility_to_osm - INFO - ssr:stedsnr = 517388: No priority spelling found for lang = fkv, using alt_name to get "[('fkv', 'Lantoruto')]"
+utility_to_osm - INFO - ssr:stedsnr = 517388: No name found
 utility_to_osm - INFO - ssr:stedsnr = 517389: No name found
 utility_to_osm - INFO - ssr:stedsnr = 517398: No name found
 utility_to_osm - INFO - ssr:stedsnr = 517432: No name found
@@ -8676,7 +8675,7 @@ utility_to_osm - INFO - ssr:stedsnr = 517733: No name found
 utility_to_osm - INFO - ssr:stedsnr = 517741: No name found
 utility_to_osm - INFO - ssr:stedsnr = 517555: No name found
 utility_to_osm - INFO - ssr:stedsnr = 517610: No name found
-utility_to_osm - INFO - ssr:stedsnr = 517610: No priority spelling found for lang = fkv, using alt_name to get "[('fkv', 'Patokođanmukanmellasuvanto'), ('fkv', 'Linjasuvanto')]"
+utility_to_osm - INFO - ssr:stedsnr = 517610: No name found
 utility_to_osm - INFO - ssr:stedsnr = 517610: Adding multiple names to name tag, this is not OK! name = "Patokođanmukanmellasuvanto;Linjasuvanto"
 utility_to_osm - INFO - ssr:stedsnr = 517657: No name found
 utility_to_osm - INFO - ssr:stedsnr = 517871: No name found
@@ -8902,7 +8901,7 @@ utility_to_osm - INFO - ssr:stedsnr = 565473: No name found
 utility_to_osm - INFO - ssr:stedsnr = 565473: No name found
 utility_to_osm - INFO - ssr:stedsnr = 565473: Multi-language name tag = Geađgejávri - Kivijärvi
 utility_to_osm - INFO - ssr:stedsnr = 565473 has multiple (2) positions, using the first one!
-utility_to_osm - INFO - ssr:stedsnr = 565480: No priority spelling found for lang = no, using alt_name to get "[('se', 'Stuorra Iŋggašjávri')]"
+utility_to_osm - INFO - ssr:stedsnr = 565480: No name found
 utility_to_osm - INFO - ssr:stedsnr = 565480: No name found
 utility_to_osm - INFO - ssr:stedsnr = 565480 has multiple (3) positions, using the first one!
 utility_to_osm - INFO - ignoring non approved status = "avslåttNavneledd" name = "Haugskogvatnet"
@@ -9020,7 +9019,7 @@ utility_to_osm - INFO - ssr:stedsnr = 565514: Multi-language name tag = Mákkanj
 utility_to_osm - INFO - ssr:stedsnr = 565514 has multiple (5) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 565515: No name found
 utility_to_osm - INFO - ssr:stedsnr = 565515 has multiple (2) positions, using the first one!
-utility_to_osm - INFO - ssr:stedsnr = 565517: No priority spelling found for lang = no, using alt_name to get "[('se', 'Gákkajávri')]"
+utility_to_osm - INFO - ssr:stedsnr = 565517: No name found
 utility_to_osm - INFO - ssr:stedsnr = 565517: No name found
 utility_to_osm - INFO - ssr:stedsnr = 565517 has multiple (4) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 565523: No name found
@@ -9100,7 +9099,7 @@ utility_to_osm - INFO - ssr:stedsnr = 565929: No name found
 utility_to_osm - INFO - ssr:stedsnr = 565929 has multiple (2) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 565931: No name found
 utility_to_osm - INFO - ssr:stedsnr = 565931 has multiple (3) positions, using the first one!
-utility_to_osm - INFO - ssr:stedsnr = 565939: No priority spelling found for lang = no, using alt_name to get "[('se', 'Suoidnejávri')]"
+utility_to_osm - INFO - ssr:stedsnr = 565939: No name found
 utility_to_osm - INFO - ssr:stedsnr = 565939: No name found
 utility_to_osm - INFO - ssr:stedsnr = 565939 has multiple (3) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 566056: No name found
@@ -9287,9 +9286,9 @@ utility_to_osm - INFO - ignoring non approved status = "avslåttNavneledd" name 
 utility_to_osm - INFO - ignoring non approved status = "avslåttNavneledd" name = "1.Porsvatn"
 utility_to_osm - INFO - ssr:stedsnr = 578374: No name found
 utility_to_osm - INFO - ssr:stedsnr = 578500: No name found
-utility_to_osm - INFO - ssr:stedsnr = 578500: No priority spelling found for lang = fkv, using alt_name to get "[('fkv', 'Äijinniemi')]"
+utility_to_osm - INFO - ssr:stedsnr = 578500: No name found
 utility_to_osm - INFO - ssr:stedsnr = 578590: No name found
-utility_to_osm - INFO - ssr:stedsnr = 578590: No priority spelling found for lang = fkv, using alt_name to get "[('fkv', 'Antoninsuvanto')]"
+utility_to_osm - INFO - ssr:stedsnr = 578590: No name found
 utility_to_osm - INFO - ssr:stedsnr = 578328: No name found
 utility_to_osm - INFO - ssr:stedsnr = 578475: No name found
 utility_to_osm - INFO - ssr:stedsnr = 578765: No name found
@@ -10157,7 +10156,7 @@ utility_to_osm - INFO - ssr:stedsnr = 759328: No name found
 utility_to_osm - INFO - ssr:stedsnr = 759362: No name found
 utility_to_osm - INFO - ssr:stedsnr = 759368: No name found
 utility_to_osm - INFO - ssr:stedsnr = 759372: No name found
-utility_to_osm - INFO - ssr:stedsnr = 759372: No priority spelling found for lang = fkv, using alt_name to get "[('fkv', 'Äijänlantto')]"
+utility_to_osm - INFO - ssr:stedsnr = 759372: No name found
 utility_to_osm - INFO - ssr:stedsnr = 759475: No name found
 utility_to_osm - INFO - ssr:stedsnr = 759475 has multiple (2) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 759484: No name found
@@ -10199,7 +10198,7 @@ utility_to_osm - INFO - ssr:stedsnr = 760722 has multiple (2) positions, using t
 utility_to_osm - INFO - ssr:stedsnr = 760997: No name found
 utility_to_osm - INFO - ssr:stedsnr = 774041: No name found
 utility_to_osm - INFO - ssr:stedsnr = 774062: No name found
-utility_to_osm - INFO - ssr:stedsnr = 774086: No priority spelling found for lang = fkv, using alt_name to get "[('se', 'Gaskabeaičohkka')]"
+utility_to_osm - INFO - ssr:stedsnr = 774086: No name found
 utility_to_osm - INFO - ssr:stedsnr = 774086: No name found
 utility_to_osm - INFO - ssr:stedsnr = 774094: No name found
 utility_to_osm - INFO - ssr:stedsnr = 776390: No name found
@@ -10466,7 +10465,7 @@ utility_to_osm - INFO - ssr:stedsnr = 808473: No name found
 utility_to_osm - INFO - ssr:stedsnr = 808473: No name found
 utility_to_osm - INFO - ssr:stedsnr = 808473: Multi-language name tag = Stuorraluohkájávri - Storbakkvannet - Isonluokanjärvi
 utility_to_osm - INFO - ssr:stedsnr = 808473 has multiple (2) positions, using the first one!
-utility_to_osm - INFO - ssr:stedsnr = 808476: No priority spelling found for lang = no, using alt_name to get "[('se', 'Seakkoljávri')]"
+utility_to_osm - INFO - ssr:stedsnr = 808476: No name found
 utility_to_osm - INFO - ssr:stedsnr = 808476: No name found
 utility_to_osm - INFO - ssr:stedsnr = 808476 has multiple (4) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 808477: No name found
@@ -11300,14 +11299,14 @@ utility_to_osm - INFO - ssr:stedsnr = 942438: No name found
 utility_to_osm - INFO - ssr:stedsnr = 942469: No name found
 utility_to_osm - INFO - ssr:stedsnr = 942429: No name found
 utility_to_osm - INFO - ssr:stedsnr = 942507: No name found
-utility_to_osm - INFO - ssr:stedsnr = 942507: No priority spelling found for lang = fkv, using alt_name to get "[('fkv', 'Koppelonkurunjärvi')]"
+utility_to_osm - INFO - ssr:stedsnr = 942507: No name found
 utility_to_osm - INFO - ssr:stedsnr = 942600: No name found
 utility_to_osm - INFO - ssr:stedsnr = 942602: No name found
 utility_to_osm - INFO - ssr:stedsnr = 942602: No name found
-utility_to_osm - INFO - ssr:stedsnr = 942602: No priority spelling found for lang = fkv, using alt_name to get "[('no', 'Smibakken'), ('fkv', 'Pajaruto')]"
+utility_to_osm - INFO - ssr:stedsnr = 942602: No name found
 utility_to_osm - INFO - ssr:stedsnr = 942602: Multi-language name tag = Smibakken - Pajaruto
 utility_to_osm - INFO - ssr:stedsnr = 942608: No name found
-utility_to_osm - INFO - ssr:stedsnr = 942608: No priority spelling found for lang = fkv, using alt_name to get "[('fkv', 'Keski-Karhakkasuvanto')]"
+utility_to_osm - INFO - ssr:stedsnr = 942608: No name found
 utility_to_osm - INFO - ssr:stedsnr = 942618: No name found
 utility_to_osm - INFO - ssr:stedsnr = 942719: No name found
 utility_to_osm - INFO - ssr:stedsnr = 942722: No name found
@@ -11436,9 +11435,9 @@ utility_to_osm - INFO - ssr:stedsnr = 1056633: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1056633 has multiple (9) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 1071915: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1071915: No name found
-utility_to_osm - INFO - ssr:stedsnr = 1071916: No priority spelling found for lang = fkv, using alt_name to get "[('no', 'Skallenes')]"
 utility_to_osm - INFO - ssr:stedsnr = 1071916: No name found
-utility_to_osm - INFO - ssr:stedsnr = 1071916: No priority spelling found for lang = fkv, using alt_name to get "[('no', 'Skallenes')]"
+utility_to_osm - INFO - ssr:stedsnr = 1071916: No name found
+utility_to_osm - INFO - ssr:stedsnr = 1071916: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1072637: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1072637: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1072637: No name found
@@ -11535,7 +11534,7 @@ utility_to_osm - INFO - ssr:stedsnr = 1081337: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1081337: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1081340: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1081341: No name found
-utility_to_osm - INFO - ssr:stedsnr = 1081341: No priority spelling found for lang = fkv, using alt_name to get "[('fkv', 'Vuomanmella')]"
+utility_to_osm - INFO - ssr:stedsnr = 1081341: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1081408: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1081408: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1081415: No name found
@@ -11575,7 +11574,7 @@ utility_to_osm - INFO - ssr:stedsnr = 1082023 has multiple (4) positions, using 
 utility_to_osm - INFO - ssr:stedsnr = 1082024: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1082025: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1082026: No name found
-utility_to_osm - INFO - ssr:stedsnr = 1082026: No priority spelling found for lang = fkv, using alt_name to get "[('fkv', 'Isokivi')]"
+utility_to_osm - INFO - ssr:stedsnr = 1082026: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1082029: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1082030: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1082031: No name found

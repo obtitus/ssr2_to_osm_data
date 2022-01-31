@@ -1,5 +1,4 @@
-utility_to_osm.file_util - INFO - file_age(ssr2_to_osm_data/data/3804/3804-ssr.xml) -> 33.5 days
-utility_to_osm.gentle_requests - INFO - requested http://wfs.geonorge.no/skwms1/wfs.stedsnavn50?VERSION=2.0.0&SERVICE=WFS&srsName=EPSG:25832&REQUEST=GetFeature&TYPENAME=Sted&resultType=results&Filter=%3CFilter%3E%20%3CPropertyIsEqualTo%3E%20%3CValueReference%20xmlns:app=%22http://skjema.geonorge.no/SOSI/produktspesifikasjon/Stedsnavn/5.0%22%3Eapp:kommune/app:Kommune/app:kommunenummer%3C/ValueReference%3E%20%3CLiteral%3E3804%3C/Literal%3E%20%3C/PropertyIsEqualTo%3E%20%3C/Filter%3E" --header "Content-Type:text/xml" ssr2_to_osm_data/data/3804/3804-ssr.xml, got <Response [200]>
+utility_to_osm.file_util - INFO - file_age(ssr2_to_osm_data/data/3804/3804-ssr.xml) -> 0.5 days
 utility_to_osm - INFO - ssr:stedsnr = 1002: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1005: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1005 has multiple (4) positions, using the first one!
@@ -3577,7 +3576,7 @@ utility_to_osm - INFO - ssr:stedsnr = 956574: No name found
 utility_to_osm - INFO - ssr:stedsnr = 956578: No name found
 utility_to_osm - INFO - ssr:stedsnr = 957732: No name found
 utility_to_osm - INFO - ssr:stedsnr = 957757: No name found
-utility_to_osm - INFO - ssr:stedsnr = 971881: No priority spelling found for lang = no, using alt_name to get "[('no', 'Solhaug')]"
+utility_to_osm - INFO - ssr:stedsnr = 971881: No name found
 utility_to_osm - INFO - ssr:stedsnr = 973262: No name found
 utility_to_osm - INFO - ssr:stedsnr = 973263: No name found
 utility_to_osm - INFO - ssr:stedsnr = 973264: No name found
