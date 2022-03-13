@@ -1,4 +1,5 @@
-utility_to_osm.file_util - INFO - file_age(ssr2_to_osm_data/data/5418/5418-ssr.xml) -> 0.5 days
+utility_to_osm.file_util - INFO - file_age(ssr2_to_osm_data/data/5418/5418-ssr.xml) -> 41.6 days
+utility_to_osm.gentle_requests - INFO - requested http://wfs.geonorge.no/skwms1/wfs.stedsnavn50?VERSION=2.0.0&SERVICE=WFS&srsName=EPSG:25832&REQUEST=GetFeature&TYPENAME=Sted&resultType=results&Filter=%3CFilter%3E%20%3CPropertyIsEqualTo%3E%20%3CValueReference%20xmlns:app=%22http://skjema.geonorge.no/SOSI/produktspesifikasjon/Stedsnavn/5.0%22%3Eapp:kommune/app:Kommune/app:kommunenummer%3C/ValueReference%3E%20%3CLiteral%3E5418%3C/Literal%3E%20%3C/PropertyIsEqualTo%3E%20%3C/Filter%3E" --header "Content-Type:text/xml" ssr2_to_osm_data/data/5418/5418-ssr.xml, got <Response [200]>
 utility_to_osm - INFO - ssr:stedsnr = 232014: No name found
 utility_to_osm - INFO - ssr:stedsnr = 232142: No name found
 utility_to_osm - INFO - ssr:stedsnr = 232147: No name found
@@ -2165,8 +2166,11 @@ utility_to_osm - INFO - ssr:stedsnr = 929863: No name found
 utility_to_osm - INFO - ssr:stedsnr = 929863 has multiple (2) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 929417: No name found
 utility_to_osm - INFO - ssr:stedsnr = 929417 has multiple (3) positions, using the first one!
+utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Fjellfrøslombola"
+utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Fjellfrøslombola"
+utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Fjellfrøslombola"
 utility_to_osm - INFO - ssr:stedsnr = 929425: No name found
-utility_to_osm - INFO - ssr:stedsnr = 929425: Adding multiple names to name tag, this is not OK! name = "Fjellfrøslombola;Nedre Lombola"
+utility_to_osm - INFO - ssr:stedsnr = 929425: Adding multiple names to name tag, this is not OK! name = "Nedre Lombola;Fjellfrosklombola"
 utility_to_osm - INFO - ssr:stedsnr = 929425 has multiple (3) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 929371: No name found
 utility_to_osm - INFO - ssr:stedsnr = 929395: No name found
@@ -3128,7 +3132,7 @@ utility_to_osm - INFO - ssr:stedsnr = 200245: Multi-language name tag = Tverrelv
 utility_to_osm - INFO - ssr:stedsnr = 200245 has multiple (3) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 200325: No name found
 utility_to_osm - INFO - ssr:stedsnr = 200325: No name found
-utility_to_osm - INFO - ssr:stedsnr = 200325: Multi-language name tag = Skredbekkskaret - Njirbecahca
+utility_to_osm - INFO - ssr:stedsnr = 200325: Multi-language name tag = Skredbekkskaret - Njirbečahca
 utility_to_osm - INFO - ssr:stedsnr = 200325 has multiple (4) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 200327: No name found
 utility_to_osm - INFO - ssr:stedsnr = 200334: No name found
@@ -4759,6 +4763,9 @@ utility_to_osm - INFO - ssr:stedsnr = 666877: No name found
 utility_to_osm - INFO - ssr:stedsnr = 666881: No name found
 utility_to_osm - INFO - ssr:stedsnr = 666964: No name found
 utility_to_osm - INFO - ssr:stedsnr = 666972: No name found
+utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Fjellfrøshaugen"
+utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Fjellfrøshaugen"
+utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Fjellfrøshaugen"
 utility_to_osm - INFO - ssr:stedsnr = 711869: No name found
 utility_to_osm - INFO - ssr:stedsnr = 718138: No name found
 utility_to_osm - INFO - ssr:stedsnr = 718159: No name found
@@ -6091,6 +6098,20 @@ utility_to_osm - INFO - ssr:stedsnr = 1083529: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1083530: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1083532: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1083535: No name found
+utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Fjellfrøselva"
+utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Fjellfrøselva"
+utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Fjellfrøselva"
+utility_to_osm - INFO - ssr:stedsnr = 19431: No name found
+utility_to_osm - INFO - ssr:stedsnr = 19431: No name found
+utility_to_osm - INFO - ssr:stedsnr = 19431: Multi-language name tag = Fjellfroskelva - Geatkeeatnu
+utility_to_osm - INFO - ssr:stedsnr = 19431 has multiple (7) positions, using the first one!
+utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Fjellfrøsfossan"
+utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Fjellfrøsfossane"
+utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Fjellfrøsfossan"
+utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Fjellfrøsfossane"
+utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Fjellfrøsfossan"
+utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Fjellfrøsfossane"
+utility_to_osm - INFO - ssr:stedsnr = 564464: No name found
 utility_to_osm.ssr2.ssr2_tags - INFO - ssr:type = adressenavn found in conversion table, but without tags
 utility_to_osm.ssr2.ssr2_tags - INFO - ssr:type = adressenavn found in conversion table, but without tags
 utility_to_osm.ssr2.ssr2_tags - INFO - ssr:type = adressenavn found in conversion table, but without tags

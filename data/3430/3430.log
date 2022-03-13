@@ -1,4 +1,5 @@
-utility_to_osm.file_util - INFO - file_age(ssr2_to_osm_data/data/3430/3430-ssr.xml) -> 12.5 days
+utility_to_osm.file_util - INFO - file_age(ssr2_to_osm_data/data/3430/3430-ssr.xml) -> 53.6 days
+utility_to_osm.gentle_requests - INFO - requested http://wfs.geonorge.no/skwms1/wfs.stedsnavn50?VERSION=2.0.0&SERVICE=WFS&srsName=EPSG:25832&REQUEST=GetFeature&TYPENAME=Sted&resultType=results&Filter=%3CFilter%3E%20%3CPropertyIsEqualTo%3E%20%3CValueReference%20xmlns:app=%22http://skjema.geonorge.no/SOSI/produktspesifikasjon/Stedsnavn/5.0%22%3Eapp:kommune/app:Kommune/app:kommunenummer%3C/ValueReference%3E%20%3CLiteral%3E3430%3C/Literal%3E%20%3C/PropertyIsEqualTo%3E%20%3C/Filter%3E" --header "Content-Type:text/xml" ssr2_to_osm_data/data/3430/3430-ssr.xml, got <Response [200]>
 utility_to_osm - INFO - ignoring non approved status = "avslåttNavneledd" name = "Kvernbekktjørna"
 utility_to_osm - INFO - ignoring non approved status = "avslåttNavneledd" name = "Kvernbekktjørna"
 utility_to_osm - INFO - ignoring non approved status = "avslåttNavneledd" name = "Kvernbekktjørna"
@@ -214,7 +215,7 @@ utility_to_osm - INFO - ssr:stedsnr = 115325: No name found
 utility_to_osm - INFO - ssr:stedsnr = 115526: No name found
 utility_to_osm - INFO - ssr:stedsnr = 115280: No name found
 utility_to_osm - INFO - ssr:stedsnr = 115421: No name found
-utility_to_osm - INFO - ssr:stedsnr = 115615 not active = "relikt". Skipping...
+utility_to_osm - INFO - ssr:stedsnr = 115615: No name found
 utility_to_osm - INFO - ssr:stedsnr = 115467: No name found
 utility_to_osm - INFO - ssr:stedsnr = 115622: No name found
 utility_to_osm - INFO - ssr:stedsnr = 115707: No name found
@@ -397,12 +398,12 @@ utility_to_osm - INFO - ssr:stedsnr = 175808: No name found
 utility_to_osm - INFO - ssr:stedsnr = 175810: No name found
 utility_to_osm - INFO - ssr:stedsnr = 175909: No name found
 utility_to_osm - INFO - ssr:stedsnr = 176003: No name found
-utility_to_osm - INFO - ssr:stedsnr = 176065 not active = "relikt". Skipping...
+utility_to_osm - INFO - ssr:stedsnr = 176065: No name found
 utility_to_osm - INFO - ssr:stedsnr = 176067: No name found
 utility_to_osm - INFO - ssr:stedsnr = 176074: No name found
 utility_to_osm - INFO - ssr:stedsnr = 176078: No name found
 utility_to_osm - INFO - ssr:stedsnr = 176259: No name found
-utility_to_osm - INFO - ssr:stedsnr = 176262 not active = "relikt". Skipping...
+utility_to_osm - INFO - ssr:stedsnr = 176262: No name found
 utility_to_osm - INFO - ssr:stedsnr = 176206: No name found
 utility_to_osm - INFO - ssr:stedsnr = 176207: No name found
 utility_to_osm - INFO - ssr:stedsnr = 176158: No name found
@@ -685,7 +686,7 @@ utility_to_osm - INFO - ssr:stedsnr = 479642: No name found
 utility_to_osm - INFO - ssr:stedsnr = 479677: No name found
 utility_to_osm - INFO - ssr:stedsnr = 479645: No name found
 utility_to_osm - INFO - ssr:stedsnr = 479650: No name found
-utility_to_osm - INFO - ssr:stedsnr = 479652 not active = "relikt". Skipping...
+utility_to_osm - INFO - ssr:stedsnr = 479652: No name found
 utility_to_osm - INFO - ssr:stedsnr = 479719: No name found
 utility_to_osm - INFO - ssr:stedsnr = 479725: No name found
 utility_to_osm - INFO - ssr:stedsnr = 479737: No name found
@@ -1036,7 +1037,6 @@ utility_to_osm - INFO - ssr:stedsnr = 557159: No name found
 utility_to_osm - INFO - ssr:stedsnr = 557172: No name found
 utility_to_osm - INFO - ssr:stedsnr = 557364: No name found
 utility_to_osm - INFO - ssr:stedsnr = 557369: No name found
-utility_to_osm - INFO - ssr:stedsnr = 557369 has multiple (2) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 557399: No name found
 utility_to_osm - INFO - ssr:stedsnr = 557400: No name found
 utility_to_osm - INFO - ignoring non approved status = "avslåttNavneledd" name = "Stortjørna"
@@ -1990,7 +1990,6 @@ utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Floeng
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Floeng"
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Floeng"
 utility_to_osm - INFO - ssr:stedsnr = 72378: No name found
-utility_to_osm - INFO - ssr:stedsnr = 72378 has multiple (2) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 72402: No name found
 utility_to_osm - INFO - ssr:stedsnr = 72417: No name found
 utility_to_osm - INFO - ssr:stedsnr = 72417 has multiple (3) positions, using the first one!
@@ -2325,7 +2324,7 @@ utility_to_osm - INFO - ssr:stedsnr = 297397: No name found
 utility_to_osm - INFO - ssr:stedsnr = 297411: No name found
 utility_to_osm - INFO - ssr:stedsnr = 297006: No name found
 utility_to_osm - INFO - ssr:stedsnr = 297131: No name found
-utility_to_osm - INFO - ssr:stedsnr = 297136 not active = "relikt". Skipping...
+utility_to_osm - INFO - ssr:stedsnr = 297136: No name found
 utility_to_osm - INFO - ssr:stedsnr = 297168: No name found
 utility_to_osm - INFO - ssr:stedsnr = 297118: No name found
 utility_to_osm - INFO - ssr:stedsnr = 297188: No name found
@@ -2579,7 +2578,7 @@ utility_to_osm - INFO - ssr:stedsnr = 418814: No name found
 utility_to_osm - INFO - ssr:stedsnr = 418578: No name found
 utility_to_osm - INFO - ssr:stedsnr = 418581: No name found
 utility_to_osm - INFO - ssr:stedsnr = 418597: No name found
-utility_to_osm - INFO - ssr:stedsnr = 418625 not active = "relikt". Skipping...
+utility_to_osm - INFO - ssr:stedsnr = 418625: No name found
 utility_to_osm - INFO - ssr:stedsnr = 419014: No name found
 utility_to_osm - INFO - ssr:stedsnr = 419450: No name found
 utility_to_osm - INFO - ssr:stedsnr = 419452: No name found

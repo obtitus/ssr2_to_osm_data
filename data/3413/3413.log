@@ -1,4 +1,5 @@
-utility_to_osm.file_util - INFO - file_age(ssr2_to_osm_data/data/3413/3413-ssr.xml) -> 12.5 days
+utility_to_osm.file_util - INFO - file_age(ssr2_to_osm_data/data/3413/3413-ssr.xml) -> 53.6 days
+utility_to_osm.gentle_requests - INFO - requested http://wfs.geonorge.no/skwms1/wfs.stedsnavn50?VERSION=2.0.0&SERVICE=WFS&srsName=EPSG:25832&REQUEST=GetFeature&TYPENAME=Sted&resultType=results&Filter=%3CFilter%3E%20%3CPropertyIsEqualTo%3E%20%3CValueReference%20xmlns:app=%22http://skjema.geonorge.no/SOSI/produktspesifikasjon/Stedsnavn/5.0%22%3Eapp:kommune/app:Kommune/app:kommunenummer%3C/ValueReference%3E%20%3CLiteral%3E3413%3C/Literal%3E%20%3C/PropertyIsEqualTo%3E%20%3C/Filter%3E" --header "Content-Type:text/xml" ssr2_to_osm_data/data/3413/3413-ssr.xml, got <Response [200]>
 utility_to_osm - INFO - ssr:stedsnr = 6626: No name found
 utility_to_osm - INFO - ssr:stedsnr = 6728: No name found
 utility_to_osm - INFO - ssr:stedsnr = 7260: No name found
@@ -89,7 +90,7 @@ utility_to_osm - INFO - ssr:stedsnr = 57413: No name found
 utility_to_osm - INFO - ssr:stedsnr = 58908: No name found
 utility_to_osm - INFO - ssr:stedsnr = 58908 has multiple (11) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 59273: No name found
-utility_to_osm - INFO - ssr:stedsnr = 59293 not active = "relikt". Skipping...
+utility_to_osm - INFO - ssr:stedsnr = 59293: No name found
 utility_to_osm - INFO - ssr:stedsnr = 59403: No name found
 utility_to_osm - INFO - ssr:stedsnr = 59891: No name found
 utility_to_osm - INFO - ssr:stedsnr = 240916: No name found
@@ -134,7 +135,6 @@ utility_to_osm - INFO - ssr:stedsnr = 68407: No name found
 utility_to_osm - INFO - ssr:stedsnr = 68407: Adding multiple names to name tag, this is not OK! name = "Tjuvholet;Gaukholen"
 utility_to_osm - INFO - ssr:stedsnr = 68409: No name found
 utility_to_osm - INFO - ssr:stedsnr = 68445: No name found
-utility_to_osm - INFO - ssr:stedsnr = 68445 has multiple (2) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 68449: No name found
 utility_to_osm - INFO - ssr:stedsnr = 68486: No name found
 utility_to_osm - INFO - ssr:stedsnr = 68488: No name found
@@ -759,7 +759,7 @@ utility_to_osm - INFO - ssr:stedsnr = 404009: No name found
 utility_to_osm - INFO - ssr:stedsnr = 404196: No name found
 utility_to_osm - INFO - ssr:stedsnr = 404085: No name found
 utility_to_osm - INFO - ssr:stedsnr = 404085 has multiple (2) positions, using the first one!
-utility_to_osm - INFO - ssr:stedsnr = 404207 not active = "relikt". Skipping...
+utility_to_osm - INFO - ssr:stedsnr = 404207: No name found
 utility_to_osm - INFO - ssr:stedsnr = 404278: No name found
 utility_to_osm - INFO - ssr:stedsnr = 404280: No name found
 utility_to_osm - INFO - ssr:stedsnr = 404281: No name found
@@ -1074,14 +1074,12 @@ utility_to_osm - INFO - ssr:stedsnr = 553499: No name found
 utility_to_osm - INFO - ssr:stedsnr = 553499 has multiple (2) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 553501: No name found
 utility_to_osm - INFO - ssr:stedsnr = 553610: No name found
-utility_to_osm - INFO - ssr:stedsnr = 553610 has multiple (3) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 555902: No name found
 utility_to_osm - INFO - ssr:stedsnr = 555906: No name found
 utility_to_osm - INFO - ssr:stedsnr = 555906 has multiple (3) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 555919: No name found
 utility_to_osm - INFO - ssr:stedsnr = 555919 has multiple (4) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 690980: No name found
-utility_to_osm - INFO - ssr:stedsnr = 692069: No name found
 utility_to_osm - INFO - ssr:stedsnr = 566963: No name found
 utility_to_osm - INFO - ssr:stedsnr = 566963 has multiple (25) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 585024: No name found
@@ -2289,7 +2287,6 @@ utility_to_osm - INFO - ssr:stedsnr = 189355: No name found
 utility_to_osm - INFO - ssr:stedsnr = 189356: No name found
 utility_to_osm - INFO - ssr:stedsnr = 189356 has multiple (3) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 189401: No name found
-utility_to_osm - INFO - ssr:stedsnr = 189401 has multiple (2) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 189467: No name found
 utility_to_osm - INFO - ssr:stedsnr = 189471: No name found
 utility_to_osm - INFO - ssr:stedsnr = 189572: No name found
@@ -2913,7 +2910,7 @@ utility_to_osm - INFO - ssr:stedsnr = 587225: No name found
 utility_to_osm - INFO - ssr:stedsnr = 587233: No name found
 utility_to_osm - INFO - ssr:stedsnr = 587242: No name found
 utility_to_osm - INFO - ssr:stedsnr = 587276: No name found
-utility_to_osm - INFO - ssr:stedsnr = 587277 not active = "relikt". Skipping...
+utility_to_osm - INFO - ssr:stedsnr = 587277: No name found
 utility_to_osm - INFO - ssr:stedsnr = 587368: No name found
 utility_to_osm - INFO - ssr:stedsnr = 587469: No name found
 utility_to_osm - INFO - ssr:stedsnr = 587470: No name found

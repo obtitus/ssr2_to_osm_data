@@ -12,4 +12,23 @@
 		<tag k="source" v="Kartverket" />
 		<tag k="ssr:stedsnr" v="499315" />
 	</node>
+	<node id="4916502440" lat="64.2743243" lon="12.32995" version="2" timestamp="2022-01-26T07:15:22Z" changeset="116611310" uid="3497659" user="NKA">
+		<tag k="junction" v="yes" />
+		<tag k="name" v="Åsmulen" />
+		<tag k="ssr:stedsnr" v="272426" />
+	</node>
+	<node id="4916505011" lat="64.1684907" lon="12.0235773" version="1" timestamp="2017-06-15T09:45:21Z" changeset="49554273" uid="2114448" user="FredrikLindseth_import" />
+	<node id="7339866968" lat="64.168439" lon="12.023217" version="1" timestamp="2020-03-28T07:09:50Z" changeset="82741460" uid="3497659" user="NKA" />
+	<way id="500655967" version="3" timestamp="2022-01-24T21:00:15Z" changeset="116559033" uid="3497659" user="NKA">
+		<tag k="bridge" v="yes" />
+		<tag k="highway" v="primary" />
+		<tag k="layer" v="1" />
+		<tag k="maxspeed" v="80" />
+		<tag k="name" v="Heggesbekkbrua" />
+		<tag k="ref" v="763" />
+		<tag k="ssr:stedsnr" v="228774" />
+		<tag k="surface" v="metal" />
+		<nd ref="7339866968" />
+		<nd ref="4916505011" />
+	</way>
 </osm>

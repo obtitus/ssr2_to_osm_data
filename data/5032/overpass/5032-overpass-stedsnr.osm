@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <osm version="0.6" generator="osmapis">
+	<node id="5884090860" lat="63.2402895" lon="11.0498005" version="2" timestamp="2022-01-26T07:15:22Z" changeset="116611310" uid="3497659" user="NKA">
+		<tag k="junction" v="yes" />
+		<tag k="name" v="Eidemsvikkrysset" />
+		<tag k="ssr:stedsnr" v="110819" />
+	</node>
 	<node id="3534272713" lat="63.0998221" lon="10.8460461" version="1" timestamp="2015-05-21T21:36:09Z" changeset="31356200" uid="2483802" user="anderfo_import" />
 	<node id="3534272765" lat="63.1" lon="10.8455179" version="1" timestamp="2015-05-21T21:36:10Z" changeset="31356200" uid="2483802" user="anderfo_import" />
 	<node id="3534272773" lat="63.1000182" lon="10.8454639" version="1" timestamp="2015-05-21T21:36:10Z" changeset="31356200" uid="2483802" user="anderfo_import" />
@@ -57,6 +62,70 @@
 	<node id="3534273406" lat="63.1023441" lon="10.8426587" version="1" timestamp="2015-05-21T21:36:16Z" changeset="31356200" uid="2483802" user="anderfo_import" />
 	<node id="3534273447" lat="63.1025817" lon="10.8423368" version="1" timestamp="2015-05-21T21:36:17Z" changeset="31356200" uid="2483802" user="anderfo_import" />
 	<node id="3534273486" lat="63.1028489" lon="10.8424924" version="1" timestamp="2015-05-21T21:36:18Z" changeset="31356200" uid="2483802" user="anderfo_import" />
+	<node id="5884079608" lat="63.2016317" lon="11.0505591" version="2" timestamp="2022-01-24T21:00:15Z" changeset="116559033" uid="3497659" user="NKA" />
+	<node id="5884107034" lat="63.2023532" lon="11.0516832" version="2" timestamp="2022-01-24T21:00:15Z" changeset="116559033" uid="3497659" user="NKA" />
+	<node id="9445777815" lat="63.2019856" lon="11.0511062" version="1" timestamp="2022-01-24T21:00:15Z" changeset="116559033" uid="3497659" user="NKA" />
+	<node id="5884079959" lat="63.2148103" lon="11.0394772" version="2" timestamp="2022-01-24T21:00:15Z" changeset="116559033" uid="3497659" user="NKA" />
+	<node id="5884117060" lat="63.2138963" lon="11.0390479" version="2" timestamp="2022-01-24T21:00:15Z" changeset="116559033" uid="3497659" user="NKA" />
+	<node id="5884082704" lat="63.1834348" lon="11.1896165" version="1" timestamp="2018-09-05T07:11:04Z" changeset="62300920" uid="8470372" user="Entur AS | Angie Torres" />
+	<node id="5884120455" lat="63.1825573" lon="11.1881685" version="1" timestamp="2018-09-05T07:19:13Z" changeset="62301170" uid="8470372" user="Entur AS | Angie Torres" />
+	<node id="5884074294" lat="63.1901036" lon="11.1833517" version="2" timestamp="2022-01-24T21:00:15Z" changeset="116559033" uid="3497659" user="NKA" />
+	<node id="5884108795" lat="63.189797" lon="11.183813" version="2" timestamp="2022-01-24T21:00:15Z" changeset="116559033" uid="3497659" user="NKA" />
+	<node id="5884106018" lat="63.2258079" lon="11.2357191" version="1" timestamp="2018-09-05T07:15:51Z" changeset="62301088" uid="8470372" user="Entur AS | Angie Torres" />
+	<node id="5884115107" lat="63.2258344" lon="11.2358033" version="1" timestamp="2018-09-05T07:18:02Z" changeset="62301170" uid="8470372" user="Entur AS | Angie Torres" />
+	<way id="69330099" version="3" timestamp="2022-01-24T21:00:15Z" changeset="116559033" uid="3497659" user="NKA">
+		<tag k="bridge" v="yes" />
+		<tag k="highway" v="service" />
+		<tag k="layer" v="1" />
+		<tag k="name" v="Gjelbakkbrua" />
+		<tag k="ssr:stedsnr" v="338102" />
+		<nd ref="5884079959" />
+		<nd ref="5884117060" />
+	</way>
+	<way id="69330105" version="3" timestamp="2022-01-24T21:00:15Z" changeset="116559033" uid="3497659" user="NKA">
+		<tag k="bridge" v="yes" />
+		<tag k="bridge:structure" v="truss" />
+		<tag k="highway" v="service" />
+		<tag k="layer" v="1" />
+		<tag k="name" v="Kolset bru" />
+		<tag k="ssr:stedsnr" v="35410" />
+		<nd ref="5884107034" />
+		<nd ref="9445777815" />
+		<nd ref="5884079608" />
+	</way>
+	<way id="133503652" version="6" timestamp="2022-01-24T21:00:15Z" changeset="116559033" uid="3497659" user="NKA">
+		<tag k="bridge" v="yes" />
+		<tag k="bridge:structure" v="suspension" />
+		<tag k="highway" v="secondary" />
+		<tag k="layer" v="1" />
+		<tag k="maxspeed" v="80" />
+		<tag k="name" v="Rollsetbrua" />
+		<tag k="ref" v="6724" />
+		<tag k="ssr:stedsnr" v="338009" />
+		<nd ref="5884082704" />
+		<nd ref="5884120455" />
+	</way>
+	<way id="383525782" version="4" timestamp="2022-01-24T21:00:15Z" changeset="116559033" uid="3497659" user="NKA">
+		<tag k="bridge" v="yes" />
+		<tag k="bridge:structure" v="truss" />
+		<tag k="highway" v="primary" />
+		<tag k="layer" v="1" />
+		<tag k="maxspeed" v="80" />
+		<tag k="name" v="Rotlbrua" />
+		<tag k="ref" v="705" />
+		<tag k="ssr:stedsnr" v="703013" />
+		<nd ref="5884074294" />
+		<nd ref="5884108795" />
+	</way>
+	<way id="623012922" version="2" timestamp="2022-01-24T21:00:15Z" changeset="116559033" uid="3497659" user="NKA">
+		<tag k="bridge" v="yes" />
+		<tag k="highway" v="service" />
+		<tag k="layer" v="1" />
+		<tag k="name" v="Blekbrua" />
+		<tag k="ssr:stedsnr" v="809261" />
+		<nd ref="5884106018" />
+		<nd ref="5884115107" />
+	</way>
 	<way id="346983529" version="1" timestamp="2015-05-21T21:38:02Z" changeset="31356200" uid="2483802" user="anderfo_import">
 		<tag k="source" v="Kartverket N50" />
 		<tag k="source:date" v="1965-07-01" />

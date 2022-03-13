@@ -1,2 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<osm version="0.6" generator="osmapis" />
+<osm version="0.6" generator="osmapis">
+	<node id="5758369587" lat="64.2910719" lon="10.5510416" version="1" timestamp="2018-07-13T10:27:21Z" changeset="60683156" uid="8470372" user="Entur AS | Angie Torres" />
+	<node id="5758374842" lat="64.2910353" lon="10.5513446" version="1" timestamp="2018-07-13T10:28:14Z" changeset="60683156" uid="8470372" user="Entur AS | Angie Torres" />
+	<node id="5758369175" lat="64.2721137" lon="10.6075821" version="2" timestamp="2021-02-11T22:34:34Z" changeset="99136673" uid="715936" user="Gazer75" />
+	<node id="5758376439" lat="64.2722208" lon="10.6064871" version="2" timestamp="2021-02-11T22:34:34Z" changeset="99136673" uid="715936" user="Gazer75" />
+	<node id="8416645477" lat="64.2721998" lon="10.6067848" version="1" timestamp="2021-02-11T22:34:34Z" changeset="99136673" uid="715936" user="Gazer75" />
+	<node id="8416645478" lat="64.2721766" lon="10.6070651" version="1" timestamp="2021-02-11T22:34:34Z" changeset="99136673" uid="715936" user="Gazer75" />
+	<node id="8416645479" lat="64.2721451" lon="10.6073548" version="1" timestamp="2021-02-11T22:34:34Z" changeset="99136673" uid="715936" user="Gazer75" />
+	<way id="607665172" version="3" timestamp="2022-01-24T21:00:15Z" changeset="116559033" uid="3497659" user="NKA">
+		<tag k="bridge" v="yes" />
+		<tag k="highway" v="primary" />
+		<tag k="layer" v="1" />
+		<tag k="maxspeed" v="50" />
+		<tag k="name" v="Skippelvbrua" />
+		<tag k="ref" v="715" />
+		<tag k="ssr:stedsnr" v="385290" />
+		<tag k="surface" v="asphalt" />
+		<nd ref="5758376439" />
+		<nd ref="8416645477" />
+		<nd ref="8416645478" />
+		<nd ref="8416645479" />
+		<nd ref="5758369175" />
+	</way>
+	<way id="607665177" version="3" timestamp="2022-01-24T21:00:15Z" changeset="116559033" uid="3497659" user="NKA">
+		<tag k="bridge" v="yes" />
+		<tag k="highway" v="primary" />
+		<tag k="layer" v="1" />
+		<tag k="maxspeed" v="50" />
+		<tag k="name" v="Grytelvbrua" />
+		<tag k="ref" v="715" />
+		<tag k="ssr:stedsnr" v="810282" />
+		<tag k="surface" v="asphalt" />
+		<nd ref="5758369587" />
+		<nd ref="5758374842" />
+	</way>
+</osm>

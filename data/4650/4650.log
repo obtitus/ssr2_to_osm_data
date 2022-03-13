@@ -1,4 +1,5 @@
-utility_to_osm.file_util - INFO - file_age(ssr2_to_osm_data/data/4650/4650-ssr.xml) -> 0.5 days
+utility_to_osm.file_util - INFO - file_age(ssr2_to_osm_data/data/4650/4650-ssr.xml) -> 41.6 days
+utility_to_osm.gentle_requests - INFO - requested http://wfs.geonorge.no/skwms1/wfs.stedsnavn50?VERSION=2.0.0&SERVICE=WFS&srsName=EPSG:25832&REQUEST=GetFeature&TYPENAME=Sted&resultType=results&Filter=%3CFilter%3E%20%3CPropertyIsEqualTo%3E%20%3CValueReference%20xmlns:app=%22http://skjema.geonorge.no/SOSI/produktspesifikasjon/Stedsnavn/5.0%22%3Eapp:kommune/app:Kommune/app:kommunenummer%3C/ValueReference%3E%20%3CLiteral%3E4650%3C/Literal%3E%20%3C/PropertyIsEqualTo%3E%20%3C/Filter%3E" --header "Content-Type:text/xml" ssr2_to_osm_data/data/4650/4650-ssr.xml, got <Response [200]>
 utility_to_osm - INFO - ssr:stedsnr = 229740: No name found
 utility_to_osm - INFO - ssr:stedsnr = 229717: No name found
 utility_to_osm - INFO - ssr:stedsnr = 229719: No name found
@@ -5085,6 +5086,7 @@ utility_to_osm - INFO - ssr:stedsnr = 1081041: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1081042: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1081257: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1081258: No name found
+utility_to_osm - INFO - ssr:stedsnr = 1083815: No name found
 utility_to_osm.ssr2.ssr2_tags - INFO - ssr:type = lanterne found in conversion table, but without tags
 utility_to_osm.ssr2.ssr2_tags - INFO - ssr:type = lanterne found in conversion table, but without tags
 utility_to_osm.ssr2.ssr2_tags - INFO - ssr:type = fyrlykt found in conversion table, but without tags

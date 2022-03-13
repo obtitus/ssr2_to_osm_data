@@ -1,4 +1,5 @@
-utility_to_osm.file_util - INFO - file_age(ssr2_to_osm_data/data/0301/0301-ssr.xml) -> 12.5 days
+utility_to_osm.file_util - INFO - file_age(ssr2_to_osm_data/data/0301/0301-ssr.xml) -> 53.6 days
+utility_to_osm.gentle_requests - INFO - requested http://wfs.geonorge.no/skwms1/wfs.stedsnavn50?VERSION=2.0.0&SERVICE=WFS&srsName=EPSG:25832&REQUEST=GetFeature&TYPENAME=Sted&resultType=results&Filter=%3CFilter%3E%20%3CPropertyIsEqualTo%3E%20%3CValueReference%20xmlns:app=%22http://skjema.geonorge.no/SOSI/produktspesifikasjon/Stedsnavn/5.0%22%3Eapp:kommune/app:Kommune/app:kommunenummer%3C/ValueReference%3E%20%3CLiteral%3E0301%3C/Literal%3E%20%3C/PropertyIsEqualTo%3E%20%3C/Filter%3E" --header "Content-Type:text/xml" ssr2_to_osm_data/data/0301/0301-ssr.xml, got <Response [200]>
 utility_to_osm - INFO - ssr:stedsnr = 229854: No name found
 utility_to_osm - INFO - ssr:stedsnr = 4102: No name found
 utility_to_osm - INFO - ssr:stedsnr = 4128: No name found
@@ -3317,7 +3318,6 @@ utility_to_osm - INFO - ssr:stedsnr = 4590: No name found
 utility_to_osm - INFO - ssr:stedsnr = 4590 has multiple (3) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 4954: No name found
 utility_to_osm - INFO - ssr:stedsnr = 4891: No name found
-utility_to_osm - INFO - ssr:stedsnr = 4891 has multiple (2) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 4987: No name found
 utility_to_osm - INFO - ssr:stedsnr = 5048: No name found
 utility_to_osm - INFO - ssr:stedsnr = 5127: No name found
@@ -3751,7 +3751,7 @@ utility_to_osm - INFO - ssr:stedsnr = 205955: No name found
 utility_to_osm - INFO - ssr:stedsnr = 206573: No name found
 utility_to_osm - INFO - ssr:stedsnr = 206701: No name found
 utility_to_osm - INFO - ssr:stedsnr = 206701 has multiple (3) positions, using the first one!
-utility_to_osm - INFO - ssr:stedsnr = 206746 not active = "relikt". Skipping...
+utility_to_osm - INFO - ssr:stedsnr = 206746: No name found
 utility_to_osm - INFO - ssr:stedsnr = 206749: No name found
 utility_to_osm - INFO - ssr:stedsnr = 206749 has multiple (2) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 206788: No name found
@@ -8945,6 +8945,9 @@ utility_to_osm - INFO - ssr:stedsnr = 1083334: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1083336: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1083338: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1083339: No name found
+utility_to_osm - INFO - ssr:stedsnr = 1083789: No name found
+utility_to_osm - INFO - ssr:stedsnr = 1084005: No name found
+utility_to_osm - INFO - ssr:stedsnr = 1084107: No name found
 utility_to_osm.ssr2.ssr2_tags - INFO - ssr:type = fyrstasjon found in conversion table, but without tags
 utility_to_osm.ssr2.ssr2_tags - INFO - ssr:type = administrativBydel found in conversion table, but without tags
 utility_to_osm.ssr2.ssr2_tags - INFO - ssr:type = nasjon found in conversion table, but without tags

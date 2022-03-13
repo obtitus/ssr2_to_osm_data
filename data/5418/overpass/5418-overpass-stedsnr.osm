@@ -1,2 +1,57 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<osm version="0.6" generator="osmapis" />
+<osm version="0.6" generator="osmapis">
+	<node id="5795524705" lat="68.9421292" lon="18.913356" version="2" timestamp="2022-01-21T07:34:53Z" changeset="116415921" uid="3497659" user="NKA" />
+	<node id="5795569340" lat="68.9420858" lon="18.9131923" version="2" timestamp="2022-01-21T07:34:53Z" changeset="116415921" uid="3497659" user="NKA" />
+	<node id="5795524053" lat="68.969064" lon="18.9261374" version="1" timestamp="2018-07-30T09:56:08Z" changeset="61188905" uid="8470372" user="Entur AS | Angie Torres" />
+	<node id="5795599280" lat="68.9690227" lon="18.9252429" version="1" timestamp="2018-07-30T10:11:01Z" changeset="61189372" uid="8470372" user="Entur AS | Angie Torres" />
+	<node id="5795553020" lat="69.0072666" lon="19.2763268" version="1" timestamp="2018-07-30T10:01:53Z" changeset="61189027" uid="8470372" user="Entur AS | Angie Torres" />
+	<node id="5795586788" lat="69.0069021" lon="19.2776017" version="1" timestamp="2018-07-30T10:08:21Z" changeset="61189251" uid="8470372" user="Entur AS | Angie Torres" />
+	<node id="5795556265" lat="69.0219016" lon="19.4456127" version="1" timestamp="2018-07-30T10:02:35Z" changeset="61189027" uid="8470372" user="Entur AS | Angie Torres" />
+	<node id="5795590095" lat="69.021887" lon="19.4446618" version="1" timestamp="2018-07-30T10:09:03Z" changeset="61189251" uid="8470372" user="Entur AS | Angie Torres" />
+	<way id="162359234" version="3" timestamp="2022-01-21T07:16:18Z" changeset="116415148" uid="3497659" user="NKA">
+		<tag k="bridge" v="yes" />
+		<tag k="highway" v="unclassified" />
+		<tag k="layer" v="1" />
+		<tag k="loc_name" v="Ryengbrua" />
+		<tag k="name" v="Ryeng bru" />
+		<tag k="ssr:stedsnr" v="354374" />
+		<nd ref="5795524053" />
+		<nd ref="5795599280" />
+	</way>
+	<way id="192473428" version="4" timestamp="2022-01-21T07:16:18Z" changeset="116415148" uid="3497659" user="NKA">
+		<tag k="bridge" v="yes" />
+		<tag k="destination:backward" v="Kirkesdalen;Alapmoen" />
+		<tag k="highway" v="unclassified" />
+		<tag k="layer" v="1" />
+		<tag k="maxspeed" v="80" />
+		<tag k="name" v="Skjeggesnesbrua" />
+		<tag k="ssr:stedsnr" v="353646" />
+		<tag k="surface" v="asphalt" />
+		<nd ref="5795586788" />
+		<nd ref="5795553020" />
+	</way>
+	<way id="330342205" version="6" timestamp="2022-01-21T07:16:18Z" changeset="116415148" uid="3497659" user="NKA">
+		<tag k="bridge" v="yes" />
+		<tag k="destination:forward" v="Rostadalen;Rostad" />
+		<tag k="destination:symbol:forward" v="camping;hotel" />
+		<tag k="highway" v="secondary" />
+		<tag k="layer" v="1" />
+		<tag k="maxspeed" v="60" />
+		<tag k="name" v="Tamokbrua" />
+		<tag k="old_ref" v="174" />
+		<tag k="ref" v="7824" />
+		<tag k="source:maxspeed" v="sign" />
+		<tag k="ssr:stedsnr" v="294829" />
+		<nd ref="5795590095" />
+		<nd ref="5795556265" />
+	</way>
+	<way id="1023147760" version="1" timestamp="2022-01-21T07:34:53Z" changeset="116415921" uid="3497659" user="NKA">
+		<tag k="bridge" v="yes" />
+		<tag k="highway" v="unclassified" />
+		<tag k="layer" v="1" />
+		<tag k="name" v="Finnbrua" />
+		<tag k="ssr:stedsnr" v="807352" />
+		<nd ref="5795524705" />
+		<nd ref="5795569340" />
+	</way>
+</osm>

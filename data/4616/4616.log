@@ -1,4 +1,5 @@
-utility_to_osm.file_util - INFO - file_age(ssr2_to_osm_data/data/4616/4616-ssr.xml) -> 0.5 days
+utility_to_osm.file_util - INFO - file_age(ssr2_to_osm_data/data/4616/4616-ssr.xml) -> 41.6 days
+utility_to_osm.gentle_requests - INFO - requested http://wfs.geonorge.no/skwms1/wfs.stedsnavn50?VERSION=2.0.0&SERVICE=WFS&srsName=EPSG:25832&REQUEST=GetFeature&TYPENAME=Sted&resultType=results&Filter=%3CFilter%3E%20%3CPropertyIsEqualTo%3E%20%3CValueReference%20xmlns:app=%22http://skjema.geonorge.no/SOSI/produktspesifikasjon/Stedsnavn/5.0%22%3Eapp:kommune/app:Kommune/app:kommunenummer%3C/ValueReference%3E%20%3CLiteral%3E4616%3C/Literal%3E%20%3C/PropertyIsEqualTo%3E%20%3C/Filter%3E" --header "Content-Type:text/xml" ssr2_to_osm_data/data/4616/4616-ssr.xml, got <Response [200]>
 utility_to_osm - INFO - ssr:stedsnr = 3603: No name found
 utility_to_osm - INFO - ssr:stedsnr = 3609: No name found
 utility_to_osm - INFO - ssr:stedsnr = 3630: No name found
@@ -230,7 +231,6 @@ utility_to_osm - INFO - ssr:stedsnr = 158453: No name found
 utility_to_osm - INFO - ssr:stedsnr = 158664: No name found
 utility_to_osm - INFO - ssr:stedsnr = 158804: No name found
 utility_to_osm - INFO - ssr:stedsnr = 158812: No name found
-utility_to_osm - INFO - ssr:stedsnr = 158971: No name found
 utility_to_osm - INFO - ssr:stedsnr = 159148: No name found
 utility_to_osm - INFO - ssr:stedsnr = 159263: No name found
 utility_to_osm - INFO - ssr:stedsnr = 159298: No name found
@@ -370,8 +370,6 @@ utility_to_osm - INFO - ssr:stedsnr = 280829: No name found
 utility_to_osm - INFO - ssr:stedsnr = 280873: No name found
 utility_to_osm - INFO - ssr:stedsnr = 280880: No name found
 utility_to_osm - INFO - ssr:stedsnr = 280915: No name found
-utility_to_osm - INFO - ssr:stedsnr = 280930: No name found
-utility_to_osm - INFO - ssr:stedsnr = 280930 has multiple (2) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 280934: No name found
 utility_to_osm - INFO - ssr:stedsnr = 280967: No name found
 utility_to_osm - INFO - ssr:stedsnr = 280973: No name found
@@ -958,7 +956,6 @@ utility_to_osm - INFO - ssr:stedsnr = 652798: No name found
 utility_to_osm - INFO - ssr:stedsnr = 652798 has multiple (2) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 652800: No name found
 utility_to_osm - INFO - ssr:stedsnr = 671310: No name found
-utility_to_osm - INFO - ssr:stedsnr = 671310 has multiple (3) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 671627: No name found
 utility_to_osm - INFO - ssr:stedsnr = 671628: No name found
 utility_to_osm - INFO - ssr:stedsnr = 671628: Adding multiple names to name tag, this is not OK! name = "Langholmen;Nedrevågsholmen;Midtvågeholmen"
@@ -1341,7 +1338,6 @@ utility_to_osm - INFO - ssr:stedsnr = 4276 has multiple (2) positions, using the
 utility_to_osm - INFO - ssr:stedsnr = 4277: No name found
 utility_to_osm - INFO - ssr:stedsnr = 4277 has multiple (2) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 4278: No name found
-utility_to_osm - INFO - ssr:stedsnr = 4278 has multiple (4) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 4284: No name found
 utility_to_osm - INFO - ssr:stedsnr = 4284 has multiple (7) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 4294: No name found
@@ -1678,7 +1674,6 @@ utility_to_osm - INFO - ssr:stedsnr = 187213: No name found
 utility_to_osm - INFO - ssr:stedsnr = 187213 has multiple (3) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 187221: No name found
 utility_to_osm - INFO - ssr:stedsnr = 187246: No name found
-utility_to_osm - INFO - ssr:stedsnr = 187246 has multiple (3) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 187627: No name found
 utility_to_osm - INFO - ssr:stedsnr = 187645: No name found
 utility_to_osm - INFO - ssr:stedsnr = 207073: No name found

@@ -6,4 +6,46 @@
 		<tag k="source" v="Kartverket" />
 		<tag k="ssr:stedsnr" v="925636" />
 	</node>
+	<node id="5073466637" lat="65.0671361" lon="12.0404271" version="2" timestamp="2020-03-16T19:01:39Z" changeset="82271133" uid="3497659" user="NKA" />
+	<node id="5073468172" lat="65.067327" lon="12.0403725" version="2" timestamp="2020-03-16T19:01:39Z" changeset="82271133" uid="3497659" user="NKA" />
+	<node id="5073465227" lat="65.0674916" lon="12.0403615" version="2" timestamp="2020-03-16T19:01:39Z" changeset="82271133" uid="3497659" user="NKA" />
+	<node id="7299971039" lat="65.0678268" lon="12.0404375" version="1" timestamp="2020-03-16T19:01:36Z" changeset="82271131" uid="3497659" user="NKA" />
+	<node id="7299971040" lat="65.0676727" lon="12.040387" version="1" timestamp="2020-03-16T19:01:36Z" changeset="82271131" uid="3497659" user="NKA" />
+	<node id="7299976759" lat="65.067985" lon="12.040524" version="1" timestamp="2020-03-16T19:01:39Z" changeset="82271133" uid="3497659" user="NKA" />
+	<node id="7299977246" lat="65.038749" lon="12.532049" version="1" timestamp="2020-03-16T19:01:39Z" changeset="82271133" uid="3497659" user="NKA" />
+	<node id="7299977248" lat="65.038834" lon="12.532857" version="1" timestamp="2020-03-16T19:01:39Z" changeset="82271133" uid="3497659" user="NKA" />
+	<way id="26213621" version="10" timestamp="2022-01-24T21:00:15Z" changeset="116559033" uid="3497659" user="NKA">
+		<tag k="bridge" v="yes" />
+		<tag k="bridge:structure" v="beam" />
+		<tag k="highway" v="primary" />
+		<tag k="layer" v="1" />
+		<tag k="maxspeed" v="80" />
+		<tag k="name" v="Simlestraumbrua" />
+		<tag k="ref" v="17" />
+		<tag k="ssr:stedsnr" v="1081919" />
+		<tag k="surface" v="asphalt" />
+		<nd ref="5073466637" />
+		<nd ref="5073468172" />
+		<nd ref="5073465227" />
+		<nd ref="7299971040" />
+		<nd ref="7299971039" />
+		<nd ref="7299976759" />
+	</way>
+	<way id="353446376" version="8" timestamp="2022-01-24T06:56:00Z" changeset="116526664" uid="3497659" user="NKA">
+		<tag k="bridge" v="yes" />
+		<tag k="bridge:structure" v="truss" />
+		<tag k="designation" v="1" />
+		<tag k="highway" v="secondary" />
+		<tag k="layer" v="1" />
+		<tag k="level" v="1" />
+		<tag k="maxspeed" v="80" />
+		<tag k="maxweight" v="32" />
+		<tag k="name" v="Fuglstadbrua" />
+		<tag k="old_ref" v="1" />
+		<tag k="ref" v="7200" />
+		<tag k="ssr:stedsnr" v="56970" />
+		<tag k="surface" v="asphalt" />
+		<nd ref="7299977248" />
+		<nd ref="7299977246" />
+	</way>
 </osm>

@@ -1,4 +1,5 @@
-utility_to_osm.file_util - INFO - file_age(ssr2_to_osm_data/data/1106/1106-ssr.xml) -> 12.5 days
+utility_to_osm.file_util - INFO - file_age(ssr2_to_osm_data/data/1106/1106-ssr.xml) -> 53.6 days
+utility_to_osm.gentle_requests - INFO - requested http://wfs.geonorge.no/skwms1/wfs.stedsnavn50?VERSION=2.0.0&SERVICE=WFS&srsName=EPSG:25832&REQUEST=GetFeature&TYPENAME=Sted&resultType=results&Filter=%3CFilter%3E%20%3CPropertyIsEqualTo%3E%20%3CValueReference%20xmlns:app=%22http://skjema.geonorge.no/SOSI/produktspesifikasjon/Stedsnavn/5.0%22%3Eapp:kommune/app:Kommune/app:kommunenummer%3C/ValueReference%3E%20%3CLiteral%3E1106%3C/Literal%3E%20%3C/PropertyIsEqualTo%3E%20%3C/Filter%3E" --header "Content-Type:text/xml" ssr2_to_osm_data/data/1106/1106-ssr.xml, got <Response [200]>
 utility_to_osm - INFO - ssr:stedsnr = 1101: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1101 has multiple (20) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 1605: No name found
@@ -189,7 +190,6 @@ utility_to_osm - INFO - ssr:stedsnr = 486677 has multiple (2) positions, using t
 utility_to_osm - INFO - ssr:stedsnr = 486695: No name found
 utility_to_osm - INFO - ssr:stedsnr = 486695 has multiple (3) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 486696: No name found
-utility_to_osm - INFO - ssr:stedsnr = 486696 has multiple (3) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 487657: No name found
 utility_to_osm - INFO - ssr:stedsnr = 487657 has multiple (2) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 488691: No name found
@@ -555,7 +555,7 @@ utility_to_osm - INFO - ssr:stedsnr = 329833: No name found
 utility_to_osm - INFO - ssr:stedsnr = 329845: No name found
 utility_to_osm - INFO - ssr:stedsnr = 329845 has multiple (2) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 329878: No name found
-utility_to_osm - INFO - ssr:stedsnr = 329879: No name found
+utility_to_osm - INFO - ssr:stedsnr = 329879 not active = "relikt". Skipping...
 utility_to_osm - INFO - ssr:stedsnr = 329299: No name found
 utility_to_osm - INFO - ssr:stedsnr = 329301: No name found
 utility_to_osm - INFO - ssr:stedsnr = 330950: No name found
@@ -1960,6 +1960,10 @@ utility_to_osm - INFO - ssr:stedsnr = 1078860: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1082781: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1082782: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1082783: No name found
+utility_to_osm - INFO - ssr:stedsnr = 1083589: No name found
+utility_to_osm - INFO - ssr:stedsnr = 1083590: No name found
+utility_to_osm - INFO - ssr:stedsnr = 1083923: No name found
+utility_to_osm - INFO - ssr:stedsnr = 1084086: No name found
 utility_to_osm.ssr2.ssr2_tags - INFO - ssr:type = fyrstasjon found in conversion table, but without tags
 utility_to_osm.ssr2.ssr2_tags - INFO - ssr:type = fyrlykt found in conversion table, but without tags
 utility_to_osm.ssr2.ssr2_tags - INFO - ssr:type = lanterne found in conversion table, but without tags
@@ -1989,6 +1993,10 @@ utility_to_osm.ssr2.ssr2_tags - INFO - ssr:type = adressenavn found in conversio
 utility_to_osm.ssr2.ssr2_tags - INFO - ssr:type = lanterne found in conversion table, but without tags
 utility_to_osm.ssr2.ssr2_tags - INFO - ssr:type = adressenavn found in conversion table, but without tags
 utility_to_osm.ssr2.ssr2_tags - INFO - ssr:type = kommune found in conversion table, but without tags
+utility_to_osm.ssr2.ssr2_tags - INFO - ssr:type = adressenavn found in conversion table, but without tags
+utility_to_osm.ssr2.ssr2_tags - INFO - ssr:type = adressenavn found in conversion table, but without tags
+utility_to_osm.ssr2.ssr2_tags - INFO - ssr:type = adressenavn found in conversion table, but without tags
+utility_to_osm.ssr2.ssr2_tags - INFO - ssr:type = adressenavn found in conversion table, but without tags
 utility_to_osm.ssr2.ssr2_tags - INFO - ssr:type = adressenavn found in conversion table, but without tags
 utility_to_osm.ssr2.ssr2_tags - INFO - ssr:type = adressenavn found in conversion table, but without tags
 utility_to_osm.ssr2.ssr2_tags - INFO - ssr:type = adressenavn found in conversion table, but without tags

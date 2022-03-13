@@ -1,4 +1,5 @@
-utility_to_osm.file_util - INFO - file_age(ssr2_to_osm_data/data/1826/1826-ssr.xml) -> 12.5 days
+utility_to_osm.file_util - INFO - file_age(ssr2_to_osm_data/data/1826/1826-ssr.xml) -> 53.6 days
+utility_to_osm.gentle_requests - INFO - requested http://wfs.geonorge.no/skwms1/wfs.stedsnavn50?VERSION=2.0.0&SERVICE=WFS&srsName=EPSG:25832&REQUEST=GetFeature&TYPENAME=Sted&resultType=results&Filter=%3CFilter%3E%20%3CPropertyIsEqualTo%3E%20%3CValueReference%20xmlns:app=%22http://skjema.geonorge.no/SOSI/produktspesifikasjon/Stedsnavn/5.0%22%3Eapp:kommune/app:Kommune/app:kommunenummer%3C/ValueReference%3E%20%3CLiteral%3E1826%3C/Literal%3E%20%3C/PropertyIsEqualTo%3E%20%3C/Filter%3E" --header "Content-Type:text/xml" ssr2_to_osm_data/data/1826/1826-ssr.xml, got <Response [200]>
 utility_to_osm - INFO - ssr:stedsnr = 14763: No name found
 utility_to_osm - INFO - ssr:stedsnr = 14763 has multiple (2) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 15005: No name found
@@ -4933,6 +4934,8 @@ utility_to_osm - INFO - ssr:stedsnr = 804300: No name found
 utility_to_osm - INFO - ssr:stedsnr = 804300: Multi-language name tag = Njeeruvetjahke - Ørfjellet
 utility_to_osm - INFO - ssr:stedsnr = 804300 has multiple (3) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 804246: No name found
+utility_to_osm - INFO - ssr:stedsnr = 804246: No name found
+utility_to_osm - INFO - ssr:stedsnr = 804246: Multi-language name tag = Aalesjaevrie - Elsvatnet
 utility_to_osm - INFO - ssr:stedsnr = 804248: No name found
 utility_to_osm - INFO - ssr:stedsnr = 804248 has multiple (3) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 804703: No name found
@@ -5468,6 +5471,8 @@ utility_to_osm - INFO - ssr:stedsnr = 1079684: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1079709: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1080531: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1081036: No name found
+utility_to_osm - INFO - ssr:stedsnr = 1083921: No name found
+utility_to_osm - INFO - ssr:stedsnr = 1083921 has multiple (229) positions, using the first one!
 utility_to_osm.ssr2.ssr2_tags - INFO - ssr:type = kommune found in conversion table, but without tags
 utility_to_osm.ssr2.ssr2_tags - INFO - ssr:type = adressenavn found in conversion table, but without tags
 utility_to_osm.ssr2.ssr2_tags - INFO - ssr:type = adressenavn found in conversion table, but without tags

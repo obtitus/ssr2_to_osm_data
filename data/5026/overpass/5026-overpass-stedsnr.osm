@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <osm version="0.6" generator="osmapis">
+	<node id="249153552" lat="62.8601899" lon="11.21247" version="4" timestamp="2018-04-15T13:48:08Z" changeset="58110485" uid="7543313" user="ENTUR Fredrik Edler" />
+	<node id="5554591362" lat="62.8597825" lon="11.2123238" version="1" timestamp="2018-04-15T13:42:23Z" changeset="58110389" uid="7543313" user="ENTUR Fredrik Edler" />
+	<node id="5554591952" lat="62.8605214" lon="11.212563" version="1" timestamp="2018-04-15T13:42:35Z" changeset="58110389" uid="7543313" user="ENTUR Fredrik Edler" />
+	<node id="5554592429" lat="62.9273035" lon="11.1243065" version="1" timestamp="2018-04-15T13:42:45Z" changeset="58110389" uid="7543313" user="ENTUR Fredrik Edler" />
+	<node id="5554594076" lat="62.9278673" lon="11.1247931" version="1" timestamp="2018-04-15T13:43:17Z" changeset="58110389" uid="7543313" user="ENTUR Fredrik Edler" />
 	<node id="3352599780" lat="63.0481847" lon="10.9902277" version="1" timestamp="2015-02-15T18:21:32Z" changeset="28869144" uid="2575250" user="tibnor_import" />
 	<node id="3352599894" lat="63.0483139" lon="10.9899792" version="1" timestamp="2015-02-15T18:21:33Z" changeset="28869144" uid="2575250" user="tibnor_import" />
 	<node id="3352599896" lat="63.0483225" lon="10.989982" version="1" timestamp="2015-02-15T18:21:33Z" changeset="28869144" uid="2575250" user="tibnor_import" />
@@ -70,6 +75,40 @@
 	<node id="3534259375" lat="63.0502142" lon="10.9914743" version="1" timestamp="2015-05-21T21:32:38Z" changeset="31356200" uid="2483802" user="anderfo_import" />
 	<node id="3534259427" lat="63.0504487" lon="10.9913911" version="1" timestamp="2015-05-21T21:32:39Z" changeset="31356200" uid="2483802" user="anderfo_import" />
 	<node id="3534259435" lat="63.050464" lon="10.99159" version="1" timestamp="2015-05-21T21:32:39Z" changeset="31356200" uid="2483802" user="anderfo_import" />
+	<node id="5554587814" lat="62.9535322" lon="11.2457739" version="2" timestamp="2022-01-24T21:00:15Z" changeset="116559033" uid="3497659" user="NKA" />
+	<node id="5554594712" lat="62.9533052" lon="11.2453491" version="1" timestamp="2018-04-15T13:43:28Z" changeset="58110389" uid="7543313" user="ENTUR Fredrik Edler" />
+	<way id="23123482" version="9" timestamp="2022-01-24T21:00:15Z" changeset="116559033" uid="3497659" user="NKA">
+		<tag k="bridge" v="yes" />
+		<tag k="highway" v="primary" />
+		<tag k="layer" v="1" />
+		<tag k="maxspeed" v="80" />
+		<tag k="name" v="Eidet bru" />
+		<tag k="ref" v="30" />
+		<tag k="ssr:stedsnr" v="986456" />
+		<nd ref="5554591952" />
+		<nd ref="249153552" />
+		<nd ref="5554591362" />
+	</way>
+	<way id="203187326" version="6" timestamp="2022-01-24T21:00:15Z" changeset="116559033" uid="3497659" user="NKA">
+		<tag k="bridge" v="yes" />
+		<tag k="highway" v="secondary" />
+		<tag k="layer" v="1" />
+		<tag k="maxspeed" v="50" />
+		<tag k="name" v="Brubakkbrua" />
+		<tag k="ref" v="6548" />
+		<tag k="ssr:stedsnr" v="709129" />
+		<nd ref="5554594712" />
+		<nd ref="5554587814" />
+	</way>
+	<way id="580165504" version="2" timestamp="2022-01-24T21:00:15Z" changeset="116559033" uid="3497659" user="NKA">
+		<tag k="bridge" v="yes" />
+		<tag k="highway" v="service" />
+		<tag k="layer" v="1" />
+		<tag k="name" v="Øvindmobrua" />
+		<tag k="ssr:stedsnr" v="531684" />
+		<nd ref="5554594076" />
+		<nd ref="5554592429" />
+	</way>
 	<way id="328438696" version="1" timestamp="2015-02-15T18:22:12Z" changeset="28869144" uid="2575250" user="tibnor_import">
 		<tag k="source" v="Kartverket N50" />
 		<tag k="source:date" v="1965-07-01" />

@@ -1,2 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<osm version="0.6" generator="osmapis" />
+<osm version="0.6" generator="osmapis">
+	<node id="5768455103" lat="68.8281436" lon="18.4191706" version="2" timestamp="2022-01-26T06:08:00Z" changeset="116609992" uid="3497659" user="NKA">
+		<tag k="junction" v="yes" />
+		<tag k="name" v="Vikingkrysset" />
+		<tag k="ssr:stedsnr" v="297425" />
+	</node>
+	<node id="5768455578" lat="68.8196646" lon="18.4756428" version="2" timestamp="2022-01-26T06:08:00Z" changeset="116609992" uid="3497659" user="NKA">
+		<tag k="junction" v="yes" />
+		<tag k="name" v="Haugveiskjellet" />
+		<tag k="ssr:stedsnr" v="906215" />
+	</node>
+	<node id="9435813885" lat="68.6347124" lon="18.2770765" version="1" timestamp="2022-01-21T07:34:53Z" changeset="116415921" uid="3497659" user="NKA" />
+	<node id="9435813886" lat="68.6347964" lon="18.2771569" version="1" timestamp="2022-01-21T07:34:53Z" changeset="116415921" uid="3497659" user="NKA" />
+	<node id="5768459633" lat="68.8286678" lon="18.4296765" version="1" timestamp="2018-07-18T14:17:11Z" changeset="60839397" uid="5732597" user="ENTUR Johan Wiklund" />
+	<node id="5768459915" lat="68.8291911" lon="18.4301457" version="1" timestamp="2018-07-18T14:17:15Z" changeset="60839397" uid="5732597" user="ENTUR Johan Wiklund" />
+	<node id="9448191273" lat="68.9057531" lon="18.4020647" version="1" timestamp="2022-01-25T18:21:17Z" changeset="116596754" uid="3497659" user="NKA" />
+	<node id="9448191274" lat="68.9057405" lon="18.4018743" version="1" timestamp="2022-01-25T18:21:17Z" changeset="116596754" uid="3497659" user="NKA" />
+	<node id="5768063232" lat="68.9295634" lon="18.4799185" version="1" timestamp="2018-07-18T11:36:26Z" changeset="60833348" uid="5732597" user="ENTUR Johan Wiklund" />
+	<node id="5768066387" lat="68.9302204" lon="18.4771856" version="1" timestamp="2018-07-18T11:37:07Z" changeset="60833348" uid="5732597" user="ENTUR Johan Wiklund" />
+	<way id="608924174" version="2" timestamp="2022-01-21T07:16:18Z" changeset="116415148" uid="3497659" user="NKA">
+		<tag k="bridge" v="yes" />
+		<tag k="bridge:structure" v="suspension" />
+		<tag k="highway" v="unclassified" />
+		<tag k="layer" v="1" />
+		<tag k="name" v="Tunebrua" />
+		<tag k="ssr:stedsnr" v="18536" />
+		<nd ref="5768066387" />
+		<nd ref="5768063232" />
+	</way>
+	<way id="608966267" version="2" timestamp="2022-01-21T07:16:18Z" changeset="116415148" uid="3497659" user="NKA">
+		<tag k="alt_name" v="Fosshaug bru" />
+		<tag k="bridge" v="yes" />
+		<tag k="bridge:structure" v="beam" />
+		<tag k="highway" v="tertiary" />
+		<tag k="layer" v="1" />
+		<tag k="name" v="Fosshaugbrua" />
+		<tag k="ssr:stedsnr" v="563526" />
+		<nd ref="5768459633" />
+		<nd ref="5768459915" />
+	</way>
+	<way id="1023147761" version="1" timestamp="2022-01-21T07:34:53Z" changeset="116415921" uid="3497659" user="NKA">
+		<tag k="bridge" v="yes" />
+		<tag k="fixme" v="refine;resurvey" />
+		<tag k="highway" v="path" />
+		<tag k="layer" v="1" />
+		<tag k="name" v="Budalsbrua" />
+		<tag k="ssr:stedsnr" v="358940" />
+		<nd ref="9435813886" />
+		<nd ref="9435813885" />
+	</way>
+	<way id="1024634150" version="1" timestamp="2022-01-25T18:21:17Z" changeset="116596754" uid="3497659" user="NKA">
+		<tag k="bridge" v="yes" />
+		<tag k="highway" v="service" />
+		<tag k="layer" v="1" />
+		<tag k="name" v="Mobrua" />
+		<tag k="ssr:stedsnr" v="906208" />
+		<nd ref="9448191273" />
+		<nd ref="9448191274" />
+	</way>
+</osm>

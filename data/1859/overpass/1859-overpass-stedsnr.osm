@@ -1,2 +1,50 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<osm version="0.6" generator="osmapis" />
+<osm version="0.6" generator="osmapis">
+	<node id="4354466095" lat="68.0854568" lon="13.1844658" version="1" timestamp="2016-08-17T17:48:48Z" changeset="41517431" uid="2114448" user="FredrikLindseth_import" />
+	<node id="249361222" lat="68.0775611" lon="13.1952448" version="5" timestamp="2018-12-08T18:01:35Z" changeset="65297518" uid="32112" user="SverigeFan">
+		<tag k="barrier" v="cattle_grid" />
+	</node>
+	<node id="4354465795" lat="68.0781078" lon="13.1948011" version="2" timestamp="2018-12-08T18:01:37Z" changeset="65297518" uid="32112" user="SverigeFan" />
+	<node id="4354465845" lat="68.0795205" lon="13.1936858" version="2" timestamp="2018-12-08T18:01:37Z" changeset="65297518" uid="32112" user="SverigeFan" />
+	<node id="6125242792" lat="68.0790901" lon="13.194029" version="1" timestamp="2018-12-08T18:01:35Z" changeset="65297518" uid="32112" user="SverigeFan" />
+	<node id="249361245" lat="68.084348" lon="13.1889905" version="3" timestamp="2016-08-17T17:52:48Z" changeset="41517431" uid="2114448" user="FredrikLindseth_import" />
+	<node id="249361246" lat="68.0844115" lon="13.1887648" version="3" timestamp="2016-08-17T17:52:48Z" changeset="41517431" uid="2114448" user="FredrikLindseth_import" />
+	<node id="249361541" lat="68.084546" lon="13.1882309" version="3" timestamp="2016-08-17T17:52:50Z" changeset="41517431" uid="2114448" user="FredrikLindseth_import" />
+	<node id="4354466051" lat="68.0842468" lon="13.1892907" version="2" timestamp="2018-12-08T18:01:37Z" changeset="65297518" uid="32112" user="SverigeFan" />
+	<node id="4354466054" lat="68.0842861" lon="13.1891778" version="1" timestamp="2016-08-17T17:48:47Z" changeset="41517431" uid="2114448" user="FredrikLindseth_import" />
+	<way id="23099350" version="11" timestamp="2022-01-24T06:56:00Z" changeset="116526664" uid="3497659" user="NKA">
+		<tag k="bridge" v="yes" />
+		<tag k="bridge:structure" v="beam" />
+		<tag k="highway" v="secondary" />
+		<tag k="layer" v="1" />
+		<tag k="maxspeed" v="80" />
+		<tag k="name" v="Røssøystraumbrua" />
+		<tag k="old_ref" v="986" />
+		<tag k="ref" v="7708" />
+		<tag k="ssr:stedsnr" v="1080823" />
+		<tag k="surface" v="asphalt" />
+		<tag k="wikidata" v="Q1777230" />
+		<nd ref="4354466051" />
+		<nd ref="4354466054" />
+		<nd ref="249361245" />
+		<nd ref="249361246" />
+		<nd ref="249361541" />
+		<nd ref="4354466095" />
+	</way>
+	<way id="23099352" version="11" timestamp="2022-01-24T06:56:00Z" changeset="116526664" uid="3497659" user="NKA">
+		<tag k="bridge" v="yes" />
+		<tag k="bridge:structure" v="beam" />
+		<tag k="highway" v="secondary" />
+		<tag k="layer" v="1" />
+		<tag k="maxspeed" v="80" />
+		<tag k="name" v="Kubbholmleibrua" />
+		<tag k="old_ref" v="986" />
+		<tag k="ref" v="7708" />
+		<tag k="ssr:stedsnr" v="1080824" />
+		<tag k="surface" v="asphalt" />
+		<nd ref="249361222" />
+		<nd ref="4354465795" />
+		<nd ref="6125242792" />
+		<nd ref="4354465845" />
+	</way>
+</osm>

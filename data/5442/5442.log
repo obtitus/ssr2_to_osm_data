@@ -1,4 +1,5 @@
-utility_to_osm.file_util - INFO - file_age(ssr2_to_osm_data/data/5442/5442-ssr.xml) -> 11.6 days
+utility_to_osm.file_util - INFO - file_age(ssr2_to_osm_data/data/5442/5442-ssr.xml) -> 52.7 days
+utility_to_osm.gentle_requests - INFO - requested http://wfs.geonorge.no/skwms1/wfs.stedsnavn50?VERSION=2.0.0&SERVICE=WFS&srsName=EPSG:25832&REQUEST=GetFeature&TYPENAME=Sted&resultType=results&Filter=%3CFilter%3E%20%3CPropertyIsEqualTo%3E%20%3CValueReference%20xmlns:app=%22http://skjema.geonorge.no/SOSI/produktspesifikasjon/Stedsnavn/5.0%22%3Eapp:kommune/app:Kommune/app:kommunenummer%3C/ValueReference%3E%20%3CLiteral%3E5442%3C/Literal%3E%20%3C/PropertyIsEqualTo%3E%20%3C/Filter%3E" --header "Content-Type:text/xml" ssr2_to_osm_data/data/5442/5442-ssr.xml, got <Response [200]>
 utility_to_osm - INFO - ssr:stedsnr = 231846: No name found
 utility_to_osm - INFO - ssr:stedsnr = 19802: No name found
 utility_to_osm - INFO - ssr:stedsnr = 19839: No name found
@@ -371,7 +372,6 @@ utility_to_osm - INFO - ssr:stedsnr = 444707 has multiple (3) positions, using t
 utility_to_osm - INFO - ssr:stedsnr = 444634: No name found
 utility_to_osm - INFO - ssr:stedsnr = 444634: No name found
 utility_to_osm - INFO - ssr:stedsnr = 444634: No name found
-utility_to_osm - INFO - ssr:stedsnr = 444634: Multi-language name tag = Boaresárku - Bergeby
 utility_to_osm - INFO - ssr:stedsnr = 444634 has multiple (2) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 444678: No name found
 utility_to_osm - INFO - ssr:stedsnr = 444679: No name found
@@ -646,7 +646,6 @@ utility_to_osm - INFO - ssr:stedsnr = 686791 has multiple (2) positions, using t
 utility_to_osm - INFO - ssr:stedsnr = 687607: No name found
 utility_to_osm - INFO - ssr:stedsnr = 687612: No name found
 utility_to_osm - INFO - ssr:stedsnr = 687736: No name found
-utility_to_osm - INFO - ssr:stedsnr = 687736 has multiple (2) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 687738: No name found
 utility_to_osm - INFO - ssr:stedsnr = 687738 has multiple (2) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 693310: No name found
@@ -2209,6 +2208,7 @@ utility_to_osm - INFO - ssr:stedsnr = 1081687: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1081688: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1081689: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1082154: No name found
+utility_to_osm - INFO - ssr:stedsnr = 1082154: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1082155: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1082155: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1082156: No name found
@@ -2218,7 +2218,7 @@ utility_to_osm - INFO - ssr:stedsnr = 1082921: No name found
 utility_to_osm - INFO - ssr:stedsnr = 284276: No name found
 utility_to_osm - INFO - ssr:stedsnr = 284276: No name found
 utility_to_osm - INFO - ssr:stedsnr = 284276: No name found
-utility_to_osm - INFO - ssr:stedsnr = 284276: Multi-language name tag = Varangerhalvøya nasjonalpark - Várnjargga  álbmotmeahcci
+utility_to_osm - INFO - ssr:stedsnr = 284276: Multi-language name tag = Varangerhalvøya nasjonalpark - Várnjargga álbmotmeahcci
 utility_to_osm - INFO - ssr:stedsnr = 284276 has multiple (2) positions, using the first one!
 utility_to_osm.ssr2.ssr2_tags - INFO - ssr:type = fyrlykt found in conversion table, but without tags
 utility_to_osm.ssr2.ssr2_tags - INFO - ssr:type = fyrlykt found in conversion table, but without tags

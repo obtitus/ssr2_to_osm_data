@@ -1,4 +1,5 @@
-utility_to_osm.file_util - INFO - file_age(ssr2_to_osm_data/data/4639/4639-ssr.xml) -> 12.5 days
+utility_to_osm.file_util - INFO - file_age(ssr2_to_osm_data/data/4639/4639-ssr.xml) -> 53.6 days
+utility_to_osm.gentle_requests - INFO - requested http://wfs.geonorge.no/skwms1/wfs.stedsnavn50?VERSION=2.0.0&SERVICE=WFS&srsName=EPSG:25832&REQUEST=GetFeature&TYPENAME=Sted&resultType=results&Filter=%3CFilter%3E%20%3CPropertyIsEqualTo%3E%20%3CValueReference%20xmlns:app=%22http://skjema.geonorge.no/SOSI/produktspesifikasjon/Stedsnavn/5.0%22%3Eapp:kommune/app:Kommune/app:kommunenummer%3C/ValueReference%3E%20%3CLiteral%3E4639%3C/Literal%3E%20%3C/PropertyIsEqualTo%3E%20%3C/Filter%3E" --header "Content-Type:text/xml" ssr2_to_osm_data/data/4639/4639-ssr.xml, got <Response [200]>
 utility_to_osm - INFO - ssr:stedsnr = 8649: No name found
 utility_to_osm - INFO - ssr:stedsnr = 8649 has multiple (3) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 8653: No name found
@@ -33,7 +34,6 @@ utility_to_osm - INFO - ssr:stedsnr = 9438: No name found
 utility_to_osm - INFO - ssr:stedsnr = 9438 has multiple (2) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 9621: No name found
 utility_to_osm - INFO - ssr:stedsnr = 9622: No name found
-utility_to_osm - INFO - ssr:stedsnr = 9622 has multiple (2) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 9627: No name found
 utility_to_osm - INFO - ssr:stedsnr = 9392: No name found
 utility_to_osm - INFO - ssr:stedsnr = 9392 has multiple (3) positions, using the first one!
@@ -1728,7 +1728,6 @@ utility_to_osm - INFO - ssr:stedsnr = 70756: No name found
 utility_to_osm - INFO - ssr:stedsnr = 70835: No name found
 utility_to_osm - INFO - ssr:stedsnr = 70836: No name found
 utility_to_osm - INFO - ssr:stedsnr = 70836 has multiple (3) positions, using the first one!
-utility_to_osm - INFO - ssr:stedsnr = 95373: No name found
 utility_to_osm - INFO - ssr:stedsnr = 95259: No name found
 utility_to_osm - INFO - ssr:stedsnr = 95343: No name found
 utility_to_osm - INFO - ssr:stedsnr = 95261: No name found

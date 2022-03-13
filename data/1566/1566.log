@@ -1,4 +1,5 @@
-utility_to_osm.file_util - INFO - file_age(ssr2_to_osm_data/data/1566/1566-ssr.xml) -> 12.5 days
+utility_to_osm.file_util - INFO - file_age(ssr2_to_osm_data/data/1566/1566-ssr.xml) -> 53.6 days
+utility_to_osm.gentle_requests - INFO - requested http://wfs.geonorge.no/skwms1/wfs.stedsnavn50?VERSION=2.0.0&SERVICE=WFS&srsName=EPSG:25832&REQUEST=GetFeature&TYPENAME=Sted&resultType=results&Filter=%3CFilter%3E%20%3CPropertyIsEqualTo%3E%20%3CValueReference%20xmlns:app=%22http://skjema.geonorge.no/SOSI/produktspesifikasjon/Stedsnavn/5.0%22%3Eapp:kommune/app:Kommune/app:kommunenummer%3C/ValueReference%3E%20%3CLiteral%3E1566%3C/Literal%3E%20%3C/PropertyIsEqualTo%3E%20%3C/Filter%3E" --header "Content-Type:text/xml" ssr2_to_osm_data/data/1566/1566-ssr.xml, got <Response [200]>
 utility_to_osm - INFO - ssr:stedsnr = 231355: No name found
 utility_to_osm - INFO - ssr:stedsnr = 12007: No name found
 utility_to_osm - INFO - ssr:stedsnr = 12014: No name found
@@ -2852,7 +2853,6 @@ utility_to_osm - INFO - ssr:stedsnr = 923661 has multiple (5) positions, using t
 utility_to_osm - INFO - ssr:stedsnr = 923757: No name found
 utility_to_osm - INFO - ssr:stedsnr = 923757 has multiple (3) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 923838: No name found
-utility_to_osm - INFO - ssr:stedsnr = 923838 has multiple (4) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 861602: No name found
 utility_to_osm - INFO - ssr:stedsnr = 861710: No name found
 utility_to_osm - INFO - ssr:stedsnr = 861711: No name found
@@ -4368,7 +4368,6 @@ utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Rotsle
 utility_to_osm - INFO - ssr:stedsnr = 315048: No name found
 utility_to_osm - INFO - ssr:stedsnr = 315048 has multiple (3) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 315112: No name found
-utility_to_osm - INFO - ssr:stedsnr = 315112 has multiple (2) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 315115: No name found
 utility_to_osm - INFO - ignoring non approved status = "avslåttNavneledd" name = "Salstjørna"
 utility_to_osm - INFO - ignoring non approved status = "avslåttNavneledd" name = "Salstjørna"
@@ -4645,7 +4644,6 @@ utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Snøya
 utility_to_osm - INFO - ssr:stedsnr = 376339: No name found
 utility_to_osm - INFO - ssr:stedsnr = 376339 has multiple (3) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 376369: No name found
-utility_to_osm - INFO - ssr:stedsnr = 376369 has multiple (2) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 376443: No name found
 utility_to_osm - INFO - ssr:stedsnr = 376443 has multiple (3) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 376450: No name found
@@ -5229,7 +5227,6 @@ utility_to_osm - INFO - ssr:stedsnr = 558325 has multiple (4) positions, using t
 utility_to_osm - INFO - ssr:stedsnr = 558424: No name found
 utility_to_osm - INFO - ssr:stedsnr = 558424 has multiple (4) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 558436: No name found
-utility_to_osm - INFO - ssr:stedsnr = 558436 has multiple (3) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 558376: No name found
 utility_to_osm - INFO - ssr:stedsnr = 558376 has multiple (4) positions, using the first one!
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Bævra"
@@ -6823,6 +6820,8 @@ utility_to_osm - INFO - ssr:stedsnr = 1081310: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1082041: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1083369: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1083373: No name found
+utility_to_osm - INFO - ssr:stedsnr = 1083460: No name found
+utility_to_osm - INFO - ssr:stedsnr = 1083934: No name found
 utility_to_osm.ssr2.ssr2_tags - INFO - ssr:type = adressetilleggsnavn found in conversion table, but without tags
 utility_to_osm.ssr2.ssr2_tags - INFO - ssr:type = fyrlykt found in conversion table, but without tags
 utility_to_osm.ssr2.ssr2_tags - INFO - ssr:type = adressetilleggsnavn found in conversion table, but without tags

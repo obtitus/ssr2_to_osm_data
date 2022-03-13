@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <osm version="0.6" generator="osmapis">
+	<node id="27353938" lat="59.1423369" lon="11.3406599" version="2" timestamp="2022-02-01T07:28:18Z" changeset="116853439" uid="3497659" user="NKA">
+		<tag k="junction" v="yes" />
+		<tag k="name" v="Bruresvingen" />
+		<tag k="ssr:stedsnr" v="265169" />
+	</node>
 	<node id="27537743" lat="59.1245738" lon="11.3877319" version="14" timestamp="2021-10-29T14:41:32Z" changeset="113127928" uid="3497659" user="NKA">
 		<tag k="name" v="Halden" />
 		<tag k="name:ru" v="Халден" />
@@ -3493,10 +3498,10 @@
 		<tag k="place" v="farm" />
 		<tag k="ssr:stedsnr" v="911174" />
 	</node>
-	<node id="6263302828" lat="58.9336333" lon="11.5853612" version="1" timestamp="2019-02-07T08:27:25Z" changeset="66987102" uid="633013" user="Honning">
+	<node id="6263302828" lat="58.9336333" lon="11.5853612" version="2" timestamp="2022-02-28T07:51:49Z" changeset="117932823" uid="5198133" user="Wulfmorn">
 		<tag k="alt_name" v="Bråtane østre;Bråtene" />
 		<tag k="name" v="Østre Bråtane" />
-		<tag k="place" v="hamlet" />
+		<tag k="place" v="farm" />
 		<tag k="ssr:stedsnr" v="911181" />
 	</node>
 	<node id="6263302829" lat="58.9327972" lon="11.5118222" version="1" timestamp="2019-02-07T08:27:25Z" changeset="66987102" uid="633013" user="Honning">
@@ -4300,11 +4305,6 @@
 		<tag k="place" v="farm" />
 		<tag k="ssr:stedsnr" v="475636" />
 	</node>
-	<node id="6263302986" lat="59.1198444" lon="11.3887972" version="1" timestamp="2019-02-07T08:27:35Z" changeset="66987102" uid="633013" user="Honning">
-		<tag k="building" v="civic" />
-		<tag k="name" v="Halden politistasjon" />
-		<tag k="ssr:stedsnr" v="161570" />
-	</node>
 	<node id="6263302987" lat="59.1254694" lon="11.3641805" version="1" timestamp="2019-02-07T08:27:35Z" changeset="66987102" uid="633013" user="Honning">
 		<tag k="name" v="Glenne" />
 		<tag k="place" v="isolated_dwelling" />
@@ -4656,6 +4656,11 @@
 		<tag k="natural" v="yes" />
 		<tag k="ssr:stedsnr" v="548232" />
 		<tag k="tourism" v="information" />
+	</node>
+	<node id="9465227407" lat="59.1285802" lon="11.3891487" version="1" timestamp="2022-02-01T07:28:18Z" changeset="116853439" uid="3497659" user="NKA">
+		<tag k="name" v="Chr. Sindings plass" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="265840" />
 	</node>
 	<node id="4377354982" lat="59.0902436" lon="11.2524458" version="7" timestamp="2021-09-12T18:41:11Z" changeset="111108577" uid="2677992" user="mikkolukas" />
 	<node id="5492053019" lat="59.0902608" lon="11.2521633" version="7" timestamp="2021-12-13T14:42:56Z" changeset="114886576" uid="2793520" user="CreCrePL" />
@@ -6327,13 +6332,14 @@
 		<nd ref="6559078131" />
 		<nd ref="5492053019" />
 	</way>
-	<way id="571453991" version="6" timestamp="2021-12-13T14:42:56Z" changeset="114886576" uid="2793520" user="CreCrePL">
+	<way id="571453991" version="7" timestamp="2022-02-01T14:06:28Z" changeset="116870470" uid="156646" user="archie">
 		<tag k="bridge" v="yes" />
 		<tag k="highway" v="motorway" />
 		<tag k="int_ref" v="E 06" />
 		<tag k="lanes" v="2" />
 		<tag k="layer" v="1" />
 		<tag k="maxspeed" v="90" />
+		<tag k="maxweight" v="64" />
 		<tag k="name" v="Svinesundsbron" />
 		<tag k="oneway" v="yes" />
 		<tag k="ref" v="E 6" />
@@ -6428,13 +6434,14 @@
 		<nd ref="13198992" />
 		<nd ref="8534620033" />
 	</way>
-	<way id="160489663" version="13" timestamp="2021-12-13T14:42:56Z" changeset="114886576" uid="2793520" user="CreCrePL">
+	<way id="160489663" version="14" timestamp="2022-02-01T14:06:28Z" changeset="116870470" uid="156646" user="archie">
 		<tag k="bridge" v="yes" />
 		<tag k="highway" v="motorway" />
 		<tag k="int_ref" v="E 06" />
 		<tag k="lanes" v="2" />
 		<tag k="layer" v="1" />
 		<tag k="maxspeed" v="90" />
+		<tag k="maxweight" v="64" />
 		<tag k="name" v="Svinesundsbron" />
 		<tag k="oneway" v="yes" />
 		<tag k="ref" v="E 6" />

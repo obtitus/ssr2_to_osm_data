@@ -1,4 +1,5 @@
-utility_to_osm.file_util - INFO - file_age(ssr2_to_osm_data/data/1845/1845-ssr.xml) -> 12.5 days
+utility_to_osm.file_util - INFO - file_age(ssr2_to_osm_data/data/1845/1845-ssr.xml) -> 53.6 days
+utility_to_osm.gentle_requests - INFO - requested http://wfs.geonorge.no/skwms1/wfs.stedsnavn50?VERSION=2.0.0&SERVICE=WFS&srsName=EPSG:25832&REQUEST=GetFeature&TYPENAME=Sted&resultType=results&Filter=%3CFilter%3E%20%3CPropertyIsEqualTo%3E%20%3CValueReference%20xmlns:app=%22http://skjema.geonorge.no/SOSI/produktspesifikasjon/Stedsnavn/5.0%22%3Eapp:kommune/app:Kommune/app:kommunenummer%3C/ValueReference%3E%20%3CLiteral%3E1845%3C/Literal%3E%20%3C/PropertyIsEqualTo%3E%20%3C/Filter%3E" --header "Content-Type:text/xml" ssr2_to_osm_data/data/1845/1845-ssr.xml, got <Response [200]>
 utility_to_osm - INFO - ssr:stedsnr = 16027: No name found
 utility_to_osm - INFO - ssr:stedsnr = 16263: No name found
 utility_to_osm - INFO - ssr:stedsnr = 16263 has multiple (2) positions, using the first one!
@@ -757,7 +758,6 @@ utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Sommar
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Sommarset"
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Sommarset"
 utility_to_osm - INFO - ssr:stedsnr = 320997: No name found
-utility_to_osm - INFO - ssr:stedsnr = 320997 has multiple (3) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 320999: No name found
 utility_to_osm - INFO - ssr:stedsnr = 323420: No name found
 utility_to_osm - INFO - ssr:stedsnr = 324121: No name found
@@ -2238,7 +2238,6 @@ utility_to_osm - INFO - ssr:stedsnr = 77595 has multiple (2) positions, using th
 utility_to_osm - INFO - ssr:stedsnr = 77035: No name found
 utility_to_osm - INFO - ssr:stedsnr = 77283: No name found
 utility_to_osm - INFO - ssr:stedsnr = 77530: No name found
-utility_to_osm - INFO - ssr:stedsnr = 77530 has multiple (2) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 77531: No name found
 utility_to_osm - INFO - ssr:stedsnr = 77540: No name found
 utility_to_osm - INFO - ssr:stedsnr = 77540 has multiple (3) positions, using the first one!
@@ -3379,12 +3378,12 @@ utility_to_osm - INFO - ssr:stedsnr = 561606 has multiple (2) positions, using t
 utility_to_osm - INFO - ssr:stedsnr = 561610: No name found
 utility_to_osm - INFO - ssr:stedsnr = 561615: No name found
 utility_to_osm - INFO - ssr:stedsnr = 561615: Adding multiple names to name tag, this is not OK! name = "Storelva;Vassvikelva"
-utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Espenes, ytre"
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Espenes"
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Espenes, ytre"
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Espenes"
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Espenes, ytre"
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Espenes"
+utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Espenes, ytre"
 utility_to_osm - INFO - ssr:stedsnr = 561619: No name found
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Nordskardet"
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Nordskardet"
@@ -4701,6 +4700,8 @@ utility_to_osm - INFO - ssr:stedsnr = 1076005: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1079742: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1079251: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1082604: No name found
+utility_to_osm - INFO - ssr:stedsnr = 1083474: No name found
+utility_to_osm - INFO - ssr:stedsnr = 1083474 has multiple (5) positions, using the first one!
 utility_to_osm.ssr2.ssr2_tags - INFO - ssr:type = fyrlykt found in conversion table, but without tags
 utility_to_osm.ssr2.ssr2_tags - INFO - ssr:type = renneKløftISjø found in conversion table, but without tags
 utility_to_osm.ssr2.ssr2_tags - INFO - ssr:type = fyrlykt found in conversion table, but without tags

@@ -5,4 +5,49 @@
 		<tag k="natural" v="cape" />
 		<tag k="ssr:stedsnr" v="771700" />
 	</node>
+	<node id="7324708266" lat="67.192793" lon="14.379353" version="2" timestamp="2022-01-26T06:22:04Z" changeset="116610177" uid="3497659" user="NKA">
+		<tag k="junction" v="yes" />
+		<tag k="name" v="Ersvikkrysset" />
+		<tag k="ssr:stedsnr" v="420193" />
+	</node>
+	<node id="7324709601" lat="67.202513" lon="14.96765" version="1" timestamp="2020-03-24T06:51:36Z" changeset="82555027" uid="3497659" user="NKA" />
+	<node id="7389049835" lat="67.2032343" lon="14.9661565" version="1" timestamp="2020-04-10T11:22:47Z" changeset="83360287" uid="32112" user="SverigeFan">
+		<tag k="bridge:support" v="pier" />
+	</node>
+	<node id="7324708706" lat="67.205445" lon="14.961468" version="1" timestamp="2020-03-24T06:51:36Z" changeset="82555027" uid="3497659" user="NKA" />
+	<node id="7389049834" lat="67.2047584" lon="14.9629268" version="1" timestamp="2020-04-10T11:22:47Z" changeset="83360287" uid="32112" user="SverigeFan">
+		<tag k="bridge:support" v="pier" />
+	</node>
+	<node id="7326118514" lat="67.507659" lon="14.807758" version="1" timestamp="2020-03-24T17:07:22Z" changeset="82581964" uid="3497659" user="NKA" />
+	<node id="7326118517" lat="67.507588" lon="14.807651" version="1" timestamp="2020-03-24T17:07:22Z" changeset="82581964" uid="3497659" user="NKA" />
+	<way id="58603514" version="11" timestamp="2022-01-24T06:56:00Z" changeset="116526664" uid="3497659" user="NKA">
+		<tag k="alt_name" v="Støvset bru" />
+		<tag k="bridge" v="yes" />
+		<tag k="bridge:structure" v="beam" />
+		<tag k="highway" v="primary" />
+		<tag k="layer" v="1" />
+		<tag k="maxspeed" v="80" />
+		<tag k="name" v="Støvsetbrua" />
+		<tag k="old_ref" v="554" />
+		<tag k="ref" v="812" />
+		<tag k="ssr:stedsnr" v="263182" />
+		<tag k="surface" v="asphalt" />
+		<tag k="wikidata" v="Q4585834" />
+		<nd ref="7324708706" />
+		<nd ref="7389049834" />
+		<nd ref="7389049835" />
+		<nd ref="7324709601" />
+	</way>
+	<way id="784267854" version="2" timestamp="2022-01-24T06:56:00Z" changeset="116526664" uid="3497659" user="NKA">
+		<tag k="bridge" v="yes" />
+		<tag k="bridge:description" v="Heggåelv" />
+		<tag k="highway" v="residential" />
+		<tag k="layer" v="1" />
+		<tag k="maxspeed" v="50" />
+		<tag k="maxweight" v="32" />
+		<tag k="name" v="Heggobrua" />
+		<tag k="ssr:stedsnr" v="359066" />
+		<nd ref="7326118514" />
+		<nd ref="7326118517" />
+	</way>
 </osm>

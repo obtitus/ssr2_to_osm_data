@@ -24,13 +24,72 @@
 		<tag k="source" v="Kartverket" />
 		<tag k="ssr:stedsnr" v="203723" />
 	</node>
+	<node id="5867408099" lat="70.2855265" lon="25.0718557" version="2" timestamp="2022-01-26T06:08:00Z" changeset="116609992" uid="3497659" user="NKA">
+		<tag k="junction" v="yes" />
+		<tag k="name" v="Kolvik vegkryss" />
+		<tag k="ssr:stedsnr" v="517806" />
+	</node>
+	<node id="5867418832" lat="70.5021668" lon="25.0415303" version="2" timestamp="2022-01-26T06:08:00Z" changeset="116609992" uid="3497659" user="NKA">
+		<tag k="junction" v="yes" />
+		<tag k="name" v="Smørfjord vegkryss" />
+		<tag k="ssr:stedsnr" v="93240" />
+	</node>
 	<node id="5814778347" lat="68.7662476" lon="22.549433" version="1" timestamp="2018-08-07T12:30:20Z" changeset="61433683" uid="3497659" user="NKA" />
 	<node id="5814778348" lat="69.0558056" lon="22.0742743" version="1" timestamp="2018-08-07T12:30:20Z" changeset="61433683" uid="3497659" user="NKA" />
 	<node id="5814778342" lat="69.3158958" lon="22.9573032" version="1" timestamp="2018-08-07T12:30:19Z" changeset="61433683" uid="3497659" user="NKA" />
 	<node id="5814778346" lat="68.6865261" lon="24.8840277" version="1" timestamp="2018-08-07T12:30:20Z" changeset="61433683" uid="3497659" user="NKA" />
 	<node id="5814778343" lat="69.7223925" lon="23.8265936" version="1" timestamp="2018-08-07T12:30:19Z" changeset="61433683" uid="3497659" user="NKA" />
+	<node id="5867399160" lat="70.03114" lon="24.9353548" version="1" timestamp="2018-08-30T07:51:05Z" changeset="62129777" uid="8470372" user="Entur AS | Angie Torres" />
+	<node id="5867417034" lat="70.0314967" lon="24.9367055" version="1" timestamp="2018-08-30T07:54:39Z" changeset="62129847" uid="8470372" user="Entur AS | Angie Torres" />
 	<node id="5814778345" lat="69.0155153" lon="25.5487006" version="1" timestamp="2018-08-07T12:30:20Z" changeset="61433683" uid="3497659" user="NKA" />
 	<node id="5814778344" lat="69.7628088" lon="25.8933966" version="1" timestamp="2018-08-07T12:30:19Z" changeset="61433683" uid="3497659" user="NKA" />
+	<node id="5867411318" lat="70.0648817" lon="24.9286891" version="1" timestamp="2018-08-30T07:53:29Z" changeset="62129847" uid="8470372" user="Entur AS | Angie Torres" />
+	<node id="5867416172" lat="70.0658145" lon="24.9290383" version="1" timestamp="2018-08-30T07:54:26Z" changeset="62129847" uid="8470372" user="Entur AS | Angie Torres" />
+	<node id="5867396542" lat="70.548549" lon="24.8807227" version="1" timestamp="2018-08-30T07:50:35Z" changeset="62129777" uid="8470372" user="Entur AS | Angie Torres" />
+	<node id="5867412112" lat="70.5486517" lon="24.8804406" version="1" timestamp="2018-08-30T07:53:37Z" changeset="62129847" uid="8470372" user="Entur AS | Angie Torres" />
+	<way id="128631390" version="8" timestamp="2022-01-21T07:16:18Z" changeset="116415148" uid="3497659" user="NKA">
+		<tag k="bridge" v="yes" />
+		<tag k="bridge:structure" v="beam" />
+		<tag k="highway" v="trunk" />
+		<tag k="lanes" v="2" />
+		<tag k="layer" v="1" />
+		<tag k="lit" v="no" />
+		<tag k="maxspeed" v="80" />
+		<tag k="name" v="Lakselv bru" />
+		<tag k="ref" v="E 6" />
+		<tag k="sidewalk" v="none" />
+		<tag k="ssr:stedsnr" v="820017" />
+		<tag k="surface" v="asphalt" />
+		<tag k="width" v="7" />
+		<nd ref="5867416172" />
+		<nd ref="5867411318" />
+	</way>
+	<way id="178895113" version="3" timestamp="2022-01-21T07:16:18Z" changeset="116415148" uid="3497659" user="NKA">
+		<tag k="bridge" v="yes" />
+		<tag k="highway" v="primary" />
+		<tag k="layer" v="1" />
+		<tag k="maxspeed" v="90" />
+		<tag k="name" v="Tverrusselv bru" />
+		<tag k="ref" v="889" />
+		<tag k="ssr:stedsnr" v="870934" />
+		<nd ref="5867396542" />
+		<nd ref="5867412112" />
+	</way>
+	<way id="178953481" version="7" timestamp="2022-01-21T07:16:18Z" changeset="116415148" uid="3497659" user="NKA">
+		<tag k="bridge" v="yes" />
+		<tag k="highway" v="secondary" />
+		<tag k="layer" v="1" />
+		<tag k="maxspeed" v="60" />
+		<tag k="name" v="Holmen bru - Kolarinsaarensilta" />
+		<tag k="name:fkv" v="Kolarinsaarensilta" />
+		<tag k="name:no" v="Holmen bru" />
+		<tag k="old_ref" v="184" />
+		<tag k="ref" v="8062" />
+		<tag k="ssr:stedsnr" v="820370" />
+		<tag k="surface" v="asphalt" />
+		<nd ref="5867417034" />
+		<nd ref="5867399160" />
+	</way>
 	<way id="614791809" version="58" timestamp="2020-03-08T19:59:43Z" changeset="81932379" uid="7589857" user="Marius Geitle_import">
 		<tag k="name" v="Finnmarksvidda" />
 		<tag k="natural" v="mountain_range" />

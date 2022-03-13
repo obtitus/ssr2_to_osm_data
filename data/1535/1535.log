@@ -1,4 +1,5 @@
-utility_to_osm.file_util - INFO - file_age(ssr2_to_osm_data/data/1535/1535-ssr.xml) -> 12.5 days
+utility_to_osm.file_util - INFO - file_age(ssr2_to_osm_data/data/1535/1535-ssr.xml) -> 53.6 days
+utility_to_osm.gentle_requests - INFO - requested http://wfs.geonorge.no/skwms1/wfs.stedsnavn50?VERSION=2.0.0&SERVICE=WFS&srsName=EPSG:25832&REQUEST=GetFeature&TYPENAME=Sted&resultType=results&Filter=%3CFilter%3E%20%3CPropertyIsEqualTo%3E%20%3CValueReference%20xmlns:app=%22http://skjema.geonorge.no/SOSI/produktspesifikasjon/Stedsnavn/5.0%22%3Eapp:kommune/app:Kommune/app:kommunenummer%3C/ValueReference%3E%20%3CLiteral%3E1535%3C/Literal%3E%20%3C/PropertyIsEqualTo%3E%20%3C/Filter%3E" --header "Content-Type:text/xml" ssr2_to_osm_data/data/1535/1535-ssr.xml, got <Response [200]>
 utility_to_osm - INFO - ssr:stedsnr = 10293: No name found
 utility_to_osm - INFO - ssr:stedsnr = 11505: No name found
 utility_to_osm - INFO - ssr:stedsnr = 11505 has multiple (2) positions, using the first one!
@@ -379,7 +380,6 @@ utility_to_osm - INFO - ssr:stedsnr = 254002 has multiple (2) positions, using t
 utility_to_osm - INFO - ssr:stedsnr = 254021: No name found
 utility_to_osm - INFO - ssr:stedsnr = 254021 has multiple (2) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 254024: No name found
-utility_to_osm - INFO - ssr:stedsnr = 254024 has multiple (3) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 254806: No name found
 utility_to_osm - INFO - ssr:stedsnr = 254806 has multiple (5) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 254801: No name found
@@ -2440,7 +2440,7 @@ utility_to_osm - INFO - ssr:stedsnr = 496979 has multiple (3) positions, using t
 utility_to_osm - INFO - ssr:stedsnr = 496930: No name found
 utility_to_osm - INFO - ssr:stedsnr = 496930 has multiple (2) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 496939: No name found
-utility_to_osm - INFO - ssr:stedsnr = 496939 has multiple (6) positions, using the first one!
+utility_to_osm - INFO - ssr:stedsnr = 496939 has multiple (48) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 497456: No name found
 utility_to_osm - INFO - ssr:stedsnr = 497456 has multiple (3) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 497536: No name found
@@ -2700,7 +2700,6 @@ utility_to_osm - INFO - ssr:stedsnr = 641074: No name found
 utility_to_osm - INFO - ssr:stedsnr = 641078: No name found
 utility_to_osm - INFO - ssr:stedsnr = 641083: No name found
 utility_to_osm - INFO - ssr:stedsnr = 641085: No name found
-utility_to_osm - INFO - ssr:stedsnr = 641087: No name found
 utility_to_osm - INFO - ssr:stedsnr = 641101: No name found
 utility_to_osm - INFO - ssr:stedsnr = 641534: No name found
 utility_to_osm - INFO - ssr:stedsnr = 641535: No name found
@@ -2769,7 +2768,6 @@ utility_to_osm - INFO - ignoring non approved status = "avslåttNavneledd" name 
 utility_to_osm - INFO - ignoring non approved status = "avslåttNavneledd" name = "Lomstjørna"
 utility_to_osm - INFO - ignoring non approved status = "avslåttNavneledd" name = "Lomstjørna"
 utility_to_osm - INFO - ssr:stedsnr = 739887: No name found
-utility_to_osm - INFO - ssr:stedsnr = 739887 has multiple (3) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 739995: No name found
 utility_to_osm - INFO - ssr:stedsnr = 739995 has multiple (3) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 740000: No name found
@@ -3395,6 +3393,10 @@ utility_to_osm - INFO - ssr:stedsnr = 1078420: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1079507: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1079507 has multiple (401) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 1080765: No name found
+utility_to_osm - INFO - ssr:stedsnr = 1083498: No name found
+utility_to_osm - INFO - ssr:stedsnr = 1083498 has multiple (129) positions, using the first one!
+utility_to_osm - INFO - ssr:stedsnr = 436308: No name found
+utility_to_osm - INFO - ssr:stedsnr = 436308 has multiple (3) positions, using the first one!
 utility_to_osm.ssr2.ssr2_tags - INFO - ssr:type = vegstrekning found in conversion table, but without tags
 utility_to_osm.ssr2.ssr2_tags - INFO - ssr:type = adressenavn found in conversion table, but without tags
 utility_to_osm.ssr2.ssr2_tags - INFO - ssr:type = adressenavn found in conversion table, but without tags

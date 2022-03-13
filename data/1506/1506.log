@@ -1,4 +1,5 @@
-utility_to_osm.file_util - INFO - file_age(ssr2_to_osm_data/data/1506/1506-ssr.xml) -> 11.6 days
+utility_to_osm.file_util - INFO - file_age(ssr2_to_osm_data/data/1506/1506-ssr.xml) -> 52.7 days
+utility_to_osm.gentle_requests - INFO - requested http://wfs.geonorge.no/skwms1/wfs.stedsnavn50?VERSION=2.0.0&SERVICE=WFS&srsName=EPSG:25832&REQUEST=GetFeature&TYPENAME=Sted&resultType=results&Filter=%3CFilter%3E%20%3CPropertyIsEqualTo%3E%20%3CValueReference%20xmlns:app=%22http://skjema.geonorge.no/SOSI/produktspesifikasjon/Stedsnavn/5.0%22%3Eapp:kommune/app:Kommune/app:kommunenummer%3C/ValueReference%3E%20%3CLiteral%3E1506%3C/Literal%3E%20%3C/PropertyIsEqualTo%3E%20%3C/Filter%3E" --header "Content-Type:text/xml" ssr2_to_osm_data/data/1506/1506-ssr.xml, got <Response [200]>
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Otterøya"
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Otterøya"
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Otterøya"
@@ -943,7 +944,6 @@ utility_to_osm - INFO - ssr:stedsnr = 254570: No name found
 utility_to_osm - INFO - ssr:stedsnr = 254675: No name found
 utility_to_osm - INFO - ssr:stedsnr = 254675 has multiple (3) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 254683: No name found
-utility_to_osm - INFO - ssr:stedsnr = 254683 has multiple (2) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 254688: No name found
 utility_to_osm - INFO - ssr:stedsnr = 254814: No name found
 utility_to_osm - INFO - ssr:stedsnr = 254814 has multiple (2) positions, using the first one!
@@ -2600,7 +2600,6 @@ utility_to_osm - INFO - ssr:stedsnr = 702593: No name found
 utility_to_osm - INFO - ssr:stedsnr = 702600: No name found
 utility_to_osm - INFO - ssr:stedsnr = 702629: No name found
 utility_to_osm - INFO - ssr:stedsnr = 702630: No name found
-utility_to_osm - INFO - ssr:stedsnr = 702642: No name found
 utility_to_osm - INFO - ssr:stedsnr = 702648: No name found
 utility_to_osm - INFO - ssr:stedsnr = 702652: No name found
 utility_to_osm - INFO - ssr:stedsnr = 702658: No name found
@@ -3932,7 +3931,6 @@ utility_to_osm - INFO - ssr:stedsnr = 931200: No name found
 utility_to_osm - INFO - ssr:stedsnr = 931744: No name found
 utility_to_osm - INFO - ssr:stedsnr = 931744 has multiple (2) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 937719: No name found
-utility_to_osm - INFO - ssr:stedsnr = 937719 has multiple (2) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 939340: No name found
 utility_to_osm - INFO - ssr:stedsnr = 944162: No name found
 utility_to_osm - INFO - ssr:stedsnr = 944780: No name found
@@ -4841,7 +4839,6 @@ utility_to_osm - INFO - ssr:stedsnr = 133485 has multiple (6) positions, using t
 utility_to_osm - INFO - ssr:stedsnr = 133486: No name found
 utility_to_osm - INFO - ssr:stedsnr = 133486 has multiple (6) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 133430: No name found
-utility_to_osm - INFO - ssr:stedsnr = 133430 has multiple (2) positions, using the first one!
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Haugstølen"
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Haugasetra"
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Haugstølen"
@@ -6696,8 +6693,6 @@ utility_to_osm - INFO - ssr:stedsnr = 497579: No name found
 utility_to_osm - INFO - ssr:stedsnr = 497588: No name found
 utility_to_osm - INFO - ssr:stedsnr = 497724: No name found
 utility_to_osm - INFO - ssr:stedsnr = 497724 has multiple (2) positions, using the first one!
-utility_to_osm - INFO - ssr:stedsnr = 497733: No name found
-utility_to_osm - INFO - ssr:stedsnr = 497733 has multiple (2) positions, using the first one!
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Trælåa"
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Trælåa"
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Trælåa"

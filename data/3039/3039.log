@@ -1,4 +1,5 @@
-utility_to_osm.file_util - INFO - file_age(ssr2_to_osm_data/data/3039/3039-ssr.xml) -> 12.5 days
+utility_to_osm.file_util - INFO - file_age(ssr2_to_osm_data/data/3039/3039-ssr.xml) -> 53.6 days
+utility_to_osm.gentle_requests - INFO - requested http://wfs.geonorge.no/skwms1/wfs.stedsnavn50?VERSION=2.0.0&SERVICE=WFS&srsName=EPSG:25832&REQUEST=GetFeature&TYPENAME=Sted&resultType=results&Filter=%3CFilter%3E%20%3CPropertyIsEqualTo%3E%20%3CValueReference%20xmlns:app=%22http://skjema.geonorge.no/SOSI/produktspesifikasjon/Stedsnavn/5.0%22%3Eapp:kommune/app:Kommune/app:kommunenummer%3C/ValueReference%3E%20%3CLiteral%3E3039%3C/Literal%3E%20%3C/PropertyIsEqualTo%3E%20%3C/Filter%3E" --header "Content-Type:text/xml" ssr2_to_osm_data/data/3039/3039-ssr.xml, got <Response [200]>
 utility_to_osm - INFO - ssr:stedsnr = 5360: No name found
 utility_to_osm - INFO - ignoring non approved status = "avslåttNavneledd" name = "Vollsætran"
 utility_to_osm - INFO - ignoring non approved status = "avslåttNavneledd" name = "Vollsætran"
@@ -1033,7 +1034,6 @@ utility_to_osm - INFO - ssr:stedsnr = 673971 has multiple (2) positions, using t
 utility_to_osm - INFO - ssr:stedsnr = 673979: No name found
 utility_to_osm - INFO - ssr:stedsnr = 673982: No name found
 utility_to_osm - INFO - ssr:stedsnr = 674178: No name found
-utility_to_osm - INFO - ssr:stedsnr = 674178 has multiple (3) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 674181: No name found
 utility_to_osm - INFO - ssr:stedsnr = 674759: No name found
 utility_to_osm - INFO - ssr:stedsnr = 674760: No name found
@@ -1503,7 +1503,6 @@ utility_to_osm - INFO - ssr:stedsnr = 5356: No name found
 utility_to_osm - INFO - ssr:stedsnr = 5356 has multiple (2) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 6023: No name found
 utility_to_osm - INFO - ssr:stedsnr = 6028: No name found
-utility_to_osm - INFO - ssr:stedsnr = 6028 has multiple (2) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 6030: No name found
 utility_to_osm - INFO - ssr:stedsnr = 6030 has multiple (2) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 6036: No name found
@@ -2765,6 +2764,7 @@ utility_to_osm - INFO - ssr:stedsnr = 1079464: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1079078: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1079079: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1081261: No name found
+utility_to_osm - INFO - ssr:stedsnr = 1083620: No name found
 utility_to_osm.ssr2.ssr2_tags - INFO - ssr:type = vegstrekning found in conversion table, but without tags
 utility_to_osm.ssr2.ssr2_tags - INFO - ssr:type = adressenavn found in conversion table, but without tags
 utility_to_osm.ssr2.ssr2_tags - INFO - ssr:type = adressenavn found in conversion table, but without tags

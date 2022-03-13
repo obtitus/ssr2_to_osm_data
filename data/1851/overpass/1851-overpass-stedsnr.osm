@@ -1,2 +1,104 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<osm version="0.6" generator="osmapis" />
+<osm version="0.6" generator="osmapis">
+	<node id="21651172" lat="68.4681719" lon="15.8936152" version="13" timestamp="2022-01-26T06:22:04Z" changeset="116610177" uid="3497659" user="NKA">
+		<tag k="junction" v="yes" />
+		<tag k="name" v="Kanstadkrysset" />
+		<tag k="ssr:stedsnr" v="1081921" />
+	</node>
+	<node id="5303563819" lat="68.441642" lon="16.0072477" version="2" timestamp="2022-01-26T06:22:04Z" changeset="116610177" uid="3497659" user="NKA">
+		<tag k="junction" v="yes" />
+		<tag k="name" v="Kåringskrysset" />
+		<tag k="ssr:stedsnr" v="570455" />
+	</node>
+	<node id="5303567120" lat="68.5231505" lon="15.8474119" version="1" timestamp="2017-12-25T18:55:18Z" changeset="54913567" uid="3296383" user="Reitstoen_import" />
+	<node id="5303567221" lat="68.5231264" lon="15.8476166" version="1" timestamp="2017-12-25T18:55:18Z" changeset="54913567" uid="3296383" user="Reitstoen_import" />
+	<node id="5303567101" lat="68.5169946" lon="15.8686915" version="1" timestamp="2017-12-25T18:55:18Z" changeset="54913567" uid="3296383" user="Reitstoen_import" />
+	<node id="5303567103" lat="68.5171572" lon="15.8677442" version="1" timestamp="2017-12-25T18:55:18Z" changeset="54913567" uid="3296383" user="Reitstoen_import" />
+	<node id="5303568655" lat="68.4608488" lon="16.0305482" version="1" timestamp="2017-12-25T18:55:37Z" changeset="54913567" uid="3296383" user="Reitstoen_import" />
+	<node id="5303568661" lat="68.4607811" lon="16.0303759" version="1" timestamp="2017-12-25T18:55:37Z" changeset="54913567" uid="3296383" user="Reitstoen_import" />
+	<node id="5303568587" lat="68.4724328" lon="16.0654783" version="2" timestamp="2020-01-02T17:06:32Z" changeset="79123045" uid="2800603" user="skifans" />
+	<node id="5303568592" lat="68.4723953" lon="16.0653131" version="1" timestamp="2017-12-25T18:55:36Z" changeset="54913567" uid="3296383" user="Reitstoen_import" />
+	<node id="5303566825" lat="68.4924821" lon="16.0814155" version="2" timestamp="2020-01-02T17:06:32Z" changeset="79123045" uid="2800603" user="skifans" />
+	<node id="5303566827" lat="68.4925451" lon="16.081432" version="1" timestamp="2017-12-25T18:55:13Z" changeset="54913567" uid="3296383" user="Reitstoen_import" />
+	<node id="5303566526" lat="68.5265643" lon="16.1057985" version="1" timestamp="2017-12-25T18:55:08Z" changeset="54913567" uid="3296383" user="Reitstoen_import" />
+	<node id="5303566533" lat="68.5264676" lon="16.1056398" version="1" timestamp="2017-12-25T18:55:08Z" changeset="54913567" uid="3296383" user="Reitstoen_import" />
+	<way id="200876490" version="7" timestamp="2022-01-24T06:56:00Z" changeset="116526664" uid="3497659" user="NKA">
+		<tag k="bridge" v="yes" />
+		<tag k="highway" v="trunk" />
+		<tag k="lanes" v="2" />
+		<tag k="layer" v="1" />
+		<tag k="lit" v="no" />
+		<tag k="maxspeed" v="80" />
+		<tag k="name" v="Botnbrua - Heargeváhjogarovvi" />
+		<tag k="name:no" v="Botnbrua" />
+		<tag k="name:se" v="Heargeváhjogarovvi" />
+		<tag k="ref" v="E 10;85" />
+		<tag k="sidewalk" v="none" />
+		<tag k="source:maxspeed" v="NO:rural" />
+		<tag k="ssr:stedsnr" v="1073134" />
+		<tag k="surface" v="asphalt" />
+		<tag k="width" v="6.5" />
+		<nd ref="5303567101" />
+		<nd ref="5303567103" />
+	</way>
+	<way id="200876491" version="8" timestamp="2022-01-24T06:56:00Z" changeset="116526664" uid="3497659" user="NKA">
+		<tag k="bridge" v="yes" />
+		<tag k="highway" v="trunk" />
+		<tag k="lanes" v="2" />
+		<tag k="layer" v="1" />
+		<tag k="lit" v="no" />
+		<tag k="maxspeed" v="80" />
+		<tag k="name" v="Austerdalsbrua" />
+		<tag k="ref" v="E 10;85" />
+		<tag k="source:maxspeed" v="NO:rural" />
+		<tag k="ssr:stedsnr" v="1073222" />
+		<tag k="surface" v="asphalt" />
+		<tag k="width" v="6.5" />
+		<nd ref="5303567221" />
+		<nd ref="5303567120" />
+	</way>
+	<way id="549021157" version="3" timestamp="2022-01-24T06:56:00Z" changeset="116526664" uid="3497659" user="NKA">
+		<tag k="bridge" v="yes" />
+		<tag k="highway" v="trunk" />
+		<tag k="layer" v="1" />
+		<tag k="maxspeed" v="80" />
+		<tag k="name" v="Stielvbrua" />
+		<tag k="ref" v="E 10" />
+		<tag k="ssr:stedsnr" v="1073242" />
+		<nd ref="5303566526" />
+		<nd ref="5303566533" />
+	</way>
+	<way id="549021158" version="3" timestamp="2022-01-24T06:56:00Z" changeset="116526664" uid="3497659" user="NKA">
+		<tag k="bridge" v="yes" />
+		<tag k="highway" v="trunk" />
+		<tag k="layer" v="1" />
+		<tag k="maxspeed" v="80" />
+		<tag k="name" v="Djupfestbrua" />
+		<tag k="ref" v="E 10" />
+		<tag k="ssr:stedsnr" v="1073151" />
+		<nd ref="5303566827" />
+		<nd ref="5303566825" />
+	</way>
+	<way id="549021164" version="3" timestamp="2022-01-24T06:56:00Z" changeset="116526664" uid="3497659" user="NKA">
+		<tag k="bridge" v="yes" />
+		<tag k="highway" v="trunk" />
+		<tag k="layer" v="1" />
+		<tag k="maxspeed" v="80" />
+		<tag k="name" v="Strandsbrua" />
+		<tag k="ref" v="E 10" />
+		<tag k="ssr:stedsnr" v="1073149" />
+		<nd ref="5303568587" />
+		<nd ref="5303568592" />
+	</way>
+	<way id="549021166" version="4" timestamp="2022-01-24T06:56:00Z" changeset="116526664" uid="3497659" user="NKA">
+		<tag k="bridge" v="yes" />
+		<tag k="highway" v="trunk" />
+		<tag k="layer" v="1" />
+		<tag k="maxspeed" v="60" />
+		<tag k="name" v="Slåttdalsbrua" />
+		<tag k="ref" v="E 10" />
+		<tag k="ssr:stedsnr" v="1073136" />
+		<nd ref="5303568655" />
+		<nd ref="5303568661" />
+	</way>
+</osm>

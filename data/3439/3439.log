@@ -1,4 +1,5 @@
-utility_to_osm.file_util - INFO - file_age(ssr2_to_osm_data/data/3439/3439-ssr.xml) -> 12.5 days
+utility_to_osm.file_util - INFO - file_age(ssr2_to_osm_data/data/3439/3439-ssr.xml) -> 53.6 days
+utility_to_osm.gentle_requests - INFO - requested http://wfs.geonorge.no/skwms1/wfs.stedsnavn50?VERSION=2.0.0&SERVICE=WFS&srsName=EPSG:25832&REQUEST=GetFeature&TYPENAME=Sted&resultType=results&Filter=%3CFilter%3E%20%3CPropertyIsEqualTo%3E%20%3CValueReference%20xmlns:app=%22http://skjema.geonorge.no/SOSI/produktspesifikasjon/Stedsnavn/5.0%22%3Eapp:kommune/app:Kommune/app:kommunenummer%3C/ValueReference%3E%20%3CLiteral%3E3439%3C/Literal%3E%20%3C/PropertyIsEqualTo%3E%20%3C/Filter%3E" --header "Content-Type:text/xml" ssr2_to_osm_data/data/3439/3439-ssr.xml, got <Response [200]>
 utility_to_osm - INFO - ssr:stedsnr = 8393: No name found
 utility_to_osm - INFO - ssr:stedsnr = 8393 has multiple (2) positions, using the first one!
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Steinslåtjørnet"
@@ -632,7 +633,7 @@ utility_to_osm - INFO - ssr:stedsnr = 403489: No name found
 utility_to_osm - INFO - ssr:stedsnr = 403577: No name found
 utility_to_osm - INFO - ssr:stedsnr = 403577 has multiple (3) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 403728: No name found
-utility_to_osm - INFO - ssr:stedsnr = 403780 not active = "relikt". Skipping...
+utility_to_osm - INFO - ssr:stedsnr = 403780: No name found
 utility_to_osm - INFO - ssr:stedsnr = 403781: No name found
 utility_to_osm - INFO - ssr:stedsnr = 403788: No name found
 utility_to_osm - INFO - ssr:stedsnr = 403792: No name found
@@ -1905,7 +1906,7 @@ utility_to_osm - INFO - ssr:stedsnr = 160912: No name found
 utility_to_osm - INFO - ssr:stedsnr = 160915: No name found
 utility_to_osm - INFO - ssr:stedsnr = 160978: No name found
 utility_to_osm - INFO - ssr:stedsnr = 160981: No name found
-utility_to_osm - INFO - ssr:stedsnr = 160985 not active = "relikt". Skipping...
+utility_to_osm - INFO - ssr:stedsnr = 160985: No name found
 utility_to_osm - INFO - ssr:stedsnr = 173391: No name found
 utility_to_osm - INFO - ssr:stedsnr = 173396: No name found
 utility_to_osm - INFO - ssr:stedsnr = 173311: No name found
@@ -2054,7 +2055,7 @@ utility_to_osm - INFO - ssr:stedsnr = 282558: No name found
 utility_to_osm - INFO - ssr:stedsnr = 282659: No name found
 utility_to_osm - INFO - ssr:stedsnr = 282664: No name found
 utility_to_osm - INFO - ssr:stedsnr = 282831: No name found
-utility_to_osm - INFO - ssr:stedsnr = 282814 not active = "relikt". Skipping...
+utility_to_osm - INFO - ssr:stedsnr = 282814: No name found
 utility_to_osm - INFO - ssr:stedsnr = 282914: No name found
 utility_to_osm - INFO - ssr:stedsnr = 282914 has multiple (3) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 282924: No name found

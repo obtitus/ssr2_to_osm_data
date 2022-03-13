@@ -1,2 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<osm version="0.6" generator="osmapis" />
+<osm version="0.6" generator="osmapis">
+	<node id="25941573" lat="63.4033451" lon="10.8053759" version="5" timestamp="2017-09-09T13:39:42Z" changeset="51880339" uid="3497659" user="NKA" />
+	<node id="8597767376" lat="63.4033741" lon="10.806038" version="2" timestamp="2022-01-24T21:00:15Z" changeset="116559033" uid="3497659" user="NKA" />
+	<node id="9445777757" lat="63.4034029" lon="10.8065692" version="1" timestamp="2022-01-24T21:00:15Z" changeset="116559033" uid="3497659" user="NKA" />
+	<node id="502231032" lat="63.4035915" lon="10.8087569" version="1" timestamp="2009-09-19T18:44:29Z" changeset="2536964" uid="114230" user="danerikk" />
+	<node id="502231046" lat="63.4034361" lon="10.8070736" version="2" timestamp="2015-02-14T13:26:07Z" changeset="28841023" uid="366321" user="Peter Bremer" />
+	<node id="8597767377" lat="63.4036779" lon="10.8094954" version="1" timestamp="2021-04-06T06:42:00Z" changeset="102376783" uid="3497659" user="NKA" />
+	<node id="8597767378" lat="63.4035014" lon="10.8078834" version="2" timestamp="2022-01-24T21:00:15Z" changeset="116559033" uid="3497659" user="NKA" />
+	<node id="9445777755" lat="63.4035446" lon="10.8082938" version="1" timestamp="2022-01-24T21:00:15Z" changeset="116559033" uid="3497659" user="NKA" />
+	<node id="9445777756" lat="63.4034678" lon="10.8074623" version="1" timestamp="2022-01-24T21:00:15Z" changeset="116559033" uid="3497659" user="NKA" />
+	<node id="8601566967" lat="63.4138524" lon="10.8052376" version="2" timestamp="2022-01-24T21:00:15Z" changeset="116559033" uid="3497659" user="NKA" />
+	<node id="8601567020" lat="63.4134718" lon="10.8039375" version="2" timestamp="2022-01-24T21:00:15Z" changeset="116559033" uid="3497659" user="NKA" />
+	<way id="4297423" version="9" timestamp="2022-01-24T21:00:15Z" changeset="116559033" uid="3497659" user="NKA">
+		<tag k="bridge" v="yes" />
+		<tag k="bridge:structure" v="beam" />
+		<tag k="highway" v="trunk" />
+		<tag k="layer" v="1" />
+		<tag k="maxspeed" v="80" />
+		<tag k="motorroad" v="yes" />
+		<tag k="name" v="Hommelvikbrua" />
+		<tag k="ref" v="E 6" />
+		<tag k="ssr:stedsnr" v="149569" />
+		<nd ref="8597767377" />
+		<nd ref="502231032" />
+		<nd ref="9445777755" />
+		<nd ref="8597767378" />
+		<nd ref="9445777756" />
+		<nd ref="502231046" />
+		<nd ref="9445777757" />
+		<nd ref="8597767376" />
+		<nd ref="25941573" />
+	</way>
+	<way id="4297426" version="9" timestamp="2022-01-24T21:00:15Z" changeset="116559033" uid="3497659" user="NKA">
+		<tag k="bridge" v="yes" />
+		<tag k="bridge:structure" v="truss" />
+		<tag k="highway" v="primary" />
+		<tag k="layer" v="1" />
+		<tag k="maxspeed" v="50" />
+		<tag k="name" v="Homla bru" />
+		<tag k="ref" v="950" />
+		<tag k="ssr:stedsnr" v="635554" />
+		<tag k="surface" v="asphalt" />
+		<nd ref="8601567020" />
+		<nd ref="8601566967" />
+	</way>
+</osm>

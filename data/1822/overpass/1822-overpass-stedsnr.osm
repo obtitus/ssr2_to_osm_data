@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <osm version="0.6" generator="osmapis">
+	<node id="6130516909" lat="66.0345377" lon="12.7219837" version="1" timestamp="2018-12-11T11:40:19Z" changeset="65372935" uid="7543313" user="ENTUR Fredrik Edler" />
+	<node id="272276601" lat="66.0393761" lon="12.7194572" version="5" timestamp="2017-09-05T12:01:21Z" changeset="51747834" uid="5732597" user="ENTUR Johan Wiklund" />
+	<node id="272276602" lat="66.0378261" lon="12.7202699" version="6" timestamp="2018-12-11T11:41:01Z" changeset="65372935" uid="7543313" user="ENTUR Fredrik Edler" />
+	<node id="2167396200" lat="66.0386419" lon="12.7198309" version="2" timestamp="2017-09-05T12:02:18Z" changeset="51747834" uid="5732597" user="ENTUR Johan Wiklund" />
+	<node id="5081412271" lat="66.0415225" lon="12.7183297" version="1" timestamp="2017-09-05T11:57:07Z" changeset="51747705" uid="5732597" user="ENTUR Johan Wiklund" />
 	<node id="5959891703" lat="66.1900134" lon="13.4335402" version="1" timestamp="2018-10-05T20:57:12Z" changeset="63243237" uid="3296383" user="Reitstoen_import" />
 	<node id="5959892954" lat="66.1898398" lon="13.4316967" version="1" timestamp="2018-10-05T20:57:29Z" changeset="63243237" uid="3296383" user="Reitstoen_import" />
 	<node id="5959894553" lat="66.1900925" lon="13.4334965" version="1" timestamp="2018-10-05T20:57:52Z" changeset="63243237" uid="3296383" user="Reitstoen_import" />
@@ -74,6 +79,23 @@
 	<node id="5959901977" lat="66.1912422" lon="13.4301849" version="1" timestamp="2018-10-05T20:59:50Z" changeset="63243237" uid="3296383" user="Reitstoen_import" />
 	<node id="5959902086" lat="66.1908697" lon="13.4311397" version="1" timestamp="2018-10-05T20:59:50Z" changeset="63243237" uid="3296383" user="Reitstoen_import" />
 	<node id="5959902830" lat="66.1910754" lon="13.4293031" version="1" timestamp="2018-10-05T21:00:07Z" changeset="63243237" uid="3296383" user="Reitstoen_import" />
+	<way id="521526917" version="6" timestamp="2022-01-24T06:56:00Z" changeset="116526664" uid="3497659" user="NKA">
+		<tag k="bridge" v="yes" />
+		<tag k="bridge:structure" v="cable-stayed" />
+		<tag k="highway" v="primary" />
+		<tag k="layer" v="1" />
+		<tag k="maxspeed" v="80" />
+		<tag k="name" v="Helgelandsbrua" />
+		<tag k="oneway" v="no" />
+		<tag k="ref" v="17" />
+		<tag k="ssr:stedsnr" v="815789" />
+		<tag k="surface" v="asphalt" />
+		<nd ref="6130516909" />
+		<nd ref="272276602" />
+		<nd ref="2167396200" />
+		<nd ref="272276601" />
+		<nd ref="5081412271" />
+	</way>
 	<way id="631123776" version="1" timestamp="2018-10-05T21:00:56Z" changeset="63243308" uid="3296383" user="Reitstoen_import">
 		<tag k="source" v="Kartverket N50" />
 		<tag k="source:date" v="2009-07-04" />

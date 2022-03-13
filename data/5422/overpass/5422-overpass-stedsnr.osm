@@ -1,2 +1,66 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<osm version="0.6" generator="osmapis" />
+<osm version="0.6" generator="osmapis">
+	<node id="443774079" lat="69.2682613" lon="19.4135538" version="3" timestamp="2022-01-26T06:08:00Z" changeset="116609992" uid="3497659" user="NKA">
+		<tag k="junction" v="yes" />
+		<tag k="name" v="Lakselvdalkrysset" />
+		<tag k="ssr:stedsnr" v="231693" />
+	</node>
+	<node id="5781439886" lat="69.2164017" lon="19.3230746" version="2" timestamp="2022-01-26T06:08:00Z" changeset="116609992" uid="3497659" user="NKA">
+		<tag k="junction" v="yes" />
+		<tag k="name" v="Veikroken" />
+		<tag k="ssr:stedsnr" v="474856" />
+	</node>
+	<node id="3373041897" lat="69.0482787" lon="19.4459206" version="2" timestamp="2018-07-20T14:38:40Z" changeset="60909756" uid="8524080" user="Entur AS | Bjørn Lie Rapp" />
+	<node id="3373041898" lat="69.0484298" lon="19.4462488" version="3" timestamp="2022-01-09T19:39:17Z" changeset="115955494" uid="32112" user="SverigeFan" />
+	<node id="5781441757" lat="69.2173107" lon="19.3073019" version="1" timestamp="2018-07-24T09:56:48Z" changeset="61015983" uid="8524080" user="Entur AS | Bjørn Lie Rapp" />
+	<node id="5781441769" lat="69.2173446" lon="19.307507" version="1" timestamp="2018-07-24T09:56:48Z" changeset="61015983" uid="8524080" user="Entur AS | Bjørn Lie Rapp" />
+	<node id="5781443564" lat="69.2182475" lon="19.4850887" version="1" timestamp="2018-07-24T09:57:03Z" changeset="61015983" uid="8524080" user="Entur AS | Bjørn Lie Rapp" />
+	<node id="5781443694" lat="69.2181934" lon="19.485447" version="1" timestamp="2018-07-24T09:57:05Z" changeset="61015983" uid="8524080" user="Entur AS | Bjørn Lie Rapp" />
+	<node id="9435813888" lat="69.4183729" lon="18.6896592" version="1" timestamp="2022-01-21T07:34:53Z" changeset="116415921" uid="3497659" user="NKA" />
+	<node id="9435813889" lat="69.4182776" lon="18.689501" version="1" timestamp="2022-01-21T07:34:53Z" changeset="116415921" uid="3497659" user="NKA" />
+	<way id="330342206" version="3" timestamp="2022-01-21T07:16:18Z" changeset="116415148" uid="3497659" user="NKA">
+		<tag k="bridge" v="yes" />
+		<tag k="highway" v="service" />
+		<tag k="layer" v="1" />
+		<tag k="loc_name" v="Nystedbrua" />
+		<tag k="name" v="Nysted bru" />
+		<tag k="ssr:stedsnr" v="656085" />
+		<nd ref="3373041897" />
+		<nd ref="3373041898" />
+	</way>
+	<way id="425425360" version="3" timestamp="2022-01-21T07:16:18Z" changeset="116415148" uid="3497659" user="NKA">
+		<tag k="bridge" v="yes" />
+		<tag k="highway" v="trunk" />
+		<tag k="lanes" v="2" />
+		<tag k="layer" v="1" />
+		<tag k="maxspeed:backward" v="70" />
+		<tag k="maxspeed:forward" v="90" />
+		<tag k="name" v="Tømmerelvbrua" />
+		<tag k="ref" v="E 6" />
+		<tag k="ssr:stedsnr" v="929136" />
+		<nd ref="5781441757" />
+		<nd ref="5781441769" />
+	</way>
+	<way id="610486317" version="3" timestamp="2022-01-21T07:16:18Z" changeset="116415148" uid="3497659" user="NKA">
+		<tag k="bridge" v="yes" />
+		<tag k="highway" v="secondary" />
+		<tag k="layer" v="1" />
+		<tag k="loc_name" v="Russenesbrua" />
+		<tag k="maxspeed" v="60" />
+		<tag k="name" v="Russenes bru" />
+		<tag k="old_ref" v="295" />
+		<tag k="ref" v="7904" />
+		<tag k="ssr:stedsnr" v="625093" />
+		<nd ref="5781443564" />
+		<nd ref="5781443694" />
+	</way>
+	<way id="1023147763" version="1" timestamp="2022-01-21T07:34:53Z" changeset="116415921" uid="3497659" user="NKA">
+		<tag k="bridge" v="yes" />
+		<tag k="highway" v="path" />
+		<tag k="layer" v="1" />
+		<tag k="name" v="Fjellbrua" />
+		<tag k="ssr:stedsnr" v="656004" />
+		<nd ref="9435813889" />
+		<nd ref="9435813888" />
+	</way>
+</osm>

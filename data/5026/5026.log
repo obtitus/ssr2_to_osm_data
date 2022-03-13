@@ -1,4 +1,5 @@
-utility_to_osm.file_util - INFO - file_age(ssr2_to_osm_data/data/5026/5026-ssr.xml) -> 0.5 days
+utility_to_osm.file_util - INFO - file_age(ssr2_to_osm_data/data/5026/5026-ssr.xml) -> 41.6 days
+utility_to_osm.gentle_requests - INFO - requested http://wfs.geonorge.no/skwms1/wfs.stedsnavn50?VERSION=2.0.0&SERVICE=WFS&srsName=EPSG:25832&REQUEST=GetFeature&TYPENAME=Sted&resultType=results&Filter=%3CFilter%3E%20%3CPropertyIsEqualTo%3E%20%3CValueReference%20xmlns:app=%22http://skjema.geonorge.no/SOSI/produktspesifikasjon/Stedsnavn/5.0%22%3Eapp:kommune/app:Kommune/app:kommunenummer%3C/ValueReference%3E%20%3CLiteral%3E5026%3C/Literal%3E%20%3C/PropertyIsEqualTo%3E%20%3C/Filter%3E" --header "Content-Type:text/xml" ssr2_to_osm_data/data/5026/5026-ssr.xml, got <Response [200]>
 utility_to_osm - INFO - ssr:stedsnr = 11005: No name found
 utility_to_osm - INFO - ssr:stedsnr = 11037: No name found
 utility_to_osm - INFO - ssr:stedsnr = 11231: No name found
@@ -372,10 +373,6 @@ utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Gjerde
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Gjerdevollen"
 utility_to_osm - INFO - ssr:stedsnr = 195805: No name found
 utility_to_osm - INFO - ssr:stedsnr = 195805 has multiple (2) positions, using the first one!
-utility_to_osm - INFO - ssr:stedsnr = 196523: No name found
-utility_to_osm - INFO - ssr:stedsnr = 196523: No name found
-utility_to_osm - INFO - ssr:stedsnr = 196523: Multi-language name tag = Kløftfjellet - Sloeptjenguevtele
-utility_to_osm - INFO - ssr:stedsnr = 196523 has multiple (2) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 267528: No name found
 utility_to_osm - INFO - ssr:stedsnr = 202348: No name found
 utility_to_osm - INFO - ssr:stedsnr = 202348 has multiple (2) positions, using the first one!
@@ -600,8 +597,6 @@ utility_to_osm - INFO - ssr:stedsnr = 316950: No name found
 utility_to_osm - INFO - ssr:stedsnr = 316950 has multiple (2) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 467692: No name found
 utility_to_osm - INFO - ssr:stedsnr = 467857: No name found
-utility_to_osm - INFO - ssr:stedsnr = 467986: No name found
-utility_to_osm - INFO - ssr:stedsnr = 467986 has multiple (3) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 470056: No name found
 utility_to_osm - INFO - ssr:stedsnr = 470092: No name found
 utility_to_osm - INFO - ssr:stedsnr = 470237: No name found

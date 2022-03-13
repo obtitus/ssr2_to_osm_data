@@ -1,4 +1,5 @@
-utility_to_osm.file_util - INFO - file_age(ssr2_to_osm_data/data/3401/3401-ssr.xml) -> 12.5 days
+utility_to_osm.file_util - INFO - file_age(ssr2_to_osm_data/data/3401/3401-ssr.xml) -> 53.6 days
+utility_to_osm.gentle_requests - INFO - requested http://wfs.geonorge.no/skwms1/wfs.stedsnavn50?VERSION=2.0.0&SERVICE=WFS&srsName=EPSG:25832&REQUEST=GetFeature&TYPENAME=Sted&resultType=results&Filter=%3CFilter%3E%20%3CPropertyIsEqualTo%3E%20%3CValueReference%20xmlns:app=%22http://skjema.geonorge.no/SOSI/produktspesifikasjon/Stedsnavn/5.0%22%3Eapp:kommune/app:Kommune/app:kommunenummer%3C/ValueReference%3E%20%3CLiteral%3E3401%3C/Literal%3E%20%3C/PropertyIsEqualTo%3E%20%3C/Filter%3E" --header "Content-Type:text/xml" ssr2_to_osm_data/data/3401/3401-ssr.xml, got <Response [200]>
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Åssum, nedre"
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Nedre Åsum"
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Åssum, nedre"
@@ -299,7 +300,6 @@ utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Lundbe
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Lundberget"
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Lundberget"
 utility_to_osm - INFO - ssr:stedsnr = 66900: No name found
-utility_to_osm - INFO - ssr:stedsnr = 66900 has multiple (3) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 67201: No name found
 utility_to_osm - INFO - ssr:stedsnr = 67202: No name found
 utility_to_osm - INFO - ssr:stedsnr = 67202 has multiple (2) positions, using the first one!
@@ -547,7 +547,6 @@ utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Vidtje
 utility_to_osm - INFO - ssr:stedsnr = 126824: No name found
 utility_to_osm - INFO - ssr:stedsnr = 126824 has multiple (4) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 126896: No name found
-utility_to_osm - INFO - ssr:stedsnr = 126896 has multiple (2) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 127049: No name found
 utility_to_osm - INFO - ssr:stedsnr = 127049 has multiple (2) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 127050: No name found
@@ -656,7 +655,7 @@ utility_to_osm - INFO - ssr:stedsnr = 176916: No name found
 utility_to_osm - INFO - ssr:stedsnr = 176918: No name found
 utility_to_osm - INFO - ssr:stedsnr = 176919: No name found
 utility_to_osm - INFO - ssr:stedsnr = 176923: No name found
-utility_to_osm - INFO - ssr:stedsnr = 177558 not active = "relikt". Skipping...
+utility_to_osm - INFO - ssr:stedsnr = 177558: No name found
 utility_to_osm - INFO - ssr:stedsnr = 177559: No name found
 utility_to_osm - INFO - ssr:stedsnr = 178066: No name found
 utility_to_osm - INFO - ssr:stedsnr = 178772: No name found
@@ -842,7 +841,10 @@ utility_to_osm - INFO - ssr:stedsnr = 248223 has multiple (2) positions, using t
 utility_to_osm - INFO - ssr:stedsnr = 248102: No name found
 utility_to_osm - INFO - ssr:stedsnr = 248102 has multiple (2) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 248105: No name found
-utility_to_osm - INFO - ssr:stedsnr = 248167 not active = "relikt". Skipping...
+utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Josekoia"
+utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Josekoia"
+utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Josekoia"
+utility_to_osm - INFO - ssr:stedsnr = 248167: No name found
 utility_to_osm - INFO - ssr:stedsnr = 248170: No name found
 utility_to_osm - INFO - ssr:stedsnr = 248170 has multiple (2) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 248254: No name found
@@ -1556,14 +1558,12 @@ utility_to_osm - INFO - ssr:stedsnr = 448990: No name found
 utility_to_osm - INFO - ssr:stedsnr = 672091: No name found
 utility_to_osm - INFO - ssr:stedsnr = 672091 has multiple (2) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 672527: No name found
-utility_to_osm - INFO - ssr:stedsnr = 672527 has multiple (2) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 672536: No name found
 utility_to_osm - INFO - ssr:stedsnr = 672536 has multiple (2) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 672539: No name found
 utility_to_osm - INFO - ssr:stedsnr = 672539 has multiple (2) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 672588: No name found
 utility_to_osm - INFO - ssr:stedsnr = 672598: No name found
-utility_to_osm - INFO - ssr:stedsnr = 672598 has multiple (2) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 673024: No name found
 utility_to_osm - INFO - ssr:stedsnr = 673026: No name found
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Lauvkjølen"
@@ -2061,7 +2061,6 @@ utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Steins
 utility_to_osm - INFO - ssr:stedsnr = 552536: No name found
 utility_to_osm - INFO - ssr:stedsnr = 552536 has multiple (2) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 552545: No name found
-utility_to_osm - INFO - ssr:stedsnr = 552545 has multiple (2) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 552547: No name found
 utility_to_osm - INFO - ignoring non approved status = "avslåttNavneledd" name = "Rytjernet, nordre"
 utility_to_osm - INFO - ignoring non approved status = "avslåttNavneledd" name = "Rytjernet, nordre"
@@ -2700,7 +2699,6 @@ utility_to_osm - INFO - ssr:stedsnr = 794917: No name found
 utility_to_osm - INFO - ssr:stedsnr = 794917 has multiple (3) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 794920: No name found
 utility_to_osm - INFO - ssr:stedsnr = 794923: No name found
-utility_to_osm - INFO - ssr:stedsnr = 794923 has multiple (2) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 794926: No name found
 utility_to_osm - INFO - ssr:stedsnr = 794963: No name found
 utility_to_osm - INFO - ssr:stedsnr = 794964: No name found
@@ -2821,7 +2819,6 @@ utility_to_osm - INFO - ignoring non approved status = "avslåttNavneledd" name 
 utility_to_osm - INFO - ignoring non approved status = "avslåttNavneledd" name = "Gåstjenna"
 utility_to_osm - INFO - ignoring non approved status = "avslåttNavneledd" name = "Gåstjenna"
 utility_to_osm - INFO - ssr:stedsnr = 915879: No name found
-utility_to_osm - INFO - ssr:stedsnr = 915879 has multiple (3) positions, using the first one!
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Lortholet"
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Lortholet"
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Lortholet"
@@ -3137,7 +3134,6 @@ utility_to_osm - INFO - ssr:stedsnr = 905405: No name found
 utility_to_osm - INFO - ssr:stedsnr = 905717: No name found
 utility_to_osm - INFO - ssr:stedsnr = 905717 has multiple (3) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 905756: No name found
-utility_to_osm - INFO - ssr:stedsnr = 905952: No name found
 utility_to_osm - INFO - ssr:stedsnr = 905955: No name found
 utility_to_osm - INFO - ssr:stedsnr = 905959: No name found
 utility_to_osm - INFO - ssr:stedsnr = 905960: No name found
@@ -4037,7 +4033,6 @@ utility_to_osm - INFO - ignoring non approved status = "avslåttNavneledd" name 
 utility_to_osm - INFO - ignoring non approved status = "avslåttNavneledd" name = "Gåstjernberget, vestre"
 utility_to_osm - INFO - ignoring non approved status = "avslåttNavneledd" name = "Gåstjennberget, vestre"
 utility_to_osm - INFO - ssr:stedsnr = 187874: No name found
-utility_to_osm - INFO - ssr:stedsnr = 187874 has multiple (3) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 187879: No name found
 utility_to_osm - INFO - ssr:stedsnr = 187990: No name found
 utility_to_osm - INFO - ssr:stedsnr = 187996: No name found
@@ -4685,7 +4680,6 @@ utility_to_osm - INFO - ssr:stedsnr = 426301: No name found
 utility_to_osm - INFO - ssr:stedsnr = 426301: Adding multiple names to name tag, this is not OK! name = "Glåma;Glomma"
 utility_to_osm - INFO - ssr:stedsnr = 426301 has multiple (342) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 430074: No name found
-utility_to_osm - INFO - ssr:stedsnr = 430074 has multiple (2) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 430076: No name found
 utility_to_osm - INFO - ssr:stedsnr = 430079: No name found
 utility_to_osm - INFO - ssr:stedsnr = 430085: No name found

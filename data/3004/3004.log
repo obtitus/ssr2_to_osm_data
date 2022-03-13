@@ -1,4 +1,5 @@
-utility_to_osm.file_util - INFO - file_age(ssr2_to_osm_data/data/3004/3004-ssr.xml) -> 12.5 days
+utility_to_osm.file_util - INFO - file_age(ssr2_to_osm_data/data/3004/3004-ssr.xml) -> 53.6 days
+utility_to_osm.gentle_requests - INFO - requested http://wfs.geonorge.no/skwms1/wfs.stedsnavn50?VERSION=2.0.0&SERVICE=WFS&srsName=EPSG:25832&REQUEST=GetFeature&TYPENAME=Sted&resultType=results&Filter=%3CFilter%3E%20%3CPropertyIsEqualTo%3E%20%3CValueReference%20xmlns:app=%22http://skjema.geonorge.no/SOSI/produktspesifikasjon/Stedsnavn/5.0%22%3Eapp:kommune/app:Kommune/app:kommunenummer%3C/ValueReference%3E%20%3CLiteral%3E3004%3C/Literal%3E%20%3C/PropertyIsEqualTo%3E%20%3C/Filter%3E" --header "Content-Type:text/xml" ssr2_to_osm_data/data/3004/3004-ssr.xml, got <Response [200]>
 utility_to_osm - INFO - ignoring non approved status = "avslåttNavneledd" name = "Båthamna"
 utility_to_osm - INFO - ignoring non approved status = "avslåttNavneledd" name = "Båthamna"
 utility_to_osm - INFO - ignoring non approved status = "avslåttNavneledd" name = "Båthamna"
@@ -1996,8 +1997,6 @@ utility_to_osm - INFO - ssr:stedsnr = 419059: No name found
 utility_to_osm - INFO - ssr:stedsnr = 419147: No name found
 utility_to_osm - INFO - ssr:stedsnr = 419148: No name found
 utility_to_osm - INFO - ssr:stedsnr = 418599: No name found
-utility_to_osm - INFO - ssr:stedsnr = 419229: No name found
-utility_to_osm - INFO - ssr:stedsnr = 419229 has multiple (2) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 419655: No name found
 utility_to_osm - INFO - ssr:stedsnr = 419182: No name found
 utility_to_osm - INFO - ssr:stedsnr = 419658: No name found
@@ -2098,7 +2097,7 @@ utility_to_osm - INFO - ssr:stedsnr = 542833: No name found
 utility_to_osm - INFO - ssr:stedsnr = 542835: No name found
 utility_to_osm - INFO - ssr:stedsnr = 542838: No name found
 utility_to_osm - INFO - ssr:stedsnr = 542839: No name found
-utility_to_osm - INFO - ssr:stedsnr = 543012: No name found
+utility_to_osm - INFO - ssr:stedsnr = 543012 not active = "relikt". Skipping...
 utility_to_osm - INFO - ssr:stedsnr = 543348: No name found
 utility_to_osm - INFO - ssr:stedsnr = 542962: No name found
 utility_to_osm - INFO - ssr:stedsnr = 543857: No name found
@@ -5431,6 +5430,7 @@ utility_to_osm - INFO - ssr:stedsnr = 1078504: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1078521: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1081537: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1081539: No name found
+utility_to_osm - INFO - ssr:stedsnr = 1083774: No name found
 utility_to_osm.ssr2.ssr2_tags - INFO - ssr:type = fyrlykt found in conversion table, but without tags
 utility_to_osm.ssr2.ssr2_tags - INFO - ssr:type = fyrlykt found in conversion table, but without tags
 utility_to_osm.ssr2.ssr2_tags - INFO - ssr:type = adressenavn found in conversion table, but without tags
@@ -6943,6 +6943,7 @@ utility_to_osm.ssr2.ssr2_tags - INFO - ssr:type = adressenavn found in conversio
 utility_to_osm.ssr2.ssr2_tags - INFO - ssr:type = adressenavn found in conversion table, but without tags
 utility_to_osm.ssr2.ssr2_tags - INFO - ssr:type = adressenavn found in conversion table, but without tags
 utility_to_osm.ssr2.ssr2_tags - INFO - ssr:type = fylke found in conversion table, but without tags
+utility_to_osm.ssr2.ssr2_tags - INFO - ssr:type = adressenavn found in conversion table, but without tags
 utility_to_osm.ssr2.ssr2_tags - INFO - ssr:type = adressenavn found in conversion table, but without tags
 utility_to_osm.ssr2.ssr2_tags - INFO - ssr:type = adressenavn found in conversion table, but without tags
 utility_to_osm.ssr2.ssr2_tags - INFO - ssr:type = adressenavn found in conversion table, but without tags

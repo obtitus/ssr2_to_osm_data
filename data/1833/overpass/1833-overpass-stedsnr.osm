@@ -1,2 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<osm version="0.6" generator="osmapis" />
+<osm version="0.6" generator="osmapis">
+	<node id="4365855720" lat="66.353587" lon="14.313466" version="2" timestamp="2020-03-22T20:18:50Z" changeset="82493597" uid="3497659" user="NKA" />
+	<node id="4365855721" lat="66.35387" lon="14.313581" version="2" timestamp="2020-03-22T20:18:50Z" changeset="82493597" uid="3497659" user="NKA" />
+	<node id="4365855723" lat="66.354207" lon="14.313749" version="2" timestamp="2020-03-22T20:18:50Z" changeset="82493597" uid="3497659" user="NKA" />
+	<node id="7320334813" lat="66.354457" lon="14.313896" version="1" timestamp="2020-03-22T20:18:50Z" changeset="82493597" uid="3497659" user="NKA" />
+	<node id="7320334814" lat="66.353199" lon="14.313346" version="1" timestamp="2020-03-22T20:18:50Z" changeset="82493597" uid="3497659" user="NKA" />
+	<node id="7320334924" lat="66.353675" lon="14.3161" version="1" timestamp="2020-03-22T20:18:50Z" changeset="82493597" uid="3497659" user="NKA" />
+	<node id="7320334925" lat="66.3530947" lon="14.3157394" version="1" timestamp="2020-03-22T20:18:50Z" changeset="82493597" uid="3497659" user="NKA" />
+	<way id="197858026" version="6" timestamp="2022-01-24T06:56:00Z" changeset="116526664" uid="3497659" user="NKA">
+		<tag k="bridge" v="yes" />
+		<tag k="bridge:description" v="Langvasså" />
+		<tag k="bridge:structure" v="arch" />
+		<tag k="highway" v="tertiary" />
+		<tag k="lanes" v="2" />
+		<tag k="layer" v="1" />
+		<tag k="lit" v="yes" />
+		<tag k="maxspeed" v="60" />
+		<tag k="maxspeed:recommended" v="20" />
+		<tag k="name" v="Røssvollbrua" />
+		<tag k="ssr:stedsnr" v="984499" />
+		<tag k="surface" v="asphalt" />
+		<tag k="width" v="5.5" />
+		<nd ref="7320334925" />
+		<nd ref="7320334924" />
+	</way>
+	<way id="438946274" version="9" timestamp="2022-01-24T06:56:00Z" changeset="116526664" uid="3497659" user="NKA">
+		<tag k="bridge" v="yes" />
+		<tag k="bridge:structure" v="beam" />
+		<tag k="highway" v="trunk" />
+		<tag k="layer" v="1" />
+		<tag k="lit" v="yes" />
+		<tag k="maxspeed" v="80" />
+		<tag k="name" v="Langvassågbrua" />
+		<tag k="ref" v="E 6" />
+		<tag k="ssr:stedsnr" v="973126" />
+		<tag k="surface" v="asphalt" />
+		<tag k="toll" v="yes" />
+		<nd ref="7320334814" />
+		<nd ref="4365855720" />
+		<nd ref="4365855721" />
+		<nd ref="4365855723" />
+		<nd ref="7320334813" />
+	</way>
+</osm>

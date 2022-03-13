@@ -14,6 +14,12 @@
 	<node id="3792886758" lat="63.5374778" lon="10.647864" version="1" timestamp="2015-10-19T16:19:10Z" changeset="34736396" uid="3296383" user="Reitstoen_import" />
 	<node id="3792886759" lat="63.5375083" lon="10.6471362" version="1" timestamp="2015-10-19T16:19:10Z" changeset="34736396" uid="3296383" user="Reitstoen_import" />
 	<node id="3792886760" lat="63.5376028" lon="10.6471945" version="1" timestamp="2015-10-19T16:19:10Z" changeset="34736396" uid="3296383" user="Reitstoen_import" />
+	<node id="5552137739" lat="63.5632152" lon="10.6418708" version="1" timestamp="2018-04-14T09:57:35Z" changeset="58085730" uid="7543313" user="ENTUR Fredrik Edler" />
+	<node id="9445777855" lat="63.5648586" lon="10.6395923" version="1" timestamp="2022-01-24T21:00:15Z" changeset="116559033" uid="3497659" user="NKA" />
+	<node id="1400156501" lat="63.5621557" lon="10.6433263" version="3" timestamp="2015-07-07T17:49:15Z" changeset="32477947" uid="1710144" user="rubund">
+		<tag k="access" v="yes" />
+		<tag k="barrier" v="gate" />
+	</node>
 	<way id="226739588" version="4" timestamp="2018-05-02T17:09:23Z" changeset="58620907" uid="3497659" user="NKA">
 		<tag k="name" v="Slegga" />
 		<tag k="natural" v="coastline" />
@@ -30,5 +36,31 @@
 		<nd ref="2354939667" />
 		<nd ref="2354939665" />
 		<nd ref="3792886760" />
+	</way>
+	<way id="342458426" version="7" timestamp="2022-01-24T21:00:15Z" changeset="116559033" uid="3497659" user="NKA">
+		<tag k="bridge" v="yes" />
+		<tag k="highway" v="secondary" />
+		<tag k="lanes" v="1" />
+		<tag k="layer" v="1" />
+		<tag k="maxspeed" v="40" />
+		<tag k="name" v="Tauterbrua" />
+		<tag k="passing_places" v="yes" />
+		<tag k="ref" v="6830" />
+		<tag k="ssr:stedsnr" v="944932" />
+		<nd ref="1400156501" />
+		<nd ref="5552137739" />
+	</way>
+	<way id="579814153" version="4" timestamp="2022-01-24T21:00:15Z" changeset="116559033" uid="3497659" user="NKA">
+		<tag k="bridge" v="yes" />
+		<tag k="bridge:structure" v="beam" />
+		<tag k="highway" v="secondary" />
+		<tag k="lanes" v="1" />
+		<tag k="layer" v="1" />
+		<tag k="maxspeed" v="80" />
+		<tag k="name" v="Tauterbrua" />
+		<tag k="ref" v="6830" />
+		<tag k="ssr:stedsnr" v="944932" />
+		<nd ref="5552137739" />
+		<nd ref="9445777855" />
 	</way>
 </osm>

@@ -1,2 +1,99 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<osm version="0.6" generator="osmapis" />
+<osm version="0.6" generator="osmapis">
+	<node id="6027387632" lat="63.5024705" lon="8.3628662" version="2" timestamp="2022-01-24T21:00:15Z" changeset="116559033" uid="3497659" user="NKA" />
+	<node id="6027402247" lat="63.5025945" lon="8.3628043" version="2" timestamp="2022-01-24T21:00:15Z" changeset="116559033" uid="3497659" user="NKA" />
+	<node id="5602407942" lat="63.4972765" lon="9.168655" version="1" timestamp="2018-05-07T14:34:16Z" changeset="58760668" uid="5732597" user="ENTUR Johan Wiklund" />
+	<node id="5602408718" lat="63.4968633" lon="9.1699246" version="1" timestamp="2018-05-07T14:34:29Z" changeset="58760668" uid="5732597" user="ENTUR Johan Wiklund" />
+	<node id="6029144129" lat="63.6436471" lon="8.8236581" version="2" timestamp="2019-08-15T14:46:07Z" changeset="73382452" uid="715936" user="Gazer75" />
+	<node id="6029145107" lat="63.6395258" lon="8.8241387" version="1" timestamp="2018-11-01T08:48:10Z" changeset="64070487" uid="7543313" user="ENTUR Fredrik Edler" />
+	<node id="9445777739" lat="63.6421715" lon="8.8238302" version="1" timestamp="2022-01-24T21:00:15Z" changeset="116559033" uid="3497659" user="NKA">
+		<tag k="bridge:support" v="pier" />
+	</node>
+	<node id="9445777740" lat="63.6404577" lon="8.82403" version="1" timestamp="2022-01-24T21:00:15Z" changeset="116559033" uid="3497659" user="NKA">
+		<tag k="bridge:support" v="pier" />
+	</node>
+	<node id="288154642" lat="63.6533861" lon="8.8218566" version="2" timestamp="2018-11-01T08:49:15Z" changeset="64070487" uid="7543313" user="ENTUR Fredrik Edler" />
+	<node id="6029144933" lat="63.653482" lon="8.8223596" version="1" timestamp="2018-11-01T08:48:07Z" changeset="64070487" uid="7543313" user="ENTUR Fredrik Edler" />
+	<node id="5088236852" lat="63.6416457" lon="9.0013982" version="1" timestamp="2017-09-08T09:40:10Z" changeset="51838099" uid="5732597" user="ENTUR Johan Wiklund" />
+	<node id="9445777759" lat="63.6420034" lon="9.0027648" version="1" timestamp="2022-01-24T21:00:15Z" changeset="116559033" uid="3497659" user="NKA">
+		<tag k="bridge:support" v="pier" />
+	</node>
+	<node id="5088231465" lat="63.6430704" lon="9.0068488" version="1" timestamp="2017-09-08T09:38:47Z" changeset="51838099" uid="5732597" user="ENTUR Johan Wiklund" />
+	<node id="5088235551" lat="63.6429581" lon="9.0063784" version="1" timestamp="2017-09-08T09:39:53Z" changeset="51838099" uid="5732597" user="ENTUR Johan Wiklund" />
+	<node id="9445777760" lat="63.642687" lon="9.0053585" version="1" timestamp="2022-01-24T21:00:15Z" changeset="116559033" uid="3497659" user="NKA">
+		<tag k="bridge:support" v="pier" />
+	</node>
+	<node id="5088229982" lat="63.6543259" lon="9.0339403" version="1" timestamp="2017-09-08T09:38:26Z" changeset="51838099" uid="5732597" user="ENTUR Johan Wiklund" />
+	<node id="5088231777" lat="63.653916" lon="9.0309168" version="1" timestamp="2017-09-08T09:38:52Z" changeset="51838099" uid="5732597" user="ENTUR Johan Wiklund" />
+	<way id="24915012" version="7" timestamp="2022-01-24T21:00:15Z" changeset="116559033" uid="3497659" user="NKA">
+		<tag k="bridge" v="cantilever" />
+		<tag k="highway" v="primary" />
+		<tag k="layer" v="1" />
+		<tag k="maxspeed" v="80" />
+		<tag k="name" v="Krabbsundbrua" />
+		<tag k="ref" v="714" />
+		<tag k="ssr:stedsnr" v="1073120" />
+		<nd ref="5088236852" />
+		<nd ref="9445777759" />
+		<nd ref="9445777760" />
+		<nd ref="5088235551" />
+		<nd ref="5088231465" />
+	</way>
+	<way id="24915104" version="5" timestamp="2022-01-24T21:00:15Z" changeset="116559033" uid="3497659" user="NKA">
+		<tag k="bridge" v="yes" />
+		<tag k="bridge:structure" v="beam" />
+		<tag k="highway" v="primary" />
+		<tag k="layer" v="1" />
+		<tag k="maxspeed" v="80" />
+		<tag k="name" v="Mastadsvabrua" />
+		<tag k="ref" v="714" />
+		<tag k="ssr:stedsnr" v="363211" />
+		<nd ref="5088231777" />
+		<nd ref="5088229982" />
+	</way>
+	<way id="26303791" version="4" timestamp="2022-01-24T21:00:15Z" changeset="116559033" uid="3497659" user="NKA">
+		<tag k="bridge" v="yes" />
+		<tag k="highway" v="unclassified" />
+		<tag k="layer" v="1" />
+		<tag k="name" v="Knutshaugbrua" />
+		<tag k="ssr:stedsnr" v="387738" />
+		<nd ref="288154642" />
+		<nd ref="6029144933" />
+	</way>
+	<way id="152068238" version="4" timestamp="2022-01-24T21:00:15Z" changeset="116559033" uid="3497659" user="NKA">
+		<tag k="bridge" v="yes" />
+		<tag k="highway" v="primary" />
+		<tag k="layer" v="1" />
+		<tag k="maxspeed" v="80" />
+		<tag k="name" v="Hemnskjelbrua" />
+		<tag k="ref" v="714" />
+		<tag k="ssr:stedsnr" v="566520" />
+		<nd ref="5602408718" />
+		<nd ref="5602407942" />
+	</way>
+	<way id="305823073" version="5" timestamp="2022-01-24T21:00:15Z" changeset="116559033" uid="3497659" user="NKA">
+		<tag k="bridge" v="cantilever" />
+		<tag k="highway" v="primary" />
+		<tag k="layer" v="1" />
+		<tag k="maxspeed" v="80" />
+		<tag k="name" v="Dolmsundbrua" />
+		<tag k="ref" v="714" />
+		<tag k="ssr:stedsnr" v="1073121" />
+		<nd ref="6029145107" />
+		<nd ref="9445777740" />
+		<nd ref="9445777739" />
+		<nd ref="6029144129" />
+	</way>
+	<way id="639709111" version="2" timestamp="2022-01-24T21:00:15Z" changeset="116559033" uid="3497659" user="NKA">
+		<tag k="alt_name" v="Hærnesbrua" />
+		<tag k="bridge" v="yes" />
+		<tag k="highway" v="primary" />
+		<tag k="layer" v="1" />
+		<tag k="maxspeed" v="80" />
+		<tag k="name" v="Hernesbrua" />
+		<tag k="ref" v="713" />
+		<tag k="ssr:stedsnr" v="697363" />
+		<nd ref="6027387632" />
+		<nd ref="6027402247" />
+	</way>
+</osm>

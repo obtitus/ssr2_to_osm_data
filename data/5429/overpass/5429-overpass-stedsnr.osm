@@ -1,2 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<osm version="0.6" generator="osmapis" />
+<osm version="0.6" generator="osmapis">
+	<node id="6854942675" lat="69.8440694" lon="21.8234329" version="2" timestamp="2022-01-26T06:08:00Z" changeset="116609992" uid="3497659" user="NKA">
+		<tag k="alt_name" v="Karvik kryss" />
+		<tag k="junction" v="yes" />
+		<tag k="name" v="Krysset" />
+		<tag k="ssr:stedsnr" v="296206" />
+	</node>
+	<node id="6854944801" lat="69.840849" lon="21.8776271" version="1" timestamp="2019-10-06T09:39:04Z" changeset="75336091" uid="3497659" user="NKA" />
+	<node id="6854944802" lat="69.8408282" lon="21.878071" version="1" timestamp="2019-10-06T09:39:04Z" changeset="75336091" uid="3497659" user="NKA" />
+	<node id="6854944803" lat="69.8407543" lon="21.8793227" version="1" timestamp="2019-10-06T09:39:04Z" changeset="75336091" uid="3497659" user="NKA" />
+	<node id="6854944804" lat="69.8401973" lon="21.8876817" version="1" timestamp="2019-10-06T09:39:04Z" changeset="75336091" uid="3497659" user="NKA" />
+	<node id="9448191249" lat="69.8403025" lon="21.8861033" version="1" timestamp="2022-01-25T18:21:17Z" changeset="116596754" uid="3497659" user="NKA">
+		<tag k="bridge:support" v="pier" />
+	</node>
+	<node id="9448191250" lat="69.8405064" lon="21.883043" version="1" timestamp="2022-01-25T18:21:17Z" changeset="116596754" uid="3497659" user="NKA">
+		<tag k="bridge:support" v="pier" />
+	</node>
+	<node id="6854944805" lat="69.8400991" lon="21.8890675" version="1" timestamp="2019-10-06T09:39:04Z" changeset="75336091" uid="3497659" user="NKA" />
+	<way id="61338696" version="8" timestamp="2022-01-25T18:21:17Z" changeset="116596754" uid="3497659" user="NKA">
+		<tag k="bicycle" v="yes" />
+		<tag k="bridge" v="cantilever" />
+		<tag k="bridge:structure" v="beam" />
+		<tag k="highway" v="trunk" />
+		<tag k="lanes" v="2" />
+		<tag k="layer" v="1" />
+		<tag k="lit" v="yes" />
+		<tag k="maxspeed" v="80" />
+		<tag k="name" v="Sørstraumbrua - Árressildi" />
+		<tag k="name:no" v="Sørstraumbrua" />
+		<tag k="name:se" v="Árressildi" />
+		<tag k="old_name:no" v="Sørstraumen bru" />
+		<tag k="parking:lane:both" v="no_stopping" />
+		<tag k="ref" v="E 6" />
+		<tag k="sidewalk" v="right" />
+		<tag k="ssr:stedsnr" v="357507" />
+		<tag k="surface" v="asphalt" />
+		<tag k="width" v="7" />
+		<nd ref="6854944801" />
+		<nd ref="6854944802" />
+		<nd ref="6854944803" />
+		<nd ref="9448191250" />
+		<nd ref="9448191249" />
+		<nd ref="6854944804" />
+		<nd ref="6854944805" />
+	</way>
+</osm>

@@ -1,4 +1,5 @@
-utility_to_osm.file_util - INFO - file_age(ssr2_to_osm_data/data/3451/3451-ssr.xml) -> 12.5 days
+utility_to_osm.file_util - INFO - file_age(ssr2_to_osm_data/data/3451/3451-ssr.xml) -> 53.6 days
+utility_to_osm.gentle_requests - INFO - requested http://wfs.geonorge.no/skwms1/wfs.stedsnavn50?VERSION=2.0.0&SERVICE=WFS&srsName=EPSG:25832&REQUEST=GetFeature&TYPENAME=Sted&resultType=results&Filter=%3CFilter%3E%20%3CPropertyIsEqualTo%3E%20%3CValueReference%20xmlns:app=%22http://skjema.geonorge.no/SOSI/produktspesifikasjon/Stedsnavn/5.0%22%3Eapp:kommune/app:Kommune/app:kommunenummer%3C/ValueReference%3E%20%3CLiteral%3E3451%3C/Literal%3E%20%3C/PropertyIsEqualTo%3E%20%3C/Filter%3E" --header "Content-Type:text/xml" ssr2_to_osm_data/data/3451/3451-ssr.xml, got <Response [200]>
 utility_to_osm - INFO - ssr:stedsnr = 7896: No name found
 utility_to_osm - INFO - ssr:stedsnr = 7945: No name found
 utility_to_osm - INFO - ssr:stedsnr = 7962: No name found
@@ -471,7 +472,7 @@ utility_to_osm - INFO - ssr:stedsnr = 179716: No name found
 utility_to_osm - INFO - ssr:stedsnr = 179802: No name found
 utility_to_osm - INFO - ssr:stedsnr = 179867: No name found
 utility_to_osm - INFO - ssr:stedsnr = 179876: No name found
-utility_to_osm - INFO - ssr:stedsnr = 179763 not active = "relikt". Skipping...
+utility_to_osm - INFO - ssr:stedsnr = 179763: No name found
 utility_to_osm - INFO - ssr:stedsnr = 179966: No name found
 utility_to_osm - INFO - ssr:stedsnr = 180267: No name found
 utility_to_osm - INFO - ssr:stedsnr = 180268: No name found
@@ -811,7 +812,7 @@ utility_to_osm - INFO - ssr:stedsnr = 483119: No name found
 utility_to_osm - INFO - ssr:stedsnr = 483120: No name found
 utility_to_osm - INFO - ssr:stedsnr = 483123: No name found
 utility_to_osm - INFO - ssr:stedsnr = 483080: No name found
-utility_to_osm - INFO - ssr:stedsnr = 483107 not active = "relikt". Skipping...
+utility_to_osm - INFO - ssr:stedsnr = 483107: No name found
 utility_to_osm - INFO - ssr:stedsnr = 483343: No name found
 utility_to_osm - INFO - ssr:stedsnr = 483380: No name found
 utility_to_osm - INFO - ssr:stedsnr = 483395: No name found
@@ -1157,7 +1158,7 @@ utility_to_osm - INFO - ssr:stedsnr = 524426: No name found
 utility_to_osm - INFO - ssr:stedsnr = 524572: No name found
 utility_to_osm - INFO - ssr:stedsnr = 525773: No name found
 utility_to_osm - INFO - ssr:stedsnr = 538169: No name found
-utility_to_osm - INFO - ssr:stedsnr = 538171 not active = "relikt". Skipping...
+utility_to_osm - INFO - ssr:stedsnr = 538171: No name found
 utility_to_osm - INFO - ssr:stedsnr = 538313: No name found
 utility_to_osm - INFO - ssr:stedsnr = 538818: No name found
 utility_to_osm - INFO - ssr:stedsnr = 538784: No name found
@@ -2376,7 +2377,7 @@ utility_to_osm - INFO - ssr:stedsnr = 118546: No name found
 utility_to_osm - INFO - ssr:stedsnr = 118563: No name found
 utility_to_osm - INFO - ssr:stedsnr = 119429: No name found
 utility_to_osm - INFO - ssr:stedsnr = 119298: No name found
-utility_to_osm - INFO - ssr:stedsnr = 119301 not active = "relikt". Skipping...
+utility_to_osm - INFO - ssr:stedsnr = 119301: No name found
 utility_to_osm - INFO - ssr:stedsnr = 119395: No name found
 utility_to_osm - INFO - ssr:stedsnr = 119397: No name found
 utility_to_osm - INFO - ssr:stedsnr = 119355: No name found
@@ -2932,7 +2933,7 @@ utility_to_osm - INFO - ssr:stedsnr = 417156: No name found
 utility_to_osm - INFO - ssr:stedsnr = 417160: No name found
 utility_to_osm - INFO - ssr:stedsnr = 417176: No name found
 utility_to_osm - INFO - ssr:stedsnr = 417668: No name found
-utility_to_osm - INFO - ssr:stedsnr = 417623 not active = "relikt". Skipping...
+utility_to_osm - INFO - ssr:stedsnr = 417623: No name found
 utility_to_osm - INFO - ssr:stedsnr = 417630: No name found
 utility_to_osm - INFO - ssr:stedsnr = 417831: No name found
 utility_to_osm - INFO - ssr:stedsnr = 417869: No name found
@@ -4733,6 +4734,9 @@ utility_to_osm - INFO - ssr:stedsnr = 1082165: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1082754: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1083098: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1083359: No name found
+utility_to_osm - INFO - ssr:stedsnr = 1083499: No name found
+utility_to_osm - INFO - ssr:stedsnr = 1083500: No name found
+utility_to_osm - INFO - ssr:stedsnr = 1083864: No name found
 utility_to_osm.ssr2.ssr2_tags - INFO - ssr:type = vegstrekning found in conversion table, but without tags
 utility_to_osm.ssr2.ssr2_tags - INFO - ssr:type = kraftledning found in conversion table, but without tags
 utility_to_osm.ssr2.ssr2_tags - INFO - ssr:type = kommune found in conversion table, but without tags
@@ -5140,6 +5144,9 @@ utility_to_osm.ssr2.ssr2_tags - INFO - ssr:type = adressenavn found in conversio
 utility_to_osm.ssr2.ssr2_tags - INFO - ssr:type = adressenavn found in conversion table, but without tags
 utility_to_osm.ssr2.ssr2_tags - INFO - ssr:type = adressenavn found in conversion table, but without tags
 utility_to_osm.ssr2.ssr2_tags - INFO - ssr:type = fylke found in conversion table, but without tags
+utility_to_osm.ssr2.ssr2_tags - INFO - ssr:type = adressenavn found in conversion table, but without tags
+utility_to_osm.ssr2.ssr2_tags - INFO - ssr:type = adressenavn found in conversion table, but without tags
+utility_to_osm.ssr2.ssr2_tags - INFO - ssr:type = adressenavn found in conversion table, but without tags
 utility_to_osm.ssr2.ssr2_tags - INFO - ssr:type = adressenavn found in conversion table, but without tags
 utility_to_osm.ssr2.ssr2_tags - INFO - ssr:type = adressenavn found in conversion table, but without tags
 utility_to_osm.ssr2.ssr2_tags - INFO - ssr:type = adressenavn found in conversion table, but without tags

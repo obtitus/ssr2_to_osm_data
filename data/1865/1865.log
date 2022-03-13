@@ -1,4 +1,5 @@
-utility_to_osm.file_util - INFO - file_age(ssr2_to_osm_data/data/1865/1865-ssr.xml) -> 12.5 days
+utility_to_osm.file_util - INFO - file_age(ssr2_to_osm_data/data/1865/1865-ssr.xml) -> 53.6 days
+utility_to_osm.gentle_requests - INFO - requested http://wfs.geonorge.no/skwms1/wfs.stedsnavn50?VERSION=2.0.0&SERVICE=WFS&srsName=EPSG:25832&REQUEST=GetFeature&TYPENAME=Sted&resultType=results&Filter=%3CFilter%3E%20%3CPropertyIsEqualTo%3E%20%3CValueReference%20xmlns:app=%22http://skjema.geonorge.no/SOSI/produktspesifikasjon/Stedsnavn/5.0%22%3Eapp:kommune/app:Kommune/app:kommunenummer%3C/ValueReference%3E%20%3CLiteral%3E1865%3C/Literal%3E%20%3C/PropertyIsEqualTo%3E%20%3C/Filter%3E" --header "Content-Type:text/xml" ssr2_to_osm_data/data/1865/1865-ssr.xml, got <Response [200]>
 utility_to_osm - INFO - ssr:stedsnr = 229942: No name found
 utility_to_osm - INFO - ssr:stedsnr = 16055: No name found
 utility_to_osm - INFO - ssr:stedsnr = 16055 has multiple (2) positions, using the first one!
@@ -1259,7 +1260,6 @@ utility_to_osm - INFO - ssr:stedsnr = 503427: No name found
 utility_to_osm - INFO - ssr:stedsnr = 503427 has multiple (2) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 503429: No name found
 utility_to_osm - INFO - ssr:stedsnr = 507169: No name found
-utility_to_osm - INFO - ssr:stedsnr = 507174: No name found
 utility_to_osm - INFO - ssr:stedsnr = 507803: No name found
 utility_to_osm - INFO - ssr:stedsnr = 507807: No name found
 utility_to_osm - INFO - ssr:stedsnr = 507813: No name found
@@ -1954,7 +1954,6 @@ utility_to_osm - INFO - ssr:stedsnr = 927002: No name found
 utility_to_osm - INFO - ssr:stedsnr = 927061: No name found
 utility_to_osm - INFO - ssr:stedsnr = 927061 has multiple (2) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 927064: No name found
-utility_to_osm - INFO - ssr:stedsnr = 927064 has multiple (2) positions, using the first one!
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Skarvskjeret"
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Skarvskjeret"
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Skarvskjeret"
@@ -4075,7 +4074,6 @@ utility_to_osm - INFO - ssr:stedsnr = 623503: No name found
 utility_to_osm - INFO - ssr:stedsnr = 623504: No name found
 utility_to_osm - INFO - ssr:stedsnr = 623683: No name found
 utility_to_osm - INFO - ssr:stedsnr = 623684: No name found
-utility_to_osm - INFO - ssr:stedsnr = 623684 has multiple (2) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 623691: No name found
 utility_to_osm - INFO - ssr:stedsnr = 623691 has multiple (2) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 623701: No name found

@@ -14,4 +14,104 @@
 		<tag k="source" v="Kartverket" />
 		<tag k="ssr:stedsnr" v="445962" />
 	</node>
+	<node id="5034442523" lat="70.4311391" lon="28.0628176" version="2" timestamp="2022-01-26T06:08:00Z" changeset="116609992" uid="3497659" user="NKA">
+		<tag k="junction" v="yes" />
+		<tag k="name" v="Smalfjordkrysset" />
+		<tag k="ssr:stedsnr" v="519297" />
+	</node>
+	<node id="4738934412" lat="70.1983019" lon="28.1951303" version="2" timestamp="2020-09-17T09:15:26Z" changeset="91035184" uid="420980" user="NorNorth" />
+	<node id="4738974527" lat="70.1982691" lon="28.1971687" version="3" timestamp="2022-01-25T18:21:17Z" changeset="116596754" uid="3497659" user="NKA">
+		<tag k="bridge:support" v="pylon" />
+	</node>
+	<node id="7916352900" lat="70.1983572" lon="28.1951384" version="1" timestamp="2020-09-17T09:15:26Z" changeset="91035184" uid="420980" user="NorNorth" />
+	<node id="9448191255" lat="70.1983206" lon="28.1971759" version="1" timestamp="2022-01-25T18:21:17Z" changeset="116596754" uid="3497659" user="NKA">
+		<tag k="bridge:support" v="pylon" />
+	</node>
+	<node id="4738974546" lat="70.1981878" lon="28.2022126" version="2" timestamp="2020-09-17T09:15:26Z" changeset="91035184" uid="420980" user="NorNorth" />
+	<node id="7916352903" lat="70.19823" lon="28.2022114" version="1" timestamp="2020-09-17T09:15:26Z" changeset="91035184" uid="420980" user="NorNorth" />
+	<node id="7916925527" lat="70.4180717" lon="28.2169904" version="1" timestamp="2020-09-17T12:11:38Z" changeset="91046684" uid="420980" user="NorNorth" />
+	<node id="7916925528" lat="70.4180903" lon="28.2168185" version="1" timestamp="2020-09-17T12:11:38Z" changeset="91046684" uid="420980" user="NorNorth" />
+	<node id="4979382596" lat="70.4390951" lon="28.4884402" version="3" timestamp="2021-12-17T08:36:03Z" changeset="115042437" uid="715936" user="Gazer75" />
+	<node id="4979384144" lat="70.4391245" lon="28.4900487" version="3" timestamp="2021-12-17T08:36:03Z" changeset="115042437" uid="715936" user="Gazer75" />
+	<node id="4979384568" lat="70.4300786" lon="28.498396" version="3" timestamp="2021-12-17T08:36:03Z" changeset="115042437" uid="715936" user="Gazer75" />
+	<node id="4979384888" lat="70.4300764" lon="28.4987987" version="3" timestamp="2021-12-17T08:36:03Z" changeset="115042437" uid="715936" user="Gazer75" />
+	<way id="342806816" version="3" timestamp="2022-01-21T07:16:18Z" changeset="116415148" uid="3497659" user="NKA">
+		<tag k="bridge" v="yes" />
+		<tag k="highway" v="primary" />
+		<tag k="layer" v="1" />
+		<tag k="loc_name:fkv" v="Hana silta" />
+		<tag k="maxspeed" v="60" />
+		<tag k="name" v="Hánárovvi" />
+		<tag k="name:se" v="Hánárovvi" />
+		<tag k="ref" v="890" />
+		<tag k="ssr:stedsnr" v="337394" />
+		<tag k="surface" v="asphalt" />
+		<nd ref="4979384568" />
+		<nd ref="4979384888" />
+	</way>
+	<way id="342806824" version="8" timestamp="2022-01-25T18:21:17Z" changeset="116596754" uid="3497659" user="NKA">
+		<tag k="bridge" v="yes" />
+		<tag k="highway" v="secondary" />
+		<tag k="layer" v="1" />
+		<tag k="maxspeed" v="60" />
+		<tag k="name" v="Juovlarovvi" />
+		<tag k="name:se" v="Juovlarovvi" />
+		<tag k="old_ref" v="282" />
+		<tag k="ref" v="8082" />
+		<tag k="ssr:stedsnr" v="95319" />
+		<nd ref="4979382596" />
+		<nd ref="4979384144" />
+	</way>
+	<way id="480950305" version="12" timestamp="2022-01-25T18:21:17Z" changeset="116596754" uid="3497659" user="NKA">
+		<tag k="bicycle" v="yes" />
+		<tag k="bridge" v="yes" />
+		<tag k="bridge:structure" v="cable-stayed" />
+		<tag k="foot" v="yes" />
+		<tag k="highway" v="trunk" />
+		<tag k="lanes" v="1" />
+		<tag k="layer" v="1" />
+		<tag k="maxspeed" v="50" />
+		<tag k="name" v="Deanu šaldi - Tana bru" />
+		<tag k="name:no" v="Tana bru" />
+		<tag k="name:se" v="Deanu šaldi" />
+		<tag k="oneway" v="yes" />
+		<tag k="ref" v="E 6;E 75" />
+		<tag k="ssr:stedsnr" v="884085" />
+		<tag k="start_date" v="2020-09-15" />
+		<tag k="website" v="https://www.vegvesen.no/vegprosjekter/e6tanabru" />
+		<nd ref="4738934412" />
+		<nd ref="4738974527" />
+		<nd ref="4738974546" />
+	</way>
+	<way id="848352785" version="5" timestamp="2022-01-25T18:21:17Z" changeset="116596754" uid="3497659" user="NKA">
+		<tag k="bicycle" v="yes" />
+		<tag k="bridge" v="yes" />
+		<tag k="bridge:structure" v="cable-stayed" />
+		<tag k="foot" v="designated" />
+		<tag k="highway" v="trunk" />
+		<tag k="lanes" v="1" />
+		<tag k="layer" v="1" />
+		<tag k="maxspeed" v="50" />
+		<tag k="name" v="Deanu šaldi - Tana bru" />
+		<tag k="name:no" v="Tana bru" />
+		<tag k="name:se" v="Deanu šaldi" />
+		<tag k="oneway" v="yes" />
+		<tag k="ref" v="E 6;E 75" />
+		<tag k="ssr:stedsnr" v="884085" />
+		<tag k="start_date" v="2020-09-15" />
+		<tag k="website" v="https://www.vegvesen.no/vegprosjekter/e6tanabru" />
+		<nd ref="7916352903" />
+		<nd ref="9448191255" />
+		<nd ref="7916352900" />
+	</way>
+	<way id="848424868" version="2" timestamp="2022-01-21T07:16:18Z" changeset="116415148" uid="3497659" user="NKA">
+		<tag k="bridge" v="yes" />
+		<tag k="highway" v="service" />
+		<tag k="layer" v="1" />
+		<tag k="maxspeed" v="25" />
+		<tag k="name" v="Robrua" />
+		<tag k="ssr:stedsnr" v="823146" />
+		<nd ref="7916925527" />
+		<nd ref="7916925528" />
+	</way>
 </osm>

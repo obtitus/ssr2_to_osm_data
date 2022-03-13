@@ -1,4 +1,5 @@
-utility_to_osm.file_util - INFO - file_age(ssr2_to_osm_data/data/5059/5059-ssr.xml) -> 0.5 days
+utility_to_osm.file_util - INFO - file_age(ssr2_to_osm_data/data/5059/5059-ssr.xml) -> 41.6 days
+utility_to_osm.gentle_requests - INFO - requested http://wfs.geonorge.no/skwms1/wfs.stedsnavn50?VERSION=2.0.0&SERVICE=WFS&srsName=EPSG:25832&REQUEST=GetFeature&TYPENAME=Sted&resultType=results&Filter=%3CFilter%3E%20%3CPropertyIsEqualTo%3E%20%3CValueReference%20xmlns:app=%22http://skjema.geonorge.no/SOSI/produktspesifikasjon/Stedsnavn/5.0%22%3Eapp:kommune/app:Kommune/app:kommunenummer%3C/ValueReference%3E%20%3CLiteral%3E5059%3C/Literal%3E%20%3C/PropertyIsEqualTo%3E%20%3C/Filter%3E" --header "Content-Type:text/xml" ssr2_to_osm_data/data/5059/5059-ssr.xml, got <Response [200]>
 utility_to_osm - INFO - ssr:stedsnr = 12209: No name found
 utility_to_osm - INFO - ssr:stedsnr = 12209 has multiple (2) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 12210: No name found
@@ -5216,7 +5217,6 @@ utility_to_osm - INFO - ssr:stedsnr = 700111: No name found
 utility_to_osm - INFO - ssr:stedsnr = 700112: No name found
 utility_to_osm - INFO - ssr:stedsnr = 700113: No name found
 utility_to_osm - INFO - ssr:stedsnr = 700483: No name found
-utility_to_osm - INFO - ssr:stedsnr = 700513: No name found
 utility_to_osm - INFO - ssr:stedsnr = 700866: No name found
 utility_to_osm - INFO - ssr:stedsnr = 701009: No name found
 utility_to_osm - INFO - ssr:stedsnr = 701025: No name found
@@ -7679,6 +7679,7 @@ utility_to_osm - INFO - ignoring non approved status = "avslåttNavneledd" name 
 utility_to_osm - INFO - ignoring non approved status = "avslåttNavneledd" name = "Gåstjørna"
 utility_to_osm - INFO - ignoring non approved status = "avslåttNavneledd" name = "Gåstjørna"
 utility_to_osm - INFO - ssr:stedsnr = 73635: No name found
+utility_to_osm - INFO - ssr:stedsnr = 73635: Adding multiple names to name tag, this is not OK! name = "Gåstjønna;Gåsvatnet"
 utility_to_osm - INFO - ssr:stedsnr = 73635 has multiple (3) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 73646: No name found
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Torbergsøya"
@@ -8909,7 +8910,6 @@ utility_to_osm - INFO - ssr:stedsnr = 194770 has multiple (3) positions, using t
 utility_to_osm - INFO - ssr:stedsnr = 194775: No name found
 utility_to_osm - INFO - ssr:stedsnr = 194775 has multiple (4) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 194777: No name found
-utility_to_osm - INFO - ssr:stedsnr = 194777 has multiple (4) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 194836: No name found
 utility_to_osm - INFO - ssr:stedsnr = 194836 has multiple (4) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 194838: No name found
@@ -9083,10 +9083,6 @@ utility_to_osm - INFO - ignoring non approved status = "avslåttNavneledd" name 
 utility_to_osm - INFO - ignoring non approved status = "avslåttNavneledd" name = "Kallurdalsbukta"
 utility_to_osm - INFO - ssr:stedsnr = 195959: No name found
 utility_to_osm - INFO - ssr:stedsnr = 195959 has multiple (5) positions, using the first one!
-utility_to_osm - INFO - ssr:stedsnr = 196523: No name found
-utility_to_osm - INFO - ssr:stedsnr = 196523: No name found
-utility_to_osm - INFO - ssr:stedsnr = 196523: Multi-language name tag = Kløftfjellet - Sloeptjenguevtele
-utility_to_osm - INFO - ssr:stedsnr = 196523 has multiple (2) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 203506: No name found
 utility_to_osm - INFO - ssr:stedsnr = 203506 has multiple (2) positions, using the first one!
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Musdal"

@@ -1,4 +1,5 @@
-utility_to_osm.file_util - INFO - file_age(ssr2_to_osm_data/data/5034/5034-ssr.xml) -> 0.5 days
+utility_to_osm.file_util - INFO - file_age(ssr2_to_osm_data/data/5034/5034-ssr.xml) -> 41.6 days
+utility_to_osm.gentle_requests - INFO - requested http://wfs.geonorge.no/skwms1/wfs.stedsnavn50?VERSION=2.0.0&SERVICE=WFS&srsName=EPSG:25832&REQUEST=GetFeature&TYPENAME=Sted&resultType=results&Filter=%3CFilter%3E%20%3CPropertyIsEqualTo%3E%20%3CValueReference%20xmlns:app=%22http://skjema.geonorge.no/SOSI/produktspesifikasjon/Stedsnavn/5.0%22%3Eapp:kommune/app:Kommune/app:kommunenummer%3C/ValueReference%3E%20%3CLiteral%3E5034%3C/Literal%3E%20%3C/PropertyIsEqualTo%3E%20%3C/Filter%3E" --header "Content-Type:text/xml" ssr2_to_osm_data/data/5034/5034-ssr.xml, got <Response [200]>
 utility_to_osm - INFO - ssr:stedsnr = 230607: No name found
 utility_to_osm - INFO - ssr:stedsnr = 230607 has multiple (2) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 230284: No name found
@@ -484,10 +485,6 @@ utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Okshau
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Okshaugen"
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Okshaugen"
 utility_to_osm - INFO - ssr:stedsnr = 196303: No name found
-utility_to_osm - INFO - ssr:stedsnr = 196523: No name found
-utility_to_osm - INFO - ssr:stedsnr = 196523: No name found
-utility_to_osm - INFO - ssr:stedsnr = 196523: Multi-language name tag = Kløftfjellet - Sloeptjenguevtele
-utility_to_osm - INFO - ssr:stedsnr = 196523 has multiple (2) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 202293: No name found
 utility_to_osm - INFO - ssr:stedsnr = 202393: No name found
 utility_to_osm - INFO - ssr:stedsnr = 202893: No name found
@@ -1499,6 +1496,8 @@ utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Store 
 utility_to_osm - INFO - ssr:stedsnr = 741286: No name found
 utility_to_osm - INFO - ssr:stedsnr = 741286 has multiple (4) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 741483: No name found
+utility_to_osm - INFO - ssr:stedsnr = 741483: No name found
+utility_to_osm - INFO - ssr:stedsnr = 741483: Multi-language name tag = Rensdalen - Sarvavaajja
 utility_to_osm - INFO - ssr:stedsnr = 741483 has multiple (2) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 741489: No name found
 utility_to_osm - INFO - ssr:stedsnr = 741489: Adding multiple names to name tag, this is not OK! name = "Beælkese;Vålåkleppen"

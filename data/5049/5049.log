@@ -1,4 +1,5 @@
-utility_to_osm.file_util - INFO - file_age(ssr2_to_osm_data/data/5049/5049-ssr.xml) -> 12.5 days
+utility_to_osm.file_util - INFO - file_age(ssr2_to_osm_data/data/5049/5049-ssr.xml) -> 53.6 days
+utility_to_osm.gentle_requests - INFO - requested http://wfs.geonorge.no/skwms1/wfs.stedsnavn50?VERSION=2.0.0&SERVICE=WFS&srsName=EPSG:25832&REQUEST=GetFeature&TYPENAME=Sted&resultType=results&Filter=%3CFilter%3E%20%3CPropertyIsEqualTo%3E%20%3CValueReference%20xmlns:app=%22http://skjema.geonorge.no/SOSI/produktspesifikasjon/Stedsnavn/5.0%22%3Eapp:kommune/app:Kommune/app:kommunenummer%3C/ValueReference%3E%20%3CLiteral%3E5049%3C/Literal%3E%20%3C/PropertyIsEqualTo%3E%20%3C/Filter%3E" --header "Content-Type:text/xml" ssr2_to_osm_data/data/5049/5049-ssr.xml, got <Response [200]>
 utility_to_osm - INFO - ssr:stedsnr = 230213: No name found
 utility_to_osm - INFO - ssr:stedsnr = 230845: No name found
 utility_to_osm - INFO - ssr:stedsnr = 230845 has multiple (2) positions, using the first one!
@@ -1188,7 +1189,6 @@ utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Skavsa
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Skavsand"
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Skavsand"
 utility_to_osm - INFO - ssr:stedsnr = 560683: No name found
-utility_to_osm - INFO - ssr:stedsnr = 560683 has multiple (3) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 560684: No name found
 utility_to_osm - INFO - ssr:stedsnr = 560695: No name found
 utility_to_osm - INFO - ssr:stedsnr = 560696: No name found
@@ -2468,10 +2468,6 @@ utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Hamner
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Hamnerøya"
 utility_to_osm - INFO - ssr:stedsnr = 196509: No name found
 utility_to_osm - INFO - ssr:stedsnr = 196509 has multiple (3) positions, using the first one!
-utility_to_osm - INFO - ssr:stedsnr = 196523: No name found
-utility_to_osm - INFO - ssr:stedsnr = 196523: No name found
-utility_to_osm - INFO - ssr:stedsnr = 196523: Multi-language name tag = Kløftfjellet - Sloeptjenguevtele
-utility_to_osm - INFO - ssr:stedsnr = 196523 has multiple (2) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 196615: No name found
 utility_to_osm - INFO - ssr:stedsnr = 196615 has multiple (2) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 196588: No name found
@@ -2501,7 +2497,6 @@ utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Seljev
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Sellivika"
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Seljevik"
 utility_to_osm - INFO - ssr:stedsnr = 196623: No name found
-utility_to_osm - INFO - ssr:stedsnr = 196623 has multiple (3) positions, using the first one!
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Uranvatnet"
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Urdansvatnet"
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Uranvatnet"

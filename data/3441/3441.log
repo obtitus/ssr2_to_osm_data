@@ -1,4 +1,5 @@
-utility_to_osm.file_util - INFO - file_age(ssr2_to_osm_data/data/3441/3441-ssr.xml) -> 0.5 days
+utility_to_osm.file_util - INFO - file_age(ssr2_to_osm_data/data/3441/3441-ssr.xml) -> 41.6 days
+utility_to_osm.gentle_requests - INFO - requested http://wfs.geonorge.no/skwms1/wfs.stedsnavn50?VERSION=2.0.0&SERVICE=WFS&srsName=EPSG:25832&REQUEST=GetFeature&TYPENAME=Sted&resultType=results&Filter=%3CFilter%3E%20%3CPropertyIsEqualTo%3E%20%3CValueReference%20xmlns:app=%22http://skjema.geonorge.no/SOSI/produktspesifikasjon/Stedsnavn/5.0%22%3Eapp:kommune/app:Kommune/app:kommunenummer%3C/ValueReference%3E%20%3CLiteral%3E3441%3C/Literal%3E%20%3C/PropertyIsEqualTo%3E%20%3C/Filter%3E" --header "Content-Type:text/xml" ssr2_to_osm_data/data/3441/3441-ssr.xml, got <Response [200]>
 utility_to_osm - INFO - ssr:stedsnr = 7265: No name found
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Sæteren"
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Sætra"
@@ -377,7 +378,7 @@ utility_to_osm - INFO - ssr:stedsnr = 112638: No name found
 utility_to_osm - INFO - ssr:stedsnr = 112702: No name found
 utility_to_osm - INFO - ssr:stedsnr = 112768: No name found
 utility_to_osm - INFO - ssr:stedsnr = 112816: No name found
-utility_to_osm - INFO - ssr:stedsnr = 112879 not active = "relikt". Skipping...
+utility_to_osm - INFO - ssr:stedsnr = 112879: No name found
 utility_to_osm - INFO - ssr:stedsnr = 113103: No name found
 utility_to_osm - INFO - ssr:stedsnr = 113588: No name found
 utility_to_osm - INFO - ssr:stedsnr = 250299: No name found
@@ -1004,7 +1005,7 @@ utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Midtvo
 utility_to_osm - INFO - ssr:stedsnr = 352119: No name found
 utility_to_osm - INFO - ssr:stedsnr = 474277: No name found
 utility_to_osm - INFO - ssr:stedsnr = 352815: No name found
-utility_to_osm - INFO - ssr:stedsnr = 474328 not active = "relikt". Skipping...
+utility_to_osm - INFO - ssr:stedsnr = 474328: No name found
 utility_to_osm - INFO - ssr:stedsnr = 353216: No name found
 utility_to_osm - INFO - ignoring non approved status = "avslåttNavneledd" name = "Stortjernet"
 utility_to_osm - INFO - ignoring non approved status = "avslåttNavneledd" name = "Stortjernet"
@@ -2064,7 +2065,7 @@ utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Kveine
 utility_to_osm - INFO - ssr:stedsnr = 656995: No name found
 utility_to_osm - INFO - ssr:stedsnr = 657110: No name found
 utility_to_osm - INFO - ssr:stedsnr = 708665: No name found
-utility_to_osm - INFO - ssr:stedsnr = 657312 not active = "relikt". Skipping...
+utility_to_osm - INFO - ssr:stedsnr = 657312: No name found
 utility_to_osm - INFO - ssr:stedsnr = 657340: No name found
 utility_to_osm - INFO - ssr:stedsnr = 657609: No name found
 utility_to_osm - INFO - ssr:stedsnr = 657611: No name found
@@ -2072,7 +2073,10 @@ utility_to_osm - INFO - ssr:stedsnr = 657613: No name found
 utility_to_osm - INFO - ssr:stedsnr = 657619: No name found
 utility_to_osm - INFO - ssr:stedsnr = 657620: No name found
 utility_to_osm - INFO - ssr:stedsnr = 657686: No name found
-utility_to_osm - INFO - ssr:stedsnr = 657893 not active = "relikt". Skipping...
+utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Essdalsliua"
+utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Essdalsliua"
+utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Essdalsliua"
+utility_to_osm - INFO - ssr:stedsnr = 657893: No name found
 utility_to_osm - INFO - ssr:stedsnr = 658091: No name found
 utility_to_osm - INFO - ssr:stedsnr = 657984: No name found
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Nedre Frøyse sæter"
@@ -3967,7 +3971,7 @@ utility_to_osm - INFO - ssr:stedsnr = 312699: No name found
 utility_to_osm - INFO - ssr:stedsnr = 312706: No name found
 utility_to_osm - INFO - ssr:stedsnr = 312711: No name found
 utility_to_osm - INFO - ssr:stedsnr = 329894 not active = "relikt". Skipping...
-utility_to_osm - INFO - ssr:stedsnr = 353968 not active = "relikt". Skipping...
+utility_to_osm - INFO - ssr:stedsnr = 353968: No name found
 utility_to_osm - INFO - ssr:stedsnr = 353977: No name found
 utility_to_osm - INFO - ssr:stedsnr = 353991: No name found
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Kleva sæter"
@@ -4899,7 +4903,7 @@ utility_to_osm - INFO - ignoring non approved status = "avslåttNavneledd" name 
 utility_to_osm - INFO - ignoring non approved status = "avslåttNavneledd" name = "Antontjernet"
 utility_to_osm - INFO - ignoring non approved status = "avslåttNavneledd" name = "Antontjernet"
 utility_to_osm - INFO - ssr:stedsnr = 656051: No name found
-utility_to_osm - INFO - ssr:stedsnr = 656064 not active = "relikt". Skipping...
+utility_to_osm - INFO - ssr:stedsnr = 656064: No name found
 utility_to_osm - INFO - ssr:stedsnr = 656168: No name found
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Ormvollen sæter"
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Ormvollen sæter"
@@ -6636,6 +6640,7 @@ utility_to_osm - INFO - ssr:stedsnr = 1080838: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1081060: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1081901: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1082681: No name found
+utility_to_osm - INFO - ssr:stedsnr = 1083939: No name found
 utility_to_osm.ssr2.ssr2_tags - INFO - ssr:type = vegstrekning found in conversion table, but without tags
 utility_to_osm.ssr2.ssr2_tags - INFO - ssr:type = adressenavn found in conversion table, but without tags
 utility_to_osm.ssr2.ssr2_tags - INFO - ssr:type = vegstrekning found in conversion table, but without tags

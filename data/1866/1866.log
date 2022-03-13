@@ -1,4 +1,5 @@
-utility_to_osm.file_util - INFO - file_age(ssr2_to_osm_data/data/1866/1866-ssr.xml) -> 12.5 days
+utility_to_osm.file_util - INFO - file_age(ssr2_to_osm_data/data/1866/1866-ssr.xml) -> 53.6 days
+utility_to_osm.gentle_requests - INFO - requested http://wfs.geonorge.no/skwms1/wfs.stedsnavn50?VERSION=2.0.0&SERVICE=WFS&srsName=EPSG:25832&REQUEST=GetFeature&TYPENAME=Sted&resultType=results&Filter=%3CFilter%3E%20%3CPropertyIsEqualTo%3E%20%3CValueReference%20xmlns:app=%22http://skjema.geonorge.no/SOSI/produktspesifikasjon/Stedsnavn/5.0%22%3Eapp:kommune/app:Kommune/app:kommunenummer%3C/ValueReference%3E%20%3CLiteral%3E1866%3C/Literal%3E%20%3C/PropertyIsEqualTo%3E%20%3C/Filter%3E" --header "Content-Type:text/xml" ssr2_to_osm_data/data/1866/1866-ssr.xml, got <Response [200]>
 utility_to_osm - INFO - ssr:stedsnr = 17201: No name found
 utility_to_osm - INFO - ssr:stedsnr = 17202: No name found
 utility_to_osm - INFO - ssr:stedsnr = 17202 has multiple (2) positions, using the first one!
@@ -106,6 +107,8 @@ utility_to_osm - INFO - ssr:stedsnr = 55574: No name found
 utility_to_osm - INFO - ssr:stedsnr = 55474: No name found
 utility_to_osm - INFO - ssr:stedsnr = 56368: No name found
 utility_to_osm - INFO - ssr:stedsnr = 57809: No name found
+utility_to_osm - INFO - ssr:stedsnr = 57809: No name found
+utility_to_osm - INFO - ssr:stedsnr = 57809: Multi-language name tag = Raftsundet bru, østside - Ráktanuorrovvi lullin
 utility_to_osm - INFO - ssr:stedsnr = 59003: No name found
 utility_to_osm - INFO - ssr:stedsnr = 59003 has multiple (2) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 59013: No name found
@@ -913,6 +916,8 @@ utility_to_osm - INFO - ssr:stedsnr = 479612: No name found
 utility_to_osm - INFO - ssr:stedsnr = 480405: No name found
 utility_to_osm - INFO - ssr:stedsnr = 480459: No name found
 utility_to_osm - INFO - ssr:stedsnr = 481816: No name found
+utility_to_osm - INFO - ssr:stedsnr = 481816: No name found
+utility_to_osm - INFO - ssr:stedsnr = 481816: Multi-language name tag = Raftsundet bru, senter - Ráktanuorrovvi gaskarádji
 utility_to_osm - INFO - ssr:stedsnr = 484017: No name found
 utility_to_osm - INFO - ssr:stedsnr = 484023: No name found
 utility_to_osm - INFO - ssr:stedsnr = 484026: No name found
@@ -1472,6 +1477,7 @@ utility_to_osm - INFO - ssr:stedsnr = 745990: No name found
 utility_to_osm - INFO - ssr:stedsnr = 746403: No name found
 utility_to_osm - INFO - ssr:stedsnr = 746604: No name found
 utility_to_osm - INFO - ssr:stedsnr = 746604: No name found
+utility_to_osm - INFO - ssr:stedsnr = 746604: Multi-language name tag = Eidsfjorden - Nuorrevuotna
 utility_to_osm - INFO - ssr:stedsnr = 746604 has multiple (16) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 746917: No name found
 utility_to_osm - INFO - ssr:stedsnr = 746917: Adding multiple names to name tag, this is not OK! name = "Mangsteinodden;Bergvikodden"
@@ -1728,6 +1734,7 @@ utility_to_osm - INFO - ssr:stedsnr = 927124: No name found
 utility_to_osm - INFO - ssr:stedsnr = 927170: No name found
 utility_to_osm - INFO - ssr:stedsnr = 927176: No name found
 utility_to_osm - INFO - ssr:stedsnr = 927176: No name found
+utility_to_osm - INFO - ssr:stedsnr = 927176: Multi-language name tag = Hadseløya - Ulbi
 utility_to_osm - INFO - ssr:stedsnr = 927303: No name found
 utility_to_osm - INFO - ssr:stedsnr = 927223: No name found
 utility_to_osm - INFO - ssr:stedsnr = 927279: No name found
@@ -3048,6 +3055,8 @@ utility_to_osm - INFO - ssr:stedsnr = 562884: No name found
 utility_to_osm - INFO - ssr:stedsnr = 562991: No name found
 utility_to_osm - INFO - ssr:stedsnr = 562991 has multiple (2) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 563001: No name found
+utility_to_osm - INFO - ssr:stedsnr = 563001: No name found
+utility_to_osm - INFO - ssr:stedsnr = 563001: Multi-language name tag = Gjerstad - Járstáđik
 utility_to_osm - INFO - ssr:stedsnr = 563016: No name found
 utility_to_osm - INFO - ssr:stedsnr = 563077: No name found
 utility_to_osm - INFO - ssr:stedsnr = 563077 has multiple (2) positions, using the first one!
@@ -3311,8 +3320,12 @@ utility_to_osm - INFO - ssr:stedsnr = 723462: No name found
 utility_to_osm - INFO - ssr:stedsnr = 723466: No name found
 utility_to_osm - INFO - ssr:stedsnr = 723467: No name found
 utility_to_osm - INFO - ssr:stedsnr = 724030: No name found
+utility_to_osm - INFO - ssr:stedsnr = 724030: No name found
+utility_to_osm - INFO - ssr:stedsnr = 724030: Multi-language name tag = Raftsundet bru - Ráktanuorrovvi
 utility_to_osm - INFO - ssr:stedsnr = 724030 has multiple (3) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 724813: No name found
+utility_to_osm - INFO - ssr:stedsnr = 724813: No name found
+utility_to_osm - INFO - ssr:stedsnr = 724813: Multi-language name tag = Raftsundet bru, vestside - Ráktanuorrovvi davvin
 utility_to_osm - INFO - ssr:stedsnr = 727154: No name found
 utility_to_osm - INFO - ssr:stedsnr = 727155: No name found
 utility_to_osm - INFO - ssr:stedsnr = 746388: No name found
@@ -3359,8 +3372,12 @@ utility_to_osm - INFO - ssr:stedsnr = 745745: No name found
 utility_to_osm - INFO - ssr:stedsnr = 745745 has multiple (2) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 745748: No name found
 utility_to_osm - INFO - ssr:stedsnr = 745748 has multiple (2) positions, using the first one!
+utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Gulssik"
+utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Gulssik"
+utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Gulssik"
 utility_to_osm - INFO - ssr:stedsnr = 745750: No name found
 utility_to_osm - INFO - ssr:stedsnr = 745750: No name found
+utility_to_osm - INFO - ssr:stedsnr = 745750: Multi-language name tag = Kvalsøya - Gulsi
 utility_to_osm - INFO - ssr:stedsnr = 745750 has multiple (2) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 745757: No name found
 utility_to_osm - INFO - ssr:stedsnr = 745757 has multiple (2) positions, using the first one!
@@ -4306,6 +4323,7 @@ utility_to_osm - INFO - ssr:stedsnr = 753757: No name found
 utility_to_osm - INFO - ssr:stedsnr = 753757 has multiple (7) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 1083237: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1083238: No name found
+utility_to_osm - INFO - ssr:stedsnr = 1083865: No name found
 utility_to_osm.ssr2.ssr2_tags - INFO - ssr:type = fyrlykt found in conversion table, but without tags
 utility_to_osm.ssr2.ssr2_tags - INFO - ssr:type = fyrlykt found in conversion table, but without tags
 utility_to_osm.ssr2.ssr2_tags - INFO - ssr:type = fyrlykt found in conversion table, but without tags
@@ -4535,3 +4553,4 @@ utility_to_osm.ssr2.ssr2_tags - INFO - ssr:type = adressenavn found in conversio
 utility_to_osm.ssr2.ssr2_tags - INFO - ssr:type = adressenavn found in conversion table, but without tags
 utility_to_osm.ssr2.ssr2_tags - INFO - ssr:type = adressenavn found in conversion table, but without tags
 utility_to_osm.ssr2.ssr2_tags - INFO - ssr:type = landskapsområde found in conversion table, but without tags
+utility_to_osm.ssr2.ssr2_tags - INFO - ssr:type = adressenavn found in conversion table, but without tags

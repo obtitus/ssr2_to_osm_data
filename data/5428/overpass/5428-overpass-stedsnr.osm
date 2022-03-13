@@ -1,5 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <osm version="0.6" generator="osmapis">
+	<node id="6668109060" lat="69.8203275" lon="20.7812475" version="2" timestamp="2022-01-26T06:08:00Z" changeset="116609992" uid="3497659" user="NKA">
+		<tag k="junction" v="yes" />
+		<tag k="name" v="Langslettkrysset" />
+		<tag k="ssr:stedsnr" v="540080" />
+	</node>
+	<node id="6682096827" lat="69.9004256" lon="21.3736096" version="1" timestamp="2019-08-04T21:33:19Z" changeset="72999373" uid="3296383" user="Reitstoen_import" />
+	<node id="6682096829" lat="69.900422" lon="21.3738642" version="1" timestamp="2019-08-04T21:33:19Z" changeset="72999373" uid="3296383" user="Reitstoen_import" />
 	<node id="5814778347" lat="68.7662476" lon="22.549433" version="1" timestamp="2018-08-07T12:30:20Z" changeset="61433683" uid="3497659" user="NKA" />
 	<node id="5814778348" lat="69.0558056" lon="22.0742743" version="1" timestamp="2018-08-07T12:30:20Z" changeset="61433683" uid="3497659" user="NKA" />
 	<node id="5814778342" lat="69.3158958" lon="22.9573032" version="1" timestamp="2018-08-07T12:30:19Z" changeset="61433683" uid="3497659" user="NKA" />
@@ -21,5 +28,26 @@
 		<nd ref="5814778343" />
 		<nd ref="5814778342" />
 		<nd ref="5814778348" />
+	</way>
+	<way id="699059394" version="3" timestamp="2022-01-21T07:16:18Z" changeset="116415148" uid="3497659" user="NKA">
+		<tag k="bicycle" v="yes" />
+		<tag k="bridge" v="yes" />
+		<tag k="destination:forward" v="Alta" />
+		<tag k="foot" v="yes" />
+		<tag k="highway" v="trunk" />
+		<tag k="lanes" v="2" />
+		<tag k="layer" v="1" />
+		<tag k="lit" v="yes" />
+		<tag k="maxspeed" v="80" />
+		<tag k="name" v="Suselvbrua - Čuvččájogasildi" />
+		<tag k="name:no" v="Suselvbrua" />
+		<tag k="name:se" v="Čuvččájogasildi" />
+		<tag k="ref" v="E 6" />
+		<tag k="sidewalk" v="none" />
+		<tag k="ssr:stedsnr" v="1081212" />
+		<tag k="surface" v="asphalt" />
+		<tag k="width" v="7" />
+		<nd ref="6682096827" />
+		<nd ref="6682096829" />
 	</way>
 </osm>

@@ -1,2 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<osm version="0.6" generator="osmapis" />
+<osm version="0.6" generator="osmapis">
+	<node id="5863410610" lat="70.3007896" lon="31.009953" version="2" timestamp="2022-01-26T06:08:00Z" changeset="116609992" uid="3497659" user="NKA">
+		<tag k="junction" v="yes" />
+		<tag k="name" v="Mollvikkrysset" />
+		<tag k="ssr:stedsnr" v="288977" />
+	</node>
+	<node id="3607895287" lat="70.2418975" lon="30.517391" version="2" timestamp="2018-08-28T13:08:07Z" changeset="62071066" uid="8470372" user="Entur AS | Angie Torres" />
+	<node id="5863416300" lat="70.2418601" lon="30.5172923" version="1" timestamp="2018-08-28T13:05:31Z" changeset="62070950" uid="8470372" user="Entur AS | Angie Torres" />
+	<node id="5863417749" lat="70.2423583" lon="30.5186061" version="1" timestamp="2018-08-28T13:05:53Z" changeset="62070950" uid="8470372" user="Entur AS | Angie Torres" />
+	<way id="355184432" version="4" timestamp="2022-01-21T07:16:18Z" changeset="116415148" uid="3497659" user="NKA">
+		<tag k="bicycle" v="yes" />
+		<tag k="bridge" v="yes" />
+		<tag k="foot" v="yes" />
+		<tag k="highway" v="trunk" />
+		<tag k="layer" v="1" />
+		<tag k="maxspeed" v="80" />
+		<tag k="name" v="Komagbrua" />
+		<tag k="ref" v="E 75" />
+		<tag k="ssr:stedsnr" v="713043" />
+		<nd ref="5863416300" />
+		<nd ref="3607895287" />
+		<nd ref="5863417749" />
+	</way>
+</osm>

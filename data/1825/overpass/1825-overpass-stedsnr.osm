@@ -1,2 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<osm version="0.6" generator="osmapis" />
+<osm version="0.6" generator="osmapis">
+	<node id="9063498530" lat="65.376124" lon="13.364323" version="2" timestamp="2022-01-26T06:22:04Z" changeset="116610177" uid="3497659" user="NKA">
+		<tag k="junction" v="yes" />
+		<tag k="name" v="Toskrysset" />
+		<tag k="ssr:stedsnr" v="362766" />
+	</node>
+	<node id="5752150377" lat="65.6267497" lon="13.4406226" version="1" timestamp="2018-07-10T16:20:53Z" changeset="60583433" uid="5732597" user="ENTUR Johan Wiklund" />
+	<node id="5752169850" lat="65.6267299" lon="13.4403102" version="1" timestamp="2018-07-10T16:24:45Z" changeset="60583510" uid="5732597" user="ENTUR Johan Wiklund" />
+	<way id="154568356" version="3" timestamp="2022-01-24T06:56:00Z" changeset="116526664" uid="3497659" user="NKA">
+		<tag k="bridge" v="yes" />
+		<tag k="highway" v="unclassified" />
+		<tag k="layer" v="1" />
+		<tag k="name" v="Gammelgardsbrua" />
+		<tag k="ssr:stedsnr" v="277452" />
+		<nd ref="5752150377" />
+		<nd ref="5752169850" />
+	</way>
+</osm>

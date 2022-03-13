@@ -2434,7 +2434,7 @@
 		<tag k="place" v="locality" />
 		<tag k="ssr:stedsnr" v="208" />
 	</node>
-	<node id="4111233002" lat="58.1975843" lon="6.6940726" version="3" timestamp="2018-07-07T14:24:48Z" changeset="60490420" uid="164049" user="kche">
+	<node id="4111233002" lat="58.1974455" lon="6.694294" version="4" timestamp="2022-01-22T15:02:48Z" changeset="116469079" uid="164049" user="kche">
 		<tag k="name" v="Skagelistranda" />
 		<tag k="natural" v="beach" />
 		<tag k="place" v="locality" />
@@ -29918,8 +29918,7 @@
 		<nd ref="8537482736" />
 		<nd ref="8537482739" />
 	</way>
-	<way id="170858431" version="5" timestamp="2021-03-19T16:06:08Z" changeset="101340173" uid="3497659" user="NKA">
-		<tag k="alt_name" v="Spind kirke" />
+	<way id="170858431" version="6" timestamp="2022-02-07T14:37:56Z" changeset="117122601" uid="3497659" user="NKA">
 		<tag k="amenity" v="place_of_worship" />
 		<tag k="architect" v="Lars Albertson Øvrenes (Ovrenes)" />
 		<tag k="building" v="church" />
@@ -39358,22 +39357,6 @@
 		<tag k="ssr:stedsnr" v="871802" />
 		<nd ref="5403121257" />
 		<nd ref="5403121256" />
-	</way>
-	<way id="560269654" version="2" timestamp="2018-05-13T07:01:33Z" changeset="58917044" uid="2569034" user="kche_import">
-		<tag k="name" v="Kjeskår" />
-		<tag k="natural" v="wood" />
-		<tag k="ssr:stedsnr" v="689794" />
-		<nd ref="5403121267" />
-		<nd ref="5403121266" />
-		<nd ref="5403121265" />
-		<nd ref="5403121264" />
-		<nd ref="5403121263" />
-		<nd ref="23007200" />
-		<nd ref="4384842355" />
-		<nd ref="4384842354" />
-		<nd ref="5403121262" />
-		<nd ref="5403121261" />
-		<nd ref="5403121267" />
 	</way>
 	<way id="560273473" version="2" timestamp="2018-05-13T07:01:33Z" changeset="58917044" uid="2569034" user="kche_import">
 		<tag k="name" v="Mørkedalen" />
@@ -50072,6 +50055,22 @@
 		<nd ref="4398571913" />
 		<nd ref="4398571906" />
 	</way>
+	<way id="560269654" version="3" timestamp="2022-01-20T00:12:48Z" changeset="116363123" uid="12998863" user="Gruebel">
+		<nd ref="4384842354" />
+		<nd ref="5403121262" />
+		<nd ref="5403121261" />
+		<nd ref="5403121267" />
+		<nd ref="5403121266" />
+		<nd ref="5403121265" />
+		<nd ref="5403121264" />
+		<nd ref="5403121263" />
+		<nd ref="23007200" />
+	</way>
+	<way id="1022722952" version="1" timestamp="2022-01-20T00:12:48Z" changeset="116363123" uid="12998863" user="Gruebel">
+		<nd ref="23007200" />
+		<nd ref="4384842355" />
+		<nd ref="4384842354" />
+	</way>
 	<way id="520956955" version="2" timestamp="2018-02-04T14:59:24Z" changeset="56057640" uid="2569034" user="kche_import">
 		<tag k="source" v="Kartverket N50" />
 		<tag k="source:date" v="1991-07-01" />
@@ -53375,5 +53374,13 @@
 		<member type="way" ref="606262163" role="outer" />
 		<member type="way" ref="606262151" role="outer" />
 		<member type="way" ref="390220528" role="outer" />
+	</relation>
+	<relation id="13695236" version="1" timestamp="2022-01-20T00:12:48Z" changeset="116363123" uid="12998863" user="Gruebel">
+		<tag k="name" v="Kjeskår" />
+		<tag k="natural" v="wood" />
+		<tag k="ssr:stedsnr" v="689794" />
+		<tag k="type" v="multipolygon" />
+		<member type="way" ref="560269654" role="outer" />
+		<member type="way" ref="1022722952" role="outer" />
 	</relation>
 </osm>

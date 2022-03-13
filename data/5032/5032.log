@@ -1,4 +1,5 @@
-utility_to_osm.file_util - INFO - file_age(ssr2_to_osm_data/data/5032/5032-ssr.xml) -> 11.6 days
+utility_to_osm.file_util - INFO - file_age(ssr2_to_osm_data/data/5032/5032-ssr.xml) -> 52.7 days
+utility_to_osm.gentle_requests - INFO - requested http://wfs.geonorge.no/skwms1/wfs.stedsnavn50?VERSION=2.0.0&SERVICE=WFS&srsName=EPSG:25832&REQUEST=GetFeature&TYPENAME=Sted&resultType=results&Filter=%3CFilter%3E%20%3CPropertyIsEqualTo%3E%20%3CValueReference%20xmlns:app=%22http://skjema.geonorge.no/SOSI/produktspesifikasjon/Stedsnavn/5.0%22%3Eapp:kommune/app:Kommune/app:kommunenummer%3C/ValueReference%3E%20%3CLiteral%3E5032%3C/Literal%3E%20%3C/PropertyIsEqualTo%3E%20%3C/Filter%3E" --header "Content-Type:text/xml" ssr2_to_osm_data/data/5032/5032-ssr.xml, got <Response [200]>
 utility_to_osm - INFO - ssr:stedsnr = 12069: No name found
 utility_to_osm - INFO - ssr:stedsnr = 12076: No name found
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Samstadtjørna"
@@ -566,10 +567,6 @@ utility_to_osm - INFO - ssr:stedsnr = 195372 has multiple (2) positions, using t
 utility_to_osm - INFO - ssr:stedsnr = 195429: No name found
 utility_to_osm - INFO - ssr:stedsnr = 195436: No name found
 utility_to_osm - INFO - ssr:stedsnr = 195436 has multiple (2) positions, using the first one!
-utility_to_osm - INFO - ssr:stedsnr = 196523: No name found
-utility_to_osm - INFO - ssr:stedsnr = 196523: No name found
-utility_to_osm - INFO - ssr:stedsnr = 196523: Multi-language name tag = Kløftfjellet - Sloeptjenguevtele
-utility_to_osm - INFO - ssr:stedsnr = 196523 has multiple (2) positions, using the first one!
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Kvernhusdalen"
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Kvernhusdalen"
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Kvernhusdalen"

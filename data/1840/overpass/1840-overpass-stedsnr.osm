@@ -1,2 +1,90 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<osm version="0.6" generator="osmapis" />
+<osm version="0.6" generator="osmapis">
+	<node id="5837724716" lat="67.092659" lon="15.3769606" version="2" timestamp="2022-01-26T06:22:04Z" changeset="116610177" uid="3497659" user="NKA">
+		<tag k="junction" v="yes" />
+		<tag k="name" v="Rønningen" />
+		<tag k="ssr:stedsnr" v="695706" />
+	</node>
+	<node id="5837720195" lat="66.7640512" lon="15.4759835" version="2" timestamp="2019-01-31T22:11:31Z" changeset="66816586" uid="32112" user="SverigeFan" />
+	<node id="5837733172" lat="66.764346" lon="15.4759298" version="1" timestamp="2018-08-17T06:47:17Z" changeset="61735132" uid="8470372" user="Entur AS | Angie Torres" />
+	<node id="1721768327" lat="66.9820603" lon="15.3192779" version="4" timestamp="2018-08-17T06:49:47Z" changeset="61735223" uid="8470372" user="Entur AS | Angie Torres" />
+	<node id="5837706292" lat="66.9827052" lon="15.3187751" version="1" timestamp="2018-08-17T06:41:09Z" changeset="61735030" uid="8470372" user="Entur AS | Angie Torres" />
+	<node id="5837709864" lat="66.9834281" lon="15.3175684" version="1" timestamp="2018-08-17T06:42:29Z" changeset="61735030" uid="8470372" user="Entur AS | Angie Torres" />
+	<node id="5837716386" lat="66.98235" lon="15.3191098" version="1" timestamp="2018-08-17T06:43:24Z" changeset="61735030" uid="8470372" user="Entur AS | Angie Torres" />
+	<node id="5837721315" lat="66.9822212" lon="15.3191984" version="1" timestamp="2018-08-17T06:44:34Z" changeset="61735132" uid="8470372" user="Entur AS | Angie Torres" />
+	<node id="5837727323" lat="66.983349" lon="15.3177004" version="1" timestamp="2018-08-17T06:46:01Z" changeset="61735132" uid="8470372" user="Entur AS | Angie Torres" />
+	<node id="5837729061" lat="66.9824887" lon="15.3190115" version="1" timestamp="2018-08-17T06:46:30Z" changeset="61735132" uid="8470372" user="Entur AS | Angie Torres" />
+	<node id="5837709541" lat="66.794231" lon="15.6160114" version="2" timestamp="2021-12-05T21:10:46Z" changeset="114594992" uid="32112" user="SverigeFan" />
+	<node id="5837735011" lat="66.7943794" lon="15.6156305" version="2" timestamp="2021-12-05T21:10:46Z" changeset="114594992" uid="32112" user="SverigeFan" />
+	<node id="5837726837" lat="66.7767474" lon="15.631969" version="2" timestamp="2019-08-13T20:12:46Z" changeset="73323848" uid="32112" user="SverigeFan" />
+	<node id="5837731435" lat="66.7770897" lon="15.632033" version="1" timestamp="2018-08-17T06:46:57Z" changeset="61735132" uid="8470372" user="Entur AS | Angie Torres" />
+	<node id="4209700262" lat="66.7458891" lon="15.7428227" version="2" timestamp="2018-06-02T14:38:40Z" changeset="59487111" uid="32112" user="SverigeFan" />
+	<node id="5658814942" lat="66.745803" lon="15.7427511" version="1" timestamp="2018-06-02T14:38:17Z" changeset="59487111" uid="32112" user="SverigeFan" />
+	<way id="179031780" version="6" timestamp="2022-01-24T06:56:00Z" changeset="116526664" uid="3497659" user="NKA">
+		<tag k="alt_name" v="Potthus brua" />
+		<tag k="bridge" v="yes" />
+		<tag k="bridge:structure" v="beam" />
+		<tag k="highway" v="secondary" />
+		<tag k="layer" v="1" />
+		<tag k="maxspeed" v="80" />
+		<tag k="name" v="Potthusbrua" />
+		<tag k="old_ref" v="516" />
+		<tag k="ref" v="7466" />
+		<tag k="ssr:stedsnr" v="776582" />
+		<nd ref="1721768327" />
+		<nd ref="5837721315" />
+		<nd ref="5837716386" />
+		<nd ref="5837729061" />
+		<nd ref="5837706292" />
+		<nd ref="5837727323" />
+		<nd ref="5837709864" />
+	</way>
+	<way id="335394623" version="3" timestamp="2022-01-24T06:56:00Z" changeset="116526664" uid="3497659" user="NKA">
+		<tag k="bridge" v="yes" />
+		<tag k="destination:backward" v="Trondheim" />
+		<tag k="highway" v="trunk" />
+		<tag k="lanes" v="2" />
+		<tag k="layer" v="1" />
+		<tag k="lit" v="no" />
+		<tag k="maxspeed" v="80" />
+		<tag k="name" v="Viskisbrua" />
+		<tag k="ref" v="E 6" />
+		<tag k="sidewalk" v="none" />
+		<tag k="source:maxspeed" v="NO:rural" />
+		<tag k="ssr:stedsnr" v="331823" />
+		<tag k="surface" v="asphalt" />
+		<tag k="width" v="7" />
+		<nd ref="5837720195" />
+		<nd ref="5837733172" />
+	</way>
+	<way id="362399173" version="4" timestamp="2022-01-24T06:56:00Z" changeset="116526664" uid="3497659" user="NKA">
+		<tag k="alt_name" v="Gamforsbrua" />
+		<tag k="bridge" v="yes" />
+		<tag k="highway" v="service" />
+		<tag k="layer" v="1" />
+		<tag k="name" v="Gamfossbrua" />
+		<tag k="ssr:stedsnr" v="16816" />
+		<tag k="surface" v="gravel" />
+		<tag k="tracktype" v="grade1" />
+		<nd ref="5837731435" />
+		<nd ref="5837726837" />
+	</way>
+	<way id="593080939" version="2" timestamp="2022-01-24T06:56:00Z" changeset="116526664" uid="3497659" user="NKA">
+		<tag k="bridge" v="yes" />
+		<tag k="highway" v="path" />
+		<tag k="layer" v="1" />
+		<tag k="name" v="Knallerdalbrua" />
+		<tag k="ssr:stedsnr" v="391848" />
+		<nd ref="4209700262" />
+		<nd ref="5658814942" />
+	</way>
+	<way id="617560537" version="2" timestamp="2022-01-24T06:56:00Z" changeset="116526664" uid="3497659" user="NKA">
+		<tag k="bridge" v="yes" />
+		<tag k="highway" v="unclassified" />
+		<tag k="layer" v="1" />
+		<tag k="name" v="Tjårrisbrua" />
+		<tag k="ssr:stedsnr" v="562831" />
+		<nd ref="5837735011" />
+		<nd ref="5837709541" />
+	</way>
+</osm>

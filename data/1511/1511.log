@@ -1,4 +1,5 @@
-utility_to_osm.file_util - INFO - file_age(ssr2_to_osm_data/data/1511/1511-ssr.xml) -> 12.5 days
+utility_to_osm.file_util - INFO - file_age(ssr2_to_osm_data/data/1511/1511-ssr.xml) -> 53.6 days
+utility_to_osm.gentle_requests - INFO - requested http://wfs.geonorge.no/skwms1/wfs.stedsnavn50?VERSION=2.0.0&SERVICE=WFS&srsName=EPSG:25832&REQUEST=GetFeature&TYPENAME=Sted&resultType=results&Filter=%3CFilter%3E%20%3CPropertyIsEqualTo%3E%20%3CValueReference%20xmlns:app=%22http://skjema.geonorge.no/SOSI/produktspesifikasjon/Stedsnavn/5.0%22%3Eapp:kommune/app:Kommune/app:kommunenummer%3C/ValueReference%3E%20%3CLiteral%3E1511%3C/Literal%3E%20%3C/PropertyIsEqualTo%3E%20%3C/Filter%3E" --header "Content-Type:text/xml" ssr2_to_osm_data/data/1511/1511-ssr.xml, got <Response [200]>
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Sætra"
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Sætra"
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Sætra"
@@ -310,6 +311,7 @@ utility_to_osm - INFO - ssr:stedsnr = 208677: No name found
 utility_to_osm - INFO - ssr:stedsnr = 208811: No name found
 utility_to_osm - INFO - ssr:stedsnr = 208813: No name found
 utility_to_osm - INFO - ssr:stedsnr = 208837: No name found
+utility_to_osm - INFO - ssr:stedsnr = 208837: Adding multiple names to name tag, this is not OK! name = "Botnen;Strupen"
 utility_to_osm - INFO - ssr:stedsnr = 208779: No name found
 utility_to_osm - INFO - ssr:stedsnr = 208788: No name found
 utility_to_osm - INFO - ssr:stedsnr = 208789: No name found

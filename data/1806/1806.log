@@ -1,4 +1,5 @@
-utility_to_osm.file_util - INFO - file_age(ssr2_to_osm_data/data/1806/1806-ssr.xml) -> 11.6 days
+utility_to_osm.file_util - INFO - file_age(ssr2_to_osm_data/data/1806/1806-ssr.xml) -> 52.7 days
+utility_to_osm.gentle_requests - INFO - requested http://wfs.geonorge.no/skwms1/wfs.stedsnavn50?VERSION=2.0.0&SERVICE=WFS&srsName=EPSG:25832&REQUEST=GetFeature&TYPENAME=Sted&resultType=results&Filter=%3CFilter%3E%20%3CPropertyIsEqualTo%3E%20%3CValueReference%20xmlns:app=%22http://skjema.geonorge.no/SOSI/produktspesifikasjon/Stedsnavn/5.0%22%3Eapp:kommune/app:Kommune/app:kommunenummer%3C/ValueReference%3E%20%3CLiteral%3E1806%3C/Literal%3E%20%3C/PropertyIsEqualTo%3E%20%3C/Filter%3E" --header "Content-Type:text/xml" ssr2_to_osm_data/data/1806/1806-ssr.xml, got <Response [200]>
 utility_to_osm - INFO - ssr:stedsnr = 286496: No name found
 utility_to_osm - INFO - ssr:stedsnr = 16128: No name found
 utility_to_osm - INFO - ssr:stedsnr = 16128 has multiple (2) positions, using the first one!
@@ -78,12 +79,14 @@ utility_to_osm - INFO - ssr:stedsnr = 17700: No name found
 utility_to_osm - INFO - ssr:stedsnr = 17700 has multiple (2) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 17849: No name found
 utility_to_osm - INFO - ssr:stedsnr = 17852: No name found
+utility_to_osm - INFO - ssr:stedsnr = 17852: No name found
 utility_to_osm - INFO - ssr:stedsnr = 17852 has multiple (3) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 17920: No name found
 utility_to_osm - INFO - ssr:stedsnr = 17920 has multiple (2) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 17948: No name found
 utility_to_osm - INFO - ssr:stedsnr = 18604: No name found
 utility_to_osm - INFO - ssr:stedsnr = 18604 has multiple (2) positions, using the first one!
+utility_to_osm - INFO - ssr:stedsnr = 18648: No name found
 utility_to_osm - INFO - ssr:stedsnr = 18648: No name found
 utility_to_osm - INFO - ssr:stedsnr = 18648 has multiple (2) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 18653: No name found
@@ -421,6 +424,7 @@ utility_to_osm - INFO - ssr:stedsnr = 137099 has multiple (3) positions, using t
 utility_to_osm - INFO - ssr:stedsnr = 137311: No name found
 utility_to_osm - INFO - ssr:stedsnr = 137311: Adding multiple names to name tag, this is not OK! name = "Hestvikosen;Ytre Sjøvika"
 utility_to_osm - INFO - ssr:stedsnr = 137311 has multiple (2) positions, using the first one!
+utility_to_osm - INFO - ssr:stedsnr = 137521: No name found
 utility_to_osm - INFO - ssr:stedsnr = 137521: No name found
 utility_to_osm - INFO - ssr:stedsnr = 137521 has multiple (4) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 138202: No name found
@@ -858,6 +862,7 @@ utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Haugfj
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Haugfjellet, l"
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Haugfjellet, l"
 utility_to_osm - INFO - ssr:stedsnr = 199222: No name found
+utility_to_osm - INFO - ssr:stedsnr = 199222: No name found
 utility_to_osm - INFO - ssr:stedsnr = 199222 has multiple (4) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 199225: No name found
 utility_to_osm - INFO - ssr:stedsnr = 199225 has multiple (2) positions, using the first one!
@@ -955,6 +960,7 @@ utility_to_osm - INFO - ssr:stedsnr = 200690 has multiple (3) positions, using t
 utility_to_osm - INFO - ssr:stedsnr = 200693: No name found
 utility_to_osm - INFO - ssr:stedsnr = 200694: No name found
 utility_to_osm - INFO - ssr:stedsnr = 200698: No name found
+utility_to_osm - INFO - ssr:stedsnr = 200698: No name found
 utility_to_osm - INFO - ssr:stedsnr = 200698 has multiple (2) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 200745: No name found
 utility_to_osm - INFO - ssr:stedsnr = 200745 has multiple (3) positions, using the first one!
@@ -966,6 +972,7 @@ utility_to_osm - INFO - ssr:stedsnr = 267558: No name found
 utility_to_osm - INFO - ssr:stedsnr = 202608: No name found
 utility_to_osm - INFO - ssr:stedsnr = 202649: No name found
 utility_to_osm - INFO - ssr:stedsnr = 202649 has multiple (3) positions, using the first one!
+utility_to_osm - INFO - ssr:stedsnr = 202654: No name found
 utility_to_osm - INFO - ssr:stedsnr = 202654: No name found
 utility_to_osm - INFO - ssr:stedsnr = 267941: No name found
 utility_to_osm - INFO - ssr:stedsnr = 267953: No name found
@@ -1058,6 +1065,7 @@ utility_to_osm - INFO - ssr:stedsnr = 225324: No name found
 utility_to_osm - INFO - ssr:stedsnr = 232136: No name found
 utility_to_osm - INFO - ssr:stedsnr = 449937: No name found
 utility_to_osm - INFO - ssr:stedsnr = 449952: No name found
+utility_to_osm - INFO - ssr:stedsnr = 450027: No name found
 utility_to_osm - INFO - ssr:stedsnr = 450027: No name found
 utility_to_osm - INFO - ssr:stedsnr = 450009: No name found
 utility_to_osm - INFO - ssr:stedsnr = 450068: No name found
@@ -1261,6 +1269,7 @@ utility_to_osm - INFO - ssr:stedsnr = 268381: No name found
 utility_to_osm - INFO - ssr:stedsnr = 268384: No name found
 utility_to_osm - INFO - ssr:stedsnr = 268386: No name found
 utility_to_osm - INFO - ssr:stedsnr = 268432: No name found
+utility_to_osm - INFO - ssr:stedsnr = 268432: No name found
 utility_to_osm - INFO - ssr:stedsnr = 268432 has multiple (2) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 268582: No name found
 utility_to_osm - INFO - ssr:stedsnr = 269278: No name found
@@ -1361,6 +1370,7 @@ utility_to_osm - INFO - ssr:stedsnr = 320602: No name found
 utility_to_osm - INFO - ssr:stedsnr = 320602 has multiple (2) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 320643: No name found
 utility_to_osm - INFO - ssr:stedsnr = 320643 has multiple (2) positions, using the first one!
+utility_to_osm - INFO - ssr:stedsnr = 320645: No name found
 utility_to_osm - INFO - ssr:stedsnr = 320645: No name found
 utility_to_osm - INFO - ssr:stedsnr = 320645 has multiple (11) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 320688: No name found
@@ -1557,6 +1567,7 @@ utility_to_osm - INFO - ssr:stedsnr = 474131: No name found
 utility_to_osm - INFO - ssr:stedsnr = 359612: No name found
 utility_to_osm - INFO - ssr:stedsnr = 477373: No name found
 utility_to_osm - INFO - ssr:stedsnr = 480138: No name found
+utility_to_osm - INFO - ssr:stedsnr = 480138: No name found
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Lille Nævra"
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Lille Nævra"
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Lille Nævra"
@@ -1740,6 +1751,7 @@ utility_to_osm - INFO - ssr:stedsnr = 388843 has multiple (3) positions, using t
 utility_to_osm - INFO - ssr:stedsnr = 388954: No name found
 utility_to_osm - INFO - ssr:stedsnr = 389044: No name found
 utility_to_osm - INFO - ssr:stedsnr = 389047: No name found
+utility_to_osm - INFO - ssr:stedsnr = 389047: No name found
 utility_to_osm - INFO - ssr:stedsnr = 389212: No name found
 utility_to_osm - INFO - ssr:stedsnr = 389212: No name found
 utility_to_osm - INFO - ssr:stedsnr = 389212: Multi-language name tag = Sildviktinden - Ruoidnačohkka
@@ -1757,6 +1769,7 @@ utility_to_osm - INFO - ssr:stedsnr = 389401: No name found
 utility_to_osm - INFO - ssr:stedsnr = 389504: No name found
 utility_to_osm - INFO - ssr:stedsnr = 389289: No name found
 utility_to_osm - INFO - ssr:stedsnr = 389291: No name found
+utility_to_osm - INFO - ssr:stedsnr = 389292: No name found
 utility_to_osm - INFO - ssr:stedsnr = 389292: No name found
 utility_to_osm - INFO - ssr:stedsnr = 389296: No name found
 utility_to_osm - INFO - ssr:stedsnr = 389298: No name found
@@ -2010,6 +2023,7 @@ utility_to_osm - INFO - ssr:stedsnr = 483960: No name found
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Sjursheimen"
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Sjursheimen"
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Sjursheimen"
+utility_to_osm - INFO - ssr:stedsnr = 502123: No name found
 utility_to_osm - INFO - ssr:stedsnr = 502123: No name found
 utility_to_osm - INFO - ssr:stedsnr = 502207: No name found
 utility_to_osm - INFO - ssr:stedsnr = 502207 has multiple (2) positions, using the first one!
@@ -2349,6 +2363,7 @@ utility_to_osm - INFO - ssr:stedsnr = 685713 has multiple (3) positions, using t
 utility_to_osm - INFO - ssr:stedsnr = 685715: No name found
 utility_to_osm - INFO - ssr:stedsnr = 685715 has multiple (2) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 685667: No name found
+utility_to_osm - INFO - ssr:stedsnr = 685667: No name found
 utility_to_osm - INFO - ssr:stedsnr = 685668: No name found
 utility_to_osm - INFO - ssr:stedsnr = 685672: No name found
 utility_to_osm - INFO - ssr:stedsnr = 685672 has multiple (2) positions, using the first one!
@@ -2360,6 +2375,7 @@ utility_to_osm - INFO - ssr:stedsnr = 685677: No name found
 utility_to_osm - INFO - ssr:stedsnr = 685677 has multiple (2) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 685686: No name found
 utility_to_osm - INFO - ssr:stedsnr = 685686 has multiple (2) positions, using the first one!
+utility_to_osm - INFO - ssr:stedsnr = 685688: No name found
 utility_to_osm - INFO - ssr:stedsnr = 685688: No name found
 utility_to_osm - INFO - ssr:stedsnr = 685688 has multiple (2) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 685756: No name found
@@ -2433,6 +2449,7 @@ utility_to_osm - INFO - ignoring non approved status = "avslåttNavneledd" name 
 utility_to_osm - INFO - ignoring non approved status = "avslåttNavneledd" name = "Isaksentjørna"
 utility_to_osm - INFO - ignoring non approved status = "avslåttNavneledd" name = "Isaksentjørna"
 utility_to_osm - INFO - ssr:stedsnr = 687924: No name found
+utility_to_osm - INFO - ssr:stedsnr = 688601: No name found
 utility_to_osm - INFO - ssr:stedsnr = 688601: No name found
 utility_to_osm - INFO - ssr:stedsnr = 689378: No name found
 utility_to_osm - INFO - ssr:stedsnr = 689634: No name found
@@ -2954,6 +2971,7 @@ utility_to_osm - INFO - ssr:stedsnr = 685132 has multiple (4) positions, using t
 utility_to_osm - INFO - ssr:stedsnr = 685198: No name found
 utility_to_osm - INFO - ssr:stedsnr = 685198 has multiple (3) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 685549: No name found
+utility_to_osm - INFO - ssr:stedsnr = 685549: No name found
 utility_to_osm - INFO - ssr:stedsnr = 685549 has multiple (3) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 685703: No name found
 utility_to_osm - INFO - ssr:stedsnr = 685703 has multiple (4) positions, using the first one!
@@ -2976,6 +2994,9 @@ utility_to_osm - INFO - ssr:stedsnr = 685906: No name found
 utility_to_osm - INFO - ssr:stedsnr = 893255: No name found
 utility_to_osm - INFO - ssr:stedsnr = 687596: No name found
 utility_to_osm - INFO - ssr:stedsnr = 687597: No name found
+utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Tømmeråsneset"
+utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Tømmeråsneset"
+utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Tømmeråsneset"
 utility_to_osm - INFO - ssr:stedsnr = 689499: No name found
 utility_to_osm - INFO - ssr:stedsnr = 689611: No name found
 utility_to_osm - INFO - ssr:stedsnr = 689611 has multiple (2) positions, using the first one!
@@ -3145,6 +3166,7 @@ utility_to_osm - INFO - ignoring non approved status = "avslåttNavneledd" name 
 utility_to_osm - INFO - ignoring non approved status = "avslåttNavneledd" name = "Langskjeret"
 utility_to_osm - INFO - ssr:stedsnr = 745723: No name found
 utility_to_osm - INFO - ssr:stedsnr = 745724: No name found
+utility_to_osm - INFO - ssr:stedsnr = 745724: No name found
 utility_to_osm - INFO - ssr:stedsnr = 745727: No name found
 utility_to_osm - INFO - ssr:stedsnr = 745670: No name found
 utility_to_osm - INFO - ssr:stedsnr = 745670 has multiple (2) positions, using the first one!
@@ -3262,6 +3284,7 @@ utility_to_osm - INFO - ssr:stedsnr = 767504: No name found
 utility_to_osm - INFO - ssr:stedsnr = 767512: No name found
 utility_to_osm - INFO - ssr:stedsnr = 771454: No name found
 utility_to_osm - INFO - ssr:stedsnr = 908159: No name found
+utility_to_osm - INFO - ssr:stedsnr = 908159: No name found
 utility_to_osm - INFO - ssr:stedsnr = 908165: No name found
 utility_to_osm - INFO - ssr:stedsnr = 908626: No name found
 utility_to_osm - INFO - ssr:stedsnr = 908677 not active = "relikt". Skipping...
@@ -3287,6 +3310,7 @@ utility_to_osm - INFO - ssr:stedsnr = 787220: No name found
 utility_to_osm - INFO - ssr:stedsnr = 787220 has multiple (2) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 805115: No name found
 utility_to_osm - INFO - ssr:stedsnr = 805115 has multiple (2) positions, using the first one!
+utility_to_osm - INFO - ssr:stedsnr = 809591: No name found
 utility_to_osm - INFO - ssr:stedsnr = 809591: No name found
 utility_to_osm - INFO - ssr:stedsnr = 809591 has multiple (3) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 810539: No name found
@@ -3490,6 +3514,7 @@ utility_to_osm - INFO - ssr:stedsnr = 928172 has multiple (2) positions, using t
 utility_to_osm - INFO - ssr:stedsnr = 928173: No name found
 utility_to_osm - INFO - ssr:stedsnr = 928173 has multiple (2) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 928209: No name found
+utility_to_osm - INFO - ssr:stedsnr = 928209: No name found
 utility_to_osm - INFO - ssr:stedsnr = 928209 has multiple (3) positions, using the first one!
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Rombanken"
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Rombanken"
@@ -3516,6 +3541,7 @@ utility_to_osm - INFO - ssr:stedsnr = 928606: No name found
 utility_to_osm - INFO - ssr:stedsnr = 928606 has multiple (3) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 928607: No name found
 utility_to_osm - INFO - ssr:stedsnr = 928607 has multiple (2) positions, using the first one!
+utility_to_osm - INFO - ssr:stedsnr = 928646: No name found
 utility_to_osm - INFO - ssr:stedsnr = 928646: No name found
 utility_to_osm - INFO - ssr:stedsnr = 928763: No name found
 utility_to_osm - INFO - ssr:stedsnr = 928763 has multiple (2) positions, using the first one!
@@ -4190,6 +4216,7 @@ utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Kvannd
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Kvanndalsskardet"
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Kvanndalsskardet"
 utility_to_osm - INFO - ssr:stedsnr = 17548: No name found
+utility_to_osm - INFO - ssr:stedsnr = 17548: No name found
 utility_to_osm - INFO - ssr:stedsnr = 17548 has multiple (3) positions, using the first one!
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Store Læigasvatnet"
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Læigasvatnet, store"
@@ -4284,7 +4311,9 @@ utility_to_osm - INFO - ssr:stedsnr = 18162: No name found
 utility_to_osm - INFO - ssr:stedsnr = 18162 has multiple (2) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 18415: No name found
 utility_to_osm - INFO - ssr:stedsnr = 18664: No name found
+utility_to_osm - INFO - ssr:stedsnr = 18664: No name found
 utility_to_osm - INFO - ssr:stedsnr = 18664 has multiple (2) positions, using the first one!
+utility_to_osm - INFO - ssr:stedsnr = 18846: No name found
 utility_to_osm - INFO - ssr:stedsnr = 18846: No name found
 utility_to_osm - INFO - ssr:stedsnr = 18846 has multiple (2) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 18854: No name found
@@ -4294,6 +4323,7 @@ utility_to_osm - INFO - ssr:stedsnr = 18862: No name found
 utility_to_osm - INFO - ssr:stedsnr = 18876: No name found
 utility_to_osm - INFO - ssr:stedsnr = 18876 has multiple (2) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 18732: No name found
+utility_to_osm - INFO - ssr:stedsnr = 18824: No name found
 utility_to_osm - INFO - ssr:stedsnr = 18824: No name found
 utility_to_osm - INFO - ssr:stedsnr = 18824: Adding multiple names to name tag, this is not OK! name = "Sovande dronning;Skjomtinden"
 utility_to_osm - INFO - ssr:stedsnr = 18952: No name found
@@ -4515,6 +4545,7 @@ utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Kvannd
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Kvanndalskroelva"
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Kvanndalkrokelva"
 utility_to_osm - INFO - ssr:stedsnr = 78541: No name found
+utility_to_osm - INFO - ssr:stedsnr = 78541: No name found
 utility_to_osm - INFO - ssr:stedsnr = 78541 has multiple (4) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 78613: No name found
 utility_to_osm - INFO - ssr:stedsnr = 78613 has multiple (3) positions, using the first one!
@@ -4554,6 +4585,7 @@ utility_to_osm - INFO - ssr:stedsnr = 78623 has multiple (2) positions, using th
 utility_to_osm - INFO - ssr:stedsnr = 78640: No name found
 utility_to_osm - INFO - ssr:stedsnr = 78640 has multiple (2) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 78716: No name found
+utility_to_osm - INFO - ssr:stedsnr = 78716: No name found
 utility_to_osm - INFO - ssr:stedsnr = 78716 has multiple (2) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 78717: No name found
 utility_to_osm - INFO - ssr:stedsnr = 78724: No name found
@@ -4568,6 +4600,7 @@ utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Medbys
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Medbyskardet"
 utility_to_osm - INFO - ssr:stedsnr = 78734: No name found
 utility_to_osm - INFO - ssr:stedsnr = 78734 has multiple (3) positions, using the first one!
+utility_to_osm - INFO - ssr:stedsnr = 78820: No name found
 utility_to_osm - INFO - ssr:stedsnr = 78820: No name found
 utility_to_osm - INFO - ssr:stedsnr = 78820 has multiple (2) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 78822: No name found
@@ -4589,6 +4622,7 @@ utility_to_osm - INFO - ssr:stedsnr = 78864 has multiple (3) positions, using th
 utility_to_osm - INFO - ssr:stedsnr = 78974: No name found
 utility_to_osm - INFO - ssr:stedsnr = 78933: No name found
 utility_to_osm - INFO - ssr:stedsnr = 78937: No name found
+utility_to_osm - INFO - ssr:stedsnr = 78938: No name found
 utility_to_osm - INFO - ssr:stedsnr = 78938: No name found
 utility_to_osm - INFO - ssr:stedsnr = 78938 has multiple (2) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 78940: No name found
@@ -4688,6 +4722,7 @@ utility_to_osm - INFO - ssr:stedsnr = 86311: No name found
 utility_to_osm - INFO - ssr:stedsnr = 86414: No name found
 utility_to_osm - INFO - ssr:stedsnr = 86458: No name found
 utility_to_osm - INFO - ssr:stedsnr = 86468: No name found
+utility_to_osm - INFO - ssr:stedsnr = 86468: No name found
 utility_to_osm - INFO - ssr:stedsnr = 86545: No name found
 utility_to_osm - INFO - ssr:stedsnr = 86548: No name found
 utility_to_osm - INFO - ssr:stedsnr = 86550: No name found
@@ -4758,6 +4793,7 @@ utility_to_osm - INFO - ssr:stedsnr = 137251 has multiple (39) positions, using 
 utility_to_osm - INFO - ssr:stedsnr = 138758: No name found
 utility_to_osm - INFO - ssr:stedsnr = 138758 has multiple (2) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 138761: No name found
+utility_to_osm - INFO - ssr:stedsnr = 138761: No name found
 utility_to_osm - INFO - ssr:stedsnr = 138761 has multiple (3) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 137535: No name found
 utility_to_osm - INFO - ssr:stedsnr = 137535 has multiple (4) positions, using the first one!
@@ -4799,6 +4835,7 @@ utility_to_osm - INFO - ssr:stedsnr = 138338: No name found
 utility_to_osm - INFO - ssr:stedsnr = 138338 has multiple (2) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 138544: No name found
 utility_to_osm - INFO - ssr:stedsnr = 138544 has multiple (2) positions, using the first one!
+utility_to_osm - INFO - ssr:stedsnr = 138547: No name found
 utility_to_osm - INFO - ssr:stedsnr = 138547: No name found
 utility_to_osm - INFO - ssr:stedsnr = 138547 has multiple (2) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 138549: No name found
@@ -4953,6 +4990,7 @@ utility_to_osm - INFO - ssr:stedsnr = 142680 has multiple (2) positions, using t
 utility_to_osm - INFO - ssr:stedsnr = 142681: No name found
 utility_to_osm - INFO - ssr:stedsnr = 142692: No name found
 utility_to_osm - INFO - ssr:stedsnr = 142693: No name found
+utility_to_osm - INFO - ssr:stedsnr = 142711: No name found
 utility_to_osm - INFO - ssr:stedsnr = 142711: No name found
 utility_to_osm - INFO - ssr:stedsnr = 142711 has multiple (3) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 142719: No name found
@@ -5110,7 +5148,7 @@ utility_to_osm - INFO - ssr:stedsnr = 199244: No name found
 utility_to_osm - INFO - ssr:stedsnr = 199244 has multiple (2) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 199248: No name found
 utility_to_osm - INFO - ssr:stedsnr = 199248: No name found
-utility_to_osm - INFO - ssr:stedsnr = 199248: Multi-language name tag = Katterat stasjon - Gátteriid togaštašuvdna
+utility_to_osm - INFO - ssr:stedsnr = 199248: Multi-language name tag = Katterat stasjon - Gátteriid togastašuvdna
 utility_to_osm - INFO - ssr:stedsnr = 199439: No name found
 utility_to_osm - INFO - ssr:stedsnr = 199439 has multiple (2) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 199197: No name found
@@ -5129,6 +5167,7 @@ utility_to_osm - INFO - ssr:stedsnr = 199450: No name found
 utility_to_osm - INFO - ssr:stedsnr = 199450: No name found
 utility_to_osm - INFO - ssr:stedsnr = 199450: Multi-language name tag = Isvatnet - Jiekŋajávri
 utility_to_osm - INFO - ssr:stedsnr = 199450 has multiple (3) positions, using the first one!
+utility_to_osm - INFO - ssr:stedsnr = 199537: No name found
 utility_to_osm - INFO - ssr:stedsnr = 199537: No name found
 utility_to_osm - INFO - ssr:stedsnr = 199539: No name found
 utility_to_osm - INFO - ssr:stedsnr = 199539 has multiple (2) positions, using the first one!
@@ -5198,6 +5237,7 @@ utility_to_osm - INFO - ssr:stedsnr = 199839: No name found
 utility_to_osm - INFO - ssr:stedsnr = 199925: No name found
 utility_to_osm - INFO - ssr:stedsnr = 200156: No name found
 utility_to_osm - INFO - ssr:stedsnr = 200156 has multiple (3) positions, using the first one!
+utility_to_osm - INFO - ssr:stedsnr = 200159: No name found
 utility_to_osm - INFO - ssr:stedsnr = 200159: No name found
 utility_to_osm - INFO - ssr:stedsnr = 200159 has multiple (7) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 200640: No name found
@@ -5295,6 +5335,7 @@ utility_to_osm - INFO - ssr:stedsnr = 207352: No name found
 utility_to_osm - INFO - ssr:stedsnr = 207354: No name found
 utility_to_osm - INFO - ssr:stedsnr = 207365: No name found
 utility_to_osm - INFO - ssr:stedsnr = 207439: No name found
+utility_to_osm - INFO - ssr:stedsnr = 207440: No name found
 utility_to_osm - INFO - ssr:stedsnr = 207440: No name found
 utility_to_osm - INFO - ssr:stedsnr = 207474: No name found
 utility_to_osm - INFO - ssr:stedsnr = 207508: No name found
@@ -5485,7 +5526,8 @@ utility_to_osm - INFO - ssr:stedsnr = 321527: No name found
 utility_to_osm - INFO - ssr:stedsnr = 321527: Multi-language name tag = Gratangseidet - Rivttákáidi
 utility_to_osm - INFO - ssr:stedsnr = 321527 has multiple (3) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 321434: No name found
-utility_to_osm - INFO - ssr:stedsnr = 321434 has multiple (4) positions, using the first one!
+utility_to_osm - INFO - ssr:stedsnr = 321434: No name found
+utility_to_osm - INFO - ssr:stedsnr = 321434 has multiple (22) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 321660: No name found
 utility_to_osm - INFO - ssr:stedsnr = 321662: No name found
 utility_to_osm - INFO - ssr:stedsnr = 321662 has multiple (4) positions, using the first one!
@@ -5531,6 +5573,7 @@ utility_to_osm - INFO - ssr:stedsnr = 323580 has multiple (3) positions, using t
 utility_to_osm - INFO - ssr:stedsnr = 323588: No name found
 utility_to_osm - INFO - ssr:stedsnr = 323588: No name found
 utility_to_osm - INFO - ssr:stedsnr = 323588: Multi-language name tag = Gásluovtvárre - Lifjellet
+utility_to_osm - INFO - ssr:stedsnr = 323640: No name found
 utility_to_osm - INFO - ssr:stedsnr = 323640: No name found
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Akcevárri"
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Akcevárri"
@@ -5608,6 +5651,7 @@ utility_to_osm - INFO - ssr:stedsnr = 340531: No name found
 utility_to_osm - INFO - ssr:stedsnr = 342574: No name found
 utility_to_osm - INFO - ssr:stedsnr = 342024: No name found
 utility_to_osm - INFO - ssr:stedsnr = 342027: No name found
+utility_to_osm - INFO - ssr:stedsnr = 342073: No name found
 utility_to_osm - INFO - ssr:stedsnr = 342073: No name found
 utility_to_osm - INFO - ssr:stedsnr = 342177: No name found
 utility_to_osm - INFO - ssr:stedsnr = 342235: No name found
@@ -5760,6 +5804,7 @@ utility_to_osm - INFO - ssr:stedsnr = 381538: No name found
 utility_to_osm - INFO - ssr:stedsnr = 381538: No name found
 utility_to_osm - INFO - ssr:stedsnr = 381538 has multiple (7) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 381539: No name found
+utility_to_osm - INFO - ssr:stedsnr = 381539: No name found
 utility_to_osm - INFO - ssr:stedsnr = 381539 has multiple (4) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 381555: No name found
 utility_to_osm - INFO - ssr:stedsnr = 381555 has multiple (2) positions, using the first one!
@@ -5769,6 +5814,7 @@ utility_to_osm - INFO - ssr:stedsnr = 381757: No name found
 utility_to_osm - INFO - ssr:stedsnr = 381757 has multiple (2) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 381759: No name found
 utility_to_osm - INFO - ssr:stedsnr = 381759 has multiple (4) positions, using the first one!
+utility_to_osm - INFO - ssr:stedsnr = 381763: No name found
 utility_to_osm - INFO - ssr:stedsnr = 381763: No name found
 utility_to_osm - INFO - ssr:stedsnr = 381764: No name found
 utility_to_osm - INFO - ssr:stedsnr = 381764 has multiple (2) positions, using the first one!
@@ -6135,6 +6181,7 @@ utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Småel
 utility_to_osm - INFO - ssr:stedsnr = 442812: No name found
 utility_to_osm - INFO - ssr:stedsnr = 442812 has multiple (3) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 442820: No name found
+utility_to_osm - INFO - ssr:stedsnr = 442820: No name found
 utility_to_osm - INFO - ssr:stedsnr = 442830: No name found
 utility_to_osm - INFO - ssr:stedsnr = 442963: No name found
 utility_to_osm - INFO - ssr:stedsnr = 446514: No name found
@@ -6207,6 +6254,7 @@ utility_to_osm - INFO - ssr:stedsnr = 502129: No name found
 utility_to_osm - INFO - ssr:stedsnr = 502129: No name found
 utility_to_osm - INFO - ssr:stedsnr = 502129: Multi-language name tag = Langryggen - Gáicačorru
 utility_to_osm - INFO - ssr:stedsnr = 502129 has multiple (3) positions, using the first one!
+utility_to_osm - INFO - ssr:stedsnr = 502134: No name found
 utility_to_osm - INFO - ssr:stedsnr = 502134: No name found
 utility_to_osm - INFO - ssr:stedsnr = 502734: No name found
 utility_to_osm - INFO - ssr:stedsnr = 502734 has multiple (3) positions, using the first one!
@@ -6360,6 +6408,7 @@ utility_to_osm - INFO - ssr:stedsnr = 503248: No name found
 utility_to_osm - INFO - ssr:stedsnr = 503248 has multiple (2) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 503440: No name found
 utility_to_osm - INFO - ssr:stedsnr = 503440 has multiple (2) positions, using the first one!
+utility_to_osm - INFO - ssr:stedsnr = 503644: No name found
 utility_to_osm - INFO - ssr:stedsnr = 503644: No name found
 utility_to_osm - INFO - ssr:stedsnr = 503644 has multiple (3) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 503599: No name found
@@ -6669,6 +6718,7 @@ utility_to_osm - INFO - ssr:stedsnr = 563440 has multiple (3) positions, using t
 utility_to_osm - INFO - ssr:stedsnr = 563483: No name found
 utility_to_osm - INFO - ssr:stedsnr = 563483 has multiple (3) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 563509: No name found
+utility_to_osm - INFO - ssr:stedsnr = 563509: No name found
 utility_to_osm - INFO - ssr:stedsnr = 563509 has multiple (2) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 563515: No name found
 utility_to_osm - INFO - ssr:stedsnr = 563515 has multiple (2) positions, using the first one!
@@ -6902,6 +6952,7 @@ utility_to_osm - INFO - ssr:stedsnr = 570946: No name found
 utility_to_osm - INFO - ssr:stedsnr = 571072: No name found
 utility_to_osm - INFO - ssr:stedsnr = 571035: No name found
 utility_to_osm - INFO - ssr:stedsnr = 571043: No name found
+utility_to_osm - INFO - ssr:stedsnr = 571043: No name found
 utility_to_osm - INFO - ssr:stedsnr = 571232: No name found
 utility_to_osm - INFO - ssr:stedsnr = 571280: No name found
 utility_to_osm - INFO - ssr:stedsnr = 571291: No name found
@@ -6934,6 +6985,7 @@ utility_to_osm - INFO - ssr:stedsnr = 573570: No name found
 utility_to_osm - INFO - ssr:stedsnr = 573570: Multi-language name tag = Bednakoajvve - Hundhovudet
 utility_to_osm - INFO - ssr:stedsnr = 573570 has multiple (2) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 573763: No name found
+utility_to_osm - INFO - ssr:stedsnr = 576091: No name found
 utility_to_osm - INFO - ssr:stedsnr = 576091: No name found
 utility_to_osm - INFO - ssr:stedsnr = 576727: No name found
 utility_to_osm - INFO - ssr:stedsnr = 576754: No name found
@@ -7083,6 +7135,7 @@ utility_to_osm - INFO - ssr:stedsnr = 624529: No name found
 utility_to_osm - INFO - ssr:stedsnr = 624529 has multiple (3) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 624678: No name found
 utility_to_osm - INFO - ssr:stedsnr = 624678 has multiple (3) positions, using the first one!
+utility_to_osm - INFO - ssr:stedsnr = 624683: No name found
 utility_to_osm - INFO - ssr:stedsnr = 624683: No name found
 utility_to_osm - INFO - ssr:stedsnr = 624693: No name found
 utility_to_osm - INFO - ssr:stedsnr = 624693 has multiple (4) positions, using the first one!
@@ -7360,6 +7413,7 @@ utility_to_osm - INFO - ssr:stedsnr = 745649 has multiple (2) positions, using t
 utility_to_osm - INFO - ssr:stedsnr = 745654: No name found
 utility_to_osm - INFO - ssr:stedsnr = 745654 has multiple (3) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 745663: No name found
+utility_to_osm - INFO - ssr:stedsnr = 745663: No name found
 utility_to_osm - INFO - ssr:stedsnr = 745663 has multiple (5) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 745664: No name found
 utility_to_osm - INFO - ssr:stedsnr = 745664 has multiple (2) positions, using the first one!
@@ -7377,6 +7431,7 @@ utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Kjård
 utility_to_osm - INFO - ssr:stedsnr = 745736: No name found
 utility_to_osm - INFO - ssr:stedsnr = 745736: No name found
 utility_to_osm - INFO - ssr:stedsnr = 745736: Multi-language name tag = Tjårdavatnet - Čoađgejávri
+utility_to_osm - INFO - ssr:stedsnr = 745737: No name found
 utility_to_osm - INFO - ssr:stedsnr = 745737: No name found
 utility_to_osm - INFO - ssr:stedsnr = 745737 has multiple (2) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 745739: No name found
@@ -7446,6 +7501,7 @@ utility_to_osm - INFO - ssr:stedsnr = 746173: No name found
 utility_to_osm - INFO - ssr:stedsnr = 746173: Multi-language name tag = Bjørnfjell - Bonjuvárri
 utility_to_osm - INFO - ssr:stedsnr = 746173 has multiple (2) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 745929: No name found
+utility_to_osm - INFO - ssr:stedsnr = 745935: No name found
 utility_to_osm - INFO - ssr:stedsnr = 745935: No name found
 utility_to_osm - INFO - ssr:stedsnr = 745945: No name found
 utility_to_osm - INFO - ssr:stedsnr = 746628: No name found
@@ -7550,6 +7606,7 @@ utility_to_osm - INFO - ssr:stedsnr = 752196: No name found
 utility_to_osm - INFO - ssr:stedsnr = 752198: No name found
 utility_to_osm - INFO - ssr:stedsnr = 753002: No name found
 utility_to_osm - INFO - ssr:stedsnr = 753015: No name found
+utility_to_osm - INFO - ssr:stedsnr = 753027: No name found
 utility_to_osm - INFO - ssr:stedsnr = 753027: No name found
 utility_to_osm - INFO - ssr:stedsnr = 753029: No name found
 utility_to_osm - INFO - ssr:stedsnr = 753034: No name found
@@ -7753,6 +7810,7 @@ utility_to_osm - INFO - ssr:stedsnr = 806655 has multiple (3) positions, using t
 utility_to_osm - INFO - ignoring non approved status = "avslåttNavneledd" name = "Storskardtoppen"
 utility_to_osm - INFO - ignoring non approved status = "avslåttNavneledd" name = "Storskardtoppen"
 utility_to_osm - INFO - ignoring non approved status = "avslåttNavneledd" name = "Storskardtoppen"
+utility_to_osm - INFO - ssr:stedsnr = 806657: No name found
 utility_to_osm - INFO - ssr:stedsnr = 806657: No name found
 utility_to_osm - INFO - ssr:stedsnr = 806659: No name found
 utility_to_osm - INFO - ssr:stedsnr = 806659: No name found
@@ -9498,6 +9556,7 @@ utility_to_osm - INFO - ssr:stedsnr = 1076487: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1076488: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1076489: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1076490: No name found
+utility_to_osm - INFO - ssr:stedsnr = 1076490: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1076498: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1076504: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1076505: No name found
@@ -9515,6 +9574,8 @@ utility_to_osm - INFO - ssr:stedsnr = 1076656: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1076465: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1076466: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1076467: No name found
+utility_to_osm - INFO - ssr:stedsnr = 1076467: No name found
+utility_to_osm - INFO - ssr:stedsnr = 1076468: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1076468: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1076470: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1076471: No name found
@@ -9578,6 +9639,27 @@ utility_to_osm - INFO - ssr:stedsnr = 1082327: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1082497: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1082498: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1082602: No name found
+utility_to_osm - INFO - ssr:stedsnr = 1083569: No name found
+utility_to_osm - INFO - ssr:stedsnr = 1083569 has multiple (23) positions, using the first one!
+utility_to_osm - INFO - ssr:stedsnr = 1083570: No name found
+utility_to_osm - INFO - ssr:stedsnr = 1083574: No name found
+utility_to_osm - INFO - ssr:stedsnr = 1083576: No name found
+utility_to_osm - INFO - ssr:stedsnr = 1083577: No name found
+utility_to_osm - INFO - ssr:stedsnr = 1083578: No name found
+utility_to_osm - INFO - ssr:stedsnr = 1083579: No name found
+utility_to_osm - INFO - ssr:stedsnr = 1083580: No name found
+utility_to_osm - INFO - ssr:stedsnr = 1083580: No name found
+utility_to_osm - INFO - ssr:stedsnr = 1083581: No name found
+utility_to_osm - INFO - ssr:stedsnr = 1083582: No name found
+utility_to_osm - INFO - ssr:stedsnr = 1083583: No name found
+utility_to_osm - INFO - ssr:stedsnr = 1083584: No name found
+utility_to_osm - INFO - ssr:stedsnr = 1083585: No name found
+utility_to_osm - INFO - ssr:stedsnr = 1083598: No name found
+utility_to_osm - INFO - ssr:stedsnr = 1083600: No name found
+utility_to_osm - INFO - ssr:stedsnr = 1083601: No name found
+utility_to_osm - INFO - ssr:stedsnr = 1083602: No name found
+utility_to_osm - INFO - ssr:stedsnr = 1083604: No name found
+utility_to_osm - INFO - ssr:stedsnr = 1083605: No name found
 utility_to_osm.ssr2.ssr2_tags - INFO - ssr:type = adressenavn found in conversion table, but without tags
 utility_to_osm.ssr2.ssr2_tags - INFO - ssr:type = banestrekning found in conversion table, but without tags
 utility_to_osm.ssr2.ssr2_tags - INFO - ssr:type = fyrlykt found in conversion table, but without tags

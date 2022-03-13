@@ -6,4 +6,60 @@
 		<tag k="source" v="Kartverket" />
 		<tag k="ssr:stedsnr" v="411099" />
 	</node>
+	<node id="4213006866" lat="63.6791432" lon="11.0769578" version="2" timestamp="2022-01-26T07:15:22Z" changeset="116611310" uid="3497659" user="NKA">
+		<tag k="junction" v="yes" />
+		<tag k="name" v="Kjølakorsen" />
+		<tag k="ssr:stedsnr" v="168180" />
+	</node>
+	<node id="5758492674" lat="63.7990039" lon="11.1332988" version="2" timestamp="2022-01-26T07:15:22Z" changeset="116611310" uid="3497659" user="NKA">
+		<tag k="junction" v="yes" />
+		<tag k="name" v="Øverlandet" />
+		<tag k="ssr:stedsnr" v="594016" />
+	</node>
+	<node id="5763500452" lat="63.7310719" lon="11.4638256" version="2" timestamp="2022-01-26T07:15:22Z" changeset="116611310" uid="3497659" user="NKA">
+		<tag k="junction" v="yes" />
+		<tag k="name" v="Triangelen" />
+		<tag k="ssr:stedsnr" v="393983" />
+	</node>
+	<node id="5763744633" lat="63.7257687" lon="11.3693432" version="2" timestamp="2022-01-26T07:15:22Z" changeset="116611310" uid="3497659" user="NKA">
+		<tag k="junction" v="yes" />
+		<tag k="name" v="Kjerksvegrinda" />
+		<tag k="ssr:stedsnr" v="143724" />
+	</node>
+	<node id="5763748688" lat="63.7210628" lon="11.3835662" version="2" timestamp="2022-01-26T07:15:22Z" changeset="116611310" uid="3497659" user="NKA">
+		<tag k="junction" v="yes" />
+		<tag k="name" v="Håmmårledet" />
+		<tag k="ssr:stedsnr" v="447612" />
+	</node>
+	<node id="874841171" lat="63.6256821" lon="11.1642909" version="2" timestamp="2018-07-13T14:28:08Z" changeset="60690188" uid="8524080" user="Entur AS | Bjørn Lie Rapp" />
+	<node id="5758768636" lat="63.6258717" lon="11.1645353" version="1" timestamp="2018-07-13T14:27:35Z" changeset="60690188" uid="8524080" user="Entur AS | Bjørn Lie Rapp" />
+	<node id="306921600" lat="63.7457136" lon="11.2951467" version="3" timestamp="2018-07-22T09:45:03Z" changeset="60947651" uid="715936" user="Gazer75" />
+	<node id="306921848" lat="63.7466585" lon="11.2929334" version="11" timestamp="2018-07-18T07:42:33Z" changeset="60824756" uid="8524080" user="Entur AS | Bjørn Lie Rapp" />
+	<way id="27948496" version="9" timestamp="2022-01-24T21:00:15Z" changeset="116559033" uid="3497659" user="NKA">
+		<tag k="bridge" v="yes" />
+		<tag k="bridge:structure" v="beam" />
+		<tag k="cycleway:both" v="no" />
+		<tag k="highway" v="secondary" />
+		<tag k="lanes" v="2" />
+		<tag k="layer" v="1" />
+		<tag k="name" v="Sundbrua" />
+		<tag k="ref" v="6866" />
+		<tag k="ssr:stedsnr" v="347165" />
+		<tag k="surface" v="asphalt" />
+		<nd ref="306921600" />
+		<nd ref="306921848" />
+	</way>
+	<way id="607718389" version="2" timestamp="2022-01-24T21:00:15Z" changeset="116559033" uid="3497659" user="NKA">
+		<tag k="bridge" v="yes" />
+		<tag k="highway" v="secondary" />
+		<tag k="layer" v="1" />
+		<tag k="loc_name" v="Straumbrua" />
+		<tag k="maxspeed" v="80" />
+		<tag k="name" v="Strøm bru" />
+		<tag k="ref" v="6852" />
+		<tag k="ssr:stedsnr" v="473487" />
+		<tag k="surface" v="asphalt" />
+		<nd ref="874841171" />
+		<nd ref="5758768636" />
+	</way>
 </osm>

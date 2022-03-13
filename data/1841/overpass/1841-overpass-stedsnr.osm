@@ -1,8 +1,71 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <osm version="0.6" generator="osmapis">
+	<node id="7292573307" lat="67.083534" lon="16.043122" version="2" timestamp="2022-01-26T06:22:04Z" changeset="116610177" uid="3497659" user="NKA">
+		<tag k="junction" v="yes" />
+		<tag k="name" v="Kjellvasskrysset" />
+		<tag k="ssr:stedsnr" v="905781" />
+	</node>
+	<node id="7292574751" lat="67.0849662" lon="16.0271467" version="2" timestamp="2022-01-26T06:22:04Z" changeset="116610177" uid="3497659" user="NKA">
+		<tag k="junction" v="yes" />
+		<tag k="name" v="Såkikrysset" />
+		<tag k="ssr:stedsnr" v="420786" />
+	</node>
 	<node id="9427514701" lat="67.2240507" lon="15.4144865" version="1" timestamp="2022-01-18T07:49:55Z" changeset="116285062" uid="3497659" user="NKA">
 		<tag k="name" v="Tuva leirsted" />
 		<tag k="place" v="locality" />
 		<tag k="ssr:stedsnr" v="420354" />
 	</node>
+	<node id="7292535544" lat="67.350989" lon="15.262011" version="1" timestamp="2020-03-13T17:24:49Z" changeset="82174515" uid="3497659" user="NKA" />
+	<node id="7292540464" lat="67.350932" lon="15.262393" version="1" timestamp="2020-03-13T17:24:49Z" changeset="82174515" uid="3497659" user="NKA" />
+	<node id="7292575238" lat="67.351007" lon="15.261884" version="1" timestamp="2020-03-13T17:31:13Z" changeset="82174516" uid="3497659" user="NKA" />
+	<node id="7292540221" lat="67.40688" lon="15.319429" version="1" timestamp="2020-03-13T17:24:49Z" changeset="82174515" uid="3497659" user="NKA" />
+	<node id="7292572831" lat="67.406787" lon="15.319396" version="1" timestamp="2020-03-13T17:31:13Z" changeset="82174516" uid="3497659" user="NKA" />
+	<node id="7292572832" lat="67.398601" lon="15.387415" version="1" timestamp="2020-03-13T17:31:13Z" changeset="82174516" uid="3497659" user="NKA" />
+	<node id="7292572833" lat="67.39853" lon="15.38716" version="1" timestamp="2020-03-13T17:31:13Z" changeset="82174516" uid="3497659" user="NKA" />
+	<node id="1402769513" lat="67.155519" lon="15.972911" version="3" timestamp="2020-03-13T17:31:13Z" changeset="82174516" uid="3497659" user="NKA">
+		<tag k="barrier" v="gate" />
+	</node>
+	<node id="7292575416" lat="67.15518" lon="15.972226" version="1" timestamp="2020-03-13T17:31:13Z" changeset="82174516" uid="3497659" user="NKA" />
+	<way id="131384499" version="4" timestamp="2022-01-24T06:56:00Z" changeset="116526664" uid="3497659" user="NKA">
+		<tag k="bridge" v="yes" />
+		<tag k="bridge:structure" v="beam" />
+		<tag k="highway" v="residential" />
+		<tag k="layer" v="1" />
+		<tag k="maxspeed" v="50" />
+		<tag k="name" v="Avilonbrua" />
+		<tag k="ssr:stedsnr" v="530792" />
+		<nd ref="7292575416" />
+		<nd ref="1402769513" />
+	</way>
+	<way id="636804486" version="4" timestamp="2022-01-24T06:56:00Z" changeset="116526664" uid="3497659" user="NKA">
+		<tag k="bridge" v="yes" />
+		<tag k="highway" v="unclassified" />
+		<tag k="layer" v="1" />
+		<tag k="name" v="Nybrua" />
+		<tag k="ssr:stedsnr" v="541296" />
+		<nd ref="7292572831" />
+		<nd ref="7292540221" />
+	</way>
+	<way id="781022988" version="2" timestamp="2022-01-24T06:56:00Z" changeset="116526664" uid="3497659" user="NKA">
+		<tag k="bridge" v="yes" />
+		<tag k="highway" v="service" />
+		<tag k="layer" v="1" />
+		<tag k="name" v="Fridalbrua" />
+		<tag k="ssr:stedsnr" v="85762" />
+		<nd ref="7292572833" />
+		<nd ref="7292572832" />
+	</way>
+	<way id="781024245" version="2" timestamp="2022-01-24T06:56:00Z" changeset="116526664" uid="3497659" user="NKA">
+		<tag k="bridge" v="yes" />
+		<tag k="highway" v="secondary" />
+		<tag k="layer" v="1" />
+		<tag k="maxspeed" v="60" />
+		<tag k="name" v="Lakselvbrua" />
+		<tag k="ref" v="7472" />
+		<tag k="ssr:stedsnr" v="328106" />
+		<tag k="surface" v="asphalt" />
+		<nd ref="7292575238" />
+		<nd ref="7292535544" />
+		<nd ref="7292540464" />
+	</way>
 </osm>

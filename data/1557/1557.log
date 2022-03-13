@@ -1,4 +1,5 @@
-utility_to_osm.file_util - INFO - file_age(ssr2_to_osm_data/data/1557/1557-ssr.xml) -> 12.5 days
+utility_to_osm.file_util - INFO - file_age(ssr2_to_osm_data/data/1557/1557-ssr.xml) -> 53.6 days
+utility_to_osm.gentle_requests - INFO - requested http://wfs.geonorge.no/skwms1/wfs.stedsnavn50?VERSION=2.0.0&SERVICE=WFS&srsName=EPSG:25832&REQUEST=GetFeature&TYPENAME=Sted&resultType=results&Filter=%3CFilter%3E%20%3CPropertyIsEqualTo%3E%20%3CValueReference%20xmlns:app=%22http://skjema.geonorge.no/SOSI/produktspesifikasjon/Stedsnavn/5.0%22%3Eapp:kommune/app:Kommune/app:kommunenummer%3C/ValueReference%3E%20%3CLiteral%3E1557%3C/Literal%3E%20%3C/PropertyIsEqualTo%3E%20%3C/Filter%3E" --header "Content-Type:text/xml" ssr2_to_osm_data/data/1557/1557-ssr.xml, got <Response [200]>
 utility_to_osm - INFO - ssr:stedsnr = 11507: No name found
 utility_to_osm - INFO - ssr:stedsnr = 11507 has multiple (4) positions, using the first one!
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Høgliskarven"
@@ -1713,7 +1714,6 @@ utility_to_osm - INFO - ssr:stedsnr = 194935: No name found
 utility_to_osm - INFO - ssr:stedsnr = 194935 has multiple (4) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 194941: No name found
 utility_to_osm - INFO - ssr:stedsnr = 194944: No name found
-utility_to_osm - INFO - ssr:stedsnr = 194944 has multiple (4) positions, using the first one!
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Gagnattskjæret"
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Gagnattskjæret"
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Gagnattskjæret"
@@ -1738,7 +1738,6 @@ utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Sjøm�
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Sjømælingheian"
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Sjømælingheian"
 utility_to_osm - INFO - ssr:stedsnr = 203658: No name found
-utility_to_osm - INFO - ssr:stedsnr = 203658 has multiple (4) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 203664: No name found
 utility_to_osm - INFO - ssr:stedsnr = 203664 has multiple (3) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 209316: No name found
@@ -2324,11 +2323,10 @@ utility_to_osm - INFO - ssr:stedsnr = 581773: No name found
 utility_to_osm - INFO - ssr:stedsnr = 581838: No name found
 utility_to_osm - INFO - ssr:stedsnr = 586724: No name found
 utility_to_osm - INFO - ssr:stedsnr = 586800: No name found
-utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Løvollbekken"
-utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Løvollbekken"
-utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Løvollbekken"
+utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Lauvvollbekken"
+utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Lauvvollbekken"
+utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Lauvvollbekken"
 utility_to_osm - INFO - ssr:stedsnr = 618600: No name found
-utility_to_osm - INFO - ssr:stedsnr = 618600 has multiple (3) positions, using the first one!
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Hammaren"
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Hammaren"
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Hammaren"
@@ -2662,7 +2660,6 @@ utility_to_osm - INFO - ssr:stedsnr = 839724: No name found
 utility_to_osm - INFO - ssr:stedsnr = 861179: No name found
 utility_to_osm - INFO - ssr:stedsnr = 861179 has multiple (25) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 861541: No name found
-utility_to_osm - INFO - ssr:stedsnr = 861541 has multiple (14) positions, using the first one!
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Inderranda"
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Inderranda"
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Inderranda"

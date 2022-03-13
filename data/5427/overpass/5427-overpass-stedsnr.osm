@@ -1,2 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<osm version="0.6" generator="osmapis" />
+<osm version="0.6" generator="osmapis">
+	<node id="4387985031" lat="70.1136127" lon="20.5482797" version="2" timestamp="2022-01-26T06:08:00Z" changeset="116609992" uid="3497659" user="NKA">
+		<tag k="junction" v="yes" />
+		<tag k="name" v="Akkarvikkrysset" />
+		<tag k="ssr:stedsnr" v="898972" />
+	</node>
+	<node id="4393720112" lat="70.0049139" lon="20.9009282" version="1" timestamp="2016-09-09T16:39:04Z" changeset="42036323" uid="2115582" user="Tractor_import" />
+	<node id="4394050826" lat="70.0069982" lon="20.9102644" version="2" timestamp="2020-11-13T21:20:03Z" changeset="94086588" uid="103253" user="gormur">
+		<tag k="highway" v="passing_place" />
+	</node>
+	<node id="4394051060" lat="70.0087535" lon="20.9181739" version="1" timestamp="2016-09-09T20:36:24Z" changeset="42046747" uid="2115582" user="Tractor_import" />
+	<node id="4394051075" lat="70.0088209" lon="20.9185041" version="1" timestamp="2016-09-09T20:36:24Z" changeset="42046747" uid="2115582" user="Tractor_import" />
+	<node id="4394051084" lat="70.0088697" lon="20.9187933" version="1" timestamp="2016-09-09T20:36:24Z" changeset="42046747" uid="2115582" user="Tractor_import" />
+	<way id="57746346" version="16" timestamp="2022-01-25T18:21:17Z" changeset="116596754" uid="3497659" user="NKA">
+		<tag k="alt_name" v="Skjervøyabrua" />
+		<tag k="bridge" v="yes" />
+		<tag k="bridge:structure" v="beam" />
+		<tag k="highway" v="primary" />
+		<tag k="lanes" v="1" />
+		<tag k="layer" v="1" />
+		<tag k="length" v="804" />
+		<tag k="loc_name" v="Skattørsundbrua" />
+		<tag k="maxspeed" v="80" />
+		<tag k="maxwidth" v="4" />
+		<tag k="name" v="Skattørsundet bru" />
+		<tag k="ref" v="866" />
+		<tag k="ssr:stedsnr" v="49371" />
+		<tag k="wikidata" v="Q6513455" />
+		<nd ref="4393720112" />
+		<nd ref="4394050826" />
+		<nd ref="4394051060" />
+		<nd ref="4394051075" />
+		<nd ref="4394051084" />
+	</way>
+</osm>

@@ -1,4 +1,5 @@
-utility_to_osm.file_util - INFO - file_age(ssr2_to_osm_data/data/1840/1840-ssr.xml) -> 12.5 days
+utility_to_osm.file_util - INFO - file_age(ssr2_to_osm_data/data/1840/1840-ssr.xml) -> 53.6 days
+utility_to_osm.gentle_requests - INFO - requested http://wfs.geonorge.no/skwms1/wfs.stedsnavn50?VERSION=2.0.0&SERVICE=WFS&srsName=EPSG:25832&REQUEST=GetFeature&TYPENAME=Sted&resultType=results&Filter=%3CFilter%3E%20%3CPropertyIsEqualTo%3E%20%3CValueReference%20xmlns:app=%22http://skjema.geonorge.no/SOSI/produktspesifikasjon/Stedsnavn/5.0%22%3Eapp:kommune/app:Kommune/app:kommunenummer%3C/ValueReference%3E%20%3CLiteral%3E1840%3C/Literal%3E%20%3C/PropertyIsEqualTo%3E%20%3C/Filter%3E" --header "Content-Type:text/xml" ssr2_to_osm_data/data/1840/1840-ssr.xml, got <Response [200]>
 utility_to_osm - INFO - ssr:stedsnr = 229647: No name found
 utility_to_osm - INFO - ssr:stedsnr = 229763: No name found
 utility_to_osm - INFO - ssr:stedsnr = 229765: No name found
@@ -621,11 +622,18 @@ utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Haroda
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Harodalen"
 utility_to_osm - INFO - ssr:stedsnr = 319503: No name found
 utility_to_osm - INFO - ssr:stedsnr = 319503: No name found
+utility_to_osm - INFO - ssr:stedsnr = 319503: Multi-language name tag = Harondalen - Háro
 utility_to_osm - INFO - ssr:stedsnr = 319503 has multiple (7) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 319541: No name found
 utility_to_osm - INFO - ssr:stedsnr = 319541 has multiple (3) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 319546: No name found
 utility_to_osm - INFO - ssr:stedsnr = 319546 has multiple (2) positions, using the first one!
+utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Dammen"
+utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Møllvatnet"
+utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Dammen"
+utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Møllvatnet"
+utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Dammen"
+utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Møllvatnet"
 utility_to_osm - INFO - ssr:stedsnr = 319550: No name found
 utility_to_osm - INFO - ssr:stedsnr = 319550 has multiple (4) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 319587: No name found
@@ -798,6 +806,9 @@ utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Fald"
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Fald"
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Fald"
 utility_to_osm - INFO - ssr:stedsnr = 380676: No name found
+utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Fallfjell"
+utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Fallfjell"
+utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Fallfjell"
 utility_to_osm - INFO - ssr:stedsnr = 380679: No name found
 utility_to_osm - INFO - ssr:stedsnr = 380679 has multiple (2) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 380683: No name found
@@ -1647,7 +1658,6 @@ utility_to_osm - INFO - ssr:stedsnr = 926587: No name found
 utility_to_osm - INFO - ssr:stedsnr = 926587: Multi-language name tag = Sørfjellet - Vuolep Låpptåtjåhkkå
 utility_to_osm - INFO - ssr:stedsnr = 926587 has multiple (4) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 926589: No name found
-utility_to_osm - INFO - ssr:stedsnr = 926589 has multiple (4) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 926831: No name found
 utility_to_osm - INFO - ssr:stedsnr = 926831 has multiple (2) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 926638: No name found
@@ -2053,6 +2063,9 @@ utility_to_osm - INFO - ssr:stedsnr = 47841: No name found
 utility_to_osm - INFO - ssr:stedsnr = 47842: No name found
 utility_to_osm - INFO - ssr:stedsnr = 47568: No name found
 utility_to_osm - INFO - ssr:stedsnr = 47796: No name found
+utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Grønnupvatnan"
+utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Grønnupvatnan"
+utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Grønnupvatnan"
 utility_to_osm - INFO - ssr:stedsnr = 48372: No name found
 utility_to_osm - INFO - ssr:stedsnr = 48372 has multiple (2) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 48396: No name found
@@ -4375,6 +4388,7 @@ utility_to_osm - INFO - ssr:stedsnr = 1083450: Multi-language name tag = Røklan
 utility_to_osm - INFO - ssr:stedsnr = 1083451: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1083452: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1083453: No name found
+utility_to_osm - INFO - ssr:stedsnr = 1083462: No name found
 utility_to_osm.ssr2.ssr2_tags - INFO - ssr:type = adressenavn found in conversion table, but without tags
 utility_to_osm.ssr2.ssr2_tags - INFO - ssr:type = adressenavn found in conversion table, but without tags
 utility_to_osm.ssr2.ssr2_tags - INFO - ssr:type = adressenavn found in conversion table, but without tags

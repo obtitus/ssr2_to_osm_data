@@ -1,4 +1,5 @@
-utility_to_osm.file_util - INFO - file_age(ssr2_to_osm_data/data/3802/3802-ssr.xml) -> 0.5 days
+utility_to_osm.file_util - INFO - file_age(ssr2_to_osm_data/data/3802/3802-ssr.xml) -> 41.6 days
+utility_to_osm.gentle_requests - INFO - requested http://wfs.geonorge.no/skwms1/wfs.stedsnavn50?VERSION=2.0.0&SERVICE=WFS&srsName=EPSG:25832&REQUEST=GetFeature&TYPENAME=Sted&resultType=results&Filter=%3CFilter%3E%20%3CPropertyIsEqualTo%3E%20%3CValueReference%20xmlns:app=%22http://skjema.geonorge.no/SOSI/produktspesifikasjon/Stedsnavn/5.0%22%3Eapp:kommune/app:Kommune/app:kommunenummer%3C/ValueReference%3E%20%3CLiteral%3E3802%3C/Literal%3E%20%3C/PropertyIsEqualTo%3E%20%3C/Filter%3E" --header "Content-Type:text/xml" ssr2_to_osm_data/data/3802/3802-ssr.xml, got <Response [200]>
 utility_to_osm - INFO - ssr:stedsnr = 2101: No name found
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Tolsrød"
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Tolsrud"
@@ -5055,6 +5056,12 @@ utility_to_osm - INFO - ssr:stedsnr = 1082375: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1082376: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1082434: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1083050: No name found
+utility_to_osm - INFO - Skipping name_status = "avslått navnevalg"
+utility_to_osm - INFO - Skipping name_status = "avslått navnevalg"
+utility_to_osm - INFO - Skipping name_status = "avslått navnevalg"
+utility_to_osm - INFO - ssr:stedsnr = 323977: No name found
+utility_to_osm - INFO - ssr:stedsnr = 1084039: No name found
+utility_to_osm - INFO - ssr:stedsnr = 1084040: No name found
 utility_to_osm.ssr2.ssr2_tags - INFO - ssr:type = fyrlykt found in conversion table, but without tags
 utility_to_osm.ssr2.ssr2_tags - INFO - ssr:type = adressenavn found in conversion table, but without tags
 utility_to_osm.ssr2.ssr2_tags - INFO - ssr:type = adressenavn found in conversion table, but without tags
@@ -5669,6 +5676,8 @@ utility_to_osm.ssr2.ssr2_tags - INFO - ssr:type = adressenavn found in conversio
 utility_to_osm.ssr2.ssr2_tags - INFO - ssr:type = adressenavn found in conversion table, but without tags
 utility_to_osm.ssr2.ssr2_tags - INFO - ssr:type = adressenavn found in conversion table, but without tags
 utility_to_osm.ssr2.ssr2_tags - INFO - ssr:type = fylke found in conversion table, but without tags
+utility_to_osm.ssr2.ssr2_tags - INFO - ssr:type = adressenavn found in conversion table, but without tags
+utility_to_osm.ssr2.ssr2_tags - INFO - ssr:type = adressenavn found in conversion table, but without tags
 utility_to_osm.ssr2.ssr2_tags - INFO - ssr:type = adressenavn found in conversion table, but without tags
 utility_to_osm.ssr2.ssr2_tags - INFO - ssr:type = adressenavn found in conversion table, but without tags
 utility_to_osm.ssr2.ssr2_tags - INFO - ssr:type = adressenavn found in conversion table, but without tags

@@ -11,4 +11,33 @@
 		<tag k="ssr:stedsnr" v="623987" />
 		<tag k="wikipedia" v="no:Oppeid" />
 	</node>
+	<node id="6511987745" lat="68.0837921" lon="15.6504783" version="1" timestamp="2019-05-30T18:43:39Z" changeset="70782912" uid="395141" user="Tractor" />
+	<node id="6511987746" lat="68.0831139" lon="15.6510849" version="1" timestamp="2019-05-30T18:43:39Z" changeset="70782912" uid="395141" user="Tractor" />
+	<node id="6511987747" lat="68.0828335" lon="15.6513341" version="1" timestamp="2019-05-30T18:43:39Z" changeset="70782912" uid="395141" user="Tractor" />
+	<node id="4225826274" lat="67.8080896" lon="16.528464" version="2" timestamp="2017-07-13T10:05:28Z" changeset="50253676" uid="5732597" user="ENTUR Johan Wiklund" />
+	<node id="4225826277" lat="67.8082898" lon="16.528567" version="3" timestamp="2020-10-17T17:17:44Z" changeset="92636510" uid="32112" user="SverigeFan" />
+	<way id="392174939" version="4" timestamp="2022-01-24T06:56:00Z" changeset="116526664" uid="3497659" user="NKA">
+		<tag k="bridge" v="yes" />
+		<tag k="bridge:structure" v="suspension" />
+		<tag k="highway" v="primary" />
+		<tag k="layer" v="1" />
+		<tag k="maxspeed" v="50" />
+		<tag k="name" v="Presteidbrua" />
+		<tag k="ref" v="81" />
+		<tag k="ssr:stedsnr" v="49156" />
+		<nd ref="6511987747" />
+		<nd ref="6511987746" />
+		<nd ref="6511987745" />
+	</way>
+	<way id="507264793" version="2" timestamp="2022-01-24T06:56:00Z" changeset="116526664" uid="3497659" user="NKA">
+		<tag k="bridge" v="yes" />
+		<tag k="fixme" v="refine;resurvey" />
+		<tag k="highway" v="path" />
+		<tag k="layer" v="1" />
+		<tag k="name" v="Stuorråvve" />
+		<tag k="name:smj" v="Stuorråvve" />
+		<tag k="ssr:stedsnr" v="143927" />
+		<nd ref="4225826277" />
+		<nd ref="4225826274" />
+	</way>
 </osm>

@@ -1,4 +1,5 @@
-utility_to_osm.file_util - INFO - file_age(ssr2_to_osm_data/data/5426/5426-ssr.xml) -> 0.5 days
+utility_to_osm.file_util - INFO - file_age(ssr2_to_osm_data/data/5426/5426-ssr.xml) -> 41.6 days
+utility_to_osm.gentle_requests - INFO - requested http://wfs.geonorge.no/skwms1/wfs.stedsnavn50?VERSION=2.0.0&SERVICE=WFS&srsName=EPSG:25832&REQUEST=GetFeature&TYPENAME=Sted&resultType=results&Filter=%3CFilter%3E%20%3CPropertyIsEqualTo%3E%20%3CValueReference%20xmlns:app=%22http://skjema.geonorge.no/SOSI/produktspesifikasjon/Stedsnavn/5.0%22%3Eapp:kommune/app:Kommune/app:kommunenummer%3C/ValueReference%3E%20%3CLiteral%3E5426%3C/Literal%3E%20%3C/PropertyIsEqualTo%3E%20%3C/Filter%3E" --header "Content-Type:text/xml" ssr2_to_osm_data/data/5426/5426-ssr.xml, got <Response [200]>
 utility_to_osm - INFO - ssr:stedsnr = 18498: No name found
 utility_to_osm - INFO - ssr:stedsnr = 18498 has multiple (2) positions, using the first one!
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Unnavákkáš"
@@ -306,7 +307,6 @@ utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Østeb
 utility_to_osm - INFO - ssr:stedsnr = 181665: No name found
 utility_to_osm - INFO - ssr:stedsnr = 181828: No name found
 utility_to_osm - INFO - ssr:stedsnr = 181830: No name found
-utility_to_osm - INFO - ssr:stedsnr = 181836: No name found
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Normannvik"
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Normannvik"
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Normannvik"
@@ -1534,6 +1534,7 @@ utility_to_osm - INFO - ssr:stedsnr = 80657: Multi-language name tag = Dálusvá
 utility_to_osm - INFO - ssr:stedsnr = 80663: No name found
 utility_to_osm - INFO - ssr:stedsnr = 80615: No name found
 utility_to_osm - INFO - ssr:stedsnr = 80616: No name found
+utility_to_osm - INFO - ssr:stedsnr = 80616: No name found
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Djupvika"
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Djupvika"
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Djupvika"
@@ -2414,6 +2415,7 @@ utility_to_osm - INFO - ssr:stedsnr = 599180: No name found
 utility_to_osm - INFO - ssr:stedsnr = 599187: No name found
 utility_to_osm - INFO - ssr:stedsnr = 599192: No name found
 utility_to_osm - INFO - ssr:stedsnr = 599123: No name found
+utility_to_osm - INFO - ssr:stedsnr = 599123: No name found
 utility_to_osm - INFO - ssr:stedsnr = 599146: No name found
 utility_to_osm - INFO - ssr:stedsnr = 599438: No name found
 utility_to_osm - INFO - ssr:stedsnr = 599478: No name found
@@ -3217,11 +3219,14 @@ utility_to_osm - INFO - ssr:stedsnr = 1082918: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1082918: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1082919: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1082920: No name found
+utility_to_osm - INFO - ssr:stedsnr = 1083563: No name found
+utility_to_osm - INFO - ssr:stedsnr = 1083563 has multiple (11) positions, using the first one!
 utility_to_osm.ssr2.ssr2_tags - INFO - ssr:type = sjødetalj found in conversion table, but without tags
 utility_to_osm.ssr2.ssr2_tags - INFO - ssr:type = fiskeplassISjø found in conversion table, but without tags
 utility_to_osm.ssr2.ssr2_tags - INFO - ssr:type = sjødetalj found in conversion table, but without tags
 utility_to_osm.ssr2.ssr2_tags - INFO - ssr:type = fiskeplassISjø found in conversion table, but without tags
 utility_to_osm.ssr2.ssr2_tags - INFO - ssr:type = fiskeplassISjø found in conversion table, but without tags
+utility_to_osm.ssr2.ssr2_tags - INFO - ssr:type = landskapsområde found in conversion table, but without tags
 utility_to_osm.ssr2.ssr2_tags - INFO - ssr:type = kommune found in conversion table, but without tags
 utility_to_osm.ssr2.ssr2_tags - INFO - ssr:type = fyrlykt found in conversion table, but without tags
 utility_to_osm.ssr2.ssr2_tags - INFO - ssr:type = annenAdministrativInndeling found in conversion table, but without tags

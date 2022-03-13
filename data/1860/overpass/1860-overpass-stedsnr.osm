@@ -1,2 +1,57 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<osm version="0.6" generator="osmapis" />
+<osm version="0.6" generator="osmapis">
+	<node id="243696901" lat="68.2276564" lon="13.7349598" version="7" timestamp="2022-01-26T06:22:04Z" changeset="116610177" uid="3497659" user="NKA">
+		<tag k="junction" v="yes" />
+		<tag k="name" v="Steinfjordkrysset" />
+		<tag k="ssr:stedsnr" v="688463" />
+	</node>
+	<node id="5427431811" lat="68.197494" lon="13.9630342" version="2" timestamp="2022-01-26T06:22:04Z" changeset="116610177" uid="3497659" user="NKA">
+		<tag k="junction" v="yes" />
+		<tag k="name" v="Dragkrysset" />
+		<tag k="ssr:stedsnr" v="875554" />
+	</node>
+	<node id="5432029689" lat="68.2409534" lon="13.6889397" version="2" timestamp="2022-01-26T06:22:04Z" changeset="116610177" uid="3497659" user="NKA">
+		<tag k="junction" v="yes" />
+		<tag k="name" v="Elltoftkrysset" />
+		<tag k="ssr:stedsnr" v="810476" />
+	</node>
+	<node id="2889607346" lat="68.1913644" lon="13.8632941" version="2" timestamp="2018-02-21T20:11:01Z" changeset="56560826" uid="3296383" user="Reitstoen_import" />
+	<node id="5427431954" lat="68.1914116" lon="13.8633907" version="1" timestamp="2018-02-21T20:10:34Z" changeset="56560826" uid="3296383" user="Reitstoen_import" />
+	<node id="5427431955" lat="68.1913172" lon="13.8631927" version="1" timestamp="2018-02-21T20:10:34Z" changeset="56560826" uid="3296383" user="Reitstoen_import" />
+	<node id="249443295" lat="68.3072671" lon="13.8707687" version="3" timestamp="2018-02-22T20:17:26Z" changeset="56590859" uid="3296383" user="Reitstoen_import" />
+	<node id="5429882180" lat="68.3073079" lon="13.8708321" version="1" timestamp="2018-02-22T20:17:07Z" changeset="56590859" uid="3296383" user="Reitstoen_import" />
+	<node id="5429882184" lat="68.3072255" lon="13.8707053" version="1" timestamp="2018-02-22T20:17:07Z" changeset="56590859" uid="3296383" user="Reitstoen_import" />
+	<way id="23104816" version="5" timestamp="2022-01-24T06:56:00Z" changeset="116526664" uid="3497659" user="NKA">
+		<tag k="bridge" v="yes" />
+		<tag k="highway" v="secondary" />
+		<tag k="layer" v="1" />
+		<tag k="maxspeed" v="80" />
+		<tag k="name" v="Valbrua" />
+		<tag k="old_ref" v="996" />
+		<tag k="ref" v="7728" />
+		<tag k="ssr:stedsnr" v="506848" />
+		<nd ref="5429882180" />
+		<nd ref="249443295" />
+		<nd ref="5429882184" />
+	</way>
+	<way id="285280887" version="5" timestamp="2022-01-24T06:56:00Z" changeset="116526664" uid="3497659" user="NKA">
+		<tag k="bridge" v="yes" />
+		<tag k="class:bicycle:roadcycling" v="2" />
+		<tag k="class:bicycle:touring" v="2" />
+		<tag k="highway" v="primary" />
+		<tag k="lanes" v="2" />
+		<tag k="layer" v="1" />
+		<tag k="lit" v="no" />
+		<tag k="maxspeed" v="80" />
+		<tag k="name" v="Straumbrua" />
+		<tag k="ref" v="815" />
+		<tag k="sidewalk" v="none" />
+		<tag k="source:maxspeed" v="NO:rural" />
+		<tag k="ssr:stedsnr" v="845082" />
+		<tag k="surface" v="asphalt" />
+		<tag k="width" v="5" />
+		<nd ref="5427431955" />
+		<nd ref="2889607346" />
+		<nd ref="5427431954" />
+	</way>
+</osm>

@@ -1,4 +1,5 @@
-utility_to_osm.file_util - INFO - file_age(ssr2_to_osm_data/data/1853/1853-ssr.xml) -> 12.5 days
+utility_to_osm.file_util - INFO - file_age(ssr2_to_osm_data/data/1853/1853-ssr.xml) -> 53.6 days
+utility_to_osm.gentle_requests - INFO - requested http://wfs.geonorge.no/skwms1/wfs.stedsnavn50?VERSION=2.0.0&SERVICE=WFS&srsName=EPSG:25832&REQUEST=GetFeature&TYPENAME=Sted&resultType=results&Filter=%3CFilter%3E%20%3CPropertyIsEqualTo%3E%20%3CValueReference%20xmlns:app=%22http://skjema.geonorge.no/SOSI/produktspesifikasjon/Stedsnavn/5.0%22%3Eapp:kommune/app:Kommune/app:kommunenummer%3C/ValueReference%3E%20%3CLiteral%3E1853%3C/Literal%3E%20%3C/PropertyIsEqualTo%3E%20%3C/Filter%3E" --header "Content-Type:text/xml" ssr2_to_osm_data/data/1853/1853-ssr.xml, got <Response [200]>
 utility_to_osm - INFO - ssr:stedsnr = 16518: No name found
 utility_to_osm - INFO - ssr:stedsnr = 16518 has multiple (3) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 16520: No name found
@@ -188,7 +189,8 @@ utility_to_osm - INFO - ssr:stedsnr = 268912: No name found
 utility_to_osm - INFO - ssr:stedsnr = 328450: No name found
 utility_to_osm - INFO - ssr:stedsnr = 270196: No name found
 utility_to_osm - INFO - ssr:stedsnr = 220486: No name found
-utility_to_osm - INFO - ssr:stedsnr = 220486 has multiple (6) positions, using the first one!
+utility_to_osm - INFO - ssr:stedsnr = 220486: No name found
+utility_to_osm - INFO - ssr:stedsnr = 220486: Multi-language name tag = Skavlia - Skáhperápma
 utility_to_osm - INFO - ssr:stedsnr = 220488: No name found
 utility_to_osm - INFO - ssr:stedsnr = 221024: No name found
 utility_to_osm - INFO - ssr:stedsnr = 221072: No name found
@@ -752,6 +754,7 @@ utility_to_osm - INFO - ssr:stedsnr = 809604: No name found
 utility_to_osm - INFO - ssr:stedsnr = 809609: No name found
 utility_to_osm - INFO - ssr:stedsnr = 809609 has multiple (3) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 809591: No name found
+utility_to_osm - INFO - ssr:stedsnr = 809591: No name found
 utility_to_osm - INFO - ssr:stedsnr = 809591 has multiple (3) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 813004: No name found
 utility_to_osm - INFO - ssr:stedsnr = 813028: No name found
@@ -1016,7 +1019,6 @@ utility_to_osm - INFO - ssr:stedsnr = 100074: No name found
 utility_to_osm - INFO - ssr:stedsnr = 100080: No name found
 utility_to_osm - INFO - ssr:stedsnr = 100088: No name found
 utility_to_osm - INFO - ssr:stedsnr = 100432: No name found
-utility_to_osm - INFO - ssr:stedsnr = 100489: No name found
 utility_to_osm - INFO - ssr:stedsnr = 100495: No name found
 utility_to_osm - INFO - ssr:stedsnr = 118578: No name found
 utility_to_osm - INFO - ssr:stedsnr = 118604: No name found
@@ -1337,7 +1339,7 @@ utility_to_osm - INFO - ssr:stedsnr = 442973: No name found
 utility_to_osm - INFO - ssr:stedsnr = 444772: No name found
 utility_to_osm - INFO - ssr:stedsnr = 444772 has multiple (2) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 444945: No name found
-utility_to_osm - INFO - ssr:stedsnr = 444945 has multiple (2) positions, using the first one!
+utility_to_osm - INFO - ssr:stedsnr = 444945: No name found
 utility_to_osm - INFO - ssr:stedsnr = 445639: No name found
 utility_to_osm - INFO - ssr:stedsnr = 445642: No name found
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Lenvik"
@@ -1499,7 +1501,6 @@ utility_to_osm - INFO - ssr:stedsnr = 571843: No name found
 utility_to_osm - INFO - ssr:stedsnr = 571892: No name found
 utility_to_osm - INFO - ssr:stedsnr = 571895: No name found
 utility_to_osm - INFO - ssr:stedsnr = 572353: No name found
-utility_to_osm - INFO - ssr:stedsnr = 572353 has multiple (2) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 573177: No name found
 utility_to_osm - INFO - ssr:stedsnr = 582685: No name found
 utility_to_osm - INFO - ssr:stedsnr = 585099: No name found
@@ -2031,6 +2032,8 @@ utility_to_osm - INFO - ssr:stedsnr = 1079436: Multi-language name tag = Evenes 
 utility_to_osm - INFO - ssr:stedsnr = 1079442: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1079442: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1079442: Multi-language name tag = Evenes  folkebibibliotek - Evenášši álbmotgirjerájus
+utility_to_osm - INFO - ssr:stedsnr = 1083684: No name found
+utility_to_osm - INFO - ssr:stedsnr = 1083702: No name found
 utility_to_osm.ssr2.ssr2_tags - INFO - ssr:type = kommune found in conversion table, but without tags
 utility_to_osm.ssr2.ssr2_tags - INFO - ssr:type = landskapsområde found in conversion table, but without tags
 utility_to_osm.ssr2.ssr2_tags - INFO - ssr:type = fyrlykt found in conversion table, but without tags

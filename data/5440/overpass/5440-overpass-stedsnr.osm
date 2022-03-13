@@ -7,4 +7,54 @@
 		<tag k="source" v="Kartverket" />
 		<tag k="ssr:stedsnr" v="263969" />
 	</node>
+	<node id="5446183186" lat="70.8671853" lon="28.979794" version="2" timestamp="2019-08-27T22:18:33Z" changeset="73815824" uid="420980" user="NorNorth" />
+	<node id="5446183940" lat="70.8671169" lon="28.9800573" version="2" timestamp="2019-08-27T22:18:33Z" changeset="73815824" uid="420980" user="NorNorth" />
+	<node id="3466138578" lat="70.85005" lon="29.0911033" version="3" timestamp="2019-08-27T23:48:18Z" changeset="73816945" uid="420980" user="NorNorth" />
+	<node id="5446181003" lat="70.8501463" lon="29.0910191" version="2" timestamp="2019-08-27T23:48:18Z" changeset="73816945" uid="420980" user="NorNorth" />
+	<node id="5446181370" lat="70.8499627" lon="29.0911934" version="2" timestamp="2019-08-27T23:48:18Z" changeset="73816945" uid="420980" user="NorNorth" />
+	<node id="5446183709" lat="70.8545815" lon="29.0996126" version="2" timestamp="2020-11-05T02:48:32Z" changeset="93569607" uid="715936" user="Gazer75" />
+	<node id="5446184437" lat="70.8546835" lon="29.0991606" version="2" timestamp="2020-11-05T02:48:32Z" changeset="93569607" uid="715936" user="Gazer75" />
+	<way id="127434614" version="9" timestamp="2022-01-21T07:16:18Z" changeset="116415148" uid="3497659" user="NKA">
+		<tag k="bridge" v="yes" />
+		<tag k="cycleway:both" v="no" />
+		<tag k="highway" v="primary" />
+		<tag k="layer" v="1" />
+		<tag k="maxspeed" v="50" />
+		<tag k="name" v="Storelvbrua" />
+		<tag k="ref" v="890" />
+		<tag k="ssr:stedsnr" v="334279" />
+		<tag k="surface" v="asphalt" />
+		<nd ref="5446183709" />
+		<nd ref="5446184437" />
+	</way>
+	<way id="231369913" version="7" timestamp="2022-01-21T07:16:18Z" changeset="116415148" uid="3497659" user="NKA">
+		<tag k="bridge" v="yes" />
+		<tag k="highway" v="unclassified" />
+		<tag k="layer" v="1" />
+		<tag k="maxspeed" v="80" />
+		<tag k="name" v="Skonsvikbrua" />
+		<tag k="passing_places" v="yes" />
+		<tag k="snowmobile" v="designated" />
+		<tag k="snowmobile:name" v="Berlevåg flyplass - Molvik" />
+		<tag k="snowmobile:ref" v="2" />
+		<tag k="ssr:stedsnr" v="562689" />
+		<tag k="surface" v="gravel" />
+		<tag k="unsigned_ref" v="Kv2" />
+		<tag k="width" v="3" />
+		<nd ref="5446183940" />
+		<nd ref="5446183186" />
+	</way>
+	<way id="565509116" version="5" timestamp="2022-01-21T07:34:53Z" changeset="116415921" uid="3497659" user="NKA">
+		<tag k="bridge" v="yes" />
+		<tag k="highway" v="unclassified" />
+		<tag k="layer" v="1" />
+		<tag k="name" v="Jernbanebrua" />
+		<tag k="railway" v="abandoned" />
+		<tag k="ssr:stedsnr" v="882242" />
+		<tag k="surface" v="gravel" />
+		<tag k="unsigned_ref" v="Kv13" />
+		<nd ref="5446181003" />
+		<nd ref="3466138578" />
+		<nd ref="5446181370" />
+	</way>
 </osm>
