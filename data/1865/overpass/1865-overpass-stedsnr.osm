@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <osm version="0.6" generator="osmapis">
-	<node id="249785456" lat="68.1581333" lon="14.2111153" version="7" timestamp="2018-02-20T20:16:47Z" changeset="56531490" uid="3296383" user="Reitstoen_import">
+	<node id="249785456" lat="68.1581333" lon="14.2111153" version="8" timestamp="2022-04-03T03:31:13Z" changeset="119252201" uid="715936" user="Gazer75">
 		<tag k="highway" v="traffic_signals" />
+		<tag k="traffic_signals:direction" v="forward" />
 	</node>
 	<node id="249785457" lat="68.1595338" lon="14.2144314" version="5" timestamp="2018-02-20T20:16:47Z" changeset="56531490" uid="3296383" user="Reitstoen_import" />
 	<node id="3382950855" lat="68.1589001" lon="14.2130269" version="3" timestamp="2018-02-20T20:16:51Z" changeset="56531490" uid="3296383" user="Reitstoen_import">
@@ -9,8 +10,9 @@
 	</node>
 	<node id="5425391139" lat="68.1589961" lon="14.2132584" version="1" timestamp="2018-02-20T20:16:42Z" changeset="56531490" uid="3296383" user="Reitstoen_import" />
 	<node id="5425391141" lat="68.1586913" lon="14.2125183" version="1" timestamp="2018-02-20T20:16:42Z" changeset="56531490" uid="3296383" user="Reitstoen_import" />
-	<node id="249785459" lat="68.1599131" lon="14.2151536" version="5" timestamp="2018-02-16T20:10:58Z" changeset="56424547" uid="3296383" user="Reitstoen_import">
+	<node id="249785459" lat="68.1599131" lon="14.2151536" version="6" timestamp="2022-04-03T03:31:13Z" changeset="119252201" uid="715936" user="Gazer75">
 		<tag k="highway" v="traffic_signals" />
+		<tag k="traffic_signals:direction" v="backward" />
 	</node>
 	<node id="1760113365" lat="68.1597723" lon="14.2149077" version="3" timestamp="2018-02-20T20:16:50Z" changeset="56531490" uid="3296383" user="Reitstoen_import" />
 	<node id="249785556" lat="68.1675623" lon="14.2196777" version="6" timestamp="2018-02-16T20:10:59Z" changeset="56424547" uid="3296383" user="Reitstoen_import">
@@ -109,7 +111,7 @@
 		<nd ref="249785561" />
 		<nd ref="75165966" />
 	</way>
-	<way id="71849877" version="12" timestamp="2022-01-24T06:56:00Z" changeset="116526664" uid="3497659" user="NKA">
+	<way id="71849877" version="13" timestamp="2022-04-03T03:31:13Z" changeset="119252201" uid="715936" user="Gazer75">
 		<tag k="bridge" v="yes" />
 		<tag k="bridge:structure" v="beam" />
 		<tag k="cycleway:both" v="no" />
@@ -121,7 +123,7 @@
 		<tag k="maxspeed" v="80" />
 		<tag k="name" v="Henningsværbrua" />
 		<tag k="note" v="Traffic light controls direction of bridge" />
-		<tag k="oneway" v="traffic_light_controlled" />
+		<tag k="oneway" v="alternating" />
 		<tag k="ref" v="816" />
 		<tag k="sidewalk" v="right" />
 		<tag k="source:maxspeed" v="NO:rural" />
