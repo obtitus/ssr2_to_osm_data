@@ -1,4 +1,4 @@
-utility_to_osm.file_util - INFO - file_age(ssr2_to_osm_data/data/5001/5001-ssr.xml) -> 5.6 days
+utility_to_osm.file_util - INFO - file_age(ssr2_to_osm_data/data/5001/5001-ssr.xml) -> 0.5 days
 utility_to_osm - INFO - ssr:stedsnr = 220151: No name found
 utility_to_osm - INFO - ssr:stedsnr = 220101: No name found
 utility_to_osm - INFO - ssr:stedsnr = 220170: No name found
@@ -566,7 +566,6 @@ utility_to_osm - INFO - ssr:stedsnr = 242475: No name found
 utility_to_osm - INFO - ssr:stedsnr = 242864: No name found
 utility_to_osm - INFO - ssr:stedsnr = 242771: No name found
 utility_to_osm - INFO - ssr:stedsnr = 152503: No name found
-utility_to_osm - INFO - ssr:stedsnr = 152503 has multiple (2) positions, using the first one!
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Søndre Hegstad"
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Søndre Hegstad"
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Søndre Hegstad"
@@ -6507,8 +6506,8 @@ utility_to_osm - INFO - ssr:stedsnr = 317949: No name found
 utility_to_osm - INFO - ssr:stedsnr = 323367: No name found
 utility_to_osm - INFO - ssr:stedsnr = 326069: No name found
 utility_to_osm - INFO - ssr:stedsnr = 326069 has multiple (3) positions, using the first one!
-utility_to_osm - INFO - ssr:stedsnr = 326568: No name found
-utility_to_osm - INFO - ssr:stedsnr = 326575: No name found
+utility_to_osm - INFO - ssr:stedsnr = 326568 not active = "relikt". Skipping...
+utility_to_osm - INFO - ssr:stedsnr = 326575 not active = "relikt". Skipping...
 utility_to_osm - INFO - ssr:stedsnr = 326990: No name found
 utility_to_osm - INFO - ssr:stedsnr = 327069: No name found
 utility_to_osm - INFO - ssr:stedsnr = 326830: No name found
@@ -11512,9 +11511,18 @@ utility_to_osm - INFO - ssr:stedsnr = 1080433: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1080434: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1080860: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1081328: No name found
+utility_to_osm - INFO - Skipping name_status = "avslått navnevalg"
+utility_to_osm - INFO - Skipping name_status = "avslått navnevalg"
+utility_to_osm - INFO - Skipping name_status = "avslått navnevalg"
 utility_to_osm - INFO - ssr:stedsnr = 1081543: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1081544 not active = "planlagt". Skipping...
+utility_to_osm - INFO - Skipping name_status = "avslått navnevalg"
+utility_to_osm - INFO - Skipping name_status = "avslått navnevalg"
+utility_to_osm - INFO - Skipping name_status = "avslått navnevalg"
 utility_to_osm - INFO - ssr:stedsnr = 1081546: No name found
+utility_to_osm - INFO - Skipping name_status = "avslått navnevalg"
+utility_to_osm - INFO - Skipping name_status = "avslått navnevalg"
+utility_to_osm - INFO - Skipping name_status = "avslått navnevalg"
 utility_to_osm - INFO - ssr:stedsnr = 1081547: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1081548: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1081549 not active = "planlagt". Skipping...
@@ -11536,6 +11544,11 @@ utility_to_osm - INFO - ssr:stedsnr = 1084231: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1084403: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1084403: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1084403: Multi-language name tag = Trondheim folkebibliotek - Tråanten åålmehgærjagåetie
+utility_to_osm - INFO - ssr:stedsnr = 1084845: No name found
+utility_to_osm - INFO - ssr:stedsnr = 1084845 has multiple (10) positions, using the first one!
+utility_to_osm - INFO - ssr:stedsnr = 1084846: No name found
+utility_to_osm - INFO - ssr:stedsnr = 1084732: No name found
+utility_to_osm - INFO - ssr:stedsnr = 1084732 has multiple (2) positions, using the first one!
 utility_to_osm.ssr2.ssr2_tags - INFO - ssr:type = fyrlykt found in conversion table, but without tags
 utility_to_osm.ssr2.ssr2_tags - INFO - ssr:type = administrativBydel found in conversion table, but without tags
 utility_to_osm.ssr2.ssr2_tags - INFO - ssr:type = vegstrekning found in conversion table, but without tags
@@ -12201,8 +12214,6 @@ utility_to_osm.ssr2.ssr2_tags - INFO - ssr:type = banestrekning found in convers
 utility_to_osm.ssr2.ssr2_tags - INFO - ssr:type = lanterne found in conversion table, but without tags
 utility_to_osm.ssr2.ssr2_tags - INFO - ssr:type = vegstrekning found in conversion table, but without tags
 utility_to_osm.ssr2.ssr2_tags - INFO - ssr:type = banestrekning found in conversion table, but without tags
-utility_to_osm.ssr2.ssr2_tags - INFO - ssr:type = poststed found in conversion table, but without tags
-utility_to_osm.ssr2.ssr2_tags - INFO - ssr:type = poststed found in conversion table, but without tags
 utility_to_osm.ssr2.ssr2_tags - INFO - ssr:type = vegstrekning found in conversion table, but without tags
 utility_to_osm.ssr2.ssr2_tags - INFO - ssr:type = vegstrekning found in conversion table, but without tags
 utility_to_osm.ssr2.ssr2_tags - INFO - ssr:type = vegstrekning found in conversion table, but without tags
@@ -13289,6 +13300,9 @@ utility_to_osm.ssr2.ssr2_tags - INFO - ssr:type = adressenavn found in conversio
 utility_to_osm.ssr2.ssr2_tags - INFO - ssr:type = adressenavn found in conversion table, but without tags
 utility_to_osm.ssr2.ssr2_tags - INFO - ssr:type = adressenavn found in conversion table, but without tags
 utility_to_osm.ssr2.ssr2_tags - INFO - ssr:type = vegstrekning found in conversion table, but without tags
+utility_to_osm.ssr2.ssr2_tags - INFO - ssr:type = adressenavn found in conversion table, but without tags
+utility_to_osm.ssr2.ssr2_tags - INFO - ssr:type = adressenavn found in conversion table, but without tags
+utility_to_osm.ssr2.ssr2_tags - INFO - ssr:type = adressenavn found in conversion table, but without tags
 utility_to_osm.ssr2.ssr2_tags - INFO - ssr:type = adressenavn found in conversion table, but without tags
 utility_to_osm.ssr2.ssr2_tags - INFO - ssr:type = adressenavn found in conversion table, but without tags
 utility_to_osm.ssr2.ssr2_tags - INFO - ssr:type = adressenavn found in conversion table, but without tags

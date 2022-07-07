@@ -15,7 +15,7 @@
 	<node id="1770848658" lat="62.6709239" lon="11.4288124" version="3" timestamp="2019-10-16T02:48:03Z" changeset="75750175" uid="715936" user="Gazer75" />
 	<node id="1770848659" lat="62.6711237" lon="11.4288928" version="2" timestamp="2016-02-18T07:31:44Z" changeset="37281446" uid="2432250" user="rolvtuvom" />
 	<node id="259775200" lat="62.6764953" lon="11.4600391" version="3" timestamp="2021-09-08T21:19:06Z" changeset="110938984" uid="5198133" user="Wulfmorn" />
-	<node id="259775201" lat="62.6765681" lon="11.4607751" version="3" timestamp="2021-09-08T21:19:06Z" changeset="110938984" uid="5198133" user="Wulfmorn" />
+	<node id="259775201" lat="62.676565" lon="11.4607577" version="4" timestamp="2022-05-20T15:39:36Z" changeset="121250879" uid="3497659" user="NKA" />
 	<node id="7408240225" lat="62.695003" lon="11.476108" version="1" timestamp="2020-04-15T21:06:49Z" changeset="83612793" uid="3497659" user="NKA" />
 	<node id="7408240226" lat="62.695005" lon="11.476454" version="1" timestamp="2020-04-15T21:06:49Z" changeset="83612793" uid="3497659" user="NKA" />
 	<node id="1840096908" lat="62.6020443" lon="11.54597" version="4" timestamp="2020-02-24T11:13:07Z" changeset="81402534" uid="1069176" user="landfahrer" />
@@ -26,8 +26,9 @@
 	<node id="7408240589" lat="62.675708" lon="11.86235" version="1" timestamp="2020-04-15T21:06:49Z" changeset="83612793" uid="3497659" user="NKA" />
 	<node id="7408241245" lat="62.69304" lon="11.870881" version="1" timestamp="2020-04-15T21:06:49Z" changeset="83612793" uid="3497659" user="NKA" />
 	<node id="7408241247" lat="62.692997" lon="11.871137" version="1" timestamp="2020-04-15T21:06:49Z" changeset="83612793" uid="3497659" user="NKA" />
-	<way id="23083994" version="11" timestamp="2022-01-24T21:00:15Z" changeset="116559033" uid="3497659" user="NKA">
+	<way id="23083994" version="12" timestamp="2022-05-20T15:39:36Z" changeset="121250879" uid="3497659" user="NKA">
 		<tag k="bridge" v="yes" />
+		<tag k="bridge:description" v="Nyplass O/Søndre Løp" />
 		<tag k="highway" v="primary" />
 		<tag k="layer" v="1" />
 		<tag k="maxspeed" v="80" />
@@ -37,10 +38,13 @@
 		<nd ref="249147584" />
 		<nd ref="7415184573" />
 	</way>
-	<way id="23123108" version="7" timestamp="2022-01-24T21:00:15Z" changeset="116559033" uid="3497659" user="NKA">
+	<way id="23123108" version="8" timestamp="2022-05-20T15:39:36Z" changeset="121250879" uid="3497659" user="NKA">
 		<tag k="bridge" v="yes" />
+		<tag k="bridge:description" v="Sundet" />
 		<tag k="highway" v="secondary" />
 		<tag k="layer" v="1" />
+		<tag k="maxspeed" v="80" />
+		<tag k="maxweight" v="40" />
 		<tag k="name" v="Sundbrua" />
 		<tag k="old_name" v="Sundet bru" />
 		<tag k="ref" v="6524" />
@@ -60,10 +64,12 @@
 		<nd ref="259775200" />
 		<nd ref="259775201" />
 	</way>
-	<way id="165546991" version="5" timestamp="2022-01-24T21:00:15Z" changeset="116559033" uid="3497659" user="NKA">
+	<way id="165546991" version="6" timestamp="2022-05-20T15:39:36Z" changeset="121250879" uid="3497659" user="NKA">
 		<tag k="bridge" v="yes" />
+		<tag k="bridge:description" v="Vintervoll" />
 		<tag k="highway" v="secondary" />
 		<tag k="layer" v="1" />
+		<tag k="maxspeed" v="60" />
 		<tag k="name" v="Vintervollbrua" />
 		<tag k="ref" v="6536" />
 		<tag k="ssr:stedsnr" v="42157" />
@@ -113,9 +119,8 @@
 		<nd ref="7408240225" />
 		<nd ref="7408240226" />
 	</way>
-	<way id="731150822" version="3" timestamp="2022-01-24T21:00:15Z" changeset="116559033" uid="3497659" user="NKA">
+	<way id="731150822" version="4" timestamp="2022-05-20T15:39:36Z" changeset="121250879" uid="3497659" user="NKA">
 		<tag k="bridge" v="yes" />
-		<tag k="bridge:description" v="Djupabrua" />
 		<tag k="highway" v="primary" />
 		<tag k="layer" v="1" />
 		<tag k="maxspeed" v="80" />
@@ -148,12 +153,13 @@
 		<nd ref="7408241069" />
 		<nd ref="7408240171" />
 	</way>
-	<way id="792983511" version="2" timestamp="2022-01-24T21:00:15Z" changeset="116559033" uid="3497659" user="NKA">
+	<way id="792983511" version="3" timestamp="2022-05-20T15:39:36Z" changeset="121250879" uid="3497659" user="NKA">
 		<tag k="bridge" v="yes" />
 		<tag k="bridge:description" v="Galå" />
 		<tag k="highway" v="secondary" />
 		<tag k="layer" v="1" />
 		<tag k="maxspeed" v="60" />
+		<tag k="maxweight" v="40" />
 		<tag k="name" v="Galåbrua" />
 		<tag k="ref" v="6524" />
 		<tag k="ssr:stedsnr" v="407336" />
@@ -161,8 +167,9 @@
 		<nd ref="7415184477" />
 		<nd ref="7415184476" />
 	</way>
-	<way id="792983516" version="2" timestamp="2022-01-24T21:00:15Z" changeset="116559033" uid="3497659" user="NKA">
+	<way id="792983516" version="3" timestamp="2022-05-20T15:39:36Z" changeset="121250879" uid="3497659" user="NKA">
 		<tag k="bridge" v="yes" />
+		<tag k="bridge:description" v="Nyplass O/Nordre Løp" />
 		<tag k="highway" v="primary" />
 		<tag k="layer" v="1" />
 		<tag k="maxspeed" v="80" />

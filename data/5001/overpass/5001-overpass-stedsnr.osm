@@ -145,11 +145,14 @@
 	<node id="1781843052" lat="63.3600631" lon="10.3726615" version="3" timestamp="2015-07-21T12:07:22Z" changeset="32775307" uid="605010" user="Noen" />
 	<node id="3660140440" lat="63.3603465" lon="10.372833" version="1" timestamp="2015-07-21T12:06:58Z" changeset="32775307" uid="605010" user="Noen" />
 	<node id="3660140443" lat="63.3603733" lon="10.3725816" version="1" timestamp="2015-07-21T12:06:58Z" changeset="32775307" uid="605010" user="Noen" />
-	<node id="4911672857" lat="63.3606017" lon="10.3741899" version="2" timestamp="2018-12-18T02:35:17Z" changeset="65568257" uid="501707" user="Reitstoen" />
-	<node id="4911672858" lat="63.3602459" lon="10.3739725" version="2" timestamp="2018-12-18T02:35:17Z" changeset="65568257" uid="501707" user="Reitstoen" />
-	<node id="4911672859" lat="63.3599615" lon="10.3737673" version="2" timestamp="2018-12-18T02:35:17Z" changeset="65568257" uid="501707" user="Reitstoen" />
+	<node id="4911672858" lat="63.360213" lon="10.373955" version="3" timestamp="2022-06-03T16:26:45Z" changeset="121904242" uid="3497659" user="NKA" />
 	<node id="9445777839" lat="63.3606127" lon="10.3691921" version="1" timestamp="2022-01-24T21:00:15Z" changeset="116559033" uid="3497659" user="NKA" />
 	<node id="9445777840" lat="63.3608839" lon="10.3693195" version="1" timestamp="2022-01-24T21:00:15Z" changeset="116559033" uid="3497659" user="NKA" />
+	<node id="9793180244" lat="63.359544" lon="10.373426" version="1" timestamp="2022-06-03T16:26:45Z" changeset="121904242" uid="3497659" user="NKA" />
+	<node id="9793180247" lat="63.360856" lon="10.374315" version="1" timestamp="2022-06-03T16:26:45Z" changeset="121904242" uid="3497659" user="NKA" />
+	<node id="9793180248" lat="63.36074" lon="10.37426" version="1" timestamp="2022-06-03T16:26:45Z" changeset="121904242" uid="3497659" user="NKA" />
+	<node id="9793180249" lat="63.360503" lon="10.374135" version="1" timestamp="2022-06-03T16:26:45Z" changeset="121904242" uid="3497659" user="NKA" />
+	<node id="9793180250" lat="63.359965" lon="10.373778" version="1" timestamp="2022-06-03T16:26:45Z" changeset="121904242" uid="3497659" user="NKA" />
 	<node id="10130907" lat="63.363303" lon="10.374792" version="4" timestamp="2015-07-21T12:07:19Z" changeset="32775307" uid="605010" user="Noen" />
 	<node id="192609436" lat="63.3625756" lon="10.3752913" version="6" timestamp="2013-10-22T07:48:54Z" changeset="18481618" uid="715936" user="Gazer75" />
 	<node id="192611536" lat="63.3630864" lon="10.3756349" version="4" timestamp="2013-10-22T07:48:54Z" changeset="18481618" uid="715936" user="Gazer75" />
@@ -359,17 +362,19 @@
 	<node id="8402373358" lat="63.4312015" lon="10.4892518" version="1" timestamp="2021-02-07T16:14:56Z" changeset="98856151" uid="715936" user="Gazer75" />
 	<node id="8402373359" lat="63.4310222" lon="10.4893631" version="1" timestamp="2021-02-07T16:14:56Z" changeset="98856151" uid="715936" user="Gazer75" />
 	<node id="8402373360" lat="63.430973" lon="10.4893725" version="1" timestamp="2021-02-07T16:14:56Z" changeset="98856151" uid="715936" user="Gazer75" />
-	<way id="5004456" version="23" timestamp="2022-01-24T21:00:15Z" changeset="116559033" uid="3497659" user="NKA">
+	<way id="5004456" version="25" timestamp="2022-06-26T20:07:31Z" changeset="122880095" uid="60456" user="algefaen">
 		<tag k="bridge" v="yes" />
 		<tag k="highway" v="secondary" />
 		<tag k="lanes" v="4" />
 		<tag k="lanes:backward" v="3" />
 		<tag k="lanes:forward" v="1" />
 		<tag k="layer" v="1" />
+		<tag k="lit" v="yes" />
 		<tag k="maxweight:signed" v="no" />
 		<tag k="name" v="Jernbanebrua" />
 		<tag k="old_name" v="Meråkerbrua" />
 		<tag k="ref" v="6692" />
+		<tag k="shoulder" v="no" />
 		<tag k="sidewalk" v="separate" />
 		<tag k="ssr:stedsnr" v="404330" />
 		<tag k="surface" v="asphalt" />
@@ -1091,8 +1096,9 @@
 		<nd ref="8402373355" />
 		<nd ref="2361701078" />
 	</way>
-	<way id="243027149" version="4" timestamp="2022-01-24T21:00:15Z" changeset="116559033" uid="3497659" user="NKA">
+	<way id="243027149" version="5" timestamp="2022-04-28T05:36:49Z" changeset="120286261" uid="14891191" user="sylte70">
 		<tag k="bridge" v="yes" />
+		<tag k="foot" v="discouraged" />
 		<tag k="highway" v="tertiary" />
 		<tag k="layer" v="1" />
 		<tag k="name" v="Hårstadbrua" />
@@ -1154,39 +1160,47 @@
 		<nd ref="4289629590" />
 		<nd ref="4289629592" />
 	</way>
-	<way id="307081640" version="8" timestamp="2022-01-24T21:00:15Z" changeset="116559033" uid="3497659" user="NKA">
+	<way id="307081640" version="11" timestamp="2022-05-23T19:22:01Z" changeset="121386836" uid="1545348" user="asnada">
 		<tag k="bridge" v="yes" />
 		<tag k="highway" v="cycleway" />
 		<tag k="layer" v="1" />
+		<tag k="lit" v="yes" />
 		<tag k="name" v="Svingbrua" />
 		<tag k="sidewalk" v="right" />
 		<tag k="ssr:stedsnr" v="965649" />
 		<tag k="start_date" v="2014" />
+		<tag k="surface" v="asphalt" />
+		<tag k="width" v="3" />
 		<nd ref="3121369007" />
 		<nd ref="9445777811" />
 		<nd ref="3122478599" />
 	</way>
-	<way id="307174157" version="6" timestamp="2022-01-24T21:00:15Z" changeset="116559033" uid="3497659" user="NKA">
+	<way id="307174157" version="9" timestamp="2022-05-23T19:20:59Z" changeset="121386723" uid="16065077" user="Gingahpowah">
 		<tag k="bridge" v="yes" />
 		<tag k="highway" v="cycleway" />
 		<tag k="layer" v="1" />
+		<tag k="lit" v="yes" />
 		<tag k="name" v="Svingbrua" />
 		<tag k="sidewalk" v="right" />
 		<tag k="ssr:stedsnr" v="965649" />
 		<tag k="start_date" v="2014" />
+		<tag k="surface" v="asphalt" />
+		<tag k="width" v="3" />
 		<nd ref="3122478595" />
 		<nd ref="3121369003" />
 	</way>
-	<way id="307174158" version="8" timestamp="2022-01-24T21:00:15Z" changeset="116559033" uid="3497659" user="NKA">
+	<way id="307174158" version="10" timestamp="2022-05-23T19:21:38Z" changeset="121386836" uid="1545348" user="asnada">
 		<tag k="bridge" v="movable" />
 		<tag k="bridge:movable" v="swing" />
 		<tag k="foot" v="yes" />
 		<tag k="highway" v="cycleway" />
 		<tag k="layer" v="1" />
+		<tag k="lit" v="yes" />
 		<tag k="name" v="Svingbrua" />
 		<tag k="sidewalk" v="right" />
 		<tag k="ssr:stedsnr" v="965649" />
 		<tag k="start_date" v="2014" />
+		<tag k="surface" v="asphalt" />
 		<nd ref="3122478599" />
 		<nd ref="3122478595" />
 	</way>
@@ -1266,19 +1280,24 @@
 		<nd ref="4911672851" />
 		<nd ref="4911672852" />
 	</way>
-	<way id="499996410" version="2" timestamp="2022-01-24T21:00:15Z" changeset="116559033" uid="3497659" user="NKA">
+	<way id="499996410" version="3" timestamp="2022-06-03T16:26:45Z" changeset="121904242" uid="3497659" user="NKA">
 		<tag k="bicycle" v="designated" />
 		<tag k="bridge" v="yes" />
+		<tag k="bridge:description" v="Sentervegen g/s-vegbru" />
 		<tag k="foot" v="designated" />
-		<tag k="highway" v="path" />
+		<tag k="highway" v="cycleway" />
+		<tag k="lanes" v="2" />
 		<tag k="layer" v="1" />
 		<tag k="name" v="Sentervegbrua" />
 		<tag k="segregated" v="yes" />
 		<tag k="ssr:stedsnr" v="974431" />
 		<tag k="surface" v="asphalt" />
-		<nd ref="4911672859" />
+		<nd ref="9793180244" />
+		<nd ref="9793180250" />
 		<nd ref="4911672858" />
-		<nd ref="4911672857" />
+		<nd ref="9793180249" />
+		<nd ref="9793180248" />
+		<nd ref="9793180247" />
 	</way>
 	<way id="592621365" version="4" timestamp="2022-01-24T21:00:15Z" changeset="116559033" uid="3497659" user="NKA">
 		<tag k="bicycle" v="designated" />
@@ -1426,17 +1445,19 @@
 		<nd ref="8596066512" />
 		<nd ref="8596066511" />
 	</way>
-	<way id="953196246" version="4" timestamp="2022-01-24T21:00:15Z" changeset="116559033" uid="3497659" user="NKA">
+	<way id="953196246" version="6" timestamp="2022-06-26T20:07:20Z" changeset="122880095" uid="60456" user="algefaen">
 		<tag k="bridge" v="yes" />
 		<tag k="highway" v="secondary" />
 		<tag k="lanes" v="4" />
 		<tag k="lanes:backward" v="2" />
 		<tag k="lanes:forward" v="2" />
 		<tag k="layer" v="1" />
+		<tag k="lit" v="yes" />
 		<tag k="maxweight:signed" v="no" />
 		<tag k="name" v="Jernbanebrua" />
 		<tag k="old_name" v="Meråkerbrua" />
 		<tag k="ref" v="6692" />
+		<tag k="shoulder" v="no" />
 		<tag k="sidewalk" v="separate" />
 		<tag k="ssr:stedsnr" v="404330" />
 		<tag k="surface" v="asphalt" />

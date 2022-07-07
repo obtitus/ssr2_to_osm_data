@@ -35,18 +35,18 @@
 	<node id="5758768636" lat="63.6258717" lon="11.1645353" version="1" timestamp="2018-07-13T14:27:35Z" changeset="60690188" uid="8524080" user="Entur AS | Bjørn Lie Rapp" />
 	<node id="306921600" lat="63.7457136" lon="11.2951467" version="3" timestamp="2018-07-22T09:45:03Z" changeset="60947651" uid="715936" user="Gazer75" />
 	<node id="306921848" lat="63.7466585" lon="11.2929334" version="11" timestamp="2018-07-18T07:42:33Z" changeset="60824756" uid="8524080" user="Entur AS | Bjørn Lie Rapp" />
-	<way id="27948496" version="9" timestamp="2022-01-24T21:00:15Z" changeset="116559033" uid="3497659" user="NKA">
+	<node id="9756447102" lat="63.7459529" lon="11.2945863" version="1" timestamp="2022-05-20T06:45:09Z" changeset="121226003" uid="3497659" user="NKA" />
+	<way id="27948496" version="10" timestamp="2022-05-20T06:45:09Z" changeset="121226003" uid="3497659" user="NKA">
 		<tag k="bridge" v="yes" />
 		<tag k="bridge:structure" v="beam" />
-		<tag k="cycleway:both" v="no" />
 		<tag k="highway" v="secondary" />
-		<tag k="lanes" v="2" />
 		<tag k="layer" v="1" />
+		<tag k="maxspeed" v="40" />
 		<tag k="name" v="Sundbrua" />
 		<tag k="ref" v="6866" />
 		<tag k="ssr:stedsnr" v="347165" />
 		<tag k="surface" v="asphalt" />
-		<nd ref="306921600" />
+		<nd ref="9756447102" />
 		<nd ref="306921848" />
 	</way>
 	<way id="607718389" version="2" timestamp="2022-01-24T21:00:15Z" changeset="116559033" uid="3497659" user="NKA">
@@ -61,5 +61,18 @@
 		<tag k="surface" v="asphalt" />
 		<nd ref="874841171" />
 		<nd ref="5758768636" />
+	</way>
+	<way id="1061971496" version="1" timestamp="2022-05-20T06:45:09Z" changeset="121226003" uid="3497659" user="NKA">
+		<tag k="bridge" v="yes" />
+		<tag k="bridge:structure" v="beam" />
+		<tag k="highway" v="secondary" />
+		<tag k="layer" v="1" />
+		<tag k="maxspeed" v="30" />
+		<tag k="name" v="Sundbrua" />
+		<tag k="ref" v="6866" />
+		<tag k="ssr:stedsnr" v="347165" />
+		<tag k="surface" v="asphalt" />
+		<nd ref="306921600" />
+		<nd ref="9756447102" />
 	</way>
 </osm>

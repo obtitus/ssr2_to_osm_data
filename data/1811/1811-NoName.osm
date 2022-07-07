@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <osm version="0.6" generator="osmapis">
-	<node lat="65.16777499849803" lon="12.699280546577677" id="-14339">
+	<node lat="65.16777499849803" lon="12.699280546577677" id="-14171">
 		<tag k="loc_name" v="Reppadalen" />
 		<tag k="natural" v="valley" />
 		<tag k="place" v="locality" />
@@ -10,7 +10,7 @@
 		<tag k="ssr:stedsnr" v="15379" />
 		<tag k="ssr:type" v="dal" />
 	</node>
-	<node lat="65.13927500211395" lon="12.469527773251437" id="-15274">
+	<node lat="65.13927500211395" lon="12.469527773251437" id="-15105">
 		<tag k="loc_name" v="Ytterreppå" />
 		<tag k="place" v="farm" />
 		<tag k="ssr:date" v="2016-05-10" />
@@ -19,7 +19,8 @@
 		<tag k="ssr:stedsnr" v="523652" />
 		<tag k="ssr:type" v="bruk" />
 	</node>
-	<node lat="65.18738889298756" lon="12.629152783160643" id="-15326">
+	<node lat="65.18738889298756" lon="12.629152783160643" id="-15157">
+		<tag k="fixme" v="consider natural=saddle" />
 		<tag k="natural" v="valley" />
 		<tag k="old_name" v="Reppahullet" />
 		<tag k="place" v="locality" />
@@ -29,7 +30,17 @@
 		<tag k="ssr:stedsnr" v="542713" />
 		<tag k="ssr:type" v="skar" />
 	</node>
-	<node lat="65.24007764442673" lon="12.41690114667411" id="-16089">
+	<node lat="65.08935277546789" lon="12.37088888706456" id="-15594">
+		<tag k="building" v="industrial" />
+		<tag k="industrial" v="factory" />
+		<tag k="old_name" v="Bindalsbruket" />
+		<tag k="ssr:date" v="2022-06-28" />
+		<tag k="ssr:gruppe" v="næring" />
+		<tag k="ssr:hovedgruppe" v="bebyggelse" />
+		<tag k="ssr:stedsnr" v="785289" />
+		<tag k="ssr:type" v="fabrikk" />
+	</node>
+	<node lat="65.24007764442673" lon="12.41690114667411" id="-15920">
 		<tag k="fixme" v="consider boundary=protected_area and relevant protect_class if not nature reserve" />
 		<tag k="leisure" v="nature_reserve" />
 		<tag k="loc_name" v="Eidvatnet naturreservat" />
@@ -39,8 +50,7 @@
 		<tag k="ssr:stedsnr" v="985619" />
 		<tag k="ssr:type" v="verneområde" />
 	</node>
-	<node lat="65.18789593018911" lon="11.848663197238382" id="-16094">
-		<tag k="fixme" v="consider place=hamlet" />
+	<node lat="65.18789593018911" lon="11.848663197238382" id="-15925">
 		<tag k="loc_name" v="Melsteinen" />
 		<tag k="place" v="farm" />
 		<tag k="ssr:date" v="2018-12-19" />

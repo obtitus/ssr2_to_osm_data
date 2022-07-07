@@ -30,4 +30,38 @@
 		<tag k="name" v="Vindgårdskiftet" />
 		<tag k="ssr:stedsnr" v="888726" />
 	</node>
+	<node id="2558336051" lat="62.5021211" lon="6.6167789" version="2" timestamp="2022-05-25T14:09:16Z" changeset="121477989" uid="3497659" user="NKA" />
+	<node id="2558336054" lat="62.5028112" lon="6.6160179" version="2" timestamp="2017-09-12T11:43:58Z" changeset="51970169" uid="5732597" user="ENTUR Johan Wiklund" />
+	<node id="2558336042" lat="62.5014448" lon="6.6208773" version="2" timestamp="2022-05-25T14:09:16Z" changeset="121477989" uid="3497659" user="NKA" />
+	<node id="2558336043" lat="62.5017455" lon="6.6203642" version="2" timestamp="2022-05-25T14:09:16Z" changeset="121477989" uid="3497659" user="NKA" />
+	<way id="249179068" version="9" timestamp="2022-06-18T20:09:02Z" changeset="122559439" uid="8503113" user="Bergenga">
+		<tag k="bridge" v="yes" />
+		<tag k="foot" v="yes" />
+		<tag k="highway" v="cycleway" />
+		<tag k="historic" v="bridge" />
+		<tag k="layer" v="1" />
+		<tag k="name" v="Storstraumen bru" />
+		<tag k="name:fr" v="ponts de Skodje" />
+		<tag k="oneway" v="no" />
+		<tag k="ssr:stedsnr" v="934600" />
+		<tag k="wikidata" v="Q112158002" />
+		<tag k="wikipedia" v="no:Skodjebruene" />
+		<nd ref="2558336054" />
+		<nd ref="2558336051" />
+	</way>
+	<way id="249179069" version="9" timestamp="2022-06-18T20:09:02Z" changeset="122559439" uid="8503113" user="Bergenga">
+		<tag k="bridge" v="yes" />
+		<tag k="foot" v="yes" />
+		<tag k="highway" v="cycleway" />
+		<tag k="historic" v="bridge" />
+		<tag k="layer" v="1" />
+		<tag k="name" v="Eggestraumen bru" />
+		<tag k="name:fr" v="ponts de Skodje" />
+		<tag k="oneway" v="no" />
+		<tag k="ssr:stedsnr" v="84664" />
+		<tag k="wikidata" v="Q112158000" />
+		<tag k="wikipedia" v="no:Skodjebruene" />
+		<nd ref="2558336043" />
+		<nd ref="2558336042" />
+	</way>
 </osm>

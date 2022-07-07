@@ -1,9 +1,902 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <osm version="0.6" generator="osmapis">
+	<node id="316442654" lat="60.5677975" lon="6.9165306" version="9" timestamp="2022-04-15T14:08:54Z" changeset="119752992" uid="3497659" user="NKA">
+		<tag k="name" v="Ulvik" />
+		<tag k="place" v="village" />
+		<tag k="population" v="514" />
+		<tag k="population:date" v="2021-01-01" />
+		<tag k="ref:ssb_tettsted" v="5121" />
+		<tag k="source:population" v="SSB - befolkning i tettstedet" />
+		<tag k="ssr:stedsnr" v="735836" />
+	</node>
+	<node id="417945836" lat="60.582077" lon="6.8876006" version="3" timestamp="2022-04-15T14:08:54Z" changeset="119752992" uid="3497659" user="NKA">
+		<tag k="name" v="Aurdal" />
+		<tag k="place" v="hamlet" />
+		<tag k="ssr:stedsnr" v="613811" />
+	</node>
+	<node id="417945875" lat="60.56415" lon="6.8964891" version="4" timestamp="2022-04-15T14:08:54Z" changeset="119752992" uid="3497659" user="NKA">
+		<tag k="alt_name" v="Sponheim" />
+		<tag k="name" v="Spånheim" />
+		<tag k="place" v="hamlet" />
+		<tag k="ssr:stedsnr" v="492850" />
+	</node>
+	<node id="417973741" lat="60.4928384" lon="6.8538006" version="5" timestamp="2022-04-15T14:08:54Z" changeset="119752992" uid="3497659" user="NKA">
+		<tag k="name" v="Hallanger" />
+		<tag k="place" v="hamlet" />
+		<tag k="ssr:stedsnr" v="612430" />
+	</node>
+	<node id="445113374" lat="60.5624463" lon="6.9281586" version="6" timestamp="2022-04-15T14:08:54Z" changeset="119752992" uid="3497659" user="NKA">
+		<tag k="name" v="Hjeltnes" />
+		<tag k="place" v="hamlet" />
+		<tag k="ssr:stedsnr" v="873636" />
+	</node>
+	<node id="445345104" lat="60.561613" lon="6.904061" version="6" timestamp="2022-04-15T14:08:54Z" changeset="119752992" uid="3497659" user="NKA">
+		<tag k="name" v="Vambheim" />
+		<tag k="place" v="hamlet" />
+		<tag k="ssr:stedsnr" v="128845" />
+	</node>
+	<node id="449121019" lat="60.6143343" lon="7.4184099" version="2" timestamp="2022-04-15T14:08:54Z" changeset="119752992" uid="3497659" user="NKA">
+		<tag k="name" v="Slirå" />
+		<tag k="place" v="isolated_dwelling" />
+		<tag k="ssr:stedsnr" v="189261" />
+	</node>
+	<node id="449121021" lat="60.614166" lon="7.447132" version="2" timestamp="2022-04-15T14:08:54Z" changeset="119752992" uid="3497659" user="NKA">
+		<tag k="name" v="Sandå" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:stedsnr" v="189262" />
+	</node>
+	<node id="632359033" lat="60.5778002" lon="6.926434" version="6" timestamp="2022-04-15T14:08:54Z" changeset="119752992" uid="3497659" user="NKA">
+		<tag k="alt_name" v="Uppheim" />
+		<tag k="name" v="Oppheim" />
+		<tag k="place" v="hamlet" />
+		<tag k="ssr:stedsnr" v="735862" />
+	</node>
+	<node id="652691978" lat="60.5739156" lon="6.9511578" version="6" timestamp="2022-04-15T14:08:54Z" changeset="119752992" uid="3497659" user="NKA">
+		<tag k="name" v="Lekve" />
+		<tag k="place" v="hamlet" />
+		<tag k="ssr:stedsnr" v="917863" />
+	</node>
+	<node id="1457053098" lat="60.6721542" lon="6.887506" version="3" timestamp="2022-04-15T14:08:54Z" changeset="119752992" uid="3497659" user="NKA">
+		<tag k="historic" v="shieling" />
+		<tag k="name" v="Mjølbotnen" />
+		<tag k="place" v="isolated_dwelling" />
+		<tag k="ssr:stedsnr" v="553992" />
+	</node>
+	<node id="1727105728" lat="60.5723827" lon="6.8964175" version="6" timestamp="2022-04-15T14:08:54Z" changeset="119752992" uid="3497659" user="NKA">
+		<tag k="name" v="Bergo" />
+		<tag k="place" v="hamlet" />
+		<tag k="ssr:stedsnr" v="310869" />
+	</node>
+	<node id="2426647173" lat="60.486082" lon="6.8273263" version="3" timestamp="2022-04-15T14:08:54Z" changeset="119752992" uid="3497659" user="NKA">
+		<tag k="loc_name" v="Vallavik" />
+		<tag k="name" v="Vallaviki" />
+		<tag k="place" v="hamlet" />
+		<tag k="ssr:stedsnr" v="248419" />
+	</node>
+	<node id="2659336570" lat="60.5625453" lon="6.960014" version="4" timestamp="2022-04-15T14:08:54Z" changeset="119752992" uid="3497659" user="NKA">
+		<tag k="name" v="Håheim" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:stedsnr" v="856778" />
+	</node>
+	<node id="2659336571" lat="60.5795397" lon="6.9335744" version="5" timestamp="2022-04-15T14:08:54Z" changeset="119752992" uid="3497659" user="NKA">
+		<tag k="alt_name" v="Ljone" />
+		<tag k="name" v="Ljono" />
+		<tag k="place" v="hamlet" />
+		<tag k="ssr:stedsnr" v="128823" />
+	</node>
+	<node id="2659336572" lat="60.5457584" lon="6.9300132" version="5" timestamp="2022-04-15T14:08:54Z" changeset="119752992" uid="3497659" user="NKA">
+		<tag k="name" v="Rondestveit" />
+		<tag k="place" v="hamlet" />
+		<tag k="ssr:stedsnr" v="249796" />
+	</node>
+	<node id="2659336573" lat="60.5747829" lon="6.9402408" version="5" timestamp="2022-04-15T14:08:54Z" changeset="119752992" uid="3497659" user="NKA">
+		<tag k="name" v="Syse" />
+		<tag k="place" v="hamlet" />
+		<tag k="ssr:stedsnr" v="189849" />
+	</node>
+	<node id="2659336574" lat="60.5712553" lon="6.9592264" version="4" timestamp="2022-04-15T14:08:54Z" changeset="119752992" uid="3497659" user="NKA">
+		<tag k="name" v="Torblå" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:stedsnr" v="250822" />
+	</node>
+	<node id="2659336576" lat="60.5757942" lon="6.9167081" version="4" timestamp="2022-04-15T14:08:54Z" changeset="119752992" uid="3497659" user="NKA">
+		<tag k="name" v="Vestrheim" />
+		<tag k="place" v="hamlet" />
+		<tag k="ssr:stedsnr" v="371875" />
+	</node>
+	<node id="2659336635" lat="60.5498747" lon="6.906462" version="5" timestamp="2022-04-15T14:08:54Z" changeset="119752992" uid="3497659" user="NKA">
+		<tag k="alt_name" v="Frøystein" />
+		<tag k="name" v="Fryste" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:stedsnr" v="310799" />
+	</node>
+	<node id="2659338152" lat="60.5644885" lon="6.9659249" version="3" timestamp="2022-04-15T14:08:54Z" changeset="119752992" uid="3497659" user="NKA">
+		<tag k="alt_name" v="Øydvin" />
+		<tag k="name" v="Øydve" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:stedsnr" v="7840" />
+	</node>
+	<node id="3299884982" lat="60.5891495" lon="7.0356642" version="2" timestamp="2022-04-15T14:08:54Z" changeset="119752992" uid="3497659" user="NKA">
+		<tag k="name" v="Osa" />
+		<tag k="place" v="quarter" />
+		<tag k="ssr:stedsnr" v="917147" />
+	</node>
+	<node id="3302730100" lat="60.4867623" lon="6.8746436" version="2" timestamp="2022-04-15T14:08:54Z" changeset="119752992" uid="3497659" user="NKA">
+		<tag k="name" v="Nesheim" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:stedsnr" v="612459" />
+	</node>
+	<node id="3687467569" lat="60.5944036" lon="7.0386247" version="3" timestamp="2022-04-15T14:08:54Z" changeset="119752992" uid="3497659" user="NKA">
+		<tag k="name" v="Haugen" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:stedsnr" v="856193" />
+	</node>
+	<node id="3791570685" lat="60.5959445" lon="6.8755361" version="2" timestamp="2022-04-15T14:08:54Z" changeset="119752992" uid="3497659" user="NKA">
+		<tag k="historic" v="shieling" />
+		<tag k="name" v="Sotenos" />
+		<tag k="place" v="isolated_dwelling" />
+		<tag k="ssr:stedsnr" v="613913" />
+	</node>
+	<node id="4817758434" lat="60.5907706" lon="7.0372677" version="2" timestamp="2022-04-15T14:08:54Z" changeset="119752992" uid="3497659" user="NKA">
+		<tag k="name" v="Folkvang" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:stedsnr" v="67181" />
+	</node>
+	<node id="4817758572" lat="60.5910155" lon="7.0325203" version="2" timestamp="2022-04-15T14:08:54Z" changeset="119752992" uid="3497659" user="NKA">
+		<tag k="name" v="Sævartveit" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:stedsnr" v="310169" />
+	</node>
+	<node id="4817758806" lat="60.5892416" lon="7.0410278" version="2" timestamp="2022-04-15T14:08:54Z" changeset="119752992" uid="3497659" user="NKA">
+		<tag k="name" v="Hjallane" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:stedsnr" v="949960" />
+	</node>
+	<node id="4817758841" lat="60.5859968" lon="7.040582" version="2" timestamp="2022-04-15T14:08:54Z" changeset="119752992" uid="3497659" user="NKA">
+		<tag k="name" v="Hønsahjallen" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:stedsnr" v="674159" />
+	</node>
+	<node id="6219460038" lat="60.60301" lon="7.5020162" version="2" timestamp="2022-04-15T14:08:54Z" changeset="119752992" uid="3497659" user="NKA">
+		<tag k="name" v="Finse" />
+		<tag k="place" v="hamlet" />
+		<tag k="ssr:stedsnr" v="250281" />
+	</node>
 	<node id="7272424985" lat="60.5706441" lon="6.9524494" version="2" timestamp="2022-01-26T07:42:12Z" changeset="116611961" uid="3497659" user="NKA">
 		<tag k="junction" v="yes" />
 		<tag k="name" v="Vegaskil" />
 		<tag k="ssr:stedsnr" v="706554" />
+	</node>
+	<node id="9668244890" lat="60.57355" lon="7.5691279" version="1" timestamp="2022-04-15T14:08:54Z" changeset="119752992" uid="3497659" user="NKA">
+		<tag k="historic" v="shieling" />
+		<tag k="name" v="Hansbu" />
+		<tag k="place" v="isolated_dwelling" />
+		<tag k="ssr:stedsnr" v="613311" />
+	</node>
+	<node id="9668244891" lat="60.562123" lon="6.8785218" version="1" timestamp="2022-04-15T14:08:54Z" changeset="119752992" uid="3497659" user="NKA">
+		<tag k="name" v="Lindebrekke" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:stedsnr" v="99598" />
+	</node>
+	<node id="9668244892" lat="60.5148889" lon="6.9440834" version="1" timestamp="2022-04-15T14:08:54Z" changeset="119752992" uid="3497659" user="NKA">
+		<tag k="alt_name" v="Slåtte" />
+		<tag k="name" v="Slottet" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:stedsnr" v="188020" />
+	</node>
+	<node id="9668244893" lat="60.5603861" lon="6.8261279" version="1" timestamp="2022-04-15T14:08:54Z" changeset="119752992" uid="3497659" user="NKA">
+		<tag k="historic" v="shieling" />
+		<tag k="name" v="Snipa" />
+		<tag k="place" v="isolated_dwelling" />
+		<tag k="ssr:stedsnr" v="810118" />
+	</node>
+	<node id="9668244894" lat="60.4899583" lon="6.8644779" version="1" timestamp="2022-04-15T14:08:54Z" changeset="119752992" uid="3497659" user="NKA">
+		<tag k="name" v="Vangen" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:stedsnr" v="220562" />
+	</node>
+	<node id="9668244895" lat="60.5973278" lon="7.5266779" version="1" timestamp="2022-04-15T14:08:54Z" changeset="119752992" uid="3497659" user="NKA">
+		<tag k="historic" v="shieling" />
+		<tag k="name" v="Torbjørnsstølen" />
+		<tag k="place" v="isolated_dwelling" />
+		<tag k="ssr:stedsnr" v="735278" />
+	</node>
+	<node id="9668244896" lat="60.5436833" lon="6.870775" version="1" timestamp="2022-04-15T14:08:54Z" changeset="119752992" uid="3497659" user="NKA">
+		<tag k="historic" v="shieling" />
+		<tag k="name" v="Sjusete" />
+		<tag k="place" v="isolated_dwelling" />
+		<tag k="ssr:stedsnr" v="674803" />
+	</node>
+	<node id="9668244897" lat="60.53045" lon="6.9092306" version="1" timestamp="2022-04-15T14:08:54Z" changeset="119752992" uid="3497659" user="NKA">
+		<tag k="name" v="Haugen" />
+		<tag k="place" v="isolated_dwelling" />
+		<tag k="ssr:stedsnr" v="735045" />
+	</node>
+	<node id="9668244898" lat="60.5330806" lon="6.9939584" version="1" timestamp="2022-04-15T14:08:54Z" changeset="119752992" uid="3497659" user="NKA">
+		<tag k="historic" v="shieling" />
+		<tag k="name" v="Taumasete" />
+		<tag k="place" v="isolated_dwelling" />
+		<tag k="ssr:stedsnr" v="552161" />
+	</node>
+	<node id="9668244899" lat="60.5677934" lon="6.9104851" version="1" timestamp="2022-04-15T14:08:54Z" changeset="119752992" uid="3497659" user="NKA">
+		<tag k="name" v="Skeie" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:stedsnr" v="985561" />
+	</node>
+	<node id="9668244900" lat="60.5244121" lon="6.9502417" version="1" timestamp="2022-04-15T14:08:54Z" changeset="119752992" uid="3497659" user="NKA">
+		<tag k="alt_name" v="Holkasvik" />
+		<tag k="name" v="Holkasviki" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:stedsnr" v="189028" />
+	</node>
+	<node id="9668244901" lat="60.602454" lon="6.9816947" version="1" timestamp="2022-04-15T14:08:54Z" changeset="119752992" uid="3497659" user="NKA">
+		<tag k="historic" v="shieling" />
+		<tag k="name" v="Horgo" />
+		<tag k="place" v="isolated_dwelling" />
+		<tag k="ssr:stedsnr" v="7078" />
+	</node>
+	<node id="9668244902" lat="60.6196334" lon="7.0633752" version="1" timestamp="2022-04-15T14:08:54Z" changeset="119752992" uid="3497659" user="NKA">
+		<tag k="historic" v="shieling" />
+		<tag k="name" v="Ossete" />
+		<tag k="place" v="hamlet" />
+		<tag k="ssr:stedsnr" v="857075" />
+	</node>
+	<node id="9668244903" lat="60.5542716" lon="6.9284894" version="1" timestamp="2022-04-15T14:08:54Z" changeset="119752992" uid="3497659" user="NKA">
+		<tag k="name" v="Viknes" />
+		<tag k="place" v="hamlet" />
+		<tag k="ssr:stedsnr" v="987859" />
+	</node>
+	<node id="9668244904" lat="60.581175" lon="6.951189" version="1" timestamp="2022-04-15T14:08:54Z" changeset="119752992" uid="3497659" user="NKA">
+		<tag k="name" v="Solhovden" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:stedsnr" v="310825" />
+	</node>
+	<node id="9668244905" lat="60.5689744" lon="6.9430237" version="1" timestamp="2022-04-15T14:08:54Z" changeset="119752992" uid="3497659" user="NKA">
+		<tag k="name" v="Holmen" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:stedsnr" v="628082" />
+	</node>
+	<node id="9668244906" lat="60.4894217" lon="6.8384649" version="1" timestamp="2022-04-15T14:08:54Z" changeset="119752992" uid="3497659" user="NKA">
+		<tag k="name" v="Revhuset" />
+		<tag k="place" v="isolated_dwelling" />
+		<tag k="ssr:stedsnr" v="529334" />
+	</node>
+	<node id="9668244907" lat="60.5725389" lon="6.9525473" version="1" timestamp="2022-04-15T14:08:54Z" changeset="119752992" uid="3497659" user="NKA">
+		<tag k="name" v="Nedre Lekve" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:stedsnr" v="706555" />
+	</node>
+	<node id="9668244908" lat="60.5526166" lon="6.8517335" version="1" timestamp="2022-04-15T14:08:54Z" changeset="119752992" uid="3497659" user="NKA">
+		<tag k="historic" v="shieling" />
+		<tag k="name" v="Furesete" />
+		<tag k="place" v="isolated_dwelling" />
+		<tag k="ssr:stedsnr" v="735763" />
+	</node>
+	<node id="9668244909" lat="60.4988612" lon="6.8968113" version="1" timestamp="2022-04-15T14:08:54Z" changeset="119752992" uid="3497659" user="NKA">
+		<tag k="name" v="Sandviki" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="650386" />
+	</node>
+	<node id="9668244910" lat="60.5578111" lon="6.9661306" version="1" timestamp="2022-04-15T14:08:54Z" changeset="119752992" uid="3497659" user="NKA">
+		<tag k="name" v="Kalvagjere" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:stedsnr" v="888545" />
+	</node>
+	<node id="9668244911" lat="60.6030445" lon="7.2189335" version="1" timestamp="2022-04-15T14:08:54Z" changeset="119752992" uid="3497659" user="NKA">
+		<tag k="name" v="Austdølbu" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="128140" />
+	</node>
+	<node id="9668244912" lat="60.5225583" lon="6.9657002" version="1" timestamp="2022-04-15T14:08:54Z" changeset="119752992" uid="3497659" user="NKA">
+		<tag k="historic" v="shieling" />
+		<tag k="name" v="Hellås" />
+		<tag k="place" v="isolated_dwelling" />
+		<tag k="ssr:stedsnr" v="492025" />
+	</node>
+	<node id="9668244913" lat="60.48965" lon="6.8369945" version="1" timestamp="2022-04-15T14:08:54Z" changeset="119752992" uid="3497659" user="NKA">
+		<tag k="name" v="Kariteigen" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:stedsnr" v="281517" />
+	</node>
+	<node id="9668244914" lat="60.6890722" lon="7.2172751" version="1" timestamp="2022-04-15T14:08:54Z" changeset="119752992" uid="3497659" user="NKA">
+		<tag k="name" v="Grøndalsbarakka" />
+		<tag k="place" v="isolated_dwelling" />
+		<tag k="ssr:stedsnr" v="221608" />
+	</node>
+	<node id="9668244915" lat="60.5555278" lon="7.6012918" version="1" timestamp="2022-04-15T14:08:54Z" changeset="119752992" uid="3497659" user="NKA">
+		<tag k="name" v="Botnen" />
+		<tag k="place" v="isolated_dwelling" />
+		<tag k="ssr:stedsnr" v="644965" />
+	</node>
+	<node id="9668244916" lat="60.5168611" lon="6.9466389" version="1" timestamp="2022-04-15T14:08:54Z" changeset="119752992" uid="3497659" user="NKA">
+		<tag k="historic" v="shieling" />
+		<tag k="name" v="Mjøstølen" />
+		<tag k="place" v="isolated_dwelling" />
+		<tag k="ssr:stedsnr" v="128876" />
+	</node>
+	<node id="9668246717" lat="60.5404778" lon="6.8193529" version="1" timestamp="2022-04-15T14:08:54Z" changeset="119752992" uid="3497659" user="NKA">
+		<tag k="historic" v="shieling" />
+		<tag k="name" v="Beiteskar" />
+		<tag k="place" v="isolated_dwelling" />
+		<tag k="ssr:stedsnr" v="613784" />
+	</node>
+	<node id="9668246718" lat="60.555025" lon="7.6316251" version="1" timestamp="2022-04-15T14:08:54Z" changeset="119752992" uid="3497659" user="NKA">
+		<tag k="historic" v="shieling" />
+		<tag k="name" v="Storuri" />
+		<tag k="place" v="isolated_dwelling" />
+		<tag k="ssr:stedsnr" v="613306" />
+	</node>
+	<node id="9668246719" lat="60.5590111" lon="6.9684779" version="1" timestamp="2022-04-15T14:08:54Z" changeset="119752992" uid="3497659" user="NKA">
+		<tag k="name" v="Øydvenstod" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:stedsnr" v="612165" />
+	</node>
+	<node id="9668246720" lat="60.5751" lon="6.8996474" version="1" timestamp="2022-04-15T14:08:54Z" changeset="119752992" uid="3497659" user="NKA">
+		<tag k="name" v="Litle Bergo" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:stedsnr" v="27358" />
+	</node>
+	<node id="9668246721" lat="60.6455528" lon="7.521525" version="1" timestamp="2022-04-15T14:08:54Z" changeset="119752992" uid="3497659" user="NKA">
+		<tag k="name" v="Klemsbu" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="128165" />
+	</node>
+	<node id="9668246722" lat="60.5724909" lon="6.9272131" version="1" timestamp="2022-04-15T14:08:54Z" changeset="119752992" uid="3497659" user="NKA">
+		<tag k="name" v="Nedre Hakastad" />
+		<tag k="old_name" v="Hakestad" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:stedsnr" v="949518" />
+	</node>
+	<node id="9668246723" lat="60.5749887" lon="6.936928" version="1" timestamp="2022-04-15T14:08:54Z" changeset="119752992" uid="3497659" user="NKA">
+		<tag k="name" v="Øvre Hakastad" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:stedsnr" v="917861" />
+	</node>
+	<node id="9668246724" lat="60.5780083" lon="6.8811668" version="1" timestamp="2022-04-15T14:08:54Z" changeset="119752992" uid="3497659" user="NKA">
+		<tag k="historic" v="shieling" />
+		<tag k="name" v="Fitjo" />
+		<tag k="place" v="isolated_dwelling" />
+		<tag k="ssr:stedsnr" v="917875" />
+	</node>
+	<node id="9668246725" lat="60.5966111" lon="6.9635806" version="1" timestamp="2022-04-15T14:08:54Z" changeset="119752992" uid="3497659" user="NKA">
+		<tag k="historic" v="shieling" />
+		<tag k="name" v="Horgava" />
+		<tag k="place" v="isolated_dwelling" />
+		<tag k="ssr:stedsnr" v="887951" />
+	</node>
+	<node id="9668246726" lat="60.5680167" lon="6.9040806" version="1" timestamp="2022-04-15T14:08:54Z" changeset="119752992" uid="3497659" user="NKA">
+		<tag k="name" v="Hjelmavoll" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:stedsnr" v="160512" />
+	</node>
+	<node id="9668246727" lat="60.5668056" lon="6.8501139" version="1" timestamp="2022-04-15T14:08:54Z" changeset="119752992" uid="3497659" user="NKA">
+		<tag k="historic" v="shieling" />
+		<tag k="name" v="Gunnarsete" />
+		<tag k="place" v="isolated_dwelling" />
+		<tag k="ssr:stedsnr" v="553864" />
+	</node>
+	<node id="9668246728" lat="60.6128778" lon="7.3183805" version="1" timestamp="2022-04-15T14:08:54Z" changeset="119752992" uid="3497659" user="NKA">
+		<tag k="name" v="Memorgebui" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="310075" />
+	</node>
+	<node id="9668246729" lat="60.585375" lon="6.8719196" version="1" timestamp="2022-04-15T14:08:54Z" changeset="119752992" uid="3497659" user="NKA">
+		<tag k="historic" v="shieling" />
+		<tag k="name" v="Løyning" />
+		<tag k="place" v="isolated_dwelling" />
+		<tag k="ssr:stedsnr" v="748061" />
+	</node>
+	<node id="9668246730" lat="60.6110333" lon="6.9295779" version="1" timestamp="2022-04-15T14:08:54Z" changeset="119752992" uid="3497659" user="NKA">
+		<tag k="historic" v="shieling" />
+		<tag k="name" v="Øvre Skor" />
+		<tag k="place" v="isolated_dwelling" />
+		<tag k="ssr:stedsnr" v="82166" />
+	</node>
+	<node id="9668246731" lat="60.5624333" lon="6.8941057" version="1" timestamp="2022-04-15T14:08:54Z" changeset="119752992" uid="3497659" user="NKA">
+		<tag k="alt_name" v="Audnaland;Undeland" />
+		<tag k="name" v="Audnalond" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:stedsnr" v="432839" />
+	</node>
+	<node id="9668246732" lat="60.540675" lon="7.026675" version="1" timestamp="2022-04-15T14:08:54Z" changeset="119752992" uid="3497659" user="NKA">
+		<tag k="historic" v="shieling" />
+		<tag k="name" v="Døgrdalsete" />
+		<tag k="place" v="isolated_dwelling" />
+		<tag k="ssr:stedsnr" v="249147" />
+	</node>
+	<node id="9668246733" lat="60.5877" lon="6.9115751" version="1" timestamp="2022-04-15T14:08:54Z" changeset="119752992" uid="3497659" user="NKA">
+		<tag k="historic" v="shieling" />
+		<tag k="name" v="Røyneskor" />
+		<tag k="place" v="isolated_dwelling" />
+		<tag k="ssr:stedsnr" v="492822" />
+	</node>
+	<node id="9668246734" lat="60.5736951" lon="6.9320419" version="1" timestamp="2022-04-15T14:08:54Z" changeset="119752992" uid="3497659" user="NKA">
+		<tag k="name" v="Hakastad" />
+		<tag k="place" v="hamlet" />
+		<tag k="ssr:stedsnr" v="302135" />
+	</node>
+	<node id="9668246735" lat="60.6509583" lon="7.3278001" version="1" timestamp="2022-04-15T14:08:54Z" changeset="119752992" uid="3497659" user="NKA">
+		<tag k="name" v="Låghellerhyttene" />
+		<tag k="place" v="isolated_dwelling" />
+		<tag k="ssr:stedsnr" v="735071" />
+	</node>
+	<node id="9668246736" lat="60.5067027" lon="6.9478611" version="1" timestamp="2022-04-15T14:08:54Z" changeset="119752992" uid="3497659" user="NKA">
+		<tag k="historic" v="shieling" />
+		<tag k="name" v="Liastølen" />
+		<tag k="place" v="isolated_dwelling" />
+		<tag k="ssr:stedsnr" v="431016" />
+	</node>
+	<node id="9668246737" lat="60.5534405" lon="6.9294128" version="1" timestamp="2022-04-15T14:08:54Z" changeset="119752992" uid="3497659" user="NKA">
+		<tag k="alt_name" v="Viknes, ytre;Viknes" />
+		<tag k="name" v="Ytre Viknes" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:stedsnr" v="492749" />
+	</node>
+	<node id="9668246738" lat="60.5983584" lon="6.9677779" version="1" timestamp="2022-04-15T14:08:54Z" changeset="119752992" uid="3497659" user="NKA">
+		<tag k="name" v="Horgagaren" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:stedsnr" v="402578" />
+	</node>
+	<node id="9668246739" lat="60.4904185" lon="6.859324" version="1" timestamp="2022-04-15T14:08:54Z" changeset="119752992" uid="3497659" user="NKA">
+		<tag k="alt_name" v="Smedvika" />
+		<tag k="name" v="Smedviki" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="888466" />
+	</node>
+	<node id="9668246740" lat="60.5496114" lon="6.9295371" version="1" timestamp="2022-04-15T14:08:54Z" changeset="119752992" uid="3497659" user="NKA">
+		<tag k="name" v="Fjotle" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:stedsnr" v="44435" />
+	</node>
+	<node id="9668246741" lat="60.5648086" lon="6.9327686" version="1" timestamp="2022-04-15T14:08:54Z" changeset="119752992" uid="3497659" user="NKA">
+		<tag k="name" v="Dammen" />
+		<tag k="place" v="isolated_dwelling" />
+		<tag k="ssr:stedsnr" v="772819" />
+	</node>
+	<node id="9668246742" lat="60.5701416" lon="6.9087054" version="1" timestamp="2022-04-15T14:08:54Z" changeset="119752992" uid="3497659" user="NKA">
+		<tag k="name" v="Hydle" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:stedsnr" v="857840" />
+	</node>
+	<node id="9668246743" lat="60.5555195" lon="6.9276417" version="1" timestamp="2022-04-15T14:08:54Z" changeset="119752992" uid="3497659" user="NKA">
+		<tag k="alt_name" v="Viknes, indre;Viknes" />
+		<tag k="name" v="Indre Viknes" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:stedsnr" v="370776" />
+	</node>
+	<node id="9668246744" lat="60.5699772" lon="6.893639" version="1" timestamp="2022-04-15T14:08:54Z" changeset="119752992" uid="3497659" user="NKA">
+		<tag k="name" v="Store Bergo" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:stedsnr" v="100910" />
+	</node>
+	<node id="9668246745" lat="60.566575" lon="6.8670445" version="1" timestamp="2022-04-15T14:08:54Z" changeset="119752992" uid="3497659" user="NKA">
+		<tag k="historic" v="shieling" />
+		<tag k="name" v="Litlastøl" />
+		<tag k="place" v="isolated_dwelling" />
+		<tag k="ssr:stedsnr" v="128856" />
+	</node>
+	<node id="9668246746" lat="60.5344833" lon="6.9076556" version="1" timestamp="2022-04-15T14:08:54Z" changeset="119752992" uid="3497659" user="NKA">
+		<tag k="name" v="Årshaug" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:stedsnr" v="645529" />
+	</node>
+	<node id="9668246747" lat="60.5718536" lon="6.8958973" version="1" timestamp="2022-04-15T14:08:54Z" changeset="119752992" uid="3497659" user="NKA">
+		<tag k="name" v="Midtre Bergo" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:stedsnr" v="161909" />
+	</node>
+	<node id="9668246748" lat="60.5601861" lon="6.8975141" version="1" timestamp="2022-04-15T14:08:54Z" changeset="119752992" uid="3497659" user="NKA">
+		<tag k="name" v="Gjerdet" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:stedsnr" v="856783" />
+	</node>
+	<node id="9668246749" lat="60.5513242" lon="6.9424217" version="1" timestamp="2022-04-15T14:08:54Z" changeset="119752992" uid="3497659" user="NKA">
+		<tag k="name" v="Vattatveit" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:stedsnr" v="189780" />
+	</node>
+	<node id="9668246750" lat="60.6341945" lon="7.2389001" version="1" timestamp="2022-04-15T14:08:54Z" changeset="119752992" uid="3497659" user="NKA">
+		<tag k="name" v="Dyrahola" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="310079" />
+	</node>
+	<node id="9668246751" lat="60.6615626" lon="6.8620556" version="1" timestamp="2022-04-15T14:08:54Z" changeset="119752992" uid="3497659" user="NKA">
+		<tag k="historic" v="shieling" />
+		<tag k="name" v="Vesete" />
+		<tag k="place" v="isolated_dwelling" />
+		<tag k="ssr:stedsnr" v="857968" />
+	</node>
+	<node id="9668246752" lat="60.5731889" lon="6.977778" version="1" timestamp="2022-04-15T14:08:54Z" changeset="119752992" uid="3497659" user="NKA">
+		<tag k="historic" v="shieling" />
+		<tag k="name" v="Liastølane" />
+		<tag k="place" v="isolated_dwelling" />
+		<tag k="ssr:stedsnr" v="645552" />
+	</node>
+	<node id="9668246753" lat="60.5136025" lon="6.9529901" version="1" timestamp="2022-04-15T14:08:54Z" changeset="119752992" uid="3497659" user="NKA">
+		<tag k="name" v="Bagne" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:stedsnr" v="128013" />
+	</node>
+	<node id="9668246754" lat="60.5294699" lon="6.9092601" version="1" timestamp="2022-04-15T14:08:54Z" changeset="119752992" uid="3497659" user="NKA">
+		<tag k="name" v="Hetlenes" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:stedsnr" v="432038" />
+	</node>
+	<node id="9668246755" lat="60.6011111" lon="6.8940196" version="1" timestamp="2022-04-15T14:08:54Z" changeset="119752992" uid="3497659" user="NKA">
+		<tag k="historic" v="shieling" />
+		<tag k="name" v="Favnastøl" />
+		<tag k="place" v="isolated_dwelling" />
+		<tag k="ssr:stedsnr" v="463493" />
+	</node>
+	<node id="9668246756" lat="60.5747032" lon="6.9511567" version="1" timestamp="2022-04-15T14:08:54Z" changeset="119752992" uid="3497659" user="NKA">
+		<tag k="name" v="Øvre Lekve" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:stedsnr" v="402636" />
+	</node>
+	<node id="9668246757" lat="60.497475" lon="6.8435445" version="1" timestamp="2022-04-15T14:08:54Z" changeset="119752992" uid="3497659" user="NKA">
+		<tag k="historic" v="shieling" />
+		<tag k="name" v="Skarvet" />
+		<tag k="place" v="isolated_dwelling" />
+		<tag k="ssr:stedsnr" v="673427" />
+	</node>
+	<node id="9668246758" lat="60.5678111" lon="6.9448113" version="1" timestamp="2022-04-15T14:08:54Z" changeset="119752992" uid="3497659" user="NKA">
+		<tag k="name" v="Øyri" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:stedsnr" v="88284" />
+	</node>
+	<node id="9668246759" lat="60.4798683" lon="6.8061325" version="1" timestamp="2022-04-15T14:08:54Z" changeset="119752992" uid="3497659" user="NKA">
+		<tag k="name" v="Kvammen" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:stedsnr" v="430410" />
+	</node>
+	<node id="9668246760" lat="60.5539277" lon="6.9101946" version="1" timestamp="2022-04-15T14:08:54Z" changeset="119752992" uid="3497659" user="NKA">
+		<tag k="name" v="Leirhola" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:stedsnr" v="341579" />
+	</node>
+	<node id="9668246761" lat="60.4970639" lon="6.8828889" version="1" timestamp="2022-04-15T14:08:54Z" changeset="119752992" uid="3497659" user="NKA">
+		<tag k="name" v="Grønskål" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:stedsnr" v="949501" />
+	</node>
+	<node id="9668246762" lat="60.5577139" lon="6.9250362" version="1" timestamp="2022-04-15T14:08:54Z" changeset="119752992" uid="3497659" user="NKA">
+		<tag k="name" v="Solheim" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:stedsnr" v="310764" />
+	</node>
+	<node id="9668246763" lat="60.6676813" lon="7.2496979" version="1" timestamp="2022-04-15T14:08:54Z" changeset="119752992" uid="3497659" user="NKA">
+		<tag k="alt_name" v="Hallingskeidsæter" />
+		<tag k="historic" v="shieling" />
+		<tag k="name" v="Hallingskeid" />
+		<tag k="place" v="hamlet" />
+		<tag k="ssr:stedsnr" v="371080" />
+	</node>
+	<node id="9668246764" lat="60.5677777" lon="6.9141861" version="1" timestamp="2022-04-15T14:08:54Z" changeset="119752992" uid="3497659" user="NKA">
+		<tag k="name" v="Brakanes" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:stedsnr" v="402613" />
+	</node>
+	<node id="9668246765" lat="60.5718639" lon="6.9186139" version="1" timestamp="2022-04-15T14:08:54Z" changeset="119752992" uid="3497659" user="NKA">
+		<tag k="name" v="Rossvoll" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:stedsnr" v="38586" />
+	</node>
+	<node id="9668246766" lat="60.5000784" lon="6.921737" version="1" timestamp="2022-04-15T14:08:54Z" changeset="119752992" uid="3497659" user="NKA">
+		<tag k="name" v="Brunnen" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:stedsnr" v="674011" />
+	</node>
+	<node id="9668246767" lat="60.4929916" lon="6.8591668" version="1" timestamp="2022-04-15T14:08:54Z" changeset="119752992" uid="3497659" user="NKA">
+		<tag k="name" v="Messekleiv" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:stedsnr" v="766513" />
+	</node>
+	<node id="9668246768" lat="60.5704302" lon="7.4867064" version="1" timestamp="2022-04-15T14:08:54Z" changeset="119752992" uid="3497659" user="NKA">
+		<tag k="name" v="Appelsinhytta" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="1079149" />
+	</node>
+	<node id="9668246769" lat="60.6008068" lon="6.9446725" version="1" timestamp="2022-04-15T14:08:54Z" changeset="119752992" uid="3497659" user="NKA">
+		<tag k="historic" v="shieling" />
+		<tag k="name" v="Solsæ" />
+		<tag k="place" v="isolated_dwelling" />
+		<tag k="ssr:stedsnr" v="734937" />
+	</node>
+	<node id="9668246770" lat="60.6273945" lon="6.8927584" version="1" timestamp="2022-04-15T14:08:54Z" changeset="119752992" uid="3497659" user="NKA">
+		<tag k="historic" v="shieling" />
+		<tag k="name" v="Tyssedalsstølen" />
+		<tag k="place" v="isolated_dwelling" />
+		<tag k="ssr:stedsnr" v="613903" />
+	</node>
+	<node id="9668246771" lat="60.5647889" lon="6.9999418" version="1" timestamp="2022-04-15T14:08:54Z" changeset="119752992" uid="3497659" user="NKA">
+		<tag k="name" v="Sygnestveit" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:stedsnr" v="735163" />
+	</node>
+	<node id="9668246772" lat="60.4920556" lon="6.8864334" version="1" timestamp="2022-04-15T14:08:54Z" changeset="119752992" uid="3497659" user="NKA">
+		<tag k="name" v="Åsheim" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:stedsnr" v="126402" />
+	</node>
+	<node id="9668246773" lat="60.599725" lon="6.9996751" version="1" timestamp="2022-04-15T14:08:54Z" changeset="119752992" uid="3497659" user="NKA">
+		<tag k="historic" v="shieling" />
+		<tag k="name" v="Vassdalane" />
+		<tag k="place" v="isolated_dwelling" />
+		<tag k="ssr:stedsnr" v="553060" />
+	</node>
+	<node id="9668246774" lat="60.5090834" lon="6.936289" version="1" timestamp="2022-04-15T14:08:54Z" changeset="119752992" uid="3497659" user="NKA">
+		<tag k="alt_name" v="Bolstad, indre;Bolstad" />
+		<tag k="name" v="Indre Bolstad" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:stedsnr" v="735018" />
+	</node>
+	<node id="9668246775" lat="60.5763139" lon="6.9547251" version="1" timestamp="2022-04-15T14:08:54Z" changeset="119752992" uid="3497659" user="NKA">
+		<tag k="name" v="Tunheim" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:stedsnr" v="342524" />
+	</node>
+	<node id="9668246776" lat="60.493011" lon="6.8617405" version="1" timestamp="2022-04-15T14:08:54Z" changeset="119752992" uid="3497659" user="NKA">
+		<tag k="alt_name" v="Kallhagen" />
+		<tag k="name" v="Kalvhagen" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:stedsnr" v="589413" />
+	</node>
+	<node id="9668246777" lat="60.57925" lon="7.5678723" version="1" timestamp="2022-04-15T14:08:54Z" changeset="119752992" uid="3497659" user="NKA">
+		<tag k="historic" v="shieling" />
+		<tag k="name" v="Torsstølen" />
+		<tag k="place" v="isolated_dwelling" />
+		<tag k="ssr:stedsnr" v="68316" />
+	</node>
+	<node id="9668246778" lat="60.6822417" lon="7.2119389" version="1" timestamp="2022-04-15T14:08:54Z" changeset="119752992" uid="3497659" user="NKA">
+		<tag k="historic" v="shieling" />
+		<tag k="name" v="Tuftene" />
+		<tag k="place" v="isolated_dwelling" />
+		<tag k="ssr:stedsnr" v="492075" />
+	</node>
+	<node id="9668246779" lat="60.654925" lon="7.327075" version="1" timestamp="2022-04-15T14:08:54Z" changeset="119752992" uid="3497659" user="NKA">
+		<tag k="name" v="Fokstova" />
+		<tag k="place" v="isolated_dwelling" />
+		<tag k="ssr:stedsnr" v="674081" />
+	</node>
+	<node id="9668246780" lat="60.5583443" lon="6.9036149" version="1" timestamp="2022-04-15T14:08:54Z" changeset="119752992" uid="3497659" user="NKA">
+		<tag k="name" v="Kroni" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:stedsnr" v="370783" />
+	</node>
+	<node id="9668246781" lat="60.710625" lon="6.994025" version="1" timestamp="2022-04-15T14:08:54Z" changeset="119752992" uid="3497659" user="NKA">
+		<tag k="alt_name" v="Dalsete" />
+		<tag k="historic" v="shieling" />
+		<tag k="name" v="Dalen" />
+		<tag k="place" v="isolated_dwelling" />
+		<tag k="ssr:stedsnr" v="674115" />
+	</node>
+	<node id="9668246782" lat="60.571025" lon="7.573925" version="1" timestamp="2022-04-15T14:08:54Z" changeset="119752992" uid="3497659" user="NKA">
+		<tag k="name" v="Kongsnut" />
+		<tag k="place" v="isolated_dwelling" />
+		<tag k="ssr:stedsnr" v="917276" />
+	</node>
+	<node id="9668246783" lat="60.7091722" lon="6.9845612" version="1" timestamp="2022-04-15T14:08:54Z" changeset="119752992" uid="3497659" user="NKA">
+		<tag k="historic" v="shieling" />
+		<tag k="name" v="Langvasstølen" />
+		<tag k="place" v="hamlet" />
+		<tag k="ssr:stedsnr" v="613115" />
+	</node>
+	<node id="9668246784" lat="60.585371" lon="6.8998899" version="1" timestamp="2022-04-15T14:08:54Z" changeset="119752992" uid="3497659" user="NKA">
+		<tag k="alt_name" v="Kleppe" />
+		<tag k="historic" v="shieling" />
+		<tag k="name" v="Vestrheimskleppe" />
+		<tag k="place" v="isolated_dwelling" />
+		<tag k="ssr:stedsnr" v="674810" />
+	</node>
+	<node id="9668246785" lat="60.5541389" lon="6.8662585" version="1" timestamp="2022-04-15T14:08:54Z" changeset="119752992" uid="3497659" user="NKA">
+		<tag k="historic" v="shieling" />
+		<tag k="name" v="Øyane" />
+		<tag k="place" v="isolated_dwelling" />
+		<tag k="ssr:stedsnr" v="613759" />
+	</node>
+	<node id="9668246786" lat="60.5605" lon="6.9967556" version="1" timestamp="2022-04-15T14:08:54Z" changeset="119752992" uid="3497659" user="NKA">
+		<tag k="alt_name" v="Mjølstølen" />
+		<tag k="historic" v="shieling" />
+		<tag k="name" v="Mjøstølen" />
+		<tag k="place" v="isolated_dwelling" />
+		<tag k="ssr:stedsnr" v="827977" />
+	</node>
+	<node id="9668246787" lat="60.5926361" lon="6.9711944" version="1" timestamp="2022-04-15T14:08:54Z" changeset="119752992" uid="3497659" user="NKA">
+		<tag k="historic" v="shieling" />
+		<tag k="name" v="Jonstølen" />
+		<tag k="place" v="hamlet" />
+		<tag k="ssr:stedsnr" v="856184" />
+	</node>
+	<node id="9668246788" lat="60.5658055" lon="6.9552501" version="1" timestamp="2022-04-15T14:08:54Z" changeset="119752992" uid="3497659" user="NKA">
+		<tag k="name" v="Kvåle" />
+		<tag k="place" v="hamlet" />
+		<tag k="ssr:stedsnr" v="796866" />
+	</node>
+	<node id="9668246789" lat="60.5527889" lon="7.4703472" version="1" timestamp="2022-04-15T14:08:54Z" changeset="119752992" uid="3497659" user="NKA">
+		<tag k="name" v="Jøkulhytta" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="386999" />
+	</node>
+	<node id="9668246790" lat="60.4927917" lon="6.8313946" version="1" timestamp="2022-04-15T14:08:54Z" changeset="119752992" uid="3497659" user="NKA">
+		<tag k="name" v="Tveitæ" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:stedsnr" v="463479" />
+	</node>
+	<node id="9668246791" lat="60.6243105" lon="7.3759773" version="1" timestamp="2022-04-15T14:08:54Z" changeset="119752992" uid="3497659" user="NKA">
+		<tag k="name" v="Fagernut" />
+		<tag k="place" v="isolated_dwelling" />
+		<tag k="ssr:stedsnr" v="735198" />
+	</node>
+	<node id="9668246792" lat="60.5438306" lon="6.9025528" version="1" timestamp="2022-04-15T14:08:54Z" changeset="119752992" uid="3497659" user="NKA">
+		<tag k="historic" v="shieling" />
+		<tag k="name" v="Liastølen" />
+		<tag k="place" v="isolated_dwelling" />
+		<tag k="ssr:stedsnr" v="857789" />
+	</node>
+	<node id="9668246793" lat="60.555605" lon="6.8935311" version="1" timestamp="2022-04-15T14:08:54Z" changeset="119752992" uid="3497659" user="NKA">
+		<tag k="name" v="Lisebrekke" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:stedsnr" v="370782" />
+	</node>
+	<node id="9668246794" lat="60.5592278" lon="6.8464195" version="1" timestamp="2022-04-15T14:08:54Z" changeset="119752992" uid="3497659" user="NKA">
+		<tag k="historic" v="shieling" />
+		<tag k="name" v="Skitnasete" />
+		<tag k="place" v="isolated_dwelling" />
+		<tag k="ssr:stedsnr" v="431785" />
+	</node>
+	<node id="9668246795" lat="60.5837" lon="6.8821279" version="1" timestamp="2022-04-15T14:08:54Z" changeset="119752992" uid="3497659" user="NKA">
+		<tag k="name" v="Solbjørgo" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:stedsnr" v="796831" />
+	</node>
+	<node id="9668246796" lat="60.4877028" lon="6.8110806" version="1" timestamp="2022-04-15T14:08:54Z" changeset="119752992" uid="3497659" user="NKA">
+		<tag k="historic" v="shieling" />
+		<tag k="name" v="Furesete" />
+		<tag k="place" v="isolated_dwelling" />
+		<tag k="ssr:stedsnr" v="766515" />
+	</node>
+	<node id="9668246797" lat="60.587725" lon="7.5563751" version="1" timestamp="2022-04-15T14:08:54Z" changeset="119752992" uid="3497659" user="NKA">
+		<tag k="name" v="Larsbu" />
+		<tag k="place" v="isolated_dwelling" />
+		<tag k="ssr:stedsnr" v="553264" />
+	</node>
+	<node id="9668246798" lat="60.5201172" lon="6.950352" version="1" timestamp="2022-04-15T14:08:54Z" changeset="119752992" uid="3497659" user="NKA">
+		<tag k="name" v="Mjølstøl" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:stedsnr" v="128023" />
+	</node>
+	<node id="9668246799" lat="60.5658889" lon="6.8917612" version="1" timestamp="2022-04-15T14:08:54Z" changeset="119752992" uid="3497659" user="NKA">
+		<tag k="alt_name" v="Børsheim" />
+		<tag k="name" v="Byrse" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:stedsnr" v="189841" />
+	</node>
+	<node id="9668246800" lat="60.5592" lon="7.5968667" version="1" timestamp="2022-04-15T14:08:54Z" changeset="119752992" uid="3497659" user="NKA">
+		<tag k="historic" v="shieling" />
+		<tag k="name" v="Oksabotnen" />
+		<tag k="place" v="isolated_dwelling" />
+		<tag k="ssr:stedsnr" v="431333" />
+	</node>
+	<node id="9668246801" lat="60.6902719" lon="7.2144913" version="1" timestamp="2022-04-15T14:08:54Z" changeset="119752992" uid="3497659" user="NKA">
+		<tag k="name" v="Grøndal" />
+		<tag k="place" v="isolated_dwelling" />
+		<tag k="ssr:stedsnr" v="917089" />
+	</node>
+	<node id="9668246802" lat="60.503425" lon="6.884764" version="1" timestamp="2022-04-15T14:08:54Z" changeset="119752992" uid="3497659" user="NKA">
+		<tag k="historic" v="shieling" />
+		<tag k="name" v="Øvstestølen" />
+		<tag k="place" v="isolated_dwelling" />
+		<tag k="ssr:stedsnr" v="917006" />
+	</node>
+	<node id="9668246803" lat="60.6086945" lon="6.9270251" version="1" timestamp="2022-04-15T14:08:54Z" changeset="119752992" uid="3497659" user="NKA">
+		<tag k="historic" v="shieling" />
+		<tag k="name" v="Nedre Skor" />
+		<tag k="place" v="isolated_dwelling" />
+		<tag k="ssr:stedsnr" v="627481" />
+	</node>
+	<node id="9668246804" lat="60.5071482" lon="6.9333966" version="1" timestamp="2022-04-15T14:08:54Z" changeset="119752992" uid="3497659" user="NKA">
+		<tag k="name" v="Bolstad" />
+		<tag k="place" v="hamlet" />
+		<tag k="ssr:stedsnr" v="987858" />
+	</node>
+	<node id="9668246805" lat="60.55985" lon="6.8489696" version="1" timestamp="2022-04-15T14:08:54Z" changeset="119752992" uid="3497659" user="NKA">
+		<tag k="historic" v="shieling" />
+		<tag k="name" v="Gamlestølen" />
+		<tag k="place" v="isolated_dwelling" />
+		<tag k="ssr:stedsnr" v="403586" />
+	</node>
+	<node id="9668246806" lat="60.59215" lon="7.5412251" version="1" timestamp="2022-04-15T14:08:54Z" changeset="119752992" uid="3497659" user="NKA">
+		<tag k="name" v="Finsefeti" />
+		<tag k="place" v="isolated_dwelling" />
+		<tag k="ssr:stedsnr" v="796277" />
+	</node>
+	<node id="9668246807" lat="60.4956156" lon="6.8059116" version="1" timestamp="2022-04-15T14:08:54Z" changeset="119752992" uid="3497659" user="NKA">
+		<tag k="historic" v="shieling" />
+		<tag k="name" v="Dalsete" />
+		<tag k="place" v="isolated_dwelling" />
+		<tag k="ssr:stedsnr" v="551391" />
+	</node>
+	<node id="9668246808" lat="60.6039195" lon="6.9109982" version="1" timestamp="2022-04-15T14:08:54Z" changeset="119752992" uid="3497659" user="NKA">
+		<tag k="historic" v="shieling" />
+		<tag k="name" v="Rubbelii" />
+		<tag k="place" v="isolated_dwelling" />
+		<tag k="ssr:stedsnr" v="309939" />
+	</node>
+	<node id="9668246809" lat="60.5289639" lon="6.8629251" version="1" timestamp="2022-04-15T14:08:54Z" changeset="119752992" uid="3497659" user="NKA">
+		<tag k="historic" v="shieling" />
+		<tag k="name" v="Hellesete" />
+		<tag k="place" v="isolated_dwelling" />
+		<tag k="ssr:stedsnr" v="68044" />
+	</node>
+	<node id="9668246810" lat="60.6844083" lon="6.9637639" version="1" timestamp="2022-04-15T14:08:54Z" changeset="119752992" uid="3497659" user="NKA">
+		<tag k="historic" v="shieling" />
+		<tag k="name" v="Slondal" />
+		<tag k="place" v="hamlet" />
+		<tag k="ssr:stedsnr" v="310987" />
+	</node>
+	<node id="9668246811" lat="60.5768556" lon="6.843789" version="1" timestamp="2022-04-15T14:08:54Z" changeset="119752992" uid="3497659" user="NKA">
+		<tag k="historic" v="shieling" />
+		<tag k="name" v="Grostøl" />
+		<tag k="place" v="isolated_dwelling" />
+		<tag k="ssr:stedsnr" v="583943" />
+	</node>
+	<node id="9668246812" lat="60.6000583" lon="6.9989112" version="1" timestamp="2022-04-15T14:08:54Z" changeset="119752992" uid="3497659" user="NKA">
+		<tag k="historic" v="shieling" />
+		<tag k="name" v="Olstølen" />
+		<tag k="place" v="isolated_dwelling" />
+		<tag k="ssr:stedsnr" v="613167" />
+	</node>
+	<node id="9668246813" lat="60.7054167" lon="6.9874556" version="1" timestamp="2022-04-15T14:08:54Z" changeset="119752992" uid="3497659" user="NKA">
+		<tag k="historic" v="shieling" />
+		<tag k="name" v="Gamlestølen" />
+		<tag k="place" v="isolated_dwelling" />
+		<tag k="ssr:stedsnr" v="99629" />
+	</node>
+	<node id="9668246814" lat="60.5319805" lon="6.8951334" version="1" timestamp="2022-04-15T14:08:54Z" changeset="119752992" uid="3497659" user="NKA">
+		<tag k="historic" v="shieling" />
+		<tag k="name" v="Øvstestølen" />
+		<tag k="place" v="isolated_dwelling" />
+		<tag k="ssr:stedsnr" v="250050" />
+	</node>
+	<node id="9668246815" lat="60.6137155" lon="6.9563584" version="1" timestamp="2022-04-15T14:08:54Z" changeset="119752992" uid="3497659" user="NKA">
+		<tag k="historic" v="shieling" />
+		<tag k="name" v="Øvre Sveig" />
+		<tag k="place" v="isolated_dwelling" />
+		<tag k="ssr:stedsnr" v="612893" />
+	</node>
+	<node id="9668246816" lat="60.596125" lon="7.46785" version="1" timestamp="2022-04-15T14:08:54Z" changeset="119752992" uid="3497659" user="NKA">
+		<tag k="name" v="Norenut" />
+		<tag k="place" v="isolated_dwelling" />
+		<tag k="ssr:stedsnr" v="796280" />
+	</node>
+	<node id="9668246817" lat="60.5547277" lon="7.1672001" version="1" timestamp="2022-04-15T14:08:54Z" changeset="119752992" uid="3497659" user="NKA">
+		<tag k="name" v="Langvassbu" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="552151" />
+	</node>
+	<node id="9668246818" lat="60.5054333" lon="6.9313667" version="1" timestamp="2022-04-15T14:08:54Z" changeset="119752992" uid="3497659" user="NKA">
+		<tag k="alt_name" v="Bolstad, ytre;Bolstad" />
+		<tag k="name" v="Ytre Bolstad" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:stedsnr" v="310013" />
+	</node>
+	<node id="9668246819" lat="60.6103305" lon="6.9576391" version="1" timestamp="2022-04-15T14:08:54Z" changeset="119752992" uid="3497659" user="NKA">
+		<tag k="historic" v="shieling" />
+		<tag k="name" v="Nedre Sveig" />
+		<tag k="place" v="isolated_dwelling" />
+		<tag k="ssr:stedsnr" v="673892" />
+	</node>
+	<node id="9668246820" lat="60.5532417" lon="6.9898501" version="1" timestamp="2022-04-15T14:08:54Z" changeset="119752992" uid="3497659" user="NKA">
+		<tag k="alt_name" v="Øydvenstølen" />
+		<tag k="historic" v="shieling" />
+		<tag k="name" v="Øydvenselet" />
+		<tag k="place" v="isolated_dwelling" />
+		<tag k="ssr:stedsnr" v="462956" />
+	</node>
+	<node id="9668246821" lat="60.5466334" lon="6.908425" version="1" timestamp="2022-04-15T14:08:54Z" changeset="119752992" uid="3497659" user="NKA">
+		<tag k="name" v="Tveito" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:stedsnr" v="674797" />
 	</node>
 	<node id="3607673541" lat="60.5031576" lon="6.9830236" version="1" timestamp="2015-06-20T18:06:15Z" changeset="32102080" uid="2836853" user="frokor_import" />
 	<node id="3609624540" lat="60.5032181" lon="6.9829977" version="1" timestamp="2015-06-21T20:24:17Z" changeset="32125422" uid="2836853" user="frokor_import" />

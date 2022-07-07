@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <osm version="0.6" generator="osmapis">
-	<node id="33128118" lat="63.3165258" lon="9.8732155" version="6" timestamp="2022-01-26T07:15:22Z" changeset="116611310" uid="3497659" user="NKA">
+	<node id="33128118" lat="63.3165162" lon="9.873245" version="7" timestamp="2022-05-20T17:28:39Z" changeset="121254890" uid="3497659" user="NKA">
 		<tag k="highway" v="motorway_junction" />
 		<tag k="name" v="Thamshamnkrysset" />
 		<tag k="ssr:stedsnr" v="511500" />
@@ -13,7 +13,7 @@
 	<node id="5850917845" lat="63.0752583" lon="9.6172923" version="1" timestamp="2018-08-23T07:53:38Z" changeset="61912187" uid="8470372" user="Entur AS | Angie Torres" />
 	<node id="5850919884" lat="63.0755506" lon="9.6165358" version="2" timestamp="2022-01-24T21:00:15Z" changeset="116559033" uid="3497659" user="NKA" />
 	<node id="5880886579" lat="63.2786578" lon="9.6092206" version="1" timestamp="2018-09-04T08:00:26Z" changeset="62269434" uid="7543313" user="ENTUR Fredrik Edler" />
-	<node id="5880889950" lat="63.2787449" lon="9.6091233" version="1" timestamp="2018-09-04T08:01:06Z" changeset="62269434" uid="7543313" user="ENTUR Fredrik Edler" />
+	<node id="5880889950" lat="63.278745" lon="9.609123" version="2" timestamp="2022-04-26T18:23:19Z" changeset="120225199" uid="3497659" user="NKA" />
 	<node id="5880885653" lat="63.2871387" lon="9.6163668" version="1" timestamp="2018-09-04T08:00:17Z" changeset="62269434" uid="7543313" user="ENTUR Fredrik Edler" />
 	<node id="5880888413" lat="63.2871789" lon="9.6164652" version="1" timestamp="2018-09-04T08:00:53Z" changeset="62269434" uid="7543313" user="ENTUR Fredrik Edler" />
 	<node id="5880885507" lat="63.2839497" lon="9.6456854" version="1" timestamp="2018-09-04T08:00:15Z" changeset="62269434" uid="7543313" user="ENTUR Fredrik Edler" />
@@ -215,8 +215,8 @@
 	<node id="271665122" lat="63.2783662" lon="9.8352525" version="4" timestamp="2015-11-13T09:40:40Z" changeset="35279562" uid="715936" user="Gazer75" />
 	<node id="3042222968" lat="63.2786508" lon="9.8354487" version="2" timestamp="2015-11-13T09:40:42Z" changeset="35279562" uid="715936" user="Gazer75" />
 	<node id="3833923706" lat="63.2785578" lon="9.8354184" version="1" timestamp="2015-11-13T09:40:26Z" changeset="35279562" uid="715936" user="Gazer75" />
-	<node id="221364511" lat="63.2969768" lon="9.8401378" version="4" timestamp="2015-09-30T14:20:13Z" changeset="34348206" uid="715936" user="Gazer75" />
-	<node id="3040867059" lat="63.2968249" lon="9.8428073" version="2" timestamp="2015-09-30T14:20:17Z" changeset="34348206" uid="715936" user="Gazer75" />
+	<node id="221364511" lat="63.2969768" lon="9.8401177" version="5" timestamp="2022-06-29T20:32:42Z" changeset="123018957" uid="3610826" user="km2bp" />
+	<node id="3040867059" lat="63.2968254" lon="9.8428091" version="3" timestamp="2022-06-29T20:32:42Z" changeset="123018957" uid="3610826" user="km2bp" />
 	<node id="41863188" lat="63.310417" lon="9.8285567" version="4" timestamp="2013-06-28T10:02:22Z" changeset="16737383" uid="103253" user="gormur" />
 	<node id="2364219592" lat="63.3023803" lon="9.8340766" version="2" timestamp="2020-05-02T18:17:21Z" changeset="84532380" uid="118134" user="scai" />
 	<node id="7474250434" lat="63.3015947" lon="9.8343923" version="1" timestamp="2020-05-02T18:17:21Z" changeset="84532380" uid="118134" user="scai" />
@@ -296,8 +296,9 @@
 	<node id="6043642079" lat="63.5117994" lon="9.8032611" version="1" timestamp="2018-11-07T10:23:36Z" changeset="64257475" uid="7543313" user="ENTUR Fredrik Edler" />
 	<node id="6043649337" lat="63.5117906" lon="9.8034178" version="1" timestamp="2018-11-07T10:24:14Z" changeset="64257475" uid="7543313" user="ENTUR Fredrik Edler" />
 	<node id="6043652669" lat="63.511782" lon="9.8035745" version="1" timestamp="2018-11-07T10:24:57Z" changeset="64257475" uid="7543313" user="ENTUR Fredrik Edler" />
-	<way id="5631367" version="13" timestamp="2022-01-24T21:00:15Z" changeset="116559033" uid="3497659" user="NKA">
+	<way id="5631367" version="14" timestamp="2022-05-20T17:28:39Z" changeset="121254890" uid="3497659" user="NKA">
 		<tag k="bridge" v="yes" />
+		<tag k="bridge:description" v="Forve" />
 		<tag k="bridge:structure" v="truss" />
 		<tag k="highway" v="primary" />
 		<tag k="layer" v="1" />
@@ -315,11 +316,12 @@
 		<nd ref="9445760003" />
 		<nd ref="33128251" />
 	</way>
-	<way id="5632545" version="7" timestamp="2022-01-24T21:00:15Z" changeset="116559033" uid="3497659" user="NKA">
+	<way id="5632545" version="8" timestamp="2022-05-20T17:28:39Z" changeset="121254890" uid="3497659" user="NKA">
 		<tag k="bridge" v="yes" />
 		<tag k="bridge:structure" v="beam" />
 		<tag k="highway" v="secondary" />
 		<tag k="layer" v="1" />
+		<tag k="maxspeed" v="60" />
 		<tag k="name" v="Grønørbrua" />
 		<tag k="ref" v="6478" />
 		<tag k="ssr:stedsnr" v="180997" />
@@ -348,31 +350,31 @@
 		<nd ref="5881353244" />
 		<nd ref="5881345837" />
 	</way>
-	<way id="158773234" version="7" timestamp="2022-01-24T21:00:15Z" changeset="116559033" uid="3497659" user="NKA">
+	<way id="158773234" version="8" timestamp="2022-05-21T15:51:54Z" changeset="121288063" uid="715936" user="Gazer75">
 		<tag k="bridge" v="yes" />
-		<tag k="highway" v="primary" />
+		<tag k="highway" v="tertiary" />
 		<tag k="layer" v="1" />
 		<tag k="maxspeed" v="50" />
 		<tag k="name" v="Krokstadbrua" />
-		<tag k="ref" v="714" />
+		<tag k="old_ref" v="714" />
 		<tag k="ssr:stedsnr" v="639014" />
 		<nd ref="5573236871" />
 		<nd ref="5573236315" />
 	</way>
-	<way id="158775074" version="6" timestamp="2022-01-24T21:00:15Z" changeset="116559033" uid="3497659" user="NKA">
+	<way id="158775074" version="7" timestamp="2022-05-20T17:28:39Z" changeset="121254890" uid="3497659" user="NKA">
 		<tag k="bridge" v="yes" />
-		<tag k="highway" v="secondary" />
+		<tag k="highway" v="tertiary" />
 		<tag k="layer" v="1" />
 		<tag k="maxspeed" v="60" />
 		<tag k="name" v="Rønningsbrua" />
-		<tag k="ref" v="714" />
+		<tag k="old_ref" v="714" />
 		<tag k="ssr:stedsnr" v="33136" />
 		<nd ref="1709170792" />
 		<nd ref="1709170794" />
 	</way>
-	<way id="170813277" version="8" timestamp="2022-01-24T21:00:15Z" changeset="116559033" uid="3497659" user="NKA">
-		<tag k="bicycle" v="yes" />
+	<way id="170813277" version="9" timestamp="2022-05-20T17:28:39Z" changeset="121254890" uid="3497659" user="NKA">
 		<tag k="bridge" v="yes" />
+		<tag k="bridge:description" v="Osen" />
 		<tag k="highway" v="secondary" />
 		<tag k="layer" v="1" />
 		<tag k="maxspeed" v="80" />
@@ -382,8 +384,9 @@
 		<nd ref="5881162994" />
 		<nd ref="5881164600" />
 	</way>
-	<way id="180388437" version="5" timestamp="2022-01-24T21:00:15Z" changeset="116559033" uid="3497659" user="NKA">
+	<way id="180388437" version="6" timestamp="2022-05-20T17:28:39Z" changeset="121254890" uid="3497659" user="NKA">
 		<tag k="bridge" v="yes" />
+		<tag k="bridge:description" v="Hopen" />
 		<tag k="highway" v="secondary" />
 		<tag k="layer" v="1" />
 		<tag k="maxspeed" v="80" />
@@ -417,9 +420,11 @@
 		<nd ref="7474250434" />
 		<nd ref="2364219592" />
 	</way>
-	<way id="318154031" version="6" timestamp="2022-02-01T11:26:37Z" changeset="116864082" uid="526587" user="AlexZam">
+	<way id="318154031" version="7" timestamp="2022-05-15T12:00:59Z" changeset="121009784" uid="665677" user="FennecusZerda">
+		<tag k="bicycle" v="no" />
 		<tag k="bridge" v="yes" />
 		<tag k="bridge:structure" v="beam" />
+		<tag k="foot" v="no" />
 		<tag k="highway" v="primary" />
 		<tag k="layer" v="1" />
 		<tag k="maxspeed" v="80" />
@@ -463,11 +468,12 @@
 		<nd ref="3245393961" />
 		<nd ref="6510594029" />
 	</way>
-	<way id="318161546" version="6" timestamp="2022-01-24T21:00:15Z" changeset="116559033" uid="3497659" user="NKA">
+	<way id="318161546" version="7" timestamp="2022-05-20T17:28:39Z" changeset="121254890" uid="3497659" user="NKA">
 		<tag k="bridge" v="yes" />
 		<tag k="bridge:structure" v="beam" />
 		<tag k="highway" v="primary" />
 		<tag k="layer" v="1" />
+		<tag k="maxspeed" v="80" />
 		<tag k="name" v="Bergselvbrua" />
 		<tag k="ref" v="714" />
 		<tag k="ssr:stedsnr" v="949675" />
@@ -488,12 +494,11 @@
 		<nd ref="9445777771" />
 		<nd ref="3245489935" />
 	</way>
-	<way id="318161552" version="5" timestamp="2022-01-24T21:00:15Z" changeset="116559033" uid="3497659" user="NKA">
+	<way id="318161552" version="6" timestamp="2022-05-20T17:28:39Z" changeset="121254890" uid="3497659" user="NKA">
 		<tag k="bridge" v="yes" />
-		<tag k="highway" v="secondary" />
+		<tag k="highway" v="tertiary" />
 		<tag k="layer" v="1" />
 		<tag k="name" v="Åøybrua" />
-		<tag k="ref" v="714" />
 		<tag k="ssr:stedsnr" v="342632" />
 		<nd ref="3245491516" />
 		<nd ref="9445777842" />
@@ -514,8 +519,9 @@
 		<nd ref="5880886219" />
 		<nd ref="5880892084" />
 	</way>
-	<way id="373001042" version="5" timestamp="2022-01-24T21:00:15Z" changeset="116559033" uid="3497659" user="NKA">
+	<way id="373001042" version="6" timestamp="2022-05-20T17:28:39Z" changeset="121254890" uid="3497659" user="NKA">
 		<tag k="bridge" v="yes" />
+		<tag k="bridge:description" v="Bårdshaug" />
 		<tag k="highway" v="trunk" />
 		<tag k="layer" v="1" />
 		<tag k="maxspeed" v="60" />
@@ -526,8 +532,9 @@
 		<nd ref="221364511" />
 		<nd ref="3040867059" />
 	</way>
-	<way id="609030129" version="4" timestamp="2022-01-24T21:00:15Z" changeset="116559033" uid="3497659" user="NKA">
+	<way id="609030129" version="5" timestamp="2022-05-20T17:28:39Z" changeset="121254890" uid="3497659" user="NKA">
 		<tag k="bridge" v="yes" />
+		<tag k="bridge:description" v="Lo" />
 		<tag k="bridge:structure" v="truss" />
 		<tag k="highway" v="secondary" />
 		<tag k="layer" v="1" />
@@ -549,12 +556,11 @@
 		<nd ref="5880886398" />
 		<nd ref="5880892470" />
 	</way>
-	<way id="618452935" version="4" timestamp="2022-01-24T21:00:15Z" changeset="116559033" uid="3497659" user="NKA">
+	<way id="618452935" version="5" timestamp="2022-05-20T17:28:39Z" changeset="121254890" uid="3497659" user="NKA">
 		<tag k="bicycle" v="no" />
 		<tag k="bridge" v="yes" />
 		<tag k="foot" v="no" />
 		<tag k="highway" v="trunk" />
-		<tag k="lanes" v="2" />
 		<tag k="layer" v="1" />
 		<tag k="maxspeed" v="80" />
 		<tag k="name" v="Songbrua" />
@@ -564,10 +570,13 @@
 		<nd ref="5880888260" />
 		<nd ref="5880885507" />
 	</way>
-	<way id="619110097" version="2" timestamp="2022-01-24T21:00:15Z" changeset="116559033" uid="3497659" user="NKA">
+	<way id="619110097" version="3" timestamp="2022-05-20T17:28:39Z" changeset="121254890" uid="3497659" user="NKA">
 		<tag k="bridge" v="yes" />
+		<tag k="bridge:description" v="Otla" />
+		<tag k="bridge:structure" v="arch" />
 		<tag k="highway" v="secondary" />
 		<tag k="layer" v="1" />
+		<tag k="maxlength" v="15.00" />
 		<tag k="maxspeed" v="80" />
 		<tag k="name" v="Otlbrua" />
 		<tag k="ref" v="6174" />
