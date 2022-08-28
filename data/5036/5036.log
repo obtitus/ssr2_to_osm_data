@@ -1,4 +1,5 @@
-utility_to_osm.file_util - INFO - file_age(ssr2_to_osm_data/data/5036/5036-ssr.xml) -> 0.5 days
+utility_to_osm.file_util - INFO - file_age(ssr2_to_osm_data/data/5036/5036-ssr.xml) -> 51.6 days
+utility_to_osm.gentle_requests - INFO - requested http://wfs.geonorge.no/skwms1/wfs.stedsnavn50?VERSION=2.0.0&SERVICE=WFS&srsName=EPSG:25832&REQUEST=GetFeature&TYPENAME=Sted&resultType=results&Filter=%3CFilter%3E%20%3CPropertyIsEqualTo%3E%20%3CValueReference%20xmlns:app=%22http://skjema.geonorge.no/SOSI/produktspesifikasjon/Stedsnavn/5.0%22%3Eapp:kommune/app:Kommune/app:kommunenummer%3C/ValueReference%3E%20%3CLiteral%3E5036%3C/Literal%3E%20%3C/PropertyIsEqualTo%3E%20%3C/Filter%3E" --header "Content-Type:text/xml" ssr2_to_osm_data/data/5036/5036-ssr.xml, got <Response [200]>
 utility_to_osm - INFO - ssr:stedsnr = 13267: No name found
 utility_to_osm - INFO - ssr:stedsnr = 13267 has multiple (2) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 13912: No name found
@@ -80,7 +81,6 @@ utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Hammer
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Hammaren"
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Hammeren"
 utility_to_osm - INFO - ssr:stedsnr = 195809: No name found
-utility_to_osm - INFO - ssr:stedsnr = 195809 has multiple (3) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 195832: No name found
 utility_to_osm - INFO - ssr:stedsnr = 195832 has multiple (2) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 195881: No name found
@@ -212,7 +212,6 @@ utility_to_osm - INFO - ssr:stedsnr = 532280: No name found
 utility_to_osm - INFO - ssr:stedsnr = 532338: No name found
 utility_to_osm - INFO - ssr:stedsnr = 680266: No name found
 utility_to_osm - INFO - ssr:stedsnr = 680246: No name found
-utility_to_osm - INFO - ssr:stedsnr = 680246 has multiple (2) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 680300: No name found
 utility_to_osm - INFO - ssr:stedsnr = 680351: No name found
 utility_to_osm - INFO - ssr:stedsnr = 558302: No name found
@@ -709,7 +708,6 @@ utility_to_osm - INFO - ssr:stedsnr = 410171: No name found
 utility_to_osm - INFO - ssr:stedsnr = 410896: No name found
 utility_to_osm - INFO - ssr:stedsnr = 411229: No name found
 utility_to_osm - INFO - ssr:stedsnr = 411637: No name found
-utility_to_osm - INFO - ssr:stedsnr = 414237: No name found
 utility_to_osm - INFO - ssr:stedsnr = 437256: No name found
 utility_to_osm - INFO - ssr:stedsnr = 437256 has multiple (2) positions, using the first one!
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Austgarden"
@@ -1163,6 +1161,24 @@ utility_to_osm - INFO - ssr:stedsnr = 1076460: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1081995: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1083226: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1083301: No name found
+utility_to_osm - INFO - ssr:stedsnr = 1085558: No name found
+utility_to_osm - INFO - ssr:stedsnr = 1085560: No name found
+utility_to_osm - INFO - ssr:stedsnr = 1085561: No name found
+utility_to_osm - INFO - ssr:stedsnr = 1085562: No name found
+utility_to_osm - INFO - ssr:stedsnr = 1085563: No name found
+utility_to_osm - INFO - ssr:stedsnr = 1085564: No name found
+utility_to_osm - INFO - ssr:stedsnr = 1085565: No name found
+utility_to_osm - INFO - ssr:stedsnr = 1085568: No name found
+utility_to_osm - INFO - ssr:stedsnr = 1085569: No name found
+utility_to_osm - INFO - ssr:stedsnr = 1085570: No name found
+utility_to_osm - INFO - ssr:stedsnr = 1085571: No name found
+utility_to_osm - INFO - ssr:stedsnr = 1085572: No name found
+utility_to_osm - INFO - ssr:stedsnr = 1085575: No name found
+utility_to_osm - INFO - ssr:stedsnr = 1085576: No name found
+utility_to_osm - INFO - ssr:stedsnr = 1085577: No name found
+utility_to_osm - INFO - ssr:stedsnr = 1085579: No name found
+utility_to_osm - INFO - ssr:stedsnr = 1085580: No name found
+utility_to_osm - INFO - ssr:stedsnr = 1085583: No name found
 utility_to_osm.ssr2.ssr2_tags - INFO - ssr:type = fyrlykt found in conversion table, but without tags
 utility_to_osm.ssr2.ssr2_tags - INFO - ssr:type = fyrlykt found in conversion table, but without tags
 utility_to_osm.ssr2.ssr2_tags - INFO - ssr:type = adressetilleggsnavn found in conversion table, but without tags

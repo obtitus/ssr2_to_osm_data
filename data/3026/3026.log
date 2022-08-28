@@ -1,4 +1,5 @@
-utility_to_osm.file_util - INFO - file_age(ssr2_to_osm_data/data/3026/3026-ssr.xml) -> 0.5 days
+utility_to_osm.file_util - INFO - file_age(ssr2_to_osm_data/data/3026/3026-ssr.xml) -> 51.6 days
+utility_to_osm.gentle_requests - INFO - requested http://wfs.geonorge.no/skwms1/wfs.stedsnavn50?VERSION=2.0.0&SERVICE=WFS&srsName=EPSG:25832&REQUEST=GetFeature&TYPENAME=Sted&resultType=results&Filter=%3CFilter%3E%20%3CPropertyIsEqualTo%3E%20%3CValueReference%20xmlns:app=%22http://skjema.geonorge.no/SOSI/produktspesifikasjon/Stedsnavn/5.0%22%3Eapp:kommune/app:Kommune/app:kommunenummer%3C/ValueReference%3E%20%3CLiteral%3E3026%3C/Literal%3E%20%3C/PropertyIsEqualTo%3E%20%3C/Filter%3E" --header "Content-Type:text/xml" ssr2_to_osm_data/data/3026/3026-ssr.xml, got <Response [200]>
 utility_to_osm - INFO - ssr:stedsnr = 218409: No name found
 utility_to_osm - INFO - ssr:stedsnr = 3221: No name found
 utility_to_osm - INFO - ssr:stedsnr = 3614: No name found
@@ -5001,7 +5002,6 @@ utility_to_osm - INFO - ssr:stedsnr = 855023: No name found
 utility_to_osm - INFO - ssr:stedsnr = 855042: No name found
 utility_to_osm - INFO - ssr:stedsnr = 855043: No name found
 utility_to_osm - INFO - ssr:stedsnr = 854907: No name found
-utility_to_osm - INFO - ssr:stedsnr = 854907 has multiple (3) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 854914: No name found
 utility_to_osm - INFO - ssr:stedsnr = 854914 has multiple (3) positions, using the first one!
 utility_to_osm - INFO - ignoring non approved status = "avslåttNavneledd" name = "Vardtjern"
@@ -5291,9 +5291,15 @@ utility_to_osm - INFO - ssr:stedsnr = 900220: No name found
 utility_to_osm - INFO - ssr:stedsnr = 900803: No name found
 utility_to_osm - INFO - ssr:stedsnr = 900806: No name found
 utility_to_osm - INFO - ssr:stedsnr = 900809: No name found
+utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Rømungane"
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Rømungen"
+utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Rømungene"
+utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Rømungane"
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Rømungen"
+utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Rømungene"
+utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Rømungane"
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Rømungen"
+utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Rømungene"
 utility_to_osm - INFO - ssr:stedsnr = 901868: No name found
 utility_to_osm - INFO - ssr:stedsnr = 904951: No name found
 utility_to_osm - INFO - ssr:stedsnr = 904961: No name found
@@ -12170,6 +12176,8 @@ utility_to_osm - INFO - ssr:stedsnr = 1082861: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1083967: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1084910: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1085320: No name found
+utility_to_osm - INFO - ssr:stedsnr = 1085522: No name found
+utility_to_osm - INFO - ssr:stedsnr = 1085523: No name found
 utility_to_osm.ssr2.ssr2_tags - INFO - ssr:type = vegstrekning found in conversion table, but without tags
 utility_to_osm.ssr2.ssr2_tags - INFO - ssr:type = vegstrekning found in conversion table, but without tags
 utility_to_osm.ssr2.ssr2_tags - INFO - ssr:type = adressenavn found in conversion table, but without tags

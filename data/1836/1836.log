@@ -1,4 +1,5 @@
-utility_to_osm.file_util - INFO - file_age(ssr2_to_osm_data/data/1836/1836-ssr.xml) -> 0.5 days
+utility_to_osm.file_util - INFO - file_age(ssr2_to_osm_data/data/1836/1836-ssr.xml) -> 51.6 days
+utility_to_osm.gentle_requests - INFO - requested http://wfs.geonorge.no/skwms1/wfs.stedsnavn50?VERSION=2.0.0&SERVICE=WFS&srsName=EPSG:25832&REQUEST=GetFeature&TYPENAME=Sted&resultType=results&Filter=%3CFilter%3E%20%3CPropertyIsEqualTo%3E%20%3CValueReference%20xmlns:app=%22http://skjema.geonorge.no/SOSI/produktspesifikasjon/Stedsnavn/5.0%22%3Eapp:kommune/app:Kommune/app:kommunenummer%3C/ValueReference%3E%20%3CLiteral%3E1836%3C/Literal%3E%20%3C/PropertyIsEqualTo%3E%20%3C/Filter%3E" --header "Content-Type:text/xml" ssr2_to_osm_data/data/1836/1836-ssr.xml, got <Response [200]>
 utility_to_osm - INFO - ssr:stedsnr = 16002: No name found
 utility_to_osm - INFO - ssr:stedsnr = 16004: No name found
 utility_to_osm - INFO - ssr:stedsnr = 16004: Adding multiple names to name tag, this is not OK! name = "Djupvika;Juvvika"
@@ -1769,8 +1770,6 @@ utility_to_osm - INFO - ssr:stedsnr = 805226: Adding multiple names to name tag,
 utility_to_osm - INFO - ssr:stedsnr = 805226 has multiple (2) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 805403: No name found
 utility_to_osm - INFO - ssr:stedsnr = 805409: No name found
-utility_to_osm - INFO - ssr:stedsnr = 805409: Adding multiple names to name tag, this is not OK! name = "Steinslandsholmen;Steinslandskjær"
-utility_to_osm - INFO - ssr:stedsnr = 805409 has multiple (2) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 805412: No name found
 utility_to_osm - INFO - ssr:stedsnr = 805417: No name found
 utility_to_osm - INFO - ssr:stedsnr = 805714: No name found
@@ -4468,6 +4467,7 @@ utility_to_osm - INFO - ssr:stedsnr = 1082257: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1082272: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1082277: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1084022: No name found
+utility_to_osm - INFO - ssr:stedsnr = 1085548: No name found
 utility_to_osm.ssr2.ssr2_tags - INFO - ssr:type = fyrlykt found in conversion table, but without tags
 utility_to_osm.ssr2.ssr2_tags - INFO - ssr:type = fyrlykt found in conversion table, but without tags
 utility_to_osm.ssr2.ssr2_tags - INFO - ssr:type = fyrlykt found in conversion table, but without tags

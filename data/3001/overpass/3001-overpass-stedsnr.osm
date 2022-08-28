@@ -5,7 +5,7 @@
 		<tag k="name" v="Bruresvingen" />
 		<tag k="ssr:stedsnr" v="265169" />
 	</node>
-	<node id="27537743" lat="59.1245738" lon="11.3877319" version="14" timestamp="2021-10-29T14:41:32Z" changeset="113127928" uid="3497659" user="NKA">
+	<node id="27537743" lat="59.1245738" lon="11.3877319" version="15" timestamp="2022-08-04T10:16:35Z" changeset="124473036" uid="9026132" user="PulisakZ">
 		<tag k="name" v="Halden" />
 		<tag k="name:ru" v="Халден" />
 		<tag k="place" v="town" />
@@ -15,6 +15,7 @@
 		<tag k="source:population" v="SSB - befolkning i tettstedet" />
 		<tag k="ssr:stedsnr" v="245734" />
 		<tag k="wikidata" v="Q11494262" />
+		<tag k="wikipedia" v="sv:Halden" />
 	</node>
 	<node id="32007217" lat="58.9916889" lon="11.5368222" version="4" timestamp="2019-02-07T08:27:42Z" changeset="66987102" uid="633013" user="Honning">
 		<tag k="name" v="Prestebakke" />
@@ -6374,7 +6375,12 @@
 		<nd ref="30950543" />
 		<nd ref="1725454433" />
 	</way>
-	<way id="978465305" version="2" timestamp="2021-09-12T18:41:11Z" changeset="111108577" uid="2677992" user="mikkolukas">
+	<way id="978465305" version="4" timestamp="2022-08-06T16:23:33Z" changeset="124569474" uid="85218" user="Aleks-Berlin">
+		<tag k="image" v="https://photos.app.goo.gl/YyhwmZb5Ka6yXBB96" />
+		<tag k="layer" v="1" />
+		<tag k="man_made" v="bridge" />
+		<tag k="name" v="Svinesundsbrua" />
+		<tag k="wikipedia" v="no:Svinesundsbrua" />
 		<nd ref="9053841001" />
 		<nd ref="13198993" />
 		<nd ref="9053841015" />
@@ -6405,7 +6411,12 @@
 		<nd ref="9053840990" />
 		<nd ref="9053841001" />
 	</way>
-	<way id="978465306" version="2" timestamp="2021-09-12T18:41:11Z" changeset="111108577" uid="2677992" user="mikkolukas">
+	<way id="978465306" version="3" timestamp="2022-07-30T14:17:27Z" changeset="124270199" uid="3610826" user="km2bp">
+		<tag k="layer" v="1" />
+		<tag k="man_made" v="bridge" />
+		<tag k="name" v="Svinesundsbrua" />
+		<tag k="wikidata" v="Q278229" />
+		<tag k="wikipedia" v="no:Svinesundsbrua" />
 		<nd ref="9053863029" />
 		<nd ref="9053863018" />
 		<nd ref="9053863019" />
@@ -6588,8 +6599,7 @@
 		<member type="way" ref="908990780" role="outer" />
 		<member type="way" ref="668827769" role="outer" />
 	</relation>
-	<relation id="13155234" version="6" timestamp="2021-11-13T05:46:07Z" changeset="113719806" uid="156646" user="archie">
-		<tag k="fixme" v="borde det inte vara building=yes + level=*??" />
+	<relation id="13155234" version="7" timestamp="2022-07-30T14:17:27Z" changeset="124270199" uid="3610826" user="km2bp">
 		<tag k="layer" v="1" />
 		<tag k="man_made" v="bridge" />
 		<tag k="name:da" v="Svinesundbroen" />
@@ -6603,6 +6613,7 @@
 		<tag k="start_date" v="2003" />
 		<tag k="type" v="bridge" />
 		<tag k="wikidata" v="Q278229" />
+		<tag k="wikipedia" v="no:Svinesundsbrua" />
 		<member type="way" ref="571453991" role="across" />
 		<member type="way" ref="160489664" role="across" />
 		<member type="way" ref="978465305" role="outline" />

@@ -1,4 +1,5 @@
-utility_to_osm.file_util - INFO - file_age(ssr2_to_osm_data/data/3437/3437-ssr.xml) -> 0.5 days
+utility_to_osm.file_util - INFO - file_age(ssr2_to_osm_data/data/3437/3437-ssr.xml) -> 51.6 days
+utility_to_osm.gentle_requests - INFO - requested http://wfs.geonorge.no/skwms1/wfs.stedsnavn50?VERSION=2.0.0&SERVICE=WFS&srsName=EPSG:25832&REQUEST=GetFeature&TYPENAME=Sted&resultType=results&Filter=%3CFilter%3E%20%3CPropertyIsEqualTo%3E%20%3CValueReference%20xmlns:app=%22http://skjema.geonorge.no/SOSI/produktspesifikasjon/Stedsnavn/5.0%22%3Eapp:kommune/app:Kommune/app:kommunenummer%3C/ValueReference%3E%20%3CLiteral%3E3437%3C/Literal%3E%20%3C/PropertyIsEqualTo%3E%20%3C/Filter%3E" --header "Content-Type:text/xml" ssr2_to_osm_data/data/3437/3437-ssr.xml, got <Response [200]>
 utility_to_osm - INFO - ssr:stedsnr = 10400: No name found
 utility_to_osm - INFO - ssr:stedsnr = 10400 has multiple (2) positions, using the first one!
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Berdøltjørnin"
@@ -237,6 +238,9 @@ utility_to_osm - INFO - ignoring non approved status = "avslåttNavneledd" name 
 utility_to_osm - INFO - ssr:stedsnr = 111735: No name found
 utility_to_osm - INFO - ssr:stedsnr = 111613: No name found
 utility_to_osm - INFO - ssr:stedsnr = 111614: No name found
+utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Flåtensætre"
+utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Flåtensætre"
+utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Flåtensætre"
 utility_to_osm - INFO - ssr:stedsnr = 111617: No name found
 utility_to_osm - INFO - ssr:stedsnr = 111619: No name found
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Veggemsøya"
@@ -3474,8 +3478,11 @@ utility_to_osm - INFO - ssr:stedsnr = 596098: No name found
 utility_to_osm - INFO - ssr:stedsnr = 596193: No name found
 utility_to_osm - INFO - ssr:stedsnr = 596194: No name found
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Veggumslia"
+utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Veggemslia"
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Veggumslia"
+utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Veggemslia"
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Veggumslia"
+utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Veggemslia"
 utility_to_osm - INFO - ssr:stedsnr = 596642: No name found
 utility_to_osm - INFO - ssr:stedsnr = 596643: No name found
 utility_to_osm - INFO - ssr:stedsnr = 596114: No name found
@@ -4676,6 +4683,17 @@ utility_to_osm - INFO - ssr:stedsnr = 1082892: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1083077: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1083080: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1083484: No name found
+utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Nørdre Veggem"
+utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Nordre Veggum"
+utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Nørdre Veggem"
+utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Nordre Veggum"
+utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Nørdre Veggem"
+utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Nordre Veggum"
+utility_to_osm - INFO - ssr:stedsnr = 1085801: No name found
+utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Søndre Veggum"
+utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Søndre Veggum"
+utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Søndre Veggum"
+utility_to_osm - INFO - ssr:stedsnr = 1085802: No name found
 utility_to_osm.ssr2.ssr2_tags - INFO - ssr:type = kommune found in conversion table, but without tags
 utility_to_osm.ssr2.ssr2_tags - INFO - ssr:type = banestrekning found in conversion table, but without tags
 utility_to_osm.ssr2.ssr2_tags - INFO - ssr:type = adressenavn found in conversion table, but without tags

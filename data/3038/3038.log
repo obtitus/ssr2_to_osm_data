@@ -1,4 +1,5 @@
-utility_to_osm.file_util - INFO - file_age(ssr2_to_osm_data/data/3038/3038-ssr.xml) -> 0.5 days
+utility_to_osm.file_util - INFO - file_age(ssr2_to_osm_data/data/3038/3038-ssr.xml) -> 51.6 days
+utility_to_osm.gentle_requests - INFO - requested http://wfs.geonorge.no/skwms1/wfs.stedsnavn50?VERSION=2.0.0&SERVICE=WFS&srsName=EPSG:25832&REQUEST=GetFeature&TYPENAME=Sted&resultType=results&Filter=%3CFilter%3E%20%3CPropertyIsEqualTo%3E%20%3CValueReference%20xmlns:app=%22http://skjema.geonorge.no/SOSI/produktspesifikasjon/Stedsnavn/5.0%22%3Eapp:kommune/app:Kommune/app:kommunenummer%3C/ValueReference%3E%20%3CLiteral%3E3038%3C/Literal%3E%20%3C/PropertyIsEqualTo%3E%20%3C/Filter%3E" --header "Content-Type:text/xml" ssr2_to_osm_data/data/3038/3038-ssr.xml, got <Response [200]>
 utility_to_osm - INFO - ssr:stedsnr = 4266: No name found
 utility_to_osm - INFO - ssr:stedsnr = 4273: No name found
 utility_to_osm - INFO - ssr:stedsnr = 4705: No name found
@@ -576,7 +577,6 @@ utility_to_osm - INFO - ignoring non approved status = "avslåttNavneledd" name 
 utility_to_osm - INFO - ignoring non approved status = "avslåttNavneledd" name = "Nedre Steinlaussætra"
 utility_to_osm - INFO - ignoring non approved status = "avslåttNavneledd" name = "Nedre Steinlaussætra"
 utility_to_osm - INFO - ssr:stedsnr = 6895: No name found
-utility_to_osm - INFO - ssr:stedsnr = 6895: Adding multiple names to name tag, this is not OK! name = "Nedre Steinlausa;Nedre Steinlaussetra"
 utility_to_osm - INFO - ssr:stedsnr = 22575: No name found
 utility_to_osm - INFO - ssr:stedsnr = 25697: No name found
 utility_to_osm - INFO - ssr:stedsnr = 25746: No name found
@@ -658,11 +658,6 @@ utility_to_osm - INFO - ssr:stedsnr = 147792: No name found
 utility_to_osm - INFO - ssr:stedsnr = 147528: No name found
 utility_to_osm - INFO - ssr:stedsnr = 148734: No name found
 utility_to_osm - INFO - ssr:stedsnr = 149628: No name found
-utility_to_osm - INFO - ignoring non approved status = "avslåttNavneledd" name = "Steinlaussætra"
-utility_to_osm - INFO - ignoring non approved status = "avslåttNavneledd" name = "Steinlaussætra"
-utility_to_osm - INFO - ignoring non approved status = "avslåttNavneledd" name = "Steinlaussætra"
-utility_to_osm - INFO - ssr:stedsnr = 162780: No name found
-utility_to_osm - INFO - ssr:stedsnr = 162780: Adding multiple names to name tag, this is not OK! name = "Nedre Steinlausa;Steinlaussetra"
 utility_to_osm - INFO - ssr:stedsnr = 174976: No name found
 utility_to_osm - INFO - ssr:stedsnr = 179992: No name found
 utility_to_osm - INFO - ssr:stedsnr = 179992 has multiple (3) positions, using the first one!
@@ -1031,6 +1026,10 @@ utility_to_osm - INFO - ssr:stedsnr = 815968: No name found
 utility_to_osm - INFO - ssr:stedsnr = 815663: No name found
 utility_to_osm - INFO - ssr:stedsnr = 815667: No name found
 utility_to_osm - INFO - ssr:stedsnr = 836759: No name found
+utility_to_osm - INFO - ignoring non approved status = "avslåttNavneledd" name = "Steinlaussætra"
+utility_to_osm - INFO - ignoring non approved status = "avslåttNavneledd" name = "Steinlaussætra"
+utility_to_osm - INFO - ignoring non approved status = "avslåttNavneledd" name = "Steinlaussætra"
+utility_to_osm - INFO - ssr:stedsnr = 842621: No name found
 utility_to_osm - INFO - ignoring non approved status = "avslåttNavneledd" name = "Myrsætra"
 utility_to_osm - INFO - ignoring non approved status = "avslåttNavneledd" name = "Myrseter"
 utility_to_osm - INFO - ignoring non approved status = "avslåttNavneledd" name = "Myrsætra"

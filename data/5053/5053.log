@@ -1,4 +1,5 @@
-utility_to_osm.file_util - INFO - file_age(ssr2_to_osm_data/data/5053/5053-ssr.xml) -> 0.5 days
+utility_to_osm.file_util - INFO - file_age(ssr2_to_osm_data/data/5053/5053-ssr.xml) -> 51.6 days
+utility_to_osm.gentle_requests - INFO - requested http://wfs.geonorge.no/skwms1/wfs.stedsnavn50?VERSION=2.0.0&SERVICE=WFS&srsName=EPSG:25832&REQUEST=GetFeature&TYPENAME=Sted&resultType=results&Filter=%3CFilter%3E%20%3CPropertyIsEqualTo%3E%20%3CValueReference%20xmlns:app=%22http://skjema.geonorge.no/SOSI/produktspesifikasjon/Stedsnavn/5.0%22%3Eapp:kommune/app:Kommune/app:kommunenummer%3C/ValueReference%3E%20%3CLiteral%3E5053%3C/Literal%3E%20%3C/PropertyIsEqualTo%3E%20%3C/Filter%3E" --header "Content-Type:text/xml" ssr2_to_osm_data/data/5053/5053-ssr.xml, got <Response [200]>
 utility_to_osm - INFO - ssr:stedsnr = 219364: No name found
 utility_to_osm - INFO - ssr:stedsnr = 13162: No name found
 utility_to_osm - INFO - ssr:stedsnr = 13162 has multiple (3) positions, using the first one!
@@ -1076,7 +1077,6 @@ utility_to_osm - INFO - ssr:stedsnr = 520309 has multiple (10) positions, using 
 utility_to_osm - INFO - ssr:stedsnr = 520310: No name found
 utility_to_osm - INFO - ssr:stedsnr = 520310 has multiple (4) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 520370: No name found
-utility_to_osm - INFO - ssr:stedsnr = 520370 has multiple (3) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 520386: No name found
 utility_to_osm - INFO - ssr:stedsnr = 520386 has multiple (41) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 520392: No name found
@@ -2305,7 +2305,6 @@ utility_to_osm - INFO - ignoring non approved status = "avslåttNavneledd" name 
 utility_to_osm - INFO - ignoring non approved status = "avslåttNavneledd" name = "Litlgranddalen"
 utility_to_osm - INFO - ssr:stedsnr = 105042: No name found
 utility_to_osm - INFO - ssr:stedsnr = 106799: No name found
-utility_to_osm - INFO - ssr:stedsnr = 106766: No name found
 utility_to_osm - INFO - ssr:stedsnr = 107831: No name found
 utility_to_osm - INFO - ssr:stedsnr = 108352: No name found
 utility_to_osm - INFO - ssr:stedsnr = 108354: No name found
@@ -2761,7 +2760,6 @@ utility_to_osm - INFO - ssr:stedsnr = 317049 has multiple (2) positions, using t
 utility_to_osm - INFO - ssr:stedsnr = 317092: No name found
 utility_to_osm - INFO - ssr:stedsnr = 317092 has multiple (3) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 317136: No name found
-utility_to_osm - INFO - ssr:stedsnr = 317136 has multiple (2) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 317147: No name found
 utility_to_osm - INFO - ssr:stedsnr = 317493: No name found
 utility_to_osm - INFO - ssr:stedsnr = 317518: No name found
@@ -4457,6 +4455,8 @@ utility_to_osm - INFO - ssr:stedsnr = 1084151: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1085322: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1085323: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1085324: No name found
+utility_to_osm - INFO - ssr:stedsnr = 1085682: No name found
+utility_to_osm - INFO - ssr:stedsnr = 1085683: No name found
 utility_to_osm.ssr2.ssr2_tags - INFO - ssr:type = vegstrekning found in conversion table, but without tags
 utility_to_osm.ssr2.ssr2_tags - INFO - ssr:type = annenAdministrativInndeling found in conversion table, but without tags
 utility_to_osm.ssr2.ssr2_tags - INFO - ssr:type = vegstrekning found in conversion table, but without tags

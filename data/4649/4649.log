@@ -1,4 +1,5 @@
-utility_to_osm.file_util - INFO - file_age(ssr2_to_osm_data/data/4649/4649-ssr.xml) -> 0.5 days
+utility_to_osm.file_util - INFO - file_age(ssr2_to_osm_data/data/4649/4649-ssr.xml) -> 51.6 days
+utility_to_osm.gentle_requests - INFO - requested http://wfs.geonorge.no/skwms1/wfs.stedsnavn50?VERSION=2.0.0&SERVICE=WFS&srsName=EPSG:25832&REQUEST=GetFeature&TYPENAME=Sted&resultType=results&Filter=%3CFilter%3E%20%3CPropertyIsEqualTo%3E%20%3CValueReference%20xmlns:app=%22http://skjema.geonorge.no/SOSI/produktspesifikasjon/Stedsnavn/5.0%22%3Eapp:kommune/app:Kommune/app:kommunenummer%3C/ValueReference%3E%20%3CLiteral%3E4649%3C/Literal%3E%20%3C/PropertyIsEqualTo%3E%20%3C/Filter%3E" --header "Content-Type:text/xml" ssr2_to_osm_data/data/4649/4649-ssr.xml, got <Response [200]>
 utility_to_osm - INFO - ssr:stedsnr = 10247: No name found
 utility_to_osm - INFO - ssr:stedsnr = 10247 has multiple (2) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 10417: No name found
@@ -4246,6 +4247,7 @@ utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Øvre 
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Henden øvre"
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Øvre Henden"
 utility_to_osm - INFO - ssr:stedsnr = 192063: No name found
+utility_to_osm - INFO - ssr:stedsnr = 192063: Adding multiple names to name tag, this is not OK! name = "Bakken;Øvre Hennane"
 utility_to_osm - INFO - ssr:stedsnr = 192277: No name found
 utility_to_osm - INFO - ssr:stedsnr = 192277 has multiple (3) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 192287: No name found

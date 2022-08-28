@@ -1,4 +1,5 @@
-utility_to_osm.file_util - INFO - file_age(ssr2_to_osm_data/data/3050/3050-ssr.xml) -> 0.5 days
+utility_to_osm.file_util - INFO - file_age(ssr2_to_osm_data/data/3050/3050-ssr.xml) -> 51.6 days
+utility_to_osm.gentle_requests - INFO - requested http://wfs.geonorge.no/skwms1/wfs.stedsnavn50?VERSION=2.0.0&SERVICE=WFS&srsName=EPSG:25832&REQUEST=GetFeature&TYPENAME=Sted&resultType=results&Filter=%3CFilter%3E%20%3CPropertyIsEqualTo%3E%20%3CValueReference%20xmlns:app=%22http://skjema.geonorge.no/SOSI/produktspesifikasjon/Stedsnavn/5.0%22%3Eapp:kommune/app:Kommune/app:kommunenummer%3C/ValueReference%3E%20%3CLiteral%3E3050%3C/Literal%3E%20%3C/PropertyIsEqualTo%3E%20%3C/Filter%3E" --header "Content-Type:text/xml" ssr2_to_osm_data/data/3050/3050-ssr.xml, got <Response [200]>
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Pålsæterhøgda"
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Pålsæterhøgda"
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Pålsæterhøgda"
@@ -2613,6 +2614,12 @@ utility_to_osm - INFO - ssr:stedsnr = 115890 has multiple (3) positions, using t
 utility_to_osm - INFO - ssr:stedsnr = 116328: No name found
 utility_to_osm - INFO - ssr:stedsnr = 116333: No name found
 utility_to_osm - INFO - ssr:stedsnr = 116290: No name found
+utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Bergsetra"
+utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Bergs Sr"
+utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Bergsetra"
+utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Bergs Sr"
+utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Bergsetra"
+utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Bergs Sr"
 utility_to_osm - INFO - ssr:stedsnr = 117993: No name found
 utility_to_osm - INFO - ssr:stedsnr = 118699: No name found
 utility_to_osm - INFO - ssr:stedsnr = 118879: No name found
@@ -4963,6 +4970,7 @@ utility_to_osm - INFO - ssr:stedsnr = 1084983: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1084983 has multiple (10) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 1084974: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1084974 has multiple (7) positions, using the first one!
+utility_to_osm - INFO - ssr:stedsnr = 1085533: No name found
 utility_to_osm.ssr2.ssr2_tags - INFO - ssr:type = adressenavn found in conversion table, but without tags
 utility_to_osm.ssr2.ssr2_tags - INFO - ssr:type = vegstrekning found in conversion table, but without tags
 utility_to_osm.ssr2.ssr2_tags - INFO - ssr:type = adressenavn found in conversion table, but without tags

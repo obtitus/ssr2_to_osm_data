@@ -1,4 +1,5 @@
-utility_to_osm.file_util - INFO - file_age(ssr2_to_osm_data/data/4203/4203-ssr.xml) -> 0.5 days
+utility_to_osm.file_util - INFO - file_age(ssr2_to_osm_data/data/4203/4203-ssr.xml) -> 51.6 days
+utility_to_osm.gentle_requests - INFO - requested http://wfs.geonorge.no/skwms1/wfs.stedsnavn50?VERSION=2.0.0&SERVICE=WFS&srsName=EPSG:25832&REQUEST=GetFeature&TYPENAME=Sted&resultType=results&Filter=%3CFilter%3E%20%3CPropertyIsEqualTo%3E%20%3CValueReference%20xmlns:app=%22http://skjema.geonorge.no/SOSI/produktspesifikasjon/Stedsnavn/5.0%22%3Eapp:kommune/app:Kommune/app:kommunenummer%3C/ValueReference%3E%20%3CLiteral%3E4203%3C/Literal%3E%20%3C/PropertyIsEqualTo%3E%20%3C/Filter%3E" --header "Content-Type:text/xml" ssr2_to_osm_data/data/4203/4203-ssr.xml, got <Response [200]>
 utility_to_osm - INFO - ssr:stedsnr = 503: No name found
 utility_to_osm - INFO - ssr:stedsnr = 503 has multiple (2) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 505: No name found
@@ -438,7 +439,6 @@ utility_to_osm - INFO - ssr:stedsnr = 207216: No name found
 utility_to_osm - INFO - ssr:stedsnr = 207216 has multiple (2) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 208345 not active = "relikt". Skipping...
 utility_to_osm - INFO - ssr:stedsnr = 209303: No name found
-utility_to_osm - INFO - ssr:stedsnr = 209303 has multiple (3) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 209748: No name found
 utility_to_osm - INFO - ssr:stedsnr = 211204: No name found
 utility_to_osm - INFO - ssr:stedsnr = 212004: No name found
@@ -1031,7 +1031,6 @@ utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Bratth
 utility_to_osm - INFO - ssr:stedsnr = 667525: No name found
 utility_to_osm - INFO - ssr:stedsnr = 667525 has multiple (4) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 667647: No name found
-utility_to_osm - INFO - ssr:stedsnr = 667647 has multiple (2) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 667650: No name found
 utility_to_osm - INFO - ssr:stedsnr = 667652: No name found
 utility_to_osm - INFO - ssr:stedsnr = 667652 has multiple (3) positions, using the first one!

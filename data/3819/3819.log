@@ -1,4 +1,5 @@
-utility_to_osm.file_util - INFO - file_age(ssr2_to_osm_data/data/3819/3819-ssr.xml) -> 0.5 days
+utility_to_osm.file_util - INFO - file_age(ssr2_to_osm_data/data/3819/3819-ssr.xml) -> 51.6 days
+utility_to_osm.gentle_requests - INFO - requested http://wfs.geonorge.no/skwms1/wfs.stedsnavn50?VERSION=2.0.0&SERVICE=WFS&srsName=EPSG:25832&REQUEST=GetFeature&TYPENAME=Sted&resultType=results&Filter=%3CFilter%3E%20%3CPropertyIsEqualTo%3E%20%3CValueReference%20xmlns:app=%22http://skjema.geonorge.no/SOSI/produktspesifikasjon/Stedsnavn/5.0%22%3Eapp:kommune/app:Kommune/app:kommunenummer%3C/ValueReference%3E%20%3CLiteral%3E3819%3C/Literal%3E%20%3C/PropertyIsEqualTo%3E%20%3C/Filter%3E" --header "Content-Type:text/xml" ssr2_to_osm_data/data/3819/3819-ssr.xml, got <Response [200]>
 utility_to_osm - INFO - ssr:stedsnr = 3289: No name found
 utility_to_osm - INFO - ssr:stedsnr = 3169: No name found
 utility_to_osm - INFO - ssr:stedsnr = 3175: No name found
@@ -879,7 +880,6 @@ utility_to_osm - INFO - ssr:stedsnr = 670862 has multiple (3) positions, using t
 utility_to_osm - INFO - ssr:stedsnr = 670863: No name found
 utility_to_osm - INFO - ssr:stedsnr = 670863 has multiple (3) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 670864: No name found
-utility_to_osm - INFO - ssr:stedsnr = 670864 has multiple (6) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 670866: No name found
 utility_to_osm - INFO - ssr:stedsnr = 671103: No name found
 utility_to_osm - INFO - ssr:stedsnr = 671103 has multiple (3) positions, using the first one!
@@ -1089,8 +1089,6 @@ utility_to_osm - INFO - ssr:stedsnr = 609791 has multiple (3) positions, using t
 utility_to_osm - INFO - ssr:stedsnr = 609795: No name found
 utility_to_osm - INFO - ssr:stedsnr = 609795 has multiple (2) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 609796: No name found
-utility_to_osm - INFO - ssr:stedsnr = 609796: Adding multiple names to name tag, this is not OK! name = "Østre To;Søre To"
-utility_to_osm - INFO - ssr:stedsnr = 609796 has multiple (4) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 609904: No name found
 utility_to_osm - INFO - ssr:stedsnr = 609904 has multiple (2) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 609914: No name found
@@ -2262,7 +2260,6 @@ utility_to_osm - INFO - ssr:stedsnr = 308585 has multiple (3) positions, using t
 utility_to_osm - INFO - ssr:stedsnr = 309487: No name found
 utility_to_osm - INFO - ssr:stedsnr = 324612: No name found
 utility_to_osm - INFO - ssr:stedsnr = 344198: No name found
-utility_to_osm - INFO - ssr:stedsnr = 344198 has multiple (2) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 347142: No name found
 utility_to_osm - INFO - ssr:stedsnr = 347151: No name found
 utility_to_osm - INFO - ssr:stedsnr = 347064: No name found
@@ -2567,7 +2564,6 @@ utility_to_osm - INFO - ssr:stedsnr = 530965: No name found
 utility_to_osm - INFO - ssr:stedsnr = 531070: No name found
 utility_to_osm - INFO - ssr:stedsnr = 531259: No name found
 utility_to_osm - INFO - ssr:stedsnr = 531262: No name found
-utility_to_osm - INFO - ssr:stedsnr = 531476: No name found
 utility_to_osm - INFO - ssr:stedsnr = 531362: No name found
 utility_to_osm - INFO - ssr:stedsnr = 531366: No name found
 utility_to_osm - INFO - ssr:stedsnr = 531792: No name found
@@ -3562,6 +3558,7 @@ utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Karls-
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Karls-Opsal"
 utility_to_osm - INFO - ssr:stedsnr = 1080279: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1082066: No name found
+utility_to_osm - INFO - ssr:stedsnr = 1085521: No name found
 utility_to_osm.ssr2.ssr2_tags - INFO - ssr:type = vegstrekning found in conversion table, but without tags
 utility_to_osm.ssr2.ssr2_tags - INFO - ssr:type = vegstrekning found in conversion table, but without tags
 utility_to_osm.ssr2.ssr2_tags - INFO - ssr:type = kommune found in conversion table, but without tags

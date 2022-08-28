@@ -1,4 +1,5 @@
-utility_to_osm.file_util - INFO - file_age(ssr2_to_osm_data/data/4618/4618-ssr.xml) -> 0.5 days
+utility_to_osm.file_util - INFO - file_age(ssr2_to_osm_data/data/4618/4618-ssr.xml) -> 51.6 days
+utility_to_osm.gentle_requests - INFO - requested http://wfs.geonorge.no/skwms1/wfs.stedsnavn50?VERSION=2.0.0&SERVICE=WFS&srsName=EPSG:25832&REQUEST=GetFeature&TYPENAME=Sted&resultType=results&Filter=%3CFilter%3E%20%3CPropertyIsEqualTo%3E%20%3CValueReference%20xmlns:app=%22http://skjema.geonorge.no/SOSI/produktspesifikasjon/Stedsnavn/5.0%22%3Eapp:kommune/app:Kommune/app:kommunenummer%3C/ValueReference%3E%20%3CLiteral%3E4618%3C/Literal%3E%20%3C/PropertyIsEqualTo%3E%20%3C/Filter%3E" --header "Content-Type:text/xml" ssr2_to_osm_data/data/4618/4618-ssr.xml, got <Response [200]>
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Låtevatnet"
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Låtevatnet"
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Låtevatnet"
@@ -128,7 +129,6 @@ utility_to_osm - INFO - ssr:stedsnr = 5418 has multiple (2) positions, using the
 utility_to_osm - INFO - ssr:stedsnr = 5421: No name found
 utility_to_osm - INFO - ssr:stedsnr = 5421 has multiple (2) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 5304: No name found
-utility_to_osm - INFO - ssr:stedsnr = 5304 has multiple (2) positions, using the first one!
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Nasane"
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Nasane"
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Nasane"
@@ -625,7 +625,6 @@ utility_to_osm - INFO - ssr:stedsnr = 125458: No name found
 utility_to_osm - INFO - ssr:stedsnr = 125458 has multiple (2) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 125495: No name found
 utility_to_osm - INFO - ssr:stedsnr = 125497: No name found
-utility_to_osm - INFO - ssr:stedsnr = 125497 has multiple (4) positions, using the first one!
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Langtjørn"
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Langtjørn"
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Langtjørn"
@@ -2531,7 +2530,6 @@ utility_to_osm - INFO - ssr:stedsnr = 672365: No name found
 utility_to_osm - INFO - ssr:stedsnr = 672400: No name found
 utility_to_osm - INFO - ssr:stedsnr = 672400 has multiple (2) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 672436: No name found
-utility_to_osm - INFO - ssr:stedsnr = 672436 has multiple (3) positions, using the first one!
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Endenut"
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Endenut"
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Endenut"
@@ -2974,7 +2972,6 @@ utility_to_osm - INFO - ssr:stedsnr = 609143 has multiple (2) positions, using t
 utility_to_osm - INFO - ssr:stedsnr = 609159: No name found
 utility_to_osm - INFO - ssr:stedsnr = 610210: No name found
 utility_to_osm - INFO - ssr:stedsnr = 610218: No name found
-utility_to_osm - INFO - ssr:stedsnr = 610218 has multiple (3) positions, using the first one!
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Gamlestøl"
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Gamlestøl"
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Gamlestøl"
@@ -3151,7 +3148,6 @@ utility_to_osm - INFO - ssr:stedsnr = 628169: No name found
 utility_to_osm - INFO - ssr:stedsnr = 628169 has multiple (2) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 628605: No name found
 utility_to_osm - INFO - ssr:stedsnr = 628962: No name found
-utility_to_osm - INFO - ssr:stedsnr = 628962 has multiple (2) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 628968: No name found
 utility_to_osm - INFO - ssr:stedsnr = 631600: No name found
 utility_to_osm - INFO - ssr:stedsnr = 631600 has multiple (2) positions, using the first one!
@@ -4821,7 +4817,6 @@ utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Kvanne
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Kvannenutane"
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Kvannenutane"
 utility_to_osm - INFO - ssr:stedsnr = 4257: No name found
-utility_to_osm - INFO - ssr:stedsnr = 4257 has multiple (2) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 4161: No name found
 utility_to_osm - INFO - ssr:stedsnr = 4197: No name found
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Tjovaminne"
@@ -6993,7 +6988,6 @@ utility_to_osm - INFO - ssr:stedsnr = 490163: No name found
 utility_to_osm - INFO - ssr:stedsnr = 490168: No name found
 utility_to_osm - INFO - ssr:stedsnr = 490178: No name found
 utility_to_osm - INFO - ssr:stedsnr = 490261: No name found
-utility_to_osm - INFO - ssr:stedsnr = 490261 has multiple (2) positions, using the first one!
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Skavassbekken"
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Skavassbekken"
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Skavassbekken"
@@ -9402,6 +9396,8 @@ utility_to_osm - INFO - ssr:stedsnr = 1084168: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1084322: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1084328: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1085129: No name found
+utility_to_osm - INFO - ssr:stedsnr = 1085513: No name found
+utility_to_osm - INFO - ssr:stedsnr = 1085693: No name found
 utility_to_osm.ssr2.ssr2_tags - INFO - ssr:type = fyrlykt found in conversion table, but without tags
 utility_to_osm.ssr2.ssr2_tags - INFO - ssr:type = adressenavn found in conversion table, but without tags
 utility_to_osm.ssr2.ssr2_tags - INFO - ssr:type = fyrlykt found in conversion table, but without tags

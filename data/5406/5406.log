@@ -1,4 +1,5 @@
-utility_to_osm.file_util - INFO - file_age(ssr2_to_osm_data/data/5406/5406-ssr.xml) -> 0.5 days
+utility_to_osm.file_util - INFO - file_age(ssr2_to_osm_data/data/5406/5406-ssr.xml) -> 51.6 days
+utility_to_osm.gentle_requests - INFO - requested http://wfs.geonorge.no/skwms1/wfs.stedsnavn50?VERSION=2.0.0&SERVICE=WFS&srsName=EPSG:25832&REQUEST=GetFeature&TYPENAME=Sted&resultType=results&Filter=%3CFilter%3E%20%3CPropertyIsEqualTo%3E%20%3CValueReference%20xmlns:app=%22http://skjema.geonorge.no/SOSI/produktspesifikasjon/Stedsnavn/5.0%22%3Eapp:kommune/app:Kommune/app:kommunenummer%3C/ValueReference%3E%20%3CLiteral%3E5406%3C/Literal%3E%20%3C/PropertyIsEqualTo%3E%20%3C/Filter%3E" --header "Content-Type:text/xml" ssr2_to_osm_data/data/5406/5406-ssr.xml, got <Response [200]>
 utility_to_osm - INFO - ssr:stedsnr = 220315: No name found
 utility_to_osm - INFO - ssr:stedsnr = 220315 has multiple (3) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 19048: No name found
@@ -3693,7 +3694,6 @@ utility_to_osm - INFO - ssr:stedsnr = 202078: No name found
 utility_to_osm - INFO - ssr:stedsnr = 202078 has multiple (2) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 202080: No name found
 utility_to_osm - INFO - ssr:stedsnr = 202083: No name found
-utility_to_osm - INFO - ssr:stedsnr = 202083 has multiple (3) positions, using the first one!
 utility_to_osm - INFO - ignoring non approved status = "avslåttNavneledd" name = "Finnvikvatnet"
 utility_to_osm - INFO - ignoring non approved status = "avslåttNavneledd" name = "Finnvikvatnet"
 utility_to_osm - INFO - ignoring non approved status = "avslåttNavneledd" name = "Finnvikvatnet"
@@ -3928,6 +3928,7 @@ utility_to_osm - INFO - ssr:stedsnr = 215852: No name found
 utility_to_osm - INFO - ssr:stedsnr = 262110: No name found
 utility_to_osm - INFO - ssr:stedsnr = 262110 has multiple (3) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 262074: No name found
+utility_to_osm - INFO - ssr:stedsnr = 262074: Adding multiple names to name tag, this is not OK! name = "To-seksognittifjellet;Hamnefjellet"
 utility_to_osm - INFO - ssr:stedsnr = 262074 has multiple (2) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 262078: No name found
 utility_to_osm - INFO - ssr:stedsnr = 262078 has multiple (2) positions, using the first one!
@@ -4623,7 +4624,6 @@ utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Urdhol
 utility_to_osm - INFO - ssr:stedsnr = 384093: No name found
 utility_to_osm - INFO - ssr:stedsnr = 384094: No name found
 utility_to_osm - INFO - ssr:stedsnr = 384094: No name found
-utility_to_osm - INFO - ssr:stedsnr = 384094 has multiple (2) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 384097: No name found
 utility_to_osm - INFO - ssr:stedsnr = 384097 has multiple (2) positions, using the first one!
 utility_to_osm - INFO - ignoring non approved status = "avslåttNavneledd" name = "Botnskardet"
@@ -5342,7 +5342,7 @@ utility_to_osm - INFO - ssr:stedsnr = 566938 has multiple (4) positions, using t
 utility_to_osm - INFO - ssr:stedsnr = 566944: No name found
 utility_to_osm - INFO - ssr:stedsnr = 566953: No name found
 utility_to_osm - INFO - ssr:stedsnr = 566953: No name found
-utility_to_osm - INFO - ssr:stedsnr = 566953: Multi-language name tag = Komagnes - Gámanjárga
+utility_to_osm - INFO - ssr:stedsnr = 566953: Multi-language name tag = Kommagnes - Gámanjárga
 utility_to_osm - INFO - ssr:stedsnr = 566953 has multiple (3) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 566955: No name found
 utility_to_osm - INFO - ssr:stedsnr = 566955: No name found
@@ -6788,7 +6788,7 @@ utility_to_osm - INFO - ssr:stedsnr = 930792: No name found
 utility_to_osm - INFO - ssr:stedsnr = 930959: No name found
 utility_to_osm - INFO - ssr:stedsnr = 930964: No name found
 utility_to_osm - INFO - ssr:stedsnr = 930964: No name found
-utility_to_osm - INFO - ssr:stedsnr = 930964: Multi-language name tag = Komagnesbukta - Gámanjárgohppi
+utility_to_osm - INFO - ssr:stedsnr = 930964: Multi-language name tag = Kommagnesbukta - Gámanjárgohppi
 utility_to_osm - INFO - ssr:stedsnr = 930979: No name found
 utility_to_osm - INFO - ssr:stedsnr = 930979 has multiple (2) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 930981: No name found

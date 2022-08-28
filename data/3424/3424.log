@@ -1,4 +1,5 @@
-utility_to_osm.file_util - INFO - file_age(ssr2_to_osm_data/data/3424/3424-ssr.xml) -> 0.5 days
+utility_to_osm.file_util - INFO - file_age(ssr2_to_osm_data/data/3424/3424-ssr.xml) -> 51.6 days
+utility_to_osm.gentle_requests - INFO - requested http://wfs.geonorge.no/skwms1/wfs.stedsnavn50?VERSION=2.0.0&SERVICE=WFS&srsName=EPSG:25832&REQUEST=GetFeature&TYPENAME=Sted&resultType=results&Filter=%3CFilter%3E%20%3CPropertyIsEqualTo%3E%20%3CValueReference%20xmlns:app=%22http://skjema.geonorge.no/SOSI/produktspesifikasjon/Stedsnavn/5.0%22%3Eapp:kommune/app:Kommune/app:kommunenummer%3C/ValueReference%3E%20%3CLiteral%3E3424%3C/Literal%3E%20%3C/PropertyIsEqualTo%3E%20%3C/Filter%3E" --header "Content-Type:text/xml" ssr2_to_osm_data/data/3424/3424-ssr.xml, got <Response [200]>
 utility_to_osm - INFO - ssr:stedsnr = 10010: No name found
 utility_to_osm - INFO - ssr:stedsnr = 10190: No name found
 utility_to_osm - INFO - ssr:stedsnr = 10190 has multiple (4) positions, using the first one!
@@ -721,7 +722,6 @@ utility_to_osm - INFO - ssr:stedsnr = 253155: No name found
 utility_to_osm - INFO - ssr:stedsnr = 253157: No name found
 utility_to_osm - INFO - ssr:stedsnr = 253157 has multiple (2) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 253003: No name found
-utility_to_osm - INFO - ssr:stedsnr = 253003 has multiple (4) positions, using the first one!
 utility_to_osm - INFO - ignoring non approved status = "avslåttNavneledd" name = "Milskifttjørna"
 utility_to_osm - INFO - ignoring non approved status = "avslåttNavneledd" name = "Milskifttjørna"
 utility_to_osm - INFO - ignoring non approved status = "avslåttNavneledd" name = "Milskifttjørna"
@@ -4041,7 +4041,6 @@ utility_to_osm - INFO - ignoring non approved status = "avslåttNavneledd" name 
 utility_to_osm - INFO - ssr:stedsnr = 496977: No name found
 utility_to_osm - INFO - ssr:stedsnr = 496977 has multiple (3) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 496989: No name found
-utility_to_osm - INFO - ssr:stedsnr = 496989 has multiple (2) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 499233: No name found
 utility_to_osm - INFO - ignoring non approved status = "avslåttNavneledd" name = "Viertjørna"
 utility_to_osm - INFO - ignoring non approved status = "avslåttNavneledd" name = "Viertjørna"

@@ -1,4 +1,5 @@
-utility_to_osm.file_util - INFO - file_age(ssr2_to_osm_data/data/5403/5403-ssr.xml) -> 0.5 days
+utility_to_osm.file_util - INFO - file_age(ssr2_to_osm_data/data/5403/5403-ssr.xml) -> 51.6 days
+utility_to_osm.gentle_requests - INFO - requested http://wfs.geonorge.no/skwms1/wfs.stedsnavn50?VERSION=2.0.0&SERVICE=WFS&srsName=EPSG:25832&REQUEST=GetFeature&TYPENAME=Sted&resultType=results&Filter=%3CFilter%3E%20%3CPropertyIsEqualTo%3E%20%3CValueReference%20xmlns:app=%22http://skjema.geonorge.no/SOSI/produktspesifikasjon/Stedsnavn/5.0%22%3Eapp:kommune/app:Kommune/app:kommunenummer%3C/ValueReference%3E%20%3CLiteral%3E5403%3C/Literal%3E%20%3C/PropertyIsEqualTo%3E%20%3C/Filter%3E" --header "Content-Type:text/xml" ssr2_to_osm_data/data/5403/5403-ssr.xml, got <Response [200]>
 utility_to_osm - INFO - ssr:stedsnr = 219928: No name found
 utility_to_osm - INFO - ssr:stedsnr = 18615: No name found
 utility_to_osm - INFO - ssr:stedsnr = 18615 has multiple (6) positions, using the first one!
@@ -135,7 +136,7 @@ utility_to_osm - INFO - ssr:stedsnr = 20799: Multi-language name tag = Bukketind
 utility_to_osm - INFO - ssr:stedsnr = 20799 has multiple (4) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 20938: No name found
 utility_to_osm - INFO - ssr:stedsnr = 20938: No name found
-utility_to_osm - INFO - ssr:stedsnr = 20938: Multi-language name tag = Komagfjorden - Gámavuonna
+utility_to_osm - INFO - ssr:stedsnr = 20938: Multi-language name tag = Kommagfjorden - Gámavuonna
 utility_to_osm - INFO - ssr:stedsnr = 20938 has multiple (5) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 20940: No name found
 utility_to_osm - INFO - ssr:stedsnr = 20940 has multiple (2) positions, using the first one!
@@ -10906,6 +10907,7 @@ utility_to_osm - INFO - ssr:stedsnr = 1084964: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1084964 has multiple (8) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 1084965: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1084965 has multiple (19) positions, using the first one!
+utility_to_osm - INFO - ssr:stedsnr = 1085543: No name found
 utility_to_osm.ssr2.ssr2_tags - INFO - ssr:type = adressenavn found in conversion table, but without tags
 utility_to_osm.ssr2.ssr2_tags - INFO - ssr:type = adressenavn found in conversion table, but without tags
 utility_to_osm.ssr2.ssr2_tags - INFO - ssr:type = adressenavn found in conversion table, but without tags

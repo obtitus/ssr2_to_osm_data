@@ -21,10 +21,12 @@
 		<tag k="place" v="village" />
 		<tag k="ssr:stedsnr" v="394270" />
 	</node>
-	<node id="190651472" lat="62.7194174" lon="10.0281829" version="3" timestamp="2022-05-14T06:02:33Z" changeset="120963442" uid="3497659" user="NKA">
+	<node id="190651472" lat="62.7194174" lon="10.0281829" version="4" timestamp="2022-08-05T08:30:18Z" changeset="124511128" uid="9026132" user="PulisakZ">
 		<tag k="name" v="Innset" />
 		<tag k="place" v="quarter" />
 		<tag k="ssr:stedsnr" v="375297" />
+		<tag k="wikidata" v="Q11977358" />
+		<tag k="wikipedia" v="en:Innset, Trøndelag" />
 	</node>
 	<node id="572547167" lat="62.7802241" lon="9.6011525" version="5" timestamp="2022-05-14T06:02:33Z" changeset="120963442" uid="3497659" user="NKA">
 		<tag k="name" v="Nerskogen" />
@@ -4089,8 +4091,10 @@
 	<node id="6925350534" lat="62.8458026" lon="9.8444282" version="1" timestamp="2019-10-28T19:18:14Z" changeset="76312464" uid="3497659" user="NKA" />
 	<node id="6925392826" lat="62.8749813" lon="9.8316095" version="1" timestamp="2019-10-28T19:18:26Z" changeset="76312478" uid="3497659" user="NKA" />
 	<node id="6925392827" lat="62.8748185" lon="9.8306323" version="1" timestamp="2019-10-28T19:18:26Z" changeset="76312478" uid="3497659" user="NKA" />
-	<node id="6925377131" lat="62.9231061" lon="9.757129" version="1" timestamp="2019-10-28T19:18:21Z" changeset="76312470" uid="3497659" user="NKA" />
-	<node id="6925377132" lat="62.9229286" lon="9.7572262" version="1" timestamp="2019-10-28T19:18:21Z" changeset="76312470" uid="3497659" user="NKA" />
+	<node id="6925377131" lat="62.9232744" lon="9.7570564" version="2" timestamp="2022-08-15T11:56:08Z" changeset="124924864" uid="10222347" user="borovac" />
+	<node id="6925377132" lat="62.922881" lon="9.7572597" version="2" timestamp="2022-08-15T11:56:08Z" changeset="124924864" uid="10222347" user="borovac" />
+	<node id="9954685012" lat="62.9230812" lon="9.7571388" version="1" timestamp="2022-08-15T11:56:08Z" changeset="124924864" uid="10222347" user="borovac" />
+	<node id="9954685013" lat="62.923188" lon="9.7570885" version="1" timestamp="2022-08-15T11:56:08Z" changeset="124924864" uid="10222347" user="borovac" />
 	<node id="6925377261" lat="62.903561" lon="9.8074823" version="1" timestamp="2019-10-28T19:18:21Z" changeset="76312470" uid="3497659" user="NKA" />
 	<node id="6925377262" lat="62.9039189" lon="9.8077693" version="1" timestamp="2019-10-28T19:18:21Z" changeset="76312470" uid="3497659" user="NKA" />
 	<node id="6925351015" lat="62.7488176" lon="9.9593698" version="1" timestamp="2019-10-28T19:18:14Z" changeset="76312464" uid="3497659" user="NKA" />
@@ -4196,7 +4200,7 @@
 		<nd ref="6925380756" />
 		<nd ref="6925380757" />
 	</way>
-	<way id="29374028" version="6" timestamp="2022-01-24T21:00:15Z" changeset="116559033" uid="3497659" user="NKA">
+	<way id="29374028" version="7" timestamp="2022-08-15T11:56:08Z" changeset="124924864" uid="10222347" user="borovac">
 		<tag k="alt_name" v="Grana bru" />
 		<tag k="bridge" v="yes" />
 		<tag k="highway" v="primary" />
@@ -4206,6 +4210,8 @@
 		<tag k="ref" v="700" />
 		<tag k="ssr:stedsnr" v="764673" />
 		<nd ref="6925377131" />
+		<nd ref="9954685013" />
+		<nd ref="9954685012" />
 		<nd ref="6925377132" />
 	</way>
 	<way id="34106671" version="7" timestamp="2022-01-24T21:00:15Z" changeset="116559033" uid="3497659" user="NKA">

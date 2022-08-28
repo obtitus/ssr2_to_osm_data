@@ -1,4 +1,5 @@
-utility_to_osm.file_util - INFO - file_age(ssr2_to_osm_data/data/3450/3450-ssr.xml) -> 0.5 days
+utility_to_osm.file_util - INFO - file_age(ssr2_to_osm_data/data/3450/3450-ssr.xml) -> 51.6 days
+utility_to_osm.gentle_requests - INFO - requested http://wfs.geonorge.no/skwms1/wfs.stedsnavn50?VERSION=2.0.0&SERVICE=WFS&srsName=EPSG:25832&REQUEST=GetFeature&TYPENAME=Sted&resultType=results&Filter=%3CFilter%3E%20%3CPropertyIsEqualTo%3E%20%3CValueReference%20xmlns:app=%22http://skjema.geonorge.no/SOSI/produktspesifikasjon/Stedsnavn/5.0%22%3Eapp:kommune/app:Kommune/app:kommunenummer%3C/ValueReference%3E%20%3CLiteral%3E3450%3C/Literal%3E%20%3C/PropertyIsEqualTo%3E%20%3C/Filter%3E" --header "Content-Type:text/xml" ssr2_to_osm_data/data/3450/3450-ssr.xml, got <Response [200]>
 utility_to_osm - INFO - ssr:stedsnr = 5617: No name found
 utility_to_osm - INFO - ssr:stedsnr = 6912: No name found
 utility_to_osm - INFO - ssr:stedsnr = 7567: No name found
@@ -908,6 +909,15 @@ utility_to_osm - INFO - ssr:stedsnr = 675590: No name found
 utility_to_osm - INFO - ssr:stedsnr = 675592: No name found
 utility_to_osm - INFO - ssr:stedsnr = 675670: No name found
 utility_to_osm - INFO - ssr:stedsnr = 675670 has multiple (2) positions, using the first one!
+utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Leningen"
+utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Leningan"
+utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Lendingen"
+utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Leningen"
+utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Leningan"
+utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Lendingen"
+utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Leningen"
+utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Leningan"
+utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Lendingen"
 utility_to_osm - INFO - ssr:stedsnr = 675679: No name found
 utility_to_osm - INFO - ssr:stedsnr = 675679 has multiple (2) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 675684: No name found
@@ -3468,6 +3478,13 @@ utility_to_osm - INFO - ssr:stedsnr = 1080385: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1080328: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1080329: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1084199: No name found
+utility_to_osm - INFO - ssr:stedsnr = 1085498: No name found
+utility_to_osm - INFO - ssr:stedsnr = 1085500: No name found
+utility_to_osm - INFO - ssr:stedsnr = 1085499: No name found
+utility_to_osm - INFO - ssr:stedsnr = 1085528: No name found
+utility_to_osm - INFO - ssr:stedsnr = 1085529: No name found
+utility_to_osm - INFO - ssr:stedsnr = 236699: No name found
+utility_to_osm - INFO - ssr:stedsnr = 236699 has multiple (20) positions, using the first one!
 utility_to_osm.ssr2.ssr2_tags - INFO - ssr:type = vegstrekning found in conversion table, but without tags
 utility_to_osm.ssr2.ssr2_tags - INFO - ssr:type = vegstrekning found in conversion table, but without tags
 utility_to_osm.ssr2.ssr2_tags - INFO - ssr:type = vegstrekning found in conversion table, but without tags
@@ -3811,3 +3828,9 @@ utility_to_osm.ssr2.ssr2_tags - INFO - ssr:type = fylke found in conversion tabl
 utility_to_osm.ssr2.ssr2_tags - INFO - ssr:type = adressenavn found in conversion table, but without tags
 utility_to_osm.ssr2.ssr2_tags - INFO - ssr:type = adressenavn found in conversion table, but without tags
 utility_to_osm.ssr2.ssr2_tags - INFO - ssr:type = adressenavn found in conversion table, but without tags
+utility_to_osm.ssr2.ssr2_tags - INFO - ssr:type = adressenavn found in conversion table, but without tags
+utility_to_osm.ssr2.ssr2_tags - INFO - ssr:type = adressenavn found in conversion table, but without tags
+utility_to_osm.ssr2.ssr2_tags - INFO - ssr:type = adressenavn found in conversion table, but without tags
+utility_to_osm.ssr2.ssr2_tags - INFO - ssr:type = adressenavn found in conversion table, but without tags
+utility_to_osm.ssr2.ssr2_tags - INFO - ssr:type = adressenavn found in conversion table, but without tags
+utility_to_osm.ssr2.ssr2_tags - INFO - ssr:type = vegstrekning found in conversion table, but without tags

@@ -1,4 +1,5 @@
-utility_to_osm.file_util - INFO - file_age(ssr2_to_osm_data/data/1563/1563-ssr.xml) -> 0.5 days
+utility_to_osm.file_util - INFO - file_age(ssr2_to_osm_data/data/1563/1563-ssr.xml) -> 51.6 days
+utility_to_osm.gentle_requests - INFO - requested http://wfs.geonorge.no/skwms1/wfs.stedsnavn50?VERSION=2.0.0&SERVICE=WFS&srsName=EPSG:25832&REQUEST=GetFeature&TYPENAME=Sted&resultType=results&Filter=%3CFilter%3E%20%3CPropertyIsEqualTo%3E%20%3CValueReference%20xmlns:app=%22http://skjema.geonorge.no/SOSI/produktspesifikasjon/Stedsnavn/5.0%22%3Eapp:kommune/app:Kommune/app:kommunenummer%3C/ValueReference%3E%20%3CLiteral%3E1563%3C/Literal%3E%20%3C/PropertyIsEqualTo%3E%20%3C/Filter%3E" --header "Content-Type:text/xml" ssr2_to_osm_data/data/1563/1563-ssr.xml, got <Response [200]>
 utility_to_osm - INFO - ssr:stedsnr = 11203: No name found
 utility_to_osm - INFO - ssr:stedsnr = 11203 has multiple (3) positions, using the first one!
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Lykkjesætra"
@@ -3418,6 +3419,7 @@ utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Blåfj
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Blåfjell"
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Blåfjell"
 utility_to_osm - INFO - ssr:stedsnr = 72444: No name found
+utility_to_osm - INFO - ssr:stedsnr = 72444: Adding multiple names to name tag, this is not OK! name = "Frusalen;Blåfjellet"
 utility_to_osm - INFO - ssr:stedsnr = 72453: No name found
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Grønliskardvatnet"
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Grønliskardvatnet"
@@ -6764,6 +6766,24 @@ utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Hovinm
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Hovinmannen"
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Hovinmannen"
 utility_to_osm - INFO - ssr:stedsnr = 1082314: No name found
+utility_to_osm - INFO - Skipping name_status = "avslått navnevalg"
+utility_to_osm - INFO - Skipping name_status = "avslått navnevalg"
+utility_to_osm - INFO - Skipping name_status = "avslått navnevalg"
+utility_to_osm - INFO - ssr:stedsnr = 1082847: No name found
+utility_to_osm - INFO - ssr:stedsnr = 1085692: No name found
+utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Åbittind"
+utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Åbittind"
+utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Åbittind"
+utility_to_osm - INFO - ssr:stedsnr = 496254: No name found
+utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Skardfjellet"
+utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Blåfjellet"
+utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Skardfjellet"
+utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Blåfjellet"
+utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Skardfjellet"
+utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Blåfjellet"
+utility_to_osm - INFO - ssr:stedsnr = 740217: No name found
+utility_to_osm - INFO - ssr:stedsnr = 740217: Adding multiple names to name tag, this is not OK! name = "Blåfjellet;Skarfjellet"
+utility_to_osm - INFO - ssr:stedsnr = 740217 has multiple (2) positions, using the first one!
 utility_to_osm.ssr2.ssr2_tags - INFO - ssr:type = adressenavn found in conversion table, but without tags
 utility_to_osm.ssr2.ssr2_tags - INFO - ssr:type = adressenavn found in conversion table, but without tags
 utility_to_osm.ssr2.ssr2_tags - INFO - ssr:type = adressenavn found in conversion table, but without tags

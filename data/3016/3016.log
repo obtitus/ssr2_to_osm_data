@@ -1,4 +1,5 @@
-utility_to_osm.file_util - INFO - file_age(ssr2_to_osm_data/data/3016/3016-ssr.xml) -> 0.5 days
+utility_to_osm.file_util - INFO - file_age(ssr2_to_osm_data/data/3016/3016-ssr.xml) -> 51.6 days
+utility_to_osm.gentle_requests - INFO - requested http://wfs.geonorge.no/skwms1/wfs.stedsnavn50?VERSION=2.0.0&SERVICE=WFS&srsName=EPSG:25832&REQUEST=GetFeature&TYPENAME=Sted&resultType=results&Filter=%3CFilter%3E%20%3CPropertyIsEqualTo%3E%20%3CValueReference%20xmlns:app=%22http://skjema.geonorge.no/SOSI/produktspesifikasjon/Stedsnavn/5.0%22%3Eapp:kommune/app:Kommune/app:kommunenummer%3C/ValueReference%3E%20%3CLiteral%3E3016%3C/Literal%3E%20%3C/PropertyIsEqualTo%3E%20%3C/Filter%3E" --header "Content-Type:text/xml" ssr2_to_osm_data/data/3016/3016-ssr.xml, got <Response [200]>
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Haugård"
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Hauggard"
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Haugård"
@@ -429,7 +430,6 @@ utility_to_osm - INFO - ssr:stedsnr = 245991: No name found
 utility_to_osm - INFO - ssr:stedsnr = 245997: No name found
 utility_to_osm - INFO - ssr:stedsnr = 245997 has multiple (2) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 246485: No name found
-utility_to_osm - INFO - ssr:stedsnr = 246485 has multiple (2) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 246698: No name found
 utility_to_osm - INFO - ssr:stedsnr = 246698 has multiple (2) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 447466: No name found
@@ -943,7 +943,6 @@ utility_to_osm - INFO - ignoring non approved status = "avslåttNavneledd" name 
 utility_to_osm - INFO - ssr:stedsnr = 610647: No name found
 utility_to_osm - INFO - ssr:stedsnr = 610647: Adding multiple names to name tag, this is not OK! name = "Ådalsåsen;Seteråsen"
 utility_to_osm - INFO - ssr:stedsnr = 610594: No name found
-utility_to_osm - INFO - ssr:stedsnr = 610594 has multiple (3) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 610740: No name found
 utility_to_osm - INFO - ssr:stedsnr = 610740 has multiple (3) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 615797: No name found
@@ -1891,7 +1890,6 @@ utility_to_osm - INFO - ignoring non approved status = "avslåttNavneledd" name 
 utility_to_osm - INFO - ignoring non approved status = "avslåttNavneledd" name = "Steinsvatnet, store"
 utility_to_osm - INFO - ssr:stedsnr = 366524: No name found
 utility_to_osm - INFO - ssr:stedsnr = 366527: No name found
-utility_to_osm - INFO - ssr:stedsnr = 366527 has multiple (2) positions, using the first one!
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Herre-Fosser"
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Herre-Fosser"
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Herre-Fosser"
@@ -2051,7 +2049,7 @@ utility_to_osm - INFO - ssr:stedsnr = 507592: No name found
 utility_to_osm - INFO - ssr:stedsnr = 507647: No name found
 utility_to_osm - INFO - ssr:stedsnr = 507647 has multiple (3) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 508145: No name found
-utility_to_osm - INFO - ssr:stedsnr = 508397: No name found
+utility_to_osm - INFO - ssr:stedsnr = 508397 not active = "relikt". Skipping...
 utility_to_osm - INFO - ssr:stedsnr = 508341: No name found
 utility_to_osm - INFO - ssr:stedsnr = 508359: No name found
 utility_to_osm - INFO - ssr:stedsnr = 508653: No name found

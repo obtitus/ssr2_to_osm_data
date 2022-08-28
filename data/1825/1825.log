@@ -1,4 +1,5 @@
-utility_to_osm.file_util - INFO - file_age(ssr2_to_osm_data/data/1825/1825-ssr.xml) -> 0.5 days
+utility_to_osm.file_util - INFO - file_age(ssr2_to_osm_data/data/1825/1825-ssr.xml) -> 51.6 days
+utility_to_osm.gentle_requests - INFO - requested http://wfs.geonorge.no/skwms1/wfs.stedsnavn50?VERSION=2.0.0&SERVICE=WFS&srsName=EPSG:25832&REQUEST=GetFeature&TYPENAME=Sted&resultType=results&Filter=%3CFilter%3E%20%3CPropertyIsEqualTo%3E%20%3CValueReference%20xmlns:app=%22http://skjema.geonorge.no/SOSI/produktspesifikasjon/Stedsnavn/5.0%22%3Eapp:kommune/app:Kommune/app:kommunenummer%3C/ValueReference%3E%20%3CLiteral%3E1825%3C/Literal%3E%20%3C/PropertyIsEqualTo%3E%20%3C/Filter%3E" --header "Content-Type:text/xml" ssr2_to_osm_data/data/1825/1825-ssr.xml, got <Response [200]>
 utility_to_osm - INFO - ssr:stedsnr = 218848: No name found
 utility_to_osm - INFO - ssr:stedsnr = 218848 has multiple (2) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 14664: No name found
@@ -1389,7 +1390,6 @@ utility_to_osm - INFO - ssr:stedsnr = 641798: No name found
 utility_to_osm - INFO - ssr:stedsnr = 641802: No name found
 utility_to_osm - INFO - ssr:stedsnr = 641883: No name found
 utility_to_osm - INFO - ssr:stedsnr = 644465: No name found
-utility_to_osm - INFO - ssr:stedsnr = 644465 has multiple (2) positions, using the first one!
 utility_to_osm - INFO - ssr:stedsnr = 694047: No name found
 utility_to_osm - INFO - ssr:stedsnr = 694069: No name found
 utility_to_osm - INFO - ssr:stedsnr = 694236: No name found

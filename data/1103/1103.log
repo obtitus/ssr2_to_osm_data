@@ -1,4 +1,5 @@
-utility_to_osm.file_util - INFO - file_age(ssr2_to_osm_data/data/1103/1103-ssr.xml) -> 0.5 days
+utility_to_osm.file_util - INFO - file_age(ssr2_to_osm_data/data/1103/1103-ssr.xml) -> 51.6 days
+utility_to_osm.gentle_requests - INFO - requested http://wfs.geonorge.no/skwms1/wfs.stedsnavn50?VERSION=2.0.0&SERVICE=WFS&srsName=EPSG:25832&REQUEST=GetFeature&TYPENAME=Sted&resultType=results&Filter=%3CFilter%3E%20%3CPropertyIsEqualTo%3E%20%3CValueReference%20xmlns:app=%22http://skjema.geonorge.no/SOSI/produktspesifikasjon/Stedsnavn/5.0%22%3Eapp:kommune/app:Kommune/app:kommunenummer%3C/ValueReference%3E%20%3CLiteral%3E1103%3C/Literal%3E%20%3C/PropertyIsEqualTo%3E%20%3C/Filter%3E" --header "Content-Type:text/xml" ssr2_to_osm_data/data/1103/1103-ssr.xml, got <Response [200]>
 utility_to_osm - INFO - ssr:stedsnr = 110: No name found
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Tytebærholmen"
 utility_to_osm - INFO - ignoring non approved status = "avslått" name = "Tydebærholmen"
@@ -8639,6 +8640,13 @@ utility_to_osm - INFO - ssr:stedsnr = 1085336 not active = "planlagt". Skipping.
 utility_to_osm - INFO - ssr:stedsnr = 1085476: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1085477: No name found
 utility_to_osm - INFO - ssr:stedsnr = 1085478: No name found
+utility_to_osm - INFO - ssr:stedsnr = 1085492: No name found
+utility_to_osm - INFO - ssr:stedsnr = 1085493: No name found
+utility_to_osm - INFO - ssr:stedsnr = 1085494: No name found
+utility_to_osm - INFO - ssr:stedsnr = 1085495: No name found
+utility_to_osm - INFO - ssr:stedsnr = 1085496: No name found
+utility_to_osm - INFO - ssr:stedsnr = 1085497: No name found
+utility_to_osm - INFO - ssr:stedsnr = 1085695: No name found
 utility_to_osm.ssr2.ssr2_tags - INFO - ssr:type = lanterne found in conversion table, but without tags
 utility_to_osm.ssr2.ssr2_tags - INFO - ssr:type = lanterne found in conversion table, but without tags
 utility_to_osm.ssr2.ssr2_tags - INFO - ssr:type = adressenavn found in conversion table, but without tags
